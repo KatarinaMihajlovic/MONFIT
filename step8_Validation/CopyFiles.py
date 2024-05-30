@@ -41,7 +41,6 @@ for file in files:
 
 
 copyfile('Data/LitValid_AllGenes/output/LitValid_AllGenes.pkl', f'{wd}/input/LitValid_AllGenes.pkl') 
-copyfile('Data/PDmap/output/PDgenes_PDmap.pkl', f'{wd}/input/PDgenes_PDmap.pkl') 
 copyfile('Data/DisGeNet/output/PDgenes_DGN_ALL.pkl', f'{wd}/input/PDgenes_DGN_ALL.pkl') 
 copyfile('Data/Parse_Gene4PD/output/Gene4PD.pkl', f'{wd}/input/Gene4PD.pkl') 
 
