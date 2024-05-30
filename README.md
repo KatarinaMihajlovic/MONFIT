@@ -1,9 +1,10 @@
 # MONFIT
 Multi-Omics Non-negative matrix tri-Factorization Integration of Time-series
+MONFIT uses NMTF to integrate multi-omics time-point-specific data of scRNA-seq, bulk proteomics, and bulk metabolomics measurements of disease and control samples from a time-series experiment with prior knowledge from molecular interaction networks in terms of PPI, metabolic-interaction (MI), genetic interaction (GI), and COEX, producing gene embeddings. Then, MONFIT holistically mines these embeddings across all time points to identify new disease-associated genes, by applying a new downstream method based on the concept introduced in Mihajlovic et al. [Link](https://doi.org/10.1038/s41598-024-61844-3), which states that those genes whose position changes the most between disease and control samples across all time points are disease-related. 
 
 ## What can you find in this repository?
 This repository contains all data, scripts and results related to our recent work. 
-In particular, you will find the Jupyter notebook [Tutorial.ipynb](https://github.com/KatarinaMihajlovic/MONFIT/blob/main/Tutorial.ipynb) contains the complete MONFIT pipeline for integrating molecular interaction networks with individual expression matrices, mining the resulting gene embedding spaces to get PD-related gene predictions, and computational methods for analyzing the gene predictions.
+In particular, you will find the Jupyter notebook [Tutorial.ipynb](https://github.com/KatarinaMihajlovic/MONFIT/blob/main/Tutorial.ipynb) contains the complete MONFIT pipeline and computational methods for analyzing the gene predictions.
 
 ### Additional Information
 In "Data/MolecularNetworks" directory:
@@ -35,7 +36,20 @@ WT denotes Wild Type, i.e., control samples.
 ND denotes samples of a PD cell line harbouring a PINK1 mutation.
 
 In "step2_NMTF_WeightedNets" directory:
-To ensure reproducibility, we provide matrix factors that step1 of MONFIT produces ("output"). Running NMTF on different systems may result in slight numerical differences.
+To ensure reproducibility, we provide matrix factors that the step 1 of MONFIT produces ("output"). Running NMTF on different systems may result in slight numerical differences.
 
 In "step3_ClusterG1NMTF_WeightedNets" directory:
 To ensure reproducibility, we provide k-means clusters, because the k-means clustering algorithm is non-deterministic.
+
+In "stepAUX_NoBulk_2stepDownstream" directory:
+We provide scripts for comparing the results obtained with MONFIT on scRNA-seq, bulk proteomics, and bulk metabolomics measurements of disease and control samples from a Parkinson's disease time-series experiment with prior knowledge from molecular interaction networks against:
+- the predictions obtained by the downstream analysis approach that inspired MONFIT's pipeline, which is presented in Mihajlovic et al. [Link](https://doi.org/10.1038/s41598-024-61844-3).
+- the predictions obtained by not including bulk metabolomics and proteomics data during MONFIT integration ("NoBulk" directory). Here, we also provide matrix factors that the step 1 of MONFIT produces.
+
+In "stepAUX_RobustnessAnalysis_k1k2" and "stepAUX_RobustnessAnalysis_Weights" directories:
+We provide scripts for assessing the robustness of MONFIT to the i) number of dimensions and ii) different combinations of weighting factors of the input matrices used for producing the lower-dimensional matrices with the step 1 of MONFIT.
+
+
+### How to run the notebook
+Execute the jupyter notebook [Tutorial.ipynb](https://github.com/KatarinaMihajlovic/MONFIT/blob/main/Tutorial.ipynb) 
+
