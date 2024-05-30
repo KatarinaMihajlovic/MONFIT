@@ -1,11 +1,11 @@
-### MONFIT
+# MONFIT
 Multi-Omics Non-negative matrix tri-Factorization Integration of Time-series
 
-### What can you find in this repository?
+## What can you find in this repository?
 This repository contains all data, scripts and results related to our recent work. 
-In particular, you will find the Jupyter notebook [Tutorial.ipynb](https://github.com/KatarinaMihajlovic/MONFIT/Tutorial.ipynb) contains the complete MONFIT pipeline for integrating molecular interaction networks with individual expression matrices, mining the resulting gene embedding spaces to get PD-related gene predictions, and computational methods for analyzing the the gene predictions.
+In particular, you will find the Jupyter notebook [Tutorial.ipynb](https://github.com/KatarinaMihajlovic/blob/main/MONFIT/Tutorial.ipynb) contains the complete MONFIT pipeline for integrating molecular interaction networks with individual expression matrices, mining the resulting gene embedding spaces to get PD-related gene predictions, and computational methods for analyzing the the gene predictions.
 
-# Additional Information
+### Additional Information
 In "Data/MolecularNetworks" directory:
 
 For constructing the PPI network download BIOGRID-ALL-4.4.218.tab3.zip from BioGrid an unpack in "input" directory. Then, run ConstructPPI.py.
