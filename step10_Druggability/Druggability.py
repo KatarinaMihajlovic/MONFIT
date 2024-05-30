@@ -214,7 +214,6 @@ for gene,drug in zip(genes,drugs):
         drug_count[drug] += 1
 
 
-# Drugs_dict = {}
 
 in_dir = f'{wd}/input/Predictions'
 for days_set in os.listdir(in_dir): 
@@ -239,18 +238,11 @@ for days_set in os.listdir(in_dir):
       
     for perc_case in os.listdir(f'{in_dir}/{days_set}'):
         files = os.listdir(f'{in_dir}/{days_set}/{perc_case}')
-        # files.append('GM_D18_D25_D32_D37.csv')
         for file in files:       
-            # print(file)
-        # perc_case    = '20perc'
-        # Drugs_dict[perc_case] = {}      
             print(perc_case, file)
             save_file = file[:-4]
             
-            # if file != 'GM_D18_D25_D32_D37.csv':
             PD_predictions = pd.read_csv(f'{in_dir}/{days_set}/{perc_case}/{file}', index_col=0)
-            # else:
-            #     PD_predictions = pd.read_csv(f'{wd}/input/Predictions/D18_D25_D32_D37/GM_D18_D25_D32_D37.csv', index_col=0)
 
             PD_predictions = PD_predictions.index.to_list()            
     
@@ -322,9 +314,7 @@ for days_set in os.listdir(in_dir):
                     name = drug2name[pair[0]]
                     f.write(f'{name}\t{pair[1]}\t{count_drug2gene[name]}\n')           
     
-                    
-            # Drugs_dict[perc_case][save_file] = count[:10]
-    
+                        
     
             bh_drugs, mne_drugs, eg_drugsannot, _, enriched_genes_indrugs = go_enrichment([PD_predictions], gene2drug_ds, drug_count)
             enr_drugs_id =  bh_drugs[0]
@@ -338,10 +328,7 @@ for days_set in os.listdir(in_dir):
             enriched_genes_indrugs = enriched_genes_indrugs[0]
             # print(enr_drugs, eg_drugsannot, enriched_genes_indrugs)   
             
-            # enriched drugs that target at least 2 genes
-            enr_drugs_2genes = [drug2name[x] for x in enr_drugs_id if len(count_drug2gene[drug2name[x]])>1]
-            top6drugs = ['Artenimol', 'Geldanamycin', 'Rifabutin', 'SNX-5422', 'Tanespimycin', 'Phenethyl Isothiocyanate', 'Copper']
-            
+
             with open(f'{sd}/{save_file}_EnrDrugs.txt', 'w') as f:
                 for pair in enr_drugs:
                     f.write(f'{pair[0]}\t{pair[1]}\n')      
@@ -352,90 +339,5 @@ for days_set in os.listdir(in_dir):
                     f.write(f'{gene}\t{g_drugs}\n')     
 
             
-            # Interesting pathways
-            for file_Rpgenes in os.listdir(f'{wd}/input/RPBPSubgroupsGenes/{days_set}/{perc_case}'):
-                print(file_Rpgenes)
-                RPgene2Drug = {}
-                used_genes = set()
-                with open(f'{wd}/input/RPBPSubgroupsGenes/{days_set}/{perc_case}/{file_Rpgenes}', 'rb') as f:
-                    loaded_dict = pickle.load(f)
-                for root in loaded_dict:
-                    root_dict = {}
-                    for subgroup in loaded_dict[root]:
-                        subgroup_dict = {}
-                        for gene in loaded_dict[root][subgroup]:
-                            try:
-                                drugs_gene = gene2drug[gene]
-                                enrdrugs_gene = list(set(drugs_gene)&set(enr_drugs_id))
-                                if len(enrdrugs_gene) != 0:
-                                    subgroup_dict[gene]=[drug2name[x] for x in enrdrugs_gene if drug2name[x] in top6drugs]
-                                    used_genes.add(gene)
-                            except Exception:
-                                pass
-                        root_dict[subgroup] = subgroup_dict
-                    RPgene2Drug[root] = root_dict
-                # print(RPgene2Drug)
-                # print(used_genes)
-                
-                with open(f'{sd}/{file_Rpgenes[:-4]}_Path2Gene2Drug.txt', 'w') as f:
-                    for rootpath in RPgene2Drug:
-                        f.write(f'{rootpath}\n')
-                        for path in RPgene2Drug[rootpath]:
-                            f.write(f'{path}\n')
-                            for gene in RPgene2Drug[rootpath][path]:
-                                f.write(f'{gene}\t{RPgene2Drug[rootpath][path][gene]}\n')
-                        f.write('\n')
-                                
-
                                     
-                            
                         
-                    
-
-
-
-                    
-# print('DB11093', drug_count['DB11093']) #Calcium citrate
-# print('DB11348', drug_count['DB11348']) #Calcium Phosphate
-
-# names = {'R-HSA-72613':'Eukaryotic Translation Initiation','R-HSA-392499':'Metabolism of proteins'
-#          ,'GO:0006364':'rRNA processing','GO:0017148':'negative regulation of translation', 'GO:0031640':'killing of cells of another organism'}
-
-# with open(f'{wd}/input/RP_representative_terms_genes.pkl', 'rb') as f:
-#     loaded_dict = pickle.load(f)
-
-# RepGenes_drugs_RP = {names[key]:{} for key in loaded_dict}
-# for path in loaded_dict:
-#     for gene in loaded_dict[path]:
-#         try:
-#             drugs = gene2drug[gene]
-#             drugs_names = [drug2name[drug] for drug in drugs]
-#             RepGenes_drugs_RP[names[path]][gene]=drugs_names
-#         except Exception:
-#             pass
-
-# genes_paths = [list(RepGenes_drugs_RP[path].keys()) for path in RepGenes_drugs_RP]
-# print(set.intersection(*map(set,genes_paths)))
-# print(set(genes_paths[1])-set(genes_paths[0]))
-
-# for path in RepGenes_drugs_RP:
-#     print(path,RepGenes_drugs_RP[path].keys())
-
-
-# with open(f'{wd}/input/BP_representative_terms_genes.pkl', 'rb') as f:
-#     loaded_dict = pickle.load(f)
-
-# RepGenes_drugs_BP = {names[key]:{} for key in loaded_dict}
-# for path in loaded_dict:
-#     for gene in loaded_dict[path]:
-#         try:
-#             drugs = gene2drug[gene]
-#             drugs_names = [drug2name[drug] for drug in drugs]
-#             RepGenes_drugs_BP[names[path]][gene]=drugs_names
-#         except Exception:
-#             pass
-
-# for path in RepGenes_drugs_BP:
-#     print(path,RepGenes_drugs_BP[path].keys())
-
-
