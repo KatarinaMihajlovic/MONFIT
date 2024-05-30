@@ -183,9 +183,8 @@ def firstneighSignificance(case, G, gene, TargetGenes):
     
 '''MAIN CODE'''
      
-# wd = str(sys.argv[1])
+wd = str(sys.argv[1])
 
-wd = os.getcwd()
 with open(f'{wd}/output/All_genes_Union.txt') as f:
     All_genes_Union = f.read().splitlines() 
     
