@@ -167,11 +167,8 @@ def euclidean_distance(df1, df2):
    
 
 
-# Normalized Euclidean distance - not called taht, use instead eculdean distance normalized by dividing with no
-sensitivity = float(sys.argv[1])
-Flag = str(sys.argv[2])
-Flag2 = str(sys.argv[3])
-wd = str(sys.argv[4])
+sensitivity = 1
+wd = str(sys.argv[2])
 
 
 with open(f'{wd}/input/PDgenes_DGN_ALL.pkl', 'rb') as handle:
@@ -182,118 +179,107 @@ in_dir = 'step6_ComputeGMMs/output'
 day_sets = [[8,18,25,32,37]]
 
 
-if Flag:
-    for days in day_sets:
-        print(days)
-        # days= [8, 18, 25, 32, 37]
-        GM_stages = []    
-        save_ext = '_'.join(f'D{str(x)}' for x in days)
+for days in day_sets:
+    print(days)
+    # days= [8, 18, 25, 32, 37]
+    GM_stages = []    
+    save_ext = '_'.join(f'D{str(x)}' for x in days)
+
+    sd = f'{wd}/output/{save_ext}'
+    if not os.path.exists(sd):
+        os.makedirs(sd)  
+   
+    All_genes = []
+    for file in os.listdir(f'{wd}/input/Genelists'):
+        day = file.split('_')[2][:-4]
+        if int(day) in days:
+            Geneslist = pd.read_csv(f'{wd}/input/Genelists/{file}')
+            Geneslist = Geneslist['genes'].tolist()
+            All_genes.append(Geneslist)
+    All_genes_inters = list(set.intersection(*map(set,All_genes)))
+    All_genes_union = list(set.union(*map(set,All_genes)))
+    pdgenes_dgn = list(set(DGN_PD)&set(All_genes_union))
+    print(len(pdgenes_dgn))
     
-        sd = f'{wd}/output/{save_ext}'
-        if not os.path.exists(sd):
-            os.makedirs(sd)  
-       
-        All_genes = []
-        for file in os.listdir(f'{wd}/input/Genelists'):
-            day = file.split('_')[2][:-4]
-            if int(day) in days:
-                Geneslist = pd.read_csv(f'{wd}/input/Genelists/{file}')
-                Geneslist = Geneslist['genes'].tolist()
-                All_genes.append(Geneslist)
-        All_genes_inters = list(set.intersection(*map(set,All_genes)))
-        All_genes_union = list(set.union(*map(set,All_genes)))
-        pdgenes_dgn = list(set(DGN_PD)&set(All_genes_union))
-        print(len(pdgenes_dgn))
+    for day in days: 
+        print(day)
+
+        case_compare = f'D{day}'
+        EucDist_PD = np.load(f'{in_dir}/ND_{day}_PWEucDist.npy')
+        Genes_PD = pd.read_csv(f'{wd}/input/Genelists/Geneslist_ND_{day}.csv', header = 0)['genes'].values
+        EucDist_PD_df = pd.DataFrame(EucDist_PD, index = Genes_PD, columns = Genes_PD)
         
-        for day in days: 
-            print(day)
-    
-            case_compare = f'D{day}'
-            EucDist_PD = np.load(f'{in_dir}/ND_{day}_PWEucDist.npy')
-            Genes_PD = pd.read_csv(f'{wd}/input/Genelists/Geneslist_ND_{day}.csv', header = 0)['genes'].values
-            EucDist_PD_df = pd.DataFrame(EucDist_PD, index = Genes_PD, columns = Genes_PD)
-            
-            EucDist_C = np.load(f'{in_dir}/WT_{day}_PWEucDist.npy')
-            Genes_C = pd.read_csv(f'{wd}/input/Genelists/Geneslist_WT_{day}.csv', header = 0)['genes'].values
-            EucDist_C_df = pd.DataFrame(EucDist_C, index = Genes_C, columns = Genes_C)
-            
-            EucDist_PD_df = EucDist_PD_df[All_genes_inters]
-            EucDist_PD_df = EucDist_PD_df.loc[All_genes_inters]
-            EucDist_C_df = EucDist_C_df[All_genes_inters]
-            EucDist_C_df = EucDist_C_df.loc[All_genes_inters]   
-            
-            dists = euclidean_distance(EucDist_PD_df, EucDist_C_df)
-            GM = pd.DataFrame.from_dict(dists, orient='index',columns=[day])
-            GM = GM.sort_values(by=day, ascending=False)
-            
-            GM_stages.append(GM)
-          
-            # PDGs2Background_GM(GM, case_compare, PDmap_noUK, sd, sim_measure = sim_meas, dist_meas = dist_meas, stat_meas = 'MWU', PD_Gs = 'PDmap_noUK')
-            # PDGs2Background_GM(GM, case_compare, PDmap_PINK1, sd, sim_measure = sim_meas, dist_meas = dist_meas, stat_meas = 'MWU', PD_Gs = 'PDmap_PINK1')
-           #  PDGs2Background_GM(GM, day, PDmap, sd, sim_measure = sim_meas, dist_meas = dist_meas, stat_meas = 'MWU', PD_Gs = 'PDmap')
-            PDGs2Background_GM(GM, day, DGN_PD, sd, stat_meas = 'MWU', PD_Gs = 'DGN_PD')
-    
-        # GM across a set of stages              
-        GM_stages_df = GM_stages[0].loc[All_genes_inters]
-        for df in GM_stages[1:]:
-            GM_stages_df = pd.merge(GM_stages_df, df.loc[All_genes_inters], left_index=True, right_index=True)
-        print(GM_stages_df)
-        GM_stages_df.to_csv(f'{sd}/GM_{save_ext}.csv')
+        EucDist_C = np.load(f'{in_dir}/WT_{day}_PWEucDist.npy')
+        Genes_C = pd.read_csv(f'{wd}/input/Genelists/Geneslist_WT_{day}.csv', header = 0)['genes'].values
+        EucDist_C_df = pd.DataFrame(EucDist_C, index = Genes_C, columns = Genes_C)
+        
+        EucDist_PD_df = EucDist_PD_df[All_genes_inters]
+        EucDist_PD_df = EucDist_PD_df.loc[All_genes_inters]
+        EucDist_C_df = EucDist_C_df[All_genes_inters]
+        EucDist_C_df = EucDist_C_df.loc[All_genes_inters]   
+        
+        dists = euclidean_distance(EucDist_PD_df, EucDist_C_df)
+        GM = pd.DataFrame.from_dict(dists, orient='index',columns=[day])
+        GM = GM.sort_values(by=day, ascending=False)
+        
+        GM_stages.append(GM)
+      
+        PDGs2Background_GM(GM, day, DGN_PD, sd, stat_meas = 'MWU', PD_Gs = 'DGN_PD')
+
+    # GM across a set of stages              
+    GM_stages_df = GM_stages[0].loc[All_genes_inters]
+    for df in GM_stages[1:]:
+        GM_stages_df = pd.merge(GM_stages_df, df.loc[All_genes_inters], left_index=True, right_index=True)
+    print(GM_stages_df)
+    GM_stages_df.to_csv(f'{sd}/GM_{save_ext}.csv')
 
 
           
-     
-if Flag2:  
-    for days in day_sets:   
-        # days = [18,25,32,37]
-        print(days)
-        save_ext = '_'.join(f'D{str(x)}' for x in days)
-        sd = f'{wd}/output/{save_ext}'
-
-        GM_stages_df = pd.read_csv(f'{sd}/GM_{save_ext}.csv',index_col=0,header=0)
-
-        GM_stages_a = np.array(GM_stages_df.values)
-        genes = GM_stages_df.index
-        
-
-    
-        # Lenght of the GM vector in the stage-dim space
-        GM_length = np.linalg.norm(GM_stages_a, axis=1)
-        GM_length_df =  pd.DataFrame(GM_length, index = genes, columns=['GM_length']).sort_values(['GM_length'], ascending=False)                          
-        genes = list(GM_length_df.index)
-
-
-        
-        elbow, yval = plotPosDist(GM_length, 'Thresholding genes according to TGM', sd, f'GM_length_{save_ext}_pos.jpg', sensitivity)
-        TP = elbow/len(genes)*100
-        print(TP)
-        
  
-        sd2 = f'{sd}/{round(TP,3)}perc'
-        if not os.path.exists(sd2):
-            os.makedirs(sd2)  
-        TP_len = elbow
-        print(TP_len)
-        
-        # topTP perc of genes based on GM length 
-        TP_PDpreds = genes[:TP_len]          
-        v_line = GM_length_df.loc[TP_PDpreds[TP_len-1],'GM_length']
-        plot_hist_GML(GM_length, v_line, TP, TP_len, save_ext, sd2, save_ext)  
-        # plotPosDist(GM_length, 'Gene movement length', sd2, f'GM_length_{save_ext}_pos.jpg', sens, TP_len)
+for days in day_sets:   
+    # days = [18,25,32,37]
+    print(days)
+    save_ext = '_'.join(f'D{str(x)}' for x in days)
+    sd = f'{wd}/output/{save_ext}'
 
-        ribos_genes = []
-        for gene in TP_PDpreds:
-            if 'RPL' in gene or 'RPS' in gene:
-                ribos_genes.append(gene)
-        print(100*len(ribos_genes)/len(TP_PDpreds))
-            
-        # save dist of SS_PDpreds  
-        GM_stages_PDpreds_df = GM_stages_df.loc[TP_PDpreds]
-        GM_stages_PDpreds_df.to_csv(f'{sd2}/GM_{save_ext}_{round(TP,3)}_PDpreds.csv')
-        GM_length_TP = GM_length_df.loc[TP_PDpreds].sort_values(['GM_length'], ascending=False)
-        GM_length_TP.to_csv(f'{sd2}/GM_Length_{save_ext}_{round(TP,3)}_PDpreds.csv', index = True, header = True)
-              
-os.chdir(wd)                   
+    GM_stages_df = pd.read_csv(f'{sd}/GM_{save_ext}.csv',index_col=0,header=0)
+
+    GM_stages_a = np.array(GM_stages_df.values)
+    genes = GM_stages_df.index
+    
+
+
+    # Lenght of the GM vector in the stage-dim space
+    GM_length = np.linalg.norm(GM_stages_a, axis=1)
+    GM_length_df =  pd.DataFrame(GM_length, index = genes, columns=['GM_length']).sort_values(['GM_length'], ascending=False)                          
+    genes = list(GM_length_df.index)
+
+
+    
+    elbow, yval = plotPosDist(GM_length, 'Thresholding genes according to TGM', sd, f'GM_length_{save_ext}_pos.jpg', sensitivity)
+    TP = elbow/len(genes)*100
+    print(TP)
+    
+ 
+    sd2 = f'{sd}/{round(TP,3)}perc'
+    if not os.path.exists(sd2):
+        os.makedirs(sd2)  
+    TP_len = elbow
+    print(TP_len)
+    
+    # topTP perc of genes based on GM length 
+    TP_PDpreds = genes[:TP_len]          
+    v_line = GM_length_df.loc[TP_PDpreds[TP_len-1],'GM_length']
+    plot_hist_GML(GM_length, v_line, TP, TP_len, save_ext, sd2, save_ext)  
+    # plotPosDist(GM_length, 'Gene movement length', sd2, f'GM_length_{save_ext}_pos.jpg', sens, TP_len)
+
+        
+    # save dist of SS_PDpreds  
+    GM_stages_PDpreds_df = GM_stages_df.loc[TP_PDpreds]
+    GM_stages_PDpreds_df.to_csv(f'{sd2}/GM_{save_ext}_{round(TP,3)}_PDpreds.csv')
+    GM_length_TP = GM_length_df.loc[TP_PDpreds].sort_values(['GM_length'], ascending=False)
+    GM_length_TP.to_csv(f'{sd2}/GM_Length_{save_ext}_{round(TP,3)}_PDpreds.csv', index = True, header = True)
+          
               
                 
               
