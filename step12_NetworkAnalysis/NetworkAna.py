@@ -157,7 +157,7 @@ def survey(results, category_names, df_annots, order, pairs):
         # r, g, b, _ = color
         text_color = 'white' if color == 'cornflowerblue' else 'black'
         labels_ratio = [round(float(v), 1) if v > threshold else "" for v in rects.datavalues]  
-        print(labels_ratio)
+    
 
         ax.bar_label(rects, labels = labels_ratio, label_type='center', color=text_color, fontsize = 20, weight='bold', padding=5)
     ax.legend(ncols=len(category_names), bbox_to_anchor=(-0.03, 1), loc='lower left', title="Shortest path length", fontsize=24, title_fontsize=26)
