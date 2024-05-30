@@ -45,25 +45,6 @@ for file in files:
                 os.makedirs(copy_to)
             copyfile(f'{copy_from}/{file}', f'{copy_to}/{file}')
 
-copy_from = 'step9_EnirchBioPathways/output'
-for days_set in os.listdir(copy_from):   
-    print(days_set)
-    for perc_case in os.listdir(f'{copy_from}/{days_set}'):         
-        print(perc_case)                  
-        copy_to = f'{wd}/input/RPBPSubgroupsGenes/{days_set}/{perc_case}'  
-        if not os.path.exists(copy_to):
-             os.makedirs(copy_to)    
-        for file in os.listdir(f'{copy_from}/{days_set}/{perc_case}/ReactomeSubgroups'):
-            if 'Top3RPSubGroupsGenes' in file:
-                print(file)
-                copyfile(f'{copy_from}/{days_set}/{perc_case}/ReactomeSubgroups/{file}', f'{copy_to}/{file}')
-
-        if not os.path.exists(copy_to):
-             os.makedirs(copy_to)    
-        for file in os.listdir(f'{copy_from}/{days_set}/{perc_case}/BPSubgroups'):
-            print(file)
-            copyfile(f'{copy_from}/{days_set}/{perc_case}/BPSubgroups/{file}', f'{copy_to}/{file}')
-
 
 
 copyfile('Data/ParsingDrugbank/output/DTI_invest_approv.csv', f'{wd}/input/DTI_invest_approv.csv') 
