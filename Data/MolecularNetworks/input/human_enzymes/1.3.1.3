@@ -1,0 +1,516 @@
+ENTRY       EC 1.3.1.3                  Enzyme
+NAME        Delta4-3-oxosteroid 5beta-reductase;
+            3-oxo-Delta4-steroid 5beta-reductase;
+            5beta-reductase;
+            androstenedione 5beta-reductase;
+            cholestenone 5beta-reductase;
+            cortisone 5beta-reductase;
+            cortisone beta-reductase;
+            cortisone Delta4-5beta-reductase;
+            steroid 5beta-reductase;
+            testosterone 5beta-reductase;
+            Delta4-3-ketosteroid 5beta-reductase;
+            Delta4-5beta-reductase;
+            Delta4-hydrogenase;
+            4,5beta-dihydrocortisone:NADP+ Delta4-oxidoreductase;
+            3-oxo-5beta-steroid:NADP+ Delta4-oxidoreductase
+CLASS       Oxidoreductases;
+            Acting on the CH-CH group of donors;
+            With NAD+ or NADP+ as acceptor
+SYSNAME     5beta-cholestan-3-one:NADP+ 4,5-oxidoreductase
+REACTION    (1) 5beta-cholestan-3-one + NADP+ = cholest-4-en-3-one + NADPH + H+ [RN:R02609];
+            (2) 17,21-dihydroxy-5beta-pregnane-3,11,20-trione + NADP+ = cortisone + NADPH + H+ [RN:R02893]
+ALL_REAC    R02609 R02893;
+            (other) R01835 R02219 R02498 R02841 R03713 R03850 R04817 R04823
+SUBSTRATE   5beta-cholestan-3-one [CPD:C03091];
+            NADP+ [CPD:C00006];
+            17,21-dihydroxy-5beta-pregnane-3,11,20-trione
+PRODUCT     cholest-4-en-3-one [CPD:C00599];
+            NADPH [CPD:C00005];
+            H+ [CPD:C00080];
+            cortisone [CPD:C00762]
+COMMENT     The enzyme from human efficiently catalyses the reduction of progesterone, androstenedione, 17alpha-hydroxyprogesterone and testosterone to 5beta-reduced metabolites; it can also act on aldosterone, corticosterone and cortisol, but to a lesser extent [8]. The bile acid intermediates 7alpha,12alpha-dihydroxy-4-cholesten-3-one and 7alpha-hydroxy-4-cholesten-3-one can also act as substrates [9].
+HISTORY     EC 1.3.1.3 created 1961 (EC 1.3.1.23 created 1972, incorporated 2005), modified 2005
+REFERENCE   1  [PMID:13376613]
+  AUTHORS   DORFMAN RI, FORCHIELLI E.
+  TITLE     Separation of delta 4-5 alpha-hydrogenases from rat liver homogenates.
+  JOURNAL   J Biol Chem 223:443-8 (1956)
+REFERENCE   2  [PMID:13805063]
+  AUTHORS   BROWN-GRANT K, FORCHIELLI E, DORFMAN RI.
+  TITLE     The delta4-hydrogenases of guinea pig adrenal gland.
+  JOURNAL   J Biol Chem 235:1317-20 (1960)
+REFERENCE   3
+  AUTHORS   Levy, H.R. and Talalay, P.
+  TITLE     Enzymatic introduction of double bonds into steroid ring A.
+  JOURNAL   J Am Chem Soc 79:2658-2659 (1957)
+REFERENCE   4  [PMID:13416214]
+  AUTHORS   TOMKINS GM.
+  TITLE     The enzymatic reduction of delta 4-3-ketosteroids.
+  JOURNAL   J Biol Chem 225:13-24 (1957)
+REFERENCE   5  [PMID:2278855]
+  AUTHORS   Sugimoto Y, Yoshida M, Tamaoki B.
+  TITLE     Purification of 5 beta-reductase from hepatic cytosol fraction of chicken.
+  JOURNAL   J Steroid Biochem Mol Biol 37:717-24 (1990)
+            DOI:10.1016/0960-0760(90)90356-p
+REFERENCE   6  [PMID:3828348]
+  AUTHORS   Furuebisu M, Deguchi S, Okuda K.
+  TITLE     Identification of cortisone 5 beta-reductase as delta 4-3-ketosteroid 5 beta-reductase.
+  JOURNAL   Biochim Biophys Acta 912:110-4 (1987)
+            DOI:10.1016/0167-4838(87)90253-6
+REFERENCE   7  [PMID:6736016]
+  AUTHORS   Okuda A, Okuda K.
+  TITLE     Purification and characterization of delta 4-3-ketosteroid 5 beta-reductase.
+  JOURNAL   J Biol Chem 259:7519-24 (1984)
+REFERENCE   8  [PMID:11342103]
+  AUTHORS   Charbonneau A, The VL.
+  TITLE     Genomic organization of a human 5beta-reductase and its pseudogene and substrate selectivity of the expressed enzyme.
+  JOURNAL   Biochim Biophys Acta 1517:228-35 (2001)
+            DOI:10.1016/S0167-4781(00)00278-5
+  SEQUENCE  [hsa:6718]
+REFERENCE   9  [PMID:7508385]
+  AUTHORS   Kondo KH, Kai MH, Setoguchi Y, Eggertsen G, Sjoblom P, Setoguchi T, Okuda KI, Bjorkhem I
+  TITLE     Cloning and expression of cDNA of human delta 4-3-oxosteroid 5 beta-reductase and substrate specificity of the expressed enzyme.
+  JOURNAL   Eur J Biochem 219:357-63 (1994)
+            DOI:10.1111/j.1432-1033.1994.tb19947.x
+  SEQUENCE  [hsa:6718]
+PATHWAY     ec00120  Primary bile acid biosynthesis
+            ec00140  Steroid hormone biosynthesis
+            ec01100  Metabolic pathways
+ORTHOLOGY   K00251  3-oxo-5-beta-steroid 4-dehydrogenase
+            K22419  Delta4-3-oxosteroid 5beta-reductase
+GENES       HSA: 6718(AKR1D1)
+            PTR: 472607(AKR1D1)
+            PPS: 100985077(AKR1D1)
+            GGO: 101127761(AKR1D1)
+            PON: 100456267(AKR1D1)
+            NLE: 100596284(AKR1D1)
+            HMH: 116809686(AKR1D1)
+            MCC: 709863(AKR1D1)
+            MCF: 102146771(AKR1D1)
+            MTHB: 126951141
+            MNI: 105471317(AKR1D1)
+            CSAB: 103226977(AKR1D1)
+            CATY: 105589641(AKR1D1)
+            PANU: 101005921(AKR1D1)
+            TGE: 112621691(AKR1D1)
+            MLEU: 105550533(AKR1D1)
+            RRO: 104656621(AKR1D1)
+            RBB: 108530143(AKR1D1)
+            TFN: 117073081(AKR1D1)
+            PTEH: 111524786(AKR1D1)
+            CANG: 105511391(AKR1D1)
+            CJC: 100409275(AKR1D1)
+            SBQ: 101047690(AKR1D1)
+            CIMI: 108286447(AKR1D1)
+            CSYR: 103257301(AKR1D1)
+            MMUR: 105859116(AKR1D1)
+            LCAT: 123647674(AKR1D1)
+            PCOQ: 105809000(AKR1D1)
+            OGA: 100951149(AKR1D1)
+            MMU: 208665(Akr1d1)
+            MCAL: 110296786(Akr1d1)
+            MPAH: 110316235(Akr1d1)
+            RNO: 192242(Akr1d1)
+            MCOC: 116098736(Akr1d1)
+            ANU: 117720677(Akr1d1)
+            MUN: 110549234(Akr1d1)
+            CGE: 100770348(Akr1d1)
+            MAUA: 101844953(Akr1d1)
+            PLEU: 114687082(Akr1d1)
+            MORG: 121463361(Akr1d1)
+            MFOT: 126505259
+            AAMP: 119806254(Akr1d1)
+            NGI: 103726081(Akr1d1)
+            HGL: 101716388(Akr1d1)
+            CPOC: 100713034(Akr1d1)
+            CCAN: 109700596(Akr1d1)
+            DORD: 105989555(Akr1d1)
+            DSP: 122105925(Akr1d1)
+            NCAR: 124990892
+            OCU: 100008612(AKR1D1) 100343388
+            OPI: 101530477 101531043
+            TUP: 102473225(AKR1D1)
+            GVR: 103585218 103597495
+            CFA: 482711(AKR1D1)
+            CLUD: 112650929 112667108(AKR1D1)
+            VVP: 112907014(AKR1D1) 112912510
+            VLG: 121488716(AKR1D1)
+            AML: 100483237(AKR1D1)
+            UMR: 103669050(AKR1D1)
+            UAH: 113264742(AKR1D1)
+            UAR: 123788904(AKR1D1)
+            ELK: 111152033
+            LLV: 125081360
+            MPUF: 101687850(AKR1D1)
+            NVS: 122904130(AKR1D1)
+            ORO: 101385978(AKR1D1)
+            EJU: 114211725(AKR1D1)
+            ZCA: 113911446(AKR1D1)
+            MLX: 118021135(AKR1D1)
+            NSU: 110582789(AKR1D1)
+            LWW: 102729857(AKR1D1)
+            FCA: 101100551(AKR1D1)
+            PYU: 121028274(AKR1D1)
+            PBG: 122488370(AKR1D1)
+            LRUF: 124524272
+            PTG: 102949203(AKR1D1)
+            PPAD: 109269068(AKR1D1)
+            AJU: 106970424(AKR1D1)
+            HHV: 120232950(AKR1D1)
+            BTA: 513855(AKR1D1)
+            BOM: 102264964(AKR1D1)
+            BIU: 109557677(AKR1D1)
+            BBUB: 102400967(AKR1D1)
+            BBIS: 104997841(AKR1D1)
+            CHX: 102170484(AKR1D1)
+            OAS: 101103641(AKR1D1)
+            ODA: 120877627(AKR1D1)
+            CCAD: 122438694(AKR1D1)
+            SSC: 100520813(AKR1D1)
+            CFR: 102510401(AKR1D1)
+            CBAI: 105063045(AKR1D1)
+            CDK: 105091623(AKR1D1)
+            VPC: 102545225(AKR1D1)
+            BACU: 102998601(AKR1D1)
+            LVE: 103071980(AKR1D1)
+            OOR: 101283232(AKR1D1)
+            DLE: 111177911(AKR1D1)
+            PCAD: 102983669(AKR1D1)
+            PSIU: 116759871(AKR1D1)
+            ECB: 100066919(AKR1D1)
+            EPZ: 103541705(AKR1D1)
+            EAI: 106829989(AKR1D1)
+            MYB: 102243036(AKR1D1) 102246475
+            MYD: 102756994 102775514(AKR1D1)
+            MMYO: 118665735 118665774 118666354
+            MLF: 102419360 102430403 102430721 102440785 102441086
+            MNA: 107544502(AKR1D1)
+            PKL: 118713464
+            HAI: 109388534(AKR1D1)
+            DRO: 112299914(AKR1D1)
+            SHON: 118989102(AKR1D1)
+            AJM: 119059566(AKR1D1)
+            PDIC: 114507959(AKR1D1)
+            PHAS: 123829666(AKR1D1)
+            MMF: 118620122(AKR1D1)
+            RFQ: 117018329(AKR1D1)
+            PALE: 102882463(AKR1D1)
+            PGIG: 120601113(AKR1D1)
+            PVP: 105291623(AKR1D1)
+            RAY: 107499059(AKR1D1)
+            MJV: 108401937(AKR1D1)
+            TOD: 119253801(AKR1D1)
+            SARA: 101553779(AKR1D1)
+            LAV: 100665738(AKR1D1)
+            TMU: 101348700
+            DNM: 101441310(AKR1D1)
+            MDO: 100022753(AKR1D1)
+            GAS: 123250738(AKR1D1)
+            SHR: 100926677(AKR1D1)
+            AFZ: 127538608
+            PCW: 110216322(AKR1D1)
+            OAA: 100076664(AKR1D1)
+            GGA: 418107(AKR1D1)
+            PCOC: 116226801(AKR1D1)
+            MGP: 100547967(AKR1D1)
+            CJO: 107316041(AKR1D1)
+            NMEL: 110394267(AKR1D1)
+            APLA: 101802488(AKR1D1)
+            ACYG: 106031015(AKR1D1)
+            AFUL: 116493651(AKR1D1)
+            TGU: 100228769(AKR1D1)
+            LSR: 110475223(AKR1D1)
+            SCAN: 103819697(AKR1D1)
+            PMOA: 120501669(AKR1D1)
+            OTC: 121332789(AKR1D1)
+            PRUF: 121364338(AKR1D1)
+            GFR: 102038244(AKR1D1)
+            FAB: 101820121(AKR1D1)
+            PHI: 102107003(AKR1D1)
+            PMAJ: 107204921(AKR1D1)
+            CCAE: 111937017(AKR1D1)
+            CCW: 104696483(AKR1D1)
+            CBRC: 103623384(AKR1D1)
+            ETL: 114056172(AKR1D1)
+            ZAB: 102075168(AKR1D1)
+            ACHL: 103799941(AKR1D1)
+            FPG: 101910289(AKR1D1)
+            FCH: 102047333(AKR1D1)
+            CLV: 102085311(AKR1D1)
+            EGZ: 104135569(AKR1D1)
+            NNI: 104012395(AKR1D1)
+            PLET: 104620912(AKR1D1)
+            PCRI: 104028119
+            PCAO: 104053757
+            ACUN: 113491106(AKR1D1)
+            TALA: 104367230(AKR1D1)
+            PADL: 103924517(AKR1D1)
+            AFOR: 103906493(AKR1D1)
+            ACHC: 115352443(AKR1D1)
+            HALD: 104315756
+            HLE: 104831038(AKR1D1)
+            AGEN: 126047868
+            GCL: 127015571
+            CCRI: 104167113
+            CSTI: 104557165
+            EHS: 104514908
+            CMAC: 104485944(AKR1D1)
+            MUI: 104545819
+            FGA: 104079106
+            GSTE: 104255773
+            LDI: 104349543
+            MNB: 103782512
+            OHA: 104338306(AKR1D1)
+            NNT: 104406352(AKR1D1)
+            DPUB: 104296550(AKR1D1)
+            PGUU: 104458967(AKR1D1)
+            ACAR: 104529203(AKR1D1)
+            CPEA: 104396037(AKR1D1)
+            AVIT: 104268300
+            CVF: 104288606(AKR1D1)
+            CUCA: 104058937(AKR1D1)
+            TEO: 104373439(AKR1D1)
+            BRHI: 104493045
+            AAM: 106488268(AKR1D1)
+            AROW: 112974672(AKR1D1)
+            NPD: 112945631(AKR1D1)
+            TGT: 104567349(AKR1D1)
+            DNE: 112995034(AKR1D1)
+            SCAM: 104147396(AKR1D1)
+            ASN: 102377874(AKR1D1)
+            AMJ: 102564670(AKR1D1)
+            CPOO: 109316537(AKR1D1)
+            GGN: 109296149(AKR1D1)
+            PSS: 102453451(AKR1D1)
+            CMY: 102942570(AKR1D1)
+            CPIC: 101950885(AKR1D1)
+            TST: 117881635(AKR1D1)
+            CABI: 116825721(AKR1D1)
+            MRV: 120396071(AKR1D1)
+            ACS: 100555605(akr1d1)
+            PVT: 110082711(AKR1D1)
+            SUND: 121931010(AKR1D1)
+            PBI: 103055499(AKR1D1)
+            PMUR: 107291327(AKR1D1)
+            CTIG: 120316511(AKR1D1)
+            TSR: 106542905(AKR1D1)
+            PGUT: 117655403(AKR1D1)
+            VKO: 123028853(AKR1D1)
+            PMUA: 114605306(AKR1D1)
+            ZVI: 118091002(AKR1D1)
+            GJA: 107115496(AKR1D1)
+            STOW: 125435628(AKR1D1)
+            XLA: 399023(akr1d1.S) 734699(akr1d1.L)
+            XTR: 594997(akr1d1)
+            NPR: 108799286(AKR1D1)
+            RTEM: 120932839(AKR1D1)
+            BBUF: 121003676
+            BGAR: 122928538
+            MASI: 127437128
+            IPU: 100528314(akr1d1)
+            PHYP: 113531734
+            SMEO: 124400790
+            TFD: 113645710
+            AMEX: 103027718 103036813
+            EEE: 113573542(akr1d1)
+            TRU: 101070818(akr1d1)
+            LCO: 104921014 104933494
+            NCC: 104955509 104966316
+            CGOB: 115010013 115028230
+            ELY: 117248912 117262373
+            EFO: 125883159 125888077
+            PLEP: 121950382 121961182
+            SLUC: 116038388 116039770
+            ECRA: 117938861 117948477
+            ESP: 116673051 116676518 116694088
+            PFLV: 114549980 114560328
+            GAT: 120809633 120817231
+            PPUG: 119196682 119210485
+            MSAM: 119894433 119896779
+            CUD: 121505584 121514445
+            ALAT: 119024852 119032114
+            MZE: 101470353 101485185 106675749 112430079
+            ONL: 100710661 109194203
+            OAU: 116311272 116328738
+            OLA: 101170970 101175316
+            OML: 112152470 112156489
+            XMA: 102229839 102235761
+            XCO: 114153943 114160926
+            XHE: 116736728 116737466
+            PRET: 103459507 103465917
+            PFOR: 103134490 103156136
+            PLAI: 106953618 106960935
+            PMEI: 106916617 106917221
+            GAF: 122826458 122835658
+            CVG: 107094041 107094558
+            CTUL: 119776217 119785771
+            GMU: 124883186 124883189 124883190 124883191
+            NFU: 107383989 107388423
+            KMR: 108240983 108250100
+            ALIM: 106521816 106529753
+            NWH: 119415859 119428234
+            AOCE: 111573167 111577765
+            MCEP: 124999848 125015397
+            CSEM: 103380316 103382893
+            POV: 109624271 109632831(akr1d1)
+            SSEN: 122766821 122776017
+            HHIP: 117757641 117763322
+            HSP: 118101558 124851056
+            LCF: 108883064 108890588
+            SDU: 111224733 111229638
+            SLAL: 111650358 111651988
+            XGL: 120793768 120798183
+            HCQ: 109523861 109529813
+            SSCV: 125970180 125992190
+            BPEC: 110164799 110168059
+            MALB: 109974454(akr1d1)
+            BSPL: 114857915 114862576
+            SASA: 100286547(akr1d1)
+            STRU: 115196975(akr1d1)
+            OTW: 112218178
+            OMY: 110493394
+            OGO: 124038526
+            ONE: 115134781(akr1d1)
+            SALP: 111962216(akr1d1)
+            SNH: 120066149
+            CCLU: 121531721
+            ELS: 105018484 105020260
+            SFM: 108925654 114910603
+            PKI: 111858589(akr1d1)
+            AANG: 118219304
+            LOC: 102690612(akr1d1)
+            PSPA: 121318520 121319578
+            ARUT: 117415834 117419641
+            PSEX: 120539380
+            LCM: 102361835(AKR1D1)
+            CMK: 103171668
+            RTP: 109937167
+            ATH: AT4G24220(VEP1)
+            ALY: 9303747
+            CRB: 17877518 17879957
+            CSAT: 104722573 104731036
+            EUS: EUTSA_v10025425mg
+            BRP: 103834914 103861471 103861849
+            BNA: 106352270 106376025 106415732 106427862 106442739
+            BOE: 106306475 106306528 106312412
+            RSZ: 108820562 108820574 108843172 108848791 108848794
+            THJ: 104799795 104800325 104807087 104825749 104825751
+            CPAP: 110818782
+            CIT: 102615692 102616181 102620547 102623230 102624573 102627045 102627336 102627624 102628308 102629281 112499560
+            CIC: CICLE_v10001370mg CICLE_v10001374mg CICLE_v10001388mg CICLE_v10001393mg CICLE_v10001412mg CICLE_v10001414mg CICLE_v10001420mg CICLE_v10001422mg CICLE_v10001445mg CICLE_v100016291m CICLE_v100016292m CICLE_v10003867mg CICLE_v10003925mg CICLE_v10006945mg CICLE_v10013989mg
+            PVY: 116129046 116129047
+            MINC: 123203547 123228556 123230124
+            TCC: 18592015 18608051
+            GRA: 105769314 105769315 105795195 105797302
+            GHI: 107886961 107905623 107905624 107908857 107910310 107942462 107958170 107958171
+            GAB: 108453067 108453068 108461381 108484246
+            DZI: 111275787 111308999 111315455
+            EGR: 104447829
+            GMX: 100813467
+            GSJ: 114414755
+            PVU: PHAVU_009G070100g
+            VRA: 106759746
+            VAR: 108330564
+            VUN: 114164335
+            CCAJ: 109798087
+            APRC: 113865348 113874127 113875000 113875001
+            MTR: 11419174 11420385 11422455 11429177 25489935 25489936 25489937
+            CAM: 101490393 101510608 105852198
+            PSAT: 127088050 127088051
+            LJA: Lj0g3v0358119.1(Lj0g3v0358119.1)
+            ADU: 107491418 107495841
+            AIP: 107643987 107647756 107647759
+            AHF: 112697779 112697780 112734717 112750748 112756079 112756080 112757903 112802512
+            LANG: 109326718 109328348 109338953 109343868
+            FVE: 101293643 101299678 101305374
+            RCN: 112168846 112168847 112169759 112169760 112169761
+            PPER: 18768093 18789471 18789486 18789508
+            PMUM: 103320398 103320460
+            PAVI: 110744881 110744883 110744884 110744886 110747742 110748783 110761998 110767981
+            PDUL: 117618478 117636548
+            MDM: 103410710 103415423 103420085 103424664 103431404 103455922 114825100
+            PXB: 103945296 103950796 103950843 103950858
+            ZJU: 107415767 107416244 107420554 107433676
+            MNT: 112093364 21394609
+            CSV: 101204090
+            CMO: 103489839
+            BHJ: 120087114
+            MCHA: 111026111
+            CMAX: 111477228 111480841
+            CMOS: 111442928 111445997
+            CPEP: 111787529 111797206
+            RCU: 8280990 8288518
+            JCU: 105650747
+            HBR: 110648142 110656806 110658141
+            MESC: 110615860 110625289
+            POP: 18104808 18109150 18109482 7472673 7497815
+            PEU: 105120216 105120579 105120582 105124313 105128848 105128857 105137942
+            PALZ: 118034852 118036549 118036557 118036563 118036575 118036582 118050001
+            JRE: 108996072 109001182 109001183 109002733 109017840
+            CILL: 122297419 122297834 122298611 122299431 122299433 122299515 122311834
+            QSU: 112009411 112016509 112016510 112016511 112016526 112016533
+            QLO: 115967592 115973930 115973931 115973932 115973934 115973942 115977957
+            TWL: 120008549 120010703
+            VVI: 100247199 100264565
+            VRI: 117907358 117911806
+            SLY: 101055557 101257813 101259882
+            SPEN: 107002486 107028301 107032160
+            SOT: 102581216 102585153 102589154 102593127
+            SSTN: 125859660 125863992 125865296 125865297
+            CANN: 107848268 107854378 107854386 107877750 124890083
+            NTA: 107759409 107769538 107770580 107792196 107805824 107816081
+            NSY: 104214621 104221871 104221872
+            NTO: 104090341 104095344
+            NAU: 109219824 109226813
+            INI: 109161500 109165002 109165003
+            ITR: 116029969 116031692 116032856 116033642 116033643 116033644
+            SIND: 105155583 105169475 105169477 105169487 105172681
+            OEU: 111375829 111379316 111394633 111411979 111411981
+            EGT: 105957495 105957496
+            SSPL: 121753539 121758211 121759028 121805627 121806177
+            APAN: 127252438 127256982
+            HAN: 110885341 110908254 110918315
+            ECAD: 122591302 122595170 122595358 122595359 122595422
+            LSV: 111877205 111884723
+            CCAV: 112500760 112506394 112516316 112516647
+            DCR: 108198789 108203561 108228116
+            CSIN: 114291800 114291805 114300518 114316018
+            BVG: 104889979 104901635
+            SOE: 110777898 110801569
+            CQI: 110696025 110716584 110716984 110736212
+            NNU: 104607744 104611667
+            MING: 122073678
+            TSS: 122661247 122661248
+            PSOM: 113289204
+            OSA: 107275612 4333193 4343823
+            DOSA: Os03t0422600-00(Os03g0422600) Os03t0436400-01(Os03g0436400) Os07t0601600-00(Os07g0601600) Os11t0351555-01(Os11g0351555)
+            OBR: 102714167 102722456
+            BDI: 100833464
+            ATS: 109748315 109748316 109766846 109768392
+            TDC: 119270602 119270606 119273200 119278842 119278848 119279384 119334202 119340010
+            TAES: 123059503 123063548 123063549 123063553 123063559 123066863 123072676 123080859 123080862 123151670 123159117 123167325
+            TUA: 125522107 125530461 125546250
+            LPER: 127294907 127332555
+            SBI: 110432343 8057144 8063222 8063223
+            ZMA: 100272352 100381428 103636683
+            SITA: 101767985 101768386
+            SVS: 117838595 117838596
+            PVIR: 120648084 120648765 120651988 120684530 120691350
+            PHAI: 112873238 112873239 112874862 112874863 112902975
+            PDA: 103707365 103707777
+            EGU: 105032501 105032502 105058029 109506055
+            MUS: 103979849 103981863 103989009
+            ZOF: 122001730 122001731 122003837 122006022 122006024 122006025 122026229 122030600
+            DCT: 110115669
+            PEQ: 110027269 110035037
+            AOF: 109847720
+            NCOL: 116250088
+            ATR: 18437608
+            SMO: SELMODRAFT_402259 SELMODRAFT_444825 SELMODRAFT_74145 SELMODRAFT_86439 SELMODRAFT_86462 SELMODRAFT_92604
+            PPP: 112274793
+DBLINKS     ExplorEnz - The Enzyme Database: 1.3.1.3
+            IUBMB Enzyme Nomenclature: 1.3.1.3
+            ExPASy - ENZYME nomenclature database: 1.3.1.3
+            BRENDA, the Enzyme Database: 1.3.1.3
+            CAS: 9029-08-7
+///

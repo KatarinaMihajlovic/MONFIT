@@ -1,0 +1,419 @@
+ENTRY       EC 1.13.11.34               Enzyme
+NAME        arachidonate 5-lipoxygenase;
+            leukotriene-A4 synthase;
+            Delta5-lipoxygenase;
+            5Delta-lipoxygenase;
+            arachidonic 5-lipoxygenase;
+            arachidonic acid 5-lipoxygenase;
+            C-5-lipoxygenase;
+            LTA synthase;
+            leukotriene A4 synthase
+CLASS       Oxidoreductases;
+            Acting on single donors with incorporation of molecular oxygen (oxygenases);
+            With incorporation of two atoms of oxygen
+SYSNAME     arachidonate:oxygen 5-oxidoreductase
+REACTION    arachidonate + O2 = leukotriene A4 + H2O (overall reaction) [RN:R08527];
+            (1a) arachidonate + O2 = (6E,8Z,11Z,14Z)-(5S)-5-hydroperoxyicosa-6,8,11,14-tetraenoate [RN:R01595];
+            (1b) (6E,8Z,11Z,14Z)-(5S)-5-hydroperoxyicosa-6,8,11,14-tetraenoate = leukotriene A4 + H2O [RN:R03058]
+ALL_REAC    R01595 R03058 R08527
+SUBSTRATE   arachidonate [CPD:C00219];
+            O2 [CPD:C00007];
+            (6E,8Z,11Z,14Z)-(5S)-5-hydroperoxyeicosa-6,8,11,14-tetraenoate [CPD:C05356]
+PRODUCT     leukotriene A4 [CPD:C00909];
+            H2O [CPD:C00001];
+            (6E,8Z,11Z,14Z)-(5S)-5-hydroperoxyeicosa-6,8,11,14-tetraenoate [CPD:C05356]
+HISTORY     EC 1.13.11.34 created 1984, modified 1990
+REFERENCE   1  [PMID:2829172]
+  AUTHORS   Matsumoto T, Funk CD, Radmark O, Hoog JO, Jornvall H, Samuelsson B
+  TITLE     Molecular cloning and amino acid sequence of human 5-lipoxygenase.
+  JOURNAL   Proc Natl Acad Sci U S A 85:26-30 (1988)
+            DOI:10.1073/pnas.85.1.26
+  SEQUENCE  [hsa:240]
+REFERENCE   2  [PMID:3038871]
+  AUTHORS   Ohishi N, Izumi T, Minami M, Kitamura S, Seyama Y, Ohkawa S, Terao S, Yotsumoto H, Takaku F, Shimizu T.
+  TITLE     Leukotriene A4 hydrolase in the human lung. Inactivation of the enzyme with leukotriene A4 isomers.
+  JOURNAL   J Biol Chem 262:10200-5 (1987)
+REFERENCE   3  [PMID:3012557]
+  AUTHORS   Shimizu T, Izumi T, Seyama Y, Tadokoro K, Radmark O, Samuelsson B.
+  TITLE     Characterization of leukotriene A4 synthase from murine mast cells: evidence for its identity to arachidonate 5-lipoxygenase.
+  JOURNAL   Proc Natl Acad Sci U S A 83:4175-9 (1986)
+            DOI:10.1073/pnas.83.12.4175
+REFERENCE   4  [PMID:6322165]
+  AUTHORS   Shimizu T, Radmark O, Samuelsson B.
+  TITLE     Enzyme with dual lipoxygenase activities catalyzes leukotriene A4 synthesis from arachidonic acid.
+  JOURNAL   Proc Natl Acad Sci U S A 81:689-93 (1984)
+            DOI:10.1073/pnas.81.3.689
+PATHWAY     ec00590  Arachidonic acid metabolism
+            ec01100  Metabolic pathways
+ORTHOLOGY   K00461  arachidonate 5-lipoxygenase
+GENES       HSA: 240(ALOX5)
+            PTR: 450428(ALOX5)
+            PPS: 100979027(ALOX5)
+            GGO: 101135686(ALOX5)
+            PON: 100460538(ALOX5)
+            NLE: 100584513(ALOX5)
+            HMH: 116461149(ALOX5)
+            MCC: 707926(ALOX5)
+            MCF: 102132853(ALOX5)
+            MTHB: 126963209
+            MNI: 105486634(ALOX5)
+            CSAB: 103215810(ALOX5)
+            CATY: 105576135(ALOX5)
+            PANU: 101004229(ALOX5)
+            TGE: 112632137(ALOX5)
+            MLEU: 105532332(ALOX5)
+            RRO: 104678173(ALOX5)
+            RBB: 108522174(ALOX5)
+            TFN: 117082071(ALOX5)
+            PTEH: 111529801(ALOX5)
+            CANG: 105517726(ALOX5)
+            CJC: 100386217(ALOX5)
+            SBQ: 101031793(ALOX5)
+            CIMI: 108296336(ALOX5)
+            CSYR: 103256562(ALOX5)
+            MMUR: 105860128 105860129
+            LCAT: 123650024(ALOX5)
+            PCOQ: 105821653(ALOX5)
+            OGA: 100952067(ALOX5)
+            MMU: 11689(Alox5)
+            MCAL: 110297094(Alox5)
+            MPAH: 110315917(Alox5)
+            RNO: 25290(Alox5)
+            MCOC: 116099451(Alox5)
+            ANU: 117714890(Alox5)
+            MUN: 110563686 110563694
+            CGE: 100772492(Alox5)
+            MAUA: 101839970(Alox5)
+            PLEU: 114689650(Alox5)
+            MORG: 121438814(Alox5)
+            MFOT: 126505462
+            AAMP: 119807525(Alox5)
+            NGI: 103737907(Alox5)
+            HGL: 101700210(Alox5)
+            CPOC: 100718093(Alox5)
+            CCAN: 109700324(Alox5)
+            DORD: 106001013(Alox5)
+            DSP: 122122367(Alox5)
+            NCAR: 124975507 124985161 124985243 124985624
+            OCU: 100341714
+            OPI: 101534185(ALOX5)
+            TUP: 102480526(ALOX5)
+            GVR: 103597659(ALOX5)
+            CFA: 477753(ALOX5)
+            CLUD: 112671999(ALOX5)
+            VVP: 112913415(ALOX5)
+            VLG: 121483983(ALOX5)
+            AML: 100476416(ALOX5)
+            UMR: 103668062(ALOX5)
+            UAH: 113243124(ALOX5)
+            UAR: 123800343(ALOX5)
+            ELK: 111144974
+            LLV: 125085017
+            MPUF: 101684572(ALOX5)
+            NVS: 122900884(ALOX5)
+            ORO: 101381769(ALOX5)
+            EJU: 114205241(ALOX5)
+            ZCA: 113923418(ALOX5)
+            MLX: 118023026(ALOX5)
+            NSU: 110589221(ALOX5)
+            LWW: 102747716(ALOX5)
+            FCA: 101097422(ALOX5)
+            PYU: 121036944(ALOX5)
+            PBG: 122492984(ALOX5)
+            LRUF: 124506966
+            PTG: 102973009(ALOX5)
+            PPAD: 109264579(ALOX5)
+            AJU: 106989649(ALOX5)
+            HHV: 120232804(ALOX5)
+            BTA: 404074(ALOX5)
+            BOM: 102270550(ALOX5)
+            BIU: 109553923(ALOX5)
+            BBUB: 102400249(ALOX5)
+            BBIS: 104999056(ALOX5)
+            CHX: 102168425(ALOX5)
+            OAS: 101117390(ALOX5)
+            ODA: 120865494(ALOX5)
+            CCAD: 122446293(ALOX5)
+            SSC: 100156205(ALOX5)
+            CFR: 102507744(ALOX5)
+            CBAI: 105075631(ALOX5)
+            CDK: 105093424(ALOX5)
+            VPC: 102544906(ALOX5)
+            BACU: 103009115(ALOX5)
+            LVE: 103081267(ALOX5)
+            OOR: 101283796(ALOX5)
+            DLE: 111172567(ALOX5)
+            PCAD: 102987975(ALOX5) 114485528
+            PSIU: 116741371(ALOX5)
+            ECB: 100062042(ALOX5)
+            EPZ: 103553660(ALOX5)
+            EAI: 106846725(ALOX5)
+            MYB: 102249760(ALOX5)
+            MYD: 102754419(ALOX5)
+            MMYO: 118679341(ALOX5)
+            MLF: 102418693(ALOX5)
+            MNA: 107527950(ALOX5)
+            PKL: 118732103(ALOX5)
+            HAI: 109389501(ALOX5)
+            DRO: 112305481(ALOX5)
+            SHON: 118994142(ALOX5)
+            AJM: 119035943(ALOX5)
+            PDIC: 114496046(ALOX5)
+            PHAS: 123821021(ALOX5)
+            MMF: 118632052(ALOX5)
+            RFQ: 117036416(ALOX5)
+            PALE: 102898772(ALOX5)
+            PGIG: 120609662(ALOX5)
+            PVP: 105288958(ALOX5)
+            RAY: 107508911(ALOX5)
+            MJV: 108400689(ALOX5)
+            TOD: 119234526(ALOX5)
+            SARA: 101551293(ALOX5)
+            LAV: 100661336(ALOX5)
+            TMU: 101345496
+            ETF: 101653110(ALOX5)
+            DNM: 101433807(ALOX5)
+            MDO: 100013954(ALOX5)
+            GAS: 123236481(ALOX5)
+            SHR: 100932471(ALOX5)
+            PCW: 110213916(ALOX5)
+            OAA: 100077066(ALOX5)
+            GGA: 423769(ALOX5)
+            PCOC: 116238154(ALOX5)
+            MGP: 100542129(ALOX5)
+            CJO: 107315916(ALOX5)
+            NMEL: 110399270(ALOX5)
+            APLA: 101801930(ALOX5)
+            ACYG: 106049001(ALOX5)
+            AFUL: 116491605(ALOX5)
+            TGU: 100231888(ALOX5)
+            LSR: 110475663(ALOX5)
+            SCAN: 103813960(ALOX5)
+            PMOA: 120502228(ALOX5)
+            OTC: 121341694(ALOX5)
+            PRUF: 121350062(ALOX5)
+            GFR: 102035554(ALOX5)
+            FAB: 101813553(ALOX5)
+            PHI: 102112541(ALOX5)
+            PMAJ: 107207120(ALOX5)
+            CCAE: 111931122(ALOX5)
+            CCW: 104697933(ALOX5)
+            CBRC: 103624590(ALOX5)
+            ETL: 114054707(ALOX5)
+            ZAB: 102062876(ALOX5)
+            ACHL: 103800605(ALOX5)
+            FPG: 101914238(ALOX5)
+            FCH: 102053142(ALOX5)
+            CLV: 102085004(ALOX5)
+            EGZ: 104129027(ALOX5)
+            NNI: 104014074(ALOX5)
+            PLET: 104626025(ALOX5)
+            PCRI: 104029677(ALOX5)
+            PCAO: 104042894(ALOX5)
+            ACUN: 113481652(ALOX5)
+            TALA: 104365651(ALOX5)
+            PADL: 103914082(ALOX5)
+            AFOR: 103897820(ALOX5)
+            ACHC: 115348416(ALOX5)
+            HALD: 104320512(ALOX5)
+            HLE: 104829333(ALOX5)
+            AGEN: 126043077
+            GCL: 127017658
+            CCRI: 104162138(ALOX5)
+            CSTI: 104560045(ALOX5)
+            EHS: 104506301(ALOX5)
+            CMAC: 104486519(ALOX5)
+            MUI: 104535976(ALOX5)
+            FGA: 104076430(ALOX5)
+            GSTE: 104256524(ALOX5)
+            MNB: 103781231(ALOX5)
+            OHA: 104330385(ALOX5)
+            NNT: 104403581(ALOX5)
+            DPUB: 104297702(ALOX5)
+            ACAR: 104521858(ALOX5)
+            CPEA: 104391514(ALOX5)
+            AVIT: 104276083(ALOX5)
+            CVF: 104289812(ALOX5)
+            CUCA: 104067974(ALOX5)
+            BRHI: 104501850(ALOX5)
+            AAM: 106497785(ALOX5)
+            AROW: 112963900(ALOX5)
+            NPD: 112957209(ALOX5)
+            TGT: 104577674(ALOX5)
+            DNE: 112990662(ALOX5)
+            SCAM: 104146056(ALOX5)
+            ASN: 102371605(ALOX5)
+            AMJ: 102568608(ALOX5)
+            CPOO: 109324293(ALOX5)
+            GGN: 109287144(ALOX5)
+            PSS: 102462244(ALOX5)
+            CMY: 102944803(ALOX5)
+            CPIC: 101932214(ALOX5)
+            TST: 117880642(ALOX5)
+            CABI: 116823588(ALOX5)
+            MRV: 120369164(ALOX5)
+            ACS: 100556313(alox5)
+            PVT: 110090785
+            SUND: 121927518(ALOX5)
+            PMUR: 107292379(ALOX5)
+            CTIG: 120300245(ALOX5)
+            TSR: 106553343(ALOX5)
+            PGUT: 117661247(ALOX5)
+            VKO: 123029661(ALOX5)
+            PMUA: 114601080(ALOX5)
+            ZVI: 118079372(ALOX5)
+            GJA: 107113129(ALOX5)
+            STOW: 125443871(ALOX5)
+            XLA: 108696220(alox5.L) 108697207(alox5.S)
+            XTR: 100036609(alox5)
+            NPR: 108800085(ALOX5)
+            RTEM: 120947174(ALOX5)
+            BBUF: 121004372(ALOX5)
+            BGAR: 122940049(ALOX5)
+            DRE: 567204(alox5a) 573013(alox5b.1) 724056(alox5b.2)
+            SRX: 107708393 107713771 107747471
+            SANH: 107671382 107677802 107678516 107684374 107690200
+            SGH: 107571808 107572920 107575181 107575442 107582511 107589586
+            CCAR: 109049814 109052610 109065335 109081069 109101776 109108493
+            CAUA: 113048375 113048377 113057166 113066049 113066078 113112941
+            CGIB: 127955930 127967689 127970034 128026407
+            PPRM: 120460470 120463765 120463775 120478382 120479775(alox5a) 120492594
+            MAMB: 125257158 125265844 125276632(alox5a) 125279367 125279782
+            CIDE: 127508776 127516455 127517370
+            MASI: 127412305 127413837 127420989 127420992
+            IPU: 108263823(alox5a)
+            PHYP: 113546154(alox5)
+            SMEO: 124378204(alox5a)
+            TFD: 113639934(alox5a)
+            AMEX: 103035394(alox5)
+            EEE: 113587960(alox5)
+            TRU: 101066485 101077167(alox5) 101077844 115249685
+            TNG: GSTEN00016500G001
+            LCO: 104930113(alox5)
+            NCC: 104946287(alox5)
+            CGOB: 115020076(alox5)
+            ELY: 117248563
+            EFO: 125903456(alox5a)
+            PLEP: 121954568 121954569
+            SLUC: 116054107(alox5a)
+            ECRA: 117960578(alox5a)
+            ESP: 116704939(alox5)
+            PFLV: 114572645(alox5)
+            GAT: 120820912(alox5a)
+            PPUG: 119213967(alox5a)
+            MSAM: 119916966(alox5a)
+            CUD: 121510776 121511083 121511143 121511190
+            ALAT: 119034095(alox5a)
+            MZE: 101482427(alox5)
+            ONL: 100693453(alox5)
+            OAU: 116316616(alox5a)
+            OLA: 101160835(alox5) 101165738
+            OML: 112162158(alox5a)
+            XMA: 102230376(alox5)
+            XCO: 114137934(alox5)
+            XHE: 116712547(alox5)
+            PRET: 103476884(alox5)
+            PFOR: 103147712(alox5)
+            PLAI: 106955189(alox5)
+            PMEI: 106907603(alox5)
+            GAF: 122843057(alox5a)
+            CVG: 107091526(alox5)
+            CTUL: 119788547(alox5a)
+            GMU: 124858722(alox5a)
+            NFU: 107375698(alox5)
+            KMR: 108243211
+            ALIM: 106529456(alox5)
+            NWH: 119418429(alox5a)
+            AOCE: 111564375(alox5)
+            MCEP: 125018433(alox5a)
+            CSEM: 103387317(alox5)
+            POV: 109631496(alox5)
+            SSEN: 122781462(alox5a)
+            HHIP: 117775306(alox5a)
+            HSP: 118118901(alox5a)
+            LCF: 108884347(alox5a)
+            SDU: 111235185(alox5)
+            SLAL: 111654678(alox5)
+            XGL: 120796514(alox5a)
+            HCQ: 109509924 109509925(alox5)
+            SSCV: 125978684 125978685
+            BPEC: 110164412(alox5)
+            MALB: 109961016(alox5)
+            BSPL: 114870428(alox5a)
+            SASA: 100194803(lox5) 106613187
+            STRU: 115153372 115193564
+            OTW: 112253187 112256283
+            OMY: 110502637 110532793
+            OGO: 124037261 124041114
+            ONE: 115113091 115134961
+            SALP: 111978799
+            SNH: 120017762 120045686
+            CCLU: 121553196 121583968
+            ELS: 105010608(alox5)
+            SFM: 108921027(alox5) 108937538
+            PKI: 111837191 111846223 111846232 111849566(alox5)
+            AANG: 118218047 118218049 118218050 118218460
+            LOC: 102697549(alox5)
+            PSPA: 121325182(alox5a)
+            ARUT: 117416027 117417615(alox5a)
+            PSEX: 120516309(alox5a)
+            LCM: 102353934(ALOX5)
+            CMK: 103185827(alox5a)
+            RTP: 109921931(alox5)
+            BFO: 118407044 118407190 118410745 118416628 118419219 118419222 118423903 118424144
+            BBEL: 109463619 109467523 109473009 109474494 109474550 109474633 109476869 109478405 109478532 109479429 109480412 109481529 109483336 109486824 109487021 109487229 109487274 109487288
+            CIN: 100176198 100176411 100176744 100178151 100178342 100178563 100179479
+            SCLV: 120327656 120328067 120330915 120339739 120339931 120339932 120342283 120342991
+            SPU: 115918885 574670 575389 579368 583823 584481 584789 585142 591845 754628 763828 764400
+            APLC: 110975305 110975972 110976201 110977737 110977751
+            SKO: 100369676 100369827 102805620
+            TPAL: 117644657
+            PVM: 113804806
+            PCLA: 123760292
+            PTRU: 123516860
+            PPOI: 119091807 119096450
+            DSV: 119449406
+            RSAN: 119382445
+            RMP: 119178021
+            CSCU: 111636555 111636558
+            PTEP: 107442379
+            SDM: 118200660
+            HRO: HELRODRAFT_66521
+            LGI: LOTGIDRAFT_137999 LOTGIDRAFT_171808 LOTGIDRAFT_209217 LOTGIDRAFT_224684
+            PCAN: 112558951
+            BGT: 106067963 106069395
+            GAE: 121374655 121392860
+            HRF: 124111845 124113998 124114830 124115001 124115002 124123794 124143720
+            HRJ: 124254639 124259952 124261755 124261766 124285520
+            CRG: 105319481 105324873 105327235 105327236 105327296 105327652 105333405 105333406 105336201 117683956
+            MYI: 110457288 110457778 110458666 110458669 110458670 110458673 110458677 110458678
+            PMAX: 117322747 117324142 117324143 117329167 117329376 117329377 117329378 117329966
+            MMER: 123539768 123540524 123541320 123541567 123553096 123557731
+            OBI: 106867440 106867441 106867443 106873090 106873091 106873092
+            OSN: 115215746 115215749 115215753 115221275 115221688 115226898 115227054
+            LAK: 106150754 106166490 106170509 106178940
+            OVI: T265_15039
+            NVE: 5499732 5504404 5514194 5514339
+            EPA: 110239121 110242596 110248339 110250751 110253407
+            ATEN: 116286796 116290323 116294452 116296880 116301055 116304961 116304967 116307613 116308077
+            ADF: 107327113 107341953 107341972 107345340 107350206 107352928
+            AMIL: 114958630 114959396 114968909 114970008 114971001
+            PDAM: 113664617 113665281 113666770 113675130 113675559 113675883 113682318 113683498 113685341
+            SPIS: 111321744 111326629 111326882 111326890 111328829 111341264
+            DGT: 114516532 114516794 114521367 114521368 114527546 114529580 114531948 114541102
+            XEN: 124433523 124439795 124443860 124444372 124444381 124444382 124450812 124454266
+            HMG: 100200947 100205450 100209770 100213618 100215649
+            TAD: TRIADDRAFT_50085 TRIADDRAFT_63720
+            AQU: 100635761
+            CCP: CHC_T00008739001
+            MXA: MXAN_1744
+            MSD: MYSTI_02579
+            MFB: MFUL124B02_14090
+            CCX: COCOR_02733(loxA)
+            MBD: MEBOL_004947
+DBLINKS     ExplorEnz - The Enzyme Database: 1.13.11.34
+            IUBMB Enzyme Nomenclature: 1.13.11.34
+            ExPASy - ENZYME nomenclature database: 1.13.11.34
+            BRENDA, the Enzyme Database: 1.13.11.34
+            CAS: 80619-02-9
+///

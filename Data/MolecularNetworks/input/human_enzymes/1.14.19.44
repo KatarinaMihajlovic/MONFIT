@@ -1,0 +1,289 @@
+ENTRY       EC 1.14.19.44               Enzyme
+NAME        acyl-CoA (8-3)-desaturase;
+            FADS1 (gene name);
+            acyl-CoA 5-desaturase (methylene-interrupted)
+CLASS       Oxidoreductases;
+            Acting on paired donors, with incorporation or reduction of molecular oxygen;
+            With oxidation of a pair of donors resulting in the reduction of O2 to two molecules of water
+SYSNAME     Delta8-acyl-CoA,ferrocytochrome b5:oxygen oxidoreductase (5,6-cis-dehydrogenating)
+REACTION    (1) (8Z,11Z,14Z)-icosa-8,11,14-trienoyl-CoA + 2 ferrocytochrome b5 + O2 + 2 H+ = arachidonoyl-CoA + 2 ferricytochrome b5 + 2 H2O [RN:R11059];
+            (2) (8Z,11Z,14Z,17Z)-icosa-8,11,14,17-tetraenoyl-CoA + 2 ferrocytochrome b5 + O2 + 2 H+ = (5Z,8Z,11Z,14Z,17Z)-icosa-5,8,11,14,17-pentaenoyl-CoA + 2 ferricytochrome b5 + 2 H2O [RN:R11060]
+ALL_REAC    R11059 R11060;
+            (other) R12169
+SUBSTRATE   (8Z,11Z,14Z)-icosa-8,11,14-trienoyl-CoA [CPD:C03595];
+            ferrocytochrome b5 [CPD:C00999];
+            O2 [CPD:C00007];
+            H+ [CPD:C00080];
+            (8Z,11Z,14Z,17Z)-icosa-8,11,14,17-tetraenoyl-CoA [CPD:C16164]
+PRODUCT     arachidonoyl-CoA [CPD:C02249];
+            ferricytochrome b5 [CPD:C00996];
+            H2O [CPD:C00001];
+            (5Z,8Z,11Z,14Z,17Z)-icosa-5,8,11,14,17-pentaenoyl-CoA [CPD:C16165]
+COMMENT     The enzyme introduces a cis double bond at carbon 5 of acyl-CoAs that contain a double bond at position 8. The enzymes from algae, mosses, mammals and the protozoan Leishmania major catalyse the desaturation of dihomo-gamma-linoleate [(8Z,11Z,14Z)-icosa-8,11,14-trienoate] and (8Z,11Z,14Z,17Z)-icosa-8,11,14,17-tetraenoate to generate arachidonate and (5Z,8Z,11Z,14Z,17Z)-icosa-5,8,11,14,17-pentaenoate, respectively. The enzyme contains a cytochrome b5 domain that acts as the direct electron donor to the desaturase active site and does not require an external cytochrome. cf. EC 1.14.19.37, acyl-CoA 5-desaturase.
+HISTORY     EC 1.14.19.44 created 2015
+REFERENCE   1  [PMID:10601301]
+  AUTHORS   Cho HP, Nakamura M, Clarke SD
+  TITLE     Cloning, expression, and fatty acid regulation of the human delta-5 desaturase.
+  JOURNAL   J Biol Chem 274:37335-9 (1999)
+            DOI:10.1074/jbc.274.52.37335
+  SEQUENCE  [hsa:3992]
+REFERENCE   2  [PMID:10769175]
+  AUTHORS   Leonard AE, Kelder B, Bobik EG, Chuang LT, Parker-Barnes JM, Thurmond JM, Kroeger PE, Kopchick JJ, Huang YS, Mukerji P
+  TITLE     cDNA cloning and characterization of human Delta5-desaturase involved in the biosynthesis of arachidonic acid.
+  JOURNAL   Biochem J 347 Pt 3:719-24 (2000)
+  SEQUENCE  [hsa:3992]
+REFERENCE   3  [PMID:16403015]
+  AUTHORS   Tripodi KE, Buttigliero LV, Altabe SG, Uttaro AD
+  TITLE     Functional characterization of front-end desaturases from trypanosomatids depicts the first polyunsaturated fatty acid biosynthetic pathway from a parasitic protozoan.
+  JOURNAL   FEBS J 273:271-80 (2006)
+            DOI:10.1111/j.1742-4658.2005.05049.x
+REFERENCE   4  [PMID:21193673]
+  AUTHORS   Tavares S, Grotkjaer T, Obsen T, Haslam RP, Napier JA, Gunnarsson N
+  TITLE     Metabolic engineering of Saccharomyces cerevisiae for production of Eicosapentaenoic Acid, using a novel {Delta}5-Desaturase from Paramecium tetraurelia.
+  JOURNAL   Appl Environ Microbiol 77:1854-61 (2011)
+            DOI:10.1128/AEM.01935-10
+PATHWAY     ec01040  Biosynthesis of unsaturated fatty acids
+ORTHOLOGY   K10224  acyl-CoA (8-3)-desaturase (Delta-5 desaturase)
+GENES       HSA: 3992(FADS1)
+            PTR: 451243(FADS1)
+            PPS: 100981162(FADS1)
+            GGO: 101136185(FADS1)
+            PON: 100436159(FADS1)
+            NLE: 100596120(FADS1)
+            HMH: 116468867(FADS1)
+            MCC: 722343(FADS1)
+            MCF: 101864778(FADS1)
+            MTHB: 126935470
+            MNI: 105469425(FADS1)
+            CSAB: 103234224(FADS1)
+            CATY: 105577579(FADS1)
+            PANU: 100126707(FADS1)
+            TGE: 112606126(FADS1)
+            MLEU: 105549021
+            RRO: 104679375(FADS1)
+            RBB: 108533599(FADS1)
+            TFN: 117080259(FADS1)
+            PTEH: 111524317(FADS1)
+            CANG: 105512288(FADS1)
+            CJC: 100389579(FADS1)
+            SBQ: 101052172(FADS1)
+            CIMI: 108286222(FADS1)
+            MMUR: 105878618(FADS1)
+            LCAT: 123641269(FADS1)
+            PCOQ: 105825052(FADS1)
+            OGA: 100954652(FADS1)
+            MMU: 76267(Fads1)
+            MCAL: 110285897(Fads1)
+            MPAH: 110322451(Fads1)
+            RNO: 84575(Fads1)
+            MCOC: 116103544(Fads1)
+            ANU: 117707570(Fads1)
+            MUN: 110548091(Fads1)
+            CGE: 100773095
+            MAUA: 101844332(Fads1)
+            PLEU: 114703435(Fads1)
+            MORG: 121453877(Fads1)
+            MFOT: 126498525
+            AAMP: 119813303(Fads1)
+            NGI: 103729124(Fads1)
+            HGL: 101698014(Fads1)
+            CPOC: 100723348(Fads1)
+            CCAN: 109685566(Fads1)
+            DORD: 105995514(Fads1)
+            DSP: 122104887(Fads1)
+            NCAR: 124958643
+            OCU: 100342403
+            OPI: 101524219(FADS1)
+            TUP: 102500595(FADS1)
+            GVR: 103604811(FADS1)
+            CFA: 483793(FADS1)
+            CLUD: 112659419(FADS1)
+            VVP: 112911088(FADS1)
+            VLG: 121472259(FADS1)
+            AML: 100472955(FADS1)
+            UMR: 103678230(FADS1)
+            UAH: 113246984(FADS1)
+            UAR: 123785000(FADS1)
+            ELK: 111149587
+            LLV: 125078519
+            MPUF: 101676081(FADS1)
+            NVS: 122912991(FADS1)
+            ORO: 101364825(FADS1)
+            EJU: 114220205(FADS1)
+            ZCA: 113914860(FADS1)
+            MLX: 118015924(FADS1)
+            NSU: 110576324(FADS1)
+            LWW: 102739160(FADS1)
+            FCA: 101083966(FADS1)
+            PYU: 121043898(FADS1)
+            PBG: 122483865(FADS1)
+            LRUF: 124505586
+            PTG: 102968608(FADS1)
+            PPAD: 109246555(FADS1)
+            AJU: 106986968(FADS1)
+            HHV: 120246150(FADS1)
+            BTA: 533107(FADS1)
+            BOM: 102276098(FADS1)
+            BIU: 109554369(FADS1)
+            BBUB: 102405648(FADS1)
+            BBIS: 104998703(FADS1)
+            CHX: 102178247(FADS1)
+            OAS: 101109049(FADS1)
+            ODA: 120874548(FADS1)
+            CCAD: 122431165(FADS1)
+            SSC: 444995(FADS1)
+            CFR: 102506763(FADS1)
+            CBAI: 105070110(FADS1)
+            CDK: 105094872(FADS1)
+            VPC: 102543424(FADS1)
+            BACU: 103008410(FADS1)
+            LVE: 103082696(FADS1)
+            OOR: 101275971(FADS1)
+            DLE: 111183884(FADS1)
+            PCAD: 102988776(FADS1)
+            PSIU: 116757880(FADS1)
+            ECB: 102150261(FADS1)
+            EPZ: 103543089(FADS1)
+            EAI: 106847567(FADS1)
+            MYB: 102261592(FADS1)
+            MYD: 102773181(FADS1)
+            MMYO: 118649002(FADS1)
+            MNA: 107527686(FADS1)
+            PKL: 118707199(FADS1)
+            HAI: 109390020(FADS1)
+            DRO: 112317234(FADS1)
+            SHON: 118996919(FADS1)
+            AJM: 119043682(FADS1)
+            PDIC: 114499452(FADS1)
+            PHAS: 123829519(FADS1)
+            MMF: 118627540(FADS1)
+            RFQ: 117030354(FADS1)
+            PALE: 102894313(FADS1)
+            PGIG: 120600651(FADS1)
+            PVP: 105297785(FADS1)
+            RAY: 107501590(FADS1)
+            MJV: 108392394(FADS1)
+            TOD: 119231397 119250072(FADS1)
+            SARA: 101540344(FADS1)
+            LAV: 100677495
+            TMU: 101347278
+            ETF: 101661682(FADS1)
+            DNM: 101417194(FADS1)
+            MDO: 100028492(FADS1)
+            SHR: 100922163(FADS1)
+            AFZ: 127541864
+            PCW: 110195308(FADS1)
+            OAA: 103171425(FADS1)
+            GGA: 423119(FADS1L2) 423120(FADS1) 428851(FADS1L1)
+            PCOC: 116239003 116239007 116239016
+            MGP: 100549516 100549671 100549825(FADS1)
+            CJO: 107314410 107314438 107314472
+            NMEL: 110400732 110400736 110401255(FADS1)
+            APLA: 101789732 101799007(FADS1) 101799800
+            ACYG: 106033871 106044856 106044871
+            AFUL: 116489595 116489696(FADS1) 116490009
+            TGU: 100225746(FADS1) 100228631 115495653
+            LSR: 110484927(FADS1) 110485021 110485022
+            SCAN: 103822124(FADS1) 103822125 103822228
+            PMOA: 120499563 120499565(FADS1) 120499600
+            OTC: 121339155(FADS1) 121339445 121339494
+            PRUF: 121354751(FADS1) 121354752 121354755
+            GFR: 102031677 102040395(FADS1) 102040846
+            FAB: 101809325 101809791(FADS1) 101813351
+            PHI: 102101859 102112391(FADS1) 102112775
+            PMAJ: 107205341 107205403 107205404
+            CCAE: 111930634 111930636 111930637
+            CCW: 104697619 104697620 104697621
+            CBRC: 103614699 103614730(FADS1) 103614731
+            ETL: 114066084 114066085 114066089
+            ZAB: 102066550 102069423 102069595(FADS1)
+            ACHL: 103805394 103805395 103810955
+            FPG: 101910435 101912001(FADS1) 106112851
+            FCH: 102049758(FADS1) 106631119
+            CLV: 102094615 102098315(FADS1) 102098790
+            EGZ: 104124680 104124682 104124699
+            NNI: 104009395 104009483(FADS1) 104009484
+            PLET: 104619104 104627919 104627920
+            PCRI: 104023942 104036418 104037506
+            PCAO: 104045549 104048901 104051707(FADS1)
+            ACUN: 113481253 113481341 113481355(FADS1)
+            TALA: 104363221 104368248 104368249(FADS1)
+            PADL: 103925784 103925826 103925828(FADS1)
+            AFOR: 103905063 103905173 103907211(FADS1)
+            ACHC: 115351609 115352165 115352167
+            HALD: 104313152 104313153 104322733
+            HLE: 104829426(FADS1) 104829427 104829570
+            AGEN: 126047207 126047208 126047316
+            GCL: 127016483 127016609 127016776
+            CCRI: 104162789 104162790 104166166
+            CSTI: 104554377 104554378 104562342
+            EHS: 104502732 104504142 104505341
+            CMAC: 104473140 104477798 104477799
+            MUI: 104538638 104538639 104538640
+            FGA: 104069286 104070764
+            GSTE: 104253491 104253492 104261229
+            LDI: 104349394 104351594 104351595
+            MNB: 103769636 103781635 103781636
+            OHA: 104339400 104339408(FADS1)
+            NNT: 104399813 104412620
+            DPUB: 104304412 104304440 104304441(FADS1)
+            PGUU: 104463039 104471831 104471841
+            ACAR: 104525757 104525765 104525775
+            CPEA: 104397472 104397492 104397493(FADS1)
+            AVIT: 104267243 104269712 104274326
+            CVF: 104287519(FADS1) 104287521 104287566
+            CUCA: 104062395 104062401(FADS1) 104062546
+            TEO: 104374175 104382106 104382107
+            BRHI: 104491024 104492898 104499051
+            AAM: 106490039 106490040 106490045(FADS1)
+            AROW: 112978023(FADS1) 112978027 112978037
+            NPD: 112948005(FADS1) 112948043 112948044
+            TGT: 104570057 104571492 104571495
+            DNE: 112991679 112991686 112991696(FADS1)
+            SCAM: 104139316 104139318
+            ASN: 102378297 102382011 102382251 102382503 102382756 102386118 102387601 102388109
+            AMJ: 102563927 102564163 102564392 102564994 102565222(FADS1) 102574216 106737005
+            CPOO: 109318130 109318222
+            GGN: 109298190
+            PSS: 102460779 102461025
+            CMY: 102932384 102932824 102933055
+            CPIC: 101936861(FADS1) 101937159
+            TST: 117876524 117877424
+            CABI: 116827619 116828643 116830901(FADS1)
+            MRV: 120403578 120403579 120403581 120403991
+            ACS: 100551618(fads1) 100555351 100555547 100555740 100555937
+            PVT: 110086171 110086173 110086190 110086192(FADS1) 110086194 110086197
+            SUND: 121926305 121930479 121930494 121930500 121930504
+            PBI: 103050792(FADS1) 103053493 103065518
+            PMUR: 107287991 107291623 107291625 107291626 107291627 107291628 107291629 107291630 107295117
+            CTIG: 120312436 120312437 120312438 120312441 120312442 120312443 120312444 120312445 120312447 120312448 120312449
+            TSR: 106538435(FADS1) 106539606 106554505
+            PGUT: 117667020 117667022 117667025 117667027 117667030
+            VKO: 123021210 123021212 123021213 123021347 123021348
+            PMUA: 114584095 114584100 114600543 114600551 114600556 114600565
+            ZVI: 118089033 118089041 118089045 118089057 118089062
+            GJA: 107108850 107108852(FADS1) 107121912 107121913 107121914
+            STOW: 125426611 125426612 125427059 125427338 125427467 125427539
+            XLA: 108713836(fads1.L) 108715199(fads1.S)
+            XTR: 100489232(fads1)
+            NPR: 108794178(FADS1)
+            RTEM: 120917259(FADS1)
+            BBUF: 120981188(FADS1)
+            BGAR: 122920198(FADS1)
+            AANG: 118215203
+            LOC: 102691516(fads1)
+            PSPA: 121330344
+            PSEX: 120535962
+            LCM: 102350226(FADS1)
+            CMK: 103174860
+            RTP: 109937249
+            AJC: 117125539
+            ATD: 109598043
+            LGI: LOTGIDRAFT_170234
+            PCAN: 112557826
+            GTT: GUITHDRAFT_104142
+DBLINKS     ExplorEnz - The Enzyme Database: 1.14.19.44
+            IUBMB Enzyme Nomenclature: 1.14.19.44
+            ExPASy - ENZYME nomenclature database: 1.14.19.44
+            BRENDA, the Enzyme Database: 1.14.19.44
+///

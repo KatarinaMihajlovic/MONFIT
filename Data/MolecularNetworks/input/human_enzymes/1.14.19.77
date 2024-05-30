@@ -1,0 +1,562 @@
+ENTRY       EC 1.14.19.77               Enzyme
+NAME        plasmanylethanolamine desaturase;
+            TMEM189 (gene name);
+            2-acyl-1-alkyl-sn-glycero-3-phosphoethanolamine desaturase;
+            alkylacylglycerophosphoethanolamine desaturase;
+            alkylacylglycero-phosphorylethanolamine dehydrogenase;
+            alkyl-acylglycerophosphorylethanolamine dehydrogenase;
+            1-O-alkyl-2-acyl-sn-glycero-3-phosphorylethanolamine desaturase;
+            1-O-alkyl 2-acyl-sn-glycero-3-phosphorylethanolamine desaturase
+CLASS       Oxidoreductases;
+            Acting on paired donors, with incorporation or reduction of molecular oxygen;
+            With oxidation of a pair of donors resulting in the reduction of O2 to two molecules of water
+SYSNAME     plasmanylethanolamine,ferrocytochrome b5:oxygen oxidoreductase (plasmenylethanolamine-forming)
+REACTION    a plasmanylethanolamine + 2 ferrocytochrome b5 + O2 + 2 H+ = a plasmenylethanolamine + 2 ferricytochrome b5 + 2 H2O [RN:R04571]
+ALL_REAC    R04571
+SUBSTRATE   plasmanylethanolamine [CPD:C04475];
+            ferrocytochrome b5 [CPD:C00999];
+            O2 [CPD:C00007];
+            H+ [CPD:C00080]
+PRODUCT     plasmenylethanolamine [CPD:C04756];
+            ferricytochrome b5 [CPD:C00996];
+            H2O [CPD:C00001]
+COMMENT     The enzyme catalyses the introduction of a double bond at position 1 of the alkyl group attached by an ether bond at the sn-1 position of plasmanylethanolamine, generating a vinyl ether-containing plasmenylethanolamine. The enzyme is found in animals and some bacteria, but not in plants, fungi, or most aerobic bacteria.
+HISTORY     EC 1.14.19.77 created 1976 as EC 1.14.99.19, transferred 2020 to EC 1.14.19.77
+REFERENCE   1  [PMID:5550967]
+  AUTHORS   Stoffel W, LeKim D
+  TITLE     Studies on the biosynthesis of plasmalogens. Precursors in the biosynthesis of plasmalogens: on the stereospecificity of the biochemical dehydrogenation of the  1-O-alkyl glyceryl to the 1-O-alk-1'-enyl glyceryl ether bond.
+  JOURNAL   Hoppe Seylers Z Physiol Chem 352:501-11 (1971)
+            DOI:10.1515/bchm2.1971.352.1.501
+REFERENCE   2  [PMID:11946011]
+  AUTHORS   Paltauf F
+  TITLE     Biosynthesis of plasmalogens from alkyl- and alkyl-acyl-glycerophosphoryl ethanolamine in the rat brain.
+  JOURNAL   FEBS Lett 17:118-120 (1971)
+            DOI:10.1016/0014-5793(71)80578-1
+REFERENCE   3  [PMID:4150797]
+  AUTHORS   Paltuaf F, Prough RA, Masters BS, Johnston JM
+  TITLE     Evidence for the participation of cytochrome b5 in plasmalogen biosynthesis.
+  JOURNAL   J Biol Chem 249:2661-2 (1974)
+REFERENCE   4  [PMID:235322]
+  AUTHORS   Wykle RL, Schremmer Lockmiller JM
+  TITLE     The biosynthesis of plasmalogens by rat brain: involvement of the microsomal electron transport system.
+  JOURNAL   Biochim Biophys Acta 380:291-8 (1975)
+            DOI:10.1016/0005-2760(75)90015-6
+REFERENCE   5  [PMID:31604315]
+  AUTHORS   Gallego-Garcia A, Monera-Girona AJ, Pajares-Martinez E, Bastida-Martinez E, Perez-Castano R, Iniesta AA, Fontes M, Padmanabhan S, Elias-Arnanz M
+  TITLE     A bacterial light response reveals an orphan desaturase for human plasmalogen synthesis.
+  JOURNAL   Science 366:128-132 (2019)
+            DOI:10.1126/science.aay1436
+PATHWAY     ec00565  Ether lipid metabolism
+            ec01100  Metabolic pathways
+ORTHOLOGY   K20656  plasmanylethanolamine desaturase
+GENES       HSA: 387521(PEDS1) 387522(PEDS1-UBE2V1)
+            PTR: 100538341(TMEM189)
+            PPS: 100994664(PEDS1)
+            GGO: 101124230(TMEM189)
+            PON: 100937144
+            NLE: 100594969
+            HMH: 116461372
+            MCC: 702250(TMEM189)
+            MCF: 101866901(PEDS1)
+            MTHB: 126964390
+            MNI: 105470687(TMEM189)
+            CSAB: 103244462(TMEM189)
+            CATY: 105585397(TMEM189)
+            PANU: 101010392(TMEM189)
+            TGE: 112632714(TMEM189)
+            MLEU: 105548949
+            RRO: 104678546
+            RBB: 108539455(TMEM189)
+            TFN: 117068909(TMEM189)
+            PTEH: 111521037
+            CANG: 105502576(TMEM189)
+            CJC: 100538343(TMEM189)
+            SBQ: 101035169(TMEM189)
+            CIMI: 108305332(PEDS1)
+            MMUR: 105872283(TMEM189)
+            LCAT: 123622714(PEDS1)
+            PCOQ: 105818626
+            OGA: 100952169
+            MMU: 407243(Peds1)
+            MCAL: 110284278
+            MPAH: 110317661(Tmem189)
+            RNO: 362278(Peds1)
+            MCOC: 116091429(Tmem189)
+            ANU: 117702779
+            MUN: 110548943
+            CGE: 100760484
+            MAUA: 101832721(Peds1)
+            PLEU: 114692668
+            MORG: 121460120
+            MFOT: 126487394
+            AAMP: 119814411
+            NGI: 103735785
+            HGL: 101698415
+            CPOC: 100727302
+            CCAN: 109692606(Tmem189)
+            DORD: 105991639
+            DSP: 122102251
+            NCAR: 124975255
+            OPI: 105941521
+            TUP: 102495771(TMEM189)
+            GVR: 103589806
+            CFA: 611401
+            CLUD: 112674108(PEDS1)
+            VVP: 112931947(TMEM189)
+            VLG: 121478010
+            AML: 100465807
+            UMR: 103669669
+            UAH: 113258709(TMEM189)
+            UAR: 123775921
+            ELK: 111141411
+            LLV: 125109639
+            MPUF: 101670792
+            NVS: 122915980
+            ORO: 101379558
+            EJU: 114225507
+            ZCA: 113937342
+            MLX: 118023964
+            NSU: 110576694
+            LWW: 102726182
+            FCA: 101081283(TMEM189)
+            PYU: 121019937(PEDS1)
+            PBG: 122467279
+            LRUF: 124502885
+            PTG: 102966132(TMEM189)
+            PPAD: 109272284(TMEM189)
+            AJU: 106986028(TMEM189)
+            HHV: 120230415
+            BTA: 507694(PEDS1)
+            BOM: 102278448(TMEM189)
+            BIU: 109567543
+            BBUB: 102400490(PEDS1)
+            BBIS: 104985113(TMEM189)
+            CHX: 102173207
+            OAS: 101117690
+            ODA: 120869090(PEDS1)
+            CCAD: 122448812
+            SSC: 100513322(TMEM189)
+            CFR: 102516656
+            CBAI: 105071854
+            CDK: 105087876
+            VPC: 102534999
+            BACU: 102998454(TMEM189)
+            LVE: 103069487(TMEM189)
+            OOR: 101287086
+            DLE: 111186630
+            PCAD: 102976124(TMEM189)
+            PSIU: 116739922
+            ECB: 100071459(TMEM189)
+            EPZ: 103560083
+            EAI: 106825706
+            MYB: 102248038(TMEM189)
+            MYD: 102771511(TMEM189)
+            MMYO: 118663824(PEDS1)
+            MLF: 102419117(TMEM189)
+            MNA: 107540607
+            PKL: 118707452(PEDS1)
+            HAI: 109381859(TMEM189)
+            DRO: 112303773
+            SHON: 118996485
+            AJM: 119065260
+            PDIC: 114506316
+            PHAS: 123814734
+            MMF: 118618297(PEDS1)
+            RFQ: 117015780(TMEM189)
+            PALE: 102896379
+            PGIG: 120603799(PEDS1)
+            PVP: 105296049(TMEM189)
+            RAY: 107510336
+            MJV: 108391990
+            TOD: 119236437
+            SARA: 101553201
+            LAV: 100660912(TMEM189)
+            TMU: 101358899
+            ETF: 101643035
+            DNM: 105746476(TMEM189)
+            MDO: 100538345(TMEM189)
+            GAS: 123237134
+            SHR: 100934390
+            AFZ: 127548905
+            PCW: 110206649(TMEM189)
+            OAA: 100076895(TMEM189)
+            GGA: 100538348(TMEM189)
+            PCOC: 116242999(TMEM189)
+            MGP: 100543540
+            CJO: 107323104
+            NMEL: 110408011
+            APLA: 101798375(TMEM189)
+            ACYG: 106041442(PEDS1)
+            AFUL: 116495729(TMEM189)
+            TGU: 100190093(TMEM189)
+            LSR: 110475234
+            SCAN: 103818896
+            PMOA: 120506992
+            OTC: 121342985
+            PRUF: 121359463
+            GFR: 102031723(TMEM189)
+            FAB: 101814305(TMEM189)
+            PHI: 102110647
+            PMAJ: 107213107
+            CCAE: 111938394
+            CCW: 104687590
+            CBRC: 103618193
+            ETL: 114067287
+            ZAB: 102065063
+            ACHL: 103798359(TMEM189)
+            FPG: 101917808(TMEM189)
+            FCH: 102048394
+            CLV: 102095565
+            EGZ: 104132157
+            NNI: 104013103(TMEM189)
+            PLET: 104616705(TMEM189)
+            PCRI: 104037937(TMEM189)
+            PCAO: 104052920(TMEM189)
+            ACUN: 113487638(TMEM189)
+            TALA: 104367064
+            PADL: 103919351(TMEM189)
+            AFOR: 103894668
+            ACHC: 115338769
+            HLE: 104833211
+            AGEN: 126045297
+            GCL: 127023127
+            CCRI: 104164280(TMEM189)
+            CSTI: 104554134(TMEM189)
+            EHS: 104515359(TMEM189)
+            CMAC: 104474472(TMEM189)
+            MUI: 104547792(TMEM189)
+            FGA: 104071417(TMEM189)
+            GSTE: 104252508(TMEM189)
+            LDI: 104351356(TMEM189)
+            MNB: 103782517(TMEM189)
+            OHA: 104328844
+            NNT: 104413564(TMEM189)
+            DPUB: 104302698
+            PGUU: 104462006(TMEM189)
+            ACAR: 104523481(TMEM189)
+            CPEA: 104389641(TMEM189)
+            AVIT: 104278359(TMEM189)
+            CVF: 104293932(TMEM189)
+            CUCA: 104057401(TMEM189)
+            TEO: 104382339(TMEM189)
+            BRHI: 104493450(TMEM189)
+            AAM: 106486457
+            AROW: 112960775
+            DNE: 112982896
+            SCAM: 104150059
+            ASN: 102381373(TMEM189)
+            AMJ: 102566693(TMEM189)
+            CPOO: 109318701
+            GGN: 109292380
+            PSS: 102450275 102453654
+            CMY: 102929896 102930562
+            CPIC: 101931926 101952652
+            TST: 117885688 117886829
+            CABI: 116828653 116838672
+            MRV: 120380558 120384194
+            ACS: 100566872(tmem189)
+            PVT: 110071799
+            SUND: 121927916
+            PBI: 103064187
+            PMUR: 107289376
+            CTIG: 120308776
+            TSR: 106552877
+            PGUT: 117663561
+            VKO: 123028509
+            PMUA: 114599632
+            ZVI: 118088266(PEDS1)
+            GJA: 107107785
+            STOW: 125432518(PEDS1)
+            XLA: 733375
+            XTR: 100551495(tmem189)
+            NPR: 108800142(UBE2V1)
+            RTEM: 120919140
+            BBUF: 121005845
+            BGAR: 122941547
+            DRE: 450031(peds1) 492735(si:ch211-212o1.2)
+            SRX: 107711858 107738740 107740306 107751443
+            SANH: 107669672 107672277 107679882 107686280 107686334
+            SGH: 107549643 107556313 107583780 107594514
+            CCAR: 109072739 109083335 109094798
+            CAUA: 113061476 113072099 113107526 113107549 113118339
+            CGIB: 127934370 127963826 127977594(si:ch211-212o1.2) 128018559
+            PPRM: 120484235(peds1) 120493902(si:ch211-212o1.2)
+            MAMB: 125253853(si:ch211-212o1.2) 125279730(peds1)
+            CIDE: 127499693(si:ch211-212o1.2) 127517935
+            MASI: 127414932 127417413 127424263 127456506
+            IPU: 100528160(peds1) 108264382(si:ch211-212o1.2) 124627979
+            PHYP: 113528134 113534524
+            SMEO: 124395820(si:ch211-212o1.2) 124399753(peds1)
+            TFD: 113652612(si:ch211-212o1.2) 113655710(peds1)
+            AMEX: 103028470 103038667
+            EEE: 113589790 113591012
+            TRU: 101074695(tmem189)
+            TNG: GSTEN00023467G001
+            LCO: 104919928 104931465
+            CGOB: 115010277(tmem189)
+            ELY: 117258150(tmem189) 117262447(si:ch211-212o1.2)
+            EFO: 125887319(si:ch211-212o1.2) 125891910(peds1)
+            PLEP: 121947283(peds1) 121950077(si:ch211-212o1.2)
+            SLUC: 116043606(peds1) 116046469(si:ch211-212o1.2)
+            ECRA: 117947032(tmem189) 117948510(si:ch211-212o1.2)
+            ESP: 116692083 116694433
+            PFLV: 114558639 114560362
+            GAT: 120828834(peds1)
+            PPUG: 119206802 119222094(peds1)
+            MSAM: 119893928(si:ch211-212o1.2) 119905214(peds1)
+            CUD: 121514918(si:ch211-212o1.2) 121517279(peds1)
+            ALAT: 119022220(peds1) 119024883(si:ch211-212o1.2)
+            MZE: 101463799 101486284
+            ONL: 100694737 100695703
+            OAU: 116317188(peds1) 116327365(si:ch211-212o1.2)
+            OLA: 101156405(tmem189) 101171992
+            OML: 112152183(si:ch211-212o1.2) 112159000(peds1)
+            XMA: 102227768 102229207
+            XCO: 114140351 114157668
+            XHE: 116712948 116731156
+            PRET: 103466733 103467757
+            PFOR: 103138816 103139104
+            PLAI: 106952836 106963665
+            PMEI: 106916791 106921426
+            GAF: 122836108(si:ch211-212o1.2) 122838757(peds1)
+            CVG: 107090722 107090913
+            CTUL: 119789137(si:ch211-212o1.2) 119799408(peds1)
+            GMU: 124855908(si:ch211-212o1.2) 124867048(peds1)
+            NFU: 107388536 107391297
+            KMR: 108249565(peds1) 108251456(si:ch211-212o1.2)
+            ALIM: 106522954(tmem189)
+            NWH: 119417484(peds1)
+            AOCE: 111572077 111581635
+            MCEP: 125004401(peds1) 125015460(si:ch211-212o1.2)
+            CSEM: 103379655 103385608 103385617
+            POV: 109640617 109641788
+            SSEN: 122777382(peds1)
+            HHIP: 117762948(si:ch211-212o1.2) 117764114(tmem189)
+            HSP: 118109100(si:ch211-212o1.2) 118111559(peds1)
+            LCF: 108890485(peds1) 108901902(si:ch211-212o1.2)
+            SDU: 111225244 111235131
+            SLAL: 111654944 111661889
+            XGL: 120793020(si:ch211-212o1.2) 120804464(peds1)
+            HCQ: 109507661 109526876(ube2v1)
+            SSCV: 125988032
+            BPEC: 110164595 110169509(tmem189)
+            MALB: 109962562 109970305
+            BSPL: 114857162(si:ch211-212o1.2) 114858657(peds1)
+            SASA: 100195807(tm189) 106560866
+            STRU: 115168030 115196842
+            OTW: 112218501(si:ch211-212o1.2) 112221864(peds1)
+            OMY: 110492131(peds1) 110494576(si:ch211-212o1.2)
+            OGO: 124037573(si:ch211-212o1.2) 124045951(peds1)
+            ONE: 115102403 115134320
+            SALP: 111962343 111976475
+            SNH: 120061128(peds1) 120066225(si:ch211-212o1.2)
+            CCLU: 121531838(si:ch211-212o1.2) 121545700(peds1)
+            ELS: 105022328 105024213
+            SFM: 108918954 108939288
+            PKI: 111850707 111851842 111855731
+            AANG: 118207626(peds1) 118211046 118228211(si:ch211-212o1.2)
+            LOC: 102687926 102692916
+            PSPA: 121296409(si:ch211-212o1.2) 121297917(peds1) 121326222
+            ARUT: 117424038(si:ch211-212o1.2) 117425022 117430609
+            PSEX: 120535195(si:ch211-212o1.2)
+            LCM: 102354153 102358578
+            CMK: 103176074(si:ch211-212o1.2) 103190912
+            RTP: 109916056 109928512 109928513
+            BFO: 118417046
+            BBEL: 109480503
+            CIN: 100178755
+            SCLV: 120332442
+            SPU: 593687
+            APLC: 110982200
+            AJC: 117122298
+            SKO: 102807657
+            DME: Dmel_CG10723(Kua)
+            DER: 6548909
+            DSE: 6614780
+            DSI: Dsimw501_GD24246(Dsim_GD24246)
+            DYA: Dyak_GE13298
+            DAN: 6497274
+            DSR: 110185755
+            DPO: 4816409
+            DPE: 6596530
+            DMN: 108162003
+            DWI: 6646748
+            DGR: 6566544
+            DMO: Dmoj_GI17412
+            DAZ: 108609928
+            DNV: 115562797
+            DHE: 111600428
+            DVI: 6634008
+            CCAT: 101451618 111591542
+            BOD: 106626460
+            RZE: 108361242
+            MDE: 101898939
+            SCAC: 106083295
+            LCQ: 111684330
+            LSQ: 119604340
+            HIS: 119647404
+            AGA: AgaP_AGAP009703
+            ACOZ: 120955020
+            AARA: 120903482
+            ASTE: 118508960
+            AAG: 110677009
+            AALB: 109418121
+            CQU: CpipJ_CPIJ005919
+            CPII: 120431688
+            CNS: 116337252
+            BCOO: 119085841
+            AME: 413030
+            ACER: 107996861
+            ALAB: 122716216
+            BIM: 100748815
+            BBIF: 117204735
+            BVK: 117230266
+            BVAN: 117163702
+            BTER: 100651925
+            BPYO: 122571054
+            CCAL: 108628197
+            OBB: 114878339
+            MGEN: 117224439
+            NMEA: 116432150
+            CGIG: 122396849
+            SOC: 105199618
+            MPHA: 105830825
+            AEC: 105151632
+            ACEP: 105617457
+            PBAR: 105428449
+            VEM: 105559297
+            HST: 105189447
+            DQU: 106743498
+            CFO: 105252349
+            FEX: 115233409
+            LHU: 105674698
+            PGC: 109853476
+            OBO: 105286238
+            PCF: 106793649
+            PFUC: 122516290
+            VPS: 122628958
+            NVI: 100120491
+            CSOL: 105367375
+            TPRE: 106657654
+            MDL: 103569812
+            CGLO: 123259190
+            FAS: 105264905
+            DAM: 107042830
+            AGIF: 122851512
+            CINS: 118073938
+            LHT: 122502105
+            CCIN: 107266129
+            TCA: 664259
+            DPA: 109539052
+            SOY: 115886294
+            ATD: 109605491
+            CSET: 123311866
+            AGB: 108911368
+            LDC: 111509314
+            NVL: 108568000
+            APLN: 108739801
+            PPYR: 116158929 116164489
+            OTU: 111423031
+            BMOR: 101743272
+            BMAN: 114250956
+            MSEX: 115440982
+            DPL: KGM_214200
+            BANY: 112058569
+            NIQ: 126780892
+            PMAC: 106710805
+            PPOT: 106099852
+            PXU: 106127716
+            PRAP: 110998651
+            PBX: 123711983
+            PNAP: 125056391
+            ZCE: 119840168
+            CCRC: 123706104
+            HAW: 110375495
+            HZE: 124645726
+            TNL: 113501554
+            SLIU: 111352405
+            OFU: 114355799
+            PXY: 105387288
+            BTAB: 109041238
+            DCI: 103513575
+            CLEC: 106666949
+            HHAL: 106682068
+            NLU: 111054838
+            FOC: 113208517
+            TPAL: 117642786
+            ZNE: 110837508
+            CSEC: 111870424
+            SGRE: 126325528
+            FCD: 110842237
+            DPX: DAPPUDRAFT_218891
+            DMK: 116927670 123477487
+            DPZ: 124337499
+            PVM: 113802465 113807099
+            PJA: 122251909 122253431
+            PCHN: 125026696
+            PMOO: 119580002
+            HAME: 121877625
+            PCLA: 123771749
+            PTRU: 123507915
+            HAZT: 108668296
+            EAF: 111714086
+            PPOI: 119089501
+            ISC: IscW_ISCW002059
+            DSV: 119435984
+            RSAN: 119404683
+            RMP: 119187489
+            TUT: 107364898
+            CSCU: 111615989 111616728
+            PTEP: 107445327
+            SDM: 118190183
+            CEL: CELE_Y53C10A.5(tmem-189)
+            CBR: CBG_13650
+            LOA: LOAG_05866
+            NAI: NECAME_11914
+            HRO: HELRODRAFT_111107
+            LGI: LOTGIDRAFT_221531
+            PCAN: 112576912
+            BGT: 106067737
+            GAE: 121389420
+            HRF: 124143429
+            HRJ: 124273801
+            CRG: 105329576
+            MYI: 110464778
+            PMAX: 117337061
+            MCAF: 127701343
+            MMER: 123549774
+            OBI: 106877806
+            OSN: 115226040
+            LAK: 106153330
+            NVE: 5513341 5513345
+            EPA: 110249836
+            ATEN: 116300970
+            ADF: 107358316
+            AMIL: 114961458
+            PDAM: 113665905
+            SPIS: 111333068
+            DGT: 114516762
+            XEN: 124437565
+            HMG: 100206277
+            TAD: TRIADDRAFT_55713
+            AQU: 100631800
+            DDI: DDB_G0269724
+            DPP: DICPUDRAFT_52080
+            DFA: DFA_02722
+            ACAN: ACA1_110500
+            TBR: Tb10.70.5480
+            TBG: TbgDal_X2720
+            TCR: 511367.210
+            LMA: LMJF_21_0440
+            LIF: LINJ_21_0500
+            LDO: LDBPK_210500
+            LMI: LMXM_21_0440
+            LBZ: LBRM_21_0500
+            LPAN: LPMP_210470
+            NGR: NAEGRDRAFT_80076
+            AHEL: Q31a_51050
+DBLINKS     ExplorEnz - The Enzyme Database: 1.14.19.77
+            IUBMB Enzyme Nomenclature: 1.14.19.77
+            ExPASy - ENZYME nomenclature database: 1.14.19.77
+            BRENDA, the Enzyme Database: 1.14.19.77
+///

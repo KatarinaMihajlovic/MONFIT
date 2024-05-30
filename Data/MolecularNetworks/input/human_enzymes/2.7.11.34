@@ -1,0 +1,449 @@
+ENTRY       EC 2.7.11.34                Enzyme
+NAME        NEK6-subfamily protein kinase;
+            NEK6;
+            NEK7;
+            nekl-3
+CLASS       Transferases;
+            Transferring phosphorus-containing groups;
+            Protein-serine/threonine kinases
+REACTION    ATP + a [protein]-(L-serine/L-threonine) = ADP + a [protein]-(L-serine/L-threonine) phosphate
+SUBSTRATE   ATP [CPD:C00002];
+            [protein]-(L-serine/L-threonine)
+PRODUCT     ADP [CPD:C00008];
+            [protein]-(L-serine/L-threonine) phosphate
+COMMENT     Requires Mg2+. NEK6 subfamily kinases are present in animals, though lost in insects, and include human NEK6 and NEK7 and C. elegans nekl-3. They are activated in mitosis by phosphorylation by NEK9 [1], and phosphorylate cytoskeletal proteins including EML4, KIF11A and KIF14 [4,2]. In C. elegans, nekl-3 is involved in clathrin-mediated endocytosis [5]. In peptide arrays, NEK6 prefers to phosphorylate Ser residues, with hydrophobic residues at -2 and +1 and charged residues at -1, -2 and +2 [3].
+HISTORY     EC 2.7.11.34 created 2022
+REFERENCE   1  [PMID:12840024]
+  AUTHORS   Belham C, Roig J, Caldwell JA, Aoyama Y, Kemp BE, Comb M, Avruch J
+  TITLE     A mitotic cascade of NIMA family kinases. Nercc1/Nek9 activates the Nek6 and Nek7 kinases.
+  JOURNAL   J Biol Chem 278:34897-909 (2003)
+            DOI:10.1074/jbc.M303663200
+REFERENCE   2  [PMID:28630147]
+  AUTHORS   Cullati SN, Kabeche L, Kettenbach AN, Gerber SA.
+  TITLE     A bifurcated signaling cascade of NIMA-related kinases controls distinct kinesins in anaphase.
+  JOURNAL   J Cell Biol 216:2339-2354 (2017)
+            DOI:10.1083/jcb.201512055
+REFERENCE   3  [PMID:31124786]
+  AUTHORS   van de Kooij B, Creixell P, van Vlimmeren A, Joughin BA, Miller CJ, Haider N, Simpson CD, Linding R, Stambolic V, Turk BE, Yaffe MB.
+  TITLE     Comprehensive substrate specificity profiling of the human Nek kinome reveals unexpected signaling outputs.
+  JOURNAL   Elife 8:e44635 (2019)
+            DOI:10.7554/eLife.44635
+REFERENCE   4  [PMID:31409757]
+  AUTHORS   Adib R, Montgomery JM, Atherton J, O'Regan L, Richards MW, Straatman KR, Roth D, Straube A, Bayliss R, Moores CA, Fry AM.
+  TITLE     Mitotic phosphorylation by NEK6 and NEK7 reduces the microtubule affinity of EML4 to promote chromosome congression.
+  JOURNAL   Sci Signal 12:eaaw2939 (2019)
+            DOI:10.1126/scisignal.aaw2939
+REFERENCE   5  [PMID:32069276]
+  AUTHORS   Joseph BB, Wang Y, Edeen P, Lazetic V, Grant BD, Fay DS.
+  TITLE     Control of clathrin-mediated endocytosis by NIMA family kinases.
+  JOURNAL   PLoS Genet 16:e1008633 (2020)
+            DOI:10.1371/journal.pgen.1008633
+ORTHOLOGY   K20875  serine/threonine-protein kinase Nek6
+            K20876  serine/threonine-protein kinase Nek7
+GENES       HSA: 10783(NEK6) 140609(NEK7)
+            PTR: 736415(NEK7) 737739(NEK6)
+            PPS: 100991410(NEK7) 100994198(NEK6)
+            GGO: 101139360(NEK7) 101149774(NEK6)
+            PON: 100444655(NEK7) 100449065(NEK6)
+            NLE: 100594590(NEK6) 100604657(NEK7)
+            HMH: 116457548(NEK7) 116475642(NEK6)
+            MCC: 100427402(NEK6) 710464(NEK7)
+            MCF: 102144472(NEK6) 102146083(NEK7)
+            MTHB: 126937214 126939700
+            MNI: 105463902(NEK6) 105484949(NEK7)
+            CSAB: 103230368(NEK7) 103239890(NEK6)
+            CATY: 105575046(NEK7) 105576298(NEK6)
+            PANU: 101005789(NEK7) 101008460(NEK6)
+            TGE: 112608650(NEK6) 112634374(NEK7)
+            MLEU: 105532168(NEK7) 105545656(NEK6)
+            RRO: 104658270(NEK7) 104664368(NEK6)
+            RBB: 108531374(NEK6) 108545093(NEK7)
+            TFN: 117070957(NEK6) 117076252(NEK7)
+            PTEH: 111545944(NEK6) 111550958(NEK7)
+            CANG: 105504111(NEK6) 105504300(NEK7)
+            CJC: 100387933(NEK7) 100411122(NEK6)
+            SBQ: 101027717(NEK6) 101035094(NEK7)
+            CIMI: 108287565(NEK7) 108317704(NEK6)
+            CSYR: 103257361(NEK6) 103264707(NEK7)
+            MMUR: 105860017(NEK7) 105875177(NEK6)
+            LCAT: 123627048(NEK7) 123646302(NEK6)
+            PCOQ: 105806590(NEK6) 105815314(NEK7)
+            OGA: 100943307(NEK6) 100945370(NEK7)
+            MMU: 59125(Nek7) 59126(Nek6)
+            MCAL: 110290538(Nek6) 110296102(Nek7)
+            MPAH: 110317583(Nek6) 110321486(Nek7)
+            RNO: 360161(Nek6) 360850(Nek7)
+            MCOC: 116090106(Nek6) 116100137(Nek7)
+            ANU: 117703039(Nek6) 117716242(Nek7)
+            MUN: 110546497(Nek6) 110566503(Nek7)
+            CGE: 100765727(Nek7) 100772485(Nek6)
+            MAUA: 101826296(Nek6) 101839210(Nek7)
+            PLEU: 114682781(Nek6) 114707203(Nek7)
+            MORG: 121446113(Nek7) 121462591(Nek6)
+            MFOT: 126490146 126507329
+            AAMP: 119818700(Nek6) 119827557(Nek7)
+            NGI: 103726875(Nek6) 103731798(Nek7)
+            HGL: 101708026(Nek7) 101719839(Nek6)
+            CPOC: 100730187(Nek6) 100731670(Nek7)
+            CCAN: 109688251(Nek6) 109698983(Nek7)
+            DORD: 105986505(Nek7) 105989384(Nek6)
+            DSP: 122107115(Nek6) 122126709(Nek7)
+            NCAR: 124961761 124964183
+            OCU: 100338171 100340441
+            OPI: 101519306(NEK6) 101531154(NEK7)
+            TUP: 102490951(NEK6) 102503130(NEK7)
+            GVR: 103586707(NEK6) 103595895(NEK7)
+            CFA: 480008(NEK7) 609003(NEK6)
+            CLUD: 112648278(NEK7) 112677180(NEK6)
+            VVP: 112927862(NEK6) 112934506(NEK7)
+            VLG: 121472828(NEK6) 121493022(NEK7)
+            AML: 100464490(NEK7) 100471607(NEK6)
+            UMR: 103657686(NEK7) 103670461(NEK6)
+            UAH: 113242585(NEK7) 113266394(NEK6)
+            UAR: 123785779(NEK7) 123787984(NEK6)
+            ELK: 111145795 111151021
+            LLV: 125083211 125085643
+            MPUF: 101672728(NEK6) 101679868(NEK7)
+            NVS: 122917263(NEK6) 122918753(NEK7)
+            ORO: 101382520(NEK7) 101384660(NEK6)
+            EJU: 114212762(NEK6) 114221925(NEK7)
+            ZCA: 113931912(NEK7) 113934711(NEK6)
+            MLX: 118014239(NEK7) 118017697(NEK6)
+            NSU: 110574091(NEK7) 110581338(NEK6)
+            LWW: 102746339(NEK7)
+            FCA: 101080747(NEK6) 101093327(NEK7)
+            PYU: 121022418(NEK7) 121034970(NEK6)
+            PBG: 122475164(NEK6) 122476071(NEK7)
+            LRUF: 124504011 124510049
+            PTG: 102950632(NEK6) 102955086(NEK7)
+            PPAD: 109250187(NEK6) 109255767(NEK7)
+            AJU: 106974271(NEK7) 106990073(NEK6)
+            HHV: 120220010(NEK7) 120236319(NEK6)
+            BTA: 515816(NEK6) 781355(NEK7)
+            BOM: 102270477(NEK7) 102287699(NEK6)
+            BIU: 109566448(NEK6) 109570463(NEK7)
+            BBUB: 102402230(NEK6) 102416535(NEK7)
+            BBIS: 104981843(NEK7) 104991531(NEK6)
+            CHX: 102171902(NEK7) 102182138(NEK6)
+            OAS: 101102161(NEK7) 101108466(NEK6)
+            ODA: 120851980(NEK6) 120880068(NEK7)
+            CCAD: 122442146(NEK6) 122451666(NEK7)
+            SSC: 100514624(NEK6) 100521742(NEK7)
+            CFR: 102504849(NEK7) 102519174(NEK6)
+            CBAI: 105069919(NEK6) 105070019(NEK7)
+            CDK: 105090827(NEK7) 105092637(NEK6)
+            VPC: 102527414(NEK7) 102534843(NEK6)
+            BACU: 102999434(NEK6) 103017668(NEK7)
+            LVE: 103077439(NEK7) 103081468(NEK6)
+            OOR: 101271423(NEK6) 101278630(NEK7)
+            DLE: 111177230(NEK6) 111177432(NEK7)
+            PCAD: 102975020(NEK7) 102989396(NEK6)
+            PSIU: 116749693(NEK7) 116755188(NEK6)
+            ECB: 100061722(NEK7) 100071002(NEK6)
+            EPZ: 103556373(NEK7) 103558426(NEK6)
+            EAI: 106823540(NEK7) 106830812(NEK6)
+            MYB: 102248927(NEK7) 102256962(NEK6)
+            MYD: 102754934(NEK7) 102769819(NEK6)
+            MMYO: 118667069(NEK6) 118678711(NEK7)
+            MLF: 102430604(NEK7) 102439997(NEK6)
+            MNA: 107535477(NEK6) 107540243(NEK7)
+            PKL: 118704362(NEK6) 118720361(NEK7)
+            HAI: 109380507(NEK7) 109391344(NEK6)
+            DRO: 112306463(NEK6) 112318794(NEK7)
+            SHON: 118980090(NEK6) 119003876(NEK7)
+            AJM: 119053368(NEK7) 119062675(NEK6)
+            PDIC: 114500575(NEK6) 114512328(NEK7)
+            PHAS: 123823374(NEK6) 123833421(NEK7)
+            MMF: 118629496(NEK6) 118640523(NEK7)
+            RFQ: 117018553(NEK7) 117031783(NEK6)
+            PALE: 102891953(NEK6) 102892548(NEK7)
+            PGIG: 120601685(NEK6) 120619225(NEK7)
+            PVP: 105294898(NEK6) 105296888(NEK7)
+            RAY: 107506649(NEK6) 107513633(NEK7)
+            MJV: 108392118(NEK7) 108400660(NEK6)
+            TOD: 119231473(NEK6) 119234344(NEK7)
+            SARA: 101552188(NEK7) 101556002(NEK6)
+            LAV: 100658662(NEK6) 100668444(NEK7)
+            TMU: 101349618 101359361
+            ETF: 101655097(NEK7) 101659587(NEK6)
+            DNM: 101421242(NEK7) 101422150(NEK6)
+            MDO: 100018380(NEK6) 100026840(NEK7)
+            GAS: 123237364(NEK6) 123245042(NEK7)
+            SHR: 100913259(NEK7) 100919641(NEK6)
+            AFZ: 127550561 127561590
+            PCW: 110194932(NEK6) 110197682(NEK7)
+            OAA: 100078782(NEK6) 100086331(NEK7)
+            GGA: 417101(NEK6) 424350(NEK7)
+            PCOC: 116230559(NEK7) 116234383(NEK6)
+            MGP: 100548923(NEK6)
+            CJO: 107317099(NEK7) 107321937(NEK6)
+            NMEL: 110402745(NEK7) 110406823(NEK6)
+            APLA: 101798885(NEK7) 101802634(NEK6)
+            ACYG: 106040678(NEK6) 106041966(NEK7)
+            AFUL: 116491717(NEK7) 116496826(NEK6)
+            TGU: 100224014(NEK6) 100229625(NEK7)
+            LSR: 110477672(NEK6) 110479853(NEK7)
+            SCAN: 103814835(NEK7) 103818925(NEK6)
+            PMOA: 120510426(NEK7) 120512378(NEK6)
+            OTC: 121337020(NEK6) 121344555(NEK7)
+            PRUF: 121360062(NEK7) 121362484(NEK6)
+            GFR: 102034001(NEK6) 102035573(NEK7)
+            FAB: 101810131(NEK6) 101817284(NEK7)
+            PHI: 102107912(NEK6) 102108320(NEK7)
+            PMAJ: 107208112(NEK7) 107211951(NEK6)
+            CCAE: 111932704(NEK7) 111937111(NEK6)
+            CCW: 104688385(NEK6) 104695414(NEK7)
+            CBRC: 103612550(NEK7) 103623099(NEK6)
+            ETL: 114055848(NEK7) 114061973(NEK6)
+            ZAB: 102061564(NEK6) 102068510(NEK7)
+            ACHL: 103801897 103807695 103812051(NEK6)
+            FPG: 101912545(NEK6) 101917597(NEK7)
+            FCH: 102048718(NEK7) 102058370(NEK6)
+            CLV: 102085593(NEK6) 102091111(NEK7)
+            EGZ: 104123901(NEK7) 104135196(NEK6)
+            NNI: 104020935(NEK7) 104023228(NEK6)
+            PLET: 104617753(NEK7) 104624800
+            PCRI: 104027051(NEK7) 104037133
+            PCAO: 104044431(NEK7) 104052790
+            ACUN: 113483080(NEK7) 113486441(NEK6)
+            TALA: 104360548(NEK6) 104365175(NEK7)
+            PADL: 103912486(NEK6) 103918762(NEK7)
+            AFOR: 103900004(NEK6) 103902164(NEK7)
+            ACHC: 115334868(NEK6) 115348890(NEK7)
+            HALD: 104311300(NEK7) 104323996(NEK6)
+            HLE: 104829267(NEK7) 104833808(NEK6)
+            AGEN: 126041687 126051869
+            GCL: 127018927 127023748
+            CCRI: 104161141(NEK7) 104167557(NEK6)
+            CSTI: 104555682 104556985(NEK7)
+            EHS: 104507460(NEK6) 104513624(NEK7)
+            CMAC: 104481024(NEK6) 104485729(NEK7)
+            MUI: 104543396(NEK7)
+            FGA: 104076236(NEK7) 104078006(NEK6)
+            GSTE: 104257002(NEK6) 104261174(NEK7)
+            LDI: 104346520(NEK7) 104347307
+            MNB: 103770209 103780558(NEK6)
+            OHA: 104329706(NEK7) 104329725(NEK6)
+            NNT: 104400074(NEK6) 104407455(NEK7)
+            DPUB: 104303674(NEK7) 104306507(NEK6)
+            PGUU: 104461221(NEK6) 104463851 104464986
+            ACAR: 104518062(NEK7) 104526509(NEK6)
+            CPEA: 104389782(NEK6) 104390708(NEK7)
+            AVIT: 104270267(NEK6) 104281476(NEK7)
+            CVF: 104286219(NEK7) 104292855(NEK6)
+            CUCA: 104054733(NEK7) 104066864(NEK6)
+            TEO: 104374469(NEK7) 104377683(NEK6)
+            BRHI: 104489011(NEK7) 104501965(NEK6)
+            AAM: 106495994(NEK6) 106499723(NEK7)
+            AROW: 112976511(NEK7) 112977561(NEK6)
+            NPD: 112951226(NEK7) 112955942(NEK6)
+            TGT: 104573326(NEK6) 104577215(NEK7)
+            DNE: 112983629(NEK6) 112994717(NEK7)
+            SCAM: 104140801(NEK7) 104153602(NEK6)
+            ASN: 102367920(NEK6) 102378461(NEK7)
+            AMJ: 102570230(NEK7) 102571441(NEK6)
+            CPOO: 109307052(NEK7) 109314065(NEK6)
+            GGN: 109287092(NEK7) 109293080(NEK6)
+            PSS: 102449735(NEK7) 102454715(NEK6)
+            CMY: 102942833(NEK6) 102943350(NEK7)
+            CPIC: 101936652(NEK6) 101936828(NEK7)
+            TST: 117881234(NEK7) 117889567(NEK6)
+            CABI: 116817442(NEK6) 116819291(NEK7)
+            MRV: 120370153(NEK7) 120372982 120386698(NEK6)
+            ACS: 100561378(nek7) 100563444(nek6)
+            PVT: 110074465(NEK7) 110078818(NEK6)
+            SUND: 121928849(NEK7) 121936306(NEK6)
+            PBI: 103055816(NEK6) 103060104
+            PMUR: 107287593 107298815(NEK6)
+            CTIG: 120298110(NEK6) 120301851(NEK7)
+            TSR: 106544884(NEK7) 106545964(NEK6)
+            PGUT: 117658827(NEK6) 117677306(NEK7)
+            VKO: 123024542(NEK7) 123028262(NEK6)
+            PMUA: 114589193(NEK6) 114598654(NEK7)
+            ZVI: 118083820(NEK6) 118088136(NEK7)
+            GJA: 107115275(NEK7) 107116519(NEK6)
+            STOW: 125432798(NEK7) 125442175(NEK6)
+            XLA: 100036860(nek6.L) 380346(nek6.S) 414882(nek7.S)
+            XTR: 448328(nek6) 780029(nek7)
+            NPR: 108793572(NEK7) 108796682(NEK6)
+            RTEM: 120914238(NEK6) 120945591(NEK7)
+            BBUF: 120977126(NEK6) 120978723(NEK7)
+            BGAR: 122919336(NEK6) 122943088(NEK7)
+            DRE: 445223(nek7) 497165(nek6)
+            SRX: 107719540 107720928 107740205 107741550
+            SANH: 107662348 107674934 107699433 107701949
+            SGH: 107584567 107586417 107593338
+            CCAR: 109046708 109084372 109084383 109108147
+            CAUA: 113038924 113039889 113064382 113064979(nek7)
+            CGIB: 127941901 127941982 127943092 127977406 127986119 127988362
+            PPRM: 120477221(nek7) 120491454(nek6)
+            MAMB: 125252743(nek6) 125263747(nek7)
+            CIDE: 127503527 127521517
+            MASI: 127428927 127430785 127438318 127439309
+            IPU: 108271229(nek7)
+            PHYP: 113534945(nek7)
+            SMEO: 124391466(nek7)
+            TFD: 113651079(nek7)
+            AMEX: 103039387 103046491(nek7)
+            EEE: 113581596 113589282
+            TRU: 101075627(nek7)
+            LCO: 104921802(nek7) 104936759(nek6)
+            NCC: 104945204 104965803(nek7)
+            CGOB: 115007409(nek7)
+            ELY: 117254336(nek7) 117269621(nek6)
+            EFO: 125895821(nek7) 125905846(nek6)
+            PLEP: 121959582(nek6) 121964931(nek7)
+            SLUC: 116038216 116056272(nek7)
+            ECRA: 117950313(nek7) 117959461(nek6)
+            ESP: 116686876 116695399(nek7)
+            PFLV: 114562212 114571431
+            GAT: 120831948
+            PPUG: 119216230(nek7) 119226839(nek6)
+            MSAM: 119900465(nek7) 119914329(nek6)
+            CUD: 121512122(nek7) 121525119(nek6)
+            ALAT: 119028205(nek7) 119030544(nek6)
+            MZE: 101471322 101482921(nek7)
+            ONL: 100698704(nek7) 100704402
+            OAU: 116319155(nek6) 116320215(nek7)
+            OLA: 101170580(nek7) 101173323(nek6)
+            OML: 112136185(nek6) 112150498(nek7)
+            XMA: 102221602 102221821(nek7)
+            XCO: 114149122 114150953(nek7)
+            XHE: 116723836 116725859(nek7)
+            PRET: 103463300(nek7)
+            PFOR: 103153350(nek7)
+            PLAI: 106964107(nek7)
+            PMEI: 106907193(nek7)
+            GAF: 122838931(nek7) 122847134
+            CVG: 107093058(nek7) 107104011
+            CTUL: 119784406(nek7) 119798112(nek6)
+            GMU: 124872248(nek6) 124874029(nek7)
+            NFU: 107392840 107394865
+            KMR: 108234381(nek7) 108242521(nek6)
+            ALIM: 106516793(nek7) 106522211
+            NWH: 119425114(nek6) 119430550(nek7)
+            AOCE: 111568301(nek7)
+            MCEP: 124996512(nek6) 125009078(nek7)
+            CSEM: 103394823(nek7)
+            POV: 109636683(nek7)
+            SSEN: 122758251 122780915(nek7)
+            HHIP: 117759892(nek7)
+            HSP: 118120730(nek7)
+            LCF: 108896447 108898978
+            SDU: 111221155 111229918
+            SLAL: 111648062 111654858
+            XGL: 120790916(nek7) 120806769(nek6)
+            HCQ: 109519054(nek7)
+            SSCV: 125976210
+            BPEC: 110161415 110162837(nek7)
+            MALB: 109966859(nek7) 109970839(nek6)
+            BSPL: 114852883(nek7) 114866589(nek6)
+            SASA: 106560547 106570951
+            STRU: 115158780 115160027 115192187
+            OTW: 112220032(nek6) 112238186 112250981(nek7)
+            OMY: 110521834 110523220(nek6) 110524793
+            OGO: 123989442(nek6) 123996601 124037998
+            ONE: 115118702 115145300
+            SALP: 111961898 111971413
+            SNH: 120025470(nek6) 120036017 120052683(nek7)
+            CCLU: 121534081(nek7) 121540415 121582025(nek6)
+            ELS: 105021768 105028869(nek7)
+            SFM: 108921945(nek6) 108922681 108934966 108935306 114909801 114911226
+            PKI: 111834937(nek7) 111858695(nek6) 111859020
+            AANG: 118206618 118213367(nek6) 118225572(nek7) 118230598
+            LOC: 102683969(nek6) 102684611(nek7)
+            PSPA: 121303551 121303637 121326836(nek7) 121330962
+            ARUT: 117396730 117400588 117417463
+            PSEX: 120514565(nek7) 120535112
+            LCM: 102361140(NEK7) 102363802(NEK6)
+            CMK: 103174775(nek7)
+            RTP: 109910394 109935695
+            BFO: 118421708
+            BBEL: 109471253
+            CIN: 100179672
+            SCLV: 120344369
+            SPU: 576471 579564
+            APLC: 110987542
+            AJC: 117115820
+            SKO: 100371148
+            PXU: 106127948
+            API: 100169010
+            DNX: 107166312
+            AGS: 114121948
+            RMD: 113556409
+            BTAB: 109035828
+            CLEC: 106666692
+            HHAL: 106687697
+            NLU: 111061888
+            PHU: Phum_PHUM463250
+            FOC: 113213155
+            TPAL: 117647539
+            ZNE: 110832686
+            CSEC: 111875440
+            SGRE: 126272285 126272410
+            DPX: DAPPUDRAFT_50099
+            DMK: 116917211 116925588
+            DPZ: 124326048 124328387
+            PVM: 113810061
+            PJA: 122245984
+            PCHN: 125032823
+            PMOO: 119595851
+            HAME: 121866448
+            PCLA: 123754399
+            PTRU: 123513480
+            HAZT: 108669773
+            EAF: 111704893
+            LSM: 121130883
+            PPOI: 119103703
+            ISC: IscW_ISCW001885
+            DSV: 119437279
+            RSAN: 119393188
+            RMP: 119160961
+            TUT: 107371743
+            DPTE: 113789923
+            DFR: 124499094
+            CSCU: 111627730
+            PTEP: 107444941
+            SDM: 118185343
+            CEL: CELE_F19H6.1(nekl-3)
+            CBR: CBG_00136(Cbr-nekl-3)
+            BMY: BM_BM3452(Bma-nekl-3)
+            LOA: LOAG_07567
+            NAI: NECAME_13564
+            HRO: HELRODRAFT_156467
+            LGI: LOTGIDRAFT_114237
+            PCAN: 112575215
+            BGT: 106080070
+            GAE: 121366617 121383923 121388112
+            HRF: 124114174 124137547
+            HRJ: 124259361 124275836
+            CRG: 105321854 105324882
+            MYI: 110449860
+            PMAX: 117317138
+            MCAF: 127729443
+            MMER: 123548056 123549085
+            OBI: 106881926
+            OSN: 115215878
+            LAK: 106175288
+            SMM: Smp_097940
+            SHX: MS3_00003724(NEK7_1)
+            OVI: T265_06929
+            NVE: 5506029
+            EPA: 110250309
+            ATEN: 116292725 116294827 116300324
+            ADF: 107332930
+            AMIL: 114963453
+            PDAM: 113673813
+            SPIS: 111321527
+            DGT: 114533617
+            XEN: 124439590 124441773
+            HMG: 100213987
+            TAD: TRIADDRAFT_21160
+            AQU: 100638014
+            MBR: MONBRDRAFT_33972
+            SRE: PTSG_07490
+DBLINKS     ExplorEnz - The Enzyme Database: 2.7.11.34
+            IUBMB Enzyme Nomenclature: 2.7.11.34
+            ExPASy - ENZYME nomenclature database: 2.7.11.34
+            BRENDA, the Enzyme Database: 2.7.11.34
+///

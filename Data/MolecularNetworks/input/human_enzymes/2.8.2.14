@@ -1,0 +1,158 @@
+ENTRY       EC 2.8.2.14                 Enzyme
+NAME        bile-salt sulfotransferase;
+            BAST I;
+            bile acid:3'-phosphoadenosine-5'-phosphosulfate sulfotransferase;
+            bile salt:3'phosphoadenosine-5'-phosphosulfate:sulfotransferase;
+            bile acid sulfotransferase I;
+            glycolithocholate sulfotransferase;
+            3'-phosphoadenylyl-sulfate:glycolithocholate sulfotransferase
+CLASS       Transferases;
+            Transferring sulfur-containing groups;
+            Sulfotransferases
+SYSNAME     3'-phosphoadenylyl-sulfate:glycolithocholate sulfonotransferase
+REACTION    (1) 3'-phosphoadenylyl sulfate + glycolithocholate = adenosine 3',5'-bisphosphate + glycolithocholate 3-sulfate [RN:R07287];
+            (2) 3'-phosphoadenylyl sulfate + taurolithocholate = adenosine 3',5'-bisphosphate + taurolithocholate sulfate [RN:R03987]
+ALL_REAC    R03987 R07287;
+            (other) R08977 R08978 R09444
+SUBSTRATE   3'-phosphoadenylyl sulfate [CPD:C00053];
+            glycolithocholate [CPD:C15557];
+            taurolithocholate [CPD:C02592]
+PRODUCT     adenosine 3',5'-bisphosphate [CPD:C00054];
+            glycolithocholate 3-sulfate [CPD:C11301];
+            taurolithocholate sulfate [CPD:C03642]
+COMMENT     The formation of sulfate esters of bile acids is an essential step in the prevention of toxicity by monohydroxy bile acids in many species [3]. This enzyme is both a bile salt and a 3-hydroxysteroid sulfotransferase. In addition to the 5beta-bile acid glycolithocholate, deoxycholate, 3beta-hydroxy-5-cholenoate and dehydroepiandrosterone (3beta-hydroxyandrost-5-en-17-one) also act as substrates [see also EC 2.8.2.2 (alcohol sulfotransferase) and EC 2.8.2.34 (glycochenodeoxycholate sulfotransferase)]. May be identical to EC 2.8.2.2 [3].
+HISTORY     EC 2.8.2.14 created 1978, modified 2005
+REFERENCE   1  [PMID:831833]
+  AUTHORS   Chen LJ, Bolt RJ, Admirand WH.
+  TITLE     Enzymatic sulfation of bile salts. Partial purification and characterization of an enzyme from rat liver that catalyzes the sulfation of bile salts.
+  JOURNAL   Biochim Biophys Acta 480:219-27 (1977)
+            DOI:10.1016/0005-2744(77)90335-7
+REFERENCE   2  [PMID:3470420]
+  AUTHORS   Barnes S, Waldrop R, Crenshaw J, King RJ, Taylor KB.
+  TITLE     Evidence for an ordered reaction mechanism for bile salt: 3'phosphoadenosine-5'-phosphosulfate: sulfotransferase from rhesus monkey liver that catalyzes the sulfation of the hepatotoxin glycolithocholate.
+  JOURNAL   J Lipid Res 27:1111-23 (1986)
+REFERENCE   3  [PMID:2754334]
+  AUTHORS   Barnes S, Buchina ES, King RJ, McBurnett T, Taylor KB.
+  TITLE     Bile acid sulfotransferase I from rat liver sulfates bile acids and 3-hydroxy steroids: purification, N-terminal amino acid sequence, and kinetic properties.
+  JOURNAL   J Lipid Res 30:529-40 (1989)
+REFERENCE   4  [PMID:12543708]
+  AUTHORS   Russell DW
+  TITLE     The enzymes, regulation, and genetics of bile acid synthesis.
+  JOURNAL   Annu Rev Biochem 72:137-74 (2003)
+            DOI:10.1146/annurev.biochem.72.121801.161712
+PATHWAY     ec00980  Metabolism of xenobiotics by cytochrome P450
+ORTHOLOGY   K11822  bile-salt sulfotransferase
+GENES       HSA: 6822(SULT2A1)
+            PTR: 456409(SULT2A1)
+            PPS: 100971784(SULT2A1)
+            GGO: 101137965(SULT2A1)
+            PON: 100431471(SULT2A1)
+            NLE: 100603984(SULT2A1)
+            HMH: 116479417(SULT2A1)
+            MCC: 717600(SULT2A1)
+            MCF: 102130325(SULT2A1)
+            MTHB: 126943497
+            MNI: 105478620(SULT2A1)
+            CSAB: 103234953(SULT2A1)
+            CATY: 105595217(SULT2A1)
+            PANU: 101000955(SULT2A1)
+            TGE: 112611897(SULT2A1)
+            MLEU: 105531904(SULT2A1)
+            RRO: 104673376(SULT2A1)
+            RBB: 108539899(SULT2A1)
+            TFN: 117091485(SULT2A1)
+            PTEH: 111520101(SULT2A1)
+            CANG: 105500701(SULT2A1)
+            CJC: 100413663(SULT2A1)
+            SBQ: 101034912 101040745
+            CIMI: 108283861(SULT2A1) 108316657
+            CSYR: 103256265(SULT2A1) 103268128 103272673
+            MMUR: 105868193 105868194 105869600(SULT2A1) 105873827
+            LCAT: 123623885(SULT2A1)
+            PCOQ: 105817707(SULT2A1)
+            OGA: 100942680 100949505 100954287 100954595 100954909 100956260 100956575 100956888 100957203 100957822 100958792
+            MMU: 20859(Sult2a1) 434121(Sult2a4) 434264(Sult2a5) 629203(Sult2a3) 638251(Sult2a7) 76971(Sult2a8)
+            MCAL: 110287694 110297377 110298916 110299139(Sult2a1)
+            MPAH: 110315086(Sult2a1) 110315385
+            RNO: 24912(Sult2a1) 361510(Sult2a2)
+            MCOC: 116100275 116100375 116100378
+            ANU: 117698023 117700514 117700537 117700538 117700547
+            CGE: 100751331 100751624 100751913 100752375 100752864 100753164 103160274 103160275 113837373
+            MAUA: 101826585 101831195 101841850 121132754
+            PLEU: 114685237 114685239 114685241 114685242 114685243 114685244 114685245 114687068 114687069 114687072 114687323 114687325 114687331 114687332 114687333 114688384 114688385 114703904 114703946 114703954 114703956 114703959
+            MORG: 121449068 121449462 121449475 121449499 121449521 121449541
+            MFOT: 126494651 126494652 126494653 126494654 126494655 126496033
+            AAMP: 119820497 119820498 119820499 119820952
+            NGI: 103729182 103732419 103732424
+            HGL: 101704327(Sult2a1) 101704668 101705514
+            CPOC: 100379531(Std2) 100379581(Std1) 100721490 100729579 100730125 100731507
+            CCAN: 109675537
+            DORD: 106000940 106000941 106000942 106000944 106000945 106000946 106000948
+            DSP: 122125685 122125761 122125762 122125763 122125764 122125765 122125766 122125767 122125768 122125769 122125770 122125771 122125772 122125773 122125775 122125776 122125777 122125778 122125780 122125785 122125786 122125788
+            NCAR: 124974873 124974875 124974876 124974882 124974883 124974884 124974887
+            OCU: 100008598(SULT2A1)
+            OPI: 101532090(SULT2A1)
+            TUP: 102469211 102470067
+            GVR: 103607526(SULT2A1)
+            BTA: 514658 533560(SULT2A1)
+            BOM: 102268811 102269085
+            BIU: 109572833 109572834
+            BBUB: 102395145 102395467
+            BBIS: 104995597 104995599 104995707
+            CHX: 102181069 108633179
+            OAS: 101119842 101120103
+            ODA: 120872213 120872214
+            CCAD: 122420940 122421647 122421698
+            SSC: 641359(SULT2A1)
+            CFR: 102518264(SULT2A1)
+            CBAI: 105062573(SULT2A1)
+            CDK: 105098927(SULT2A1)
+            VPC: 102528443(SULT2A1)
+            BACU: 103005028(SULT2A1)
+            OOR: 105747730
+            DLE: 111180495
+            PSIU: 116743718
+            ECB: 100050266 100050329 100050400 100050477(SULT2A1) 100050557 100052843 100052993
+            EPZ: 103544219 103545059 103555781 103555782 103555784(SULT2A1) 103567536
+            EAI: 106828268 106829389 106838230 106838231 106845150 123281273
+            MYB: 102240460 102254636(SULT2A1)
+            MYD: 102762349 102762941(SULT2A1)
+            MMYO: 118655128 118655129 118657508(SULT2A1)
+            MLF: 102421645 102431147 102437703
+            MNA: 107540047(SULT2A1)
+            PKL: 118715986(SULT2A1) 118716937
+            HAI: 109390976(SULT2A1)
+            DRO: 112312826(SULT2A1) 112313480
+            AJM: 119061676 119065861(SULT2A1)
+            PDIC: 114511474(SULT2A1)
+            PHAS: 123813613 123822928(SULT2A1)
+            RFQ: 117034323(SULT2A1) 117034619
+            PALE: 102890032(SULT2A1)
+            PGIG: 120605973 120606999
+            PVP: 105304188(SULT2A1)
+            RAY: 107516041(SULT2A1)
+            SARA: 101551700 101551967 101552228 101552765 101553298 101553558 101553824 101554810 101555003 101555270 101555797
+            LAV: 100654856 100655145 100655424 104845577
+            TMU: 101344801 101351802
+            ETF: 105979774 105979776
+            DNM: 101414352 101416234 101417110 101429367 101431737 101440175 101441775 101443992 101444147
+            MDO: 100018596 100018631
+            GAS: 123239008(SULT2A1)
+            SHR: 100920297 105750186
+            AFZ: 127556915 127557689 127557692
+            PCW: 110220147 110220161
+            DSV: 119444515 119459575
+            RSAN: 119373453
+            RMP: 119185533
+            VDE: 111242803
+            VJA: 111265783
+            CRG: 105318023 105340600
+            PMAX: 117317893
+            WIJ: BWZ20_04230
+            ALTI: ALE3EI_0126
+DBLINKS     ExplorEnz - The Enzyme Database: 2.8.2.14
+            IUBMB Enzyme Nomenclature: 2.8.2.14
+            ExPASy - ENZYME nomenclature database: 2.8.2.14
+            BRENDA, the Enzyme Database: 2.8.2.14
+            CAS: 65802-92-8
+///

@@ -1,0 +1,281 @@
+ENTRY       EC 2.4.1.79                 Enzyme
+NAME        globotriaosylceramide 3-beta-N-acetylgalactosaminyltransferase;
+            uridine diphosphoacetylgalactosamine-galactosylgalactosylglucosylceramide acetylgalactosaminyltransferase;
+            globoside synthetase;
+            UDP-N-acetylgalactosamine:globotriaosylceramide beta-3-N-acetylgalactosaminyltransferase;
+            galactosylgalactosylglucosylceramide beta-D-acetylgalactosaminyltransferase;
+            UDP-N-acetylgalactosamine:globotriaosylceramide beta1,3-N-acetylgalactosaminyltransferase;
+            globoside synthase;
+            gUDP-N-acetyl-D-galactosamine:D-galactosyl-1,4-D-galactosyl-1,4-D-glucosylceramide beta-N-acetyl-D-galactosaminyltransferase;
+            beta3GalNAc-T1;
+            UDP-N-acetyl-D-galactosamine:alpha-D-galactosyl-(1->4)-beta-D-galactosyl-(1->4)-beta-D-glucosylceramide 3III-beta-N-acetyl-D-galactosaminyltransferase;
+            UDP-N-acetyl-D-galactosamine:alpha-D-galactosyl-(1->4)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1)-ceramide 3III-beta-N-acetyl-D-galactosaminyltransferase;
+            UDP-N-acetyl-D-galactosamine:alpha-D-galactosyl-(1->4)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1)-ceramide III3-beta-N-acetyl-D-galactosaminyltransferase
+CLASS       Transferases;
+            Glycosyltransferases;
+            Hexosyltransferases
+SYSNAME     UDP-N-acetyl-alpha-D-galactosamine:alpha-D-galactosyl-(1->4)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1)-ceramide III3-beta-N-acetyl-D-galactosaminyltransferase
+REACTION    UDP-N-acetyl-alpha-D-galactosamine + alpha-D-galactosyl-(1->4)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1)-ceramide = UDP + N-acetyl-beta-D-galactosaminyl-(1->3)-alpha-D-galactosyl-(1->4)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1)-ceramide [RN:R05631 R05962]
+ALL_REAC    R05631 R05962(G);
+            (other) R11321(G) R11378(G) R11379(G)
+SUBSTRATE   UDP-N-acetyl-alpha-D-galactosamine [CPD:C00203];
+            alpha-D-galactosyl-(1->4)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1)-ceramide [CPD:C04737]
+PRODUCT     UDP [CPD:C00015];
+            N-acetyl-beta-D-galactosaminyl-(1->3)-alpha-D-galactosyl-(1->4)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1)-ceramide
+COMMENT     Globoside is a neutral glycosphingolipid in human erythrocytes and has blood-group-P-antigen activity [4]. The enzyme requires a divalent cation for activity, with Mn2+ required for maximal activity [3]. UDP-GalNAc is the only sugar donor that is used efficiently by the enzyme: UDP-Gal and UDP-GlcNAc result in very low enzyme activity [3]. Lactosylceramide, globoside and gangliosides GM3 and GD3 are not substrates [4]. For explanation of the superscripted '3' in the systematic name, see {iupac/misc/glylp#5.3::GL-5.3.4}.
+HISTORY     EC 2.4.1.79 created 1976, modified 2006
+REFERENCE   1  [PMID:4632917]
+  AUTHORS   Chien JL, Williams T, Basu S.
+  TITLE     Biosynthesis of a globoside-type glycosphingolipid by a  -N-acetylgalactosaminyltransferase from embryonic chicken brain.
+  JOURNAL   J Biol Chem 248:1778-85 (1973)
+REFERENCE   2  [PMID:4433547]
+  AUTHORS   Ishibashi T, Kijimoto S, Makita A.
+  TITLE     Biosynthesis of globoside and Forssman hapten from trihexosylceramide and properties of beta-N-acetyl-galactosaminyltransferase of guinea pig kidney.
+  JOURNAL   Biochim Biophys Acta 337:92-106 (1974)
+            DOI:10.1016/0005-2760(74)90043-5
+REFERENCE   3  [PMID:6425294]
+  AUTHORS   Taniguchi N, Makita A.
+  TITLE     Purification and characterization of UDP-N-acetylgalactosamine: globotriaosylceramide beta-3-N-acetylgalactosaminyltransferase, a synthase of human blood group P antigen, from canine spleen.
+  JOURNAL   J Biol Chem 259:5637-42 (1984)
+REFERENCE   4  [PMID:10993897]
+  AUTHORS   Okajima T, Nakamura Y, Uchikawa M, Haslam DB, Numata SI, Furukawa K, Urano T, Furukawa K
+  TITLE     Expression cloning of human globoside synthase cDNAs. Identification of beta 3Gal-T3 as UDP-N-acetylgalactosamine:globotriaosylceramide beta 1,3-N-acetylgalactosaminyltransferase.
+  JOURNAL   J Biol Chem 275:40498-503 (2000)
+            DOI:10.1074/jbc.M006902200
+  SEQUENCE  [hsa:8706]
+PATHWAY     ec00601  Glycosphingolipid biosynthesis - lacto and neolacto series
+            ec00603  Glycosphingolipid biosynthesis - globo and isoglobo series
+            ec01100  Metabolic pathways
+ORTHOLOGY   K00719  galactosylgalactosylglucosylceramide beta-D-acetylgalactosaminyltransferase
+GENES       HSA: 8706(B3GALNT1)
+            PTR: 460824(B3GALNT1)
+            PPS: 103783664(B3GALNT1)
+            GGO: 101128316(B3GALNT1)
+            PON: 100174453(B3GALNT1)
+            NLE: 100582204(B3GALNT1)
+            HMH: 116481195(B3GALNT1)
+            MCC: 703939(B3GALNT1)
+            MCF: 102122721(B3GALNT1)
+            MTHB: 126948315
+            MNI: 105488519(B3GALNT1)
+            CSAB: 103241387(B3GALNT1)
+            CATY: 105571923(B3GALNT1)
+            PANU: 101014119(B3GALNT1)
+            TGE: 112619482(B3GALNT1)
+            MLEU: 105530136(B3GALNT1)
+            RRO: 104665025(B3GALNT1)
+            RBB: 108513415(B3GALNT1)
+            TFN: 117079007(B3GALNT1)
+            PTEH: 111550131(B3GALNT1)
+            CANG: 105523987(B3GALNT1)
+            CJC: 100412790(B3GALNT1)
+            SBQ: 104650882(B3GALNT1)
+            CIMI: 108310326(B3GALNT1)
+            CSYR: 103270002(B3GALNT1)
+            MMUR: 105865205 105881201(B3GALNT1)
+            LCAT: 123630229(B3GALNT1)
+            PCOQ: 105815284(B3GALNT1) 105815298
+            OGA: 100948114(B3GALNT1)
+            MMU: 26879(B3galnt1)
+            MCAL: 110291625(B3galnt1)
+            MPAH: 110320437(B3galnt1)
+            RNO: 310508(B3galnt1)
+            MCOC: 116092991(B3galnt1)
+            ANU: 117707692(B3galnt1)
+            MUN: 110555067(B3galnt1)
+            CGE: 100756438(B3galnt1)
+            MAUA: 101842661(B3galnt1)
+            PLEU: 114691707(B3galnt1)
+            MORG: 121452942(B3galnt1)
+            MFOT: 126504866
+            AAMP: 119826479(B3galnt1)
+            NGI: 103738016(B3galnt1)
+            HGL: 101706281(B3galnt1)
+            CPOC: 100729840(B3galnt1)
+            CCAN: 109687568(B3galnt1)
+            DORD: 105985632(B3galnt1)
+            DSP: 122107279(B3galnt1)
+            NCAR: 124993439
+            OCU: 100352272
+            OPI: 101535578(B3GALNT1)
+            TUP: 102470507(B3GALNT1)
+            GVR: 103608030(B3GALNT1)
+            CFA: 100683634(B3GALNT1)
+            CLUD: 112645890(B3GALNT1)
+            VVP: 112933319(B3GALNT1)
+            VLG: 121477463(B3GALNT1)
+            AML: 100472542(B3GALNT1)
+            UMR: 103677240(B3GALNT1)
+            UAH: 113254148(B3GALNT1)
+            UAR: 123801336(B3GALNT1)
+            ELK: 111149669
+            LLV: 125099839
+            MPUF: 101670826(B3GALNT1)
+            NVS: 122908661(B3GALNT1)
+            ORO: 101362550(B3GALNT1)
+            EJU: 114209060(B3GALNT1)
+            ZCA: 113918056(B3GALNT1)
+            MLX: 118005935(B3GALNT1)
+            NSU: 110591647(B3GALNT1)
+            LWW: 102743098(B3GALNT1)
+            FCA: 101092536(B3GALNT1)
+            PYU: 121033933(B3GALNT1)
+            PBG: 122491774(B3GALNT1)
+            LRUF: 124525900
+            PTG: 102967614(B3GALNT1)
+            PPAD: 109262073(B3GALNT1)
+            AJU: 106969458(B3GALNT1)
+            HHV: 120238283(B3GALNT1)
+            BTA: 767844(B3GALNT1)
+            BOM: 102268013(B3GALNT1)
+            BIU: 109558643(B3GALNT1)
+            BBUB: 102399951(B3GALNT1)
+            BBIS: 104988491(B3GALNT1)
+            CHX: 102172392(B3GALNT1)
+            OAS: 101104544(B3GALNT1)
+            ODA: 120868988(B3GALNT1)
+            CCAD: 122444977(B3GALNT1)
+            SSC: 397634(B3GALNT1)
+            CFR: 102520987(B3GALNT1)
+            CBAI: 105066656(B3GALNT1)
+            CDK: 105085986(B3GALNT1)
+            VPC: 102528588(B3GALNT1)
+            BACU: 103007706(B3GALNT1)
+            LVE: 103081769(B3GALNT1) 103082553
+            OOR: 101281290(B3GALNT1) 101288742
+            DLE: 111174411(B3GALNT1) 111185630 111185631
+            PCAD: 102984339 102987471(B3GALNT1)
+            PSIU: 116753608(B3GALNT1)
+            ECB: 100062101(B3GALNT1)
+            EPZ: 103556050(B3GALNT1)
+            EAI: 106841036(B3GALNT1)
+            MYB: 102245995(B3GALNT1)
+            MYD: 102751273(B3GALNT1)
+            MMYO: 118676619(B3GALNT1)
+            MLF: 102437524 102439809(B3GALNT1)
+            MNA: 107539305(B3GALNT1)
+            PKL: 118722297(B3GALNT1)
+            HAI: 109373391(B3GALNT1)
+            DRO: 112307143(B3GALNT1)
+            SHON: 118987441(B3GALNT1)
+            AJM: 119046051(B3GALNT1)
+            PDIC: 114491031(B3GALNT1)
+            PHAS: 123827240(B3GALNT1)
+            MMF: 118617221(B3GALNT1) 118636326
+            RFQ: 117031627(B3GALNT1)
+            PALE: 102885235(B3GALNT1)
+            PGIG: 120598486(B3GALNT1)
+            PVP: 105305269(B3GALNT1)
+            RAY: 107513039(B3GALNT1)
+            MJV: 108396279(B3GALNT1)
+            TOD: 119257657(B3GALNT1)
+            SARA: 101549871(B3GALNT1)
+            LAV: 100672964(B3GALNT1)
+            TMU: 101351705
+            ETF: 101642922(B3GALNT1)
+            DNM: 101433163(B3GALNT1)
+            MDO: 100015392(B3GALNT1)
+            GAS: 123240276(B3GALNT1)
+            SHR: 100914641(B3GALNT1)
+            AFZ: 127552841
+            PCW: 110210070(B3GALNT1)
+            OAA: 100077633(B3GALNT1)
+            GGA: 425011(B3GALNT1)
+            PCOC: 116235495(B3GALNT1)
+            MGP: 100542332(B3GALNT1)
+            CJO: 107318361(B3GALNT1)
+            NMEL: 110397553(B3GALNT1)
+            APLA: 106019552(B3GALNT1)
+            ACYG: 106043526(B3GALNT1)
+            AFUL: 116492328(B3GALNT1)
+            TGU: 100228838(B3GALNT1)
+            LSR: 110476616(B3GALNT1)
+            SCAN: 103815586(B3GALNT1)
+            PMOA: 120504195(B3GALNT1)
+            OTC: 121336527(B3GALNT1)
+            PRUF: 121353689(B3GALNT1)
+            GFR: 102040599(B3GALNT1)
+            FAB: 101809193(B3GALNT1)
+            PHI: 102106993(B3GALNT1)
+            PMAJ: 107208685(B3GALNT1)
+            CCAE: 111933293(B3GALNT1)
+            CCW: 104688069(B3GALNT1)
+            CBRC: 103615715(B3GALNT1)
+            ETL: 114062933(B3GALNT1)
+            ACHL: 103805940(B3GALNT1)
+            FPG: 101912356(B3GALNT1)
+            FCH: 102056837(B3GALNT1)
+            CLV: 102087526(B3GALNT1)
+            EGZ: 104122266(B3GALNT1)
+            NNI: 104011569(B3GALNT1)
+            PLET: 104627882(B3GALNT1)
+            PCRI: 104028548(B3GALNT1)
+            PCAO: 104047083(B3GALNT1)
+            TALA: 104363308(B3GALNT1)
+            PADL: 103925238(B3GALNT1)
+            AFOR: 103898640(B3GALNT1)
+            ACHC: 115347025(B3GALNT1)
+            HALD: 104314644(B3GALNT1)
+            HLE: 104842551(B3GALNT1)
+            AGEN: 126039173
+            GCL: 127020102
+            CCRI: 104160078(B3GALNT1)
+            CSTI: 104560631(B3GALNT1)
+            CMAC: 104475757(B3GALNT1)
+            MUI: 104539654(B3GALNT1)
+            FGA: 104080350(B3GALNT1)
+            GSTE: 104253870(B3GALNT1)
+            LDI: 104353329(B3GALNT1)
+            MNB: 103779678(B3GALNT1)
+            OHA: 104334441(B3GALNT1)
+            NNT: 104403793(B3GALNT1)
+            DPUB: 104301660(B3GALNT1)
+            PGUU: 104463437(B3GALNT1)
+            ACAR: 104523712(B3GALNT1)
+            CPEA: 104387033(B3GALNT1)
+            AVIT: 104270872(B3GALNT1)
+            CVF: 104285904(B3GALNT1)
+            TEO: 104372231(B3GALNT1)
+            BRHI: 104495474(B3GALNT1)
+            AAM: 106495105(B3GALNT1)
+            AROW: 112961979(B3GALNT1)
+            NPD: 112952483(B3GALNT1)
+            TGT: 104565268(B3GALNT1)
+            DNE: 112986451(B3GALNT1)
+            SCAM: 104140021(B3GALNT1)
+            ASN: 102381398(B3GALNT1)
+            AMJ: 102574149(B3GALNT1)
+            CPOO: 109310352(B3GALNT1)
+            GGN: 109287747(B3GALNT1)
+            PSS: 102454980(B3GALNT1)
+            CMY: 102942089(B3GALNT1)
+            CPIC: 101934527(B3GALNT1)
+            TST: 117882635(B3GALNT1)
+            CABI: 116823590(B3GALNT1)
+            MRV: 120372022(B3GALNT1)
+            ACS: 100564179(b3galnt1)
+            PVT: 110078057(B3GALNT1)
+            SUND: 121927083(B3GALNT1)
+            VKO: 123025660(B3GALNT1)
+            PMUA: 114597936(B3GALNT1)
+            ZVI: 118093800(B3GALNT1)
+            GJA: 107107027(B3GALNT1)
+            STOW: 125437503(B3GALNT1)
+            LOC: 102690089(b3galnt1)
+            PSPA: 121322566 121323543 121326691
+            ARUT: 117416799 117423202
+            LCM: 102358886 102363803
+            SPU: 115927124 765098
+            SKO: 102800712 102807352
+            HRF: 124150667
+            HRJ: 124259260 124269462 124290859
+            CRG: 105335519 105335520
+            MYI: 110441288 110452220 110453853 110460297 110463413
+            PMAX: 117335478 117337035
+            LAK: 112042554
+DBLINKS     ExplorEnz - The Enzyme Database: 2.4.1.79
+            IUBMB Enzyme Nomenclature: 2.4.1.79
+            ExPASy - ENZYME nomenclature database: 2.4.1.79
+            BRENDA, the Enzyme Database: 2.4.1.79
+            CAS: 62213-46-1
+///

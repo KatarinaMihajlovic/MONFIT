@@ -1,0 +1,475 @@
+ENTRY       EC 3.3.2.10                 Enzyme
+NAME        soluble epoxide hydrolase;
+            epoxide hydrase (ambiguous);
+            epoxide hydratase (ambiguous);
+            arene-oxide hydratase (ambiguous);
+            aryl epoxide hydrase (ambiguous);
+            trans-stilbene oxide hydrolase;
+            sEH;
+            cytosolic epoxide hydrolase
+CLASS       Hydrolases;
+            Acting on ether bonds;
+            Ether hydrolases
+SYSNAME     epoxide hydrolase
+REACTION    an epoxide + H2O = a glycol [RN:R02822]
+ALL_REAC    R02822 > R05842 R07108 R07109 R07110 R07111
+SUBSTRATE   epoxide [CPD:C00722];
+            H2O [CPD:C00001]
+PRODUCT     glycol [CPD:C15588]
+COMMENT     Catalyses the hydrolysis of trans-substituted epoxides, such as trans-stilbene oxide, as well as various aliphatic epoxides derived from fatty-acid metabolism [7]. It is involved in the metabolism of arachidonic epoxides (epoxyicosatrienoic acids; EETs) and linoleic acid epoxides. The EETs, which are endogenous chemical mediators, act at the vascular, renal and cardiac levels to regulate blood pressure [4,5]. The enzyme from mammals is a bifunctional enzyme: the C-terminal domain exhibits epoxide-hydrolase activity and the N-terminal domain has the activity of EC 3.1.3.76, lipid-phosphate phosphatase [1,2]. Like EC 3.3.2.9, microsomal epoxide hydrolase, it is probable that the reaction involves the formation of an hydroxyalkyl---enzyme intermediate [4,6]. The enzyme can also use leukotriene A4, the substrate of EC 3.3.2.6, leukotriene-A4 hydrolase, but it forms 5,6-dihydroxy-7,9,11,14-icosatetraenoic acid rather than leukotriene B4 as the product [9,10]. In vertebrates, five epoxide-hydrolase enzymes have been identified to date: EC 3.3.2.6 (leukotriene-A4 hydrolase), EC 3.3.2.7 (hepoxilin-epoxide hydrolase), EC 3.3.2.9 (microsomal epoxide hydrolase), EC 3.3.2.10 (soluble epoxide hydrolase) and EC 3.3.2.11 (cholesterol 5,6-oxide hydrolase) [7].
+HISTORY     EC 3.3.2.10 created 2006 (EC 3.3.2.3 created 1978, part incorporated 2006)
+REFERENCE   1  [PMID:12574510]
+  AUTHORS   Newman JW, Morisseau C, Harris TR, Hammock BD
+  TITLE     The soluble epoxide hydrolase encoded by EPXH2 is a bifunctional enzyme with novel lipid phosphate phosphatase activity.
+  JOURNAL   Proc Natl Acad Sci U S A 100:1558-63 (2003)
+            DOI:10.1073/pnas.0437724100
+  SEQUENCE  [hsa:2053]
+REFERENCE   2  [PMID:12574508]
+  AUTHORS   Cronin A, Mowbray S, Durk H, Homburg S, Fleming I, Fisslthaler B, Oesch F, Arand M.
+  TITLE     The N-terminal domain of mammalian soluble epoxide hydrolase is a phosphatase.
+  JOURNAL   Proc Natl Acad Sci U S A 100:1552-7 (2003)
+            DOI:10.1073/pnas.0437829100
+  SEQUENCE  [hsa:2053] [rno:65030]
+REFERENCE   3  [PMID:4584115]
+  AUTHORS   Oesch F.
+  TITLE     Mammalian epoxide hydrases: inducible enzymes catalysing the inactivation of carcinogenic and cytotoxic metabolites derived from aromatic and olefinic compounds.
+  JOURNAL   Xenobiotica 3:305-40 (1973)
+            DOI:10.3109/00498257309151525
+REFERENCE   4  [PMID:15822179]
+  AUTHORS   Morisseau C, Hammock BD.
+  TITLE     Epoxide hydrolases: mechanisms, inhibitor designs, and biological roles.
+  JOURNAL   Annu Rev Pharmacol Toxicol 45:311-33 (2005)
+            DOI:10.1146/annurev.pharmtox.45.120403.095920
+REFERENCE   5  [PMID:11090543]
+  AUTHORS   Yu Z, Xu F, Huse LM, Morisseau C, Draper AJ, Newman JW, Parker C, Graham L, Engler MM, Hammock BD, Zeldin DC, Kroetz DL.
+  TITLE     Soluble epoxide hydrolase regulates hydrolysis of vasoactive epoxyeicosatrienoic acids.
+  JOURNAL   Circ Res 87:992-8 (2000)
+            DOI:10.1161/01.res.87.11.992
+REFERENCE   6
+  AUTHORS   Lacourciere, G.M. and Armstrong, R.N.
+  TITLE     The catalytic mechanism of microsomal epoxide hydrolase involves an ester intermediate.
+  JOURNAL   J Am Chem Soc 115:10466-10456 (1993)
+REFERENCE   7  [PMID:11154734]
+  AUTHORS   Fretland AJ, Omiecinski CJ.
+  TITLE     Epoxide hydrolases: biochemistry and molecular biology.
+  JOURNAL   Chem Biol Interact 129:41-59 (2000)
+            DOI:10.1016/S0009-2797(00)00197-6
+REFERENCE   8  [PMID:7840649]
+  AUTHORS   Zeldin DC, Wei S, Falck JR, Hammock BD, Snapper JR, Capdevila JH.
+  TITLE     Metabolism of epoxyeicosatrienoic acids by cytosolic epoxide hydrolase: substrate structural determinants of asymmetric catalysis.
+  JOURNAL   Arch Biochem Biophys 316:443-51 (1995)
+            DOI:10.1006/abbi.1995.1059
+REFERENCE   9  [PMID:3009453]
+  AUTHORS   Haeggstrom J, Meijer J, Radmark O.
+  TITLE     Leukotriene A4. Enzymatic conversion into 5,6-dihydroxy-7,9,11,14-eicosatetraenoic acid by mouse liver cytosolic epoxide hydrolase.
+  JOURNAL   J Biol Chem 261:6332-7 (1986)
+REFERENCE   10 [PMID:15748653]
+  AUTHORS   Newman JW, Morisseau C, Hammock BD.
+  TITLE     Epoxide hydrolases: their roles and interactions with lipid metabolism.
+  JOURNAL   Prog Lipid Res 44:1-51 (2005)
+            DOI:10.1016/j.plipres.2004.10.001
+PATHWAY     ec00590  Arachidonic acid metabolism
+            ec00625  Chloroalkane and chloroalkene degradation
+            ec01100  Metabolic pathways
+            ec01120  Microbial metabolism in diverse environments
+ORTHOLOGY   K08726  soluble epoxide hydrolase / lipid-phosphate phosphatase
+            K22368  epoxide hydrolase 3
+GENES       HSA: 2053(EPHX2) 79852(EPHX3)
+            PTR: 455793(EPHX3) 464074(EPHX2)
+            PPS: 100983619(EPHX3) 100990932(EPHX2)
+            GGO: 101136750(EPHX2)
+            PON: 100172736(EPHX2) 100455128(EPHX3)
+            NLE: 100585861(EPHX2) 100592370(EPHX3)
+            HMH: 116461991(EPHX2) 116478615(EPHX3)
+            MCC: 712926(EPHX2) 718176(EPHX3)
+            MCF: 102124136(EPHX3) 102134633(EPHX2)
+            MTHB: 126942283 126961771
+            MNI: 105482015(EPHX2) 105495717(EPHX3)
+            CSAB: 103215526(EPHX2) 103234067(EPHX3)
+            CATY: 105579174(EPHX2) 105601607(EPHX3)
+            PANU: 101003613(EPHX3) 101025043(EPHX2)
+            TGE: 112613109(EPHX3) 112629928(EPHX2)
+            MLEU: 105540090(EPHX3) 105542346(EPHX2)
+            RRO: 104661024(EPHX3) 104673945(EPHX2)
+            RBB: 108523071(EPHX3) 108537568(EPHX2)
+            TFN: 117075567(EPHX3) 117093881(EPHX2)
+            PTEH: 111545735(EPHX2) 111554367(EPHX3)
+            CANG: 105513660(EPHX2) 105519765(EPHX3)
+            CJC: 100402999(EPHX2) 100405833(EPHX3)
+            SBQ: 101033420(EPHX2) 101039796(EPHX3)
+            CIMI: 108296599(EPHX3) 108312475(EPHX2)
+            CSYR: 103250514(EPHX2) 103260731(EPHX3)
+            MMUR: 105867940(EPHX3) 105877163(EPHX2)
+            LCAT: 123626651(EPHX2) 123636835(EPHX3)
+            PCOQ: 105825075(EPHX3) 105825288(EPHX2)
+            OGA: 100958729(EPHX2) 100966277(EPHX3)
+            MMU: 13850(Ephx2) 71932(Ephx3)
+            MCAL: 110284324(Ephx3) 110309184(Ephx2)
+            MPAH: 110325104(Ephx2) 110335924(Ephx3)
+            RNO: 366836(Ephx3) 65030(Ephx2)
+            MCOC: 116076366(Ephx3) 116084507(Ephx2)
+            ANU: 117696538(Ephx3) 117696731 117706330(Ephx2)
+            MUN: 110548893(Ephx3) 110559220(Ephx2)
+            CGE: 100753937(Ephx3) 100757328(Ephx2)
+            MAUA: 101825518(Ephx3) 101836372(Ephx2)
+            PLEU: 114686142(Ephx3) 114707310(Ephx2)
+            MORG: 121432503(Ephx3) 121459865(Ephx2)
+            MFOT: 126504071 126507630
+            AAMP: 119800184(Ephx2) 119807284(Ephx3)
+            NGI: 103730002(Ephx2) 103731623(Ephx3)
+            HGL: 101715352(Ephx2) 101722570(Ephx3)
+            CPOC: 100732055(Ephx3) 100734490(Ephx2)
+            CCAN: 109681381(Ephx3) 109683973
+            DORD: 105991601(Ephx2) 105994648(Ephx3)
+            DSP: 122100322(Ephx3) 122123504(Ephx2)
+            NCAR: 124969473 124982494
+            OCU: 100350230 100352464
+            OPI: 101526632(EPHX2) 101532806(EPHX3)
+            TUP: 102480725(EPHX2) 102499982(EPHX3)
+            GVR: 103593419(EPHX3) 103606837(EPHX2)
+            CFA: 100684177(EPHX3) 477373(EPHX2)
+            CLUD: 112666659(EPHX3) 112669696(EPHX2)
+            VVP: 112913147(EPHX3) 112926786(EPHX2)
+            VLG: 121496009(EPHX3) 121496796(EPHX2)
+            AML: 100483292(EPHX3) 100483572(EPHX2)
+            UMR: 103675990(EPHX2) 103677203(EPHX3)
+            UAH: 113248703(EPHX3) 113269956(EPHX2)
+            UAR: 123777357(EPHX2) 123780013(EPHX3)
+            ELK: 111144355 111152645
+            LLV: 125083284 125092972
+            MPUF: 101673413(EPHX3) 101689697(EPHX2)
+            NVS: 122889650(EPHX2) 122910723(EPHX3)
+            ORO: 101373863(EPHX2) 101374433(EPHX3)
+            EJU: 114202202(EPHX3) 114217531(EPHX2)
+            ZCA: 113916260(EPHX3) 113924682(EPHX2)
+            MLX: 118005711(EPHX3) 118022112(EPHX2)
+            NSU: 110574575(EPHX3) 110588489(EPHX2)
+            LWW: 102744299(EPHX3)
+            FCA: 101092355(EPHX2) 101099782(EPHX3)
+            PYU: 121010927(EPHX3) 121022524(EPHX2)
+            PBG: 122473878(EPHX2) 122487028(EPHX3)
+            LRUF: 124520826 124524599
+            PTG: 102954012(EPHX3) 102957184(EPHX2)
+            PPAD: 109247513 109262341(EPHX2)
+            AJU: 106973110(EPHX2) 113596564(EPHX3)
+            HHV: 120220308(EPHX2) 120239254(EPHX3)
+            BTA: 511716(EPHX2) 617882(EPHX3)
+            BOM: 102265452(EPHX3) 102267808(EPHX2)
+            BIU: 109561482(EPHX3) 109563159(EPHX2)
+            BBUB: 102390473(EPHX3) 102411270(EPHX2)
+            BBIS: 104984309(EPHX3) 104988717(EPHX2)
+            CHX: 102184515(EPHX3) 102185835(EPHX2)
+            OAS: 101106654(EPHX2) 101120077(EPHX3)
+            ODA: 120860355 120864150(EPHX3) 120866098
+            CCAD: 122431866(EPHX2) 122440643(EPHX3)
+            SSC: 100625866(EPHX3) 414425(EPHX2)
+            CFR: 102517269(EPHX2) 102521591(EPHX3)
+            CBAI: 105063866(EPHX2) 105074550(EPHX3)
+            CDK: 105102229(EPHX2) 105105142(EPHX3)
+            VPC: 102525763(EPHX3) 102535491(EPHX2)
+            BACU: 102998957(EPHX3) 103015729(EPHX2)
+            LVE: 103082628(EPHX2) 103086935(EPHX3)
+            OOR: 101277852(EPHX3) 101282222(EPHX2)
+            DLE: 111166730(EPHX3) 111185405(EPHX2)
+            PCAD: 102974927(EPHX3) 102997018(EPHX2)
+            PSIU: 116752235(EPHX3)
+            ECB: 100060414(EPHX2) 100063124(EPHX3)
+            EPZ: 103550424(EPHX2) 103563921(EPHX3)
+            EAI: 106832514(EPHX2) 106839070(EPHX3)
+            MYB: 102255588(EPHX2) 102264163(EPHX3)
+            MYD: 102755564(EPHX2) 102768225(EPHX3)
+            MMYO: 118652586(EPHX3) 118659062(EPHX2)
+            MLF: 102426648(EPHX2) 102431711(EPHX3)
+            MNA: 107534291(EPHX3) 107538569(EPHX2)
+            PKL: 118706562(EPHX3) 118710951(EPHX2)
+            HAI: 109376078(EPHX3) 109379561(EPHX2)
+            DRO: 112305266(EPHX3) 112312409(EPHX2)
+            SHON: 118984357(EPHX2) 118993394(EPHX3)
+            AJM: 119044629 119061772(EPHX3)
+            PDIC: 114503007(EPHX2) 114503326(EPHX3)
+            PHAS: 123813726(EPHX2) 123828373(EPHX3)
+            MMF: 118615699(EPHX3)
+            RFQ: 117037789(EPHX2) 117037837(EPHX3)
+            PALE: 102886924(EPHX2) 102895797(EPHX3)
+            PGIG: 120606481(EPHX3) 120613418(EPHX2)
+            PVP: 105292223(EPHX2) 105308250(EPHX3)
+            RAY: 107507539(EPHX2) 107517222(EPHX3)
+            MJV: 108394328(EPHX2) 108408748(EPHX3)
+            TOD: 119240022(EPHX3) 119258012(EPHX2)
+            SARA: 101543845(EPHX3) 101555407(EPHX2)
+            LAV: 100658579(EPHX2) 100672531(EPHX3)
+            TMU: 101343713 101356492
+            ETF: 101648782(EPHX2) 101662622(EPHX3)
+            DNM: 101446323(EPHX2)
+            MDO: 100012757(EPHX3) 100030580(EPHX2)
+            GAS: 123232178(EPHX3) 123233526(EPHX2)
+            SHR: 100927232(EPHX3) 100931196 100931457 100931720
+            AFZ: 127545027 127548796 127548797
+            PCW: 110196222(EPHX3) 110206532(EPHX2)
+            OAA: 100093187(EPHX2) 100093585(EPHX3)
+            GGA: 421999(EPHX2)
+            PCOC: 116235639(EPHX2)
+            MGP: 100550075(EPHX2)
+            CJO: 107312419(EPHX2)
+            NMEL: 110396327(EPHX2)
+            APLA: 101802271(EPHX2)
+            ACYG: 106049519(EPHX2)
+            AFUL: 116487971(EPHX2)
+            TGU: 115494601(EPHX2)
+            LSR: 110477399(EPHX2)
+            SCAN: 103825122(EPHX2)
+            OTC: 121344673(EPHX2)
+            FAB: 101820851(EPHX2)
+            PHI: 102113903(EPHX2)
+            CCAE: 111927478(EPHX2)
+            CBRC: 103614412(EPHX2)
+            ACHL: 103798852(EPHX2)
+            FPG: 101922601(EPHX2)
+            FCH: 102047869(EPHX2)
+            CLV: 102084991(EPHX2)
+            EGZ: 104132029(EPHX2)
+            NNI: 104014768(EPHX2)
+            ACUN: 113478826(EPHX2)
+            TALA: 116959311(EPHX2)
+            AFOR: 103895525(EPHX2)
+            ACHC: 115351280(EPHX2)
+            HLE: 104841483(EPHX2)
+            AGEN: 126046532
+            GCL: 127014502
+            CSTI: 104561767
+            EHS: 104508178(EPHX2)
+            MUI: 104535955(EPHX2)
+            OHA: 104336687(EPHX2)
+            NNT: 104405265(EPHX2)
+            DPUB: 104306749(EPHX2)
+            CPEA: 104392785(EPHX2)
+            AVIT: 104277743(EPHX2)
+            CUCA: 104061780(EPHX2)
+            TEO: 104384441(EPHX2)
+            BRHI: 104487938(EPHX2)
+            AAM: 106486373(EPHX2)
+            AROW: 112966641(EPHX2)
+            NPD: 112949124(EPHX2)
+            DNE: 112993182(EPHX2)
+            ASN: 102380849 102382847(EPHX2)
+            AMJ: 102558789(EPHX2) 102571865(EPHX3)
+            CPOO: 109311562(EPHX2)
+            PSS: 102463793(EPHX2)
+            CMY: 102944771(EPHX2)
+            CPIC: 101948727(EPHX2)
+            CABI: 116822698 116830887 116837371
+            MRV: 120391208(EPHX3) 120401417 120402424
+            ACS: 100564154(ephx2) 100568091(ephx3)
+            PVT: 110080425(EPHX3) 110089501(EPHX2)
+            SUND: 121921147(EPHX2)
+            PBI: 103065207
+            PMUR: 107296270
+            CTIG: 120309116(EPHX2) 120315342(EPHX3)
+            TSR: 106551030(EPHX2)
+            PGUT: 117659547(EPHX3) 117667686(EPHX2)
+            VKO: 123033639(EPHX2) 123035578(EPHX3)
+            PMUA: 114594946(EPHX2)
+            ZVI: 118079953 118082948(EPHX2)
+            GJA: 107118053(EPHX2) 107118743
+            STOW: 125444313(EPHX2)
+            XLA: 108712668(ephx3.S) 447032(ephx2.L)
+            XTR: 448759(ephx2) 779884(ephx3)
+            NPR: 108797013 108798538(EPHX2)
+            RTEM: 120933201(EPHX3) 120936048(EPHX2)
+            BBUF: 120986251 120997151(EPHX2)
+            BGAR: 122929435 122934206(EPHX2)
+            DRE: 494099(ephx2)
+            SRX: 107717245(ephx2) 107733988
+            SANH: 107653762 107692411
+            SGH: 107552031 107594076(ephx2)
+            CCAR: 109107424
+            CAUA: 113060837 113117731
+            CGIB: 127976311 128031809
+            PPRM: 120480857(ephx2)
+            MAMB: 125268326(ephx2)
+            CIDE: 127499108
+            MASI: 127455325
+            IPU: 108270338(ephx2)
+            PHYP: 113538653(ephx2)
+            SMEO: 124390354(ephx2)
+            TFD: 113659551(ephx2)
+            AMEX: 103037948(ephx2)
+            EEE: 113572683(ephx2)
+            TRU: 101078765(ephx2)
+            TNG: GSTEN00019421G001
+            LCO: 104928568(ephx2)
+            NCC: 104958265(ephx2)
+            ELY: 117250024(ephx2)
+            EFO: 125885178(ephx2)
+            PLEP: 121939287(ephx2)
+            SLUC: 116041392
+            ECRA: 117939678(ephx2)
+            ESP: 116674192(ephx2)
+            PFLV: 114571310(ephx2)
+            GAT: 120818346(ephx2)
+            PPUG: 119220354(ephx2)
+            MSAM: 119892822 119901244 119901687 119901935 119903463 119915610
+            CUD: 121506165(ephx2)
+            ALAT: 119015231 119015235
+            MZE: 101483599(ephx2)
+            ONL: 100705182(ephx2)
+            OAU: 116325329(ephx2)
+            OLA: 101157276(ephx2)
+            OML: 112156764(ephx2)
+            XMA: 102235090(ephx2)
+            XCO: 114140564(ephx2)
+            XHE: 116715605(ephx2)
+            PRET: 103456621(ephx2)
+            PFOR: 103154111(ephx2)
+            PLAI: 106949506(ephx2)
+            PMEI: 106919577(ephx2)
+            GAF: 122826945(ephx2)
+            CVG: 107096825(ephx2)
+            CTUL: 119794676(ephx2)
+            GMU: 124861934(ephx2)
+            NFU: 107384625(ephx2)
+            KMR: 108246829(ephx2)
+            ALIM: 106527033(ephx2)
+            NWH: 119428662(ephx2)
+            AOCE: 111573235(ephx2)
+            MCEP: 125000650(ephx2)
+            LCF: 108873166
+            SDU: 111234755(ephx2)
+            SLAL: 111672419(ephx2)
+            XGL: 120798362(ephx2)
+            MALB: 109955803(ephx2)
+            BSPL: 114846652(ephx2)
+            SASA: 106604359(HYES) 106611412(HYES)
+            STRU: 115161918 115172954
+            OTW: 112239012 112239182 112256950
+            OMY: 110498218(ephx2) 110504256
+            OGO: 124001944(ephx2) 124046757
+            ONE: 115113794 115120915
+            SALP: 112071651(ephx2)
+            SNH: 120023101(ephx2)
+            CCLU: 121539061(ephx2) 121544563
+            ELS: 105028738(ephx2)
+            AANG: 118209863(ephx2)
+            LOC: 102697721(ephx2)
+            PSPA: 121317357(ephx2)
+            ARUT: 117411030(ephx2)
+            PSEX: 120526384(ephx2)
+            BFO: 118420112
+            BBEL: 109472833
+            CIN: 113474027
+            SCLV: 120337441 120337631
+            SPU: 590472(EH1) 752510(eh2)
+            APLC: 110985936 110985937
+            AJC: 117113019
+            SKO: 100367532
+            CNS: 116350995
+            SLIU: 111358653
+            NVE: 5521988
+            EPA: 110251610
+            ATEN: 116301187
+            PDAM: 113686980
+            SPIS: 111334437
+            TAD: TRIADDRAFT_30313 TRIADDRAFT_59995 TRIADDRAFT_60010 TRIADDRAFT_60079 TRIADDRAFT_64238
+            DZI: 111302718
+            ADU: 107492180
+            PXB: 103939771
+            CMAX: 111482470
+            QSU: 111990796 111992415 112014879 112037600
+            HAN: 110941524
+            CCAV: 112528667
+            BDI: 100841009
+            TDC: 119283936
+            SBI: 8071538
+            YLI: YALI0A01441g YALI0C23224g YALI0E19899g
+            NCR: NCU02924
+            NTE: NEUTE1DRAFT119163(NEUTE1DRAFT_119163)
+            SMP: SMAC_06471 SMAC_12126
+            PAN: PODANSg2586 PODANSg4881
+            TTT: THITE_2119426
+            MTM: MYCTH_2304288
+            CTHR: CTHT_0024670
+            MGR: MGG_05175 MGG_05826 MGG_07954 MGG_09603 MGG_13875
+            TMN: UCRPA7_1749
+            SSCK: SPSK_04392
+            FGR: FGSG_06744 FGSG_11196
+            FPU: FPSE_02822 FPSE_09090
+            FVR: FVEG_12217
+            FOX: FOXG_08935 FOXG_10109 FOXG_13323 FOXG_14841 FOXG_19442 FOXG_22390
+            NHE: NECHADRAFT_30431 NECHADRAFT_38604 NECHADRAFT_51532 NECHADRAFT_98121
+            TRE: TRIREDRAFT_53220 TRIREDRAFT_57045
+            TRR: M419DRAFT_69084 M419DRAFT_72359
+            MAW: MAC_03724
+            MAJ: MAA_05891 MAA_08508
+            CMT: CCM_01660 CCM_08720
+            PLJ: VFPFJ_10414
+            VAL: VDBG_05347 VDBG_08907
+            VDA: VDAG_06569 VDAG_06997
+            CFJ: CFIO01_01948 CFIO01_02421 CFIO01_04356 CFIO01_06499 CFIO01_11995
+            CHIG: CH63R_09605 CH63R_12939
+            ELA: UCREL1_10468 UCREL1_2213 UCREL1_3351 UCREL1_9854
+            PFY: PFICI_03331 PFICI_05569 PFICI_08381 PFICI_14790
+            SSL: SS1G_08093 SS1G_13652
+            BFU: BCIN_10g01840 BCIN_13g00770 BCIN_15g00230
+            MBE: MBM_01675 MBM_08747
+            PSCO: LY89DRAFT_507394 LY89DRAFT_594279 LY89DRAFT_662388 LY89DRAFT_683181 LY89DRAFT_702826 LY89DRAFT_785580
+            GLZ: GLAREA_02712 GLAREA_04148 GLAREA_09895 GLAREA_12612
+            AOR: AO090012000395
+            ANG: ANI_1_1944014(An01g14420)
+            ALUC: AKAW2_10209A
+            TMF: PMAA_099480
+            TRG: TRUGW13939_04437 TRUGW13939_05195 TRUGW13939_08349
+            PBL: PAAG_06941
+            PBN: PADG_01474
+            AJE: HCAG_03262 HCAG_06274
+            PNO: SNOG_12792 SNOG_13782(SNOG_13781) SNOG_14994
+            PTE: PTT_11179 PTT_13711
+            BZE: COCCADRAFT_10479 COCCADRAFT_23112 COCCADRAFT_24314
+            BSC: COCSADRAFT_329080 COCSADRAFT_37209
+            BOR: COCMIDRAFT_26566 COCMIDRAFT_3129 COCMIDRAFT_97004
+            AALT: CC77DRAFT_1020259 CC77DRAFT_1067778 CC77DRAFT_23691 CC77DRAFT_924398 CC77DRAFT_933869 CC77DRAFT_991934
+            ZTR: MYCGRDRAFT_101398 MYCGRDRAFT_45185 MYCGRDRAFT_67922 MYCGRDRAFT_69862 MYCGRDRAFT_74004
+            PFJ: MYCFIDRAFT_186960 MYCFIDRAFT_202874 MYCFIDRAFT_31012 MYCFIDRAFT_35544 MYCFIDRAFT_63852
+            BCOM: BAUCODRAFT_96023
+            NPA: UCRNP2_1253 UCRNP2_2402 UCRNP2_2781 UCRNP2_536 UCRNP2_578 UCRNP2_7692 UCRNP2_9159
+            TML: GSTUM_00010225001
+            PPL: POSPLDRAFT_103326
+            TVS: TRAVEDRAFT_114934 TRAVEDRAFT_116461 TRAVEDRAFT_121619 TRAVEDRAFT_163026 TRAVEDRAFT_171945 TRAVEDRAFT_42938 TRAVEDRAFT_42939 TRAVEDRAFT_42940 TRAVEDRAFT_42941 TRAVEDRAFT_42942 TRAVEDRAFT_60092 TRAVEDRAFT_72850 TRAVEDRAFT_94256
+            DSQ: DICSQDRAFT_101446 DICSQDRAFT_104823 DICSQDRAFT_61223
+            PCO: PHACADRAFT_104575 PHACADRAFT_118086 PHACADRAFT_151144 PHACADRAFT_191247 PHACADRAFT_194943 PHACADRAFT_198096 PHACADRAFT_207661 PHACADRAFT_208465 PHACADRAFT_255121 PHACADRAFT_260148 PHACADRAFT_91351 PHACADRAFT_93100
+            SHS: STEHIDRAFT_106361 STEHIDRAFT_122857 STEHIDRAFT_61089 STEHIDRAFT_80676 STEHIDRAFT_81610
+            HIR: HETIRDRAFT_148090 HETIRDRAFT_155125 HETIRDRAFT_156748 HETIRDRAFT_156749 HETIRDRAFT_174637 HETIRDRAFT_63479
+            PSQ: PUNSTDRAFT_112781 PUNSTDRAFT_116520 PUNSTDRAFT_139547 PUNSTDRAFT_98990
+            ADL: AURDEDRAFT_110586 AURDEDRAFT_117379 AURDEDRAFT_117569 AURDEDRAFT_117572 AURDEDRAFT_152313 AURDEDRAFT_175477 AURDEDRAFT_80706
+            FME: FOMMEDRAFT_106649 FOMMEDRAFT_127219 FOMMEDRAFT_135095
+            GTR: GLOTRDRAFT_45684 GLOTRDRAFT_68350
+            LBC: LACBIDRAFT_303899 LACBIDRAFT_311540(LbEPHX1)
+            CCI: CC1G_00644 CC1G_00645 CC1G_14690
+            ABP: AGABI1DRAFT110229(AGABI1DRAFT_110229) AGABI1DRAFT38499(AGABI1DRAFT_38499) AGABI1DRAFT70817(AGABI1DRAFT_70817)
+            ABV: AGABI2DRAFT184905(AGABI2DRAFT_184905) AGABI2DRAFT189875(AGABI2DRAFT_189875) AGABI2DRAFT78715(AGABI2DRAFT_78715)
+            MPR: MPER_04928 MPER_09275 MPER_11089
+            MRR: Moror_11208 Moror_13472 Moror_13512 Moror_13860 Moror_14385 Moror_14388 Moror_16097 Moror_2330 Moror_2947 Moror_4070 Moror_6712 Moror_8127
+            MORE: E1B28_004695 E1B28_008290
+            SCM: SCHCO_01159789(SCHCODRAFT_01159789) SCHCO_02625205(SCHCODRAFT_02625205) SCHCO_02645722(SCHCODRAFT_02645722) SCHCO_02666784(SCHCODRAFT_02666784)
+            CPUT: CONPUDRAFT_122227 CONPUDRAFT_93019
+            SLA: SERLADRAFT_354546 SERLADRAFT_448219 SERLADRAFT_479064 SERLADRAFT_479070 SERLADRAFT_480679
+            WSE: WALSEDRAFT_65881
+            WIC: J056_000814
+            UMA: UMAG_04063
+            PFP: PFL1_00989
+            PGR: PGTG_00491 PGTG_05962 PGTG_05973
+            MLR: MELLADRAFT_102079 MELLADRAFT_115158 MELLADRAFT_123933
+            ACAN: ACA1_322160
+            PIF: PITG_11920 PITG_11921 PITG_11922 PITG_15955 PITG_15956
+            PSOJ: PHYSODRAFT_314147 PHYSODRAFT_318677 PHYSODRAFT_525117 PHYSODRAFT_558062 PHYSODRAFT_564652
+            SPAR: SPRG_06039 SPRG_06040 SPRG_06041
+            HAA: A5892_09075
+            MASY: DPH57_08340
+            SCH: Sphch_3450
+            TBH: Tbon_07320
+DBLINKS     ExplorEnz - The Enzyme Database: 3.3.2.10
+            IUBMB Enzyme Nomenclature: 3.3.2.10
+            ExPASy - ENZYME nomenclature database: 3.3.2.10
+            UM-BBD (Biocatalysis/Biodegradation Database): 3.3.2.10
+            BRENDA, the Enzyme Database: 3.3.2.10
+            CAS: 9048-63-9
+///

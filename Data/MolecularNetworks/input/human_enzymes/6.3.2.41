@@ -1,0 +1,367 @@
+ENTRY       EC 6.3.2.41                 Enzyme
+NAME        N-acetylaspartylglutamate synthase;
+            N-acetylaspartylglutamate synthetase;
+            NAAG synthetase;
+            NAAGS;
+            RIMKLA (gene name) (ambiguous);
+            RIMKLB (gene name) (ambiguous)
+CLASS       Ligases;
+            Forming carbon-nitrogen bonds;
+            Acid-D-amino-acid ligases (peptide synthases)
+SYSNAME     N-acetyl-L-aspartate:L-glutamate ligase (ADP, N-acetyl-L-aspartyl-L-glutamate-forming)
+REACTION    ATP + N-acetyl-L-aspartate + L-glutamate = ADP + phosphate + N-acetyl-L-aspartyl-L-glutamate [RN:R10678]
+ALL_REAC    R10678
+SUBSTRATE   ATP [CPD:C00002];
+            N-acetyl-L-aspartate [CPD:C01042];
+            L-glutamate [CPD:C00025]
+PRODUCT     ADP [CPD:C00008];
+            phosphate [CPD:C00009];
+            N-acetyl-L-aspartyl-L-glutamate [CPD:C12270]
+COMMENT     The enzyme, found in animals, produces the neurotransmitter N-acetyl-L-aspartyl-L-glutamate. One isoform also has the activity of EC 6.3.1.17, beta-citrylglutamate synthase [2], while another isoform has the activity of EC 6.3.2.42, N-acetylaspartylglutamylglutamate synthase [3].
+HISTORY     EC 6.3.2.41 created 2014
+REFERENCE   1  [PMID:20643647]
+  AUTHORS   Becker I, Lodder J, Gieselmann V, Eckhardt M
+  TITLE     Molecular characterization of N-acetylaspartylglutamate synthetase.
+  JOURNAL   J Biol Chem 285:29156-64 (2010)
+            DOI:10.1074/jbc.M110.111765
+  SEQUENCE  [mmu:108653] [hsa:57494]
+REFERENCE   2  [PMID:20657015]
+  AUTHORS   Collard F, Stroobant V, Lamosa P, Kapanda CN, Lambert DM, Muccioli GG, Poupaert JH, Opperdoes F, Van Schaftingen E
+  TITLE     Molecular identification of N-acetylaspartylglutamate synthase and beta-citrylglutamate synthase.
+  JOURNAL   J Biol Chem 285:29826-33 (2010)
+            DOI:10.1074/jbc.M110.152629
+  SEQUENCE  [mmu:194237 108653]
+REFERENCE   3  [PMID:21454531]
+  AUTHORS   Lodder-Gadaczek J, Becker I, Gieselmann V, Wang-Eckhardt L, Eckhardt M
+  TITLE     N-acetylaspartylglutamate synthetase II synthesizes N-acetylaspartylglutamylglutamate.
+  JOURNAL   J Biol Chem 286:16693-706 (2011)
+            DOI:10.1074/jbc.M111.230136
+  SEQUENCE  [mmu:194237] [hsa:284716]
+PATHWAY     ec00250  Alanine, aspartate and glutamate metabolism
+            ec01100  Metabolic pathways
+ORTHOLOGY   K18310  beta-citrylglutamate/N-acetylaspartylglutamate synthase
+            K18311  N-acetylaspartylglutamate/N-acetylaspartylglutamylglutamate synthase
+GENES       HSA: 284716(RIMKLA) 57494(RIMKLB)
+            PTR: 735860(RIMKLB) 748944(RIMKLA)
+            PPS: 100970527(RIMKLA) 100974820(RIMKLB)
+            GGO: 101136567(RIMKLB) 101137769(RIMKLA)
+            PON: 100441104(RIMKLB) 100457877(RIMKLA)
+            NLE: 100589997(RIMKLA) 100593570(RIMKLB)
+            HMH: 116456202 116463700 116463727 116472644(RIMKLB) 116481450
+            MCC: 699767(RIMKLA) 722261(RIMKLB)
+            MCF: 102124154(RIMKLB) 102128755(RIMKLA) 102128847 123572791
+            MTHB: 126931378 126935689 126940883 126959995
+            MNI: 105494839(RIMKLA) 105499881(RIMKLB)
+            CSAB: 103218536(RIMKLB) 103225007(RIMKLA)
+            CATY: 105587959(RIMKLB) 105594671(RIMKLA)
+            PANU: 101017885(RIMKLA) 101024010(RIMKLB)
+            TGE: 112631615(RIMKLA) 112635206(RIMKLB)
+            MLEU: 105552618(RIMKLB) 105555114(RIMKLA)
+            RRO: 104668996(RIMKLA) 104672842(RIMKLB)
+            RBB: 108530380(RIMKLA) 108543684(RIMKLB)
+            TFN: 117090541(RIMKLB) 117092770(RIMKLA)
+            PTEH: 111526616(RIMKLB) 111548818(RIMKLA)
+            CANG: 105513879(RIMKLA) 105519900(RIMKLB)
+            CJC: 100400904(RIMKLA) 100406491(RIMKLB)
+            SBQ: 101028223(RIMKLA) 101033047(RIMKLB)
+            CIMI: 108291858(RIMKLB) 108311366 108313389(RIMKLA)
+            CSYR: 103251714(RIMKLB) 103269612(RIMKLA)
+            MMUR: 105862291(RIMKLA) 105878274(RIMKLB)
+            LCAT: 123634283(RIMKLA) 123640042(RIMKLB)
+            PCOQ: 105805100(RIMKLB) 105812355(RIMKLA)
+            OGA: 100941690(RIMKLB) 100962508(RIMKLA)
+            MMU: 108653(Rimklb) 194237(Rimkla)
+            MCAL: 110293598(Rimkla) 110296264(Rimklb)
+            MPAH: 110316335(Rimklb) 110323614(Rimkla)
+            RNO: 362428(Rimklb)
+            MCOC: 116096541(Rimkla) 116099539(Rimklb)
+            ANU: 117709313(Rimkla) 117715398(Rimklb)
+            MUN: 110547458(Rimkla) 110556298(Rimklb)
+            CGE: 100759423(Rimkla) 100760031(Rimklb)
+            MAUA: 101842752(Rimklb) 101843711(Rimkla)
+            PLEU: 114683483(Rimklb) 114704934(Rimkla)
+            MORG: 121438947(Rimklb) 121448391(Rimkla)
+            MFOT: 126513197 126514898
+            AAMP: 119808422(Rimklb) 119818063(Rimkla)
+            NGI: 103727467(Rimklb) 103735994(Rimkla)
+            HGL: 101706744(Rimklb) 101721728(Rimkla)
+            CPOC: 100713055(Rimkla) 100732576(Rimklb)
+            CCAN: 109697724(Rimklb) 109702396(Rimkla)
+            DORD: 105986036(Rimkla) 105991108(Rimklb)
+            DSP: 122111270(Rimkla) 122127019(Rimklb)
+            NCAR: 124969199 124983424
+            OCU: 100346793 100356205
+            OPI: 101523234(RIMKLB) 101536112(RIMKLA)
+            TUP: 102472940(RIMKLB) 102474653(RIMKLA)
+            GVR: 103597920(RIMKLB) 103602407(RIMKLA)
+            CFA: 482445(RIMKLA) 486698(RIMKLB)
+            CLUD: 112642267(RIMKLA) 112675320(RIMKLB)
+            VVP: 112908198(RIMKLA) 112917302(RIMKLB)
+            VLG: 121479857(RIMKLB) 121481599(RIMKLA)
+            AML: 100472546(RIMKLA) 100473320(RIMKLB)
+            UMR: 103669163(RIMKLB) 103670923(RIMKLA)
+            UAH: 113254814(RIMKLA) 113257923(RIMKLB)
+            UAR: 123781552(RIMKLB) 123793822(RIMKLA)
+            ELK: 111142053 111143454
+            LLV: 125098454 125106794
+            MPUF: 101680352(RIMKLB) 101690597(RIMKLA)
+            NVS: 122891599(RIMKLB) 122899834(RIMKLA)
+            ORO: 101368732(RIMKLA) 101374535(RIMKLB)
+            EJU: 114221687(RIMKLB) 114224206(RIMKLA)
+            ZCA: 113919895(RIMKLA) 113921819(RIMKLB)
+            MLX: 118019547(RIMKLA) 118025692(RIMKLB)
+            NSU: 110575430(RIMKLA) 110580730(RIMKLB)
+            LWW: 102733401(RIMKLA) 102741413(RIMKLB)
+            FCA: 101097740(RIMKLB) 101099388(RIMKLA)
+            PYU: 121022064(RIMKLB) 121026952(RIMKLA)
+            PBG: 122473789(RIMKLB) 122480352(RIMKLA)
+            LRUF: 124502657 124514137
+            PTG: 102959348(RIMKLA) 102963865(RIMKLB)
+            PPAD: 109254893(RIMKLA) 109276058(RIMKLB)
+            AJU: 106965320(RIMKLB) 106970196(RIMKLA)
+            HHV: 120222721(RIMKLB) 120236090(RIMKLA)
+            BTA: 507323(RIMKLA) 538579(RIMKLB)
+            BOM: 102269649(RIMKLB) 102285876(RIMKLA)
+            BIU: 109556903(RIMKLA) 109559695(RIMKLB)
+            BBUB: 102397788(RIMKLB) 102407086(RIMKLA) 112578013
+            BBIS: 104995473(RIMKLB) 105004897(RIMKLA)
+            CHX: 102176861(RIMKLB) 102179728(RIMKLA)
+            OAS: 101102554(RIMKLB) 101104941(RIMKLA)
+            ODA: 120856323(RIMKLA) 120858791(RIMKLB)
+            CCAD: 122423372(RIMKLB) 122437135(RIMKLA) 122439954
+            SSC: 100152915(RIMKLB) 100522878(RIMKLA)
+            CFR: 102503881(RIMKLB) 102522941(RIMKLA)
+            CBAI: 105062179(RIMKLB) 105072857(RIMKLA)
+            CDK: 105098170(RIMKLB) 105105491(RIMKLA)
+            VPC: 102526778(RIMKLB) 102545512(RIMKLA)
+            BACU: 103018606(RIMKLA) 103019013(RIMKLB)
+            LVE: 103069710(RIMKLB) 103083571(RIMKLA)
+            OOR: 101273054(RIMKLB) 101275823(RIMKLA)
+            DLE: 111175673(RIMKLA) 111176728(RIMKLB)
+            PCAD: 102981532(RIMKLB) 102982103(RIMKLA)
+            PSIU: 116746837 116760947(RIMKLB) 116762902(RIMKLA)
+            ECB: 100061350(RIMKLB) 100067475(RIMKLA)
+            EPZ: 103557317(RIMKLA) 103564581(RIMKLB)
+            EAI: 106837431(RIMKLB) 106847814(RIMKLA)
+            MYB: 102245342(RIMKLB) 102249129(RIMKLA)
+            MYD: 102752373(RIMKLB) 102754710(RIMKLA)
+            MMYO: 118650363(RIMKLB) 118677485(RIMKLA)
+            MLF: 102430712(RIMKLA) 102441683(RIMKLB)
+            MNA: 107531164(RIMKLA) 107544073(RIMKLB)
+            PKL: 118723941(RIMKLA) 118728963(RIMKLB)
+            HAI: 109372752(RIMKLB) 109383339(RIMKLA)
+            DRO: 112299564(RIMKLA) 112322046(RIMKLB)
+            SHON: 118977580(RIMKLA) 119002540(RIMKLB)
+            AJM: 119052488(RIMKLA) 119065675(RIMKLB)
+            PDIC: 114497212(RIMKLA) 114514072(RIMKLB)
+            PHAS: 123819342(RIMKLB) 123831998(RIMKLA)
+            MMF: 118624708(RIMKLB) 118627179(RIMKLA)
+            RFQ: 117027770(RIMKLA) 117028564(RIMKLB)
+            PALE: 102880426(RIMKLB) 102882758(RIMKLA)
+            PGIG: 120607199(RIMKLA) 120611695(RIMKLB)
+            PVP: 105295916(RIMKLB) 105304029(RIMKLA)
+            RAY: 107501656(RIMKLB) 107508299(RIMKLA)
+            MJV: 108396116(RIMKLB) 108399391(RIMKLA) 108403838
+            TOD: 119236219(RIMKLA) 119247737(RIMKLB)
+            SARA: 101544446(RIMKLA) 101554225(RIMKLB)
+            LAV: 100657534(RIMKLB) 100664484(RIMKLA)
+            TMU: 101348075 101361972
+            ETF: 101645920(RIMKLB) 101661935(RIMKLA)
+            DNM: 101416522(RIMKLB) 101421529(RIMKLA)
+            MDO: 100013787(RIMKLB) 100026482(RIMKLA)
+            GAS: 123243217(RIMKLA) 123250757(RIMKLB)
+            SHR: 100913508(RIMKLA) 100930894(RIMKLB)
+            AFZ: 127539203 127555543
+            PCW: 110206227(RIMKLA) 110213807(RIMKLB)
+            OAA: 100073839(RIMKLA) 100090307(RIMKLB)
+            GGA: 418255(RIMKLB)
+            PCOC: 116240958(RIMKLB)
+            MGP: 104916636
+            CJO: 107318392(RIMKLB)
+            NMEL: 110397764(RIMKLB)
+            APLA: 101792875(RIMKLB)
+            ACYG: 106048091(RIMKLB)
+            AFUL: 116490791(RIMKLB)
+            TGU: 100220208(RIMKLB)
+            LSR: 110472321(RIMKLB)
+            SCAN: 103827201(RIMKLB)
+            PMOA: 120497743(RIMKLB)
+            OTC: 121341027(RIMKLB)
+            PRUF: 121349851(RIMKLB)
+            GFR: 102035986(RIMKLB)
+            FAB: 101814507(RIMKLB)
+            PHI: 102111957(RIMKLB)
+            PMAJ: 107210434(RIMKLB)
+            CCAE: 111925810(RIMKLB)
+            CCW: 104690266(RIMKLB)
+            CBRC: 103616673(RIMKLB)
+            ETL: 114069342(RIMKLB)
+            ZAB: 102064947(RIMKLB)
+            ACHL: 103811885(RIMKLB)
+            FPG: 101913481(RIMKLB)
+            FCH: 102056126(RIMKLB)
+            CLV: 102098362(RIMKLB)
+            EGZ: 104122771(RIMKLB)
+            NNI: 104014577(RIMKLB)
+            PLET: 104626869(RIMKLB)
+            PCRI: 104036849(RIMKLA)
+            PCAO: 104053397(RIMKLB)
+            ACUN: 113491069(RIMKLB)
+            TALA: 104365181(RIMKLB)
+            PADL: 103915115(RIMKLB)
+            AFOR: 103899962(RIMKLB)
+            ACHC: 115352600(RIMKLB)
+            HALD: 104321852(RIMKLB)
+            HLE: 104836674(RIMKLB)
+            AGEN: 126047837
+            GCL: 127017595
+            CCRI: 104158756(RIMKLB)
+            CSTI: 104557469(RIMKLB)
+            EHS: 104510567(RIMKLB)
+            CMAC: 104474785(RIMKLB)
+            MUI: 104538317(RIMKLB)
+            FGA: 104072777(RIMKLB)
+            GSTE: 104257247(RIMKLB)
+            LDI: 104343382(RIMKLB)
+            MNB: 103775226(RIMKLB)
+            OHA: 104332450(RIMKLB)
+            NNT: 104411662(RIMKLB)
+            DPUB: 104306895(RIMKLB)
+            PGUU: 104458927(RIMKLB)
+            ACAR: 104532919(RIMKLB)
+            CPEA: 104394530(RIMKLB)
+            AVIT: 104268972(RIMKLB)
+            CVF: 104294502(RIMKLB)
+            CUCA: 104060632(RIMKLB)
+            TEO: 104382280
+            BRHI: 104488456
+            AAM: 106495722(RIMKLB)
+            AROW: 112973974(RIMKLB)
+            NPD: 112952039(RIMKLB)
+            TGT: 104580212(RIMKLB)
+            DNE: 112992432(RIMKLB)
+            SCAM: 104152046(RIMKLB)
+            ASN: 102373845(RIMKLB)
+            AMJ: 102576775(RIMKLB)
+            CPOO: 109316234(RIMKLB)
+            GGN: 109296594(RIMKLB)
+            PSS: 102451018(RIMKLB)
+            CMY: 102933090(RIMKLB)
+            CPIC: 101943668(RIMKLB)
+            TST: 117884982(RIMKLB)
+            CABI: 116823843(RIMKLB)
+            MRV: 120404562(RIMKLB)
+            ACS: 100563778(rimklb)
+            PVT: 110069781(RIMKLB)
+            SUND: 121921715(RIMKLB)
+            PBI: 103055545(RIMKLB)
+            PMUR: 107288539(RIMKLB)
+            CTIG: 120318691(RIMKLB)
+            TSR: 106544566(RIMKLB)
+            PGUT: 117661914(RIMKLB)
+            VKO: 123017759(RIMKLB)
+            PMUA: 114588043(RIMKLB)
+            ZVI: 118097943(RIMKLB)
+            GJA: 107117747(RIMKLB)
+            STOW: 125437091(RIMKLB)
+            XLA: 108696039 108696583 108697330
+            XTR: 100145548(rimkla) 100486701(rimklb)
+            NPR: 108783941(RIMKLA) 108799485(RIMKLB)
+            RTEM: 120915609(RIMKLA) 120946910(RIMKLB)
+            BBUF: 120998179(RIMKLA) 121005412(RIMKLB)
+            BGAR: 122926877(RIMKLA) 122941782(RIMKLB)
+            DRE: 447815(rimkla)
+            SRX: 107711947 107717536
+            SANH: 107669631
+            SGH: 107556480 107591767
+            CCAR: 109084979 109084984
+            CAUA: 113078389 113093917 113107768
+            CGIB: 127964047 128018591
+            PPRM: 120483739(rimkla)
+            MAMB: 125279787(rimkla)
+            CIDE: 127517732
+            MASI: 127414466 127424193
+            IPU: 108265850(rimkla)
+            PHYP: 113529230
+            SMEO: 124399561(rimkla)
+            TFD: 113655760(rimkla)
+            AMEX: 103035057
+            EEE: 113572086
+            TRU: 101062827
+            TNG: GSTEN00013753G001
+            LCO: 104920219
+            NCC: 104955181(rimkla)
+            CGOB: 115011073
+            ELY: 117258509(rimkla)
+            EFO: 125891718(rimkla)
+            PLEP: 121947276(rimkla)
+            SLUC: 116040663(rimkla)
+            ECRA: 117948232(rimkla)
+            ESP: 116692402
+            PFLV: 114558866
+            GAT: 120828693(rimkla)
+            PPUG: 119205701 119222662
+            MSAM: 119905637(rimkla)
+            CUD: 121518035(rimkla)
+            ALAT: 119022909(rimkla)
+            MZE: 101477475
+            ONL: 100698845
+            OAU: 116309725(rimkla)
+            OLA: 101169452(rimklb)
+            OML: 112159079(rimkla)
+            XMA: 102218635
+            XCO: 114141086
+            XHE: 116725681
+            PRET: 103467997(rimkla)
+            PFOR: 103138952(rimkla)
+            PLAI: 106957454(rimkla)
+            PMEI: 106907435(rimkla)
+            GAF: 122836233(rimkla)
+            CVG: 107088869(rimkla)
+            CTUL: 119797064(rimkla)
+            GMU: 124867677(rimkla)
+            NFU: 107390714
+            KMR: 108236831(rimkla)
+            ALIM: 106524174
+            NWH: 119417065(rimkla)
+            AOCE: 111585273
+            MCEP: 124997852(rimkla)
+            CSEM: 103384935
+            POV: 109630621(rimkla)
+            SSEN: 122776960(rimkla)
+            HHIP: 117764653(rimkla)
+            HSP: 118110963(rimkla)
+            LCF: 108891717
+            SDU: 111219047
+            SLAL: 111670604
+            XGL: 120804092(rimkla)
+            HCQ: 109526583
+            SSCV: 125988093
+            BPEC: 110161111
+            MALB: 109970719
+            BSPL: 114858903(rimkla)
+            SASA: 106567384 106572158
+            STRU: 115166047 115168921
+            OTW: 112215953 112221609
+            OMY: 110491822 110532211
+            OGO: 124017459 124031877
+            ONE: 115102623 115132092
+            SALP: 111966388 111976646
+            SNH: 120059373 120060966
+            CCLU: 121538272 121545958
+            ELS: 105013808
+            SFM: 108918203 108924922
+            PKI: 111856970 111859075(rimkla)
+            AANG: 118208179(rimkla)
+            LOC: 102687393(rimkla)
+            PSPA: 121296514 121325367 121328885 121329280
+            ARUT: 117424072 117425213 117425745 117432003
+            PSEX: 120530966(rimkla) 120535665
+            LCM: 102351441(RIMKLB) 102354509(RIMKLA)
+            CMK: 103190080(rimkla)
+            RTP: 109924989
+DBLINKS     ExplorEnz - The Enzyme Database: 6.3.2.41
+            IUBMB Enzyme Nomenclature: 6.3.2.41
+            ExPASy - ENZYME nomenclature database: 6.3.2.41
+            BRENDA, the Enzyme Database: 6.3.2.41
+///

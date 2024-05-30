@@ -1,0 +1,570 @@
+ENTRY       EC 3.2.1.169                Enzyme
+NAME        protein O-GlcNAcase;
+            OGA;
+            glycoside hydrolase O-GlcNAcase;
+            O-GlcNAcase;
+            BtGH84;
+            O-GlcNAc hydrolase
+CLASS       Hydrolases;
+            Glycosylases;
+            Glycosidases, i.e. enzymes that hydrolyse O- and S-glycosyl compounds
+SYSNAME     [protein]-3-O-(N-acetyl-beta-D-glucosaminyl)-L-serine/threonine N-acetylglucosaminyl hydrolase
+REACTION    (1) [protein]-3-O-(N-acetyl-beta-D-glucosaminyl)-L-serine + H2O = [protein]-L-serine + N-acetyl-D-glucosamine  [RN:R09672];
+            (2) [protein]-3-O-(N-acetyl-beta-D-glucosaminyl)-L-theronine + H2O = [protein]-L-threonine + N-acetyl-D-glucosamine [RN:R09673]
+ALL_REAC    R09672 R09673
+SUBSTRATE   [protein]-3-O-(N-acetyl-beta-D-glucosaminyl)-L-serine [CPD:C19802];
+            H2O [CPD:C00001];
+            [protein]-3-O-(N-acetyl-beta-D-glucosaminyl)-L-theronine
+PRODUCT     [protein]-L-serine [CPD:C02189];
+            N-acetyl-D-glucosamine [CPD:C00140];
+            [protein]-L-threonine [CPD:C19803]
+COMMENT     Within higher eukaryotes post-translational modification of protein serines/threonines with N-acetylglucosamine (O-GlcNAc) is dynamic, inducible and abundant, regulating many cellular processes by interfering with protein phosphorylation. EC 2.4.1.255 (protein O-GlcNAc transferase) transfers GlcNAc onto substrate proteins and EC 3.2.1.169 (protein O-GlcNAcase) cleaves GlcNAc from the modified proteins.
+HISTORY     EC 3.2.1.169 created 2011
+REFERENCE   1  [PMID:11148210]
+  AUTHORS   Gao Y, Wells L, Comer FI, Parker GJ, Hart GW
+  TITLE     Dynamic O-glycosylation of nuclear and cytosolic proteins: cloning and characterization of a neutral, cytosolic beta-N-acetylglucosaminidase from human  brain.
+  JOURNAL   J Biol Chem 276:9838-45 (2001)
+            DOI:10.1074/jbc.M010420200
+  SEQUENCE  [hsa:10724]
+REFERENCE   2  [PMID:11788610]
+  AUTHORS   Wells L, Gao Y, Mahoney JA, Vosseller K, Chen C, Rosen A, Hart GW
+  TITLE     Dynamic O-glycosylation of nuclear and cytosolic proteins: further characterization of the nucleocytoplasmic beta-N-acetylglucosaminidase, O-GlcNAcase.
+  JOURNAL   J Biol Chem 277:1755-61 (2002)
+            DOI:10.1074/jbc.m109656200
+  SEQUENCE  [hsa:10724]
+REFERENCE   3  [PMID:16533067]
+  AUTHORS   Cetinbas N, Macauley MS, Stubbs KA, Drapala R, Vocadlo DJ
+  TITLE     Identification of Asp174 and Asp175 as the key catalytic residues of human O-GlcNAcase by functional analysis of site-directed mutants.
+  JOURNAL   Biochemistry 45:3835-44 (2006)
+            DOI:10.1021/bi052370b
+REFERENCE   4  [PMID:16565725]
+  AUTHORS   Dennis RJ, Taylor EJ, Macauley MS, Stubbs KA, Turkenburg JP, Hart SJ, Black GN, Vocadlo DJ, Davies GJ
+  TITLE     Structure and mechanism of a bacterial beta-glucosaminidase having O-GlcNAcase activity.
+  JOURNAL   Nat Struct Mol Biol 13:365-71 (2006)
+            DOI:10.1038/nsmb1079
+  SEQUENCE  [bth:BT_4395]
+REFERENCE   5  [PMID:16584714]
+  AUTHORS   Kim EJ, Kang DO, Love DC, Hanover JA
+  TITLE     Enzymatic characterization of O-GlcNAcase isoforms using a fluorogenic GlcNAc substrate.
+  JOURNAL   Carbohydr Res 341:971-82 (2006)
+            DOI:10.1016/j.carres.2006.03.004
+REFERENCE   6  [PMID:8034696]
+  AUTHORS   Dong DL, Hart GW
+  TITLE     Purification and characterization of an O-GlcNAc selective N-acetyl-beta-D-glucosaminidase from rat spleen cytosol.
+  JOURNAL   J Biol Chem 269:19321-30 (1994)
+  SEQUENCE  [rno:154968]
+ORTHOLOGY   K15719  protein O-GlcNAcase / histone acetyltransferase
+GENES       HSA: 10724(OGA)
+            PTR: 450691(MGEA5)
+            PPS: 100979884(OGA)
+            GGO: 101124144(OGA)
+            PON: 100459796(MGEA5)
+            NLE: 100586192(OGA)
+            HMH: 116484656(OGA)
+            MCC: 712370(OGA)
+            MCF: 102142813(OGA)
+            MTHB: 126962741
+            MNI: 105478362(OGA)
+            CSAB: 103216418(MGEA5)
+            CATY: 105581866(MGEA5)
+            PANU: 101015029(OGA)
+            TGE: 112632177(OGA)
+            MLEU: 105537773(MGEA5)
+            RRO: 104656503(OGA)
+            RBB: 108515105(MGEA5)
+            TFN: 117067826(OGA)
+            PTEH: 111538829(OGA)
+            CANG: 105507116(MGEA5)
+            CJC: 100392114(MGEA5)
+            SBQ: 101029093(MGEA5)
+            CIMI: 108306269(OGA)
+            CSYR: 103252566(MGEA5)
+            MMUR: 105874010(MGEA5)
+            LCAT: 123650101(OGA)
+            PCOQ: 105824311(MGEA5)
+            OGA: 100955878 100966970(MGEA5)
+            MMU: 76055(Oga)
+            MCAL: 110285308(Mgea5)
+            MPAH: 110313432(Mgea5)
+            RNO: 154968(Oga)
+            MCOC: 116103925(Oga)
+            ANU: 117718833(Oga)
+            MUN: 110556269(Mgea5)
+            CGE: 100751586(Oga)
+            MAUA: 101829565(Oga)
+            PLEU: 114708145(Oga)
+            MORG: 121453825(Oga)
+            MFOT: 126503447
+            AAMP: 119811350(Oga)
+            NGI: 103744007(Mgea5)
+            HGL: 101702515(Mgea5)
+            CPOC: 100721083(Mgea5)
+            CCAN: 109691315(Mgea5)
+            DORD: 105986691(Mgea5)
+            DSP: 122116006(Oga)
+            NCAR: 124984739
+            OCU: 100351779(OGA)
+            OPI: 101534359(OGA)
+            TUP: 102491291(MGEA5)
+            GVR: 103595411(MGEA5)
+            CFA: 477802(OGA)
+            CLUD: 112672225(OGA)
+            VVP: 112915175(OGA)
+            VLG: 121484059(OGA)
+            AML: 100472078(OGA)
+            UMR: 103679457(MGEA5)
+            UAH: 113251855(OGA)
+            UAR: 123795891(OGA)
+            ELK: 111144756
+            LLV: 125084469
+            MPUF: 101688735(MGEA5)
+            NVS: 122901039(OGA)
+            ORO: 101374982(MGEA5)
+            EJU: 114205483(OGA)
+            ZCA: 113920795(OGA)
+            MLX: 118025273(OGA)
+            NSU: 110589710(OGA)
+            LWW: 102729315(OGA)
+            FCA: 101098493(MGEA5)
+            PYU: 121037144(OGA)
+            PBG: 122493164(OGA)
+            LRUF: 124507078
+            PTG: 102959286(MGEA5)
+            PPAD: 109272801(MGEA5)
+            AJU: 106966947(OGA)
+            HHV: 120239568(OGA)
+            BTA: 538561(OGA)
+            BOM: 102279409(MGEA5)
+            BIU: 109578999(MGEA5)
+            BBUB: 102398663(OGA)
+            BBIS: 105002689(MGEA5)
+            CHX: 102179540(MGEA5)
+            OAS: 101113978(OGA)
+            ODA: 120873553(OGA)
+            CCAD: 122445997(OGA)
+            SSC: 100152585(MGEA5)
+            CFR: 102507074(OGA)
+            CBAI: 105081720(MGEA5)
+            CDK: 105084341(OGA)
+            VPC: 102529685(OGA) 102541709
+            BACU: 103001043(MGEA5)
+            LVE: 103070168(MGEA5)
+            OOR: 101288973(MGEA5)
+            DLE: 111172372(OGA)
+            PCAD: 102973862(OGA)
+            PSIU: 116741261(OGA)
+            ECB: 100060245(MGEA5)
+            EPZ: 103551392(MGEA5)
+            EAI: 106828857(OGA)
+            MYB: 102258473(MGEA5)
+            MYD: 102763853(MGEA5)
+            MMYO: 118669820(OGA)
+            MLF: 102432555(MGEA5)
+            MNA: 107542582(MGEA5)
+            PKL: 118718900(OGA)
+            HAI: 109379646(MGEA5)
+            DRO: 112300370(MGEA5)
+            SHON: 118999490(OGA)
+            AJM: 119059637(OGA)
+            PDIC: 114496600(OGA)
+            PHAS: 123828685(OGA)
+            MMF: 118632007(OGA)
+            RFQ: 117035786(OGA)
+            PALE: 102892734(OGA)
+            PGIG: 120609167(OGA)
+            PVP: 105304649(MGEA5)
+            RAY: 107497783(MGEA5)
+            MJV: 108405927(MGEA5)
+            TOD: 119233350(OGA)
+            SARA: 101539979(MGEA5)
+            LAV: 100660277(MGEA5)
+            TMU: 101348318
+            ETF: 101659709(OGA)
+            DNM: 101425388(MGEA5)
+            MDO: 100023348(MGEA5)
+            GAS: 123238135(OGA)
+            SHR: 100924785(OGA)
+            AFZ: 127551504
+            PCW: 110194632(MGEA5)
+            OAA: 100086916(OGA)
+            GGA: 423851(OGA) 430422
+            PCOC: 116226056 116231682(OGA)
+            MGP: 100550244(OGA) 116216702
+            CJO: 107306849 107315982(OGA)
+            NMEL: 110390931 110399611(MGEA5)
+            APLA: 101798266(OGA)
+            ACYG: 106035955(OGA) 106043195
+            AFUL: 116488955 116491128(OGA)
+            TGU: 100217691 100222791(OGA)
+            LSR: 110468741 110473663(OGA)
+            SCAN: 103814148(OGA) 103823117
+            PMOA: 120502106(OGA) 120509741
+            OTC: 121335221 121341962(OGA)
+            PRUF: 121350033(OGA) 121364720
+            GFR: 102039689(MGEA5) 102041996
+            FAB: 101807026(MGEA5) 101820674
+            PHI: 102099607 102100524(MGEA5)
+            PMAJ: 107203361 107206955(OGA)
+            CCAE: 111929151 111930940(MGEA5)
+            CCW: 104690840 104697891(OGA)
+            CBRC: 103621146 103624547(MGEA5)
+            ETL: 114068881 114070525(OGA)
+            ZAB: 102063529(OGA) 102073146
+            ACHL: 103800496(MGEA5)
+            FPG: 101911645 101920070(MGEA5)
+            FCH: 102050212 102050673(OGA)
+            CLV: 102086261 102092419(MGEA5)
+            EGZ: 104125639(MGEA5)
+            NNI: 104013575(MGEA5)
+            PLET: 104627734(MGEA5)
+            PCRI: 104024913(MGEA5)
+            PCAO: 104048430(MGEA5)
+            ACUN: 113481496(OGA) 113490509
+            TALA: 104359393(OGA) 116962506
+            PADL: 103916317(MGEA5) 103922179
+            AFOR: 103897881(MGEA5) 103902150
+            ACHC: 115338036 115348140(OGA)
+            HALD: 104319922(MGEA5)
+            HLE: 104830120(MGEA5) 104832337
+            AGEN: 126035202 126042589
+            GCL: 127015487 127018099
+            CCRI: 104165700(MGEA5)
+            CSTI: 104552597(MGEA5)
+            EHS: 104510925(MGEA5)
+            CMAC: 104484642(MGEA5)
+            MUI: 104545503(MGEA5)
+            FGA: 104079075(MGEA5)
+            GSTE: 104259979(MGEA5)
+            LDI: 104348722(MGEA5)
+            MNB: 103771516(MGEA5)
+            OHA: 104337966(MGEA5)
+            NNT: 104401327(MGEA5)
+            DPUB: 104307157(MGEA5)
+            PGUU: 104458602(MGEA5)
+            ACAR: 104526770(OGA)
+            CPEA: 104390870(MGEA5) 104398133
+            AVIT: 104269727(MGEA5)
+            CVF: 104294630(MGEA5)
+            CUCA: 104056877 104059798(MGEA5)
+            TEO: 104375715(MGEA5)
+            BRHI: 104502019(MGEA5)
+            AAM: 106487392 106496884(MGEA5)
+            AROW: 112967879(OGA) 112978201
+            NPD: 112957020(OGA)
+            TGT: 104578767(MGEA5)
+            DNE: 112984773(OGA)
+            SCAM: 104138159(MGEA5)
+            ASN: 102378650 102387046(OGA)
+            AMJ: 102563356(MGEA5) 106740206
+            CPOO: 109323917(MGEA5) 109324416
+            GGN: 109287545(MGEA5)
+            PSS: 102451920(OGA)
+            CMY: 102948301(OGA)
+            CPIC: 101934313(OGA)
+            TST: 117879788(OGA)
+            CABI: 116833940(OGA)
+            MRV: 120409101(OGA)
+            ACS: 100559082(mgea5)
+            PVT: 110077588(MGEA5)
+            SUND: 121927346(OGA)
+            PBI: 103061735(OGA)
+            PMUR: 107285267(OGA)
+            CTIG: 120302560(OGA)
+            TSR: 106549157(MGEA5)
+            PGUT: 117678619(OGA)
+            VKO: 123026895(OGA)
+            PMUA: 114597566(OGA)
+            ZVI: 118093544(OGA)
+            GJA: 107114456(MGEA5)
+            STOW: 125437577(OGA)
+            XLA: 108696157(oga.L) 108697432(oga.S)
+            XTR: 100145437(oga)
+            NPR: 108784409(MGEA5)
+            RTEM: 120946646(OGA)
+            BBUF: 121003921(OGA)
+            BGAR: 122941749(OGA)
+            DRE: 100538182(si:dkey-183c6.8) 324487(oga) 571547(mgea5l)
+            SRX: 107726775 107733669 107742283 107747552(mgea5) 107753935
+            SANH: 107666422 107667060 107668868 107691946 107700507
+            SGH: 107562569 107567635 107569412 107585241 107588144
+            CCAR: 109069987 109083210(mgea5)
+            CAUA: 113055552 113055557 113057088 113105718 113111272 113112823
+            CGIB: 127934348 127961040(si:dkey-183c6.8) 127967902 127970709 128021947 128026333
+            PPRM: 120462600(si:dkey-183c6.8) 120479772(oga) 120491971(ogal)
+            MAMB: 125256134(ogal) 125264490(si:dkey-183c6.8) 125276537(oga)
+            CIDE: 127516482(si:dkey-183c6.8) 127522866 127524623
+            MASI: 127412440 127413966 127426483 127440801(si:dkey-183c6.8) 127450333
+            IPU: 108263439(oga) 108267925(si:dkey-183c6.8) 108270888(ogal)
+            PHYP: 113536642 113537792(oga) 113540315
+            SMEO: 124387264(si:dkey-183c6.8) 124391245(ogal) 124400441(oga)
+            TFD: 113644933(oga) 113653429(ogal) 113663159(si:dkey-183c6.8)
+            AMEX: 103032082(mgea5) 103039791 103046573
+            EEE: 113578274 113585838(oga) 113589695
+            TRU: 101062608(oga) 101067324 105418539 105419290
+            TNG: GSTEN00030608G001 GSTEN00032524G001
+            LCO: 104922274(oga) 104925209
+            NCC: 104950187 104955157(mgea5) 104955566
+            CGOB: 115010304 115019889(oga) 115023625
+            ELY: 117248314(oga) 117255350(ogal) 117272795(si:dkey-183c6.8)
+            EFO: 125884337(si:dkey-183c6.8) 125885650(ogal) 125903250(oga)
+            PLEP: 121941846(ogal) 121954223(oga) 121962152(si:dkey-183c6.8)
+            SLUC: 116042246(si:dkey-183c6.8) 116042595(ogal) 116053576(oga)
+            ECRA: 117934563(si:dkey-183c6.8) 117936653(ogal) 117960762(oga)
+            ESP: 116704963 116705213(oga) 116707043
+            PFLV: 114570775 114571885(oga) 114573956
+            GAT: 120820615(oga) 120822207(si:dkey-183c6.8) 120825243(ogal)
+            PPUG: 119214134(oga) 119218258(ogal) 119222545(si:dkey-183c6.8)
+            MSAM: 119899547(ogal) 119912245 119917666(oga)
+            CUD: 121504818(si:dkey-183c6.8) 121508370(ogal) 121511590(oga)
+            ALAT: 119021638(ogal) 119027865(si:dkey-183c6.8) 119033510(oga)
+            MZE: 101471567 101472149(oga) 101474519
+            ONL: 100699721 100706413 100709857(oga)
+            OAU: 116319631(oga) 116322277(si:dkey-183c6.8) 116330977(ogal)
+            OLA: 101163611 101166655(mgea5) 101172880
+            OML: 112137423(ogal) 112155772(si:dkey-183c6.8) 112161614(oga)
+            XMA: 102223372 102231453 102232442(mgea5)
+            XCO: 114138448(oga) 114144358 114157373
+            XHE: 116713837(oga) 116719744 116733219
+            PRET: 103465403 103476931(mgea5) 103480785
+            PFOR: 103131168 103150495 103152236(mgea5)
+            PLAI: 106948276 106951257(mgea5) 106961065
+            PMEI: 106904343 106907807 106917533(mgea5)
+            GAF: 122820190(si:dkey-183c6.8) 122829586(ogal) 122842221(oga)
+            CVG: 107086606(mgea5) 107090773 107096471 107099030
+            CTUL: 119772716(si:dkey-183c6.8) 119783282(ogal) 119790729(oga)
+            GMU: 124859670(oga) 124867952(ogal) 124881277(si:dkey-183c6.8)
+            NFU: 107375656(mgea5) 107376946 107392405
+            KMR: 108234080(oga) 108236421(ogal) 108242892(si:dkey-183c6.8)
+            ALIM: 106521436 106525001 106535674(mgea5)
+            NWH: 119411948(oga) 119416968(si:dkey-183c6.8) 119422833(ogal)
+            AOCE: 111578864(mgea5) 111581963 111585373
+            MCEP: 124995892(si:dkey-183c6.8) 125003797(ogal) 125019184(oga)
+            CSEM: 103383859 103387380(mgea5)
+            POV: 109627221 109633895(mgea5) 109634891
+            SSEN: 122766735(si:dkey-183c6.8) 122771484(ogal) 122781668(oga)
+            HHIP: 117751790(si:dkey-183c6.8) 117767478(ogal) 117775389(oga)
+            HSP: 118102410(si:dkey-183c6.8) 118114720(ogal) 118118701(oga)
+            LCF: 108875631 108888297(oga) 108888756(si:dkey-183c6.8)
+            SDU: 111229432 111231335 111234087(mgea5)
+            SLAL: 111657301(mgea5) 111666433 111666684
+            XGL: 120796260(oga) 120797482(si:dkey-183c6.8) 120800240(ogal)
+            HCQ: 109511913 109512679(mgea5) 109527421
+            SSCV: 125966956(si:dkey-183c6.8) 125968601
+            BPEC: 110156792(mgea5) 110165196 110174701
+            MALB: 109952730 109957845 109961022(mgea5)
+            BSPL: 114842102(oga) 114851042 114865352(ogal)
+            SASA: 106564358 106576856 106591477 106604352(mgea5) 106609082
+            STRU: 115147542 115152980(oga) 115184176 115194036 115198612
+            OTW: 112214489(si:dkey-183c6.8) 112242091(ogal) 112252425(oga) 112252769
+            OMY: 110485509(ogal) 110493422 110500330(si:dkey-183c6.8) 110502247(oga) 110526041
+            OGO: 124014489(si:dkey-183c6.8) 124027507 124038090(oga) 124041468
+            ONE: 115113408(oga) 115133304 115135339
+            SALP: 111951659 111951809 111977735(mgea5)
+            SNH: 120017500 120018110 120041436 120046445(oga) 120049052(si:dkey-183c6.8)
+            CCLU: 121534281(ogal) 121553616 121568515(oga) 121571252(si:dkey-183c6.8)
+            ELS: 105010738(oga) 105012043 105031421
+            SFM: 108920620 108930276(oga)
+            PKI: 111846625(mgea5) 111849569 111857372
+            AANG: 118217811(oga) 118218961 118231584(si:dkey-183c6.8)
+            LOC: 102683302 102694479(mgea5)
+            PSPA: 121294585(si:dkey-183c6.8) 121321684 121325549
+            ARUT: 117409458(si:dkey-183c6.8) 117415414 117418184
+            PSEX: 120527964(si:dkey-183c6.8) 120542659(oga)
+            LCM: 102346400(MGEA5) 102358152
+            CMK: 103190567(oga)
+            RTP: 109923289(mgea5) 109924748
+            BFO: 118413805
+            BBEL: 109471441
+            CIN: 100179919
+            SCLV: 120338667
+            SPU: 585537
+            APLC: 110981261
+            AJC: 117118807
+            SKO: 100378403
+            DME: Dmel_CG5871(Oga)
+            DER: 6553422
+            DSE: 6620036
+            DSI: Dsimw501_GD19407(Dsim_GD19407)
+            DYA: Dyak_GE25717
+            DAN: 6494447
+            DSR: 110188182
+            DPO: 4800850
+            DPE: 6598788
+            DMN: 108154237
+            DWI: 6647454
+            DGR: 6567353
+            DMO: Dmoj_GI21938
+            DAZ: 108608693
+            DNV: 108652629
+            DHE: 111602671
+            DVI: 6634891
+            CCAT: 101450686
+            BOD: 106617257
+            RZE: 108370135 108374885
+            MDE: 101893356
+            SCAC: 106084367
+            LCQ: 111688191
+            LSQ: 119601267 119606694
+            HIS: 119652242
+            AGA: AgaP_AGAP002287
+            ACOZ: 120951771
+            AARA: 120908619
+            ASTE: 118503564
+            AAG: 5571796
+            AALB: 109410078 115253996 115257574
+            CQU: CpipJ_CPIJ004076 CpipJ_CPIJ014846
+            CPII: 120416025
+            CNS: 116346932
+            BCOO: 119067420
+            AME: 411905
+            ACER: 108000941
+            ALAB: 122711783
+            BIM: 100749208
+            BBIF: 117215870
+            BVK: 117238281
+            BVAN: 117160087
+            BTER: 100645450
+            BPYO: 122569957
+            CCAL: 108624654
+            OBB: 114878167
+            MGEN: 117224355
+            NMEA: 116429460
+            CGIG: 122396249
+            SOC: 105196907
+            MPHA: 105835235
+            AEC: 105154917
+            ACEP: 105618479
+            PBAR: 105430117
+            VEM: 105563901
+            HST: 105189349
+            DQU: 106747473
+            CFO: 105248789
+            FEX: 115237312
+            LHU: 105675868
+            PGC: 109860249
+            OBO: 105281645
+            PCF: 106793487
+            PFUC: 122516433
+            VPS: 122628814
+            NVI: 100119788
+            CSOL: 105360693
+            TPRE: 106652648
+            MDL: 103571170
+            CGLO: 123263502
+            FAS: 105270416
+            DAM: 107038060
+            AGIF: 122851854
+            CINS: 118072729
+            LHT: 122505723
+            CCIN: 107267294
+            TCA: 655306
+            DPA: 109539113
+            SOY: 115890736
+            ATD: 109597139
+            CSET: 123313140
+            AGB: 108904637
+            LDC: 111511864
+            NVL: 108558025
+            APLN: 108744311
+            PPYR: 116175725
+            OTU: 111423601
+            BMOR: 101735953
+            BMAN: 114253038
+            MSEX: 115451650
+            DPL: KGM_213232
+            BANY: 112055407
+            NIQ: 126778089
+            PMAC: 106719051
+            PPOT: 106102929
+            PXU: 106116405
+            PRAP: 110998763
+            PBX: 123719138
+            PNAP: 125054643
+            ZCE: 119837823
+            CCRC: 123702769
+            HAW: 110383470
+            HZE: 124641831
+            TNL: 113507217
+            OFU: 114350222
+            PXY: 105384531 105388701
+            CFEL: 113375574 113378687
+            API: 100163269
+            DNX: 107165302
+            AGS: 114131204
+            RMD: 113554292
+            BTAB: 109033140
+            DCI: 103512952 103519672
+            CLEC: 106662476
+            HHAL: 106678327
+            NLU: 111047189 120354001
+            PHU: Phum_PHUM456250
+            FOC: 113207022
+            TPAL: 117653219
+            ZNE: 110832426
+            CSEC: 111873810
+            SGRE: 126355425
+            FCD: 110863215
+            DPX: DAPPUDRAFT_312251
+            PVM: 113822939 113822940
+            PJA: 122252320
+            PCHN: 125035764
+            PMOO: 119593991
+            HAME: 121864984
+            PCLA: 123761787
+            PTRU: 123516737
+            HAZT: 108679419
+            EAF: 111700900
+            LSM: 121113819
+            PPOI: 119111677
+            ISC: IscW_ISCW014717
+            DSV: 119459137
+            RSAN: 119379212
+            RMP: 119175846
+            VDE: 111254346
+            VJA: 111270765
+            TUT: 107360407
+            DPTE: 113788567
+            DFR: 124489927
+            CSCU: 111615007 111636175
+            PTEP: 107442614
+            SDM: 118189878
+            BMY: BM_BM5855(Bma-oga-1)
+            LOA: LOAG_17941
+            HRO: HELRODRAFT_194783
+            LGI: LOTGIDRAFT_115468
+            PCAN: 112563760 112564338
+            BGT: 106065918
+            GAE: 121384746
+            HRF: 124141247
+            HRJ: 124267293
+            CRG: 105347264
+            MYI: 110449102
+            PMAX: 117339865
+            MCAF: 127732956
+            MMER: 123547436
+            OBI: 106884279
+            OSN: 115218926
+            LAK: 106176558
+            SMM: Smp_000020 Smp_210490
+            SHX: MS3_00001585(MGEA5_1)
+            OVI: T265_08710
+            EGL: EGR_04224
+            NVE: 5519790
+            EPA: 110245582
+            ATEN: 116292862
+            ADF: 107327833
+            AMIL: 114973993
+            PDAM: 113667448
+            SPIS: 111320587
+            DGT: 114515726
+            XEN: 124444197
+            HMG: 100215737
+            AQU: 100640131
+            APUU: APUU_80134S
+            SRE: PTSG_03030
+            ACAN: ACA1_069750
+DBLINKS     ExplorEnz - The Enzyme Database: 3.2.1.169
+            IUBMB Enzyme Nomenclature: 3.2.1.169
+            ExPASy - ENZYME nomenclature database: 3.2.1.169
+            BRENDA, the Enzyme Database: 3.2.1.169
+///

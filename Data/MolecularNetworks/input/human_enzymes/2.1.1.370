@@ -1,0 +1,349 @@
+ENTRY       EC 2.1.1.370                Enzyme
+NAME        [histone H3]-lysine4 N-dimethyltransferase;
+            NSD3 (gene name)
+CLASS       Transferases;
+            Transferring one-carbon groups;
+            Methyltransferases
+SYSNAME     S-adenosyl-L-methionine:[histone H3]-L-lysine4 N6-dimethyltransferase
+REACTION    2 S-adenosyl-L-methionine + a [histone H3]-L-lysine4 = 2 S-adenosyl-L-homocysteine + a [histone H3]-N6,N6-dimethyl-L-lysine4 (overall reaction);
+            (1a) S-adenosyl-L-methionine + a [histone H3]-L-lysine4 = S-adenosyl-L-homocysteine + a [histone H3]-N6-methyl-L-lysine4;
+            (1b) S-adenosyl-L-methionine + a [histone H3]-N6-methyl-L-lysine4 = S-adenosyl-L-homocysteine + a [histone H3]-N6,N6-dimethyl-L-lysine4
+ALL_REAC    (other) R03875 R04866
+SUBSTRATE   S-adenosyl-L-methionine [CPD:C00019];
+            [histone H3]-L-lysine4;
+            [histone H3]-N6-methyl-L-lysine4
+PRODUCT     S-adenosyl-L-homocysteine [CPD:C00021];
+            [histone H3]-N6,N6-dimethyl-L-lysine4;
+            [histone H3]-N6-methyl-L-lysine4
+COMMENT     This entry describes enzymes that successively methylate the L-lysine4 residue of histone H3 (H3K4) twice, ultimately generating a dimethylated form. These modifications influence the binding of chromatin-associated proteins. The human NSD3 protein also catalyses the activity of EC 2.1.1.hq, [histone H3]-lysine27 N-dimethyltransferase. cf. EC 2.1.1.364, [histone H3]-lysine4 N-methyltransferase, and EC 2.1.1.354, [histone H3]-lysine4 N-trimethyltransferase.
+HISTORY     EC 2.1.1.370 created 2020.
+REFERENCE   1  [PMID:16682010]
+  AUTHORS   Kim SM, Kee HJ, Eom GH, Choe NW, Kim JY, Kim YS, Kim SK, Kook H, Kook H, Seo SB
+  TITLE     Characterization of a novel WHSC1-associated SET domain protein with H3K4 and H3K27 methyltransferase activity.
+  JOURNAL   Biochem Biophys Res Commun 345:318-23 (2006)
+            DOI:10.1016/j.bbrc.2006.04.095
+  SEQUENCE  [hsa:54904] [mmu:234135]
+PATHWAY     ec00310  Lysine degradation
+            ec01100  Metabolic pathways
+ORTHOLOGY   K11425  [histone H3]-lysine4 N-dimethyltransferase / [histone H3]-lysine27 N-dimethyltransferase
+GENES       HSA: 54904(NSD3)
+            PTR: 464119(NSD3)
+            PPS: 100989573(NSD3)
+            GGO: 101127408(NSD3)
+            PON: 100459660(NSD3)
+            NLE: 100599595(NSD3)
+            HMH: 116461947(NSD3)
+            MCC: 700254(NSD3)
+            MCF: 102138188(NSD3)
+            MTHB: 126961185
+            MNI: 105476625(NSD3)
+            CSAB: 103215646(NSD3)
+            CATY: 105590798(WHSC1L1)
+            PANU: 101000513(NSD3)
+            TGE: 112630794(NSD3)
+            MLEU: 105548959(WHSC1L1)
+            RRO: 104679642(NSD3)
+            RBB: 108512402(WHSC1L1)
+            TFN: 117094840(NSD3)
+            PTEH: 111544119(NSD3)
+            CANG: 105525159(WHSC1L1)
+            CJC: 100389349(NSD3)
+            SBQ: 101031525(WHSC1L1)
+            CIMI: 108309922(NSD3)
+            CSYR: 103274946(NSD3)
+            MMUR: 105870392(NSD3)
+            LCAT: 123626674(NSD3)
+            PCOQ: 105815829(WHSC1L1)
+            OGA: 100961764(NSD3)
+            MMU: 234135(Nsd3)
+            MCAL: 110299577(Nsd3)
+            MPAH: 110337154(Nsd3)
+            RNO: 290831(Nsd3)
+            MCOC: 116069055(Nsd3)
+            ANU: 117721890(Nsd3)
+            MUN: 110563304(Nsd3)
+            CGE: 100773097(Nsd3)
+            MAUA: 101843019(Nsd3)
+            PLEU: 114681351(Nsd3)
+            MORG: 121462361(Nsd3)
+            MFOT: 126504433
+            AAMP: 119811017(Nsd3)
+            NGI: 103745768(Nsd3)
+            HGL: 101703406(Nsd3)
+            CPOC: 100731623(Nsd3)
+            CCAN: 109688938(Nsd3)
+            DORD: 105992508(Whsc1l1)
+            DSP: 122107675(Nsd3)
+            NCAR: 124983289
+            OCU: 100352710(NSD3)
+            OPI: 101534677(NSD3)
+            TUP: 102487161(NSD3)
+            GVR: 103598752(WHSC1L1)
+            CFA: 475584(NSD3)
+            CLUD: 112649385(NSD3)
+            VVP: 112916135(NSD3)
+            VLG: 121489603(NSD3)
+            AML: 100473259(NSD3)
+            UMR: 103659130(NSD3)
+            UAH: 113262089(NSD3)
+            UAR: 123780424(NSD3)
+            ELK: 111144613
+            LLV: 125092754
+            MPUF: 101692729(WHSC1L1)
+            NVS: 122889879(NSD3)
+            ORO: 101364354(WHSC1L1)
+            EJU: 114224800
+            ZCA: 113925754(NSD3)
+            MLX: 118009959(NSD3)
+            LWW: 102731696(NSD3)
+            FCA: 101086901(NSD3)
+            PYU: 121017975(NSD3)
+            PBG: 122473400(NSD3)
+            LRUF: 124520314
+            PTG: 102949086(NSD3)
+            PPAD: 109262146(NSD3)
+            AJU: 106978378(NSD3)
+            HHV: 120238666(NSD3)
+            BTA: 513054(NSD3)
+            BOM: 102268973(NSD3)
+            BIU: 109553299(NSD3)
+            BBUB: 102408813(NSD3)
+            BBIS: 104987721(WHSC1L1)
+            CHX: 102188284(WHSC1L1)
+            OAS: 101112880(NSD3)
+            ODA: 120865662(NSD3)
+            CCAD: 122432227(NSD3)
+            SSC: 100520868(NSD3)
+            CFR: 102515779(NSD3)
+            CBAI: 105062081(WHSC1L1)
+            CDK: 105089934(NSD3)
+            VPC: 102531762(NSD3)
+            BACU: 103016894(NSD3)
+            LVE: 103072101(WHSC1L1)
+            OOR: 101278951(WHSC1L1)
+            DLE: 111173519
+            PCAD: 102990993(NSD3)
+            PSIU: 116746681(NSD3)
+            ECB: 100057692(NSD3)
+            EPZ: 103560265(NSD3)
+            EAI: 106824653(NSD3)
+            MYB: 102252817(NSD3)
+            MYD: 102759770(NSD3)
+            MMYO: 118650348(NSD3)
+            MLF: 102422851(NSD3)
+            MNA: 107535114(WHSC1L1)
+            PKL: 118728578(NSD3)
+            HAI: 109373158(NSD3)
+            DRO: 112306746(NSD3)
+            SHON: 118993176(NSD3)
+            AJM: 119065038(NSD3)
+            PDIC: 114508778(NSD3)
+            PHAS: 123807640(NSD3)
+            MMF: 118622289(NSD3)
+            RFQ: 117021281(NSD3)
+            PALE: 102879344(NSD3)
+            PGIG: 120595611(NSD3)
+            PVP: 105300277(NSD3)
+            RAY: 107515960(WHSC1L1)
+            MJV: 108396577(WHSC1L1)
+            TOD: 119257819(NSD3)
+            SARA: 101545402(WHSC1L1)
+            LAV: 100663420(NSD3)
+            TMU: 101341096
+            ETF: 101648902(NSD3)
+            DNM: 101428090(NSD3)
+            MDO: 100029834(NSD3)
+            GAS: 123236990(NSD3)
+            SHR: 100913907(NSD3)
+            AFZ: 127548238
+            PCW: 110207576(NSD3)
+            OAA: 100074284(NSD3)
+            GGA: 426778(WHSC1L1)
+            PCOC: 116234530(NSD3)
+            MGP: 100550821(NSD3)
+            CJO: 107323733(NSD3)
+            NMEL: 110387045(NSD3)
+            APLA: 101796335(NSD3)
+            ACYG: 106044410(NSD3)
+            AFUL: 116499346(NSD3)
+            TGU: 100224170(NSD3)
+            LSR: 110473395(NSD3)
+            SCAN: 103822694(NSD3)
+            PMOA: 120505099(NSD3)
+            OTC: 121346793(NSD3)
+            PRUF: 121360068(NSD3)
+            GFR: 102033572(NSD3)
+            FAB: 101807043(NSD3)
+            PHI: 102104727(WHSC1L1)
+            PMAJ: 107213840(NSD3)
+            CCAE: 111938845(NSD3)
+            CCW: 104694849(NSD3)
+            CBRC: 103614646(WHSC1L1)
+            ETL: 114066496(NSD3)
+            ZAB: 102073618(NSD3)
+            ACHL: 103805547(WHSC1L1)
+            FPG: 101913589(NSD3)
+            FCH: 102055544(NSD3)
+            CLV: 102090497(NSD3)
+            EGZ: 104125799(WHSC1L1)
+            NNI: 104016016(WHSC1L1)
+            PLET: 104623200(WHSC1L1)
+            PCRI: 104036695(WHSC1L1)
+            PCAO: 104045432(WHSC1L1)
+            ACUN: 113488073(NSD3)
+            TALA: 104369158(NSD3)
+            PADL: 103912352(WHSC1L1)
+            AFOR: 103896951(NSD3)
+            ACHC: 115350174(NSD3)
+            HALD: 104312472(WHSC1L1)
+            HLE: 104828806(WHSC1L1)
+            AGEN: 126051779
+            GCL: 127025407
+            CCRI: 104163353(WHSC1L1)
+            CSTI: 104551979(WHSC1L1)
+            EHS: 104510940(WHSC1L1)
+            CMAC: 104477594(WHSC1L1)
+            MUI: 104547244
+            FGA: 104075714(WHSC1L1)
+            GSTE: 104254043(WHSC1L1)
+            LDI: 104347707(WHSC1L1)
+            OHA: 104335043(WHSC1L1)
+            NNT: 104410494
+            DPUB: 104301280(WHSC1L1)
+            PGUU: 104460409(WHSC1L1)
+            CPEA: 104384842(WHSC1L1)
+            CVF: 104283350(WHSC1L1)
+            CUCA: 104068523(WHSC1L1)
+            TEO: 104382674(WHSC1L1)
+            BRHI: 104489149(WHSC1L1)
+            AAM: 106493055(NSD3)
+            AROW: 112965458(NSD3)
+            NPD: 112952905(NSD3)
+            TGT: 104576679(WHSC1L1)
+            DNE: 112991599(NSD3)
+            SCAM: 104148737(WHSC1L1)
+            ASN: 102385195(NSD3)
+            AMJ: 106736778(NSD3)
+            CPOO: 109317418(NSD3)
+            GGN: 109295543(NSD3)
+            PSS: 102457400(NSD3)
+            CMY: 102943320(NSD3)
+            CPIC: 101938886(NSD3)
+            TST: 117873023(NSD3)
+            CABI: 116821414(NSD3)
+            MRV: 120399010(NSD3)
+            ACS: 100558428(nsd3)
+            PVT: 110072168(NSD3)
+            SUND: 121933496(NSD3)
+            PBI: 103067854(NSD3)
+            PMUR: 107289990(NSD3)
+            CTIG: 120312916(NSD3)
+            TSR: 106550392(WHSC1L1)
+            PGUT: 117674754(NSD3)
+            VKO: 123027006(NSD3)
+            PMUA: 114585486(NSD3)
+            ZVI: 118096806(NSD3)
+            GJA: 107112988(NSD3)
+            STOW: 125441690(NSD3)
+            XLA: 108711640(nsd3.L)
+            XTR: 100216035(nsd3)
+            NPR: 108800629(WHSC1L1)
+            RTEM: 120933173(NSD3)
+            BBUF: 120986278(NSD3)
+            BGAR: 122927314(NSD3)
+            DRE: 100006350(whsc1l1)
+            SRX: 107705078 107720716
+            SANH: 107678004 107687514
+            SGH: 107553696(whsc1l1)
+            CCAR: 109099915 109100150
+            CAUA: 113054245 113109774
+            CGIB: 127966832 128021289
+            PPRM: 120482303(nsd3)
+            MAMB: 125259226(nsd3)
+            CIDE: 127521782
+            MASI: 127432704 127433635
+            IPU: 108277349(nsd3)
+            PHYP: 113544017(nsd3)
+            SMEO: 124393235(nsd3)
+            TFD: 113639282(nsd3)
+            AMEX: 103025001(nsd3)
+            EEE: 113582471(nsd3)
+            TRU: 101063468(nsd3)
+            TNG: GSTEN00029589G001
+            LCO: 109137146(nsd3)
+            NCC: 104951617(whsc1l1)
+            CGOB: 115013158(nsd3)
+            ELY: 117252663(nsd3)
+            EFO: 125890393(nsd3)
+            PLEP: 121943929(nsd3) 121964519
+            SLUC: 116053944(nsd3)
+            ECRA: 117945475(nsd3)
+            ESP: 116689438(nsd3)
+            PFLV: 114555335(nsd3)
+            GAT: 120831193(nsd3)
+            PPUG: 119225419(nsd3)
+            MSAM: 119891651(nsd3)
+            CUD: 121509831(nsd3)
+            ALAT: 119019798(nsd3)
+            MZE: 101481339(nsd3)
+            ONL: 100692732(nsd3)
+            OAU: 116310986(nsd3)
+            OLA: 101156018(nsd3)
+            OML: 112148284(nsd3)
+            XMA: 102222057(nsd3)
+            XCO: 114154602(nsd3)
+            XHE: 116729765(nsd3)
+            PRET: 103470645(whsc1l1)
+            PFOR: 103145846(whsc1l1)
+            PLAI: 106956792(whsc1l1)
+            PMEI: 106921735(whsc1l1)
+            GAF: 122826599(nsd3)
+            CVG: 107089672(whsc1l1)
+            CTUL: 119778126(nsd3)
+            GMU: 124877665(nsd3)
+            NFU: 107394238(whsc1l1)
+            KMR: 108233751(nsd3)
+            ALIM: 106513637(whsc1l1)
+            NWH: 119413897(nsd3)
+            AOCE: 111573350(nsd3)
+            MCEP: 125011832(nsd3)
+            CSEM: 103397008 103397827
+            POV: 109637173(nsd3)
+            SSEN: 122769284(nsd3)
+            HHIP: 117767669(nsd3)
+            HSP: 118115062(nsd3)
+            LCF: 108881778(nsd3)
+            SDU: 111237743(nsd3)
+            SLAL: 111661024(nsd3)
+            XGL: 120805367(nsd3)
+            HCQ: 109525952(nsd3)
+            SSCV: 125993778
+            BPEC: 110156434(nsd3)
+            MALB: 109956650(nsd3)
+            BSPL: 114861815(nsd3)
+            SASA: 106580439 106585046
+            STRU: 115164370 115200307
+            OTW: 112248594(nsd3) 112262742
+            OMY: 110525799 110536201
+            OGO: 124034222(nsd3) 124034924
+            ONE: 115111712 115140198
+            SALP: 111958177 111974608
+            SNH: 120031939 120063245
+            CCLU: 121562471 121584965(nsd3)
+            ELS: 105014331(nsd3)
+            SFM: 108934463 108940378(nsd3)
+            PKI: 111851463 111857590(nsd3)
+            AANG: 118206256 118213470
+            LOC: 102694526(whsc1l1)
+            PSPA: 121302457 121303193
+            ARUT: 117397959 117962539
+            PSEX: 120539300(nsd3)
+            LCM: 102359965(NSD3)
+            CMK: 103190419(nsd3)
+            RTP: 109912039
+            DCI: 103504837
+DBLINKS     ExplorEnz - The Enzyme Database: 2.1.1.370
+            IUBMB Enzyme Nomenclature: 2.1.1.370
+            ExPASy - ENZYME nomenclature database: 2.1.1.370
+            BRENDA, the Enzyme Database: 2.1.1.370
+///

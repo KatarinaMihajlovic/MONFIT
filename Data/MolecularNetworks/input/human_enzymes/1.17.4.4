@@ -1,0 +1,580 @@
+ENTRY       EC 1.17.4.4                 Enzyme
+NAME        vitamin-K-epoxide reductase (warfarin-sensitive);
+            VKORC1 (gene name);
+            VKORC1L1 (gene name)
+CLASS       Oxidoreductases;
+            Acting on CH or CH2 groups;
+            With a disulfide as acceptor
+SYSNAME     phylloquinone:disulfide oxidoreductase
+REACTION    (1) phylloquinone + a protein with a disulfide bond + H2O = 2,3-epoxyphylloquinone + a protein with reduced L-cysteine residues [RN:R03511];
+            (2) phylloquinol + a protein with a disulfide bond = phylloquinone + a protein with reduced L-cysteine residues
+ALL_REAC    R03511;
+            (other) R03645 R09992
+SUBSTRATE   phylloquinone [CPD:C02059];
+            protein with a disulfide bond;
+            H2O [CPD:C00001];
+            phylloquinol [CPD:C03313]
+PRODUCT     2,3-epoxyphylloquinone [CPD:C05849];
+            protein with reduced L-cysteine residues;
+            phylloquinone [CPD:C02059]
+COMMENT     The enzyme catalyses the reduction of vitamin K 2,3-epoxide, which is formed by the activity of EC 4.1.1.90, peptidyl-glutamate 4-carboxylase, back to its phylloquinol active form. The enzyme forms a tight complex with EC 5.3.4.1, protein disulfide-isomerase, which transfers the required electrons from newly-synthesized proteins by catalysing the formation of disulfide bridges. The enzyme acts on the epoxide forms of both phylloquinone (vitamin K1) and menaquinone (vitamin K2). Inhibited strongly by (S)-warfarin and ferulenol.
+HISTORY     EC 1.17.4.4 created 1989 as EC 1.1.4.1, transferred 2014 to EC 1.17.4.4, modified 2018
+REFERENCE   1  [PMID:646989]
+  AUTHORS   Whitlon DS, Sadowski JA, Suttie JW.
+  TITLE     Mechanism of coumarin action: significance of vitamin K epoxide reductase inhibition.
+  JOURNAL   Biochemistry 17:1371-7 (1978)
+            DOI:10.1021/bi00601a003
+REFERENCE   2  [PMID:6733086]
+  AUTHORS   Lee JJ, Fasco MJ.
+  TITLE     Metabolism of vitamin K and vitamin K 2,3-epoxide via interaction with a common disulfide.
+  JOURNAL   Biochemistry 23:2246-52 (1984)
+            DOI:10.1021/bi00305a024
+REFERENCE   3  [PMID:3857611]
+  AUTHORS   Mukharji I, Silverman RB.
+  TITLE     Purification of a vitamin K epoxide reductase that catalyzes conversion of vitamin K 2,3-epoxide to 3-hydroxy-2-methyl-3-phytyl-2,3-dihydronaphthoquinone.
+  JOURNAL   Proc Natl Acad Sci U S A 82:2713-7 (1985)
+            DOI:10.1073/pnas.82.9.2713
+REFERENCE   4  [PMID:14765195]
+  AUTHORS   Li T, Chang CY, Jin DY, Lin PJ, Khvorova A, Stafford DW
+  TITLE     Identification of the gene for vitamin K epoxide reductase.
+  JOURNAL   Nature 427:541-4 (2004)
+            DOI:10.1038/nature02254
+REFERENCE   5  [PMID:17124179]
+  AUTHORS   Wajih N, Hutson SM, Wallin R
+  TITLE     Disulfide-dependent protein folding is linked to operation of the vitamin K cycle in the endoplasmic reticulum. A protein disulfide isomerase-VKORC1 redox enzyme complex appears to be responsible for vitamin K1 2,3-epoxide reduction.
+  JOURNAL   J Biol Chem 282:2626-35 (2007)
+            DOI:10.1074/jbc.M608954200
+REFERENCE   6  [PMID:19492146]
+  AUTHORS   Spohn G, Kleinridders A, Wunderlich FT, Watzka M, Zaucke F, Blumbach K, Geisen C, Seifried E, Muller C, Paulsson M, Bruning JC, Oldenburg J
+  TITLE     VKORC1 deficiency in mice causes early postnatal lethality due to severe bleeding.
+  JOURNAL   Thromb Haemost 101:1044-50 (2009)
+REFERENCE   7  [PMID:20696932]
+  AUTHORS   Schulman S, Wang B, Li W, Rapoport TA
+  TITLE     Vitamin K epoxide reductase prefers ER membrane-anchored thioredoxin-like redox partners.
+  JOURNAL   Proc Natl Acad Sci U S A 107:15027-32 (2010)
+            DOI:10.1073/pnas.1009972107
+PATHWAY     ec00130  Ubiquinone and other terpenoid-quinone biosynthesis
+            ec01100  Metabolic pathways
+            ec01110  Biosynthesis of secondary metabolites
+ORTHOLOGY   K05357  vitamin-K-epoxide reductase (warfarin-sensitive)
+GENES       HSA: 154807(VKORC1L1) 79001(VKORC1)
+            PTR: 100610370(VKORC1) 472396(VKORC1L1)
+            PPS: 100979578(VKORC1L1) 103784246(VKORC1)
+            GGO: 101127117(VKORC1) 101145443(VKORC1L1)
+            PON: 100434981(VKORC1) 100458063(VKORC1L1) 112134373
+            NLE: 100591850(VKORC1) 100601157 100601262(VKORC1L1)
+            HMH: 116471184(VKORC1) 116811828(VKORC1L1)
+            MCC: 114676888 697591(VKORC1L1) 714412(VKORC1)
+            MCF: 101926368(VKORC1) 102131386 102143754(VKORC1L1)
+            MTHB: 126944258 126946887 126950311
+            MNI: 105482950(VKORC1)
+            CSAB: 103231221(VKORC1) 103246568(VKORC1L1) 103246572 103246927
+            CATY: 105574592 105581545 105593305(VKORC1L1) 105599496(VKORC1)
+            PANU: 101007749(VKORC1L1) 101025627(VKORC1)
+            TGE: 112614204(VKORC1) 112620261 112620583
+            MLEU: 105541466(VKORC1) 105548721 105548733 105548736
+            RRO: 104661567(VKORC1) 104678399 104678964(VKORC1L1)
+            RBB: 108529701(VKORC1)
+            TFN: 117072927(VKORC1L1) 117072933 117073356 117087689(VKORC1)
+            PTEH: 111525670(VKORC1) 111530454 111535958 113219667
+            CANG: 105505703(VKORC1) 105518960(VKORC1L1)
+            CJC: 100386573(VKORC1) 100388998(VKORC1L1)
+            SBQ: 101041739(VKORC1) 101051522(VKORC1L1)
+            CIMI: 108290018(VKORC1L1) 108293888(VKORC1) 108296609
+            CSYR: 103264390(VKORC1)
+            MMUR: 105871014(VKORC1L1) 105871049(VKORC1)
+            LCAT: 123632662(VKORC1L1) 123632698(VKORC1)
+            PCOQ: 105807073(VKORC1L1) 105823161(VKORC1)
+            OGA: 100947581(VKORC1) 100952951(VKORC1L1)
+            MMU: 27973(Vkorc1) 69568(Vkorc1l1)
+            MCAL: 110295344(Vkorc1l1) 110298355(Vkorc1)
+            MPAH: 110332422(Vkorc1)
+            RNO: 309004(Vkorc1) 399684(Vkorc1l1)
+            MCOC: 116068488(Vkorc1l1) 116100916(Vkorc1)
+            ANU: 117698190(Vkorc1l1) 117702411 117714244(Vkorc1)
+            MUN: 110560966(Vkorc1l1) 110564537(Vkorc1)
+            CGE: 100755703(Vkorc1) 100757934(Vkorc1l1)
+            MAUA: 101836225(Vkorc1l1) 101840628(Vkorc1)
+            PLEU: 114693670(Vkorc1l1) 114704396(Vkorc1)
+            MORG: 121446041(Vkorc1l1) 121457867(Vkorc1)
+            MFOT: 126504211 126515876
+            AAMP: 119820462(Vkorc1) 119824745(Vkorc1l1)
+            NGI: 103726327(Vkorc1) 103738949(Vkorc1l1)
+            HGL: 101708956(Vkorc1l1) 101712053 101712530(Vkorc1)
+            CPOC: 100717597(Vkorc1) 100720684(Vkorc1l1)
+            CCAN: 109682419(Vkorc1)
+            DORD: 105982096(Vkorc1)
+            DSP: 122096196(Vkorc1) 122114838(Vkorc1l1)
+            NCAR: 124969992 124970058
+            OCU: 100348035 100352876
+            OPI: 101519736(VKORC1L1) 101520237 101524326
+            TUP: 102473374(VKORC1L1) 102489609(VKORC1)
+            GVR: 103600701(VKORC1L1) 103610025(VKORC1)
+            CFA: 479775(VKORC1) 606915(VKORC1L1)
+            CLUD: 112640131(VKORC1) 112646081(VKORC1L1)
+            VVP: 112929263(VKORC1) 112934105(VKORC1L1)
+            VLG: 121486425(VKORC1L1) 121487294(VKORC1)
+            AML: 100473818(VKORC1L1) 100476494(VKORC1)
+            UMR: 103657883(VKORC1) 103670242(VKORC1L1)
+            UAH: 113267716(VKORC1) 113267747(VKORC1L1)
+            UAR: 123784675(VKORC1) 123784703(VKORC1L1)
+            ELK: 111146341 111162267
+            LLV: 125090151 125090200
+            MPUF: 101677403(VKORC1) 101685820(VKORC1L1)
+            NVS: 122895760(VKORC1) 122895982(VKORC1L1)
+            ORO: 101365518(VKORC1L1) 101379206(VKORC1)
+            EJU: 114214375(VKORC1L1) 114214419(VKORC1)
+            ZCA: 113932409(VKORC1) 113933167(VKORC1L1)
+            MLX: 117999538(VKORC1L1) 117999567(VKORC1)
+            NSU: 110589734(VKORC1L1) 110589940(VKORC1)
+            LWW: 102726064(VKORC1) 102742852(VKORC1L1)
+            FCA: 101085010(VKORC1L1) 101089669(VKORC1)
+            PYU: 121017459(VKORC1L1) 121022198(VKORC1)
+            PBG: 122471386(VKORC1L1) 122471420(VKORC1)
+            LRUF: 124517843 124519158
+            PTG: 102964464(VKORC1) 102969550(VKORC1L1)
+            PPAD: 109250658(VKORC1L1) 109259045(VKORC1) 109261808
+            AJU: 106972842(VKORC1L1) 106979129(VKORC1)
+            HHV: 120235669(VKORC1L1) 120242261(VKORC1)
+            BTA: 445422(VKORC1) 506318(VKORC1L1)
+            BOM: 102273264(VKORC1) 102276117(VKORC1L1)
+            BIU: 109578500(VKORC1)
+            BBUB: 102399074(VKORC1L1) 102404250(VKORC1)
+            BBIS: 104986679(VKORC1) 104986777(VKORC1L1)
+            CHX: 102171296(VKORC1) 102174084(VKORC1L1)
+            OAS: 101108541(VKORC1L1) 105604738(VKORC1)
+            ODA: 120860595 120860596 120877656(VKORC1) 120877982(VKORC1L1)
+            CCAD: 122432710(VKORC1) 122432970(VKORC1L1)
+            SSC: 100518062(VKORC1L1) 100522924(VKORC1)
+            CFR: 102506472(VKORC1L1) 102515335(VKORC1)
+            CBAI: 105082780(VKORC1) 105082868(VKORC1L1)
+            CDK: 105089738(VKORC1L1) 105102715(VKORC1)
+            VPC: 102530603(VKORC1) 102542192(VKORC1L1)
+            BACU: 103001696(VKORC1) 103011563(VKORC1L1)
+            LVE: 103077074(VKORC1) 103091469(VKORC1L1)
+            OOR: 101271099(VKORC1L1) 101284991(VKORC1)
+            DLE: 111182082(VKORC1L1) 111182114(VKORC1)
+            PCAD: 102979206(VKORC1L1) 102984282(VKORC1)
+            PSIU: 116739769(VKORC1L1) 116740166(VKORC1)
+            ECB: 100063360(VKORC1) 100629446(VKORC1L1)
+            EPZ: 103547239(VKORC1) 103558037(VKORC1L1)
+            EAI: 106831834(VKORC1L1) 106831891(VKORC1)
+            MYB: 102239240 102239782(VKORC1) 102255608(VKORC1L1) 102259131
+            MYD: 102764792(VKORC1L1) 102771765(VKORC1)
+            MMYO: 118656148(VKORC1) 118657014(VKORC1L1)
+            MLF: 102419906(VKORC1L1) 102435302(VKORC1)
+            MNA: 107524390(VKORC1L1) 107540826(VKORC1)
+            PKL: 118702921(VKORC1L1) 118704943(VKORC1)
+            HAI: 109374189(VKORC1) 109376915(VKORC1L1)
+            DRO: 112304769(VKORC1) 112314697(VKORC1L1)
+            SHON: 118976266(VKORC1L1)
+            AJM: 119041138(VKORC1) 119055020(VKORC1L1)
+            PDIC: 114496038(VKORC1L1) 114506193(VKORC1)
+            PHAS: 123806404(VKORC1L1) 123825695(VKORC1)
+            MMF: 118641647(VKORC1L1) 118641657(VKORC1)
+            RFQ: 117019671(VKORC1) 117025035(VKORC1L1)
+            PALE: 102880782(VKORC1L1) 102886750(VKORC1)
+            PGIG: 120591823(VKORC1L1) 120620061(VKORC1)
+            PVP: 105296731(VKORC1L1) 105304510(VKORC1)
+            RAY: 107503984(VKORC1) 107507444(VKORC1L1)
+            MJV: 108385526(VKORC1) 108408939(VKORC1L1)
+            TOD: 119241467 119241709(VKORC1) 119242320
+            SARA: 101549306(VKORC1) 101549307(VKORC1L1)
+            LAV: 100663455(VKORC1)
+            TMU: 101346924 101356156
+            ETF: 101652401(VKORC1L1) 101659528(VKORC1)
+            DNM: 101442019(VKORC1L1) 101445935(VKORC1)
+            MDO: 100010095(VKORC1L1) 100019247(VKORC1)
+            GAS: 123231144(VKORC1) 123244517(VKORC1L1)
+            SHR: 100914533(VKORC1) 100916214(VKORC1L1)
+            AFZ: 127558753 127562805
+            PCW: 110222147(VKORC1L1) 110223223(VKORC1)
+            OAA: 100085063(VKORC1) 103166981(VKORC1L1)
+            GGA: 408253(VKORC1L1)
+            PCOC: 116228113(VKORC1L1) 116240258
+            MGP: 100550207(VKORC1L1) 104915861
+            CJO: 107322449(VKORC1L1)
+            NMEL: 110391899 110407843(VKORC1L1)
+            APLA: 101798787(VKORC1L1)
+            ACYG: 106041424(VKORC1L1)
+            AFUL: 116497308(VKORC1L1)
+            TGU: 100230928(VKORC1L1)
+            LSR: 110481996(VKORC1L1) 110483486
+            SCAN: 103820095(VKORC1L1) 103824717
+            PMOA: 120507865(VKORC1L1) 120508519
+            OTC: 121344773 121345750(VKORC1L1)
+            PRUF: 121352738 121361665(VKORC1L1)
+            GFR: 102033623(VKORC1L1)
+            FAB: 101810261(VKORC1L1)
+            PHI: 102104161(VKORC1L1)
+            PMAJ: 107212753(VKORC1L1)
+            CCAE: 111922267 111937938(VKORC1L1)
+            CCW: 104691083(VKORC1L1)
+            CBRC: 103621523(VKORC1L1)
+            ETL: 114060508(VKORC1L1)
+            ZAB: 102075491(VKORC1L1)
+            ACHL: 103805953(VKORC1L1)
+            FPG: 101920959(VKORC1L1)
+            CLV: 102085852(VKORC1L1)
+            EGZ: 104131820(VKORC1L1)
+            NNI: 104016793(VKORC1L1)
+            PLET: 104625971(VKORC1L1)
+            PCRI: 104027212(VKORC1L1)
+            PCAO: 104047897(VKORC1L1)
+            ACUN: 113487087(VKORC1L1)
+            TALA: 104366804(VKORC1L1)
+            PADL: 103925608(VKORC1L1)
+            AFOR: 103905889(VKORC1L1)
+            ACHC: 115338558 115347142(VKORC1L1)
+            HALD: 104324435(VKORC1L1)
+            HLE: 104835547(VKORC1L1)
+            AGEN: 126039126
+            GCL: 127024518 127027939
+            CCRI: 104159049(VKORC1L1)
+            CSTI: 104562308
+            EHS: 104505469(VKORC1L1)
+            CMAC: 104475505(VKORC1L1)
+            MUI: 104535578(VKORC1L1)
+            FGA: 104072260(VKORC1L1)
+            GSTE: 104255810(VKORC1L1)
+            LDI: 104349763
+            MNB: 103781915(VKORC1L1)
+            OHA: 104332795(VKORC1L1)
+            NNT: 104401361(VKORC1L1)
+            DPUB: 104302817(VKORC1L1)
+            PGUU: 104462459 104471619
+            ACAR: 104522469(VKORC1L1)
+            AVIT: 104269803(VKORC1L1)
+            CVF: 104286546(VKORC1L1)
+            BRHI: 104489633(VKORC1L1)
+            AAM: 106495348(VKORC1L1)
+            AROW: 112961823 112978587(VKORC1L1)
+            NPD: 112945368(VKORC1L1)
+            TGT: 104567832(VKORC1L1)
+            DNE: 112987420
+            SCAM: 104144738(VKORC1L1)
+            ASN: 102373007(VKORC1L1) 112548693(VKORC1)
+            AMJ: 102575124(VKORC1L1) 102577367
+            CPOO: 109316933(VKORC1L1)
+            GGN: 109293442(VKORC1L1)
+            PSS: 102455189(VKORC1L1) 102455458
+            CMY: 102931890(VKORC1L1) 102937112
+            CPIC: 101932287(VKORC1L1) 101952869
+            TST: 117867437(VKORC1L1) 117888239
+            CABI: 116815531(VKORC1) 116821334(VKORC1L1)
+            MRV: 120387374(VKORC1L1) 120403351 120403473
+            ACS: 100555617(vkorc1)
+            PVT: 110084532(VKORC1L1) 110086404 110086406
+            SUND: 121916934(VKORC1L1) 121933336(VKORC1)
+            PBI: 103052312 103064445(VKORC1L1)
+            PMUR: 107287076(VKORC1L1) 107294319 107299076
+            CTIG: 120302294(VKORC1) 120309254(VKORC1L1)
+            TSR: 106543821(VKORC1L1) 106545499(VKORC1)
+            PGUT: 117666827(VKORC1) 117667535(VKORC1L1)
+            VKO: 123019596(VKORC1) 123036705(VKORC1L1)
+            PMUA: 114582862 114582863 114585928(VKORC1L1)
+            ZVI: 118094680(VKORC1) 118096703(VKORC1L1)
+            GJA: 107106645(VKORC1) 107112507(VKORC1L1)
+            STOW: 125444557(VKORC1) 125445465(VKORC1L1)
+            XLA: 108709644(vkorc1l1.S) 398467(vkorc1.S) 733276(vkorc1l1.L)
+            XTR: 448775(vkorc1) 549523(vkorc1l1)
+            NPR: 108799191(VKORC1L1) 108800672
+            RTEM: 120926639(VKORC1L1) 120942978
+            BBUF: 120995518(VKORC1L1) 121007962
+            BGAR: 122931659(VKORC1L1) 122945556
+            DRE: 100000559(vkorc1) 553717(vkorc1l1)
+            SRX: 107719344 107719575 107734370
+            SANH: 107654009 107654281(vkorc1l1) 107701846
+            SGH: 107563435 107598672
+            CCAR: 109051702 109058151 109081541
+            CAUA: 113068058 113070150 113070234 113070775 113112000
+            CGIB: 127958225 127969284 128014907
+            PPRM: 120468976(vkorc1) 120471681(vkorc1l1)
+            MAMB: 125255907(vkorc1) 125266285(vkorc1l1)
+            CIDE: 127513116 127523718
+            MASI: 127422809 127423721 127433467
+            IPU: 100528488(vkorc1) 108259877(vkorc1l1)
+            PHYP: 113527539 113531399(vkorc1l1)
+            SMEO: 124378900(vkorc1l1) 124389036(vkorc1)
+            TFD: 113637233(vkorc1l1) 113653535(vkorc1)
+            AMEX: 103029702 103037761
+            EEE: 113577552(vkorc1l1) 113591952
+            TRU: 115248692 446034(vkorc1) 446035(vkorc1l1)
+            TNG: GSTEN00016275G001 GSTEN00028302G001
+            LCO: 104928769(vkorc1l1) 104935549
+            NCC: 104956341(vkorc1l1) 104967444
+            CGOB: 115018980(vkorc1l1) 115025109
+            ELY: 117246706(vkorc1) 117267407(vkorc1l1)
+            EFO: 125880841(vkorc1) 125897940(vkorc1l1)
+            PLEP: 121952702(vkorc1l1) 121958389(vkorc1)
+            SLUC: 116058102(vkorc1l1) 116061570(vkorc1)
+            ECRA: 117937341(vkorc1) 117956082(vkorc1l1)
+            ESP: 116671110 116700533(vkorc1l1)
+            PFLV: 114548348 114566835(vkorc1l1)
+            GAT: 120819142(vkorc1) 120821346(vkorc1l1)
+            PPUG: 119212699(vkorc1) 119215732(vkorc1l1)
+            MSAM: 119894921(vkorc1l1) 119915941(vkorc1)
+            CUD: 121518681(vkorc1l1) 121527885(vkorc1)
+            ALAT: 119009859(vkorc1) 119031576(vkorc1l1)
+            MZE: 101466626 101476827(vkorc1l1)
+            ONL: 100705457(vkorc1l1) 100706346
+            OAU: 116321898(vkorc1) 116324375(vkorc1l1)
+            OLA: 101166326(vkorc1l1) 101175272(vkorc1)
+            OML: 112142385(vkorc1l1) 112154204(vkorc1)
+            XMA: 102224968 102236035(vkorc1l1)
+            XCO: 114150296 114152577(vkorc1l1)
+            XHE: 116727136 116728597(vkorc1l1)
+            PRET: 103476055(vkorc1l1) 103481412
+            PFOR: 103133842(vkorc1l1) 103156839
+            PLAI: 106939030 106956650(vkorc1l1)
+            PMEI: 106908662 106934299(vkorc1l1)
+            GAF: 122823577(vkorc1) 122845224(vkorc1l1)
+            CVG: 107090350(vkorc1l1) 107097194
+            CTUL: 119775639(vkorc1l1) 119796754(vkorc1)
+            GMU: 124874787(vkorc1) 124876281(vkorc1l1)
+            NFU: 107387049(vkorc1l1) 107387978
+            KMR: 108233845(vkorc1l1) 108237265(vkorc1)
+            ALIM: 106521363 106525412(vkorc1)
+            NWH: 119420067(vkorc1l1) 119423595(vkorc1)
+            AOCE: 111572720(vkorc1l1) 111581582
+            MCEP: 125021070(vkorc1l1) 125022023(vkorc1)
+            CSEM: 103382040 103394913(vkorc1l1)
+            POV: 109628628(vkorc1l1) 109646209
+            SSEN: 122762756(vkorc1) 122780047(vkorc1l1)
+            HHIP: 117752784(vkorc1) 117774060(vkorc1l1)
+            HSP: 118101059(vkorc1) 118121755(vkorc1l1)
+            LCF: 108884459 108893410
+            SDU: 111220323 111222156(vkorc1l1)
+            SLAL: 111658706 111663852(vkorc1l1)
+            XGL: 120794874(vkorc1) 120802311(vkorc1l1)
+            HCQ: 109508799(vkorc1l1) 109524007
+            SSCV: 125982417 125990938
+            BPEC: 110159643 110165064(vkorc1l1)
+            MALB: 109960444(vkorc1l1) 109963618
+            BSPL: 114845530(vkorc1) 114869075(vkorc1l1)
+            SASA: 106567394(vkorc1l1) 106577046
+            STRU: 115148425(vkorc1l1) 115193702
+            OTW: 112253079(vkorc1) 112258348 121841387
+            OMY: 110529490(vkorc1) 110537845 118966696
+            OGO: 123999324 124014982 124040746(vkorc1)
+            ONE: 115105380 115136237 115136328
+            SALP: 111951604 111963498 111980926
+            SNH: 120017939(vkorc1) 120032726 120056816
+            CCLU: 121553508(vkorc1) 121574101 121579132(vkorc1l1) 123482454
+            ELS: 105007720 105008282(vkorc1l1)
+            SFM: 108921596(vkorc1l1) 108938295 108941679
+            PKI: 111836830 111854712(vkorc1l1) 111859697
+            AANG: 118209798 118220282(vkorc1) 118235633(vkorc1l1)
+            LOC: 102693652(vkorc1l1) 102696686
+            PSPA: 121305140 121308568(vkorc1l1)
+            ARUT: 117398336 117429891 117430605
+            PSEX: 120519621(vkorc1) 120531418(vkorc1l1)
+            LCM: 102345266(VKORC1L1) 102357927
+            CMK: 103180624(vkorc1l1)
+            RTP: 109925205 109928519(vkorc1l1)
+            BFO: 118425571 118426307
+            BBEL: 109463634 109466245
+            CIN: 100178185 780870(vkor)
+            SPU: 763699
+            APLC: 110988312
+            AJC: 117116267
+            SKO: 100376428 102805472
+            DME: Dmel_CG33544(Vkor)
+            DER: 6548496
+            DSE: 6609493
+            DSI: Dsimw501_GD11216(Dsim_GD11216)
+            DYA: Dyak_GE11817
+            DSR: 110180445
+            DPO: 6899093
+            DPE: 6601584
+            DMN: 108158370 117192983
+            DWI: 6640946
+            DGR: 6571186
+            DMO: Dmoj_GI21152
+            DNV: 108653874
+            DHE: 111594945
+            CCAT: 101455423
+            BOD: 106617881
+            RZE: 108368062
+            MDE: 101888998
+            SCAC: 106088686
+            LCQ: 111682432
+            LSQ: 119607419
+            HIS: 119657085
+            AGA: AgaP_AGAP000543
+            ACOZ: 120956807
+            AARA: 120906674
+            ASTE: 118511958
+            AAG: 5574649
+            AALB: 109415799 109431186
+            CQU: CpipJ_CPIJ003816
+            CPII: 120430280
+            CNS: 116344816
+            BCOO: 119083430
+            AME: 724791
+            ACER: 107995061
+            ALAB: 122718185
+            BIM: 100746180
+            BBIF: 117207068
+            BVK: 117237317
+            BVAN: 117160893
+            BTER: 100647907
+            BPYO: 122572804
+            CCAL: 108622863
+            OBB: 114878863
+            MGEN: 117229918
+            NMEA: 116428177
+            CGIG: 122404484
+            SOC: 105199915
+            MPHA: 105838573
+            AEC: 105148077
+            ACEP: 105624125
+            PBAR: 105423896
+            VEM: 105565949
+            HST: 105189853
+            DQU: 106741085
+            CFO: 105256425
+            FEX: 115240480
+            LHU: 105671028
+            PGC: 109856097
+            OBO: 105284994
+            PCF: 106790230
+            PFUC: 122513406
+            VPS: 122637170
+            NVI: 100121150
+            CSOL: 105364056
+            TPRE: 106654656
+            MDL: 103578951
+            CGLO: 123271579
+            FAS: 105264909
+            DAM: 107043343
+            AGIF: 122851518
+            CCIN: 107272607
+            TCA: 103315249
+            DPA: 109544649
+            SOY: 115879210
+            ATD: 109609280
+            CSET: 123317026
+            AGB: 108912240
+            NVL: 108562475
+            APLN: 112906499
+            PPYR: 116177948
+            OTU: 111426474
+            BMOR: 101746818
+            BMAN: 114252611
+            MSEX: 115456116
+            DPL: KGM_206433
+            BANY: 112044458
+            NIQ: 126773741
+            PMAC: 106717878
+            PPOT: 106108589
+            PXU: 106115825
+            PRAP: 111003414
+            PBX: 123709376
+            PNAP: 125048649
+            ZCE: 119830629
+            CCRC: 123695995
+            HAW: 110374796
+            HZE: 124637883
+            TNL: 113498914
+            SLIU: 111347859
+            OFU: 114360700
+            PXY: 105381639
+            CFEL: 113376005 113386337
+            API: 100573656 103309105
+            DNX: 107161956
+            AGS: 114121307
+            RMD: 113554155
+            BTAB: 109041108
+            DCI: 103511493 103511494
+            CLEC: 106663678
+            HHAL: 106689846
+            NLU: 111046624 120355860
+            PHU: Phum_PHUM098450
+            FOC: 113207895
+            TPAL: 117645287
+            ZNE: 110831183
+            CSEC: 111873453
+            SGRE: 126284065
+            FCD: 110856806
+            DPX: DAPPUDRAFT_304442
+            DMK: 123471513
+            DPZ: 124336485
+            PVM: 113823507
+            PJA: 122260330
+            PCHN: 125025702
+            PMOO: 119577042
+            HAME: 121875687
+            PCLA: 123764994
+            PTRU: 123518769
+            HAZT: 108676735
+            EAF: 111699917
+            LSM: 121122276
+            ISC: IscW_ISCW024282
+            DSV: 119446301
+            RSAN: 119389877
+            RMP: 119175932
+            VDE: 111251999
+            VJA: 111260006
+            TUT: 107362817
+            DPTE: 113792512
+            DFR: 124497101
+            CSCU: 111629235
+            PTEP: 107451341
+            SDM: 118196454
+            BMY: BM_BM605(Bm605)
+            LOA: LOAG_06369
+            HRO: HELRODRAFT_88258
+            LGI: LOTGIDRAFT_114833 LOTGIDRAFT_115113
+            PCAN: 112561177 112562931
+            BGT: 106056179 106056190
+            GAE: 121369461 121390761
+            HRF: 124147730 124147731
+            HRJ: 124286966 124286967
+            CRG: 105338127
+            MYI: 110460140
+            PMAX: 117333684
+            MCAF: 127710581
+            MMER: 123535186
+            OBI: 106870276 106877249
+            OSN: 115222593 115224536
+            LAK: 106150415 106150416
+            NVE: 5506957 5515586
+            EPA: 110250868
+            ATEN: 116292045 116293954
+            ADF: 107340505
+            AMIL: 114960653
+            PDAM: 113676685
+            SPIS: 111331307
+            DGT: 114520441
+            XEN: 124433813
+            HMG: 101235337
+            TAD: TRIADDRAFT_6927
+            AQU: 100633778
+            MBR: MONBRDRAFT_29821
+            SRE: PTSG_04186
+            TGO: TGME49_203720 TGME49_249760
+            FCY: FRACYDRAFT_267199
+            PSOJ: PHYSODRAFT_472863
+            EHX: EMIHUDRAFT_361809 EMIHUDRAFT_440728
+            GTT: GUITHDRAFT_106868
+            TBR: Tb927.2.4840
+            TBG: TbgDal_II2880
+            TCR: 504741.190
+            LMA: LMJF_27_2190
+            LIF: LINJ_27_2110
+            LDO: LDBPK_272110
+            LMI: LMXM_27_2190
+            LBZ: LBRM_27_2370
+            LPAN: LPMP_272190
+            ACA: ACP_3002
+            ACM: AciX9_0903
+            GRW: FTO74_03180
+            TRS: Terro_1053
+            ABAS: ACPOL_1085
+DBLINKS     ExplorEnz - The Enzyme Database: 1.17.4.4
+            IUBMB Enzyme Nomenclature: 1.17.4.4
+            ExPASy - ENZYME nomenclature database: 1.17.4.4
+            BRENDA, the Enzyme Database: 1.17.4.4
+            CAS: 55963-40-1
+///

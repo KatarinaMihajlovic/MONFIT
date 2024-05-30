@@ -1,0 +1,395 @@
+ENTRY       EC 1.5.3.13                 Enzyme
+NAME        N1-acetylpolyamine oxidase;
+            hPAO-1;
+            PAO (ambiguous);
+            mPAO;
+            hPAO;
+            polyamine oxidase (ambiguous)
+CLASS       Oxidoreductases;
+            Acting on the CH-NH group of donors;
+            With oxygen as acceptor
+SYSNAME     N1-acetylpolyamine:oxygen oxidoreductase (3-acetamidopropanal-forming)
+REACTION    (1) N1-acetylspermidine + O2 + H2O = putrescine + 3-acetamidopropanal + H2O2 [RN:R09074];
+            (2) N1-acetylspermine + O2 + H2O = spermidine + 3-acetamidopropanal + H2O2 [RN:R03899]
+ALL_REAC    R03899 R09074
+SUBSTRATE   N1-acetylspermidine [CPD:C00612];
+            O2 [CPD:C00007];
+            H2O [CPD:C00001];
+            N1-acetylspermine [CPD:C02567]
+PRODUCT     putrescine [CPD:C00134];
+            3-acetamidopropanal [CPD:C18170];
+            H2O2 [CPD:C00027];
+            spermidine [CPD:C00315]
+COMMENT     The enzyme also catalyses the reaction: N1,N12-diacetylspermine + O2 + H2O = N1-acetylspermidine + 3-acetamamidopropanal + H2O2 [1]. No or very weak activity with spermine, or spermidine in absence of aldehydes. In presence of aldehydes the enzyme catalyses the reactions: 1. spermine + O2 + H2O = spermidine + 3-aminopropanal + H2O2, and with weak efficiency 2. spermidine + O2 + H2O = putrescine + 3-aminopropanal + H2O2 [2]. A flavoprotein (FAD). This enzyme, encoded by the PAOX gene, is found in mammalian peroxisomes and oxidizes N1-acetylated polyamines at the exo (three-carbon) side of the secondary amine, forming 3-acetamamidopropanal. Since the products of the reactions are deacetylated polyamines, this process is known as polyamine back-conversion. Differs in specificity from EC 1.5.3.14 [polyamine oxidase (propane-1,3-diamine-forming)], EC 1.5.3.15 [N8-acetylspermidine oxidase (propane-1,3-diamine-forming)], EC 1.5.3.16 (spermine oxidase) and EC 1.5.3.17 (non-specific polyamine oxidase).
+HISTORY     EC 1.5.3.13 created 2009
+REFERENCE   1  [PMID:12477380]
+  AUTHORS   Vujcic S, Liang P, Diegelman P, Kramer DL, Porter CW
+  TITLE     Genomic identification and biochemical characterization of the mammalian polyamine oxidase involved in polyamine back-conversion.
+  JOURNAL   Biochem J 370:19-28 (2003)
+            DOI:10.1042/BJ20021779
+  SEQUENCE  [hsa:196743]
+REFERENCE   2  [PMID:15611107]
+  AUTHORS   Jarvinen A, Grigorenko N, Khomutov AR, Hyvonen MT, Uimari A, Vepsalainen J, Sinervirta R, Keinanen TA, Vujcic S, Alhonen L, Porter CW, Janne J
+  TITLE     Metabolic stability of alpha-methylated polyamine derivatives and their use as substitutes for the natural polyamines.
+  JOURNAL   J Biol Chem 280:6595-601 (2005)
+            DOI:10.1074/jbc.M412788200
+REFERENCE   3  [PMID:15791459]
+  AUTHORS   Wang Y, Hacker A, Murray-Stewart T, Frydman B, Valasinas A, Fraser AV, Woster PM, Casero RA Jr
+  TITLE     Properties of recombinant human N1-acetylpolyamine oxidase (hPAO): potential role in determining drug sensitivity.
+  JOURNAL   Cancer Chemother Pharmacol 56:83-90 (2005)
+            DOI:10.1007/s00280-004-0936-5
+REFERENCE   4  [PMID:12660232]
+  AUTHORS   Wu T, Yankovskaya V, McIntire WS
+  TITLE     Cloning, sequencing, and heterologous expression of the murine peroxisomal flavoprotein, N1-acetylated polyamine oxidase.
+  JOURNAL   J Biol Chem 278:20514-25 (2003)
+            DOI:10.1074/jbc.M302149200
+  SEQUENCE  [mmu:212503]
+ORTHOLOGY   K00308  N1-acetylpolyamine oxidase
+GENES       HSA: 196743(PAOX)
+            PTR: 100612198(PAOX)
+            PPS: 100991166(PAOX)
+            GGO: 101144152(PAOX)
+            PON: 100447841(PAOX)
+            NLE: 100591252(PAOX)
+            HMH: 116481595(PAOX)
+            MCC: 100498675(PAOX)
+            MCF: 102133238(PAOX)
+            MTHB: 126963296
+            MNI: 105471252(PAOX)
+            CSAB: 103245972(PAOX)
+            CATY: 105598981(PAOX)
+            PANU: 101023302(PAOX)
+            TGE: 112632181(PAOX)
+            MLEU: 105540279(PAOX)
+            RRO: 104677646(PAOX)
+            RBB: 108543375(PAOX)
+            TFN: 117082665(PAOX)
+            PTEH: 111522070(PAOX)
+            CANG: 105511787(PAOX)
+            CJC: 100391148(PAOX)
+            SBQ: 101035835(PAOX)
+            CIMI: 108297208(PAOX)
+            CSYR: 103252832(PAOX)
+            MMUR: 105861485(PAOX)
+            LCAT: 123650190(PAOX)
+            PCOQ: 105823475(PAOX)
+            OGA: 100956508(PAOX)
+            MMU: 212503(Paox)
+            MCAL: 110298329(Paox)
+            MPAH: 110325417(Paox)
+            RNO: 293589(Paox)
+            MCOC: 116103172(Paox)
+            ANU: 117713570(Paox)
+            MUN: 110563321(Paox)
+            CGE: 100754371(Paox)
+            MAUA: 101823694(Paox)
+            PLEU: 114693348(Paox)
+            MORG: 121458151(Paox)
+            MFOT: 126498369
+            AAMP: 119810252(Paox)
+            NGI: 103725840(Paox)
+            HGL: 101697041(Paox)
+            CPOC: 100725437(Paox)
+            CCAN: 109698400(Paox)
+            DORD: 106000243(Paox)
+            DSP: 122127835(Paox)
+            NCAR: 124974917
+            OCU: 100341296
+            OPI: 101523414(PAOX)
+            TUP: 102487097(PAOX)
+            GVR: 103583528 103606759(PAOX)
+            CFA: 480798(PAOX)
+            CLUD: 112672549(PAOX)
+            VVP: 112928783(PAOX)
+            VLG: 121485165(PAOX)
+            AML: 100470303(PAOX)
+            UMR: 103659644(PAOX)
+            UAH: 113252100(PAOX)
+            UAR: 123800009(PAOX)
+            ELK: 111145128
+            LLV: 125084595
+            MPUF: 101685018(PAOX)
+            NVS: 122901244(PAOX)
+            ORO: 101366439(PAOX)
+            EJU: 114221820(PAOX)
+            ZCA: 113923417(PAOX)
+            MLX: 117998087(PAOX)
+            NSU: 110578814(PAOX)
+            LWW: 102730987
+            FCA: 101090142(PAOX)
+            PYU: 121037434(PAOX)
+            PBG: 122493419(PAOX)
+            LRUF: 124507260
+            PTG: 102954249(PAOX)
+            PPAD: 109256703(PAOX)
+            AJU: 106987504(PAOX)
+            HHV: 120245361(PAOX)
+            BTA: 282639(PAOX)
+            BOM: 102280842(PAOX)
+            BIU: 109553024(PAOX)
+            BBUB: 102390709(PAOX)
+            BBIS: 105000957(PAOX)
+            CHX: 102185531(PAOX)
+            OAS: 101111594(PAOX)
+            ODA: 120873814(PAOX)
+            CCAD: 122445802(PAOX)
+            SSC: 100626281(PAOX)
+            CFR: 102509887(PAOX)
+            CBAI: 105066940(PAOX)
+            CDK: 105104593(PAOX)
+            VPC: 102545469(PAOX)
+            BACU: 103020663(PAOX)
+            LVE: 103087537(PAOX)
+            OOR: 101276665(PAOX)
+            DLE: 111172154(PAOX)
+            PCAD: 112061830(PAOX)
+            PSIU: 116741957(PAOX)
+            ECB: 100629322(PAOX)
+            EPZ: 103556402(PAOX)
+            EAI: 106841087(PAOX)
+            MYD: 102769158(PAOX)
+            MMYO: 118669673(PAOX)
+            MLF: 102426319(PAOX)
+            MNA: 107532071(PAOX)
+            PKL: 118719550(PAOX)
+            HAI: 109383553(PAOX)
+            DRO: 112300229(PAOX)
+            SHON: 118990591(PAOX)
+            AJM: 119059480(PAOX)
+            PDIC: 114498062(PAOX)
+            PHAS: 123828962(PAOX)
+            MMF: 118632237(PAOX)
+            RFQ: 117036460(PAOX)
+            PALE: 102897106(PAOX)
+            PGIG: 120581210(PAOX)
+            PVP: 105300392(PAOX)
+            RAY: 107517150(PAOX)
+            MJV: 108395414(PAOX)
+            TOD: 119234105(PAOX)
+            SARA: 101541643(PAOX)
+            LAV: 100671217(PAOX)
+            TMU: 101340288
+            ETF: 101656981(PAOX)
+            DNM: 101447322(PAOX)
+            MDO: 100618593(PAOX)
+            GAS: 123236473(PAOX)
+            SHR: 100935074(PAOX)
+            PCW: 110214046(PAOX)
+            OAA: 100091298(PAOX)
+            GGA: 100857693(PAOX)
+            PCOC: 116234771(PAOX)
+            CJO: 107315627(PAOX)
+            NMEL: 110390485(PAOX)
+            APLA: 110352281(PAOX)
+            ACYG: 125183405(PAOX)
+            AFUL: 116491120(PAOX)
+            TGU: 100226026(PAOX)
+            LSR: 110474029(PAOX)
+            SCAN: 103814080(PAOX)
+            PMOA: 120499686(PAOX)
+            OTC: 121336117(PAOX)
+            PRUF: 121357498(PAOX)
+            FAB: 101813552(PAOX)
+            PHI: 106628584(PAOX)
+            PMAJ: 107207134(PAOX)
+            CCAE: 111944263
+            CCW: 120410203(PAOX)
+            ETL: 114067585(PAOX)
+            ACHL: 103807741(PAOX)
+            FPG: 101915114(PAOX)
+            FCH: 102054181(PAOX)
+            CLV: 102084101(PAOX)
+            EGZ: 104125146(PAOX)
+            NNI: 104013577(PAOX)
+            PLET: 104616531(PAOX)
+            PCRI: 104037035(PAOX)
+            ACUN: 113481861(PAOX)
+            TALA: 104360241(PAOX)
+            PADL: 103924291(PAOX)
+            AFOR: 103895502(PAOX)
+            ACHC: 115348029(PAOX)
+            HLE: 104830800(PAOX)
+            AGEN: 126043044
+            GCL: 127017995
+            CCRI: 104163299(PAOX)
+            CSTI: 104560256(PAOX)
+            EHS: 104516221(PAOX)
+            MUI: 104546220(PAOX)
+            LDI: 104347823(PAOX)
+            MNB: 103771648(PAOX)
+            OHA: 104330391(PAOX)
+            NNT: 104405783(PAOX)
+            DPUB: 104310247(PAOX)
+            PGUU: 104464607(PAOX)
+            CPEA: 104397767
+            AVIT: 104279933
+            CVF: 104283440(PAOX)
+            CUCA: 104060051(PAOX)
+            TEO: 104381259(PAOX)
+            BRHI: 104490004
+            AAM: 106495312(PAOX)
+            AROW: 112977219(PAOX)
+            NPD: 112948426(PAOX)
+            TGT: 104566853
+            DNE: 112981625(PAOX)
+            SCAM: 104149533(PAOX)
+            ASN: 102375090(PAOX)
+            AMJ: 102575603(PAOX)
+            PSS: 102444520(PAOX)
+            CMY: 102934388(PAOX)
+            CPIC: 101935511(PAOX)
+            TST: 117879745(PAOX)
+            CABI: 116816949(PAOX)
+            MRV: 120409350(PAOX)
+            ACS: 100563036(paox)
+            PVT: 110087238(PAOX)
+            SUND: 121925721(PAOX)
+            PBI: 103061034(PAOX)
+            PMUR: 107291447(PAOX)
+            CTIG: 120309930(PAOX)
+            TSR: 106548466(PAOX)
+            PGUT: 117664658(PAOX)
+            VKO: 123017482(PAOX)
+            PMUA: 114596979(PAOX)
+            ZVI: 118096470(PAOX)
+            GJA: 107106972(PAOX)
+            STOW: 125437519(PAOX)
+            XLA: 108701271(XB5760632.L) 495472(paox.L)
+            XTR: 100145496 496840(paox)
+            NPR: 108792302 108793155(PAOX)
+            RTEM: 120909112(PAOX) 120944159
+            BBUF: 121003238 121003667 121003668 121005653 121007382
+            BGAR: 122940929 122940974 122941735 122942437 122945743
+            DRE: 110440136 562105(paox)
+            SRX: 107708014 107757157
+            SANH: 107668834 107673908
+            SGH: 107564350 107588698
+            CCAR: 109082582 109100677
+            CAUA: 113056900(paox)
+            CGIB: 127970021
+            PPRM: 120479786(si:dkey-275b16.2)
+            MAMB: 125277027(paox)
+            CIDE: 127525230
+            MASI: 127414290
+            IPU: 108263770(paox)
+            PHYP: 113544009(paox)
+            SMEO: 124376222(paox)
+            TFD: 113639737(paox)
+            AMEX: 103029926(paox)
+            EEE: 113580961(paox)
+            TRU: 101066188 101066416 115249509
+            LCO: 104924262(paox)
+            NCC: 104961348(paox)
+            CGOB: 115019948(paox)
+            ELY: 117248216 117248217 117248218
+            EFO: 125903177 125903178 125903180
+            PLEP: 121954868(paox) 121961702 121966912
+            SLUC: 116053243(si:dkey-275b16.2)
+            ECRA: 117960224(si:dkey-275b16.2)
+            ESP: 116704970(paox)
+            PFLV: 114571689(paox)
+            GAT: 120820262(si:dkey-275b16.2)
+            PPUG: 119214616(si:dkey-275b16.2)
+            MSAM: 119916864 119916865
+            CUD: 121511073 121511074
+            MZE: 101482825 101483098
+            ONL: 100690986 102079225 102080354
+            OAU: 116309827 116322734 116322735 120443320
+            OLA: 101166491 101169480
+            OML: 112162019 112162020
+            XMA: 102221096 102221362 102229573 102231116(paox)
+            XCO: 114137796 114137797
+            XHE: 116713685(paox) 116713686 116713687 116713688 116713690 116713691
+            PRET: 103476962 103476963
+            PFOR: 103134031 103134033
+            PLAI: 106944797 106944798
+            PMEI: 106915137 106915139
+            GAF: 122842299 122842301
+            CVG: 107086571(paox) 107086572
+            CTUL: 119790662 119790698
+            GMU: 124859080 124859081 124859082
+            NFU: 107375621(paox) 107375622
+            KMR: 108234132(si:dkey-275b16.2)
+            ALIM: 106521929(paox) 106522054
+            NWH: 119411991 119412262
+            AOCE: 111577441(paox) 111577442
+            MCEP: 125018348(paox)
+            CSEM: 103387348(paox)
+            POV: 109636227(paox) 109636235
+            SSEN: 122781818 122782093
+            HHIP: 117775952 117775953
+            HSP: 118119312 118119314
+            LCF: 108888274 108888275
+            SDU: 111234316 111234324
+            SLAL: 111658171 111658178
+            XGL: 120796063(si:dkey-275b16.2)
+            HCQ: 109516209(paox)
+            SSCV: 125978397
+            BPEC: 110157178(paox)
+            MALB: 109961140 109961142
+            BSPL: 114841752 114841755
+            SASA: 106576873(paox)
+            STRU: 115194051(paox)
+            OTW: 112225124(zgc:66484) 112252755(paox)
+            OMY: 110525829(si:dkey-275b16.2)
+            OGO: 124041480(paox) 124041774(zgc:66484)
+            ONE: 115135354(paox)
+            SALP: 112070947(paox)
+            SNH: 120017490(si:dkey-275b16.2)
+            CCLU: 121553303(paox)
+            ELS: 105010685(paox)
+            SFM: 108918131(paox)
+            PKI: 111850322(paox)
+            AANG: 118218197
+            LOC: 102690126(paox) 102690282
+            PSPA: 121325794
+            ARUT: 117405323(zgc:66484) 117416104 117417775
+            PSEX: 120531224(zgc:66484) 120541829(si:dkey-275b16.2)
+            LCM: 102353427(PAOX)
+            CMK: 103178487 103182165(paox)
+            RTP: 109921998 109922001 109923723(paox)
+            BBEL: 109475433 109475523
+            SPU: 579633 593351
+            BCOO: 119070647
+            ALAB: 122712989
+            NVL: 108562895
+            PPYR: 116170494
+            OTU: 111414030
+            BMAN: 114248385
+            MSEX: 115449390
+            BANY: 112051110
+            PPOT: 106099637
+            PXU: 106118355
+            PRAP: 110999660
+            HAW: 110371916
+            SLIU: 111352505
+            OFU: 114354554
+            CLEC: 106660790 106669297
+            HHAL: 106681969 106692474
+            FOC: 113201965
+            TPAL: 117642117
+            DMK: 116926824
+            PVM: 113805206
+            PJA: 122242611 122244577 122248719 122265719
+            PCHN: 125028879 125028930
+            HAME: 121878335
+            PCLA: 123756333
+            PTRU: 123516696
+            LSM: 121120666
+            RMP: 119169577
+            SDM: 118187959
+            GAE: 121368825
+            HRF: 124123005
+            HRJ: 124276736
+            CRG: 117681267
+            PMAX: 117328961
+            PFJ: MYCFIDRAFT_194913
+            FFU: CLAFUR5_12781
+            BCOM: BAUCODRAFT_118878
+            MBR: MONBRDRAFT_33927
+            GTT: GUITHDRAFT_110590
+DBLINKS     ExplorEnz - The Enzyme Database: 1.5.3.13
+            IUBMB Enzyme Nomenclature: 1.5.3.13
+            ExPASy - ENZYME nomenclature database: 1.5.3.13
+            BRENDA, the Enzyme Database: 1.5.3.13
+///

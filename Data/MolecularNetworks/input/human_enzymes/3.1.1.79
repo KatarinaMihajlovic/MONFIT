@@ -1,0 +1,503 @@
+ENTRY       EC 3.1.1.79                 Enzyme
+NAME        hormone-sensitive lipase;
+            HSL
+CLASS       Hydrolases;
+            Acting on ester bonds;
+            Carboxylic-ester hydrolases
+SYSNAME     diacylglycerol acylhydrolase
+REACTION    (1) diacylglycerol + H2O = monoacylglycerol + a carboxylate [RN:R05209];
+            (2) triacylglycerol + H2O = diacylglycerol + a carboxylate [RN:R01369];
+            (3) monoacylglycerol + H2O = glycerol + a carboxylate [RN:R07293]
+ALL_REAC    R01369 R05209 R07293
+SUBSTRATE   diacylglycerol [CPD:C00165];
+            H2O [CPD:C00001];
+            triacylglycerol [CPD:C00422];
+            monoacylglycerol [CPD:C01885]
+PRODUCT     monoacylglycerol [CPD:C01885];
+            carboxylate [CPD:C00060];
+            diacylglycerol [CPD:C00165];
+            glycerol [CPD:C00116]
+COMMENT     This enzyme is a serine hydrolase. Compared with other lipases, hormone-sensitive lipase has a uniquely broad substrate specificity. It hydrolyses all acylglycerols (triacylglycerol, diacylglycerol and monoacylglycerol) [2,3,4] as well as cholesteryl esters [2,4], steroid fatty acid esters [5], retinyl esters [6] and p-nitrophenyl esters [4,7]. It exhibits a preference for the 1- or 3-ester bond of its acylglycerol substrate compared with the 2-ester bond [8]. The enzyme shows little preference for the fatty acids in the triacylglycerol, although there is some increase in activity with decreasing chain length. The enzyme activity is increased in response to hormones that elevate intracellular levels of cAMP.
+HISTORY     EC 3.1.1.79 created 2004
+REFERENCE   1  [PMID:10940339]
+  AUTHORS   Holm C, Osterlund T, Laurell H, Contreras JA.
+  TITLE     Molecular mechanisms regulating hormone-sensitive lipase and lipolysis.
+  JOURNAL   Annu Rev Nutr 20:365-93 (2000)
+            DOI:10.1146/annurev.nutr.20.1.365
+REFERENCE   2  [PMID:7240206]
+  AUTHORS   Fredrikson G, Stralfors P, Nilsson NO, Belfrage P.
+  TITLE     Hormone-sensitive lipase of rat adipose tissue. Purification and some properties.
+  JOURNAL   J Biol Chem 256:6311-20 (1981)
+REFERENCE   3  [PMID:14169138]
+  AUTHORS   VAUGHAN M, BERGER JE, STEINBERG D.
+  TITLE     HORMONE-SENSITIVE LIPASE AND MONOGLYCERIDE LIPASE  ACTIVITIES IN ADIPOSE TISSUE.
+  JOURNAL   J Biol Chem 239:401-9 (1964)
+REFERENCE   4  [PMID:8912675]
+  AUTHORS   Osterlund T, Danielsson B, Degerman E, Contreras JA, Edgren G, Davis RC, Schotz MC, Holm C.
+  TITLE     Domain-structure analysis of recombinant rat hormone-sensitive lipase.
+  JOURNAL   Biochem J 319 ( Pt 2):411-20 (1996)
+            DOI:10.1042/bj3190411
+REFERENCE   5  [PMID:3196730]
+  AUTHORS   Lee FT, Adams JB, Garton AJ, Yeaman SJ.
+  TITLE     Hormone-sensitive lipase is involved in the hydrolysis of lipoidal derivatives of estrogens and other steroid hormones.
+  JOURNAL   Biochim Biophys Acta 963:258-64 (1988)
+            DOI:10.1016/0005-2760(88)90289-5
+REFERENCE   6  [PMID:9162045]
+  AUTHORS   Wei S, Lai K, Patel S, Piantedosi R, Shen H, Colantuoni V, Kraemer FB, Blaner WS.
+  TITLE     Retinyl ester hydrolysis and retinol efflux from BFC-1beta adipocytes.
+  JOURNAL   J Biol Chem 272:14159-65 (1997)
+            DOI:10.1074/jbc.272.22.14159
+REFERENCE   7  [PMID:2794798]
+  AUTHORS   Tsujita T, Ninomiya H, Okuda H.
+  TITLE     p-nitrophenyl butyrate hydrolyzing activity of hormone-sensitive lipase from bovine adipose tissue.
+  JOURNAL   J Lipid Res 30:997-1004 (1989)
+REFERENCE   8  [PMID:14725507]
+  AUTHORS   Yeaman SJ.
+  TITLE     Hormone-sensitive lipase--new roles for an old enzyme.
+  JOURNAL   Biochem J 379:11-22 (2004)
+            DOI:10.1042/BJ20031811
+ORTHOLOGY   K07188  hormone-sensitive lipase
+GENES       HSA: 3991(LIPE)
+            PTR: 456076(LIPE)
+            PPS: 100975071(LIPE)
+            GGO: 101145804(LIPE)
+            PON: 100445800(LIPE)
+            NLE: 100603864(LIPE)
+            HMH: 116480602(LIPE)
+            MCC: 707997(LIPE)
+            MCF: 102143368(LIPE)
+            MTHB: 126941743
+            MNI: 105495248(LIPE)
+            CSAB: 103234777(LIPE)
+            CATY: 105598066(LIPE)
+            PANU: 101023266(LIPE)
+            TGE: 112612101(LIPE)
+            MLEU: 105541674(LIPE)
+            RRO: 104658678(LIPE)
+            RBB: 108513895(LIPE)
+            TFN: 117075239(LIPE)
+            PTEH: 111530380
+            CANG: 105507879(LIPE)
+            CJC: 100387953(LIPE)
+            SBQ: 101052652(LIPE)
+            CIMI: 108285729(LIPE)
+            CSYR: 103264729(LIPE)
+            MMUR: 105868011(LIPE)
+            LCAT: 123624035(LIPE)
+            PCOQ: 105817511(LIPE)
+            OGA: 100952035(LIPE)
+            MMU: 16890(Lipe)
+            MCAL: 110298158(Lipe)
+            MPAH: 110336545(Lipe)
+            RNO: 25330(Lipe)
+            MCOC: 116101848(Lipe)
+            ANU: 117720546(Lipe)
+            MUN: 110563910(Lipe)
+            CGE: 100755300(Lipe)
+            MAUA: 101825806(Lipe)
+            PLEU: 114685349(Lipe)
+            MORG: 121450098(Lipe)
+            MFOT: 126491469
+            AAMP: 119820308(Lipe)
+            NGI: 103744591(Lipe)
+            HGL: 101709284(Lipe)
+            CPOC: 100734974(Lipe)
+            CCAN: 109691865(Lipe)
+            DORD: 105997968(Lipe)
+            DSP: 122097600(Lipe)
+            NCAR: 124966648
+            OCU: 100339941
+            OPI: 101528437(LIPE)
+            TUP: 102477502(LIPE)
+            GVR: 103586114(LIPE)
+            CFA: 403607(LIPE)
+            CLUD: 112645376(LIPE)
+            VVP: 112931218(LIPE)
+            VLG: 121484344(LIPE)
+            AML: 100479605(LIPE)
+            UMR: 103680155(LIPE)
+            UAH: 113243521(LIPE)
+            UAR: 123780404(LIPE)
+            ELK: 111161566
+            LLV: 125088629
+            MPUF: 101683381(LIPE)
+            NVS: 122912071(LIPE)
+            ORO: 101384261(LIPE)
+            EJU: 114197074(LIPE)
+            ZCA: 113935476(LIPE)
+            MLX: 117998053(LIPE)
+            NSU: 110586439(LIPE)
+            LWW: 102733724(LIPE)
+            FCA: 751818(LIPE)
+            PYU: 121018485(LIPE)
+            PBG: 122493988(LIPE)
+            LRUF: 124511087
+            PTG: 102952452(LIPE)
+            PPAD: 109257948(LIPE)
+            AJU: 106987707(LIPE)
+            HHV: 120243020(LIPE)
+            BTA: 286879(LIPE)
+            BOM: 102266815(LIPE)
+            BIU: 109572731(LIPE)
+            BBUB: 102389675(LIPE)
+            BBIS: 104990488(LIPE)
+            CHX: 100860801(LIPE)
+            OAS: 100169699(LIPE)
+            ODA: 120872376(LIPE)
+            CCAD: 122420167(LIPE)
+            SSC: 397583(LIPE)
+            CFR: 102520149
+            CBAI: 105062447(LIPE)
+            CDK: 105090211(LIPE)
+            VPC: 102531302(LIPE)
+            BACU: 103006716(LIPE)
+            LVE: 103074607(LIPE)
+            OOR: 101277193(LIPE)
+            DLE: 111180817(LIPE)
+            PCAD: 102989235(LIPE)
+            PSIU: 116743963(LIPE)
+            ECB: 100069598(LIPE)
+            EPZ: 103558823(LIPE) 103563985
+            EAI: 106847941(LIPE)
+            MYB: 102247234(LIPE)
+            MYD: 102764534(LIPE)
+            MMYO: 118674384(LIPE)
+            MLF: 102426455(LIPE)
+            MNA: 107534157(LIPE)
+            PKL: 118702302(LIPE)
+            HAI: 109374451(LIPE)
+            DRO: 112320229(LIPE)
+            SHON: 119000496(LIPE)
+            AJM: 119060132(LIPE)
+            PDIC: 114511611(LIPE)
+            PHAS: 123818235(LIPE)
+            MMF: 118639408(LIPE)
+            RFQ: 117035485(LIPE)
+            PALE: 102889858(LIPE)
+            PVP: 105307364(LIPE)
+            RAY: 107502572(LIPE)
+            MJV: 108393430(LIPE)
+            TOD: 119249387(LIPE)
+            SARA: 101540265(LIPE)
+            LAV: 100670874(LIPE)
+            TMU: 101361564
+            ETF: 101655062(LIPE)
+            DNM: 101434958(LIPE)
+            MDO: 103104890(LIPE)
+            SHR: 100926393(LIPE)
+            AFZ: 127556374
+            PCW: 110219706(LIPE)
+            OAA: 103167455(LIPE)
+            AGEN: 126035152
+            AAM: 106487870(LIPE)
+            AROW: 112971701(LIPE)
+            ASN: 102386893(LIPE)
+            AMJ: 102571969(LIPE)
+            CPIC: 101953217(LIPE)
+            TST: 117888400(LIPE)
+            CABI: 116818657(LIPE)
+            MRV: 120390744(LIPE)
+            PVT: 110086763(LIPE)
+            SUND: 121915645(LIPE)
+            PBI: 103054092(LIPE)
+            PMUR: 107289716(LIPE)
+            CTIG: 120312011(LIPE)
+            PGUT: 117677674(LIPE)
+            VKO: 123025874(LIPE)
+            PMUA: 114603349(LIPE)
+            ZVI: 118087523(LIPE)
+            GJA: 107106853(LIPE) 107117837
+            STOW: 125435512(LIPE)
+            XLA: 100174796(lipe.L) 108697769(lipe.S)
+            XTR: 733899(lipe)
+            NPR: 108799329(LIPE)
+            RTEM: 120916360(LIPE)
+            BBUF: 120990803(LIPE)
+            BGAR: 122926911(LIPE)
+            DRE: 557893(lipeb) 568368(lipea)
+            SRX: 107706458 107723485 107739528 107748718
+            SANH: 107656618 107657706 107693390 107699484
+            SGH: 107565586 107593665 107595727 107599546
+            CCAR: 109105935 109111854
+            CAUA: 113059067 113062343 113116658 113120143
+            CGIB: 127935876 127975188 127979693 128030630
+            PPRM: 120483517(lipea) 120484659(lipeb)
+            MAMB: 125242790(lipeb) 125275320(lipea)
+            CIDE: 127497698 127500730
+            MASI: 127421249 127425486 127452857 127453560
+            IPU: 108256376(lipeb) 108272659(lipea)
+            PHYP: 113532968(lipe) 113535092
+            SMEO: 124375514(lipeb) 124382218(lipea)
+            TFD: 113641262(lipea) 113659674(lipeb)
+            AMEX: 103030794(lipe) 103036112
+            EEE: 113571934(lipe) 113578376
+            TRU: 101067661(lipe) 101070911
+            TNG: GSTEN00005445G001 GSTEN00015593G001
+            LCO: 104927333(lipe) 104928056
+            NCC: 104955347 104963766
+            CGOB: 115015627 115021198(lipe)
+            ELY: 117263762(lipea) 117265772(lipeb)
+            EFO: 125892771(lipeb) 125904660(lipea)
+            PLEP: 121945131(lipeb) 121958297(lipea)
+            SLUC: 116042460(lipeb) 116047175(lipea)
+            ECRA: 117945621(lipeb) 117957028(lipea)
+            ESP: 116691214(lipe) 116701791
+            PFLV: 114556966(lipe) 114567920
+            GAT: 120811071(lipeb) 120826336(lipea)
+            PPUG: 119197023(lipeb) 119218887(lipea)
+            MSAM: 119897337(lipeb) 119907925(lipea)
+            CUD: 121513730(lipeb) 121524390(lipea)
+            ALAT: 119005801(lipeb) 119016736(lipea)
+            MZE: 101473301 101485272(lipe)
+            ONL: 100534456(lipe) 100708083
+            OAU: 116309493(lipeb) 116318878(lipea)
+            OLA: 101157970(lipe) 101160745
+            OML: 112143493(lipeb) 112160867(lipea)
+            XMA: 102217205 102234893(lipe)
+            XCO: 114138258(lipe) 114156439
+            XHE: 116716805(lipe) 116731753
+            PRET: 103473021 103477914(lipe)
+            PFOR: 103139235(lipe) 103143485
+            PLAI: 106946893 106960167(lipe)
+            PMEI: 106916842(lipe) 106923653
+            GAF: 122830737(lipeb) 122843462(lipea)
+            CVG: 107083574(lipe)
+            CTUL: 119771906(lipeb) 119781167(lipea)
+            GMU: 124865649(lipeb) 124879454(lipea)
+            NFU: 107379673(lipe) 107394884
+            KMR: 108229521(lipea) 108235517(lipeb)
+            ALIM: 106523738(lipe) 106530086
+            NWH: 119409953(lipeb) 119425963(lipea)
+            AOCE: 111564221(lipe) 111580224
+            MCEP: 125016201(lipeb) 125020043(lipea)
+            CSEM: 103388799(lipe) 103393953
+            POV: 109633466(lipe) 109640422
+            SSEN: 122774381(lipeb) 122786205(lipea)
+            HHIP: 117770234(lipea) 117777502(lipeb)
+            HSP: 118113590(lipeb) 118125101(lipea)
+            LCF: 108880754(lipeb) 108899366
+            SDU: 111230513 111236037(lipe)
+            SLAL: 111657262(lipe) 111661080
+            XGL: 120784156(lipeb) 120786574(lipea)
+            HCQ: 109513537 109531659(lipe)
+            SSCV: 125975658
+            BPEC: 110168856 110174235(lipe)
+            MALB: 109954692(lipe) 109958776
+            BSPL: 114842682(lipeb) 114865425(lipea)
+            SASA: 100380378(lips) 106570130 106577399 106605704
+            STRU: 115153499 115176102 115177356 115183447
+            OTW: 112226531(lipeb) 112230020(lipea) 112235274 112257644
+            OMY: 100505413(lipe1) 100505414(lipea) 110510088 110537667
+            OGO: 123998047 124018384 124038460 124043704(lipea)
+            ONE: 115112988 115120676 115131807
+            SALP: 111955344 111958912 111978396
+            SNH: 120027276(lipea) 120046687 120048653 120048772
+            CCLU: 121575665 121586170
+            ELS: 105024275(lipe) 105027558 105028269
+            SFM: 108922191(lipe)
+            PKI: 111854848(tmem145)
+            AANG: 118229831(lipeb)
+            PSPA: 121299176(lipeb) 121304208
+            ARUT: 117434050(lipeb) 117969359
+            LCM: 102346636(LIPE)
+            BFO: 118424806
+            BBEL: 109479227
+            CIN: 100181083
+            SCLV: 120335513
+            SPU: 115928003 585712
+            APLC: 110988815
+            AJC: 117102792
+            SKO: 100376662
+            DME: Dmel_CG11055(Hsl)
+            DER: 6547758
+            DSE: 6610042
+            DSI: Dsimw501_GD11499(Dsim_GD11499)
+            DYA: Dyak_GE12096
+            DAN: 6494614
+            DSR: 110179545
+            DPO: 4804498
+            DPE: 6593171
+            DMN: 108160005
+            DWI: 6640914
+            DGR: 6568727
+            DMO: Dmoj_GI21105
+            DAZ: 108616685
+            DNV: 108654876
+            DHE: 111593545
+            DVI: 6625071
+            CCAT: 101462188
+            BOD: 106621184
+            RZE: 108362939
+            MDE: 101899540
+            SCAC: 106083183
+            LCQ: 111687523
+            LSQ: 119606515
+            HIS: 119654893
+            AGA: AgaP_AGAP002567
+            ACOZ: 120948401
+            AARA: 120908555
+            ASTE: 118508269
+            AAG: 5566934
+            AALB: 109399347 109433364
+            CQU: CpipJ_CPIJ015981
+            CPII: 120417328
+            CNS: 116339615
+            BCOO: 119075947
+            AME: 413702
+            ACER: 107994522
+            ALAB: 122710375
+            BIM: 100748813
+            BBIF: 117209615
+            BVK: 117234575
+            BVAN: 117158600
+            BTER: 100646474
+            BPYO: 122571728
+            CCAL: 108623011
+            OBB: 114874463
+            MGEN: 117220220
+            NMEA: 116426143
+            CGIG: 122402372
+            SOC: 105198580
+            MPHA: 105835099
+            AEC: 105143573
+            ACEP: 105620501
+            PBAR: 105428403
+            VEM: 105562337
+            HST: 105188918
+            DQU: 106743086
+            CFO: 105248955 105258252
+            FEX: 115237774
+            LHU: 105676433
+            PGC: 109856830
+            OBO: 105286291
+            PCF: 106788649
+            PFUC: 122514241
+            VPS: 122634879
+            NVI: 100120573
+            CSOL: 105364358
+            TPRE: 106648819
+            MDL: 103568258
+            CGLO: 123274188
+            FAS: 105270162
+            DAM: 107041986
+            AGIF: 122853192
+            CINS: 118073573
+            LHT: 122500678
+            CCIN: 107264147
+            TCA: 664547
+            DPA: 109543096
+            SOY: 115875835
+            ATD: 109602787
+            CSET: 123309196
+            AGB: 108911225
+            LDC: 111506685
+            NVL: 108569775
+            APLN: 108745144
+            PPYR: 116182824
+            OTU: 111423682
+            BMOR: 101737209
+            BMAN: 114239644
+            MSEX: 115452516
+            DPL: KGM_206593
+            BANY: 112051309
+            NIQ: 126769387
+            PMAC: 106708647
+            PPOT: 106104345
+            PXU: 106121800
+            PRAP: 110998313
+            PBX: 123715134
+            PNAP: 125057080
+            ZCE: 119832926
+            CCRC: 123697196
+            HAW: 110384566
+            HZE: 124636292
+            TNL: 113495550
+            SLIU: 111356413
+            OFU: 114365414
+            PXY: 105392962
+            API: 100159927
+            DNX: 107171212
+            AGS: 114124269
+            RMD: 113549469
+            BTAB: 109032262
+            CLEC: 106668997
+            HHAL: 106688498
+            NLU: 111053191
+            PHU: Phum_PHUM288260
+            FOC: 113207942
+            TPAL: 117644556
+            ZNE: 110826823
+            CSEC: 111861999
+            FCD: 110844206
+            DPX: DAPPUDRAFT_30662
+            DMK: 116918167
+            DPZ: 124342640
+            PVM: 113810962 113818201
+            PJA: 122256419
+            PCHN: 125025900
+            HAME: 121857466
+            PCLA: 123764980
+            PTRU: 123518859
+            HAZT: 108668222
+            PPOI: 119107877
+            ISC: IscW_ISCW018728 IscW_ISCW018730
+            DSV: 119455920 119455921
+            RSAN: 119378685 119390381 119394211
+            RMP: 119172409 119172410
+            VDE: 111243951
+            VJA: 111271304
+            TUT: 107359099 107361343 107362310 107362816 107368307 107370828 107371243
+            DPTE: 113797455
+            DFR: 124498193
+            CSCU: 111613708
+            PTEP: 107442104
+            SDM: 118189220
+            CEL: CELE_C46C11.1(hosl-1)
+            CBR: CBG_14512
+            NAI: NECAME_04548
+            TSP: Tsp_02264
+            HRO: HELRODRAFT_111475 HELRODRAFT_161006
+            LGI: LOTGIDRAFT_113239
+            PCAN: 112567841
+            BGT: 106058325
+            GAE: 121386894
+            HRF: 124150187
+            HRJ: 124286910
+            CRG: 105345018
+            MYI: 110445915
+            PMAX: 117320218 117341288
+            OBI: 106878881
+            OSN: 115211786
+            LAK: 106161696 106177073
+            SMM: Smp_000130.1
+            SHX: MS3_00005797
+            OVI: T265_02504
+            EGL: EGR_02179
+            NVE: 5511001
+            EPA: 110241065
+            ATEN: 116303467
+            ADF: 107330377 107352460
+            AMIL: 114951856
+            PDAM: 113675352
+            SPIS: 111332161
+            DGT: 114524710
+            XEN: 124446480
+            HMG: 100210426
+            TAD: TRIADDRAFT_55258
+            AQU: 105314138
+            CME: CYME_CMF053C
+            GSL: Gasu_23200
+            MBR: MONBRDRAFT_25836 MONBRDRAFT_34791
+            SRE: PTSG_06139 PTSG_08491
+            TET: TTHERM_00185900 TTHERM_00689920 TTHERM_00827140
+            PTM: GSPATT00000473001 GSPATT00006124001 GSPATT00010470001 GSPATT00014607001 GSPATT00014951001 GSPATT00015462001 GSPATT00015563001 GSPATT00020740001 GSPATT00023970001 GSPATT00027668001 GSPATT00031398001 GSPATT00032768001 GSPATT00034492001 PTMB.72
+            PIF: PITG_10850
+            PSOJ: PHYSODRAFT_322905
+            SPAR: SPRG_01501
+            GTT: GUITHDRAFT_134743
+            NGR: NAEGRDRAFT_57147
+DBLINKS     ExplorEnz - The Enzyme Database: 3.1.1.79
+            IUBMB Enzyme Nomenclature: 3.1.1.79
+            ExPASy - ENZYME nomenclature database: 3.1.1.79
+            BRENDA, the Enzyme Database: 3.1.1.79
+///

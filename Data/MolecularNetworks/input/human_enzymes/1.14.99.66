@@ -1,0 +1,555 @@
+ENTRY       EC 1.14.99.66               Enzyme
+NAME        [histone H3]-N6,N6-dimethyl-L-lysine4 FAD-dependent demethylase;
+            KDM1 (gene name);
+            LSD1 (gene name);
+            lysine-specific histone demethylase 1
+CLASS       Oxidoreductases;
+            Acting on paired donors, with incorporation or reduction of molecular oxygen;
+            Miscellaneous
+SYSNAME     [histone H3]-N6,N6-dimethyl-L-lysine4:acceptor oxidoreductase (demethylating)
+REACTION    a [histone H3]-N6,N6-dimethyl-L-lysine4 + 2 acceptor + 2 H2O = a [histone H3]-L-lysine4 + 2 formaldehyde + 2 reduced acceptor (overall reaction) [RN:R12462];
+            (1a) a [histone H3]-N6,N6-dimethyl-L-lysine4 + acceptor + H2O = a [histone H3]-N6-methyl-L-lysine4 + formaldehyde + reduced acceptor [RN:R12463];
+            (1b) a [histone H3]-N6-methyl-L-lysine4 + acceptor + H2O = a [histone H3]-L-lysine4 + formaldehyde + reduced acceptor [RN:R12464]
+ALL_REAC    R12462 R12463 R12464
+SUBSTRATE   [histone H3]-N6,N6-dimethyl-L-lysine4;
+            acceptor [CPD:C00028];
+            H2O [CPD:C00001];
+            [histone H3]-N6-methyl-L-lysine4
+PRODUCT     [histone H3]-L-lysine4;
+            formaldehyde [CPD:C00067];
+            reduced acceptor [CPD:C00030];
+            [histone H3]-N6-methyl-L-lysine4
+COMMENT     The enzyme specifically removes methyl groups from mono- and dimethylated lysine4 of histone 3. During the reaction the substrate is oxidized by the FAD cofactor of the enzyme to generate the corresponding imine, which is subsequently hydrolysed in the form of formaldehyde.The enzyme is similar to flavin amine oxidases, and differs from all other known histone lysine demethylases, which are iron(II)- and 2-oxoglutarate-dependent dioxygenases. The physiological electron acceptor is not known with certainty. In vitro the enzyme can use oxygen, which is reduced to hydrogen peroxide, but generation of hydrogen peroxide in the chromatin environment is unlikely as it will result in oxidative damage of DNA.
+HISTORY     EC 1.14.99.66 created 2019
+REFERENCE   1  [PMID:15811342]
+  AUTHORS   Forneris F, Binda C, Vanoni MA, Mattevi A, Battaglioli E
+  TITLE     Histone demethylation catalysed by LSD1 is a flavin-dependent oxidative process.
+  JOURNAL   FEBS Lett 579:2203-7 (2005)
+            DOI:10.1016/j.febslet.2005.03.015
+  SEQUENCE  [hsa:23028]
+REFERENCE   2  [PMID:19624733]
+  AUTHORS   Forneris F, Battaglioli E, Mattevi A, Binda C
+  TITLE     New roles of flavoproteins in molecular cell biology: histone demethylase LSD1 and chromatin.
+  JOURNAL   FEBS J 276:4304-12 (2009)
+            DOI:10.1111/j.1742-4658.2009.07142.x
+  SEQUENCE  [hsa:23028]
+ORTHOLOGY   K11450  [histone H3]-N6,N6-dimethyl-L-lysine4 FAD-dependent demethylase
+GENES       HSA: 23028(KDM1A)
+            PTR: 456614(KDM1A)
+            PPS: 100995039(KDM1A)
+            GGO: 101144258(KDM1A)
+            PON: 100171870(KDM1A)
+            NLE: 100579631(KDM1A)
+            HMH: 116813055(KDM1A)
+            MCC: 718609(KDM1A)
+            MCF: 102135743(KDM1A)
+            MTHB: 126954770
+            MNI: 105494413(KDM1A)
+            CSAB: 103225404(KDM1A)
+            CATY: 105595010(KDM1A)
+            PANU: 101010766(KDM1A)
+            TGE: 112621190(KDM1A)
+            MLEU: 105529437(KDM1A)
+            RRO: 104663232(KDM1A)
+            RBB: 108538436(KDM1A)
+            TFN: 117093150(KDM1A)
+            PTEH: 111547709(KDM1A)
+            CANG: 105514283(KDM1A)
+            CJC: 100406478(KDM1A)
+            SBQ: 101034653(KDM1A)
+            CIMI: 108308628(KDM1A)
+            CSYR: 103270779(KDM1A)
+            MMUR: 105863495(KDM1A)
+            LCAT: 123634438(KDM1A)
+            PCOQ: 105815693(KDM1A)
+            OGA: 100948050(KDM1A)
+            MMU: 99982(Kdm1a)
+            MCAL: 110292704(Kdm1a)
+            MPAH: 110322979(Kdm1a)
+            RNO: 500569(Kdm1a)
+            MCOC: 116096867(Kdm1a)
+            ANU: 117708797(Kdm1a)
+            MUN: 110545399(Kdm1a)
+            CGE: 100770721(Kdm1a)
+            MAUA: 101823674(Kdm1a)
+            PLEU: 114697214(Kdm1a)
+            MORG: 121448564(Kdm1a)
+            MFOT: 126506926
+            AAMP: 119816860(Kdm1a)
+            NGI: 103746403(Kdm1a)
+            HGL: 101706376(Kdm1a)
+            CPOC: 100723459(Kdm1a)
+            CCAN: 109681855(Kdm1a)
+            DORD: 105997903(Kdm1a)
+            DSP: 122115260(Kdm1a)
+            NCAR: 124990146
+            OCU: 100358443
+            OPI: 101536443(KDM1A)
+            TUP: 102491246(KDM1A)
+            GVR: 103590545(KDM1A)
+            CFA: 478193(KDM1A)
+            CLUD: 112660368(KDM1A)
+            VVP: 112930162(KDM1A)
+            VLG: 121496707(KDM1A)
+            AML: 100469590(KDM1A)
+            UMR: 103666569(KDM1A)
+            UAH: 113268534(KDM1A)
+            UAR: 123782267(KDM1A)
+            ELK: 111154639
+            LLV: 125096779
+            MPUF: 101680728(KDM1A)
+            NVS: 122899554(KDM1A)
+            ORO: 101371349(KDM1A)
+            EJU: 114199057(KDM1A)
+            ZCA: 113908763(KDM1A)
+            MLX: 118019904(KDM1A)
+            NSU: 110575168(KDM1A)
+            LWW: 102744436(KDM1A)
+            FCA: 101096583(KDM1A)
+            PYU: 121022945(KDM1A)
+            PBG: 122480080(KDM1A)
+            LRUF: 124515788
+            PTG: 102952813(KDM1A)
+            PPAD: 109274289(KDM1A)
+            AJU: 106977650(KDM1A)
+            HHV: 120231390(KDM1A)
+            BTA: 532997(KDM1A)
+            BOM: 102287646(KDM1A)
+            BIU: 109574017(KDM1A)
+            BBUB: 102396562(KDM1A)
+            BBIS: 104981096(KDM1A)
+            CHX: 102185879(KDM1A)
+            OAS: 101121409(KDM1A)
+            ODA: 120855026(KDM1A)
+            CCAD: 122426548(KDM1A)
+            SSC: 100127157(KDM1A)
+            CFR: 102517288(KDM1A)
+            CBAI: 105070864(KDM1A)
+            CDK: 105088880(KDM1A)
+            VPC: 102533289(KDM1A)
+            BACU: 103012479(KDM1A)
+            LVE: 103084888(KDM1A)
+            OOR: 101273117(KDM1A)
+            DLE: 111163462(KDM1A)
+            PCAD: 102995575(KDM1A)
+            PSIU: 116748436(KDM1A)
+            ECB: 100071646(KDM1A)
+            EPZ: 103551290(KDM1A)
+            EAI: 106839994(KDM1A)
+            MYB: 102261213(KDM1A)
+            MYD: 102754604(KDM1A)
+            MMYO: 118675325(KDM1A)
+            MLF: 102441324(KDM1A)
+            MNA: 107538326(KDM1A)
+            PKL: 118723786(KDM1A)
+            HAI: 109375888(KDM1A)
+            DRO: 112299203(KDM1A)
+            SHON: 118977833(KDM1A)
+            AJM: 119042278(KDM1A)
+            PDIC: 114497837(KDM1A)
+            PHAS: 123832048(KDM1A)
+            MMF: 118626407(KDM1A)
+            RFQ: 117027824(KDM1A)
+            PALE: 102887129(KDM1A)
+            PGIG: 120596321(KDM1A)
+            PVP: 105290441(KDM1A)
+            RAY: 107513066(KDM1A)
+            MJV: 108391096(KDM1A)
+            TOD: 119235233(KDM1A)
+            SARA: 101542116(KDM1A)
+            LAV: 100663912(KDM1A)
+            TMU: 101347919
+            ETF: 101645404(KDM1A)
+            DNM: 101420988(KDM1A)
+            MDO: 100025161(KDM1A)
+            GAS: 123241010(KDM1A)
+            SHR: 100923421(KDM1A)
+            AFZ: 127555729
+            PCW: 110206041(KDM1A)
+            OAA: 100086658(KDM1A)
+            GGA: 419571(KDM1A)
+            PCOC: 116230114(KDM1A)
+            MGP: 100544521(KDM1A)
+            CJO: 107323904(KDM1A)
+            NMEL: 110387355(KDM1A)
+            APLA: 101803659(KDM1A)
+            ACYG: 106046571(KDM1A)
+            AFUL: 116497985(KDM1A)
+            TGU: 100221744(KDM1A)
+            LSR: 110484269(KDM1A)
+            SCAN: 103822578(KDM1A)
+            PMOA: 120511678(KDM1A)
+            OTC: 121342723(KDM1A)
+            PRUF: 121359874(KDM1A)
+            GFR: 102041827(KDM1A)
+            FAB: 101810697(KDM1A)
+            PHI: 102109140(KDM1A)
+            PMAJ: 107214056(KDM1A)
+            CCAE: 111939020(KDM1A)
+            CCW: 104697964(KDM1A)
+            CBRC: 103614642(KDM1A)
+            ETL: 114061578(KDM1A)
+            ZAB: 102070080(KDM1A)
+            ACHL: 103808196(KDM1A)
+            FPG: 101923221(KDM1A)
+            FCH: 102058829(KDM1A)
+            CLV: 102088529(KDM1A)
+            EGZ: 104132548(KDM1A)
+            NNI: 104015516(KDM1A)
+            PLET: 104620970
+            PCRI: 104024412(KDM1A)
+            PCAO: 104041452(KDM1A)
+            ACUN: 113488263(KDM1A)
+            TALA: 104366984(KDM1A)
+            PADL: 103925455(KDM1A)
+            AFOR: 103905072(KDM1A)
+            ACHC: 115351984(KDM1A)
+            HALD: 104311330(KDM1A)
+            HLE: 104837246(KDM1A)
+            AGEN: 126047464
+            GCL: 127025006
+            CSTI: 104554150(KDM1A)
+            EHS: 104513426(KDM1A)
+            CMAC: 104487132(KDM1A)
+            MUI: 104533808(KDM1A)
+            GSTE: 104260759(KDM1A)
+            MNB: 103780978(KDM1A)
+            OHA: 104328064(KDM1A)
+            DPUB: 104310069(KDM1A)
+            CPEA: 104393407(KDM1A)
+            CVF: 104293484(KDM1A)
+            CUCA: 104061495(KDM1A)
+            BRHI: 104495457(KDM1A)
+            AAM: 106484726(KDM1A)
+            AROW: 112971154(KDM1A)
+            NPD: 112951862(KDM1A)
+            TGT: 104571756(KDM1A)
+            DNE: 112984542(KDM1A)
+            SCAM: 104152038(KDM1A)
+            ASN: 102375236(KDM1A)
+            AMJ: 102563192(KDM1A)
+            CPOO: 109318445(KDM1A)
+            GGN: 109294012(KDM1A)
+            PSS: 102460305(KDM1A)
+            CMY: 102931629(KDM1A)
+            CPIC: 101940420(KDM1A)
+            TST: 117868370(KDM1A)
+            CABI: 116826277(KDM1A)
+            MRV: 120389133(KDM1A)
+            ACS: 100557968(kdm1a)
+            PVT: 110089669(KDM1A)
+            SUND: 121915735(KDM1A)
+            PBI: 103067389(KDM1A)
+            PMUR: 107288027(KDM1A)
+            CTIG: 120300147(KDM1A)
+            TSR: 106540788(KDM1A)
+            PGUT: 117669298(KDM1A)
+            VKO: 123026095(KDM1A)
+            PMUA: 114603591(KDM1A)
+            ZVI: 118087744(KDM1A)
+            GJA: 107116662(KDM1A)
+            STOW: 125434929(KDM1A)
+            XLA: 100127344(kdm1a.S) 108708259(kdm1a.L)
+            XTR: 100216250(kdm1a)
+            NPR: 108788279(KDM1A)
+            RTEM: 120926857(KDM1A)
+            BBUF: 120995362(KDM1A)
+            BGAR: 122932490(KDM1A)
+            DRE: 558450(kdm1a)
+            SRX: 107711588
+            SANH: 107694865 107697707
+            SGH: 107582487
+            CCAR: 109048821(kdm1a)
+            CAUA: 113098446 113117536
+            CGIB: 127933332 127976370
+            PPRM: 120484808(kdm1a)
+            MAMB: 125269126(kdm1a)
+            CIDE: 127498673
+            MASI: 127411423 127455097
+            IPU: 108269802(kdm1a)
+            PHYP: 113533951(kdm1a)
+            SMEO: 124389936(kdm1a)
+            TFD: 113651181(kdm1a)
+            AMEX: 103023119(kdm1a)
+            EEE: 113584671(kdm1a)
+            TRU: 101073663(kdm1a)
+            TNG: GSTEN00032051G001
+            LCO: 104931691(kdm1a)
+            NCC: 104968042(kdm1a)
+            CGOB: 115027390(kdm1a)
+            ELY: 117267293(kdm1a)
+            EFO: 125900681(kdm1a)
+            PLEP: 121953332(kdm1a)
+            SLUC: 116057633(kdm1a)
+            ECRA: 117935764(kdm1a)
+            ESP: 116670128(kdm1a)
+            PFLV: 114546575(kdm1a)
+            GAT: 120833360(kdm1a)
+            PPUG: 119227607(kdm1a)
+            MSAM: 119909920(kdm1a)
+            CUD: 121526479(kdm1a)
+            ALAT: 119004662(kdm1a)
+            MZE: 101466759(kdm1a)
+            ONL: 100702505(kdm1a)
+            OAU: 116327060(kdm1a)
+            OLA: 101172293(kdm1a)
+            OML: 112143592(kdm1a)
+            XMA: 102231844(kdm1a)
+            XCO: 114134181(kdm1a)
+            XHE: 116708968(kdm1a)
+            PRET: 103459946(kdm1a)
+            PFOR: 103147265(kdm1a)
+            PLAI: 106936795(kdm1a)
+            PMEI: 106928434(kdm1a)
+            GAF: 122845663(kdm1a)
+            CVG: 107084713(kdm1a)
+            CTUL: 119797817(kdm1a)
+            GMU: 124855435(kdm1a)
+            NFU: 107392201(kdm1a)
+            KMR: 108236889(kdm1a)
+            ALIM: 106533898
+            NWH: 119427524(kdm1a)
+            AOCE: 111573331(kdm1a)
+            MCEP: 125023899(kdm1a)
+            CSEM: 103378492(kdm1a)
+            POV: 109636394(kdm1a)
+            SSEN: 122782955(kdm1a)
+            HHIP: 117756634(kdm1a)
+            HSP: 118116543(kdm1a)
+            LCF: 108874888
+            SDU: 111226160(kdm1a)
+            SLAL: 111655910(kdm1a)
+            XGL: 120795666(kdm1a)
+            HCQ: 109526830(kdm1a)
+            SSCV: 125980471
+            BPEC: 110161360(kdm1a)
+            MALB: 109955009(kdm1a)
+            BSPL: 114848220(kdm1a)
+            SASA: 106562352 106610674
+            STRU: 115162572 115172875
+            OTW: 112256467 112262062
+            OMY: 110498149(kdm1a) 110505285
+            OGO: 124001588 124046269
+            ONE: 115138296 115146423
+            SALP: 111968924 112068085
+            SNH: 120023537(kdm1a) 120060168
+            CCLU: 121538976 121545121
+            ELS: 105016064(kdm1a)
+            SFM: 108922806(kdm1a)
+            PKI: 111854724(kdm1a)
+            AANG: 118235440(kdm1a)
+            LOC: 102685391(kdm1a)
+            PSPA: 121308237(kdm1a)
+            ARUT: 117413319 117414103 117962911
+            PSEX: 120517387(kdm1a)
+            LCM: 102363978(KDM1A)
+            CMK: 103179609(kdm1a) 121849774
+            RTP: 109926736(kdm1a)
+            BFO: 118422441
+            BBEL: 109472794
+            CIN: 100187100
+            SCLV: 120344990
+            SPU: 575875
+            APLC: 110990427
+            AJC: 117116761
+            SKO: 100373836
+            DME: Dmel_CG17149(Su(var)3-3)
+            DER: 6545751
+            DSE: 6616257
+            DSI: Dsimw501_GD14861(Dsim_GD14861)
+            DYA: Dyak_GE19651
+            DAN: 6507938
+            DSR: 110178555
+            DPO: 117185142 4812867
+            DPE: 6596031
+            DMN: 108152784
+            DWI: 6638853
+            DGR: 6557229
+            DMO: Dmoj_GI11530
+            DAZ: 108613120
+            DNV: 108651092
+            DHE: 111600951
+            DVI: 6624613
+            CCAT: 101461855
+            BOD: 106618034
+            RZE: 108378801
+            MDE: 101897898
+            SCAC: 106094569
+            LCQ: 111681191
+            LSQ: 119609704
+            HIS: 119650175
+            AGA: AgaP_AGAP011661
+            ACOZ: 120955630
+            AARA: 120900208
+            ASTE: 118505889 118516469
+            AAG: 5574767
+            AALB: 109422398
+            CQU: CpipJ_CPIJ002197
+            CPII: 120417587
+            CNS: 116341632
+            BCOO: 119071155
+            AME: 726469
+            ACER: 108001570
+            ALAB: 122710417
+            BIM: 100740140
+            BBIF: 117205179
+            BVK: 117243561
+            BVAN: 117164701
+            BTER: 100647583
+            BPYO: 122572094
+            CCAL: 108622958
+            OBB: 114871968
+            MGEN: 117220295
+            NMEA: 116426390
+            CGIG: 122401075
+            SOC: 105200954
+            MPHA: 105832792
+            AEC: 105143630
+            ACEP: 105622905
+            PBAR: 105433548
+            VEM: 105564973
+            HST: 105185849
+            DQU: 106751689
+            CFO: 105253997
+            FEX: 115234610
+            LHU: 105674077
+            PGC: 109854993
+            OBO: 105282940
+            PCF: 106786794
+            PFUC: 122522128
+            VPS: 122638115
+            NVI: 100678665
+            CSOL: 105360759
+            TPRE: 106658470
+            MDL: 103580293
+            CGLO: 123271527
+            FAS: 105263211
+            DAM: 107041294
+            AGIF: 122855020
+            CINS: 118065648
+            LHT: 122510611
+            CCIN: 107267660
+            TCA: 103315031
+            DPA: 109547044
+            SOY: 115879099
+            ATD: 109597000
+            CSET: 123316124
+            AGB: 108905798
+            LDC: 111506347
+            NVL: 108560657
+            APLN: 108735938
+            PPYR: 116169590
+            OTU: 111420804
+            BMOR: 101739058
+            BMAN: 114240311
+            MSEX: 115445640
+            DPL: KGM_203173
+            BANY: 112057943
+            NIQ: 126772486
+            PMAC: 106719592
+            PPOT: 106103126
+            PXU: 106122099
+            PRAP: 110998007
+            PBX: 123713842
+            PNAP: 125063026
+            ZCE: 119833759
+            CCRC: 123696832
+            HAW: 110370308
+            HZE: 124633665
+            TNL: 113497903
+            SLIU: 111357637
+            OFU: 114361070
+            PXY: 105386718(bursa)
+            CFEL: 113366183
+            API: 100168654
+            DNX: 107174085
+            AGS: 114126851
+            RMD: 113549832
+            DCI: 103512113
+            CLEC: 106672331
+            HHAL: 106677548
+            NLU: 111059681
+            PHU: Phum_PHUM106950
+            FOC: 113204568 113207403
+            TPAL: 117652223
+            ZNE: 110831592 110841493
+            CSEC: 111864370 111865515
+            SGRE: 126284166
+            FCD: 110853963
+            DPX: DAPPUDRAFT_39808
+            DMK: 116935472
+            DPZ: 124343487
+            PVM: 113807228
+            PJA: 122262527
+            PCHN: 125032108
+            PMOO: 119596469
+            HAME: 121869618
+            PCLA: 123769852
+            PTRU: 123501269
+            HAZT: 108664332
+            EAF: 111695147
+            LSM: 121115894
+            PPOI: 119104122
+            ISC: IscW_ISCW004580 IscW_ISCW019383
+            DSV: 119442251 119466038
+            RSAN: 119371688 119377057
+            RMP: 119159651 119163729
+            VDE: 111244720 111245465
+            VJA: 111261470 111271582
+            TUT: 107368558
+            DPTE: 113789474 113795938
+            DFR: 124492606 124500459
+            CSCU: 111638896
+            PTEP: 107446922
+            SDM: 118182146
+            HRO: HELRODRAFT_90753
+            LGI: LOTGIDRAFT_154476
+            PCAN: 112561001
+            BGT: 106057596
+            GAE: 121369986 121391193
+            HRF: 124133544
+            HRJ: 124279824
+            CRG: 105346267
+            MYI: 110454266
+            PMAX: 117328302
+            MCAF: 127724654
+            MMER: 123563686
+            OBI: 106869849
+            OSN: 115224219
+            LAK: 106170923
+            SMM: Smp_150560
+            SHX: MS3_00009234(KDM1A_1)
+            OVI: T265_01693
+            EGL: EGR_08887
+            NVE: 5512813
+            EPA: 110237306
+            ATEN: 116302459
+            ADF: 107335615
+            AMIL: 114968998
+            PDAM: 113675980
+            SPIS: 111342045
+            DGT: 114533681
+            XEN: 124441854
+            TAD: TRIADDRAFT_34137
+            AQU: 100631436
+            OSA: 4344644
+            DOSA: Os08t0143400-01(Os08g0143400)
+            BDI: 100835742
+            ATS: 109781192
+            TDC: 119330479 119338613
+            TAES: 123147418 123157372 123165349
+            TUA: 125519949
+            LPER: 127314487
+            PVIR: 120678932 120711365
+            PDA: 103724047
+            EGU: 105045418
+            MUS: 103986351
+            DCT: 110107040
+            PEQ: 110039551
+            AOF: 109844854
+            AVM: JQX13_23305
+DBLINKS     ExplorEnz - The Enzyme Database: 1.14.99.66
+            IUBMB Enzyme Nomenclature: 1.14.99.66
+            ExPASy - ENZYME nomenclature database: 1.14.99.66
+            BRENDA, the Enzyme Database: 1.14.99.66
+///

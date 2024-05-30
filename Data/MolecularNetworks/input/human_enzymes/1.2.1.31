@@ -1,0 +1,723 @@
+ENTRY       EC 1.2.1.31                 Enzyme
+NAME        L-aminoadipate-semialdehyde dehydrogenase;
+            aminoadipate semialdehyde dehydrogenase;
+            2-aminoadipate semialdehyde dehydrogenase;
+            alpha-aminoadipate-semialdehyde dehydrogenase;
+            alpha-aminoadipate reductase;
+            2-aminoadipic semialdehyde dehydrogenase;
+            L-alpha-aminoadipate delta-semialdehyde oxidoreductase;
+            L-alpha-aminoadipate delta-semialdehyde:NAD+ oxidoreductase;
+            L-alpha-aminoadipate delta-semialdehyde:nicotinamide adenine dinucleotide oxidoreductase;
+            L-2-aminoadipate 6-semialdehyde:NAD(P)+ 6-oxidoreductase
+CLASS       Oxidoreductases;
+            Acting on the aldehyde or oxo group of donors;
+            With NAD+ or NADP+ as acceptor
+SYSNAME     (S)-2-amino-6-oxohexanoate:NAD(P)+ 6-oxidoreductase
+REACTION    (S)-2-amino-6-oxohexanoate + NAD(P)+ + H2O = L-2-aminoadipate + NAD(P)H + H+ (overall reaction) [RN:R03102 R03103];
+            (1a) (S)-2-amino-6-oxohexanoate = (S)-2,3,4,5-tetrahydropyridine-2-carboxylate + H2O (spontaneous) [RN:R02317];
+            (1b) (S)-2,3,4,5-tetrahydropyridine-2-carboxylate + NAD(P)+ + 2 H2O = L-2-aminoadipate + NAD(P)H + H+ [RN:R11231 R11232]
+ALL_REAC    R02317 R03102 R03103 R11231 R11232
+SUBSTRATE   (S)-2-amino-6-oxohexanoate [CPD:C04076];
+            NAD+ [CPD:C00003];
+            NADP+ [CPD:C00006];
+            H2O [CPD:C00001];
+            (S)-2,3,4,5-tetrahydropyridine-2-carboxylate [CPD:C00450]
+PRODUCT     L-2-aminoadipate [CPD:C00956];
+            NADH [CPD:C00004];
+            NADPH [CPD:C00005];
+            H+ [CPD:C00080];
+            (S)-2,3,4,5-tetrahydropyridine-2-carboxylate [CPD:C00450];
+            H2O [CPD:C00001]
+COMMENT     (S)-2-amino-6-oxohexanoate undergoes a spontaneous dehydration forming the cyclic (S)-2,3,4,5-tetrahydropyridine-2-carboxylate, which serves as a substrate for the hydrogenation reaction.
+HISTORY     EC 1.2.1.31 created 1972, modified 2011
+REFERENCE   1  [PMID:4285660]
+  AUTHORS   Calvert AF, Rodwell VW.
+  TITLE     Metabolism of pipecolic acid in a Pseudomonas species. 3. L-alpha-aminoadipate delta-semialdehyde:nicotinamide adenine dinucleotide oxidoreductase.
+  JOURNAL   J Biol Chem 241:409-14 (1966)
+REFERENCE   2
+  AUTHORS   Rodwell, V.W.
+  TITLE     Delta1-piperideine-6-carboxylic acid and alpha-aminoadipic acid delta-semialdehyde.
+  JOURNAL   Method Enzymol 17B:188-199 (1971)
+REFERENCE   3  [PMID:9355735]
+  AUTHORS   de La Fuente JL, Rumbero A, Martin JF, Liras P
+  TITLE     Delta-1-piperideine-6-carboxylate dehydrogenase, a new enzyme that forms alpha-aminoadipate in Streptomyces clavuligerus and other cephamycin C-producing  actinomycetes.
+  JOURNAL   Biochem J 327 ( Pt 1):59-64 (1997)
+REFERENCE   4  [PMID:11098140]
+  AUTHORS   Fujii T, Narita T, Agematu H, Agata N, Isshiki K
+  TITLE     Cloning and characterization of pcd encoding delta'-piperideine-6-carboxylate dehydrogenase from flavobacterium lutescens IFO3084.
+  JOURNAL   J Biochem 128:975-82 (2000)
+            DOI:10.1093/oxfordjournals.jbchem.a022849
+PATHWAY     ec00310  Lysine degradation
+            ec01100  Metabolic pathways
+            ec01110  Biosynthesis of secondary metabolites
+            ec01120  Microbial metabolism in diverse environments
+ORTHOLOGY   K14085  aldehyde dehydrogenase family 7 member A1
+GENES       HSA: 501(ALDH7A1)
+            PTR: 462033(ALDH7A1)
+            PPS: 100970644 100970731(ALDH7A1)
+            GGO: 101148545(ALDH7A1)
+            PON: 100461726(ALDH7A1)
+            NLE: 100583462(ALDH7A1)
+            HMH: 116470879(ALDH7A1)
+            MCC: 702749(ALDH7A1)
+            MCF: 102115022 102120771(ALDH7A1)
+            MTHB: 126935059 126957101
+            MNI: 105463163(ALDH7A1) 105468632
+            CSAB: 103245164(ALDH7A1)
+            CATY: 105599693(ALDH7A1)
+            PANU: 101019039(ALDH7A1)
+            TGE: 112626208(ALDH7A1)
+            MLEU: 105540550(ALDH7A1)
+            RRO: 104677423(ALDH7A1)
+            RBB: 108537700(ALDH7A1)
+            TFN: 117065947(ALDH7A1) 117083919
+            PTEH: 111529996(ALDH7A1)
+            CANG: 105511908(ALDH7A1) 105519793
+            CJC: 100401828(ALDH7A1) 100410565(ALDH7A1)
+            SBQ: 101045920(ALDH7A1)
+            CIMI: 108284323(ALDH7A1) 108301874
+            CSYR: 103274598(ALDH7A1)
+            MMUR: 105854886(ALDH7A1)
+            LCAT: 123648287(ALDH7A1)
+            PCOQ: 105826344(ALDH7A1)
+            OGA: 100961474(ALDH7A1)
+            MMU: 110695(Aldh7a1)
+            MCAL: 110285158(Aldh7a1)
+            MPAH: 110333007(Aldh7a1)
+            RNO: 291450(Aldh7a1)
+            MCOC: 116087179(Aldh7a1)
+            ANU: 117719754(Aldh7a1)
+            MUN: 110562122(Aldh7a1)
+            CGE: 100756509(Aldh7a1)
+            MAUA: 101822560(Aldh7a1)
+            PLEU: 114706088(Aldh7a1)
+            MORG: 121440676 121443639
+            MFOT: 126487857
+            AAMP: 119814178(Aldh7a1)
+            NGI: 103740420(Aldh7a1)
+            HGL: 101711696(Aldh7a1)
+            CPOC: 100732238(Aldh7a1)
+            CCAN: 109699996(Aldh7a1)
+            DORD: 105985276(Aldh7a1)
+            DSP: 122103983(Aldh7a1)
+            NCAR: 124986798
+            OCU: 100344302
+            OPI: 101518224(ALDH7A1)
+            TUP: 102495542(ALDH7A1)
+            GVR: 103610101(ALDH7A1)
+            CFA: 481486(ALDH7A1)
+            CLUD: 112649908(ALDH7A1)
+            VVP: 112917127(ALDH7A1)
+            VLG: 121494986(ALDH7A1)
+            AML: 100475712(ALDH7A1)
+            UMR: 103670577(ALDH7A1)
+            UAH: 113261663(ALDH7A1)
+            UAR: 123790399(ALDH7A1)
+            ELK: 111148305
+            LLV: 125100356
+            MPUF: 101679297(ALDH7A1)
+            NVS: 122916525(ALDH7A1)
+            ORO: 101372739(ALDH7A1)
+            EJU: 114209580(ALDH7A1)
+            ZCA: 113928974(ALDH7A1)
+            MLX: 118016584(ALDH7A1)
+            NSU: 110590890(ALDH7A1)
+            LWW: 102744633(ALDH7A1)
+            FCA: 101086623(ALDH7A1)
+            PYU: 121010631(ALDH7A1)
+            PBG: 122486911(ALDH7A1)
+            LRUF: 124515272
+            PTG: 102951788(ALDH7A1)
+            PPAD: 109250945(ALDH7A1)
+            AJU: 106970741(ALDH7A1)
+            HHV: 120234735(ALDH7A1)
+            BTA: 507477(ALDH7A1)
+            BOM: 102285292(ALDH7A1)
+            BIU: 109561847(ALDH7A1)
+            BBUB: 102391870(ALDH7A1)
+            BBIS: 104993181(ALDH7A1)
+            CHX: 102187125(ALDH7A1)
+            OAS: 101108127(ALDH7A1)
+            ODA: 120864703(ALDH7A1)
+            CCAD: 122423739 122440104(ALDH7A1)
+            SSC: 106504110(ALDH7A1)
+            CFR: 102512958(ALDH7A1)
+            CBAI: 105082073(ALDH7A1)
+            CDK: 105089785(ALDH7A1)
+            VPC: 102531076(ALDH7A1)
+            BACU: 103018812 103019170(ALDH7A1)
+            LVE: 103087111(ALDH7A1)
+            OOR: 101279003(ALDH7A1)
+            DLE: 111182376(ALDH7A1)
+            PCAD: 102990841(ALDH7A1)
+            PSIU: 116750599(ALDH7A1)
+            ECB: 100063766(ALDH7A1)
+            EPZ: 103557440(ALDH7A1)
+            EAI: 106842819(ALDH7A1)
+            MYB: 102247575(ALDH7A1)
+            MYD: 102754535(ALDH7A1)
+            MMYO: 118656151(ALDH7A1)
+            MLF: 102441975(ALDH7A1)
+            MNA: 107540928(ALDH7A1)
+            PKL: 118702745(ALDH7A1)
+            HAI: 109379078(ALDH7A1)
+            DRO: 112314805(ALDH7A1)
+            SHON: 118974985(ALDH7A1)
+            AJM: 119044019(ALDH7A1)
+            PDIC: 114506858(ALDH7A1)
+            PHAS: 123818123(ALDH7A1)
+            MMF: 118641824(ALDH7A1)
+            RFQ: 117024968(ALDH7A1)
+            PALE: 102880590(ALDH7A1)
+            PGIG: 120590904(ALDH7A1)
+            PVP: 105290880(ALDH7A1)
+            RAY: 107498603(ALDH7A1)
+            MJV: 108401917(ALDH7A1)
+            TOD: 119243529(ALDH7A1)
+            SARA: 101547156(ALDH7A1)
+            LAV: 100656260(ALDH7A1)
+            TMU: 101361542
+            ETF: 101650276(ALDH7A1)
+            DNM: 101415015(ALDH7A1)
+            MDO: 100009965(ALDH7A1)
+            GAS: 123236124(ALDH7A1)
+            SHR: 100930576(ALDH7A1)
+            AFZ: 127560239
+            PCW: 110223911(ALDH7A1)
+            OAA: 100074256(ALDH7A1)
+            GGA: 426812(ALDH7A1)
+            PCOC: 116226072(ALDH7A1)
+            MGP: 104915364(ALDH7A1)
+            CJO: 107306701(ALDH7A1)
+            NMEL: 110389971(ALDH7A1)
+            APLA: 101793275(ALDH7A1)
+            ACYG: 106046528(ALDH7A1)
+            AFUL: 116500934(ALDH7A1)
+            TGU: 100223716(ALDH7A1)
+            LSR: 110467766(ALDH7A1)
+            SCAN: 103821480(ALDH7A1)
+            PMOA: 120513570(ALDH7A1)
+            OTC: 121332722(ALDH7A1)
+            PRUF: 121362563(ALDH7A1)
+            GFR: 102042249(ALDH7A1)
+            FAB: 101806923(ALDH7A1)
+            PHI: 102106824(ALDH7A1)
+            PMAJ: 107198296(ALDH7A1)
+            CCAE: 111941214(ALDH7A1)
+            CCW: 104690506(ALDH7A1)
+            CBRC: 103611637(ALDH7A1)
+            ETL: 114069037(ALDH7A1)
+            ZAB: 102066920(ALDH7A1)
+            ACHL: 103807113(ALDH7A1)
+            FPG: 101917601(ALDH7A1)
+            FCH: 102052577(ALDH7A1)
+            CLV: 102091436(ALDH7A1)
+            EGZ: 104124248(ALDH7A1)
+            NNI: 104016339(ALDH7A1)
+            PCRI: 104024630(ALDH7A1)
+            PCAO: 104039802(ALDH7A1)
+            ACUN: 113489748(ALDH7A1)
+            TALA: 104360643(ALDH7A1)
+            PADL: 103914477(ALDH7A1)
+            AFOR: 103903064(ALDH7A1)
+            ACHC: 115336625(ALDH7A1)
+            HALD: 104317702(ALDH7A1)
+            HLE: 104828190(ALDH7A1)
+            AGEN: 126035839
+            GCL: 127027362
+            CCRI: 104155149(ALDH7A1)
+            CSTI: 104562101(ALDH7A1)
+            EHS: 104508085(ALDH7A1)
+            CMAC: 104487217(ALDH7A1)
+            MUI: 104543834(ALDH7A1)
+            FGA: 104070458(ALDH7A1)
+            GSTE: 104251018(ALDH7A1)
+            LDI: 104350723(ALDH7A1)
+            MNB: 103781508(ALDH7A1)
+            OHA: 104327313(ALDH7A1)
+            NNT: 104404083(ALDH7A1)
+            DPUB: 104299619(ALDH7A1)
+            PGUU: 104472455(ALDH7A1)
+            ACAR: 104518968(ALDH7A1)
+            CPEA: 104391245(ALDH7A1)
+            AVIT: 104268179(ALDH7A1)
+            CVF: 104294242(ALDH7A1)
+            CUCA: 104056281(ALDH7A1)
+            AROW: 112961617(ALDH7A1)
+            NPD: 112953492(ALDH7A1)
+            TGT: 104580316(ALDH7A1)
+            DNE: 112992375(ALDH7A1)
+            SCAM: 104150298(ALDH7A1)
+            ASN: 102368427(ALDH7A1)
+            AMJ: 102563610(ALDH7A1)
+            CPOO: 109323589(ALDH7A1)
+            GGN: 109297204(ALDH7A1)
+            PSS: 102458471(ALDH7A1)
+            CMY: 102940167(ALDH7A1)
+            CPIC: 101937973(ALDH7A1)
+            TST: 117878720(ALDH7A1)
+            CABI: 116835602(ALDH7A1)
+            MRV: 120408242(ALDH7A1)
+            ACS: 100560663(aldh7a1)
+            PVT: 110077534(ALDH7A1)
+            SUND: 121920642(ALDH7A1)
+            PBI: 103049565(ALDH7A1)
+            PMUR: 107283290(ALDH7A1)
+            CTIG: 120304059(ALDH7A1)
+            TSR: 106537542(ALDH7A1)
+            PGUT: 117661316(ALDH7A1)
+            VKO: 123031275(ALDH7A1)
+            PMUA: 114606883 114606885
+            ZVI: 118076849(ALDH7A1)
+            GJA: 107112391(ALDH7A1)
+            STOW: 125436582(ALDH7A1)
+            XLA: 108707197(aldh7a1.S) 447522(aldh7a1.L)
+            XTR: 549131(aldh7a1)
+            NPR: 108799792(ALDH7A1)
+            RTEM: 120932308(ALDH7A1)
+            BBUF: 120988479(ALDH7A1)
+            BGAR: 122924606(ALDH7A1)
+            DRE: 334197(aldh7a1)
+            SRX: 107715563(aldh7a1)
+            SANH: 107657454(aldh7a1)
+            SGH: 107573911(aldh7a1)
+            CCAR: 109097311(aldh7a1)
+            CAUA: 113109506(aldh7a1)
+            CGIB: 127966182
+            PPRM: 120479733(aldh7a1)
+            MAMB: 125255441(aldh7a1)
+            CIDE: 127520570
+            MASI: 127432454
+            IPU: 108277325(aldh7a1)
+            PHYP: 113543635(aldh7a1)
+            SMEO: 124393925(aldh7a1)
+            TFD: 113660306(aldh7a1)
+            AMEX: 103034062(aldh7a1)
+            EEE: 113589019(aldh7a1)
+            TRU: 101066288(aldh7a1)
+            LCO: 104931924(aldh7a1)
+            NCC: 104947674(aldh7a1)
+            CGOB: 115006729(aldh7a1)
+            ELY: 117253877(aldh7a1)
+            EFO: 125895605(aldh7a1)
+            PLEP: 121966268(aldh7a1)
+            SLUC: 116055256(aldh7a1)
+            ECRA: 117950645(aldh7a1)
+            ESP: 116696284(aldh7a1)
+            PFLV: 114561474(aldh7a1)
+            GAT: 120823954(aldh7a1)
+            PPUG: 119216332(aldh7a1)
+            MSAM: 119900653(aldh7a1)
+            CUD: 121512782(aldh7a1)
+            ALAT: 119028977(aldh7a1)
+            MZE: 101482988(aldh7a1)
+            ONL: 100699093(aldh7a1)
+            OAU: 116324600(aldh7a1)
+            OLA: 101157525(aldh7a1)
+            OML: 112150430(aldh7a1)
+            XMA: 102233064(aldh7a1)
+            XCO: 114150635(aldh7a1)
+            XHE: 116726093(aldh7a1)
+            PRET: 103464136(aldh7a1)
+            PFOR: 103138553(aldh7a1)
+            PLAI: 106961790(aldh7a1)
+            PMEI: 106930000(aldh7a1)
+            GAF: 122838667(aldh7a1)
+            CVG: 107103171(aldh7a1)
+            CTUL: 119774637(aldh7a1)
+            GMU: 124873928(aldh7a1)
+            NFU: 107392683(aldh7a1)
+            KMR: 108230647(aldh7a1)
+            ALIM: 106511506(aldh7a1)
+            NWH: 119430630(aldh7a1)
+            AOCE: 111565984(aldh7a1)
+            MCEP: 125008990(aldh7a1)
+            CSEM: 103393055(aldh7a1)
+            POV: 109625620(aldh7a1)
+            SSEN: 122780635(aldh7a1)
+            HHIP: 117760379(aldh7a1)
+            HSP: 118120794(aldh7a1)
+            LCF: 108881294
+            SDU: 111217230(aldh7a1)
+            SLAL: 111650170(aldh7a1)
+            XGL: 120790806(aldh7a1)
+            HCQ: 109522068(aldh7a1)
+            SSCV: 125969578
+            BPEC: 110160079(aldh7a1)
+            MALB: 109958202(aldh7a1)
+            BSPL: 114854446(aldh7a1)
+            SASA: 100194754(aldh7a1)
+            STRU: 115160058(aldh7a1)
+            OTW: 112220006(aldh7a1)
+            OMY: 110523197(aldh7a1)
+            OGO: 123989471(aldh7a1)
+            ONE: 115118459(aldh7a1)
+            SALP: 111961923(aldh7a1)
+            SNH: 120025785(aldh7a1)
+            CCLU: 121581995(aldh7a1)
+            ELS: 105021749(aldh7a1)
+            SFM: 108929860(aldh7a1)
+            PKI: 111861025(aldh7a1)
+            AANG: 118212077(aldh7a1)
+            LOC: 102696035(aldh7a1)
+            PSPA: 121302406(aldh7a1) 121315548
+            ARUT: 117409000 117418586
+            PSEX: 120532717(aldh7a1)
+            LCM: 102356888(ALDH7A1)
+            CMK: 103182361(aldh7a1)
+            RTP: 109914520(aldh7a1)
+            BFO: 118409632
+            BBEL: 109476845
+            CIN: 100184485
+            SCLV: 120348317
+            SPU: 588376
+            APLC: 110981183
+            AJC: 117115302
+            SKO: 100370075
+            DME: Dmel_CG9629(Aldh7A1)
+            DER: 6543557
+            DSE: 6618402
+            DSI: Dsimw501_GD12292(Dsim_GD12292)
+            DYA: Dyak_GE22513 Dyak_GE22917
+            DAN: 6493640
+            DSR: 110190220
+            DPO: 4811866
+            DPE: 6602384
+            DMN: 108151959
+            DWI: 6643070
+            DGR: 6558232
+            DMO: Dmoj_GI13547
+            DNV: 108651977
+            DHE: 111604532
+            DVI: 6622382
+            CCAT: 101451143
+            BOD: 106620466
+            RZE: 108360324 108379145
+            MDE: 101888197
+            SCAC: 106092395
+            LCQ: 111687514
+            LSQ: 119613327
+            HIS: 119657503
+            AGA: AgaP_AGAP000881
+            ACOZ: 120959177
+            AARA: 120905741
+            ASTE: 118503935
+            AAG: 110678056 5575285
+            AALB: 109412183
+            CQU: CpipJ_CPIJ009438
+            CPII: 120429236
+            CNS: 116344338
+            BCOO: 119070278
+            AME: 411140
+            ACER: 107999134
+            ALAB: 122718940
+            BIM: 100747121
+            BBIF: 117204862
+            BVK: 117232657
+            BVAN: 117163584
+            BTER: 100648169
+            BPYO: 122570890
+            CCAL: 108627760
+            OBB: 114876201
+            MGEN: 117223838
+            NMEA: 116425255
+            CGIG: 122402952
+            SOC: 105195464 105206389
+            MPHA: 105833498
+            AEC: 105151044
+            ACEP: 105619807
+            PBAR: 105422187
+            VEM: 105566549
+            HST: 105181543
+            DQU: 106746805
+            CFO: 105258160
+            FEX: 115244619
+            LHU: 105668398
+            PGC: 109862314
+            OBO: 105285166
+            PCF: 106790004
+            PFUC: 122519710
+            VPS: 122631667
+            NVI: 100499205
+            CSOL: 105366902
+            MDL: 103568681
+            CGLO: 123266177
+            FAS: 105269842
+            DAM: 107037433
+            AGIF: 122857298
+            CINS: 118070785
+            LHT: 122498710
+            CCIN: 107268765
+            TCA: 658395
+            SOY: 115879577
+            ATD: 109609044
+            CSET: 123315207
+            AGB: 108903200
+            LDC: 111518171
+            NVL: 108564650
+            APLN: 108734302
+            PPYR: 116163050
+            OTU: 111413628
+            BMOR: 101735616
+            BMAN: 114249252
+            MSEX: 115442380 119191946
+            DPL: KGM_212105
+            BANY: 112052143
+            NIQ: 126770268
+            PMAC: 106720155 106720340
+            PPOT: 106109424
+            PXU: 106127152
+            PRAP: 110996914
+            PBX: 123720074
+            PNAP: 125054353
+            ZCE: 119835078
+            CCRC: 123691117
+            HAW: 110372538
+            HZE: 124631079
+            TNL: 113491734
+            SLIU: 111351708
+            OFU: 114356373
+            PXY: 105385639 105390252
+            CFEL: 113383734
+            API: 100159019
+            DNX: 107173527
+            AGS: 114122915
+            RMD: 113550006
+            BTAB: 109031859
+            DCI: 103507305
+            CLEC: 106664902
+            HHAL: 106687723
+            NLU: 111050583
+            PHU: Phum_PHUM233600
+            FOC: 113204404
+            TPAL: 117644889
+            ZNE: 110841255
+            CSEC: 111871798
+            SGRE: 126266840 126350022
+            FCD: 110857963
+            DPX: DAPPUDRAFT_242599 DAPPUDRAFT_302712
+            DMK: 116923820
+            DPZ: 124315031
+            PVM: 113805908
+            PJA: 122248207
+            PCHN: 125041933
+            PMOO: 119581904
+            HAME: 121880028
+            PCLA: 123760306
+            PTRU: 123520370
+            HAZT: 108673773
+            EAF: 111717863
+            LSM: 121127381
+            PPOI: 119109448
+            ISC: IscW_ISCW020189
+            DSV: 119446853
+            RSAN: 119389294
+            RMP: 119184540
+            VDE: 111248475
+            VJA: 111266963
+            TUT: 107369629
+            DPTE: 113798509
+            DFR: 124490216
+            CSCU: 111632173 111632185
+            PTEP: 107453898
+            SDM: 118184817
+            CEL: CELE_F01F1.6(alh-9)
+            CBR: CBG_09070(Cbr-alh-9)
+            NAI: NECAME_04408
+            HRO: HELRODRAFT_157787
+            LGI: LOTGIDRAFT_112613
+            PCAN: 112553791
+            BGT: 106079896
+            GAE: 121383301
+            HRF: 124113398
+            HRJ: 124268093
+            CRG: 105327683
+            MYI: 110455019
+            PMAX: 117333852
+            MCAF: 127735160
+            MMER: 123566373
+            OBI: 106871909
+            OSN: 115218057
+            LAK: 106170433 106172052
+            NVE: 5502556
+            EPA: 110236278
+            ATEN: 116299278
+            ADF: 107348248
+            AMIL: 114950886
+            PDAM: 113675597
+            SPIS: 111337300
+            DGT: 114529315 114541012
+            XEN: 124450242
+            HMG: 100198995
+            TAD: TRIADDRAFT_35608
+            AQU: 100634152 100639963 100640016
+            ATH: AT1G54100(ALDH7B4)
+            ALY: 9327851
+            CRB: 17897673
+            CSAT: 104742930 104758760 104778346
+            EUS: EUTSA_v10011405mg
+            BRP: 103832634
+            BNA: 106377328 106443300
+            BOE: 106297379 106336455
+            RSZ: 108820444 108822442
+            THJ: 104815620
+            CPAP: 110818468
+            CIT: 102620491
+            CIC: CICLE_v10025411mg
+            PVY: 116120273
+            MINC: 123211867 123218758
+            TCC: 18596241
+            GRA: 105773235
+            GHI: 107900603
+            GAB: 108473666
+            DZI: 111274705 111281212
+            EGR: 104450978
+            GMX: 100811186(ALDH7B2) 547717(ALDH7B1)
+            GSJ: 114367858 114386830
+            PVU: PHAVU_009G226700g
+            VRA: 106762243
+            VAR: 108331606
+            VUN: 114163305
+            CCAJ: 109817465
+            APRC: 113866383
+            MTR: 11437741
+            CAM: 101513733
+            PSAT: 127135842
+            LJA: Lj6g3v1177340.1(Lj6g3v1177340.1)
+            ADU: 107479115
+            AIP: 107630450
+            AHF: 112738351 112790524
+            LANG: 109326919
+            FVE: 101298824
+            RCN: 112187805
+            PPER: 18770979
+            PMUM: 103340601
+            PAVI: 110749149
+            PDUL: 117634377
+            MDM: 103400922(MF-60) 103406954
+            PXB: 103929705 103950259
+            ZJU: 107423905
+            MNT: 21410030
+            CSV: 101205436
+            CMO: 103500684
+            BHJ: 120086160
+            MCHA: 111021324
+            CMAX: 111488616
+            CMOS: 111455986
+            CPEP: 111807264
+            RCU: 8259358
+            JCU: 105631377
+            HBR: 110634279 110664616
+            MESC: 110613709 110626659 110626662
+            POP: 7475079 7477690
+            PEU: 105133435 105133969
+            PALZ: 118034844 118037985
+            JRE: 109009030
+            CILL: 122304268
+            QSU: 111996661
+            QLO: 115968409
+            TWL: 119984486
+            VVI: 100252622 100261802
+            VRI: 117922584 117925129
+            SLY: 101252968
+            SPEN: 107014931
+            SOT: 102598345
+            SSTN: 125857478
+            CANN: 107861672
+            NTA: 107796971 107816273
+            NSY: 104236891
+            NTO: 104107938
+            NAU: 109212832
+            INI: 109176332 109187725 109192542(PnG13-12)
+            ITR: 115996535 116010431
+            SIND: 105157813
+            OEU: 111402278
+            EGT: 105955918 105975985
+            SSPL: 121769176 121772143 121789974 121797122 121801193
+            APAN: 127240224
+            HAN: 110886479
+            ECAD: 122595135
+            LSV: 111910340
+            CCAV: 112516483
+            DCR: 108228021
+            CSIN: 114307188
+            BVG: 104899742
+            SOE: 110804032
+            CQI: 110684394 110688075
+            NNU: 104600531
+            MING: 122090163
+            TSS: 122667229
+            PSOM: 113328159 113337233
+            OSA: 4347172
+            DOSA: Os09t0440300-01(Os09g0440300)
+            OBR: 102721194
+            BDI: 100831288
+            ATS: 109774117
+            TDC: 119301583 119309456
+            TAES: 100682438 123111970 123121538
+            TUA: 125509339
+            LPER: 127301419
+            SBI: 8080995
+            ZMA: 100282748
+            SITA: 101759802
+            SVS: 117843352
+            PVIR: 120660777 120679927
+            PHAI: 112879547
+            PDA: 103709342
+            EGU: 105042090
+            MUS: 103995197
+            ZOF: 121988679 121997609 122041536 122046049
+            DCT: 110096635
+            PEQ: 110026035
+            AOF: 109845011
+            NCOL: 116258957
+            ATR: 18439499
+            SMO: SELMODRAFT_164276 SELMODRAFT_230941
+            PPP: 112278756
+            GSL: Gasu_48300
+            CNE: CNA07130
+            CNB: CNBA6940
+            CNG: CNAG_00735
+            CGI: CGB_A8240C
+            TMS: TREMEDRAFT_61600
+            TASA: A1Q1_08027
+            TVS: TRAVEDRAFT_31575
+            DSQ: DICSQDRAFT_71439 DICSQDRAFT_71492
+            PCO: PHACADRAFT_119267
+            SHS: STEHIDRAFT_120958
+            HIR: HETIRDRAFT_436232
+            PSQ: PUNSTDRAFT_80903
+            ADL: AURDEDRAFT_82786
+            FME: FOMMEDRAFT_109130
+            GTR: GLOTRDRAFT_140831
+            LBC: LACBIDRAFT_248281
+            CCI: CC1G_06909
+            ABP: AGABI1DRAFT114711(AGABI1DRAFT_114711)
+            ABV: AGABI2DRAFT194900(AGABI2DRAFT_194900)
+            MPR: MPER_07485
+            MRR: Moror_10706
+            MORE: E1B28_006610
+            SCM: SCHCO_02629080(SCHCODRAFT_02629080)
+            CPUT: CONPUDRAFT_106150
+            SLA: SERLADRAFT_464165
+            UMA: UMAG_03665
+            PFP: PFL1_05085
+            MLR: MELLADRAFT_51169
+            MBR: MONBRDRAFT_37970
+            SRE: PTSG_07579
+            DDI: DDB_G0276821
+            DPP: DICPUDRAFT_151785
+            DFA: DFA_02437
+            ACAN: ACA1_164050
+            TET: TTHERM_00678220
+            PTM: GSPATT00002104001 GSPATT00006572001
+            PIF: PITG_05462
+            PSOJ: PHYSODRAFT_353879
+            SPAR: SPRG_06143
+            NGR: NAEGRDRAFT_35633
+DBLINKS     ExplorEnz - The Enzyme Database: 1.2.1.31
+            IUBMB Enzyme Nomenclature: 1.2.1.31
+            ExPASy - ENZYME nomenclature database: 1.2.1.31
+            BRENDA, the Enzyme Database: 1.2.1.31
+            CAS: 9067-87-2
+///

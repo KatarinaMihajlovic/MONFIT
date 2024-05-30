@@ -1,0 +1,655 @@
+ENTRY       EC 3.1.3.78                 Enzyme
+NAME        phosphatidylinositol-4,5-bisphosphate 4-phosphatase;
+            phosphatidylinositol-4,5-bisphosphate 4-phosphatase I;
+            phosphatidylinositol-4,5-bisphosphate 4-phosphatase II;
+            type I PtdIns-4,5-P2 4-Ptase;
+            type II PtdIns-4,5-P2 4-Ptase;
+            IpgD;
+            PtdIns-4,5-P2 4-phosphatase type I;
+            PtdIns-4,5-P2 4-phosphatase type II;
+            type I phosphatidylinositol-4,5-bisphosphate 4-phosphatase;
+            type 1 4-phosphatase
+CLASS       Hydrolases;
+            Acting on ester bonds;
+            Phosphoric-monoester hydrolases
+SYSNAME     1-phosphatidyl-1D-myo-inositol-4,5-bisphosphate 4-phosphohydrolase
+REACTION    1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate + H2O = 1-phosphatidyl-1D-myo-inositol 5-phosphate + phosphate [RN:R08981]
+ALL_REAC    R08981
+SUBSTRATE   1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate [CPD:C04637];
+            H2O [CPD:C00001]
+PRODUCT     1-phosphatidyl-1D-myo-inositol 5-phosphate [CPD:C11557];
+            phosphate [CPD:C00009]
+COMMENT     Two pathways exist in mammalian cells to degrade 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate [PtdIns(4,5)P2] [2]. One is catalysed by this enzyme and the other by EC 3.1.3.36, phosphoinositide 5-phosphatase, where the product is PtdIns4P. The enzyme from human is specific for PtdIns(4,5)P2 as substrate, as it cannot use PtdIns(3,4,5)P3, PtdIns(3,4)P2, PtdIns(3,5)P2, PtdIns5P, PtdIns4P or PtdIns3P [2]. In humans, the enzyme is localized to late endosomal/lysosomal membranes [2]. It can control nuclear levels of PtdIns5P and thereby control p53-dependent apoptosis [3].
+HISTORY     EC 3.1.3.78 created 2008
+REFERENCE   1  [PMID:12356723]
+  AUTHORS   Niebuhr K, Giuriato S, Pedron T, Philpott DJ, Gaits F, Sable J, Sheetz MP, Parsot C, Sansonetti PJ, Payrastre B
+  TITLE     Conversion of PtdIns(4,5)P(2) into PtdIns(5)P by the S.flexneri effector IpgD reorganizes host cell morphology.
+  JOURNAL   EMBO J 21:5069-78 (2002)
+            DOI:10.1093/emboj/cdf522
+  SEQUENCE  [sfl:CP0133]
+REFERENCE   2  [PMID:16365287]
+  AUTHORS   Ungewickell A, Hugge C, Kisseleva M, Chang SC, Zou J, Feng Y, Galyov EE, Wilson M, Majerus PW
+  TITLE     The identification and characterization of two phosphatidylinositol-4,5-bisphosphate 4-phosphatases.
+  JOURNAL   Proc Natl Acad Sci U S A 102:18854-9 (2005)
+            DOI:10.1073/pnas.0509740102
+  SEQUENCE  [hsa:55529 90809]
+REFERENCE   3  [PMID:17940011]
+  AUTHORS   Zou J, Marjanovic J, Kisseleva MV, Wilson M, Majerus PW
+  TITLE     Type I phosphatidylinositol-4,5-bisphosphate 4-phosphatase regulates stress-induced apoptosis.
+  JOURNAL   Proc Natl Acad Sci U S A 104:16834-9 (2007)
+            DOI:10.1073/pnas.0708189104
+REFERENCE   4  [PMID:17389247]
+  AUTHORS   Mason D, Mallo GV, Terebiznik MR, Payrastre B, Finlay BB, Brumell JH, Rameh L, Grinstein S
+  TITLE     Alteration of epithelial structure and function associated with PtdIns(4,5)P2 degradation by a bacterial phosphatase.
+  JOURNAL   J Gen Physiol 129:267-83 (2007)
+            DOI:10.1085/jgp.200609656
+ORTHOLOGY   K13084  phosphatidylinositol-4,5-bisphosphate 4-phosphatase
+            K13085  phosphatidylinositol-4,5-bisphosphate 4-phosphatase
+GENES       HSA: 55529(PIP4P2) 90809(PIP4P1)
+            PTR: 464281(PIP4P2) 465201(PIP4P1)
+            PPS: 100968374(PIP4P2) 100988983(PIP4P1)
+            GGO: 101129459(PIP4P2) 101132752(PIP4P1)
+            PON: 100451858(PIP4P2) 100454477(PIP4P1)
+            NLE: 100587627(PIP4P2) 100593745(PIP4P1)
+            HMH: 116484592(PIP4P1) 116813406(PIP4P2)
+            MCC: 100428001(PIP4P1) 696779(PIP4P2)
+            MCF: 101866619(PIP4P1) 102115056(PIP4P2)
+            MTHB: 126958302 126961846
+            MNI: 105497274(PIP4P2) 105499192(PIP4P1)
+            CSAB: 103231342 103231344 103237111(TMEM55A)
+            CATY: 105572859(TMEM55A) 105593939(TMEM55B)
+            PANU: 101001652(PIP4P1) 101009781(PIP4P2)
+            TGE: 112629452(PIP4P1) 112630711(PIP4P2)
+            MLEU: 105532033(TMEM55A) 105536724(TMEM55B)
+            RRO: 104654642(PIP4P2) 104673120(PIP4P1)
+            RBB: 108527311(TMEM55B) 108528503(TMEM55A)
+            TFN: 117070090(PIP4P1) 117079004(PIP4P2)
+            PTEH: 111522534(PIP4P1) 111549729(PIP4P2)
+            CANG: 105508233(TMEM55A) 105523149(TMEM55B)
+            CJC: 100402264(TMEM55B) 100407390(TMEM55A)
+            SBQ: 101027468(TMEM55B) 101033445(TMEM55A)
+            CIMI: 108310883(PIP4P2) 108311932(PIP4P1)
+            CSYR: 103250423(TMEM55B) 103271008(TMEM55A)
+            MMUR: 105864729(TMEM55B) 105869110(TMEM55A)
+            LCAT: 123621516(PIP4P1) 123644665(PIP4P2)
+            PCOQ: 105809733(TMEM55A) 105814398(TMEM55B)
+            OGA: 100951924(PIP4P2) 100962704(PIP4P1)
+            MMU: 219024(Pip4p1) 72519(Pip4p2)
+            MCAL: 110292720(Tmem55a) 110309188(Tmem55b)
+            MPAH: 110325348(Tmem55b) 110338742(Tmem55a)
+            RNO: 362490(Pip4p2) 364298(Pip4p1)
+            MCOC: 116084318(Pip4p1) 116088053(Pip4p2)
+            ANU: 117698715(Pip4p2) 117705197(Pip4p1)
+            MUN: 110549703(Tmem55b) 110557768(Tmem55a)
+            CGE: 100757444(Pip4p1) 100767770(Pip4p2)
+            MAUA: 101826945(Pip4p2) 101835221(Pip4p1)
+            PLEU: 114694593(Pip4p2) 114696012(Pip4p1)
+            MORG: 121438588(Pip4p1) 121451254(Pip4p2)
+            MFOT: 126492851 126515920
+            AAMP: 119800363(Pip4p1) 119821440 119826590(Pip4p2)
+            NGI: 103729539(Tmem55a) 103733665(Tmem55b)
+            HGL: 101709122(Tmem55b) 101718072(Tmem55a)
+            CPOC: 100713718(Pip4p2) 100718609(Pip4p1)
+            CCAN: 109690515(Tmem55a) 109692126(Tmem55b)
+            DORD: 105982754(Tmem55a) 106000447(Tmem55b)
+            DSP: 122102382(Pip4p2) 122126588(Pip4p1)
+            NCAR: 124976820 124979632
+            OCU: 100349176(PIP4P1) 100353159(PIP4P2)
+            OPI: 101523968(PIP4P2) 101529039(PIP4P1)
+            TUP: 102475472(TMEM55B) 102487160 102499548(TMEM55A)
+            GVR: 103599363(TMEM55A) 103605041(TMEM55B)
+            CFA: 477939(PIP4P2) 482559(PIP4P1)
+            CLUD: 112650712(PIP4P2) 112654418(PIP4P1)
+            VVP: 112914985(PIP4P1) 112931637(PIP4P2)
+            VLG: 121481490(PIP4P1) 121499023(PIP4P2)
+            AML: 100479476(PIP4P2) 100484149(PIP4P1)
+            UMR: 103656314(TMEM55B) 103661475(TMEM55A)
+            UAH: 113248962(PIP4P1) 113252947(PIP4P2)
+            UAR: 123783909(PIP4P1) 123797894(PIP4P2)
+            ELK: 111146677 111162295
+            LLV: 125098925 125103918
+            MPUF: 101672290(TMEM55A) 101692628(TMEM55B)
+            NVS: 122893351(PIP4P1) 122904450(PIP4P2)
+            ORO: 101372920(TMEM55B) 101382006(TMEM55A)
+            EJU: 114216080(PIP4P2) 114221365(PIP4P1)
+            ZCA: 113908838(PIP4P1) 113914498(PIP4P2)
+            MLX: 118002964(PIP4P1) 118015002(PIP4P2)
+            NSU: 110578689(PIP4P2) 110585483(PIP4P1)
+            LWW: 102725677(PIP4P1) 102740214(PIP4P2)
+            FCA: 101080798(PIP4P1) 101088301(PIP4P2)
+            PYU: 121031403(PIP4P1) 121042685(PIP4P2)
+            PBG: 122467674(PIP4P1) 122495586(PIP4P2)
+            LRUF: 124508753 124519060
+            PTG: 102952164(TMEM55A) 102956222(TMEM55B)
+            PPAD: 109255760(TMEM55B) 109269475(TMEM55A)
+            AJU: 106971402(PIP4P1) 106984681(PIP4P2)
+            HHV: 120225955(PIP4P1) 120237341(PIP4P2) 120242017 120246391
+            BTA: 615077(PIP4P1) 616641(PIP4P2)
+            BOM: 102268358(TMEM55B) 102277826(TMEM55A)
+            BIU: 109564878(TMEM55B) 109568638(TMEM55A)
+            BBUB: 102392943(PIP4P2) 102415190(PIP4P1)
+            BBIS: 104988202(TMEM55B) 105004424(TMEM55A)
+            CHX: 102172557(TMEM55A) 102177240(TMEM55B)
+            OAS: 101111559(PIP4P2) 101117510(PIP4P1)
+            ODA: 120853335(PIP4P1) 120878509(PIP4P2)
+            CCAD: 122443317(PIP4P1) 122451301(PIP4P2)
+            SSC: 100155939(TMEM55B) 100156639(TMEM55A)
+            CFR: 102505095(PIP4P2) 102507379(PIP4P1)
+            CBAI: 105064674(TMEM55B) 105079632(TMEM55A)
+            CDK: 105085724(PIP4P2) 105097644(PIP4P1)
+            VPC: 102541289(PIP4P1) 102541483(PIP4P2)
+            BACU: 103007264(TMEM55A) 103012880(TMEM55B)
+            LVE: 103084248(TMEM55B) 103085248(TMEM55A)
+            OOR: 101273070(TMEM55A) 101273871(TMEM55B)
+            DLE: 111180432(PIP4P2) 111181805(PIP4P1)
+            PCAD: 102978742(PIP4P2) 102982773(PIP4P1)
+            PSIU: 116742418(PIP4P2) 116749983(PIP4P1) 116763783
+            ECB: 100050790(PIP4P2) 100058648(PIP4P1)
+            EPZ: 103559551(TMEM55B) 103564881(TMEM55A)
+            EAI: 106833288(PIP4P1) 106838979(PIP4P2)
+            MYB: 102241548(TMEM55A) 102252193(TMEM55B)
+            MYD: 102754867(TMEM55B) 102773968(TMEM55A)
+            MMYO: 118649171(PIP4P1) 118670481(PIP4P2)
+            MLF: 102422557(PIP4P1) 102436205(PIP4P2)
+            MNA: 107526961(TMEM55B)
+            PKL: 118718475(PIP4P2) 118724275(PIP4P1)
+            HAI: 109376449(TMEM55B)
+            DRO: 112310316(PIP4P2) 112311620(PIP4P1)
+            SHON: 118982616(PIP4P1) 118989291(PIP4P2)
+            AJM: 119036603(PIP4P1) 119047622(PIP4P2)
+            PDIC: 114490301(PIP4P1) 114501670(PIP4P2)
+            PHAS: 123808166(PIP4P1) 123820957(PIP4P2)
+            MMF: 118631649(PIP4P2) 118641633(PIP4P1)
+            RFQ: 117023446(PIP4P1) 117033621(PIP4P2)
+            PALE: 102898229(PIP4P2) 102898278(PIP4P1)
+            PGIG: 120608059(PIP4P1) 120614258(PIP4P2)
+            PVP: 105304152(PIP4P2) 105308945(PIP4P1)
+            RAY: 107507437(TMEM55A) 107521160(TMEM55B)
+            MJV: 108387665(TMEM55A) 108403281(TMEM55B)
+            TOD: 119238854(PIP4P1) 119239895(PIP4P2)
+            SARA: 101537201(TMEM55B) 101555869(TMEM55A)
+            LAV: 100660816(PIP4P1) 100664641(PIP4P2)
+            TMU: 101345599 101357101
+            ETF: 101650919(PIP4P1) 101656735(PIP4P2)
+            DNM: 101418300(PIP4P2) 101421442(PIP4P1)
+            MDO: 100022045(TMEM55A) 100022893(TMEM55B)
+            GAS: 123231880(PIP4P2) 123236082(PIP4P1)
+            SHR: 100916303(PIP4P2) 100924788(PIP4P1)
+            AFZ: 127544272 127549143
+            PCW: 110198547(TMEM55A) 110217864(TMEM55B)
+            OAA: 100086066(PIP4P1) 100092908(PIP4P2)
+            GGA: 420221(PIP4P2)
+            PCOC: 116227600(PIP4P2)
+            MGP: 100542892(PIP4P2)
+            CJO: 107307004(PIP4P1) 107310378(PIP4P2)
+            NMEL: 110393858(TMEM55A)
+            APLA: 101802244(PIP4P2)
+            ACYG: 106030630(PIP4P2)
+            AFUL: 116486080(PIP4P2)
+            TGU: 100226950(PIP4P2)
+            LSR: 110477429(PIP4P2) 110481133(PIP4P1)
+            SCAN: 103813442(PIP4P2) 115484135(PIP4P1)
+            PMOA: 120500834(PIP4P2)
+            OTC: 121340325(PIP4P2) 121342965
+            PRUF: 121349816 121351993(PIP4P2)
+            GFR: 102040381(TMEM55A)
+            FAB: 101810791(TMEM55A)
+            PHI: 102099741(TMEM55A) 102101128(TMEM55B)
+            PMAJ: 107199089(PIP4P1) 107200089(PIP4P2)
+            CCAE: 111924560(PIP4P2)
+            CCW: 104692756(PIP4P2)
+            CBRC: 103613447(TMEM55A)
+            ETL: 114061739(PIP4P2)
+            ZAB: 102062275(PIP4P2)
+            ACHL: 103806916(TMEM55A)
+            FPG: 101922579(TMEM55A)
+            FCH: 102055459(PIP4P2)
+            CLV: 102090519(TMEM55A)
+            EGZ: 104125810(TMEM55A)
+            NNI: 104016500(TMEM55A)
+            PLET: 104628197
+            PCRI: 104033173(TMEM55A)
+            PCAO: 104052077
+            ACUN: 113476160(PIP4P2)
+            TALA: 104359578(PIP4P2)
+            PADL: 103917331(TMEM55A)
+            ACHC: 115340537(PIP4P2)
+            HALD: 104315809(TMEM55A)
+            HLE: 104828362(TMEM55A)
+            AGEN: 126036918 126050072
+            GCL: 127012969
+            CCRI: 104166516
+            CSTI: 104557491
+            EHS: 104511832(TMEM55A)
+            CMAC: 104484755(TMEM55A)
+            MUI: 104546812(TMEM55A)
+            FGA: 104082721
+            GSTE: 104256627
+            LDI: 104341576
+            MNB: 103774163(TMEM55A)
+            OHA: 104337584(TMEM55A)
+            DPUB: 104306048(TMEM55A)
+            PGUU: 104467747
+            ACAR: 104526135(PIP4P2)
+            CPEA: 104396643(TMEM55A)
+            AVIT: 104280036
+            CVF: 104292534(TMEM55A)
+            CUCA: 104056790(TMEM55A)
+            TEO: 104380322
+            BRHI: 104490899(TMEM55A)
+            AAM: 106496195(TMEM55A)
+            AROW: 112964070(PIP4P2)
+            NPD: 112950677(PIP4P2)
+            TGT: 104571256(TMEM55A)
+            DNE: 112982968(PIP4P2)
+            SCAM: 104143960(TMEM55A)
+            ASN: 102373932(PIP4P2) 102374449(PIP4P1)
+            AMJ: 102562249(TMEM55B) 102570595(TMEM55A)
+            CPOO: 109320301(TMEM55A) 109320545(TMEM55B)
+            GGN: 109294681(TMEM55B) 109305031(TMEM55A)
+            PSS: 102457479(PIP4P2)
+            CMY: 102938814(PIP4P2) 102941676(PIP4P1)
+            CPIC: 101937348(PIP4P2) 101946066(PIP4P1)
+            TST: 117871665(PIP4P2) 117885343(PIP4P1)
+            CABI: 116816452(PIP4P1) 116839386(PIP4P2)
+            MRV: 120380995(PIP4P1) 120396740(PIP4P2)
+            ACS: 100556773(tmem55a) 100567084(tmem55b)
+            PVT: 110089558(TMEM55B) 110090207(TMEM55A)
+            SUND: 121930003(PIP4P2) 121934894(PIP4P1)
+            PBI: 103047975(PIP4P1) 103054248(PIP4P2)
+            PMUR: 107285754(PIP4P2) 107292313(PIP4P1)
+            CTIG: 120311017(PIP4P1) 120312780(PIP4P2)
+            TSR: 106545515(TMEM55A) 106549927(TMEM55B)
+            PGUT: 117662190(PIP4P1) 117668494(PIP4P2)
+            VKO: 123019493(PIP4P1) 123020326(PIP4P2)
+            PMUA: 114581602(PIP4P1) 114600438(PIP4P2)
+            ZVI: 118090061(PIP4P2) 118095026(PIP4P1)
+            GJA: 107105993(TMEM55A) 107116165(TMEM55B)
+            STOW: 125439088(PIP4P2) 125445234(PIP4P1)
+            XLA: 108695381(pip4p2.S) 108707045(pip4p1.S) 494834(pip4p1.L) 734343(pip4p2.L)
+            XTR: 100170610(pip4p1) 448483(pip4p2)
+            NPR: 108788678(TMEM55B) 108800143(TMEM55A)
+            RTEM: 120940082(PIP4P1) 120941297(PIP4P2)
+            BBUF: 120988956(PIP4P1) 121001674(PIP4P2)
+            BGAR: 122933402(PIP4P1) 122939001(PIP4P2)
+            DRE: 553253(pip4p1b) 556136(pip4p1a) 566642(pip4p2)
+            SRX: 107709255 107721780 107723169 107724355 107749147
+            SANH: 107659916 107665981 107692688 107692894 107696196 107702130
+            SGH: 107555555(tmem55a) 107565103 107576828 107584351 107590777 107600071(tmem55b)
+            CCAR: 109045146 109053437 109065694 109075342 109077248 109088132 109090962 109109172
+            CAUA: 113044494 113045079 113070034 113075861 113091867 113109880 113114327 113119590(pip4p2)
+            CGIB: 127935004 127935703 127949376 127951672 127979451 127979938
+            PPRM: 120463074(pip4p1b) 120484999(pip4p2) 120495422(pip4p1a)
+            MAMB: 125251114(pip4p1a) 125272771(pip4p1b) 125274829(pip4p2)
+            CIDE: 127501452 127515689 127523736
+            MASI: 127421146 127425180 127440342 127442785 127444147 127445248
+            IPU: 108273350(pip4p2) 108274853 108280404(pip4p1a)
+            PHYP: 113523871 113533535(pip4p1) 113543834(pip4p2)
+            SMEO: 124382184(pip4p2) 124403093(pip4p1a)
+            TFD: 113634755(pip4p2) 113640592(pip4p1a) 113648653 125145681
+            AMEX: 103033991(pip4p1) 103040016(pip4p2) 103040625
+            EEE: 113574929 113580968(pip4p2) 113588959(pip4p1)
+            TRU: 101062738(pip4p1) 101068075(pip4p2) 101075194(pip4p1) 115251759
+            TNG: GSTEN00021192G001 GSTEN00033018G001
+            LCO: 104924562(pip4p2) 104926554(pip4p1) 104936244
+            NCC: 104947052(tmem55a) 104948613(tmem55b)
+            CGOB: 115016250(pip4p2)
+            ELY: 117245953 117263899(pip4p2) 117271648(pip4p1a)
+            EFO: 125883529 125902623(pip4p1a) 125905002(pip4p2)
+            PLEP: 121951708(pip4p1a) 121958323(pip4p2) 121962432
+            SLUC: 116040589(pip4p1a) 116047453(pip4p2) 116053086
+            ECRA: 117935074 117953665(pip4p1a) 117957036(pip4p2)
+            ESP: 116669519 116698603(pip4p1) 116701796(pip4p2)
+            PFLV: 114545567 114565150(pip4p1) 114568780(pip4p2)
+            GAT: 120814228(pip4p1a) 120821340 120827077(pip4p2)
+            PPUG: 119207320(pip4p1a) 119219199(pip4p2) 119223022
+            MSAM: 119901556 119901743(pip4p1a) 119907514(pip4p2) 119913171
+            CUD: 121504482 121520060(pip4p1a) 121523213(pip4p2)
+            ALAT: 119011575(pip4p1a) 119017362(pip4p2) 119027023
+            MZE: 101466447 101468284(pip4p2) 101479252(pip4p1)
+            ONL: 100693615(pip4p1) 100706272(pip4p2) 100710349
+            OAU: 116312075(pip4p2) 116332048 116332092(pip4p1a)
+            OLA: 101159467 101161334 101166147(pip4p2)
+            OML: 112150645(pip4p1a) 112155987 112160340(pip4p2)
+            XMA: 102224770 102227240(pip4p2) 102234414(pip4p1)
+            XCO: 114145811(pip4p1) 114156427(pip4p2) 114157811
+            XHE: 116722183(pip4p1) 116731725(pip4p2) 116732542
+            PRET: 103472397(tmem55a) 103479490(tmem55b) 103480619
+            PFOR: 103135131(tmem55a) 103137995(tmem55b) 103138007 103149154
+            PLAI: 106944687 106946254(tmem55a) 106960164(tmem55b)
+            PMEI: 106903481 106910744(tmem55b) 106914598 106918621(tmem55a)
+            GAF: 122820284 122841343(pip4p1a) 122843283(pip4p2)
+            CVG: 107092441(tmem55a) 107092674(tmem55b) 107095498
+            CTUL: 119779521(pip4p1a) 119784408 119795840(pip4p2)
+            GMU: 124870263(pip4p1a) 124879343(pip4p2) 124880396
+            NFU: 107376897 107383456(tmem55b) 107394745(tmem55a)
+            KMR: 108232969(pip4p1a) 108237806(pip4p2) 108248594
+            ALIM: 106515818(tmem55a) 106520802(tmem55b) 106523839
+            NWH: 119409972 119414799(pip4p1a) 119426013(pip4p2)
+            AOCE: 111563765(pip4p2) 111570900 111574634 111576584
+            MCEP: 125009150 125010257(pip4p1a) 125020005(pip4p2)
+            CSEM: 103388924 103394417(tmem55a) 103396783(tmem55b)
+            POV: 109631912(tmem55a) 109645994(tmem55b) 109647653
+            SSEN: 122759258(pip4p1a) 122766321 122786912(pip4p2)
+            HHIP: 117751911 117770135(pip4p2) 117777897(pip4p1a)
+            HSP: 118102936 118118156(pip4p1a) 118124848(pip4p2)
+            LCF: 108873687 108884334(pip4p1a) 108898155(pip4p2)
+            SDU: 111223251(pip4p2) 111233362 111239391(pip4p1)
+            SLAL: 111657891 111659343(pip4p2) 111668450(pip4p1)
+            XGL: 120786092(pip4p2) 120797577 120799177(pip4p1a)
+            HCQ: 109506970 109517989(tmem55a) 109529491(tmem55b)
+            SSCV: 125985179 125985243 125987049
+            BPEC: 110167447(tmem55a) 110170780 110175124(tmem55b)
+            MALB: 109952910(tmem55a) 109974206 109974507
+            BSPL: 114844543(pip4p1a) 114851071 114865653(pip4p2)
+            SASA: 106569577 106570754 106589142(tmem55a) 106600488 106608438
+            STRU: 115157487 115169315 115174163 115176274(pip4p2)
+            OTW: 112226565 112229181 112236503(pip4p1a) 112239907 112241833
+            OMY: 110487822(pip4p2) 110504292 110508329(pip4p1a) 110512265 110530761
+            OGO: 123996760 124009576 124013190 124041636(pip4p1a) 124043125
+            ONE: 115102832 115115331 115125483 115128057
+            SALP: 111974344 111979801(pip4p1) 112073639 112076069(pip4p2)
+            SNH: 120020656 120027946 120041077(pip4p2) 120049537 120056169
+            CCLU: 121534682 121571070(pip4p1b) 121572226 121581288 121586848
+            ELS: 105006704(pip4p2) 105024555(pip4p1) 105030639
+            SFM: 108919216(pip4p2) 108926151 108937836
+            PKI: 111833149 111845350 111848239(pip4p2)
+            AANG: 118211335 118231305 118234635(pip4p2)
+            LOC: 102683795(tmem55b) 102691229(tmem55a)
+            PSPA: 121305330 121307399 121313200 121314988 121329256
+            ARUT: 117395030 117398263 117398906 117399698 117425668
+            PSEX: 120515573(pip4p2) 120522956(pip4p1a)
+            LCM: 102348811(TMEM55A) 102357306(TMEM55B)
+            CMK: 103191060(pip4p2)
+            RTP: 109918341(tmem55b) 109938918(tmem55a)
+            BFO: 118417220
+            BBEL: 109483241
+            CIN: 104266484
+            SPU: 588430
+            APLC: 110980124
+            AJC: 117118190
+            SKO: 100368816
+            DME: Dmel_CG6707(CG6707)
+            DER: 6546082
+            DSE: 6605120
+            DSI: Dsimw501_GD12881(Dsim_GD12881)
+            DYA: Dyak_GE20289
+            DAN: 6506490
+            DSR: 110190635
+            DPO: 4813276
+            DPE: 6600238
+            DMN: 108151830
+            DWI: 6638715
+            DGR: 6557366
+            DMO: Dmoj_GI13013
+            DAZ: 108613220
+            DNV: 108651252
+            DHE: 111598717
+            DVI: 6623987
+            CCAT: 101458043
+            BOD: 106619668
+            RZE: 108368047
+            MDE: 101893850
+            SCAC: 106093469
+            LCQ: 111682675
+            LSQ: 119613382 119613667
+            HIS: 119647680
+            AGA: AgaP_AGAP006243
+            ACOZ: 120951221
+            AARA: 120898884
+            ASTE: 118509445
+            AAG: 5574542
+            AALB: 109428654
+            CQU: CpipJ_CPIJ009913
+            CPII: 120418667
+            CNS: 116347912
+            BCOO: 119073623
+            AME: 408301
+            ACER: 108001187
+            ALAB: 122710420
+            BIM: 100749086
+            BBIF: 117205240
+            BVK: 117230173
+            BVAN: 117162943
+            BTER: 100646549
+            BPYO: 122571788
+            CCAL: 108622913
+            OBB: 114874660
+            MGEN: 117217459
+            NMEA: 116424096
+            CGIG: 122402714
+            SOC: 105200883
+            MPHA: 105839704
+            AEC: 105143615
+            ACEP: 105620209
+            PBAR: 105430510
+            VEM: 105563835
+            HST: 105186717
+            DQU: 106748938
+            CFO: 105255380
+            FEX: 115239704
+            LHU: 105674095
+            PGC: 109854987
+            OBO: 105282957
+            PCF: 106791075
+            PFUC: 122519801
+            VPS: 122630485
+            NVI: 100120829
+            CSOL: 105359276
+            TPRE: 106649016
+            MDL: 103578153 106693532
+            CGLO: 123264322
+            FAS: 105270733
+            DAM: 107043087
+            AGIF: 122860638
+            CINS: 118072037
+            LHT: 122500596
+            CCIN: 107264242
+            TCA: 655804
+            DPA: 109534456
+            SOY: 115877178
+            ATD: 109603339 109605889
+            CSET: 123318730
+            AGB: 108913856
+            LDC: 111504067
+            NVL: 108563960
+            APLN: 108735740
+            PPYR: 116174180
+            OTU: 111420505
+            BMOR: 101741980 119629095
+            BMAN: 114247478
+            MSEX: 115440024
+            DPL: KGM_213618 KGM_213619
+            BANY: 112043167
+            NIQ: 126774119
+            PMAC: 106719144
+            PPOT: 106109686
+            PXU: 106121436
+            PRAP: 110992215
+            PBX: 123708002
+            PNAP: 125049331
+            ZCE: 119828288
+            CCRC: 123694651
+            HAW: 110370045
+            HZE: 124635448
+            TNL: 113501279
+            SLIU: 111358774
+            OFU: 114361656
+            PXY: 105393931
+            CFEL: 113386632 113386871
+            API: 100164628
+            DNX: 107167499
+            AGS: 114121256
+            RMD: 113556156
+            BTAB: 109035975
+            DCI: 103518847 103518848
+            CLEC: 106665999
+            HHAL: 106690513
+            NLU: 111043649
+            PHU: Phum_PHUM358690 Phum_PHUM617960
+            FOC: 113203769
+            TPAL: 117651370
+            ZNE: 110834071
+            CSEC: 111869495
+            SGRE: 126354421
+            FCD: 110849352
+            DPX: DAPPUDRAFT_235760 DAPPUDRAFT_304652 DAPPUDRAFT_43581
+            DMK: 116915446 123469750
+            DPZ: 124329188 124337736 124337737
+            PVM: 113800971 113802341
+            PJA: 122250017
+            PCHN: 125030796
+            PMOO: 119576374
+            HAME: 121871871
+            PCLA: 123760636
+            PTRU: 123506685
+            HAZT: 108665058
+            EAF: 111709775
+            LSM: 121117358
+            PPOI: 119099241
+            ISC: IscW_ISCW008198
+            DSV: 119432683 119465627
+            RSAN: 119374570 119377643
+            RMP: 119176165 119176407
+            VDE: 111244394 111245807
+            VJA: 111265977 111272307
+            TUT: 107359622
+            DPTE: 113789342
+            DFR: 124495003
+            CSCU: 111630924 111642355
+            PTEP: 107452055
+            SDM: 118195297 118203607
+            CEL: CELE_Y71H2AM.2(Y71H2AM.2)
+            CBR: CBG_00490
+            BMY: BM_BM7065(Bm7065)
+            LOA: LOAG_02822
+            HRO: HELRODRAFT_187998
+            LGI: LOTGIDRAFT_133999
+            PCAN: 112576610
+            BGT: 106069844
+            GAE: 121389550
+            HRF: 124136840
+            HRJ: 124259351
+            CRG: 105338362
+            MYI: 110464767
+            PMAX: 117337259
+            MCAF: 127703050
+            MMER: 123548748
+            OBI: 106874795
+            OSN: 115220847
+            LAK: 106178509
+            SMM: Smp_022540.1
+            SHX: MS3_00002878(PIP4P2_1)
+            OVI: T265_09562 T265_11868
+            EGL: EGR_01135 EGR_09393
+            NVE: 5521597
+            EPA: 110248578
+            ATEN: 116304727
+            ADF: 107342237
+            AMIL: 114977192
+            PDAM: 113677853
+            SPIS: 111332610
+            DGT: 114516540
+            XEN: 124436983
+            HMG: 100208471
+            AQU: 100632025
+            EMA: C1192_24285
+            STY: STY1121(sigD)
+            STT: t1828(sigD)
+            SEX: STBHUCCB_19440
+            SENT: TY21A_09295
+            STM: STM1091(sopB)
+            SEO: STM14_1237(sopB)
+            SEV: STMMW_11031
+            SEY: SL1344_1030(sopB)
+            SEM: STMDT12_C11120
+            SEJ: STMUK_1060(sopB)
+            SEB: STM474_1083(sopB)
+            SEF: UMN798_1133(sigD)
+            SETU: STU288_01790
+            SETC: CFSAN001921_11720(sopB)
+            SENR: STMDT2_10271(sigD)
+            SEND: DT104_10731(sopB)
+            SENI: CY43_05575(sopB)
+            SEEN: SE451236_11305(sopB)
+            SPT: SPA1759(sigD)
+            SEK: SSPA1634
+            SPQ: SPAB_02464
+            SEI: SPC_2659(sigD)
+            SEC: SCH_1043(sopB)
+            SEH: SeHA_C1201
+            SHB: SU5_01724
+            SENH: CFSAN002069_03565(sopB)
+            SEEH: SEEH1578_14685
+            SEE: SNSL254_A1187
+            SENN: SN31241_21590
+            SEW: SeSA_A1155
+            SEA: SeAg_B1050
+            SENS: Q786_04870(sopB)
+            SED: SeD_A1167
+            SEG: SG0980(sopB)
+            SEL: SPUL_1966(sopB)
+            SEGA: SPUCDC_1952(sopB)
+            SET: SEN0955(sopB)
+            SENA: AU38_04930(sopB)
+            SENO: AU37_04920(sopB)
+            SENV: AU39_04920(sopB)
+            SENQ: AU40_05535(sopB)
+            SENL: IY59_05020(sopB)
+            SENJ: CFSAN001992_06185
+            SEEC: CFSAN002050_11850(sopB)
+            SEEB: SEEB0189_014115(sopB)
+            SEEP: I137_08940(sopB)
+            SENB: BN855_10450
+            SENE: IA1_05370(sopB)
+            SENC: SEET0819_12115(sopB)
+            SES: SARI_01910
+            SBG: SBG_0939(sopB)
+            SBZ: A464_1030
+            SBV: N643_04465(sopB)
+            SALZ: EOS98_14165
+            SFL: CP0133(ipgD)
+            SFE: SFxv_4976(ipgD)
+            SSN: SSON_P095(ipgD)
+            SBC: SbBS512_A0166(ipgD)
+            SDY: SDY_P171(ipgD)
+            SDZ: Asd1617_06366
+            SYM: K6K13_10905
+            YAL: AT01_2850(sopB)
+            FSM: CCS41_07775
+            RBAD: H2866_19305
+            SOD: Sant_3206(sigD) Sant_3209(sigD2)
+            SLIG: GTU79_05195
+            PAY: PAU_01919
+            PSI: S70_12925
+            PSX: DR96_586(sopB)
+            PSTA: BGK56_15810
+            PVC: G3341_17095
+            ANS: ArsFIN_43100(sopB)
+            VAN: VAA_02157
+            LAG: N175_09340
+            VAU: VANGNB10_cI1105
+            ENW: MJO57_02340
+            CRZ: D1345_19490
+            CHAE: CH06BL_40220(sopB_sigD)
+            IFL: C1H71_17665(sopB)
+            PPK: U875_18870
+            PPNO: DA70_11385
+            PPNM: LV28_19660
+            LIMN: HKT17_05800
+            BGM: CAL15_03515
+            CDN: BN940_04026
+            PVAC: HC248_01669(ipgD)
+            COF: FOZ74_09105
+            DPG: DESPIGER_2147
+            STAR: G3545_19400
+            HMC: HYPMC_3453
+            PSF: PSE_2750(ipgD)
+            OXY: HCG48_18215
+            PCU: PC_RS06055
+            PNL: PNK_0614(ipgD)
+DBLINKS     ExplorEnz - The Enzyme Database: 3.1.3.78
+            IUBMB Enzyme Nomenclature: 3.1.3.78
+            ExPASy - ENZYME nomenclature database: 3.1.3.78
+            BRENDA, the Enzyme Database: 3.1.3.78
+///

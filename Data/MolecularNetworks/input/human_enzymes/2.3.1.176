@@ -1,0 +1,748 @@
+ENTRY       EC 2.3.1.176                Enzyme
+NAME        propanoyl-CoA C-acyltransferase;
+            SCP2 (gene name);
+            peroxisomal thiolase 2;
+            sterol carrier protein-chi;
+            SCPchi;
+            PTE-2 (ambiguous);
+            propionyl-CoA C2-trimethyltridecanoyltransferase;
+            3-oxopristanoyl-CoA hydrolase;
+            3-oxopristanoyl-CoA thiolase;
+            peroxisome sterol carrier protein thiolase;
+            sterol carrier protein;
+            oxopristanoyl-CoA thiolase;
+            peroxisomal 3-oxoacyl coenzyme A thiolase;
+            SCPx;
+            4,8,12-trimethyltridecanoyl-CoA:propanoyl-CoA 2-C-4,8,12-trimethyltridecanoyltransferase
+CLASS       Transferases;
+            Acyltransferases;
+            Transferring groups other than aminoacyl groups
+SYSNAME     3alpha,7alpha,12alpha-trihydroxy-5beta-cholanoyl-CoA:propanoyl-CoA C-acyltransferase
+REACTION    3alpha,7alpha,12alpha-trihydroxy-5beta-cholanoyl-CoA + propanoyl-CoA = CoA + 3alpha,7alpha,12alpha-trihydroxy-24-oxo-5beta-cholestanoyl-CoA [RN:R03719]
+ALL_REAC    R03719 > R04811;
+            (other) R05330 R07937 R07953
+SUBSTRATE   3alpha,7alpha,12alpha-trihydroxy-5beta-cholanoyl-CoA [CPD:C01794];
+            propanoyl-CoA [CPD:C00100]
+PRODUCT     CoA [CPD:C00010];
+            3alpha,7alpha,12alpha-trihydroxy-24-oxo-5beta-cholestanoyl-CoA [CPD:C05467]
+COMMENT     Also acts on dihydroxy-5beta-cholestanoyl-CoA and other branched chain acyl-CoA derivatives. The enzyme catalyses the penultimate step in the formation of bile acids. The bile acid moiety is transferred from the acyl-CoA thioester (RCO-SCoA) to either glycine or taurine (NH2R') by EC 2.3.1.65, bile acid-CoA:amino acid N-acyltransferase [3].
+HISTORY     EC 2.3.1.176 created 2005 (EC 2.3.1.154 created 2000, incorporated 2015)
+REFERENCE   1  [PMID:7461136]
+  AUTHORS   Pedersen JI, Gustafsson J.
+  TITLE     Conversion of 3 alpha, 7 alpha, 12 alpha-trihydroxy-5 beta-cholestanoic acid into cholic acid by rat liver peroxisomes.
+  JOURNAL   FEBS Lett 121:345-8 (1980)
+            DOI:10.1016/0014-5793(80)80377-2
+REFERENCE   2  [PMID:6668450]
+  AUTHORS   Kase F, Bjorkhem I, Pedersen JI.
+  TITLE     Formation of cholic acid from 3 alpha, 7 alpha, 12 alpha-trihydroxy-5 beta-cholestanoic acid by rat liver peroxisomes.
+  JOURNAL   J Lipid Res 24:1560-7 (1983)
+REFERENCE   3  [PMID:8034703]
+  AUTHORS   Falany CN, Johnson MR, Barnes S, Diasio RB
+  TITLE     Glycine and taurine conjugation of bile acids by a single enzyme. Molecular cloning and expression of human liver bile acid CoA:amino acid N-acyltransferase.
+  JOURNAL   J Biol Chem 269:19375-9 (1994)
+REFERENCE   4  [PMID:8063752]
+  AUTHORS   Seedorf U, Brysch P, Engel T, Schrage K, Assmann G.
+  TITLE     Sterol carrier protein X is peroxisomal 3-oxoacyl coenzyme A thiolase with intrinsic sterol carrier and lipid transfer activity.
+  JOURNAL   J Biol Chem 269:21277-83 (1994)
+REFERENCE   5  [PMID:9245689]
+  AUTHORS   Wanders RJ, Denis S, Wouters F, Wirtz KW, Seedorf U.
+  TITLE     Sterol carrier protein X (SCPx) is a peroxisomal branched-chain beta-ketothiolase specifically reacting with 3-oxo-pristanoyl-CoA: a new, unique role for SCPx in branched-chain fatty acid metabolism in peroxisomes.
+  JOURNAL   Biochem Biophys Res Commun 236:565-9 (1997)
+            DOI:10.1006/bbrc.1997.7007
+REFERENCE   6  [PMID:12543708]
+  AUTHORS   Russell DW
+  TITLE     The enzymes, regulation, and genetics of bile acid synthesis.
+  JOURNAL   Annu Rev Biochem 72:137-74 (2003)
+            DOI:10.1146/annurev.biochem.72.121801.161712
+PATHWAY     ec00120  Primary bile acid biosynthesis
+            ec01040  Biosynthesis of unsaturated fatty acids
+            ec01100  Metabolic pathways
+ORTHOLOGY   K08764  sterol carrier protein 2
+GENES       HSA: 6342(SCP2)
+            PTR: 456862(SCP2)
+            PPS: 100986541(SCP2)
+            GGO: 101143883(SCP2)
+            PON: 100173072(SCP2)
+            NLE: 100597097(SCP2)
+            HMH: 116457731(SCP2)
+            MCC: 715765(SCP2)
+            MCF: 102140312(SCP2)
+            MTHB: 126962264
+            MNI: 105495064(SCP2)
+            CSAB: 103224800(SCP2)
+            CATY: 105596076(SCP2)
+            PANU: 101014099(SCP2)
+            TGE: 112630140(SCP2)
+            MLEU: 105534869(SCP2)
+            RRO: 104669256(SCP2)
+            RBB: 108531191(SCP2)
+            TFN: 117092575(SCP2)
+            PTEH: 111523615(SCP2)
+            CANG: 105500680(SCP2)
+            CJC: 100388218(SCP2)
+            SBQ: 101036680(SCP2)
+            CIMI: 108286513(SCP2)
+            CSYR: 103251566
+            MMUR: 105877574(SCP2)
+            LCAT: 123635639(SCP2)
+            PCOQ: 105806341(SCP2)
+            OGA: 100942517(SCP2)
+            MMU: 20280(Scp2)
+            MCAL: 110292209(Scp2)
+            MPAH: 110323135(Scp2)
+            RNO: 25541(Scp2)
+            MCOC: 116096368(Scp2)
+            ANU: 117708981(Scp2)
+            MUN: 110563883(Scp2)
+            CGE: 100757558(Scp2)
+            MAUA: 101835416(Scp2)
+            PLEU: 114706215(Scp2)
+            MORG: 121448643(Scp2)
+            MFOT: 126497985
+            AAMP: 119817760(Scp2)
+            NGI: 103730241(Scp2)
+            HGL: 101705283(Scp2)
+            CPOC: 100728738(Scp2)
+            CCAN: 109693360(Scp2)
+            DORD: 105989992(Scp2)
+            DSP: 122104780(Scp2)
+            NCAR: 124976523
+            OCU: 100008683(SCP2)
+            OPI: 101525608(SCP2)
+            TUP: 102487249(SCP2)
+            GVR: 103595947(SCP2)
+            CFA: 479564(SCP2)
+            CLUD: 112647043(SCP2)
+            VVP: 112926124(SCP2)
+            VLG: 121499527(SCP2)
+            AML: 100469567(SCP2)
+            UMR: 103670702(SCP2)
+            UAH: 113254655(SCP2)
+            UAR: 123793683(SCP2)
+            ELK: 111143445
+            LLV: 125097930
+            MPUF: 101683759(SCP2)
+            NVS: 122899984(SCP2)
+            ORO: 101367151(SCP2)
+            EJU: 114212153(SCP2)
+            ZCA: 113938060(SCP2)
+            MLX: 118019400(SCP2)
+            NSU: 110575296(SCP2)
+            LWW: 102730831
+            FCA: 101093036(SCP2)
+            PYU: 121027139(SCP2)
+            PBG: 122480511(SCP2)
+            LRUF: 124515360
+            PTG: 102951550(SCP2)
+            PPAD: 109266864(SCP2)
+            AJU: 106987886(SCP2)
+            HHV: 120235455(SCP2)
+            BTA: 508918(SCP2)
+            BOM: 102281973
+            BIU: 109556283(SCP2)
+            BBUB: 102409865(SCP2)
+            BBIS: 104993797(SCP2)
+            CHX: 102182369(SCP2)
+            OAS: 101117285
+            ODA: 120856133(SCP2)
+            CCAD: 122436963(SCP2)
+            SSC: 397439(SCP2)
+            CFR: 102516689(SCP2)
+            CBAI: 105066443(SCP2)
+            CDK: 105090773(SCP2)
+            VPC: 102531511(SCP2)
+            BACU: 103008562(SCP2)
+            LVE: 103081853
+            OOR: 101279314(SCP2)
+            DLE: 111175824(SCP2)
+            PCAD: 102988699(SCP2)
+            PSIU: 116755305(SCP2)
+            ECB: 100061338(SCP2)
+            EPZ: 103558615(SCP2)
+            EAI: 106833182(SCP2)
+            MYB: 102242920(SCP2)
+            MYD: 102765227(SCP2)
+            MMYO: 118675964(SCP2)
+            MLF: 102427215(SCP2)
+            MNA: 107535398(SCP2)
+            PKL: 118724423(SCP2)
+            DRO: 112314454(SCP2)
+            SHON: 118984984(SCP2)
+            AJM: 119061438(SCP2)
+            PDIC: 114496777(SCP2)
+            PHAS: 123830395(SCP2)
+            MMF: 118626868(SCP2)
+            RFQ: 117026926(SCP2)
+            PALE: 102884769(SCP2)
+            PGIG: 120618727 120621097
+            PVP: 105298974(SCP2)
+            RAY: 107497927(SCP2)
+            MJV: 108403979(SCP2)
+            TOD: 119235516(SCP2)
+            SARA: 101556971(SCP2)
+            LAV: 100666078
+            TMU: 101347488
+            ETF: 101657480(SCP2)
+            DNM: 101431612
+            MDO: 100017946(SCP2)
+            GAS: 123247348(SCP2)
+            SHR: 100922562(SCP2)
+            AFZ: 127563309
+            PCW: 110209359(SCP2)
+            OAA: 100084202(SCP2)
+            GGA: 396550(SCP2)
+            PCOC: 116234866(SCP2)
+            MGP: 100541979(SCP2)
+            CJO: 107317654(SCP2)
+            NMEL: 110402526(SCP2)
+            APLA: 101803933(SCP2)
+            ACYG: 106032940(SCP2)
+            AFUL: 116491991(SCP2)
+            TGU: 100218387(SCP2)
+            LSR: 110470146(SCP2)
+            SCAN: 103815029(SCP2)
+            PMOA: 120503249(SCP2)
+            OTC: 121345101(SCP2)
+            PRUF: 121362102(SCP2)
+            GFR: 102042799(SCP2)
+            FAB: 101820874(SCP2)
+            PHI: 102105546(SCP2)
+            PMAJ: 107208151(SCP2)
+            CCAE: 111933041(SCP2)
+            CCW: 104695523(SCP2)
+            CBRC: 103615085(SCP2)
+            ETL: 114062766(SCP2)
+            ZAB: 102074760(SCP2)
+            ACHL: 103808519
+            FPG: 101913645(SCP2)
+            FCH: 102053527(SCP2)
+            CLV: 102087499(SCP2)
+            EGZ: 104131500(SCP2)
+            PCRI: 104036502
+            PCAO: 104052441
+            ACUN: 113483071(SCP2)
+            TALA: 104358971(SCP2)
+            PADL: 103913664(SCP2)
+            AFOR: 103905636(SCP2)
+            ACHC: 115348992(SCP2)
+            HALD: 104316957(SCP2)
+            HLE: 104841011(SCP2)
+            AGEN: 126042301
+            GCL: 127019220
+            CCRI: 104160382
+            EHS: 104502811
+            CMAC: 104473793
+            MUI: 104534615(SCP2)
+            FGA: 104077709
+            GSTE: 104250923
+            MNB: 103774985
+            OHA: 104334189(SCP2)
+            NNT: 104409378
+            DPUB: 104307052(SCP2)
+            ACAR: 104528412
+            CPEA: 104385168(SCP2)
+            CVF: 104286247(SCP2)
+            CUCA: 104060140(SCP2)
+            BRHI: 104487977
+            AAM: 106491062(SCP2)
+            AROW: 112976010(SCP2)
+            NPD: 112959880(SCP2)
+            TGT: 104565072(SCP2)
+            DNE: 112986246(SCP2)
+            SCAM: 104149620(SCP2)
+            AMJ: 102570791(SCP2)
+            GGN: 109286645(SCP2)
+            PSS: 102461487(SCP2)
+            CMY: 102931842(SCP2)
+            CPIC: 101937963(SCP2)
+            TST: 117881396(SCP2)
+            CABI: 116817908(SCP2)
+            MRV: 120369926(SCP2)
+            ACS: 100559527(scp2)
+            PVT: 110082239(SCP2)
+            SUND: 121927882(SCP2)
+            PBI: 103053379(SCP2)
+            PMUR: 107283044(SCP2)
+            CTIG: 120297296(SCP2)
+            TSR: 106546053(SCP2)
+            PGUT: 117664238(SCP2)
+            VKO: 123023422(SCP2)
+            PMUA: 114598987(SCP2)
+            ZVI: 118088229(SCP2)
+            GJA: 107120559(SCP2)
+            STOW: 125432896(SCP2)
+            XLA: 108715604 494715(scp2.L)
+            XTR: 548512(scp2)
+            NPR: 108783818(SCP2)
+            RTEM: 120945900(SCP2)
+            BBUF: 120979161(SCP2)
+            BGAR: 122943358(SCP2)
+            DRE: 393839(scp2a)
+            SRX: 107719264(scp2) 107722381
+            SANH: 107681719(scp2)
+            SGH: 107593851(scp2)
+            CCAR: 109091477
+            CAUA: 113046052
+            CGIB: 127951060
+            PPRM: 120471423(scp2a)
+            MAMB: 125250576(scp2a)
+            CIDE: 127525070
+            MASI: 127440594 127442476
+            IPU: 108267621(scp2a)
+            PHYP: 113540595
+            SMEO: 124387211(scp2a)
+            TFD: 113649160(scp2a)
+            AMEX: 103022159(scp2)
+            EEE: 113570128(scp2)
+            TRU: 101069006(scp2)
+            TNG: GSTEN00013363G001
+            LCO: 104936979(scp2)
+            NCC: 104949681(scp2)
+            CGOB: 115022878(scp2)
+            ELY: 117272207(scp2a)
+            EFO: 125902066(scp2a)
+            PLEP: 121951322(scp2a)
+            SLUC: 116045792(scp2a)
+            ECRA: 117953992(scp2a)
+            ESP: 116699114(scp2)
+            PFLV: 114565856(scp2)
+            GAT: 120815649(scp2a)
+            PPUG: 119209084(scp2a)
+            MSAM: 119902379(scp2a)
+            CUD: 121520481(scp2a)
+            ALAT: 119011612(scp2a)
+            MZE: 101481799(scp2)
+            ONL: 100711328
+            OAU: 116332020(scp2a)
+            OLA: 101175107(scp2)
+            OML: 112147264(scp2a)
+            XMA: 102226285
+            XCO: 114145905(scp2)
+            XHE: 116721136
+            PRET: 103479011(scp2)
+            PFOR: 103140016
+            PLAI: 106954305(scp2)
+            PMEI: 106930838
+            GAF: 122841588(scp2a)
+            CVG: 107083609(scp2)
+            CTUL: 119776052(scp2a)
+            GMU: 124870197(scp2a)
+            NFU: 107384403
+            KMR: 108238206(scp2a)
+            ALIM: 106527182(scp2)
+            NWH: 119414930(scp2a)
+            AOCE: 111587618(scp2)
+            MCEP: 125011090(scp2a)
+            CSEM: 103395834(scp2)
+            POV: 109646608(scp2)
+            SSEN: 122772859(scp2a)
+            HHIP: 117778154(scp2a)
+            HSP: 118118100(scp2a)
+            LCF: 108883814(scp2a)
+            SDU: 111228861(scp2)
+            SLAL: 111670554(scp2)
+            XGL: 120799150(scp2a)
+            HCQ: 109521343(scp2)
+            SSCV: 125985489
+            BPEC: 110173449(scp2) 110173461
+            MALB: 109970643(scp2)
+            BSPL: 114844018(scp2a)
+            SASA: 106569705(scp2)
+            STRU: 115157509(scp2)
+            OTW: 112260891(scp2a)
+            OMY: 110531018(scp2a)
+            OGO: 124010195(scp2a)
+            ONE: 115114032
+            SALP: 112069550
+            SNH: 120056155(scp2a)
+            CCLU: 121535401(scp2a)
+            ELS: 105022798(scp2)
+            SFM: 108935159(scp2)
+            PKI: 111847545(scp2)
+            AANG: 118230304(scp2a)
+            LOC: 102694821(scp2)
+            PSPA: 121326953 121331087
+            ARUT: 117400635(scp2a)
+            PSEX: 120515183(scp2a)
+            LCM: 102354489
+            CMK: 103185291(scp2a)
+            RTP: 109913670(scp2)
+            BFO: 118431877
+            BBEL: 109486292
+            CIN: 100177613 100180698
+            SCLV: 120337099 120337215
+            SPU: 100893445 115918990 576367
+            APLC: 110986063
+            SKO: 100368127(SCP2) 100368276
+            DME: Dmel_CG17320(ScpX) Dmel_CG17597(CG17597)
+            DER: 6549264 6549265
+            DSE: 6614595 6614596
+            DSI: Dsimw501_GD21807(Dsim_GD21807)
+            DYA: Dyak_GE12703 Dyak_GE13211
+            DAN: 6497310 6498229
+            DSR: 110176873 110176941
+            DPO: 4817196 6902956
+            DPE: 6588700 6588702 6588741
+            DMN: 108161705 108161710
+            DWI: 6642157 6642675
+            DGR: 6562136 6562137
+            DMO: Dmoj_GI18118 Dmoj_GI20976
+            DAZ: 108610959 108610962
+            DNV: 115564109 115564111
+            DHE: 111605561 111605564
+            DVI: 6628776 6635695
+            CCAT: 101462658
+            BOD: 106618428
+            RZE: 108366409 108380069
+            MDE: 101899830
+            SCAC: 106095367
+            LCQ: 111680181
+            LSQ: 119603570
+            HIS: 119647125
+            AGA: AgaP_AGAP007921
+            ACOZ: 120959005
+            AARA: 120901455
+            ASTE: 118514080
+            AAG: 5575668
+            AALB: 109429786 115254088
+            CQU: CpipJ_CPIJ004370
+            CPII: 120412653
+            CNS: 116346416
+            BCOO: 119082768 119084662
+            AME: 408904
+            ACER: 107999394
+            ALAB: 122721165
+            BIM: 100748275
+            BBIF: 117211632
+            BVK: 117236065
+            BVAN: 117153271
+            BTER: 100647066
+            BPYO: 122569130
+            CCAL: 108628439
+            OBB: 114870987
+            MGEN: 117223593
+            NMEA: 116424138
+            CGIG: 122395357
+            SOC: 105201416
+            MPHA: 105840706
+            AEC: 105153563
+            ACEP: 105618569
+            PBAR: 105432859
+            VEM: 105559618
+            HST: 105189995
+            DQU: 106742407
+            CFO: 105251216
+            FEX: 115235753
+            LHU: 105675589
+            PGC: 109861339
+            OBO: 105274767
+            PCF: 106788866
+            PFUC: 122525052
+            VPS: 122631210
+            NVI: 100123951
+            CSOL: 105363609
+            TPRE: 106655470
+            MDL: 103571215
+            CGLO: 123263667
+            FAS: 105262861
+            DAM: 107037864
+            AGIF: 122860480
+            CINS: 118072716
+            LHT: 122501280
+            CCIN: 107270428
+            TCA: 657233(Scpx)
+            DPA: 109539789
+            SOY: 115884606
+            ATD: 109602926
+            CSET: 123321891
+            AGB: 108909524
+            LDC: 111506232
+            NVL: 108556749
+            APLN: 108735274
+            PPYR: 116158810 116158811 116165520 116165993
+            OTU: 111413902
+            BMOR: 692782(Scpx)
+            BMAN: 114242327
+            MSEX: 115441778 119188951
+            DPL: KGM_201015
+            BANY: 112050646
+            NIQ: 126771745
+            PMAC: 106713393 106718420 106718551
+            PPOT: 106110763 106110897
+            PXU: 106126552 106126779 106126872
+            PRAP: 110993930
+            PBX: 123713474
+            PNAP: 125060656
+            ZCE: 119839874
+            CCRC: 123697867
+            HAW: 110373174
+            HZE: 124639200
+            TNL: 113497353
+            SLIU: 111353722
+            OFU: 114355366 114355367 114357016
+            PXY: 105382506
+            CFEL: 113372162
+            API: 100161454
+            DNX: 107161308
+            AGS: 114122268
+            RMD: 113555937
+            BTAB: 109035142
+            DCI: 103505667
+            CLEC: 106670708
+            HHAL: 106684679
+            NLU: 111044377 111061979
+            PHU: Phum_PHUM035680
+            FOC: 113212065
+            TPAL: 117639290
+            ZNE: 110831910
+            CSEC: 111872626
+            SGRE: 126298524
+            FCD: 110850871
+            DPX: DAPPUDRAFT_221682
+            DMK: 116921888
+            DPZ: 124336994
+            PVM: 113823286
+            PJA: 122264817
+            PCHN: 125027968
+            PMOO: 119572972
+            HAME: 121866073
+            PCLA: 123762972
+            PTRU: 123517765
+            HAZT: 108680976
+            EAF: 111703303
+            PPOI: 119112159
+            ISC: IscW_ISCW022661
+            DSV: 119436417 119436419
+            RSAN: 119401759
+            RMP: 119187775
+            VDE: 111242913 111255316
+            VJA: 111269448
+            TUT: 107367461
+            CSCU: 111639045
+            PTEP: 107441525 107444952
+            SDM: 118191209 118194907
+            CEL: CELE_Y57A10C.6(daf-22)
+            CBR: CBG_20965
+            NAI: NECAME_07403
+            HRO: HELRODRAFT_181809
+            LGI: LOTGIDRAFT_199394 LOTGIDRAFT_208622
+            PCAN: 112556260 112573252
+            BGT: 106060101 106066061
+            GAE: 121374353
+            HRF: 124146184
+            HRJ: 124279878 124292508
+            CRG: 105320624 105339056
+            MYI: 110461537
+            PMAX: 117326074 117326251
+            MCAF: 127701271 127731664
+            MMER: 123524430
+            OBI: 106877352
+            OSN: 115210783
+            LAK: 106163561 106171787
+            NVE: 5504461 5512272
+            EPA: 110236319 110252643
+            ATEN: 116302101 116302758
+            ADF: 107329225 107358353
+            AMIL: 114970597
+            PDAM: 113669310 113669526
+            SPIS: 111323219 111323854
+            DGT: 114526215
+            XEN: 124437194
+            HMG: 100208487 100208841
+            TAD: TRIADDRAFT_59384
+            AQU: 100638133
+            QSU: 112009612 112018704 112032641
+            YLI: YALI0D00176g
+            NCR: NCU03372
+            NTE: NEUTE1DRAFT84532(NEUTE1DRAFT_84532)
+            SMP: SMAC_08249
+            PAN: PODANSg6465
+            TTT: THITE_2123390
+            MTM: MYCTH_2311684
+            CTHR: CTHT_0001440
+            MGR: MGG_02409
+            PPEI: PpBr36_06989
+            TMN: UCRPA7_6079 UCRPA7_834
+            SSCK: SPSK_02507
+            FGR: FGSG_10853
+            FPU: FPSE_09851
+            FVR: FVEG_11528
+            FOX: FOXG_12787 FOXG_17360
+            NHE: NECHADRAFT_80031
+            TRE: TRIREDRAFT_5270
+            TRR: M419DRAFT_87321
+            MAW: MAC_03561
+            MAJ: MAA_02626
+            CMT: CCM_02487 CCM_07334
+            PLJ: VFPFJ_06732
+            VAL: VDBG_05604
+            VDA: VDAG_07544
+            CFJ: CFIO01_13361
+            CLUP: CLUP02_01574
+            CHIG: CH63R_10428
+            SAPO: SAPIO_CDS6035
+            ELA: UCREL1_7466
+            PFY: PFICI_09085
+            SSL: SS1G_10890
+            BFU: BCIN_04g06330
+            MBE: MBM_04974
+            PSCO: LY89DRAFT_653945
+            GLZ: GLAREA_09222
+            ANI: AN1840.2 AN4353.2
+            AFM: AFUA_4G06380
+            ACT: ACLA_045690
+            NFI: NFIA_109770
+            AOR: AO090003001431 AO090023000951
+            ANG: ANI_1_216184(An04g00740)
+            AFV: AFLA_000248 AFLA_007309
+            ALUC: AKAW2_51114A
+            ACHE: ACHE_20548A
+            APUU: APUU_21244S APUU_70522A
+            PCS: Pc20g15660 Pc22g17070
+            PDP: PDIP_14030
+            TMF: PMAA_027510
+            TRG: TRUGW13939_03447 TRUGW13939_09291
+            CIM: CIMG_02988 CIMG_04177
+            CPW: CPC735_000370 CPC735_002460
+            URE: UREG_02948 UREG_05610
+            PBL: PAAG_11860(PAAG_04374)
+            PBN: PADG_04543
+            ABE: ARB_01676
+            TVE: TRV_00032
+            AJE: HCAG_08974
+            BGH: BDBG_17636
+            PNO: SNOG_05110 SNOG_13072
+            PTE: PTT_11137
+            BZE: COCCADRAFT_4180 COCCADRAFT_9671
+            BSC: COCSADRAFT_151285 COCSADRAFT_90603
+            BOR: COCMIDRAFT_35853 COCMIDRAFT_91665
+            AALT: CC77DRAFT_603005 CC77DRAFT_967750
+            ZTR: MYCGRDRAFT_97115 MYCGRDRAFT_98156
+            PFJ: MYCFIDRAFT_187118 MYCFIDRAFT_46997
+            FFU: CLAFUR5_04441 CLAFUR5_06761 CLAFUR5_13933
+            BCOM: BAUCODRAFT_144858 BAUCODRAFT_449474
+            NPA: UCRNP2_9003
+            TML: GSTUM_00003170001
+            TASA: A1Q1_03740
+            TVS: TRAVEDRAFT_68666
+            DSQ: DICSQDRAFT_182527
+            PCO: PHACADRAFT_246837
+            SHS: STEHIDRAFT_88619
+            HIR: HETIRDRAFT_470027
+            ADL: AURDEDRAFT_109665
+            FME: FOMMEDRAFT_19696
+            GTR: GLOTRDRAFT_69476
+            LBC: LACBIDRAFT_243443
+            CCI: CC1G_13192
+            ABP: AGABI1DRAFT110046(AGABI1DRAFT_110046)
+            ABV: AGABI2DRAFT190063(AGABI2DRAFT_190063)
+            PCUB: JR316_0010913
+            MRR: Moror_9005
+            MORE: E1B28_012200
+            SCM: SCHCO_02617832(SCHCODRAFT_02617832)
+            CPUT: CONPUDRAFT_114429
+            SLA: SERLADRAFT_363897 SERLADRAFT_453500
+            UMA: UMAG_01986
+            PFP: PFL1_04369
+            ACAN: ACA1_092850 ACA1_275820
+            TET: TTHERM_00195860
+            PTM: GSPATT00007456001 GSPATT00019162001
+            PAGR: E2H98_03180
+            MLQ: ASQ50_13325
+            ABER: BSR55_14020
+            ACHI: CDG60_09230
+            SFR: Sfri_0743
+            SLJ: EGC82_05380
+            SPOL: FH971_16165
+            SGLA: FJ709_08165
+            SINV: K8B83_06395
+            CPS: CPS_0669
+            THAB: LP316_01700
+            PSEO: OM33_12585
+            PSPO: PSPO_a2037
+            PSYM: J1N51_03385
+            AMG: AMEC673_15665
+            AMK: AMBLS11_15115
+            SNAN: I6N98_16575
+            STAW: NCG89_13700
+            WOC: BA177_04475
+            ADI: B5T_02065
+            AXE: P40_09880
+            APAC: S7S_16300
+            NJP: NEJAP_2832
+            SDF: ACG33_06485
+            SOK: D0B54_12330 D0B54_18720
+            GPB: HDN1F_17110(tioL)
+            PMEG: FNZ07_03840
+            AAA: Acav_2987
+            DLA: I6G47_13430
+            ADN: Alide_2958
+            ADK: Alide2_1489
+            HYR: BSY239_2783
+            HPSE: HPF_13290(paaJ2)
+            DIH: G7047_28860
+            DAER: H9K75_06185
+            DRG: H9K76_07760
+            MASW: AM586_24120
+            MASS: CR152_12740
+            UPI: EJG51_012580
+            NOK: FAY22_18425
+            EBA: ebA306(tioL) ebA5797
+            TCL: Tchl_1577
+            TAK: Tharo_2925
+            APP: CAP2UW1_2695
+            AGE: AA314_01286
+            CCRO: CMC5_073470
+            PAUU: E8A73_036295
+            SAMY: DB32_006921
+            LLU: AKJ09_03289
+            MRM: A7982_08829
+            NANN: O0S08_11605
+            BSED: DN745_10320
+            PCAY: FRD00_26175
+            MESO: BSQ44_04250
+            PLA: Plav_0155
+            BRS: S23_06920
+            BRC: BCCGELA001_03280
+            BRK: CWS35_28295
+            BRQ: CIT40_01785
+            BSYM: CIT39_00260
+            RPB: RPB_4078
+            RPD: RPD_3814
+            XAU: Xaut_4071
+            NTD: EGO55_12175
+            PHR: C6569_15770
+            CAK: Caul_0450
+            SULD: B5M07_17840
+            SPSE: SULPSESMR1_04594(fadA)
+            SWI: Swit_4119
+            SAMI: SAMIE_1018940
+            PALG: HFP57_16425
+            SMIC: SmB9_09260
+            AZL: AZL_a11110(fadA)
+            FER: FNB15_01000
+            TMO: TMO_0975
+            GAJ: MY490_05140
+            PKU: AUO94_02680
+            SPOP: SporoP37_16600
+            MJL: Mjls_1512
+            MVQ: MYVA_4960
+            MCHT: MCHIJ_01810(ltp1_1)
+            ASD: AS9A_0934
+            NSR: NS506_04193(scp2)
+            NOD: FOH10_16875
+            RAV: AAT18_02110
+            RRZ: CS378_11410
+            RKO: JWS14_15875
+            GOR: KTR9_3195
+            GTA: BCM27_16325
+            SQZ: FQU76_26335
+            STSU: B7R87_26215
+            ACIT: HPK19_11675
+            AEB: C6I20_03680
+            AYM: YM304_34000
+DBLINKS     ExplorEnz - The Enzyme Database: 2.3.1.176
+            IUBMB Enzyme Nomenclature: 2.3.1.176
+            ExPASy - ENZYME nomenclature database: 2.3.1.176
+            BRENDA, the Enzyme Database: 2.3.1.176
+///

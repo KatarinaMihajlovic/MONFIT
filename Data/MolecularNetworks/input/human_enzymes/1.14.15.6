@@ -1,0 +1,377 @@
+ENTRY       EC 1.14.15.6                Enzyme
+NAME        cholesterol monooxygenase (side-chain-cleaving);
+            cholesterol desmolase;
+            cytochrome P-450scc;
+            C27-side chain cleavage enzyme;
+            cholesterol 20-22-desmolase;
+            cholesterol C20-22 desmolase;
+            cholesterol side-chain cleavage enzyme;
+            cholesterol side-chain-cleaving enzyme;
+            steroid 20-22 desmolase;
+            steroid 20-22-lyase;
+            CYP11A1 (gene name)
+CLASS       Oxidoreductases;
+            Acting on paired donors, with incorporation or reduction of molecular oxygen;
+            With reduced iron-sulfur protein as one donor, and incorporation of one atom of oxygen into the other donor
+SYSNAME     cholesterol,reduced-adrenodoxin:oxygen oxidoreductase (side-chain-cleaving)
+REACTION    cholesterol + 6 reduced adrenodoxin + 3 O2 + 6 H+ = pregnenolone + 4-methylpentanal + 6 oxidized adrenodoxin + 4 H2O (overall reaction) [RN:R02724];
+            (1a) cholesterol + 2 reduced adrenodoxin + O2 + 2 H+ = (22R)-22-hydroxycholesterol + 2 oxidized adrenodoxin + H2O [RN:R02723];
+            (1b) (22R)-22-hydroxycholesterol + 2 reduced adrenodoxin + O2 + 2 H+ = (20R,22R)-20,22-dihydroxycholesterol + 2 oxidized adrenodoxin + H2O [RN:R04855];
+            (1c) (20R,22R)-20,22-dihydroxy-cholesterol + 2 reduced adrenodoxin + O2 + 2 H+ = pregnenolone + 4-methylpentanal + 2 oxidized adrenodoxin + 2 H2O [RN:R03933]
+ALL_REAC    R02723 R02724 R03933 R04855;
+            (other) R01454 R04676 R04854
+SUBSTRATE   cholesterol [CPD:C00187];
+            reduced adrenodoxin [CPD:C00662];
+            O2 [CPD:C00007];
+            H+ [CPD:C00080];
+            (22R)-22-hydroxycholesterol [CPD:C05502];
+            (20R,22R)-20,22-dihydroxy-cholesterol
+PRODUCT     pregnenolone [CPD:C01953];
+            4-methylpentanal [CPD:C02373];
+            oxidized adrenodoxin [CPD:C00667];
+            H2O [CPD:C00001];
+            (22R)-22-hydroxycholesterol [CPD:C05502];
+            (20R,22R)-20,22-dihydroxycholesterol
+COMMENT     A heme-thiolate protein (cytochrome P-450). The reaction proceeds in three stages, with two hydroxylations at C-22 and C-20 preceding scission of the side-chain between carbons 20 and 22. The initial source of the electrons is NADPH, which transfers the electrons to the adrenodoxin via EC 1.18.1.6, adrenodoxin-NADP+ reductase.
+HISTORY     EC 1.14.15.6 created 1983, modified 2013, modified 2014
+REFERENCE   1  [PMID:1238395]
+  AUTHORS   Burstein S, Middleditch BS, Gut M
+  TITLE     Mass spectrometric study of the enzymatic conversion of cholesterol to (22R)-22-hydroxycholesterol, (20R,22R)-20,22-dihydroxycholesterol, and pregnenolone, and of (22R)-22-hydroxycholesterol to the lgycol and pregnenolone in bovine adrenocortical preparations. Mode of oxygen incorporation.
+  JOURNAL   J Biol Chem 250:9028-37 (1975)
+REFERENCE   2  [PMID:7217084]
+  AUTHORS   Hanukoglu I, Spitsberg V, Bumpus JA, Dus KM, Jefcoate CR.
+  TITLE     Adrenal mitochondrial cytochrome P-450scc. Cholesterol and adrenodoxin interactions at equilibrium and during turnover.
+  JOURNAL   J Biol Chem 256:4321-8 (1981)
+REFERENCE   3  [PMID:3011431]
+  AUTHORS   Hanukoglu I, Hanukoglu Z
+  TITLE     Stoichiometry of mitochondrial cytochromes P-450, adrenodoxin and adrenodoxin reductase in adrenal cortex and corpus luteum. Implications for membrane organization and gene regulation.
+  JOURNAL   Eur J Biochem 157:27-31 (1986)
+            DOI:10.1111/j.1432-1033.1986.tb09633.x
+REFERENCE   4  [PMID:21636783]
+  AUTHORS   Strushkevich N, MacKenzie F, Cherkesova T, Grabovec I, Usanov S, Park HW
+  TITLE     Structural basis for pregnenolone biosynthesis by the mitochondrial monooxygenase system.
+  JOURNAL   Proc Natl Acad Sci U S A 108:10139-43 (2011)
+            DOI:10.1073/pnas.1019441108
+  SEQUENCE  [hsa:1583]
+REFERENCE   5  [PMID:21159775]
+  AUTHORS   Mast N, Annalora AJ, Lodowski DT, Palczewski K, Stout CD, Pikuleva IA
+  TITLE     Structural basis for three-step sequential catalysis by the cholesterol side chain cleavage enzyme CYP11A1.
+  JOURNAL   J Biol Chem 286:5607-13 (2011)
+            DOI:10.1074/jbc.M110.188433
+  SEQUENCE  [bta:338048]
+PATHWAY     ec00140  Steroid hormone biosynthesis
+            ec01100  Metabolic pathways
+ORTHOLOGY   K00498  cholesterol monooxygenase (side-chain-cleaving)
+GENES       HSA: 1583(CYP11A1)
+            PTR: 748998(CYP11A1)
+            PPS: 100979902(CYP11A1)
+            GGO: 101124697
+            PON: 100433169
+            NLE: 100595981
+            HMH: 116481899
+            MCC: 708065
+            MCF: 102120640(CYP11A1)
+            MTHB: 126959982
+            MNI: 105490949
+            CSAB: 103245339(CYP11A1)
+            CATY: 105600069
+            PANU: 101026207
+            TGE: 112627656
+            MLEU: 105530842
+            RRO: 104672245
+            RBB: 108531466
+            TFN: 117070377
+            PTEH: 111529691
+            CANG: 105505172
+            CJC: 100389930(CYP11A1)
+            SBQ: 101039906
+            CIMI: 108317488(CYP11A1)
+            CSYR: 103273593
+            MMUR: 105862155
+            LCAT: 123624288
+            PCOQ: 105807291
+            OGA: 100951412
+            MMU: 13070(Cyp11a1)
+            MCAL: 110301893
+            MPAH: 110328464
+            RNO: 29680(Cyp11a1)
+            MCOC: 116073505
+            ANU: 117699398
+            MUN: 110554823 110554825
+            CGE: 100752606
+            MAUA: 101827747
+            PLEU: 114690350
+            MORG: 121445604
+            MFOT: 126507526
+            AAMP: 119809739
+            NGI: 103736867
+            HGL: 101704598
+            CPOC: 100716515 100721940
+            CCAN: 109687652
+            DORD: 105982351
+            DSP: 122098454 122098455 122098456 122098457 122098458
+            NCAR: 124977503
+            OCU: 100345737(CYP11A1)
+            OPI: 101531464
+            TUP: 102487565
+            GVR: 103588064
+            CFA: 478365(CYP11A1)
+            CLUD: 112675603
+            VVP: 112917406
+            VLG: 121485703
+            AML: 100474049
+            UMR: 103678997
+            UAH: 113240963
+            UAR: 123790690
+            ELK: 111153362
+            LLV: 125105609
+            MPUF: 101670840
+            NVS: 122893386
+            ORO: 101384815
+            EJU: 114206275
+            ZCA: 113909555
+            MLX: 118003325
+            NSU: 110583983
+            LWW: 102743616
+            FCA: 101085980
+            PYU: 121041978
+            PBG: 122468436
+            LRUF: 124508027
+            PTG: 102964439
+            PPAD: 109262704
+            AJU: 106979451
+            HHV: 120235769
+            BTA: 338048(CYP11A1)
+            BOM: 102282116
+            BIU: 109575664
+            BBUB: 102400151
+            BBIS: 104990998
+            CHX: 102173131(CYP11A1)
+            OAS: 100048994(CYP11A1)
+            ODA: 120875441
+            CCAD: 122455135
+            SSC: 403329(CYP11A1)
+            CFR: 102516700
+            CBAI: 105069199
+            CDK: 105087270
+            VPC: 102526586
+            BACU: 103011342
+            LVE: 103068564
+            OOR: 101284598
+            DLE: 111177811
+            PCAD: 102978389
+            PSIU: 116749046
+            ECB: 100034229(CYP11A1)
+            EPZ: 103567309
+            EAI: 106842692
+            MYB: 102241006
+            MYD: 102765728
+            MMYO: 118675837
+            MLF: 102433032
+            MNA: 107535212
+            PKL: 118728890
+            HAI: 109396248
+            DRO: 112301926
+            SHON: 118987828
+            AJM: 119041324
+            PDIC: 114492772
+            PHAS: 123825290
+            MMF: 118641290
+            RFQ: 117022918
+            PALE: 102894190
+            PGIG: 120597907
+            PVP: 105306828
+            RAY: 107510545
+            MJV: 108390538
+            TOD: 119238427
+            SARA: 101550083
+            LAV: 100665050
+            TMU: 101357207
+            ETF: 101660280
+            DNM: 101418002
+            MDO: 100029519
+            GAS: 123234348
+            SHR: 100923284
+            AFZ: 127551988
+            PCW: 110214023
+            OAA: 100076626 114814661
+            GGA: 414838(CYP11A1)
+            PCOC: 116244549
+            MGP: 100543260
+            CJO: 107318663
+            NMEL: 110403743
+            APLA: 101796693
+            ACYG: 106044184
+            AFUL: 116493636
+            TGU: 100151695(CYP11A1)
+            LSR: 110468679 110482567
+            PMOA: 120504845
+            OTC: 121343597
+            PRUF: 121365512
+            GFR: 102043993
+            FAB: 101810676
+            PHI: 102109180
+            PMAJ: 107209117
+            ETL: 114059742
+            ACHL: 103810611
+            FPG: 101916429
+            FCH: 102049639
+            CLV: 102096337
+            EGZ: 104130717
+            NNI: 104016802
+            PCRI: 104027483
+            PCAO: 104053002
+            ACUN: 113483867
+            TALA: 104361621
+            PADL: 103922056
+            AFOR: 103898612
+            ACHC: 115341287
+            HLE: 104834370
+            AGEN: 126043946
+            GCL: 127020662
+            CCRI: 104156830
+            CSTI: 104559398
+            EHS: 104506334
+            CMAC: 104479455
+            MUI: 104543313
+            LDI: 104349946
+            OHA: 104330625
+            NNT: 104408617
+            DPUB: 104310199
+            PGUU: 104465897
+            ACAR: 104527743
+            CPEA: 104388946
+            AVIT: 104273860
+            CVF: 104282843
+            CUCA: 104066308
+            BRHI: 104489946
+            AAM: 106487382
+            AROW: 112967327
+            NPD: 112951010
+            TGT: 104577628
+            DNE: 112992459
+            SCAM: 104149167
+            ASN: 102381626
+            AMJ: 102569028(CYP11A1)
+            PSS: 102455057
+            CMY: 102939633
+            CPIC: 101950099
+            TST: 117884392
+            CABI: 116821105
+            MRV: 120372839
+            PVT: 110084450
+            SUND: 121934581
+            PBI: 103056955
+            PMUR: 107291917
+            CTIG: 120305548
+            TSR: 106553315
+            PGUT: 117659566
+            VKO: 123033771
+            PMUA: 114604069
+            ZVI: 118079191 118084488
+            GJA: 107111326
+            XLA: 108712986(cyp11a1.S)
+            XTR: 100495360(cyp11a1)
+            NPR: 108785561
+            RTEM: 120931500
+            BBUF: 120985643
+            BGAR: 122929707
+            DRE: 563363(cyp11a2) 80374(cyp11a1.1)
+            SRX: 107751280
+            SANH: 107703186
+            SGH: 107589342
+            CCAR: 109044858
+            CAUA: 113043547 113067058
+            CGIB: 127947488 128014634
+            PPRM: 120495594
+            MAMB: 125247683
+            CIDE: 127507653
+            MASI: 127437533
+            IPU: 100313513(cyp11a)
+            PHYP: 113530122
+            SMEO: 124392299
+            TFD: 113659881
+            AMEX: 103021835
+            EEE: 113573160
+            TRU: 101063139
+            TNG: GSTEN00016006G001
+            LCO: 104924331
+            NCC: 104966693
+            CGOB: 115009784 115009785 115009786 115009787
+            ELY: 117262855
+            EFO: 125887090
+            PLEP: 121949937
+            SLUC: 116038300
+            ECRA: 117949155
+            ESP: 116694228
+            PFLV: 114560394
+            GAT: 120808883
+            PPUG: 119196509
+            MSAM: 119894014
+            CUD: 121514436
+            ALAT: 119023908
+            MZE: 101471001
+            ONL: 100692956
+            OAU: 116326291
+            OLA: 100302421(cyp11a)
+            OML: 112152747
+            XMA: 102235384
+            XCO: 114151402
+            XHE: 116729990
+            PRET: 103466560
+            PFOR: 103141253
+            PLAI: 106959477
+            PMEI: 106927170
+            GAF: 122835039
+            CVG: 107101674
+            CTUL: 119772345
+            GMU: 124860809
+            NFU: 107388733
+            KMR: 108229950
+            ALIM: 106514397
+            NWH: 119416479
+            AOCE: 111587899
+            MCEP: 125014867
+            CSEM: 103380225
+            POV: 109624184
+            SSEN: 122775933
+            HHIP: 117763592
+            HSP: 118109743
+            LCF: 108886266
+            SDU: 111228419
+            SLAL: 111666903
+            XGL: 120793299
+            HCQ: 109519394
+            SSCV: 125970984
+            BPEC: 110163820
+            MALB: 109971254
+            BSPL: 114856786
+            SASA: 106561846(P450scc)
+            STRU: 115197753
+            OTW: 112218957
+            OMY: 110501505
+            OGO: 124031492
+            ONE: 115125603
+            SALP: 112071531
+            SNH: 120042159
+            CCLU: 121531238
+            ELS: 105007422
+            SFM: 108926637
+            PKI: 111846669
+            AANG: 118215491
+            LOC: 102686734
+            PSPA: 121298788
+            ARUT: 117428538 117429302 117963031
+            PSEX: 120541778
+            LCM: 102360223
+            CMK: 103188165
+            BBEL: 109467542 109476488 109476522 109486367
+            AGB: 108915653
+            APLN: 108738345
+            PJA: 122262122
+DBLINKS     ExplorEnz - The Enzyme Database: 1.14.15.6
+            IUBMB Enzyme Nomenclature: 1.14.15.6
+            ExPASy - ENZYME nomenclature database: 1.14.15.6
+            BRENDA, the Enzyme Database: 1.14.15.6
+            CAS: 37292-81-2 440354-98-3
+///

@@ -1,0 +1,612 @@
+ENTRY       EC 3.2.1.183                Enzyme
+NAME        UDP-N-acetylglucosamine 2-epimerase (hydrolysing);
+            UDP-N-acetylglucosamine 2-epimerase (ambiguous);
+            GNE (gene name);
+            siaA (gene name);
+            neuC (gene name)
+CLASS       Hydrolases;
+            Glycosylases;
+            Glycosidases, i.e. enzymes that hydrolyse O- and S-glycosyl compounds
+SYSNAME     UDP-N-acetyl-alpha-D-glucosamine hydrolase (2-epimerising)
+REACTION    UDP-N-acetyl-alpha-D-glucosamine + H2O = N-acetyl-D-mannosamine + UDP [RN:R00414]
+ALL_REAC    R00414
+SUBSTRATE   UDP-N-acetyl-alpha-D-glucosamine [CPD:C00043];
+            H2O [CPD:C00001]
+PRODUCT     N-acetyl-D-mannosamine [CPD:C00645];
+            UDP [CPD:C00015]
+COMMENT     The enzyme is found in mammalian liver, as well as in some pathogenic bacteria including Neisseria meningitidis and Staphylococcus aureus. It catalyses the first step of sialic acid (N-acetylneuraminic acid) biosynthesis. The initial product formed is the alpha anomer, which rapidly mutarotates to a mixture of anomers [2]. The mammalian enzyme is bifunctional and also catalyses EC 2.7.1.60, N-acetylmannosamine kinase.
+            cf. EC 5.1.3.14, UDP-N-acetylglucosamine 2-epimerase (non-hydrolysing).
+HISTORY     EC 3.2.1.183 created 2012
+REFERENCE   1  [PMID:9305888]
+  AUTHORS   Stasche R, Hinderlich S, Weise C, Effertz K, Lucka L, Moormann P, Reutter W
+  TITLE     A bifunctional enzyme catalyzes the first two steps in N-acetylneuraminic acid biosynthesis of rat liver. Molecular cloning and functional expression of UDP-N-acetyl-glucosamine 2-epimerase/N-acetylmannosamine kinase.
+  JOURNAL   J Biol Chem 272:24319-24 (1997)
+            DOI:10.1074/jbc.272.39.24319
+  SEQUENCE  [rno:114711]
+REFERENCE   2  [PMID:12603133]
+  AUTHORS   Chou WK, Hinderlich S, Reutter W, Tanner ME
+  TITLE     Sialic acid biosynthesis: stereochemistry and mechanism of the reaction catalyzed by the mammalian UDP-N-acetylglucosamine 2-epimerase.
+  JOURNAL   J Am Chem Soc 125:2455-61 (2003)
+            DOI:10.1021/ja021309g
+REFERENCE   3  [PMID:15135418]
+  AUTHORS   Blume A, Ghaderi D, Liebich V, Hinderlich S, Donner P, Reutter W, Lucka L
+  TITLE     UDP-N-acetylglucosamine 2-epimerase/N-acetylmannosamine kinase, functionally expressed in and purified from Escherichia coli, yeast, and insect cells.
+  JOURNAL   Protein Expr Purif 35:387-96 (2004)
+            DOI:10.1016/j.pep.2004.02.013
+REFERENCE   4  [PMID:15518580]
+  AUTHORS   Murkin AS, Chou WK, Wakarchuk WW, Tanner ME
+  TITLE     Identification and mechanism of a bacterial hydrolyzing UDP-N-acetylglucosamine 2-epimerase.
+  JOURNAL   Biochemistry 43:14290-8 (2004)
+            DOI:10.1021/bi048606d
+  SEQUENCE  [nme:NMB0070]
+PATHWAY     ec00520  Amino sugar and nucleotide sugar metabolism
+            ec00541  O-Antigen nucleotide sugar biosynthesis
+            ec01100  Metabolic pathways
+ORTHOLOGY   K08068  UDP-N-acetylglucosamine 2-epimerase (hydrolysing)
+            K12409  bifunctional UDP-N-acetylglucosamine 2-epimerase / N-acetylmannosamine kinase
+            K24257  UDP-N-acetylglucosamine 2-epimerase (hydrolysing)
+GENES       HSA: 10020(GNE)
+            PTR: 465094(GNE)
+            PPS: 100967642(GNE)
+            GGO: 101152306(GNE)
+            PON: 100171416(GNE)
+            NLE: 100589824(GNE)
+            HMH: 116475087(GNE)
+            MCC: 693525(GNE)
+            MCF: 102125411(GNE)
+            MTHB: 126938036
+            MNI: 105485767(GNE)
+            CSAB: 103219192(GNE)
+            CATY: 105598144(GNE)
+            PANU: 101010073(GNE)
+            TGE: 112608700(GNE)
+            MLEU: 105554223(GNE)
+            RRO: 104667504(GNE)
+            RBB: 108542566(GNE)
+            TFN: 117098986(GNE)
+            PTEH: 111536746(GNE)
+            CANG: 105509910(GNE)
+            CJC: 100414213(GNE)
+            SBQ: 101043530(GNE)
+            CIMI: 108314268(GNE)
+            CSYR: 103265267(GNE)
+            MMUR: 105874285(GNE)
+            LCAT: 123646130(GNE)
+            PCOQ: 105820118(GNE)
+            OGA: 100967144(GNE)
+            MMU: 50798(Gne)
+            MCAL: 110292565(Gne)
+            MPAH: 110338653(Gne)
+            RNO: 114711(Gne)
+            MCOC: 116095921(Gne)
+            ANU: 117708567(Gne)
+            MUN: 110553818(Gne)
+            CGE: 100689450(Gne)
+            MAUA: 101825421(Gne)
+            PLEU: 114710578(Gne)
+            MORG: 121458301(Gne)
+            MFOT: 126509927
+            AAMP: 119825908(Gne)
+            NGI: 103745730(Gne)
+            HGL: 101705910(Gne)
+            CPOC: 100731383(Gne)
+            CCAN: 109686839(Gne)
+            DORD: 105993415(Gne)
+            DSP: 122123822(Gne)
+            NCAR: 124964247
+            OCU: 100340455
+            OPI: 101516977(GNE)
+            TUP: 102487203(GNE)
+            GVR: 103594820(GNE)
+            CFA: 481607(GNE)
+            CLUD: 112649779(GNE)
+            VVP: 112930761(GNE)
+            VLG: 121495297(GNE)
+            AML: 100481169(GNE)
+            UMR: 103678471(GNE)
+            UAH: 113260452(GNE)
+            UAR: 123781045(GNE)
+            ELK: 111145613
+            LLV: 125083210
+            MPUF: 101692212(GNE)
+            NVS: 122917463(GNE)
+            ORO: 101365550(GNE)
+            EJU: 114213520(GNE)
+            ZCA: 113934382(GNE)
+            MLX: 118017947(GNE)
+            NSU: 110581892(GNE)
+            LWW: 102741133(GNE)
+            FCA: 101098411(GNE)
+            PYU: 121034667(GNE)
+            PBG: 122474871(GNE)
+            LRUF: 124501832
+            PTG: 102970000(GNE)
+            PPAD: 109270143(GNE)
+            AJU: 106981290(GNE)
+            HHV: 120233505(GNE)
+            BTA: 782201(GNE)
+            BOM: 102283832(GNE)
+            BIU: 109563033(GNE)
+            BBUB: 102389724(GNE)
+            BBIS: 104992987(GNE)
+            CHX: 102185360(GNE)
+            OAS: 101110735(GNE)
+            ODA: 120882680(GNE)
+            CCAD: 122453287(GNE)
+            SSC: 641344(GNE)
+            CFR: 102519815(GNE)
+            CBAI: 105067351(GNE)
+            CDK: 105102271(GNE)
+            VPC: 102537717(GNE)
+            BACU: 103005913(GNE)
+            LVE: 103091290(GNE)
+            OOR: 101276513(GNE)
+            DLE: 111188102(GNE)
+            PCAD: 102992566(GNE)
+            PSIU: 116755092(GNE)
+            ECB: 100067216(GNE)
+            EPZ: 103564407(GNE)
+            EAI: 106826848(GNE)
+            MYB: 102260594(GNE)
+            MYD: 102758800(GNE)
+            MMYO: 118667317(GNE)
+            MLF: 102419867(GNE)
+            MNA: 107544913(GNE)
+            PKL: 118716325(GNE)
+            HAI: 109393773(GNE)
+            DRO: 112304599(GNE)
+            SHON: 118979592(GNE)
+            AJM: 119048758(GNE)
+            PDIC: 114494365(GNE)
+            PHAS: 123819964(GNE)
+            MMF: 118629733(GNE)
+            RFQ: 117032175(GNE)
+            PALE: 102889987(GNE)
+            PGIG: 120598059(GNE)
+            PVP: 105296274(GNE)
+            RAY: 107502823(GNE)
+            MJV: 108404984(GNE)
+            TOD: 119232808(GNE)
+            SARA: 101538698
+            LAV: 100654579(GNE)
+            TMU: 101346980
+            ETF: 101662590(GNE)
+            DNM: 101419183(GNE)
+            MDO: 100017383(GNE)
+            GAS: 123234985(GNE)
+            SHR: 100922969(GNE)
+            AFZ: 127561033
+            PCW: 110220552(GNE)
+            OAA: 100075502(GNE)
+            GGA: 427285(GNE)
+            PCOC: 116240072(GNE)
+            MGP: 100541275(GNE)
+            CJO: 107306391(GNE)
+            NMEL: 110389421(GNE)
+            APLA: 101793177(GNE)
+            ACYG: 106046482(GNE)
+            AFUL: 116501011(GNE)
+            TGU: 100226686(GNE)
+            LSR: 110472305(GNE)
+            SCAN: 103821219(GNE)
+            PMOA: 120509491(GNE)
+            OTC: 121334700(GNE)
+            PRUF: 121355735(GNE)
+            GFR: 102037239(GNE)
+            FAB: 101817440(GNE)
+            PHI: 102107864(GNE)
+            PMAJ: 107216215(GNE)
+            CCAE: 111940925(GNE)
+            CCW: 104689767(GNE)
+            CBRC: 103616383(GNE)
+            ETL: 114056940(GNE)
+            ZAB: 102065100(GNE)
+            ACHL: 103811099(GNE)
+            FPG: 101922061(GNE)
+            FCH: 102054128(GNE)
+            CLV: 102088553(GNE)
+            EGZ: 104122509(GNE)
+            NNI: 104014062(GNE)
+            PLET: 104620096(GNE)
+            PCRI: 104024025(GNE)
+            PCAO: 104043851
+            ACUN: 113489984(GNE)
+            TALA: 104355506(GNE)
+            PADL: 103923237(GNE)
+            AFOR: 103896116(GNE)
+            ACHC: 115337028(GNE)
+            HALD: 104311348(GNE)
+            HLE: 104830509(GNE)
+            AGEN: 126036480
+            GCL: 127027492
+            CCRI: 104158365(GNE)
+            CSTI: 104564143(GNE)
+            EHS: 104506085(GNE)
+            CMAC: 104476212
+            MUI: 104541040(GNE)
+            FGA: 104084273(GNE)
+            GSTE: 104264212(GNE)
+            LDI: 104347190(GNE)
+            MNB: 103771013(GNE)
+            OHA: 104331293(GNE)
+            NNT: 104413666(GNE)
+            DPUB: 104304860(GNE)
+            PGUU: 104457592(GNE)
+            ACAR: 104525696(GNE)
+            CPEA: 104388680(GNE)
+            AVIT: 104278137(GNE)
+            CVF: 104295332(GNE)
+            CUCA: 104059926(GNE)
+            TEO: 104375644(GNE)
+            BRHI: 104491253
+            AAM: 106487477(GNE)
+            AROW: 112968982(GNE)
+            NPD: 112946271(GNE)
+            TGT: 104577696(GNE)
+            DNE: 112982745(GNE)
+            SCAM: 104151901(GNE)
+            ASN: 102386832(GNE)
+            AMJ: 102560703(GNE)
+            CPOO: 109323548(GNE)
+            PSS: 102453785(GNE)
+            CMY: 102934295(GNE)
+            CPIC: 101938688(GNE)
+            TST: 117878843(GNE)
+            CABI: 116832499(GNE)
+            MRV: 120408152(GNE)
+            ACS: 100554566(gne)
+            PVT: 110070094 110077833(GNE)
+            SUND: 121922067(GNE)
+            PBI: 103050956(GNE)
+            PMUR: 107293128(GNE)
+            CTIG: 120308565(GNE)
+            TSR: 106556779(GNE)
+            PGUT: 117661672(GNE)
+            VKO: 123030193(GNE)
+            PMUA: 114587739(GNE)
+            ZVI: 118097722(GNE)
+            GJA: 107122993(GNE)
+            STOW: 125436394(GNE)
+            XLA: 108703722(gne.S) 108713394(gne.L)
+            XTR: 780185(gne)
+            NPR: 108783774(GNE)
+            RTEM: 120946964(GNE)
+            BBUF: 120989336(GNE)
+            BGAR: 122931704(GNE)
+            DRE: 393857(gne)
+            SRX: 107723184 107758846
+            SANH: 107665959 107692604
+            SGH: 107557951 107576137
+            CCAR: 109090612(gne)
+            CAUA: 113044323 113105655
+            CGIB: 127949382 127975837
+            PPRM: 120478304(gne)
+            MAMB: 125272476(gne)
+            CIDE: 127510702
+            MASI: 127443665 127445270
+            IPU: 108260684(gne)
+            PHYP: 113525058(gne)
+            SMEO: 124381239(gne)
+            TFD: 113635349(gne)
+            AMEX: 103023045(gne)
+            EEE: 113568449(gne)
+            TRU: 778010(gne)
+            TNG: GSTEN00033530G001
+            LCO: 109138649(gne)
+            CGOB: 115010192(gne)
+            ELY: 117255161(gne)
+            EFO: 125885912(gne)
+            PLEP: 121941973(gne)
+            SLUC: 116042885(gne)
+            ECRA: 117958336(gne)
+            ESP: 116698211(gne)
+            PFLV: 114572183(gne)
+            GAT: 120825172(gne)
+            PPUG: 119217580(gne)
+            MSAM: 119899371(gne)
+            CUD: 121508197(gne) 121508704
+            ALAT: 119017552(gne)
+            MZE: 101481972(gne)
+            ONL: 100694518(gne)
+            OAU: 116313305(gne)
+            OLA: 101166451(gne)
+            OML: 112137366(gne)
+            XMA: 102234197(gne)
+            XCO: 114144860(gne)
+            XHE: 116720160(gne)
+            PRET: 103468187(gne)
+            PFOR: 103148745(gne)
+            PLAI: 106959210(gne)
+            PMEI: 106905473(gne)
+            GAF: 122829778(gne)
+            CVG: 107083439(gne)
+            CTUL: 119787121(gne)
+            GMU: 124868010(gne)
+            NFU: 107390962(gne)
+            KMR: 108241497(gne)
+            ALIM: 106528332(gne)
+            NWH: 119422385(gne)
+            AOCE: 111575015(gne)
+            MCEP: 125004295(gne)
+            CSEM: 103384128(gne)
+            POV: 109627674(gne)
+            SSEN: 122760387 122771022(gne)
+            HHIP: 117769603(gne)
+            HSP: 118117219(gne)
+            LCF: 108885364
+            SDU: 111229391(gne)
+            SLAL: 111659712(gne)
+            XGL: 120800274(gne)
+            HCQ: 109519805(gne)
+            SSCV: 125969193
+            BPEC: 110166180(gne)
+            MALB: 109970705(gne)
+            BSPL: 114852873(gne)
+            SASA: 106602595 106609886
+            STRU: 115191847 115202183
+            OTW: 112231842 112245000
+            OMY: 110498664 110534456(gne)
+            OGO: 124001482 124012377(gne)
+            ONE: 115137365
+            SALP: 111971595 112068287
+            SNH: 120034994(gne) 120052903
+            CCLU: 121535759(gne)
+            ELS: 105022904(gne)
+            SFM: 108938829(gne)
+            PKI: 111835493(gne)
+            AANG: 118227328(gne) 118231256
+            LOC: 102687010(gne)
+            PSPA: 121319312(gne)
+            ARUT: 117408557 117421398
+            PSEX: 120532354(gne)
+            LCM: 102354276(GNE)
+            CMK: 103177634(gne)
+            RTP: 109919025(gne)
+            BFO: 118413467 118416361
+            BBEL: 109474908 109478571
+            SPU: 590539
+            APLC: 110979892
+            AJC: 117102611
+            SKO: 100367992
+            MIS: MICPUN_64942
+            ECOO: ECRM13514_2760(nnaA)
+            ECOH: ECRM13516_2628(nnaA)
+            ESL: O3K_09240
+            ESO: O3O_16380
+            ESM: O3M_09205
+            ECK: EC55989_2293
+            ECV: APECO1_3473(neuC)
+            ECM: EcSMS35_3230(neuC)
+            ECT: ECIAI39_3441(neuC)
+            EOC: CE10_3479(neuC)
+            ECI: UTI89_C3370(neuC)
+            EIH: ECOK1_3367(neuC)
+            ECZ: ECS88_3328(neuC)
+            ELU: UM146_01630
+            ECOI: ECOPMV1_03250(neuC)
+            SBZ: A464_2220
+            SBV: N643_09305
+            PTT: VY86_07620
+            EIC: NT01EI_1318
+            ETR: ETAE_1209(neuC)
+            ETD: ETAF_1124
+            ETE: ETEE_3153(wecB)
+            ETC: ETAC_05755
+            EDW: QY76_14230
+            EDL: AAZ33_06225(neuC)
+            EHO: A9798_10685
+            LRI: NCTC12151_01028(neuC)
+            HPR: PARA_02830(nnaA)
+            MHT: D648_18120(neuC)
+            MHQ: D650_8040(neuC)
+            MHAT: B824_18200(neuC)
+            MHX: MHH_c26650(nnaA)
+            MHAE: F382_04080
+            MHAM: J450_03110
+            MHAO: J451_04320
+            MHAL: N220_10180
+            MHAQ: WC39_04025
+            MHAY: VK67_04025
+            MVR: X781_6010
+            MVI: X808_15550
+            MVG: X874_14490
+            MVE: X875_5530
+            MGRA: A4G16_01270
+            MBOS: ICJ55_05345(neuC)
+            ASI: ASU2_01195 ASU2_10555
+            ASS: ASU1_01200
+            AEU: ACEE_01055
+            ADP: NCTC12871_01318(neuC)
+            APAG: EIA51_04600(neuC)
+            RPNE: NCTC8284_01160(neuC_1)
+            RHEY: FEE42_11170(neuC)
+            VOW: A9237_07150
+            VNL: D3H41_01130(neuC)
+            VCRA: IS519_09530(neuC)
+            VSA: VSAL_I3013(neuC)
+            PGB: H744_2c2920
+            MBOI: DQF64_00680(neuC)
+            SBK: SHEWBE_0695(siaA)
+            ILO: IL0520(siaA)
+            ILI: K734_02605
+            FES: HER31_10790(neuC)
+            MVS: MVIS_3781
+            CEG: D0C16_04760(neuC)
+            NME: NMB0070(synX)
+            NMP: NMBB_0074
+            NMH: NMBH4476_0070
+            NMD: NMBG2136_0073
+            NMM: NMBM01240149_0069
+            NMS: NMBM01240355_0072
+            NMQ: NMBM04240196_0080(siaA)
+            NMZ: NMBNZ0533_0076(siaA)
+            NMC: NMC0054(sacA)
+            NMN: NMCC_0078(synX)
+            NMT: NMV_0071(siaA)
+            NWE: SAMEA3174300_1368(synX)
+            NBL: GJV52_06955(neuC)
+            SMUR: BWP33_01875
+            RPJ: N234_26955
+            BPSI: IX83_06865
+            HYR: BSY239_2564(neuC)
+            HHQ: HPSH169_04330
+            HHR: HPSH417_04100
+            HPT: HPSAT_02530
+            HEP: HPPN120_04180
+            HEU: HPPN135_04160
+            HPYK: HPAKL86_02820
+            HAC: Hac_1270(neuC)
+            HFE: HFELIS_02730
+            HBI: HBZC1_02540
+            HCE: HCW_07300
+            HCM: HCD_01690
+            HBL: XJ32_01825
+            HET: BBW65_04555
+            HCL: NCTC13205_00837(neuC)
+            SULG: FJR48_00815(neuC)
+            CJE: Cj1142(neuC1)
+            CJB: BN148_1142(neuC1)
+            CJJ: CJJ81176_1159
+            CJU: C8J_1338
+            CJI: CJSA_1084(neuC1)
+            CJP: A911_05535
+            CJEJ: N564_01108
+            CJEU: N565_01151
+            CJEN: N755_01146
+            CJEI: N135_01179
+            CJY: QZ67_01220(siaA)
+            CJL: PJ17_05845
+            CJW: PJ18_05660
+            CJZ: M635_01410
+            CCOL: BN865_09880c
+            CCY: YSS_06170 YSS_07640
+            CIS: CINS_1204(neuC)
+            CSM: CSUB8521_1426(neuC)
+            CAVI: CAV_0274(neuC)
+            CHW: A2J15_001220(neuC)
+            CUX: CUP3940_0881(neuC)
+            CBLA: CBLAS_1485(neuC)
+            CMUC: CMCT_1131(neuC)
+            CNV: CNZW441b_1142(neuC)
+            CVU: CVULP_0716(neuC)
+            SBA: Sulba_1895
+            ABL: A7H1H_1747
+            ALK: ALEK_0979
+            GSUB: KP001_18460(neuC)
+            GPL: M1B72_01990(neuC)
+            DVM: DvMF_1846
+            DDE: Dde_3255
+            DHY: DESAM_21180
+            PSYF: N1030_14910(neuC)
+            DSF: UWK_03119
+            DBK: DGMP_13670(neuC)
+            SMER: DU99_30360
+            SIX: BSY16_2626(neuC)
+            SAME: SAMCFNEI73_pC1684
+            PPHR: APZ00_22690
+            OTM: OSB_23420(siaA)
+            OCT: FTO60_12830(neuC)
+            RCP: RCAP_rcc02964(webC)
+            RBL: B6K69_05250
+            PTP: RCA23_c08960(wecB)
+            DON: BSK21_04545
+            RBZ: B9057_08950
+            LVS: LOKVESSMR4R_00716(siaA)
+            TAW: EI545_04040(neuC)
+            HML: HmaOT1_13645(neuC)
+            PSEB: EOK75_02950(neuC)
+            PAMO: BAR1_13860(neuC)
+            ECOG: FIV45_02380(neuC)
+            OCN: CUC15_16535(neuC)
+            LPAK: GDS87_03425(neuC)
+            BVJ: I5776_04790(neuC)
+            SIV: SSIL_3275
+            SAG: SAG1160(neuC)
+            SAN: neuC
+            SAK: SAK_1249(neuC)
+            SGC: A964_1133(wecB)
+            SAGS: SaSA20_0982(neuC)
+            SAGL: GBS222_0992(neuC)
+            SAGM: BSA_12380
+            SAGI: MSA_12800
+            SAGR: SAIL_12800
+            SAGP: V193_05420
+            SAGC: DN94_05420
+            SAGT: GBSCOH1_1066
+            SAGE: EN72_06450
+            SAGG: EN73_05985
+            SAGN: W903_1243(neuC)
+            SAGJ: ID870_03560(neuC)
+            SSB: SSUBM407_1279(neuC)
+            SSU: SSU05_0579
+            SSV: SSU98_0583
+            SSI: SSU0536(neuC)
+            SSS: SSUSC84_0518(neuC)
+            SSF: SSUA7_0539
+            SSW: SSGZ1_0572
+            SUP: YYK_02540
+            SSUS: NJAUSS_0544
+            SUI: SSUJS14_0543
+            SUO: SSU12_0540
+            SRP: SSUST1_1226
+            SSUT: TL13_1187(neuC)
+            SSUI: T15_1400(wecB)
+            SRQ: SR187_6420
+            AUH: AWM75_07810
+            HHW: NCTC503_01054(neuC)
+            RGN: RGna_11995(neuC)
+            SINT: K5I26_06375(neuC)
+            PSOR: RSJ16_13960
+            COB: COB47_0922
+            TUR: AT726_03455
+            NPC: KUV85_15590(neuC)
+            GOB: Gobs_4333
+            PSUF: A1sIA56_00120
+            AYM: YM304_30300(neuC)
+            SYNW: SynWH8103_00492(neuC)
+            PME: NATL1_08731
+            FNT: HMPREF0405_00113
+            FVA: FV113G1_31680
+            PBY: L6471_06310(neuC)
+            AIT: AI2BBH_P060(neuC)
+            ASX: CDL62_03675(neuC)
+            ALM: AO498_13970
+            FPS: FP1255(neuC)
+            FPC: FPSM_02166
+            FPY: FPG101_10855
+            FPO: FPG3_03205
+            FPQ: IB65_05910
+            FPV: IA03_06015
+            FPW: IA04_05920
+            FPK: IA06_05955
+            FJO: Fjoh_0304
+            FKI: FK004_09135
+            FSN: GS03_01395(siaA)
+            FFL: HYN86_01535(neuC)
+            FSD: LXD69_00560(neuC)
+            FCB: LOS89_02805(neuC)
+            FPB: NLJ00_01820(neuC)
+            FBI: L0669_01555(neuC)
+            LAN: Lacal_0113
+            LACI: CW733_07990(neuC)
+            POLA: BXQ17_03860
+            POA: CW731_03485(neuC)
+            PPEC: H9W90_03850(neuC)
+            PUN: NQP51_04910(neuC)
+            WIN: WPG_0169
+            WIJ: BWZ20_04180
+            AHZ: APS56_05275
+            TEN: LPB136_04680
+            SMIS: LDL76_01755(neuC)
+            OAQ: DZC78_14810(neuC)
+            FEK: C1H87_05355(neuC)
+            MARF: CJ739_164
+            PSYN: E9099_01275(neuC)
+            LPAL: LDL79_03605(neuC)
+            PROC: Ptc2401_00367(siaA)
+            TAH: SU86_007045
+DBLINKS     ExplorEnz - The Enzyme Database: 3.2.1.183
+            IUBMB Enzyme Nomenclature: 3.2.1.183
+            ExPASy - ENZYME nomenclature database: 3.2.1.183
+            BRENDA, the Enzyme Database: 3.2.1.183
+///

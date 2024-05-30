@@ -1,0 +1,392 @@
+ENTRY       EC 1.14.15.16               Enzyme
+NAME        vitamin D3 24-hydroxylase;
+            CYP24A1
+CLASS       Oxidoreductases;
+            Acting on paired donors, with incorporation or reduction of molecular oxygen;
+            With reduced iron-sulfur protein as one donor, and incorporation of one atom of oxygen into the other donor
+SYSNAME     calcitriol,adrenodoxin:oxygen oxidoreductase (24-hydroxylating)
+REACTION    (1) calcitriol + 2 reduced adrenodoxin + 2 H+ + O2 = calcitetrol + 2 oxidized adrenodoxin + H2O [RN:R09515];
+            (2) calcidiol + 2 reduced adrenodoxin + 2 H+ + O2 = secalciferol + 2 oxidized adrenodoxin + H2O [RN:R09516]
+ALL_REAC    R09515 R09516
+SUBSTRATE   calcitriol [CPD:C01673];
+            reduced adrenodoxin [CPD:C00662];
+            H+ [CPD:C00080];
+            O2 [CPD:C00007];
+            calcidiol [CPD:C01561]
+PRODUCT     calcitetrol [CPD:C18231];
+            oxidized adrenodoxin [CPD:C00667];
+            H2O [CPD:C00001];
+            secalciferol [CPD:C07712]
+COMMENT     This mitochondrial cytochrome P-450 enzyme requires adrenodoxin. The enzyme can perform up to 6 rounds of hydroxylation of the substrate calcitriol leading to calcitroic acid. The human enzyme also shows 23-hydroxylating activity leading to 1,25 dihydroxyvitamin D3-26,23-lactone as end product while the mouse and rat enzymes do not. The initial source of the electrons is NADPH, which transfers the electrons to the adrenodoxin via EC 1.18.1.6, adrenodoxin-NADP+ reductase.
+HISTORY     EC 1.14.15.16 created 2011 as EC 1.14.13.126, transferred 2016 to EC 1.14.15.16
+REFERENCE   1  [PMID:16516540]
+  AUTHORS   Masuda S, Strugnell SA, Knutson JC, St-Arnaud R, Jones G
+  TITLE     Evidence for the activation of 1alpha-hydroxyvitamin D2 by 25-hydroxyvitamin D-24-hydroxylase: delineation of pathways involving 1alpha,24-dihydroxyvitamin D2 and 1alpha,25-dihydroxyvitamin D2.
+  JOURNAL   Biochim Biophys Acta 1761:221-34 (2006)
+            DOI:10.1016/j.bbalip.2006.01.004
+REFERENCE   2  [PMID:16617161]
+  AUTHORS   Hamamoto H, Kusudo T, Urushino N, Masuno H, Yamamoto K, Yamada S, Kamakura M, Ohta M, Inouye K, Sakaki T
+  TITLE     Structure-function analysis of vitamin D 24-hydroxylase (CYP24A1) by site-directed mutagenesis: amino acid residues responsible for species-based difference of CYP24A1 between humans and rats.
+  JOURNAL   Mol Pharmacol 70:120-8 (2006)
+            DOI:10.1124/mol.106.023275
+  SEQUENCE  [rno:25279]
+REFERENCE   3  [PMID:15574355]
+  AUTHORS   Sakaki T, Kagawa N, Yamamoto K, Inouye K
+  TITLE     Metabolism of vitamin D3 by cytochromes P450.
+  JOURNAL   Front Biosci 10:119-34 (2005)
+            DOI:10.2741/1514
+  SEQUENCE  [hsa:1591]
+REFERENCE   4  [PMID:17646648]
+  AUTHORS   Prosser DE, Kaufmann M, O'Leary B, Byford V, Jones G
+  TITLE     Single A326G mutation converts human CYP24A1 from 25-OH-D3-24-hydroxylase into -23-hydroxylase, generating 1alpha,25-(OH)2D3-26,23-lactone.
+  JOURNAL   Proc Natl Acad Sci U S A 104:12673-8 (2007)
+            DOI:10.1073/pnas.0702093104
+REFERENCE   5  [PMID:15358094]
+  AUTHORS   Kusudo T, Sakaki T, Abe D, Fujishima T, Kittaka A, Takayama H, Hatakeyama S, Ohta M, Inouye K
+  TITLE     Metabolism of A-ring diastereomers of 1alpha,25-dihydroxyvitamin D3 by CYP24A1.
+  JOURNAL   Biochem Biophys Res Commun 321:774-82 (2004)
+            DOI:10.1016/j.bbrc.2004.07.040
+REFERENCE   6  [PMID:15078099]
+  AUTHORS   Sawada N, Kusudo T, Sakaki T, Hatakeyama S, Hanada M, Abe D, Kamao M, Okano T, Ohta M, Inouye K
+  TITLE     Novel metabolism of 1 alpha,25-dihydroxyvitamin D3 with C24-C25 bond cleavage catalyzed by human CYP24A1.
+  JOURNAL   Biochemistry 43:4530-7 (2004)
+            DOI:10.1021/bi030207f
+REFERENCE   7  [PMID:15544953]
+  AUTHORS   Prosser DE, Jones G
+  TITLE     Enzymes involved in the activation and inactivation of vitamin D.
+  JOURNAL   Trends Biochem Sci 29:664-73 (2004)
+            DOI:10.1016/j.tibs.2004.10.005
+PATHWAY     ec00100  Steroid biosynthesis
+            ec01100  Metabolic pathways
+ORTHOLOGY   K07436  vitamin D3 24-hydroxylase
+GENES       HSA: 1591(CYP24A1)
+            PTR: 746729(CYP24A1)
+            PPS: 100971976(CYP24A1)
+            GGO: 101142284
+            PON: 100457433
+            NLE: 100603459
+            HMH: 116461006
+            MCC: 698937
+            MCF: 102117231(CYP24A1)
+            MTHB: 126929847
+            MNI: 105470644
+            CSAB: 103243965(CYP24A1)
+            CATY: 105585362
+            PANU: 100997369
+            TGE: 112632353
+            MLEU: 105538302
+            RRO: 104662355
+            RBB: 108521781
+            TFN: 117068948
+            PTEH: 111521023
+            CANG: 105507983
+            CJC: 100393283
+            SBQ: 101054511
+            CIMI: 108281352(CYP24A1)
+            CSYR: 103265086
+            MMUR: 105864362 105869419
+            LCAT: 123622312
+            PCOQ: 105811599
+            OGA: 100948814
+            MMU: 13081(Cyp24a1)
+            MCAL: 110289544
+            MPAH: 110318266
+            RNO: 25279(Cyp24a1)
+            MCOC: 116091462
+            ANU: 117703542
+            MUN: 110545262
+            CGE: 100751280
+            MAUA: 101827330
+            PLEU: 114704035
+            MORG: 121440893
+            MFOT: 126508008
+            AAMP: 119815492
+            NGI: 103735781
+            HGL: 101716773
+            CPOC: 100728021
+            CCAN: 109694681
+            DORD: 105991653
+            DSP: 122124591
+            NCAR: 124978047
+            OCU: 100347441
+            OPI: 101526808
+            TUP: 102471055
+            GVR: 103588022
+            CFA: 485935(CYP24A1)
+            CLUD: 112674140
+            VVP: 112931920
+            VLG: 121477768
+            AML: 100479790
+            UMR: 103669826
+            UAH: 113258741
+            UAR: 123799375
+            ELK: 111141789
+            LLV: 125109083
+            MPUF: 101678691
+            NVS: 122915540
+            ORO: 101384402
+            EJU: 114225492
+            ZCA: 113938600
+            MLX: 118024098
+            NSU: 110569858
+            LWW: 102751252
+            FCA: 101096141
+            PYU: 121019910
+            PBG: 122467253
+            LRUF: 124504391
+            PTG: 102967619
+            PPAD: 109272242
+            AJU: 106970319
+            HHV: 120230459
+            BTA: 540080(CYP24A1)
+            BOM: 102272075
+            BIU: 109567562
+            BBUB: 102396198
+            BBIS: 104988843
+            CHX: 102178921
+            OAS: 100170323(CYP24)
+            ODA: 120869048
+            CCAD: 122448475
+            SSC: 397145(CYP24A1)
+            CFR: 102516204
+            CBAI: 105071834
+            CDK: 105098859
+            VPC: 102531787
+            BACU: 103015403
+            LVE: 103082411
+            OOR: 101271151
+            DLE: 111186695
+            PCAD: 102977275
+            PSIU: 116740225
+            ECB: 100053452(CYP24A1)
+            EPZ: 103554239
+            EAI: 106825434
+            MYB: 102249295
+            MYD: 102772049
+            MMYO: 118663454
+            MLF: 102432347
+            MNA: 107536509
+            PKL: 118708044
+            HAI: 109381840
+            DRO: 112304205
+            SHON: 118996516
+            AJM: 119040651
+            PDIC: 114506963
+            PHAS: 123815183
+            MMF: 118619039
+            RFQ: 117015976
+            PALE: 102878689
+            PGIG: 120603843
+            PVP: 105296033
+            RAY: 107498143
+            MJV: 108390269
+            TOD: 119254587
+            SARA: 101543781
+            LAV: 100663262
+            TMU: 101353460
+            ETF: 101646845
+            DNM: 101442213
+            MDO: 100028177
+            GAS: 123233554
+            SHR: 100916072
+            AFZ: 127548933
+            PCW: 110206681
+            OAA: 100078505
+            GGA: 395827(CYP24A1)
+            PCOC: 116227703
+            MGP: 100541378
+            CJO: 107323241
+            NMEL: 110408247
+            APLA: 101797037
+            ACYG: 106041795
+            AFUL: 116495811
+            TGU: 100226727
+            LSR: 110472394
+            SCAN: 103818886
+            PMOA: 120507065
+            OTC: 121342986
+            PRUF: 121359459
+            GFR: 102044237
+            FAB: 101813067
+            PHI: 102111029
+            PMAJ: 107213207
+            CCAE: 111938004
+            CCW: 104687601
+            CBRC: 103616823
+            ETL: 114056255
+            ZAB: 102067744
+            ACHL: 103801335
+            FPG: 101919538
+            FCH: 102046853
+            CLV: 102098516
+            EGZ: 104132191
+            NNI: 104013059
+            PLET: 104624707
+            PCRI: 104024392
+            PCAO: 104039545
+            ACUN: 113487633
+            TALA: 104355745
+            PADL: 103919278
+            AFOR: 103894637
+            ACHC: 115339853
+            HALD: 104317033
+            HLE: 104833207
+            AGEN: 126045322
+            GCL: 127023359
+            CCRI: 104163872
+            CSTI: 104559611
+            EHS: 104503318
+            CMAC: 104483098
+            MUI: 104537354
+            FGA: 104069789
+            GSTE: 104258977
+            LDI: 104340282
+            MNB: 103775032
+            OHA: 104328853
+            NNT: 104412533
+            DPUB: 104302691
+            PGUU: 104464606
+            ACAR: 104526380
+            CPEA: 104389628
+            AVIT: 104274781
+            CVF: 104293941
+            CUCA: 104057394
+            TEO: 104375190
+            BRHI: 104499916
+            AAM: 106491745
+            AROW: 112960579
+            NPD: 112949674
+            TGT: 104576182
+            DNE: 112982887
+            SCAM: 104150031
+            ASN: 102382614
+            AMJ: 102574966(CYP24A1)
+            CPOO: 109318764
+            GGN: 109292377
+            PSS: 102458142
+            CMY: 102932138
+            CPIC: 101938071
+            TST: 117886274
+            CABI: 116821477
+            MRV: 120379784
+            ACS: 100555767 100564552
+            PVT: 110071817
+            SUND: 121927742
+            PBI: 103065707
+            PMUR: 107287085
+            CTIG: 120308207
+            TSR: 106547483
+            PGUT: 117674844
+            VKO: 123036291
+            PMUA: 114599654
+            ZVI: 118089322
+            GJA: 107119104
+            STOW: 125432416
+            XLA: 108700906(cyp24a1.L) 108718538
+            XTR: 100496967 100497429(cyp24a1)
+            NPR: 108784249 108790437
+            RTEM: 120940805
+            BBUF: 121001334
+            BGAR: 122939129
+            DRE: 100004700(cyp24a1)
+            SRX: 107744352
+            SANH: 107666154 107696435
+            SGH: 107560513 107587600
+            CCAR: 109057669
+            CAUA: 113050135 113078343 113104946 113105072
+            CGIB: 127959124 128016032
+            PPRM: 120493676
+            MAMB: 125273354
+            CIDE: 127514698
+            MASI: 127446014 127449569
+            IPU: 108271496
+            PHYP: 113532087
+            SMEO: 124388872
+            TFD: 113642663
+            AMEX: 103030576
+            EEE: 113571660
+            TRU: 101077963
+            TNG: GSTEN00033861G001
+            LCO: 104935382
+            NCC: 104966082
+            CGOB: 115008593
+            ELY: 117257164
+            EFO: 125895063
+            PLEP: 121959102
+            SLUC: 116051531
+            ECRA: 117943678
+            ESP: 116687595
+            PFLV: 114554700
+            GAT: 120835793
+            PPUG: 119194098
+            MSAM: 119885885
+            CUD: 121507546
+            ALAT: 119020664
+            MZE: 101475325
+            ONL: 100690876
+            OAU: 116319460
+            OLA: 101165632
+            OML: 112145619
+            XMA: 102225814
+            XCO: 114135962
+            XHE: 116711044
+            PRET: 103464673
+            PFOR: 103134567
+            PLAI: 106960246
+            PMEI: 106929021
+            GAF: 122833415
+            CVG: 107097105
+            CTUL: 119788661
+            GMU: 124856320
+            NFU: 107385407
+            KMR: 108231477
+            ALIM: 106533681
+            NWH: 119411875
+            AOCE: 111579624
+            MCEP: 125006146
+            CSEM: 103386736
+            POV: 109635373
+            SSEN: 122767772
+            HHIP: 117761120
+            HSP: 118103196
+            LCF: 108873562
+            SDU: 111233601
+            SLAL: 111660685
+            XGL: 120783454
+            HCQ: 109507475
+            SSCV: 125977385
+            BPEC: 110171174
+            MALB: 109951265
+            BSPL: 114856188
+            SASA: 106565076(CP24A) 106583685
+            STRU: 115150083 115208378
+            OTW: 112255537 112267058
+            OMY: 100136661 110493887
+            OGO: 124002353 124018524
+            ONE: 115125232 115142853
+            SALP: 111961723 111970527
+            SNH: 120064455 120065468
+            CCLU: 121575591 121577964
+            ELS: 105016677
+            SFM: 108936451
+            PKI: 111835893
+            AANG: 118210803
+            LOC: 102698913
+            PSPA: 121297804 121319232
+            ARUT: 117418538 117433450
+            PSEX: 120515040
+            LCM: 102364004
+            CMK: 103191047
+            RTP: 109910917
+            HAME: 121870079
+            RSAN: 119392951
+            RMP: 119172898
+            GAE: 121366250 121373112
+            HRF: 124134044 124135907 124143865
+            HRJ: 124282302 124283687 124289154
+            XEN: 124454605
+DBLINKS     ExplorEnz - The Enzyme Database: 1.14.15.16
+            IUBMB Enzyme Nomenclature: 1.14.15.16
+            ExPASy - ENZYME nomenclature database: 1.14.15.16
+            BRENDA, the Enzyme Database: 1.14.15.16
+///

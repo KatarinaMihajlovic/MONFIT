@@ -1,0 +1,572 @@
+ENTRY       EC 2.1.1.356                Enzyme
+NAME        [histone H3]-lysine27 N-trimethyltransferase;
+            KMT6A (gene name);
+            KMT6B (gene name);
+            EZH1 (gene name);
+            EZH2 (gene name)
+CLASS       Transferases;
+            Transferring one-carbon groups;
+            Methyltransferases
+SYSNAME     S-adenosyl-L-methionine:[histone H3]-L-lysine27 N6-trimethyltransferase
+REACTION    3 S-adenosyl-L-methionine + a [histone H3]-L-lysine27 = 3 S-adenosyl-L-homocysteine + a [histone H3]-N6,N6,N6-trimethyl-L-lysine27 (overall reaction);
+            (1a) S-adenosyl-L-methionine + a [histone H3]-L-lysine27 = S-adenosyl-L-homocysteine + a [histone H3]-N6-methyl-L-lysine27;
+            (1b) S-adenosyl-L-methionine + a [histone H3]-N6-methyl-L-lysine27 = S-adenosyl-L-homocysteine + a [histone H3]-N6,N6-dimethyl-L-lysine27;
+            (1c) S-adenosyl-L-methionine + a [histone H3]-N6,N6-dimethyl-L-lysine27 = S-adenosyl-L-homocysteine + a [histone H3]-N6,N6,N6-trimethyl-L-lysine27
+ALL_REAC    (other) R03875 R04866 R04867
+SUBSTRATE   S-adenosyl-L-methionine [CPD:C00019];
+            [histone H3]-L-lysine27;
+            [histone H3]-N6-methyl-L-lysine27;
+            [histone H3]-N6,N6-dimethyl-L-lysine27
+PRODUCT     S-adenosyl-L-homocysteine [CPD:C00021];
+            [histone H3]-N6,N6,N6-trimethyl-L-lysine27;
+            [histone H3]-N6-methyl-L-lysine27;
+            [histone H3]-N6,N6-dimethyl-L-lysine27
+COMMENT     This entry describes enzymes that successively methylate the L-lysine27 residue of histone H3 (H3K27), ultimately generating a trimethylated form. These modifications influence the binding of chromatin-associated proteins. The methylation of lysine27 leads to transcriptional repression of the affected target genes. The enzyme associates with other proteins to form a complex that is essential for activity. The enzyme can also methylate some non-histone proteins. cf. EC 2.1.1.369, [histone H3]-lysine27 N-methyltransferase and EC 2.1.1.371, [histone H3]-lysine27 N-dimethyltransferase.
+HISTORY     EC 2.1.1.356 created 1976 as EC 2.1.1.43, modified 1982, modified 1983, part transferred 2019 to EC 2.1.1.356, modified 2020
+REFERENCE   1  [PMID:12351676]
+  AUTHORS   Cao R, Wang L, Wang H, Xia L, Erdjument-Bromage H, Tempst P, Jones RS, Zhang Y
+  TITLE     Role of histone H3 lysine 27 methylation in Polycomb-group silencing.
+  JOURNAL   Science 298:1039-43 (2002)
+            DOI:10.1126/science.1076997
+  SEQUENCE  [hsa:2146]
+REFERENCE   2  [PMID:12435631]
+  AUTHORS   Kuzmichev A, Nishioka K, Erdjument-Bromage H, Tempst P, Reinberg D
+  TITLE     Histone methyltransferase activity associated with a human multiprotein complex containing the Enhancer of Zeste protein.
+  JOURNAL   Genes Dev 16:2893-905 (2002)
+            DOI:10.1101/gad.1035902
+  SEQUENCE  [hsa:2146]
+REFERENCE   3  [PMID:15231737]
+  AUTHORS   Kirmizis A, Bartley SM, Kuzmichev A, Margueron R, Reinberg D, Green R, Farnham PJ
+  TITLE     Silencing of human polycomb target genes is associated with methylation of histone H3 Lys 27.
+  JOURNAL   Genes Dev 18:1592-605 (2004)
+            DOI:10.1101/gad.1200204
+  SEQUENCE  [hsa:2146]
+REFERENCE   4  [PMID:17200670]
+  AUTHORS   Schlesinger Y, Straussman R, Keshet I, Farkash S, Hecht M, Zimmerman J, Eden E, Yakhini Z, Ben-Shushan E, Reubinoff BE, Bergman Y, Simon I, Cedar H
+  TITLE     Polycomb-mediated methylation on Lys27 of histone H3 pre-marks genes for de novo  methylation in cancer.
+  JOURNAL   Nat Genet 39:232-6 (2007)
+            DOI:10.1038/ng1950
+  SEQUENCE  [hsa:2146]
+REFERENCE   5  [PMID:19026780]
+  AUTHORS   Shen X, Liu Y, Hsu YJ, Fujiwara Y, Kim J, Mao X, Yuan GC, Orkin SH
+  TITLE     EZH1 mediates methylation on histone H3 lysine 27 and complements EZH2 in maintaining stem cell identity and executing pluripotency.
+  JOURNAL   Mol Cell 32:491-502 (2008)
+            DOI:10.1016/j.molcel.2008.10.016
+  SEQUENCE  [mmu:14055 14056]
+REFERENCE   6  [PMID:21317239]
+  AUTHORS   Ezhkova E, Lien WH, Stokes N, Pasolli HA, Silva JM, Fuchs E
+  TITLE     EZH1 and EZH2 cogovern histone H3K27 trimethylation and are essential for hair follicle homeostasis and wound repair.
+  JOURNAL   Genes Dev 25:485-98 (2011)
+            DOI:10.1101/gad.2019811
+  SEQUENCE  [mmu:14055 14056]
+PATHWAY     ec00310  Lysine degradation
+            ec01100  Metabolic pathways
+ORTHOLOGY   K11430  [histone H3]-lysine27 N-trimethyltransferase EZH2
+            K17451  [histone H3]-lysine27 N-trimethyltransferase EZH1
+GENES       HSA: 2145(EZH1) 2146(EZH2)
+            PTR: 454697(EZH1) 745437(EZH2)
+            PPS: 100967877(EZH1) 100971244(EZH2)
+            GGO: 101126515(EZH1) 101147968(EZH2)
+            PON: 100171872(EZH1) 100447447(EZH2)
+            NLE: 100580962(EZH2) 100604860(EZH1)
+            HMH: 116474881(EZH1) 116814486(EZH2)
+            MCC: 709075(EZH2) 711173(EZH1)
+            MCF: 102130547(EZH1) 102146280(EZH2)
+            MTHB: 126938434 126951580
+            MNI: 105472105(EZH1) 105474849(EZH2)
+            CSAB: 103227182(EZH2) 103243395(EZH1)
+            CATY: 105579681(EZH1) 105584692(EZH2)
+            PANU: 101001043(EZH2) 101009052(EZH1)
+            TGE: 112609092(EZH1) 112620861(EZH2)
+            MLEU: 105546371(EZH2) 105552946(EZH1)
+            RRO: 104667012(EZH2) 104680126(EZH1)
+            RBB: 108522307(EZH2) 108526767(EZH1)
+            TFN: 117066944(EZH1) 117072340(EZH2)
+            PTEH: 111537351(EZH1) 111551469(EZH2)
+            CANG: 105502991(EZH1) 105511283(EZH2)
+            CJC: 100394758(EZH2) 100411881(EZH1)
+            SBQ: 101038203(EZH1) 101051611(EZH2)
+            CIMI: 108285619(EZH2) 108289813(EZH1)
+            CSYR: 103259718(EZH2) 103270693(EZH1)
+            MMUR: 105859397(EZH1) 105873325(EZH2)
+            LCAT: 123620971(EZH1) 123647560(EZH2)
+            PCOQ: 105820263(EZH1) 105824626(EZH2)
+            OGA: 100953538(EZH1) 100961114(EZH2)
+            MMU: 14055(Ezh1) 14056(Ezh2)
+            MCAL: 110295592(Ezh2) 110304611(Ezh1)
+            MPAH: 110315211(Ezh2) 110331872(Ezh1)
+            RNO: 303547(Ezh1) 312299(Ezh2)
+            MCOC: 116078739(Ezh1) 116098837(Ezh2)
+            ANU: 117710591(Ezh1) 117720944(Ezh2)
+            MUN: 110547503(Ezh2) 110550881(Ezh1)
+            CGE: 100758055(Ezh2) 100760595(Ezh1)
+            MAUA: 101824592(Ezh2) 101829787(Ezh1)
+            PLEU: 114682787(Ezh1) 114698004(Ezh2)
+            MORG: 121433641(Ezh2) 121442390(Ezh1)
+            MFOT: 126510201 126515091
+            AAMP: 119807752(Ezh2) 119811825(Ezh1)
+            NGI: 103731383(Ezh2) 103735912(Ezh1)
+            HGL: 101702710(Ezh2) 101723063(Ezh1)
+            CPOC: 100713765(Ezh2) 100720693(Ezh1)
+            CCAN: 109687337(Ezh1) 109695508(Ezh2)
+            DORD: 105989599(Ezh2) 106003218(Ezh1)
+            DSP: 122103240(Ezh1) 122105935(Ezh2)
+            NCAR: 124979151 124991619
+            OCU: 100345157 100351852
+            OPI: 101528017(EZH2) 101532815(EZH1)
+            TUP: 102485788(EZH1) 102495627(EZH2)
+            GVR: 103589846(EZH1) 103592394(EZH2)
+            CFA: 475511(EZH2) 480516(EZH1)
+            CLUD: 112650879(EZH2) 112655496(EZH1)
+            VVP: 112910738(EZH1) 112934818(EZH2)
+            VLG: 121473241(EZH1) 121489952(EZH2)
+            AML: 100466177(EZH2) 100472619(EZH1)
+            UMR: 103668955(EZH2) 103672584(EZH1)
+            UAH: 113241452(EZH2) 113265406(EZH1)
+            UAR: 123781811(EZH1) 123788819(EZH2)
+            ELK: 111151338 111154333
+            LLV: 125080977 125087359
+            MPUF: 101683241(EZH1) 101684407(EZH2)
+            NVS: 122905177(EZH2) 122906181(EZH1)
+            ORO: 101369941(EZH2) 101379551(EZH1)
+            EJU: 114201361(EZH1) 114211667(EZH2)
+            ZCA: 113911424(EZH2) 113939411(EZH1)
+            MLX: 118021219(EZH2) 118024929(EZH1)
+            NSU: 110573309(EZH1) 110582991(EZH2)
+            LWW: 102745380 102750824
+            FCA: 101087309(EZH2) 101099602(EZH1)
+            PYU: 121028154(EZH2) 121045039(EZH1)
+            PBG: 122485620(EZH1) 122488472(EZH2)
+            LRUF: 124522075 124524657
+            PTG: 102956220(EZH2) 102961028(EZH1)
+            PPAD: 109258535(EZH1) 109269218(EZH2)
+            AJU: 106972615(EZH1) 106981407(EZH2)
+            HHV: 120246406(EZH2) 120248460(EZH1)
+            BTA: 509106(EZH2) 533087(EZH1)
+            BOM: 102276653(EZH1) 102287858(EZH2)
+            BIU: 109557756(EZH2) 109573994(EZH1)
+            BBUB: 102405899(EZH2) 102407322(EZH1)
+            BBIS: 104990428(EZH1) 104991414(EZH2)
+            CHX: 102189343(EZH1) 102190101(EZH2)
+            OAS: 101104765(EZH1) 101120745(EZH2)
+            ODA: 120867077(EZH1) 120877871(EZH2)
+            CCAD: 122438829(EZH2) 122441439(EZH1)
+            SSC: 100518394(EZH1) 100625497(EZH2)
+            CFR: 102515793(EZH2) 102516907(EZH1)
+            CBAI: 105068876(EZH2) 105080100(EZH1)
+            CDK: 105085196(EZH2) 105090473(EZH1)
+            VPC: 102524655(EZH2) 102537185(EZH1)
+            BACU: 103011369(EZH2) 103015379 103020966
+            LVE: 103069623(EZH2) 103073364(EZH1)
+            OOR: 101280796(EZH2) 101285746(EZH1)
+            DLE: 111166246(EZH1) 111177205(EZH2)
+            PCAD: 102994010(EZH2) 102994197(EZH1)
+            PSIU: 116745673(EZH1) 116759057(EZH2)
+            ECB: 100051290(EZH2) 100052411(EZH1)
+            EPZ: 103550351(EZH1) 103553703(EZH2)
+            EAI: 106826432(EZH1) 106842131(EZH2)
+            MYB: 102246299(EZH2) 102259730(EZH1)
+            MYD: 102755313(EZH1) 102768989(EZH2)
+            MMYO: 118666288(EZH2) 118671482(EZH1)
+            MLF: 102417096(EZH1) 102418971(EZH2)
+            MNA: 107523768(EZH2) 107528927(EZH1)
+            PKL: 118714189(EZH2) 118726309(EZH1)
+            HAI: 109395452(EZH2) 109395755(EZH1)
+            DRO: 112298572(EZH1) 112308348(EZH2)
+            SHON: 118978195(EZH1) 118979486(EZH2)
+            AJM: 119051022(EZH2) 119051949(EZH1)
+            PDIC: 114502985(EZH1) 114507788(EZH2)
+            PHAS: 123815339(EZH2) 123817024(EZH1)
+            MMF: 118619754(EZH2) 118633783(EZH1)
+            RFQ: 117012939(EZH1) 117018256(EZH2)
+            PALE: 102879627(EZH1) 102886689(EZH2)
+            PGIG: 120601486(EZH2) 120611077(EZH1)
+            PVP: 105295713(EZH2) 105306277(EZH1)
+            RAY: 107500533(EZH2) 107513838(EZH1)
+            MJV: 108386069(EZH1) 108386657(EZH2)
+            TOD: 119230360(EZH1) 119248372(EZH2)
+            SARA: 101550762(EZH2) 101556796(EZH1)
+            LAV: 100664312(EZH2) 100673691(EZH1)
+            TMU: 101359039 101360468
+            ETF: 101647365(EZH2) 101658357(EZH1)
+            DNM: 101416064(EZH2) 101440065(EZH1)
+            MDO: 100010738(EZH1) 100013390(EZH2)
+            GAS: 123247838(EZH1) 123249372(EZH2)
+            SHR: 100926678(EZH2) 100932535(EZH1)
+            AFZ: 127560106 127564894
+            PCW: 110198374(EZH1) 110201666(EZH2)
+            OAA: 100073485(EZH2) 100082851(EZH1)
+            GGA: 420023(EZH1) 420784(EZH2)
+            PCOC: 116228276(EZH2) 116233592(EZH1)
+            MGP: 100540374(EZH2) 100547448(EZH1)
+            CJO: 107309835(EZH2) 107325326(EZH1)
+            NMEL: 110388515(EZH1) 110390789(EZH2)
+            APLA: 101791765(EZH1) 101793453(EZH2)
+            ACYG: 106048025(EZH1) 106048735(EZH2)
+            AFUL: 116486423(EZH2) 116498539(EZH1)
+            TGU: 100226728(EZH2) 100227472(EZH1)
+            LSR: 110471820(EZH1) 110479186(EZH2)
+            SCAN: 103819367(EZH2) 103821570(EZH1)
+            PMOA: 120496610(EZH1) 120504998(EZH2)
+            OTC: 121346974(EZH2) 121347663(EZH1)
+            PRUF: 121351146(EZH1) 121352851(EZH2)
+            GFR: 102035477(EZH1) 102038673(EZH2)
+            FAB: 101809240(EZH2) 101811414(EZH1)
+            PHI: 102099930(EZH2) 102103576(EZH1)
+            PMAJ: 107200653(EZH2) 107215126(EZH1)
+            CCAE: 111923642(EZH2) 111940096(EZH1)
+            CCW: 104688925(EZH2) 104697765(EZH1)
+            CBRC: 103615761(EZH2) 103621230(EZH1)
+            ETL: 114063607(EZH1) 114063865(EZH2)
+            ZAB: 102064406(EZH2) 102071551(EZH1)
+            ACHL: 103801322(EZH1) 103805215(EZH2)
+            FPG: 101911332(EZH2) 101915579(EZH1)
+            FCH: 102052374(EZH1) 102055584(EZH2)
+            CLV: 102093761(EZH2) 102097006(EZH1)
+            EGZ: 104125781(EZH2) 104134781(EZH1)
+            NNI: 104009878(EZH1) 104015388(EZH2)
+            PLET: 104614357(EZH1) 104625737(EZH2)
+            PCRI: 104034436(EZH1) 104035749(EZH2)
+            PCAO: 104052172(EZH2)
+            ACUN: 113477549(EZH2) 113489070
+            TALA: 104356937(EZH2) 104365743 122152827
+            PADL: 103916088(EZH2) 103919098(EZH1)
+            AFOR: 103895384(EZH2) 103901881(EZH1)
+            ACHC: 115339606(EZH2) 115344618(EZH1)
+            HALD: 104315060 104322961(EZH1)
+            HLE: 104828376(EZH2) 104842949(EZH1)
+            AGEN: 126038535 126045481
+            GCL: 127013221 127026423
+            CCRI: 104160341 104166555(EZH2)
+            CSTI: 104557499(EZH1)
+            EHS: 104508378(EZH2)
+            CMAC: 104483036(EZH2) 104487486(EZH1)
+            MUI: 104537004(EZH2) 104545865(EZH1)
+            FGA: 104077897(EZH1) 104083691(EZH2)
+            GSTE: 104254098(EZH2) 104261338(EZH1)
+            LDI: 104342534(EZH1) 104343715(EZH2)
+            MNB: 103776905(EZH2)
+            OHA: 104334077(EZH2) 104338691(EZH1)
+            NNT: 104402768(EZH2)
+            DPUB: 104298305(EZH2) 104309571(EZH1)
+            PGUU: 104467158(EZH2)
+            ACAR: 104525061
+            CPEA: 104385652(EZH1) 104392172(EZH2)
+            AVIT: 104278791(EZH2)
+            CVF: 104295308(EZH2) 104295343(EZH1)
+            CUCA: 104054392(EZH1) 104065929(EZH2)
+            TEO: 104375779(EZH1) 104380061(EZH2)
+            BRHI: 104495767(EZH2)
+            AAM: 106491114(EZH1) 106495267(EZH2)
+            AROW: 112968758(EZH1) 112970378(EZH2)
+            NPD: 112942708(EZH2) 112951845(EZH1)
+            TGT: 104567375(EZH2) 104578212(EZH1)
+            DNE: 112995826(EZH1) 112997513(EZH2)
+            SCAM: 104150320(EZH2) 104153616(EZH1)
+            ASN: 102372569(EZH2) 102383438(EZH1)
+            AMJ: 102562122(EZH2) 102566481(EZH1)
+            CPOO: 109313034(EZH2) 109320378(EZH1)
+            GGN: 109289608(EZH1) 109291897(EZH2)
+            PSS: 102453330(EZH2) 102463087(EZH1)
+            CMY: 102932650(EZH2) 102934538(EZH1)
+            CPIC: 101934118(EZH1) 101937752(EZH2)
+            TST: 117869136(EZH1) 117872630(EZH2)
+            CABI: 116820359(EZH1) 116825808(EZH2)
+            MRV: 120392159(EZH1) 120397786(EZH2)
+            ACS: 100559669(ezh1) 100564989(ezh2)
+            PVT: 110080273(EZH1) 110088673(EZH2)
+            SUND: 121932530(EZH2) 121934119(EZH1)
+            PBI: 103051581(EZH2) 103052924(EZH1)
+            PMUR: 107288847(EZH2) 107290401 107302416(EZH1)
+            CTIG: 120301016(EZH1) 120316554(EZH2)
+            TSR: 106547020(EZH2) 106554239(EZH1)
+            PGUT: 117664836(EZH1) 117664971(EZH2)
+            VKO: 123031879(EZH1) 123035557(EZH2)
+            PMUA: 114581626(EZH1) 114607413(EZH2)
+            ZVI: 118077677(EZH2) 118094881(EZH1)
+            GJA: 107119624(EZH2) 107123351(EZH1)
+            STOW: 125441240(EZH2)
+            XLA: 100381148(ezh2.S) 108701022(ezh1.L) 108702719(ezh1.S) 399174(ezh2.L)
+            XTR: 100493532(ezh1) 550047(ezh2)
+            NPR: 108794364(EZH2) 108796324(EZH1)
+            RTEM: 120918306(EZH1) 120940356(EZH2)
+            BBUF: 121001574(EZH2) 121004042(EZH1)
+            BGAR: 122938454(EZH2) 122941062(EZH1)
+            DRE: 664754(ezh1) 768133(ezh2)
+            SRX: 107720007 107721487 107727220 107741938
+            SANH: 107654511 107686697(ezh2) 107688127 107695380
+            SGH: 107549206 107590376 107595131 107601290
+            CCAR: 109057529 109074719(ezh2) 109102790
+            CAUA: 113042268 113046841 113066022 113097179
+            CGIB: 127946210 127951387 127952888 128013173
+            PPRM: 120475953(ezh2) 120489865(ezh1)
+            MAMB: 125258300(ezh2) 125271852(ezh1)
+            CIDE: 127505796 127509033
+            MASI: 127431759 127434185 127449771 127451124
+            IPU: 108256455(ezh2) 108279279(ezh1)
+            PHYP: 113528051(ezh1) 113541351(ezh2)
+            SMEO: 124375475(ezh2) 124396605(ezh1)
+            TFD: 113652122(ezh1) 113660270(ezh2)
+            AMEX: 103027230(ezh2) 103044086(ezh1)
+            EEE: 113589064(ezh2) 113590056
+            TRU: 101068728(ezh2) 101070195(ezh1)
+            TNG: GSTEN00022022G001
+            LCO: 104923910(ezh1) 104933871(ezh2)
+            NCC: 104940789(ezh2) 104944052
+            CGOB: 115012089(ezh1)
+            ELY: 117264665(ezh2) 117268570(ezh1)
+            EFO: 125880116(ezh1) 125881496(ezh2)
+            PLEP: 121956843(ezh1) 121960957(ezh2)
+            SLUC: 116053723(ezh2) 116059672(ezh1)
+            ECRA: 117957411(ezh1)
+            ESP: 116702481(ezh1)
+            PFLV: 114548931(ezh2) 114569339(ezh1)
+            GAT: 120811509 120811957 120828335(ezh1)
+            PPUG: 119198295(ezh2) 119220821(ezh1)
+            MSAM: 119892146(ezh1) 119896631(ezh2)
+            CUD: 121527226(ezh2) 121529431(ezh1)
+            ALAT: 119009068(ezh2) 119014259(ezh1)
+            MZE: 101464777 101474304(ezh1) 112429845(ezh2)
+            ONL: 100695015(ezh1) 100702594(ezh2)
+            OAU: 116312482(ezh1) 116329347(ezh2)
+            OLA: 100125823(ezh2) 101166385(ezh1)
+            OML: 112146093(ezh1) 112152487(ezh2)
+            XMA: 102218572(ezh2) 102228014(ezh1)
+            XCO: 114136427(ezh2) 114160264(ezh1)
+            XHE: 116712102(ezh2) 116735642(ezh1)
+            PRET: 103457011(ezh2) 103468644(ezh1) 103469387
+            PFOR: 103131053(ezh2) 103142220
+            PLAI: 106952635 106961042(ezh2)
+            PMEI: 106917493(ezh1) 106927381(ezh2)
+            GAF: 122821237(ezh1) 122824393(ezh2)
+            CVG: 107091776(ezh1) 107097879(ezh2)
+            CTUL: 119778867(ezh1) 119791669(ezh2)
+            GMU: 124858145(ezh2) 124863422 124864203
+            NFU: 107378461(ezh1) 107383138(ezh2)
+            KMR: 108243802(ezh1) 108249555(ezh2)
+            ALIM: 106528219(ezh1) 106531656(ezh2)
+            NWH: 119421914(ezh1) 119426627(ezh2)
+            AOCE: 111564547(ezh1) 111570645(ezh2)
+            MCEP: 124998234(ezh1) 125024464(ezh2)
+            CSEM: 103377188(ezh2) 103393149(ezh1)
+            POV: 109634330(ezh1)
+            SSEN: 122776786(ezh2) 122785080(ezh1)
+            HHIP: 117753555(ezh2) 117765699(ezh1)
+            HSP: 118098326(ezh2) 118123196(ezh1)
+            LCF: 108884998 108900993
+            SDU: 111217595(ezh1) 111238320(ezh2)
+            SLAL: 111647273(ezh2) 111660565(ezh1)
+            XGL: 120785995(ezh1) 120789563(ezh2)
+            HCQ: 109508596 109521815(ezh2)
+            SSCV: 125983811 125986045
+            BPEC: 110158320(ezh2) 110166859(ezh1)
+            MALB: 109951056(ezh2) 109964204(ezh1)
+            BSPL: 114852915(ezh2) 114859794(ezh1)
+            SASA: 106578387(ezh2) 106590561 106601045 106607313
+            STRU: 115152097(ezh2) 115171134 115195415 115198163
+            OTW: 112215484(ezh2) 112226003 112258676(ezh1)
+            OMY: 110486277 110535410(ezh2) 110538212
+            OGO: 123991259(ezh2) 123999293 124015525
+            ONE: 115104148 115105003(ezh2) 115110290 115116302
+            SALP: 111972867(ezh2) 111980227
+            SNH: 120027757(ezh2) 120034253 120036107 120050935
+            CCLU: 121549776(ezh2) 121550571 121569320 121569566
+            ELS: 105013194(ezh1) 105022040(ezh2)
+            SFM: 108919665 108928200 108935505 108941744
+            PKI: 111834007 111842507 111854999 111855907
+            AANG: 118221790(ezh1) 118225181 118233043
+            LOC: 102691488(ezh2) 102693111(ezh1)
+            PSPA: 121301885(ezh1) 121312792(ezh2) 121314254 121324064
+            ARUT: 117400656 117433259(ezh1) 117434945 117435499(ezh2)
+            PSEX: 120518228(ezh1) 120529475(ezh2)
+            LCM: 102364190(EZH1)
+            CMK: 103187005(ezh2)
+            RTP: 109916301
+            BFO: 118425900
+            BBEL: 109467729
+            SCLV: 120335278
+            SPU: 585842
+            AJC: 117112530
+            DME: Dmel_CG6502(E(z))
+            DER: 6546346
+            DSE: 6605167
+            DSI: Dsimw501_GD12857(Dsim_GD12857)
+            DYA: Dyak_GE20265
+            DAN: 6506463
+            DSR: 110185151
+            DPO: 4813247
+            DPE: 6601386
+            DMN: 108151423
+            DWI: 6646360
+            DGR: 6558285
+            DMO: Dmoj_GI13833
+            DAZ: 108614083
+            DNV: 108652219
+            DHE: 111599772 115483471
+            DVI: 6624012
+            CCAT: 101455440
+            BOD: 106619558
+            RZE: 108370183
+            MDE: 101887292
+            SCAC: 106087388
+            LCQ: 111677283
+            LSQ: 119614536
+            HIS: 119648857
+            AGA: AgaP_AGAP012516
+            ACOZ: 120948731
+            AARA: 120893279
+            ASTE: 118510092
+            AAG: 5577466
+            AALB: 109401157
+            CQU: CpipJ_CPIJ006484
+            CPII: 120416716 128092797
+            CNS: 116340857 116344071
+            BCOO: 119068923 119078807 119080015
+            TCA: 659759
+            DPA: 109536169
+            SOY: 115874701
+            ATD: 109606772 109608998
+            CSET: 123319971
+            AGB: 108913249 108915184
+            LDC: 111504696
+            NVL: 108560889
+            APLN: 108742245
+            PPYR: 116173810
+            OTU: 111413774
+            BMOR: 101745450
+            MSEX: 115452002
+            BANY: 112043421
+            NIQ: 126774368
+            PPOT: 106100291
+            PXU: 106121339
+            PRAP: 110995414
+            PBX: 123709915
+            PNAP: 125048650
+            ZCE: 119840822
+            CCRC: 123694626
+            HZE: 124634857
+            SLIU: 111358949
+            OFU: 114359841
+            CFEL: 113384451 113384584
+            API: 100168406
+            DNX: 107161946
+            AGS: 114123060
+            RMD: 113551950
+            DCI: 103523265 103523266
+            HHAL: 106683851
+            NLU: 111049820
+            PHU: Phum_PHUM294210
+            FOC: 113217481
+            TPAL: 117641471
+            CSEC: 111869805
+            SGRE: 126355235
+            PCHN: 125041678
+            PMOO: 119581855
+            LSM: 121115248
+            PPOI: 119106231
+            ISC: IscW_ISCW020151
+            DSV: 119441781
+            RSAN: 119378928
+            RMP: 119181087
+            VDE: 111251585
+            VJA: 111260309
+            DFR: 124492770
+            SDM: 118181810
+            CEL: CELE_R06A4.7(mes-2)
+            CBR: CBG_00165 CBG_02011 CBG_02150 CBG_05455 CBG_09790 CBG_11099(Cbr-mes-2)
+            BMY: BM_BM5240(Bma-mes-2)
+            LOA: LOAG_00180
+            BGT: 106059787
+            GAE: 121385465
+            HRF: 124150131
+            HRJ: 124262532
+            CRG: 105330640
+            PMAX: 117318179
+            MCAF: 127717617
+            MMER: 123529371
+            OSN: 115219651
+            NVE: 5501069
+            ATEN: 116290023
+            XEN: 124452547
+            HMG: 100201207
+            TAD: TRIADDRAFT_54464
+            ATH: AT2G23380(CLF) AT4G02020(SWN)
+            CRB: 17882618 17889727
+            CSAT: 104704984 104707901 104713584 104713782 104737584 104751976
+            EUS: EUTSA_v10000037mg EUTSA_v10028423mg
+            BRP: 103836786 103864466
+            BNA: 106391060 106426666 106435598
+            BOE: 106319095 106342758
+            RSZ: 108825666 108851366
+            GMX: 100809840
+            GSJ: 114376685
+            VRA: 106777737
+            APRC: 113869117
+            MTR: 11415502
+            PSAT: 127120411
+            LJA: Lj2g3v1890940.1(Lj2g3v1890940.1) Lj2g3v1890940.2(Lj2g3v1890940.2)
+            AHF: 112748576 112800564
+            LANG: 109332774 109348636
+            FVE: 101314790
+            RCN: 112189431
+            PPER: 18770323
+            PMUM: 103339907
+            PAVI: 110765673
+            MDM: 103401443 103403246
+            PXB: 103935244 103956959
+            MNT: 21389219
+            CSV: 101210052
+            CMO: 103497371
+            BHJ: 120088419
+            MCHA: 111017888
+            CMAX: 111483793 111499610
+            CMOS: 111434802 111451177
+            CPEP: 111777341 111795607
+            RCU: 8267339
+            CILL: 122305368
+            QLO: 115995487
+            SLY: 100134891(EZ1)
+            SPEN: 107001506
+            SOT: 102598283
+            SSTN: 125851298
+            CANN: 107840794
+            NTA: 107769800 107801572
+            NSY: 104232085
+            NTO: 104099615
+            NAU: 109225973
+            INI: 109191258
+            ITR: 116004606
+            EGT: 105955031
+            SSPL: 121740851 121786771
+            APAN: 127258826
+            ECAD: 122605298
+            OSA: 4332612 4340748
+            DOSA: Os03t0307800-01(Os03g0307800) Os06t0275500-01(Os06g0275500)
+            OBR: 102702548 102706390
+            ATS: 109742834
+            TDC: 119285509 119296293 119328378 119332633 119335528 119340717
+            TAES: 123085669 123092326 123097675
+            TUA: 125551908 125551964
+            LPER: 127295609
+            SBI: 8083989
+            ZMA: 541955 542659
+            SITA: 101784446
+            SVS: 117837308
+            PVIR: 120652612 120670018 120690547 120702724
+            PHAI: 112875021
+            ZOF: 121999750 122012549 122015196
+            SMO: SELMODRAFT_446978
+            MIS: MICPUN_63548
+            MPP: MICPUCDRAFT_59369
+            GSL: Gasu_06840
+            SSL: SS1G_02779
+            PNO: SNOG_00928
+            MORE: E1B28_007356
+            MBR: MONBRDRAFT_30718
+            TPS: THAPSDRAFT_268872
+            PIF: PITG_10068
+DBLINKS     ExplorEnz - The Enzyme Database: 2.1.1.356
+            IUBMB Enzyme Nomenclature: 2.1.1.356
+            ExPASy - ENZYME nomenclature database: 2.1.1.356
+            BRENDA, the Enzyme Database: 2.1.1.356
+///

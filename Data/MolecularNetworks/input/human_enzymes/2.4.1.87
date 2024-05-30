@@ -1,0 +1,273 @@
+ENTRY       EC 2.4.1.87                 Enzyme
+NAME        N-acetyllactosaminide 3-alpha-galactosyltransferase;
+            alpha-galactosyltransferase;
+            UDP-Gal:beta-D-Gal(1,4)-D-GlcNAc alpha(1,3)-galactosyltransferase;
+            UDP-Gal:N-acetyllactosaminide alpha(1,3)-galactosyltransferase;
+            UDP-Gal:N-acetyllactosaminide alpha-1,3-D-galactosyltransferase;
+            UDP-Gal:Galbeta1->4GlcNAc-R alpha1->3-galactosyltransferase;
+            UDP-galactose-acetyllactosamine alpha-D-galactosyltransferase;
+            UDPgalactose:beta-D-galactosyl-beta-1,4-N-acetyl-D-glucosaminyl-glycopeptide alpha-1,3-D-galactosyltransferase;
+            glucosaminylglycopeptide alpha-1,3-galactosyltransferase;
+            uridine diphosphogalactose-acetyllactosamine alpha1->3-galactosyltransferase;
+            uridine diphosphogalactose-acetyllactosamine galactosyltransferase;
+            uridine diphosphogalactose-galactosylacetylglucosaminylgalactosylglucosylceramide galactosyltransferase;
+            beta-D-galactosyl-N-acetylglucosaminylglycopeptide alpha-1,3-galactosyltransferase;
+            UDP-galactose:N-acetyllactosaminide 3-alpha-D-galactosyltransferase;
+            UDP-galactose:beta-D-galactosyl-1,4-beta-N-acetyl-D-glucosaminyl-R 3-alpha-D-galactosyltransferase;
+            UDP-galactose:beta-D-galactosyl-(1->4)-beta-N-acetyl-D-glucosaminyl-R 3-alpha-D-galactosyltransferase
+CLASS       Transferases;
+            Glycosyltransferases;
+            Hexosyltransferases
+SYSNAME     UDP-alpha-D-galactose:beta-D-galactosyl-(1->4)-beta-N-acetyl-D-glucosaminyl-R 3-alpha-D-galactosyltransferase
+REACTION    UDP-alpha-D-galactose + beta-D-galactosyl-(1->4)-beta-N-acetyl-D-glucosaminyl-R = UDP + alpha-D-galactosyl-(1->3)-beta-D-galactosyl-(1->4)-beta-N-acetylglucosaminyl-R (where R can be OH, an oligosaccharide or a glycoconjugate) [RN:R02791]
+ALL_REAC    R02791 > R04531 R05978(G) R06145(G) R06169(G);
+            (other) R11320(G)
+SUBSTRATE   UDP-alpha-D-galactose [CPD:C00052];
+            beta-D-galactosyl-(1->4)-beta-N-acetyl-D-glucosaminyl-R
+PRODUCT     UDP [CPD:C00015];
+            alpha-D-galactosyl-(1->3)-beta-D-galactosyl-(1->4)-beta-N-acetylglucosaminyl-R [CPD:C04855]
+COMMENT     Acts on beta-galactosyl-1,4-N-acetylglucosaminyl termini on asialo-alpha1-acid glycoprotein and N-acetyllactosamine (beta-D-galactosyl-1,4-N-acetyl-beta-D-glucosamine), but not on 2'-fucosylated-N-acetyllactosamine. The non-reducing terminal N-acetyllactosamine residues of glycoproteins can also act as acceptor. Now includes EC 2.4.1.124 and EC 2.4.1.151.
+HISTORY     EC 2.4.1.87 created 1976, modified 1989, modified 2002 (EC 2.4.1.124 created 1984, incorporated 2002, EC 2.4.1.151 created 1984, incorporated 2002)
+REFERENCE   1  [PMID:4632915]
+  AUTHORS   Basu M, Basu S.
+  TITLE     Enzymatic synthesis of a blood group B-related pentaglycosylceramide by an alpha-galactosyltransferase from rabbit bone marrow.
+  JOURNAL   J Biol Chem 248:1700-6 (1973)
+REFERENCE   2  [PMID:3932335]
+  AUTHORS   Blanken WM, Van den Eijnden DH.
+  TITLE     Biosynthesis of terminal Gal alpha 1----3Gal beta 1----4GlcNAc-R oligosaccharide sequences on glycoconjugates. Purification and acceptor specificity of a UDP-Gal:N-acetyllactosaminide alpha 1----3-galactosyltransferase from calf thymus.
+  JOURNAL   J Biol Chem 260:12927-34 (1985)
+REFERENCE   3  [PMID:6787040]
+  AUTHORS   Blake DA, Goldstein IJ.
+  TITLE     An alpha-D-galactosyltransferase activity in Ehrlich ascites tumor cells. Biosynthesis and characterization of a trisaccharide (alpha-D-galactose-(1 goes to 3)-N-acetyllactosamine).
+  JOURNAL   J Biol Chem 256:5387-93 (1981)
+PATHWAY     ec00601  Glycosphingolipid biosynthesis - lacto and neolacto series
+            ec00603  Glycosphingolipid biosynthesis - globo and isoglobo series
+            ec01100  Metabolic pathways
+ORTHOLOGY   K00743  N-acetyllactosaminide 3-alpha-galactosyltransferase
+            K20736  alpha-1,3-galactosyltransferase 2
+GENES       HSA: 127550(A3GALT2)
+            PTR: 104007284(A3GALT2)
+            PPS: 100975171(A3GALT2)
+            GGO: 101137879(A3GALT2)
+            PON: 100431438(A3GALT2)
+            NLE: 100586880(A3GALT2)
+            HMH: 116472909(A3GALT2)
+            MCC: 711045(A3GALT2)
+            MCF: 102136396(A3GALT2)
+            MTHB: 126930244 126937962
+            MNI: 105495214(A3GALT2)
+            CSAB: 103225947(A3GALT2)
+            CATY: 105594799(A3GALT2)
+            PANU: 101020613(A3GALT2)
+            TGE: 112625133(A3GALT2)
+            RRO: 104655865 104677306(A3GALT2)
+            RBB: 108537074 108537279(A3GALT2)
+            TFN: 117092920(A3GALT2) 117098733
+            PTEH: 111550328 111555868(A3GALT2)
+            CANG: 105501452 105521438(A3GALT2)
+            CJC: 100390928(GGTA1P) 100414894(A3GALT2)
+            SBQ: 101033629(A3GALT2) 101038827
+            CIMI: 108285857(GGTA1) 108303978(A3GALT2)
+            CSYR: 103251189(GGTA1) 103258027(A3GALT2)
+            MMUR: 105871787(A3GALT2) 105875133
+            LCAT: 123635805(A3GALT2) 123646481(GGTA1)
+            PCOQ: 105808631(A3GALT2) 105826396
+            OGA: 100949731(A3GALT2) 100961603
+            MMU: 14594(Ggta1) 215493(A3galt2)
+            MCAL: 110289655 110292229(A3galt2)
+            MPAH: 110318488 110323213(A3galt2)
+            RNO: 171553(A3galt2) 246766(Ggta1)
+            MCOC: 116090066 116096681(A3galt2)
+            ANU: 117702846 117708202(A3galt2)
+            MUN: 110548184(A3galt2) 110558641
+            CGE: 100754535(Ggta1) 100774283(A3galt2)
+            MAUA: 101829635(A3galt2) 101835276(Ggta1)
+            PLEU: 114682033(A3galt2) 114704707(Ggta1)
+            MORG: 121448691(A3galt2) 121462785(Ggta1)
+            MFOT: 126491232 126507921
+            AAMP: 119818014(A3galt2) 119819136(Ggta1)
+            NGI: 103730905(A3galt2) 103734487
+            HGL: 101699219(A3galt2) 101705531
+            CPOC: 100719695 100725746(A3galt2)
+            CCAN: 109686855(A3galt2) 109692479
+            DORD: 105988804(A3galt2) 105996167
+            DSP: 122106733(A3galt2) 122107087(Ggta1)
+            NCAR: 124964685 124978089
+            OCU: 100339429 100348435
+            OPI: 101519151(GGTA1) 101523303(A3GALT2)
+            TUP: 102483559(A3GALT2) 102502371
+            GVR: 103582241 103602662(A3GALT2) 103604067
+            CFA: 487298(A3GALT2) 491357(GGTA1)
+            CLUD: 112660251(A3GALT2) 112677145(GGTA1)
+            VVP: 112927838 112931709(A3GALT2)
+            VLG: 121473075(GGTA1) 121498202(A3GALT2)
+            AML: 100479995(A3GALT2) 100482234
+            UMR: 103670365
+            UAH: 113266361 113268332(A3GALT2)
+            UAR: 123782181(A3GALT2) 123788010(GGTA1)
+            ELK: 111143712 111145926
+            LLV: 125083451 125097516
+            MPUF: 101671456(A3GALT2) 101677189
+            NVS: 122899209 122899723(A3GALT2) 122917295(GGTA1)
+            ORO: 101365724(A3GALT2) 101367788 101371520
+            EJU: 114212923 114217073(A3GALT2)
+            ZCA: 113916273(A3GALT2) 113934462(GGTA1)
+            MLX: 118017738(GGTA1) 118019722(A3GALT2)
+            NSU: 110575416(A3GALT2) 110581480(GGTA1)
+            LWW: 102728656(A3GALT2) 102730250
+            FCA: 101084042(A3GALT2) 493877(GGTA1)
+            PYU: 121025760(A3GALT2) 121034927(GGTA1)
+            PBG: 122475015(GGTA1) 122482124(A3GALT2)
+            LRUF: 124503702 124514376
+            PTG: 102965067 107180570(A3GALT2)
+            PPAD: 109255233 109255324 109269868
+            AJU: 106973174(A3GALT2) 106986621
+            HHV: 120232112(A3GALT2) 120233419(GGTA1)
+            BTA: 281780(GGTA1) 617693(A3GALT2)
+            BOM: 102276118(A3GALT2) 102282898
+            BIU: 109566417 109575981(A3GALT2)
+            BBUB: 102398588(GGTA1) 102402563(A3GALT2) 102405485 123333796
+            BBIS: 104986490(A3GALT2) 104997334
+            CHX: 102168270 108637492(A3GALT2)
+            OAS: 101103704(A3GALT2) 443282(GGTA2P)
+            ODA: 120851938(GGTA1) 120854762(A3GALT2)
+            CCAD: 122426222(A3GALT2) 122442105(GGTA1)
+            SSC: 100739829(A3GALT2) 396733(GGTA1P)
+            CFR: 102516495(A3GALT2) 102516521
+            CBAI: 105065260
+            CDK: 105104406 116156821(A3GALT2)
+            VPC: 102541625
+            BACU: 103006673
+            LVE: 103079826(A3GALT2) 103089836
+            OOR: 101277096(GLT6D1) 101279702(A3GALT2)
+            DLE: 111175451(A3GALT2) 111177259(GLT6D1)
+            PCAD: 102975905(GLT6D1) 102996822(A3GALT2)
+            PSIU: 116755327 116755462(A3GALT2)
+            ECB: 100067589 106782783(A3GALT2)
+            EPZ: 103555510 103557792(A3GALT2)
+            EAI: 106824198(GGTA1) 106829012(A3GALT2)
+            MYB: 102261921
+            MYD: 102751930 102753567(A3GALT2)
+            MMYO: 118667122(GGTA1) 118675052(A3GALT2)
+            MLF: 102418670 102418780(A3GALT2)
+            MNA: 107537664 107542062(A3GALT2)
+            PKL: 118724792(A3GALT2)
+            HAI: 109383944 109385732 109390838(A3GALT2)
+            DRO: 112299104(A3GALT2) 112306460
+            SHON: 118995989(GGTA1) 118997700(A3GALT2)
+            AJM: 119046898(GGTA1) 119052438(A3GALT2)
+            PDIC: 114497325 114497543(A3GALT2)
+            PHAS: 123819701 123831861(A3GALT2)
+            MMF: 118627073(A3GALT2) 118630216(GGTA1)
+            RFQ: 117020071 117027790(A3GALT2) 117032059
+            PALE: 102885392(A3GALT2) 102892029
+            PGIG: 120582036(A3GALT2) 120605761(GGTA1)
+            PVP: 105290602(A3GALT2) 105292696
+            RAY: 107513619(A3GALT2) 107516315
+            MJV: 108401813(A3GALT2) 108405129(GLT6D1)
+            TOD: 119232266(GGTA1) 119236484(A3GALT2)
+            SARA: 101537225(A3GALT2) 101550558
+            LAV: 100655343 100671107(A3GALT2)
+            TMU: 101350553 101352341
+            ETF: 101639145 101661937(A3GALT2)
+            DNM: 101421783(A3GALT2) 101426740
+            MDO: 100016068 100016105
+            GAS: 123233711 123237374(GGTA1)
+            SHR: 100932826 100933356
+            AFZ: 127550538 127550540
+            PCW: 110211311 110211337
+            OAA: 100089476
+            PSS: 102447976(A3GALT2)
+            CMY: 102941601
+            ACS: 103281997
+            PVT: 110078804
+            SUND: 121936010(GLT6D1)
+            PBI: 103058654
+            PMUR: 107295054
+            CTIG: 120308657
+            TSR: 106542602
+            PGUT: 117676609
+            VKO: 123028190
+            PMUA: 114589231(GLT6D1)
+            ZVI: 118083828(GLT6D1)
+            GJA: 107118477
+            STOW: 125441522
+            NPR: 108793736
+            RTEM: 120913257
+            TRU: 101078261(a3galt2)
+            TNG: GSTEN00027557G001
+            LCO: 104919360
+            NCC: 104957307(a3galt2)
+            CGOB: 115004723 115007798(a3galt2)
+            ELY: 117256487 117259063 117259076
+            EFO: 125879807 125879816 125889109
+            PLEP: 121939462 121945515 121945523 121959687
+            SLUC: 116037649 116051301 116057313 116067217 116067352
+            ECRA: 117943156 117945686 117945922 117948437 117948445
+            ESP: 116688624 116691062 116694142
+            PFLV: 114553924 114554441 114554518 114554598 114554673 114556077
+            GAT: 120834481 120835170
+            PPUG: 119195871 119230135
+            MSAM: 119885654 119890562
+            CUD: 121503700 121507200 121507410
+            ALAT: 119018129 119021141
+            MZE: 101476245(a3galt2)
+            ONL: 100691157 100696629 100699221 100706236 106098913 109204947
+            OAU: 116312925 116316519 116323213 116334247 116336518 120440900 120443130
+            OLA: 101158589 101158846 101159083 101159331 101159492 110014315
+            OML: 112145436 112161178 112161179 112161180
+            XMA: 102225862(a3galt2)
+            XCO: 114135833(a3galt2) 114142426
+            XHE: 116711175 116716720 116718494 116724797 116733252
+            PRET: 103462901 103464476(a3galt2)
+            PFOR: 103136623(a3galt2) 103144194
+            PLAI: 106945815(a3galt2) 106953116
+            PMEI: 106924734(a3galt2) 106927369
+            GAF: 122834004 122844420
+            CVG: 107087544 107094052 107098819
+            CTUL: 119772774 119796323 119796330
+            GMU: 124857033 124866475
+            NFU: 107372345 107385258 107385260
+            KMR: 108229171 108229172 108231546 108231617 108234809 119616584
+            ALIM: 106513849 106513851 106519097
+            NWH: 119412395 119412396 119412397 119426969
+            AOCE: 111574913 111588016(a3galt2)
+            MCEP: 125005723 125006159
+            CSEM: 103378785 103385676
+            POV: 109637219 109638603
+            SSEN: 122768615 122772585 122773138
+            HHIP: 117757446 117761542
+            HSP: 118105204 118112067
+            LCF: 108887790 108899900
+            SDU: 111224019
+            SLAL: 111658256
+            XGL: 120801819 120807446
+            BPEC: 110168737
+            MALB: 109958978
+            BSPL: 114852556 114856414
+            SASA: 106565705 106582820
+            STRU: 115150916 115207511
+            OTW: 112220697 112254318
+            OMY: 110494632 110527833
+            OGO: 124003325 124031534
+            ONE: 115136718 115143428
+            SALP: 111969813 111969849
+            SNH: 120020412 120065536
+            CCLU: 121574840 121578734
+            ELS: 105017413
+            SFM: 108918234(a3galt2) 108924914
+            PKI: 111857101 111859140
+            AANG: 118208254 118208255 118210928
+            LOC: 102684573(a3galt2)
+            PSPA: 121306694 121306703 121328869 121329372
+            ARUT: 117396907 117422694 117422696 117422697 117431939 117964722 117974010 117974011
+            PSEX: 120530963
+            LCM: 102357128
+            CMK: 103181344
+            RTP: 109918400 109924380(a3galt2)
+DBLINKS     ExplorEnz - The Enzyme Database: 2.4.1.87
+            IUBMB Enzyme Nomenclature: 2.4.1.87
+            ExPASy - ENZYME nomenclature database: 2.4.1.87
+            BRENDA, the Enzyme Database: 2.4.1.87
+            CAS: 128449-51-4
+///

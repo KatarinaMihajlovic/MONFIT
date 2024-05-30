@@ -1,0 +1,67 @@
+ENTRY       EC 1.14.14.53               Enzyme
+NAME        (R)-limonene 6-monooxygenase;
+            (+)-limonene-6-hydroxylase;
+            (+)-limonene 6-monooxygenase
+CLASS       Oxidoreductases;
+            Acting on paired donors, with incorporation or reduction of molecular oxygen;
+            With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+SYSNAME     (R)-limonene,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (6-hydroxylating)
+REACTION    (R)-limonene + [reduced NADPH---hemoprotein reductase] + O2 = (+)-trans-carveol + [oxidized NADPH---hemoprotein reductase] + H2O [RN:R06119]
+ALL_REAC    R06119
+SUBSTRATE   (R)-limonene [CPD:C06099];
+            [reduced NADPH---hemoprotein reductase] [CPD:C03024];
+            O2 [CPD:C00007]
+PRODUCT     (+)-trans-carveol [CPD:C11409];
+            [oxidized NADPH---hemoprotein reductase] [CPD:C03161];
+            H2O [CPD:C00001]
+COMMENT     The reaction is stereospecific with over 95% yield of (+)-trans-carveol from (R)-limonene. (S)-Limonene, the substrate for EC 1.14.14.51, (S)-limonene 6-monooxygenase, is not a substrate. Forms part of the carvone biosynthesis pathway in Carum carvi (caraway) seeds.
+HISTORY     EC 1.14.14.53 created 2003 as EC 1.14.13.80, transferred 2017 to EC 1.14.14.53
+REFERENCE   1  [PMID:9662532]
+  AUTHORS   Bouwmeester HJ, Gershenzon J, Konings MC, Croteau R.
+  TITLE     Biosynthesis of the monoterpenes limonene and carvone in the fruit of caraway. I. Demonstration Of enzyme activities and their changes with development
+  JOURNAL   Plant Physiol 117:901-12 (1998)
+            DOI:10.1104/pp.117.3.901
+REFERENCE   2
+  AUTHORS   Bouwmeester, H.J., Konings, M.C.J.M., Gershenzon, J., Karp, F. and Croteau, R.
+  TITLE     Cytochrome P-450 dependent (+)-limonene-6-hydroxylation in fruits of caraway (Carum carvi).
+  JOURNAL   Phytochemistry 50:243-248 (1999)
+PATHWAY     ec00902  Monoterpenoid biosynthesis
+            ec00903  Limonene and pinene degradation
+            ec01110  Biosynthesis of secondary metabolites
+ORTHOLOGY   K17719  cytochrome P450 family 2 subfamily C9
+            K17721  cytochrome P450 family 2 subfamily C19
+GENES       HSA: 1557(CYP2C19) 1559(CYP2C9)
+            PTR: 100616515(CYP2C9) 740956(CYP2C19)
+            PPS: 100995695(CYP2C19) 100996034(CYP2C9)
+            GGO: 101126456 101151965
+            PON: 100439483 100450749
+            NLE: 100591471 100601437
+            HMH: 116457268 116457271
+            MCC: 678686(CYP2C75) 678695(CYP2C9)
+            MCF: 102115450(CYP2C9) 102147103(CYP2C19)
+            MTHB: 126962028 126962032
+            MNI: 105479916 105479949
+            CSAB: 103216299(CYP2C19) 103216301(CYP2C9)
+            CATY: 105575618 105581138 105586929 105586938
+            PANU: 100997824 101012978
+            TGE: 112631549 112631550
+            MLEU: 105534699 105534700 105535382 105536626
+            RRO: 104665355 104666123
+            TFN: 117083900 117092015
+            PTEH: 111531037 111552212
+            CANG: 105501587 105504516 105504517
+            CJC: 100389947(CYP2C19)
+            SBQ: 101041912
+            CIMI: 108281686(CYP2C19)
+            CSYR: 103277060
+            PCOQ: 105822723
+            OGA: 100950266
+            DORD: 106001520
+            NCAR: 124985776
+            GAS: 123236335 123238232
+DBLINKS     ExplorEnz - The Enzyme Database: 1.14.14.53
+            IUBMB Enzyme Nomenclature: 1.14.14.53
+            ExPASy - ENZYME nomenclature database: 1.14.14.53
+            BRENDA, the Enzyme Database: 1.14.14.53
+            CAS: 221461-49-0
+///

@@ -1,0 +1,427 @@
+ENTRY       EC 1.5.1.30                 Enzyme
+NAME        flavin reductase (NADPH);
+            NADPH:flavin oxidoreductase;
+            riboflavin mononucleotide (reduced nicotinamide adenine dinucleotide phosphate) reductase;
+            flavin mononucleotide reductase;
+            flavine mononucleotide reductase;
+            FMN reductase (NADPH);
+            NADPH-dependent FMN reductase;
+            NADPH-flavin reductase;
+            NADPH-FMN reductase;
+            NADPH-specific FMN reductase;
+            riboflavin mononucleotide reductase;
+            riboflavine mononucleotide reductase;
+            NADPH2 dehydrogenase (flavin);
+            NADPH2:riboflavin oxidoreductase
+CLASS       Oxidoreductases;
+            Acting on the CH-NH group of donors;
+            With NAD+ or NADP+ as acceptor
+SYSNAME     reduced-riboflavin:NADP+ oxidoreductase
+REACTION    reduced riboflavin + NADP+ = riboflavin + NADPH + H+ [RN:R05707]
+ALL_REAC    R05707;
+            (other) R09520
+SUBSTRATE   reduced riboflavin [CPD:C01007];
+            NADP+ [CPD:C00006]
+PRODUCT     riboflavin [CPD:C00255];
+            NADPH [CPD:C00005];
+            H+ [CPD:C00080]
+COMMENT     The enzyme reduces riboflavin, and, less efficiently, FMN and FAD. NADH is oxidized less efficiently than NADPH.
+HISTORY     EC 1.5.1.30 created 1982 as EC 1.6.8.2, transferred 2002 to EC 1.5.1.30, modified 2011
+REFERENCE   1  [PMID:3453680]
+  AUTHORS   Yubisui T, Tamura M, Takeshita M.
+  TITLE     Characterization of a second form of NADPH-flavin reductase purified from human erythrocytes.
+  JOURNAL   Biochem Int 15:1-8 (1987)
+REFERENCE   2  [PMID:10620517]
+  AUTHORS   Cunningham O, Gore MG, Mantle TJ
+  TITLE     Initial-rate kinetics of the flavin reductase reaction catalysed by human biliverdin-IXbeta reductase (BVR-B).
+  JOURNAL   Biochem J 345 Pt 2:393-9 (2000)
+            DOI:10.1042/bj3450393
+  SEQUENCE  [hsa:645]
+PATHWAY     ec00740  Riboflavin metabolism
+            ec01100  Metabolic pathways
+ORTHOLOGY   K05901  biliverdin reductase / flavin reductase
+GENES       HSA: 645(BLVRB)
+            PTR: 456039(BLVRB)
+            PPS: 100989093(BLVRB)
+            GGO: 101142015(BLVRB)
+            PON: 100446184(BLVRB)
+            NLE: 100587172(BLVRB)
+            HMH: 116480674(BLVRB)
+            MCC: 703020(BLVRB)
+            MCF: 102142962(BLVRB)
+            MTHB: 126942092
+            MNI: 105495336(BLVRB)
+            CSAB: 103234707(BLVRB)
+            CATY: 105597983(BLVRB)
+            PANU: 101021963(BLVRB)
+            TGE: 112613110(BLVRB)
+            MLEU: 105542622(BLVRB)
+            RRO: 104676113(BLVRB)
+            RBB: 108539085(BLVRB)
+            TFN: 117091948(BLVRB) 117092438
+            PTEH: 111553962(BLVRB)
+            CANG: 105519183(BLVRB)
+            CJC: 100391206(BLVRB)
+            SBQ: 101043206(BLVRB)
+            CIMI: 108285782(BLVRB)
+            CSYR: 103272286(BLVRB)
+            MMUR: 105876763(BLVRB)
+            LCAT: 123624314(BLVRB)
+            PCOQ: 105820481(BLVRB)
+            OGA: 100956880(BLVRB)
+            MMU: 233016(Blvrb)
+            MCAL: 110297893(Blvrb)
+            MPAH: 110331802(Blvrb)
+            RNO: 292737(Blvrb)
+            MCOC: 116101881(Blvrb)
+            ANU: 117698969(Blvrb)
+            MUN: 110556744(Blvrb)
+            CGE: 100768929(Blvrb)
+            MAUA: 101844617(Blvrb)
+            PLEU: 114681553(Blvrb)
+            MORG: 121449703(Blvrb) 121453592
+            MFOT: 126492547
+            AAMP: 119821315 119821342(Blvrb)
+            NGI: 103750766(Blvrb)
+            HGL: 101697384(Blvrb)
+            CPOC: 100723970(Blvrb)
+            CCAN: 109688540(Blvrb)
+            DORD: 105998024(Blvrb)
+            DSP: 122097439(Blvrb)
+            NCAR: 124966872
+            OCU: 100340115
+            OPI: 101535891(BLVRB)
+            TUP: 102490802(BLVRB)
+            GVR: 103598605(BLVRB)
+            CFA: 476456(BLVRB)
+            CLUD: 112645456(BLVRB)
+            VVP: 112928368(BLVRB)
+            VLG: 121485710(BLVRB)
+            AML: 100467254(BLVRB)
+            UMR: 103661047(BLVRB)
+            UAH: 113243564(BLVRB)
+            UAR: 123784022(BLVRB)
+            ELK: 111161593
+            LLV: 125088933 125098045
+            MPUF: 101682683(BLVRB)
+            NVS: 122912043(BLVRB)
+            ORO: 101371765(BLVRB)
+            EJU: 114202467(BLVRB)
+            ZCA: 113936395(BLVRB)
+            MLX: 118022653(BLVRB)
+            NSU: 110590243(BLVRB)
+            LWW: 102749984(BLVRB)
+            FCA: 101092315(BLVRB)
+            PYU: 121011436(BLVRB)
+            PBG: 122494035(BLVRB)
+            LRUF: 124511113
+            PTG: 102957700(BLVRB)
+            PPAD: 109256587(BLVRB)
+            AJU: 106979604(BLVRB)
+            HHV: 120240932(BLVRB)
+            BTA: 281650(BLVRB)
+            BOM: 102277747(BLVRB)
+            BIU: 109572681(BLVRB)
+            BBUB: 102402107(BLVRB)
+            BBIS: 104995362(BLVRB)
+            CHX: 102187796(BLVRB)
+            OAS: 101119750(BLVRB)
+            ODA: 120872449(BLVRB)
+            CCAD: 122420884(BLVRB) 122443458
+            SSC: 100625219(BLVRB)
+            CFR: 102522968(BLVRB)
+            CBAI: 105062862(BLVRB)
+            CDK: 105093394(BLVRB)
+            VPC: 102543677(BLVRB)
+            BACU: 103014515(BLVRB)
+            LVE: 103082225(BLVRB)
+            OOR: 101269881(BLVRB)
+            DLE: 111180848(BLVRB)
+            PCAD: 102992855(BLVRB)
+            PSIU: 116743687(BLVRB)
+            ECB: 100068145(BLVRB)
+            EPZ: 103560493(BLVRB)
+            EAI: 106843297(BLVRB)
+            MYB: 102251416(BLVRB)
+            MYD: 102759928(BLVRB)
+            MMYO: 118674559(BLVRB)
+            MLF: 102432652(BLVRB)
+            MNA: 107534172(BLVRB)
+            PKL: 118702235(BLVRB)
+            HAI: 109374869(BLVRB)
+            DRO: 112320111(BLVRB)
+            SHON: 118988083(BLVRB)
+            AJM: 119040590(BLVRB)
+            PDIC: 114511105(BLVRB)
+            PHAS: 123823786(BLVRB)
+            MMF: 118639318(BLVRB)
+            RFQ: 117035103(BLVRB)
+            PALE: 102879551(BLVRB)
+            PGIG: 120595620(BLVRB)
+            PVP: 105300209(BLVRB)
+            RAY: 107521823(BLVRB)
+            MJV: 108404844(BLVRB)
+            TOD: 119249327(BLVRB)
+            SARA: 101557111(BLVRB)
+            LAV: 100665167(BLVRB)
+            TMU: 101354315
+            ETF: 101645971(BLVRB)
+            DNM: 101437673(BLVRB)
+            MDO: 100017892(BLVRB)
+            GAS: 123255652(BLVRB)
+            SHR: 100930351(BLVRB)
+            AFZ: 127556203
+            PCW: 110202810(BLVRB)
+            OAA: 100073853(BLVRB)
+            MGP: 100303679(BLVRB)
+            APLA: 113841036(BLVRB)
+            PHI: 102113532(BLVRB)
+            CCAE: 111943368(BLVRB)
+            ACHC: 115337712
+            HALD: 104321959(BLVRB)
+            AGEN: 126036625 126037224
+            AAM: 106493723(BLVRB)
+            AROW: 112960997(BLVRB)
+            NPD: 112955489(BLVRB)
+            TGT: 104572768(BLVRB)
+            DNE: 112996331(BLVRB)
+            ASN: 102387963(BLVRB)
+            AMJ: 102574563(BLVRB)
+            CMY: 114022374(BLVRB)
+            CPIC: 101948417(BLVRB)
+            TST: 117888630(BLVRB)
+            CABI: 116833857(BLVRB)
+            MRV: 120388171(BLVRB)
+            ACS: 100564796(blvrb)
+            PVT: 110075662(BLVRB)
+            SUND: 121916153(BLVRB)
+            PBI: 103053858(BLVRB)
+            PMUR: 107285666(BLVRB)
+            CTIG: 120316372(BLVRB)
+            TSR: 106541075(BLVRB)
+            PGUT: 117677851(BLVRB)
+            VKO: 123021032(BLVRB)
+            PMUA: 114603071(BLVRB)
+            ZVI: 118078075 118086651(BLVRB)
+            GJA: 107107369(BLVRB)
+            STOW: 125430722(BLVRB)
+            XLA: 443881(blvrb.L)
+            XTR: 100124834(blvrb) 116406791
+            NPR: 108791950(BLVRB)
+            RTEM: 120913299(BLVRB)
+            BBUF: 120977966(BLVRB)
+            BGAR: 122923946(BLVRB)
+            DRE: 436959(blvrb)
+            SRX: 107717620(blvrb)
+            SANH: 107670601 107692505
+            SGH: 107602119(blvrb)
+            CCAR: 109109302 109109306
+            CAUA: 113061728 113082608 113118645
+            CGIB: 127934336 127977858
+            PPRM: 120460021 120460038
+            MAMB: 125254500(blvrb)
+            CIDE: 127499299
+            MASI: 127455779
+            IPU: 108264654 124626957
+            PHYP: 113526426(blvrb)
+            SMEO: 124396010(blvrb)
+            TFD: 113638812(blvrb)
+            AMEX: 103040962(blvrb)
+            EEE: 113580124(blvrb)
+            TRU: 101061122(blvrb)
+            TNG: GSTEN00035152G001
+            LCO: 104927805(blvrb)
+            NCC: 104965039(blvrb)
+            CGOB: 115018241(blvrb)
+            ELY: 117259444(blvrb)
+            EFO: 125888677(blvrb)
+            PLEP: 121943190(blvrb)
+            SLUC: 116053283(blvrb)
+            ECRA: 117942519(blvrb)
+            ESP: 116687001(blvrb)
+            PFLV: 114552606(blvrb)
+            GAT: 120829425(blvrb)
+            PPUG: 119222042(blvrb)
+            MSAM: 119882831(blvrb)
+            CUD: 121526977(blvrb)
+            ALAT: 119033096(blvrb)
+            MZE: 101484658(blvrb)
+            ONL: 100702669(blvrb)
+            OAU: 116320348(blvrb)
+            OLA: 101163919(blvrb)
+            OML: 112149783(blvrb)
+            XMA: 102228591(blvrb)
+            XCO: 114133538(blvrb)
+            XHE: 116707592 116707593
+            PRET: 103475161(blvrb)
+            PFOR: 103138303(blvrb)
+            PLAI: 106947919(blvrb)
+            PMEI: 106921476(blvrb)
+            GAF: 122832913(blvrb)
+            CVG: 107094869(blvrb)
+            CTUL: 119796633(blvrb)
+            GMU: 124883659(blvrb)
+            NFU: 107379787(blvrb)
+            KMR: 108247879(blvrb)
+            ALIM: 106522783(blvrb)
+            NWH: 119411413(blvrb)
+            AOCE: 111586211(blvrb)
+            MCEP: 125012958(blvrb)
+            CSEM: 103377891(blvrb)
+            POV: 109630121(blvrb)
+            SSEN: 122773296(blvrb)
+            HHIP: 117773323(blvrb)
+            HSP: 118105862(blvrb)
+            LCF: 108876241
+            SDU: 111216890(blvrb)
+            SLAL: 111662215(blvrb)
+            XGL: 120792571(blvrb)
+            HCQ: 109529422(blvrb)
+            SSCV: 125972512
+            BPEC: 110172712(blvrb)
+            MALB: 109963258(blvrb)
+            BSPL: 114867627(blvrb)
+            SASA: 106580739(blvrb) 106612705(BLVRB)
+            STRU: 115163034(blvrb) 115205994
+            OTW: 112265119 112266772
+            OMY: 110503591 110507468
+            OGO: 123993025 124005618
+            ONE: 115137042 115141548
+            SALP: 111982788 111982809
+            SNH: 120018812 120028367
+            CCLU: 121562566 121568255
+            ELS: 105023068(blvrb)
+            SFM: 108928749(blvrb)
+            PKI: 111844029(blvrb)
+            AANG: 118209415(blvrb)
+            LOC: 102698532(blvrb)
+            PSPA: 121303818 121304996(blvrb)
+            ARUT: 117397815 117415212
+            PSEX: 120538736(blvrb)
+            LCM: 102358034(BLVRB)
+            CMK: 103173572(blvrb)
+            RTP: 109926910(blvrb)
+            BFO: 118410084 118414353 118424422
+            CIN: 100185152
+            SCLV: 120347803 120347819 120347831 120347846 120347854 120347866
+            SPU: 100889296 576533 578603
+            APLC: 110978883 110978939
+            SKO: 100374763
+            DER: 6552273
+            DSI: Dsimw501_GD20759(Dsim_GD20759)
+            DYA: Dyak_GE24730
+            DSR: 110188190
+            DPO: 4801507
+            DPE: 6588134
+            DMN: 108156553
+            DWI: 6647397
+            DMO: Dmoj_GI24882
+            DAZ: 108618551
+            DNV: 108659243
+            DHE: 111602756
+            DVI: 6630042
+            MDE: 101892800
+            LCQ: 111676095
+            AGA: AgaP_AGAP001321
+            ACOZ: 120949584
+            AAG: 5565330
+            AALB: 109405306 109406365 115258289
+            CQU: CpipJ_CPIJ011826
+            CPII: 120431012
+            AME: 412445
+            ACER: 107994237
+            ALAB: 122714807
+            BIM: 100749252
+            BBIF: 117205099
+            BVK: 117231092
+            BVAN: 117157637
+            BTER: 100646178
+            BPYO: 122567783
+            CCAL: 108630984
+            OBB: 114877540
+            MGEN: 117219339
+            NMEA: 116423944
+            SOC: 105203387 105203429 105203443 105203453 105204185 113003480
+            MPHA: 105830426
+            AEC: 105144797
+            ACEP: 105624072
+            PBAR: 105426660
+            VEM: 105557622
+            HST: 105187135
+            DQU: 106744067
+            CFO: 105252649
+            FEX: 115234327
+            LHU: 105674651
+            PGC: 109861802
+            OBO: 105281931
+            PCF: 106793889
+            PFUC: 122526549
+            VPS: 122634421
+            NVI: 100113525
+            CSOL: 105360908
+            MDL: 103574018 103575546
+            TCA: 664311
+            DPA: 109534878
+            ATD: 109595167
+            NVL: 108556546
+            BMOR: 101736226
+            BMAN: 114248437
+            DPL: KGM_212873
+            BANY: 112054677
+            NIQ: 126775902
+            PMAC: 106708927
+            PPOT: 106101151
+            PXU: 106120319
+            PRAP: 111001233
+            PBX: 123718550
+            PNAP: 125054450
+            ZCE: 119828598
+            CCRC: 123699980
+            HAW: 110382146
+            HZE: 124640134
+            TNL: 113504959
+            SLIU: 111350206
+            OFU: 114353154
+            PXY: 105393340
+            API: 100168586(Blvrb) 100574136
+            DNX: 107162985
+            AGS: 114130365
+            RMD: 113557849
+            BTAB: 109043576
+            NLU: 111052374
+            PHU: Phum_PHUM514080
+            ZNE: 110828593
+            CSEC: 111868350
+            DPX: DAPPUDRAFT_230602
+            DMK: 116929398
+            DPZ: 124311410
+            PVM: 113830326
+            PMOO: 119585705
+            HAZT: 108664641
+            ISC: IscW_ISCW003581
+            DSV: 119458384
+            RSAN: 119373566
+            RMP: 119167602
+            TUT: 107359695 107367634
+            CSCU: 111640897
+            PTEP: 107444427
+            SDM: 118193070
+            LGI: LOTGIDRAFT_113739 LOTGIDRAFT_145414
+            PCAN: 112555334 112555727
+            HRJ: 124291888
+            MYI: 110441547 110448057 110462494
+            LAK: 106151286 106161246 106163455 106163456 106163458
+            NVE: 5503663
+            EPA: 110232712 110232713
+            ADF: 107351009
+            AMIL: 114961956
+            PDAM: 113669019 113669042 113678890 113678891
+            SPIS: 111322492 111322494 111325275 111325299
+            GTT: GUITHDRAFT_77488
+            NGR: NAEGRDRAFT_69441 NAEGRDRAFT_71868(FM182)
+DBLINKS     ExplorEnz - The Enzyme Database: 1.5.1.30
+            IUBMB Enzyme Nomenclature: 1.5.1.30
+            ExPASy - ENZYME nomenclature database: 1.5.1.30
+            BRENDA, the Enzyme Database: 1.5.1.30
+            CAS: 56626-29-0
+///

@@ -1,0 +1,582 @@
+ENTRY       EC 4.1.1.90                 Enzyme
+NAME        peptidyl-glutamate 4-carboxylase;
+            vitamin K-dependent carboxylase;
+            gamma-glutamyl carboxylase;
+            peptidyl-glutamate 4-carboxylase (2-methyl-3-phytyl-1,4-naphthoquinone-epoxidizing)
+CLASS       Lyases;
+            Carbon-carbon lyases;
+            Carboxy-lyases
+SYSNAME     peptidyl-glutamate 4-carboxylase (2-methyl-3-phytyl-1,4-naphthoquinol-epoxidizing)
+REACTION    peptidyl-4-carboxyglutamate + 2,3-epoxyphylloquinone + H2O = peptidyl-glutamate + CO2 + O2 + phylloquinol [RN:R05144]
+ALL_REAC    R05144;
+            (other) R09991
+SUBSTRATE   peptidyl-4-carboxyglutamate [CPD:C06246];
+            2,3-epoxyphylloquinone [CPD:C05849];
+            H2O [CPD:C00001]
+PRODUCT     peptidyl-glutamate [CPD:C06247];
+            CO2 [CPD:C00011];
+            O2 [CPD:C00007];
+            phylloquinol [CPD:C03313]
+COMMENT     The enzyme can use various vitamin-K derivatives, including menaquinol, but does not contain iron. The mechanism appears to involve the generation of a strong base by oxygenation of vitamin K. It catalyses the post-translational carboxylation of glutamate residues of several proteins of the blood-clotting system. 9--12 glutamate residues are converted to 4-carboxyglutamate (Gla) in a specific domain of the target protein. The 4-pro-S hydrogen of the glutamate residue is removed [5] and there is an inversion of stereochemistry at this position [6].
+HISTORY     EC 4.1.1.90 created 2009, modified 2011
+REFERENCE   1  [PMID:7569894]
+  AUTHORS   Dowd P, Hershline R, Ham SW, Naganathan S
+  TITLE     Vitamin K and energy transduction: a base strength amplification mechanism.
+  JOURNAL   Science 269:1684-91 (1995)
+            DOI:10.1126/science.7569894
+REFERENCE   2  [PMID:10068650]
+  AUTHORS   Furie B, Bouchard BA, Furie BC
+  TITLE     Vitamin K-dependent biosynthesis of gamma-carboxyglutamic acid.
+  JOURNAL   Blood 93:1798-808 (1999)
+REFERENCE   3  [PMID:17073445]
+  AUTHORS   Rishavy MA, Hallgren KW, Yakubenko AV, Shtofman RL, Runge KW, Berkner KL
+  TITLE     Bronsted analysis reveals Lys218 as the carboxylase active site base that deprotonates vitamin K hydroquinone to initiate vitamin K-dependent protein carboxylation.
+  JOURNAL   Biochemistry 45:13239-48 (2006)
+            DOI:10.1021/bi0609523
+  SEQUENCE  [hsa:2677]
+REFERENCE   4  [PMID:17935315]
+  AUTHORS   Silva PJ, Ramos MJ
+  TITLE     Reaction mechanism of the vitamin K-dependent glutamate carboxylase: a computational study.
+  JOURNAL   J Phys Chem B 111:12883-7 (2007)
+            DOI:10.1021/jp0738208
+REFERENCE   5  [PMID:6150930]
+  AUTHORS   Decottignies-Le Marechal P, Ducrocq C, Marquet A, Azerad R
+  TITLE     The stereochemistry of hydrogen abstraction in vitamin K-dependent carboxylation.
+  JOURNAL   J Biol Chem 259:15010-2 (1984)
+REFERENCE   6  [PMID:1931973]
+  AUTHORS   Dubois J, Dugave C, Foures C, Kaminsky M, Tabet JC, Bory S, Gaudry M, Marquet A
+  TITLE     Vitamin K dependent carboxylation: determination of the stereochemical course using 4-fluoroglutamyl-containing substrate.
+  JOURNAL   Biochemistry 30:10506-12 (1991)
+            DOI:10.1021/bi00107a020
+REFERENCE   7  [PMID:22516721]
+  AUTHORS   Rishavy MA, Berkner KL
+  TITLE     Vitamin K oxygenation, glutamate carboxylation, and processivity: defining the three critical facets of catalysis by the vitamin K-dependent carboxylase.
+  JOURNAL   Adv Nutr 3:135-48 (2012)
+            DOI:10.3945/an.111.001719
+PATHWAY     ec00130  Ubiquinone and other terpenoid-quinone biosynthesis
+            ec01100  Metabolic pathways
+            ec01110  Biosynthesis of secondary metabolites
+ORTHOLOGY   K10106  vitamin K-dependent gamma-carboxylase
+GENES       HSA: 2677(GGCX)
+            PTR: 459364(GGCX)
+            PPS: 100979139(GGCX)
+            GGO: 101133597(GGCX)
+            PON: 100171564(GGCX)
+            NLE: 100605566(GGCX)
+            HMH: 116484114(GGCX)
+            MCC: 695628(GGCX)
+            MCF: 102116153(GGCX)
+            MTHB: 126933385
+            MNI: 105465382(GGCX)
+            CSAB: 103219944(GGCX)
+            CATY: 105587647(GGCX)
+            PANU: 101020748(GGCX)
+            TGE: 112636902(GGCX)
+            MLEU: 105528850(GGCX)
+            RRO: 104677047(GGCX)
+            RBB: 108518115(GGCX)
+            TFN: 117062132(GGCX)
+            PTEH: 111551132(GGCX)
+            CANG: 105527602(GGCX)
+            CJC: 100412061(GGCX)
+            SBQ: 101035344(GGCX)
+            CIMI: 108295705(GGCX)
+            CSYR: 103250138(GGCX)
+            MMUR: 105876590(GGCX)
+            LCAT: 123637123(GGCX)
+            PCOQ: 105810269(GGCX)
+            OGA: 100953290(GGCX)
+            MMU: 56316(Ggcx)
+            MCAL: 110295983(Ggcx)
+            MPAH: 110315938(Ggcx)
+            RNO: 81716(Ggcx)
+            MCOC: 116099081(Ggcx)
+            ANU: 117714830(Ggcx)
+            MUN: 110558893(Ggcx)
+            CGE: 100774482(Ggcx)
+            MAUA: 101823033(Ggcx)
+            PLEU: 114681594(Ggcx)
+            MORG: 121441057(Ggcx)
+            MFOT: 126495260
+            AAMP: 119806379(Ggcx)
+            NGI: 103739792(Ggcx)
+            HGL: 101703456(Ggcx)
+            CPOC: 100730272(Ggcx)
+            CCAN: 109686177(Ggcx)
+            DORD: 106000221(Ggcx)
+            DSP: 122116883(Ggcx)
+            NCAR: 124963392
+            OCU: 100346091
+            OPI: 101522968(GGCX)
+            TUP: 102479702(GGCX)
+            GVR: 103594511(GGCX)
+            CFA: 475769(GGCX)
+            CLUD: 112664313(GGCX)
+            VVP: 112916676(GGCX)
+            VLG: 121491115(GGCX)
+            AML: 100477985(GGCX)
+            UMR: 103671848(GGCX)
+            UAH: 113243151(GGCX)
+            UAR: 123799658(GGCX)
+            ELK: 111147897 111148155
+            LLV: 125110018
+            MPUF: 101674852(GGCX)
+            NVS: 122915050(GGCX)
+            ORO: 101380661(GGCX)
+            EJU: 114203728 114203729
+            ZCA: 113937957(GGCX)
+            MLX: 118007911(GGCX)
+            NSU: 110587403(GGCX)
+            LWW: 102747287(GGCX)
+            FCA: 101085622(GGCX)
+            PYU: 121019159(GGCX)
+            PBG: 122497107(GGCX)
+            LRUF: 124503019
+            PTG: 102962433(GGCX)
+            PPAD: 109263806(GGCX)
+            AJU: 106978202(GGCX)
+            HHV: 120220500(GGCX)
+            BTA: 281190(GGCX)
+            BOM: 102277857(GGCX)
+            BIU: 109566174(GGCX)
+            BBUB: 102393009(GGCX)
+            BBIS: 105004558(GGCX)
+            CHX: 102170242(GGCX)
+            OAS: 443129(GGCX)
+            ODA: 120851488(GGCX)
+            CCAD: 122441738(GGCX)
+            SSC: 100620337(GGCX)
+            CFR: 102506387(GGCX)
+            CBAI: 105072101(GGCX)
+            CDK: 105104153(GGCX)
+            VPC: 102543119(GGCX)
+            BACU: 103007146(GGCX)
+            LVE: 103089680(GGCX)
+            OOR: 101285440(GGCX)
+            DLE: 111165448(GGCX)
+            PCAD: 102985096(GGCX)
+            PSIU: 116764387(GGCX)
+            ECB: 100067312(GGCX)
+            EPZ: 103548273(GGCX)
+            EAI: 106838601(GGCX)
+            MYB: 102242720(GGCX)
+            MYD: 102767774(GGCX)
+            MMYO: 118668788(GGCX)
+            MLF: 102429671(GGCX)
+            MNA: 107528662(GGCX)
+            PKL: 118717610(GGCX)
+            HAI: 109371334(GGCX)
+            DRO: 112302990(GGCX)
+            SHON: 118982322(GGCX)
+            AJM: 119059873(GGCX)
+            PDIC: 114499213(GGCX)
+            PHAS: 123811894(GGCX)
+            MMF: 118630499(GGCX)
+            RFQ: 117032921(GGCX)
+            PALE: 102898204(GGCX)
+            PGIG: 120594588(GGCX)
+            PVP: 105298516(GGCX)
+            RAY: 107506180(GGCX)
+            MJV: 108405890(GGCX)
+            TOD: 119259131(GGCX)
+            SARA: 101551669(GGCX)
+            LAV: 100675417(GGCX)
+            TMU: 101340769
+            ETF: 101638327(GGCX)
+            DNM: 101415430(GGCX)
+            MDO: 100030057(GGCX)
+            GAS: 123236676(GGCX)
+            SHR: 116421248(GGCX)
+            AFZ: 127547440
+            PCW: 110196278(GGCX)
+            OAA: 100077833(GGCX)
+            PCOC: 116231292(GGCX)
+            MGP: 104916860
+            CJO: 107323599(GGCX)
+            NMEL: 110387173(GGCX)
+            AFUL: 116499300(GGCX)
+            TGU: 100221126(GGCX)
+            LSR: 110478265(GGCX)
+            PMOA: 120504920(GGCX)
+            OTC: 121346663(GGCX)
+            PRUF: 121359598(GGCX)
+            FAB: 101818545(GGCX)
+            PHI: 102110670(GGCX)
+            PMAJ: 107213872(GGCX)
+            CCAE: 111944157(GGCX)
+            CCW: 104683151(GGCX)
+            CBRC: 103622636(GGCX)
+            TALA: 116963810(GGCX)
+            ACHC: 115349897(GGCX)
+            AGEN: 126051622
+            AAM: 106493802(GGCX)
+            AROW: 112961654(GGCX)
+            DNE: 112995819(GGCX)
+            SCAM: 104148909(GGCX)
+            ASN: 102383382(GGCX)
+            AMJ: 106737680
+            CPOO: 109317369(GGCX)
+            GGN: 109295521(GGCX)
+            PSS: 102449866(GGCX)
+            CMY: 102930896(GGCX)
+            CPIC: 101940387(GGCX)
+            TST: 117872830(GGCX)
+            CABI: 116830718(GGCX)
+            MRV: 120398325(GGCX)
+            ACS: 100555036(ggcx)
+            PVT: 110072205(GGCX)
+            SUND: 121933178(GGCX)
+            PBI: 103064362(GGCX)
+            PMUR: 107283246(GGCX)
+            CTIG: 120299414 120320110
+            TSR: 106550210(GGCX)
+            PGUT: 117673367(GGCX)
+            VKO: 123016752(GGCX)
+            PMUA: 114602665(GGCX)
+            ZVI: 118086699(GGCX)
+            GJA: 107120342(GGCX)
+            STOW: 125441520(GGCX)
+            XLA: 444473(ggcx.L)
+            XTR: 100144666(ggcx)
+            NPR: 108786501(GGCX)
+            RTEM: 120933026(GGCX)
+            BBUF: 120986144(GGCX)
+            BGAR: 122927405(GGCX)
+            DRE: 557240(ggcx)
+            SRX: 107713363 107744113
+            SANH: 107686456 107688460
+            SGH: 107562573 107569403
+            CCAR: 109052005 109052006
+            CAUA: 113054121(ggcx)
+            CGIB: 128021367
+            PPRM: 120481998(ggcx)
+            MAMB: 125256553(ggcx)
+            CIDE: 127520621
+            MASI: 127432741
+            IPU: 108276729(ggcx)
+            PHYP: 113544161(ggcx)
+            SMEO: 124393922(ggcx)
+            TFD: 113661292(ggcx)
+            AMEX: 103037933(ggcx)
+            EEE: 113575128(ggcx)
+            TRU: 101067681(ggcx)
+            TNG: GSTEN00017326G001
+            LCO: 104923320(ggcx)
+            NCC: 104944448(ggcx)
+            CGOB: 115016566(ggcx)
+            ELY: 117269650(ggcx)
+            EFO: 125905640(ggcx)
+            PLEP: 121959554(ggcx)
+            SLUC: 116035102(ggcx)
+            ECRA: 117959301(ggcx)
+            PFLV: 114571490(ggcx)
+            GAT: 120832229(ggcx)
+            PPUG: 119226506(ggcx)
+            MSAM: 119914441(ggcx)
+            CUD: 121524933(ggcx)
+            ALAT: 119030073(ggcx)
+            MZE: 101484617(ggcx)
+            ONL: 100703429(ggcx)
+            OAU: 116322404(ggcx)
+            OLA: 101172424(ggcx)
+            OML: 112163202(ggcx)
+            XMA: 102224466(ggcx)
+            XCO: 114149555(ggcx)
+            XHE: 116724289(ggcx)
+            PRET: 103473687(ggcx)
+            PFOR: 103148465(ggcx)
+            PLAI: 106942210(ggcx)
+            PMEI: 106927956(ggcx)
+            GAF: 122846891(ggcx)
+            CVG: 107092698(ggcx)
+            CTUL: 119771594(ggcx)
+            GMU: 124872326(ggcx)
+            NFU: 107372879(ggcx)
+            KMR: 108232694(ggcx)
+            ALIM: 106514510(ggcx)
+            NWH: 119425080(ggcx)
+            AOCE: 111568361(ggcx)
+            MCEP: 124996587(ggcx)
+            CSEM: 103390489(ggcx)
+            POV: 109626324(ggcx)
+            SSEN: 122781970(ggcx)
+            HHIP: 117772029(ggcx)
+            HSP: 118125659(ggcx)
+            LCF: 108879865
+            SDU: 111234176(ggcx)
+            SLAL: 111668085(ggcx)
+            XGL: 120806113(ggcx)
+            HCQ: 109513153(ggcx)
+            SSCV: 125980049
+            BPEC: 110160481(ggcx)
+            MALB: 109963473(ggcx)
+            BSPL: 114866779(ggcx)
+            SASA: 106563193
+            STRU: 115204185(ggcx)
+            OTW: 112231088(ggcx)
+            OMY: 110509897
+            OGO: 124007218(ggcx)
+            ONE: 115101259
+            SALP: 111964110(ggcx)
+            SNH: 120021309(ggcx)
+            CCLU: 121541763(ggcx)
+            ELS: 105014991(ggcx)
+            SFM: 108931977(ggcx)
+            PKI: 111849976(ggcx)
+            AANG: 118213230(ggcx)
+            LOC: 102682147(ggcx)
+            PSPA: 121303076(ggcx)
+            ARUT: 117397839(ggcx) 117969799
+            PSEX: 120539376(ggcx)
+            LCM: 102360484(GGCX)
+            CMK: 103187831(ggcx)
+            RTP: 109921044 109921250 109926109
+            BFO: 118417156 118425987
+            BBEL: 109465908 109473717
+            CIN: 780874(ggcx)
+            SCLV: 120347316
+            SPU: 764318
+            APLC: 110974161
+            AJC: 117109834
+            SKO: 102801874
+            DME: Dmel_CG13927(GC)
+            DER: 6545421
+            DSE: 6610356
+            DSI: Dsimw501_GD13462(Dsim_GD13462)
+            DYA: Dyak_GE20943
+            DAN: 6506657
+            DSR: 110190904
+            DPO: 4812497
+            DPE: 6600635
+            DMN: 108151764
+            DWI: 6646452
+            DGR: 6557678
+            DMO: Dmoj_GI12843
+            DAZ: 108614065
+            DNV: 108652044
+            DHE: 111602887
+            DVI: 6624515
+            CCAT: 101448340
+            BOD: 106619240
+            RZE: 108361437
+            MDE: 101889022
+            SCAC: 106092440
+            LCQ: 111686371
+            LSQ: 119604676
+            AGA: AgaP_AGAP006363
+            ACOZ: 120952145
+            AARA: 120895591
+            ASTE: 118509529
+            AAG: 110675715 5575300
+            AALB: 109426646
+            CQU: CpipJ_CPIJ007343
+            CPII: 120430322 120430752
+            BCOO: 119080695
+            AME: 551869
+            ACER: 108003849
+            ALAB: 122720871
+            BIM: 100749841
+            BBIF: 117208219
+            BVK: 117236017
+            BVAN: 117159183
+            BTER: 100645769
+            BPYO: 122573975
+            OBB: 114875533
+            MGEN: 117225787
+            NMEA: 116430835
+            CGIG: 122395747
+            SOC: 105204060
+            MPHA: 105840699
+            AEC: 105149615
+            ACEP: 105624485
+            PBAR: 105421986
+            VEM: 105568543
+            HST: 105191645
+            DQU: 106746013
+            CFO: 105250361
+            FEX: 115239838
+            LHU: 105675652
+            PGC: 109860098
+            OBO: 105281857
+            PCF: 106787857
+            PFUC: 122516511
+            VPS: 122628445
+            NVI: 100123716
+            CSOL: 105369056
+            TPRE: 106650633
+            MDL: 103571031
+            CGLO: 123272631
+            FAS: 105266142
+            DAM: 107048203
+            AGIF: 122853184
+            CCIN: 107270980
+            TCA: 659418
+            SOY: 115883290 115888516
+            ATD: 109594009
+            CSET: 123310822
+            AGB: 108907226
+            LDC: 111512065
+            NVL: 108568265
+            PPYR: 116171578
+            OTU: 111419541
+            MSEX: 115452079 115455214
+            DPL: KGM_210061
+            BANY: 112047340
+            PMAC: 106710934
+            PPOT: 106102403
+            PXU: 106125099
+            PRAP: 110993504
+            PBX: 123714439
+            PNAP: 125060538
+            ZCE: 119831341
+            CCRC: 123692608
+            HAW: 110374548
+            HZE: 124630617
+            TNL: 113502696
+            SLIU: 111349422
+            OFU: 114358170
+            PXY: 105388304
+            CFEL: 113375535
+            API: 100161672
+            DNX: 107166675
+            AGS: 114126066
+            RMD: 113548907
+            CLEC: 106669169
+            HHAL: 106691853
+            NLU: 111051519
+            PHU: Phum_PHUM216730
+            FOC: 113201688
+            TPAL: 117653491
+            ZNE: 110828681
+            CSEC: 111871355
+            SGRE: 126320553
+            FCD: 110841759
+            DPX: DAPPUDRAFT_301381
+            DMK: 116932807
+            DPZ: 124349512
+            PVM: 113801056
+            PJA: 122255838
+            PCHN: 125042198
+            HAME: 121859758
+            PCLA: 123759075
+            PTRU: 123519942
+            ISC: IscW_ISCW020855
+            DSV: 119438165
+            RSAN: 119379132
+            RMP: 119162117
+            TUT: 107364188
+            DPTE: 113793855
+            DFR: 124489784
+            CSCU: 111628100
+            PTEP: 107438863
+            SDM: 118182381
+            LGI: LOTGIDRAFT_182855
+            PCAN: 112576487
+            BGT: 106056263
+            GAE: 121392496
+            HRF: 124131351
+            HRJ: 124278444 124281086
+            CRG: 105332560
+            MYI: 110441576 110455778 110455786 110467012
+            PMAX: 117318519 117339305
+            MCAF: 127709123
+            MMER: 123562038
+            OBI: 106881997
+            OSN: 115214216
+            LAK: 106156062 106176385
+            NVE: 5510609 5513238
+            EPA: 110234296 110252598
+            ATEN: 116302643 116307421
+            ADF: 107336790
+            AMIL: 114961251
+            PDAM: 113669402
+            SPIS: 111343419
+            DGT: 114527632 114540605
+            XEN: 124453722
+            HMG: 101241467
+            TAD: TRIADDRAFT_24664 TRIADDRAFT_30063 TRIADDRAFT_30165
+            ACAN: ACA1_144060
+            FCY: FRACYDRAFT_249245
+            GAI: IMCC3135_10460 IMCC3135_16340
+            MSD: MYSTI_05511
+            MFB: MFUL124B02_30040
+            CFUS: CYFUS_007648
+            SCL: sce5891 sce9136
+            CCRO: CMC5_035660(hsdR) CMC5_063260(hsdR)
+            THAA: CFI11_18630
+            PSL: Psta_4704
+            RUL: UC8_52280
+            BVO: Pan97_29110
+            AMUC: Pan181_23390
+            PLS: VT03_27170
+            FMR: Fuma_05241 Fuma_05242
+            SDYN: Mal52_09050 Mal52_31760 Mal52_43250
+            RHOZ: GXP67_23550
+            FLI: Fleli_0657
+            RTI: DC20_08405
+            ADD: HUW48_25145
+            ASWU: HUW51_07865
+            FBT: D770_15920
+            GFL: GRFL_1667
+            ZPR: ZPR_0452
+            CAT: CA2559_04035
+            FBC: FB2170_04190
+            MARM: YQ22_10150
+            MART: BTR34_10190
+            MARB: CJ263_05790
+            MARE: EJ994_11355
+            CAO: Celal_1898
+            CLY: Celly_1768
+            CLH: IX49_08705
+            CBAL: M667_06850
+            KDI: Krodi_0994
+            DOK: MED134_08386
+            DDO: I597_0466
+            DOD: DCS32_07030
+            LAN: Lacal_0765
+            LVN: BWR22_02390
+            LACI: CW733_11330
+            ZGA: ZOBELLIA_2135(ggcX)
+            MRS: Murru_1668
+            MUT: GVT53_19070
+            SPON: HME9304_01912(ggcX)
+            AEV: EI546_12220
+            PTQ: P700755_001523
+            NDO: DDD_0997
+            NOM: AAT17_05750
+            NSD: BST91_00125
+            NOB: CW736_05925
+            NOJ: EJ995_04355
+            MYR: MYRA21_1416
+            MPW: MPR_0249
+            MOD: AS202_06700
+            MYZ: BK054_06570
+            WIN: WPG_1078
+            WIJ: BWZ20_08030
+            SYI: SB49_10350
+            FOP: FNB79_04915
+            SEON: BWZ22_05960
+            OLL: CW732_05055
+            OAQ: DZC78_11875
+            AUE: C5O00_04095
+            KOS: KORDIASMS9_01603
+            KAN: IMCC3317_34070
+            AQB: D1818_12520
+            AQA: D1815_18495
+            AQD: D1816_14060
+            PSYN: E9099_05175
+            AFLA: FHG64_08135
+            MESQ: C7H62_1343
+            GAA: HX109_07995
+            CAGG: HYG79_05565
+            ALTI: ALE3EI_1122
+            ORH: Ornrh_0596
+            ORI: Q785_06760
+            EFAL: FH779_03060
+            ESTE: HNV03_01385
+            NLI: G3M70_11240
+DBLINKS     ExplorEnz - The Enzyme Database: 4.1.1.90
+            IUBMB Enzyme Nomenclature: 4.1.1.90
+            ExPASy - ENZYME nomenclature database: 4.1.1.90
+            BRENDA, the Enzyme Database: 4.1.1.90
+///

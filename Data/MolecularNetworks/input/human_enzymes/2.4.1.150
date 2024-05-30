@@ -1,0 +1,309 @@
+ENTRY       EC 2.4.1.150                Enzyme
+NAME        N-acetyllactosaminide beta-1,6-N-acetylglucosaminyltransferase;
+            GCNT2 (gene name);
+            GCNT3 (gene name);
+            IGnT;
+            I-branching beta1,6-N-acetylglucosaminyltransferase;
+            N-acetylglucosaminyltransferase;
+            uridine diphosphoacetylglucosamine-acetyllactosaminide beta1->6-acetylglucosaminyltransferase;
+            Galbeta1->4GlcNAc-R beta1->6 N-acetylglucosaminyltransferase;
+            UDP-N-acetyl-D-glucosamine:beta-D-galactosyl-1,4-N-acetyl-D-glucosaminide beta-1,6-N-acetyl-D-glucosaminyltransferase
+CLASS       Transferases;
+            Glycosyltransferases;
+            Hexosyltransferases
+SYSNAME     UDP-N-acetyl-alpha-D-glucosamine:beta-D-galactosyl-(1->4)-N-acetyl-beta-D-glucosaminyl-(1->3)-beta-D-galactosyl-(1->4)-N-acetyl-beta-D-glucosaminide 6-beta-N-acetylglucosaminyltransferase (configuration-inverting)
+REACTION    UDP-N-acetyl-alpha-D-glucosamine + beta-D-Gal-(1->4)-beta-D-GlcNAc-(1->3)-beta-D-Gal-(1->4)-beta-D-GlcNAc-R = UDP + beta-D-Gal-(1->4)-beta-D-GlcNAc-(1->3)-[beta-D-GlcNAc-(1->6)]-beta-D-Gal-(1->4)-beta-D-GlcNAc-R [RN:R11879]
+ALL_REAC    R11879 > R06189(G);
+            (other) R02790 R04654 R06013(G)
+SUBSTRATE   UDP-N-acetyl-alpha-D-glucosamine [CPD:C00043];
+            beta-D-Gal-(1->4)-beta-D-GlcNAc-(1->3)-beta-D-Gal-(1->4)-beta-D-GlcNAc-R [CPD:C21742]
+PRODUCT     UDP [CPD:C00015];
+            beta-D-Gal-(1->4)-beta-D-GlcNAc-(1->3)-[beta-D-GlcNAc-(1->6)]-beta-D-Gal-(1->4)-beta-D-GlcNAc-R [CPD:C21743]
+COMMENT     The enzyme acts on poly-N-acetyllactosamine [glycan chains of beta-D-galactosyl-(1->4)-N-acetyl-D-glucosamine units connected by beta(1,3) linkages] attached to proteins or lipids. It transfers a GlcNAc residue by beta(1,6)-linkage to galactosyl residues close to non-reducing terminals, introducing a branching pattern known as I branching.
+HISTORY     EC 2.4.1.150 created 1984 (EC 2.4.1.164 created 1989, incorporated 2016), modified 2017
+REFERENCE   1  [PMID:6219989]
+  AUTHORS   van den Eijnden DH, Winterwerp H, Smeeman P, Schiphorst WE.
+  TITLE     Novikoff ascites tumor cells contain N-acetyllactosaminide beta 1 leads to 3 and beta 1 leads to 6 N-acetylglucosaminyltransferase activity.
+  JOURNAL   J Biol Chem 258:3435-7 (1983)
+REFERENCE   2  [PMID:6238026]
+  AUTHORS   Basu M, Basu S.
+  TITLE     Biosynthesis in vitro of Ii core glycosphingolipids from neolactotetraosylceramide by beta 1-3- and beta 1-6-N-acetylglucosaminyltransferases from mouse T-lymphoma.
+  JOURNAL   J Biol Chem 259:12557-62 (1984)
+REFERENCE   3  [PMID:6490658]
+  AUTHORS   Piller F, Cartron JP, Maranduba A, Veyrieres A, Leroy Y, Fournet B
+  TITLE     Biosynthesis of blood group I antigens. Identification of a UDP-GlcNAc:GlcNAc beta 1-3Gal(-R) beta 1-6(GlcNAc to Gal) N-acetylglucosaminyltransferase in hog gastric mucosa.
+  JOURNAL   J Biol Chem 259:13385-90 (1984)
+REFERENCE   4  [PMID:7579796]
+  AUTHORS   Bierhuizen MF, Maemura K, Kudo S, Fukuda M
+  TITLE     Genomic organization of core 2 and I branching beta-1,6-N-acetylglucosaminyltransferases. Implication for evolution of the beta-1,6-N-acetylglucosaminyltransferase gene family.
+  JOURNAL   Glycobiology 5:417-25 (1995)
+            DOI:10.1093/glycob/5.4.417
+  SEQUENCE  [hsa:2651]
+REFERENCE   5  [PMID:10092606]
+  AUTHORS   Ujita M, McAuliffe J, Suzuki M, Hindsgaul O, Clausen H, Fukuda MN, Fukuda M
+  TITLE     Regulation of I-branched poly-N-acetyllactosamine synthesis. Concerted actions by I-extension enzyme, I-branching enzyme, and beta1,4-galactosyltransferase I.
+  JOURNAL   J Biol Chem 274:9296-304 (1999)
+            DOI:10.1074/jbc.274.14.9296
+REFERENCE   6  [PMID:9915862]
+  AUTHORS   Yeh JC, Ong E, Fukuda M
+  TITLE     Molecular cloning and expression of a novel beta-1, 6-N-acetylglucosaminyltransferase that forms core 2, core 4, and I branches.
+  JOURNAL   J Biol Chem 274:3215-21 (1999)
+            DOI:10.1074/jbc.274.5.3215
+  SEQUENCE  [hsa:9245]
+PATHWAY     ec00601  Glycosphingolipid biosynthesis - lacto and neolacto series
+            ec01100  Metabolic pathways
+ORTHOLOGY   K00742  N-acetyllactosaminide beta-1,6-N-acetylglucosaminyltransferase
+GENES       HSA: 2651(GCNT2)
+            PTR: 100610053 462428(GCNT2)
+            PPS: 100979555 100983940(GCNT2)
+            GGO: 101132299 101133045 109027295
+            PON: 100173016(GCNT2) 100449266
+            NLE: 100600035 100601598(GCNT2)
+            HMH: 116460012(GCNT2) 116460413
+            MCC: 697468(GCNT2)
+            MCF: 102131882(GCNT2)
+            MTHB: 126953872
+            MNI: 105482411(GCNT2) 105487415 105487416
+            CSAB: 103222182 103222183
+            CATY: 105572520 105572521
+            PANU: 101020180(GCNT2) 103883455 103883457
+            TGE: 112623439(GCNT2) 112623440
+            MLEU: 105546449 105546450
+            RRO: 104656690 104671974
+            RBB: 108521659 108521996 108522006 108522008 108528720
+            TFN: 117086715(GCNT2)
+            PTEH: 111521788(GCNT2)
+            CANG: 105526628(GCNT2) 105526629 105526805
+            CJC: 100389624(GCNT2) 100397136 100404131 100411905(GCNT2) 100895187
+            SBQ: 101030514(GCNT2) 101044056
+            CIMI: 108302945 108302947 108302949
+            CSYR: 103257198 103265522 103265534
+            MMUR: 105865110 105865180 105865181(GCNT2)
+            LCAT: 123638228 123638229 123638230
+            PCOQ: 105806482 105806483 105806487 105824853 105824854
+            OGA: 100944503 100956694 100957010 105886840
+            MMU: 14538(Gcnt2)
+            MCAL: 110307912
+            MPAH: 110333783(Gcnt2)
+            RNO: 102549059 306860(Gcnt2)
+            MCOC: 116081738
+            ANU: 117713801 117714285 117714286(Gcnt2)
+            MUN: 110554603 110554604
+            CGE: 100760161 100763488 118238511
+            MAUA: 101824660(Gcnt2)
+            PLEU: 114692111 114692131
+            MORG: 121433997(Gcnt2)
+            MFOT: 126501511
+            AAMP: 119817452 119817453(Gcnt2)
+            NGI: 103732899(Gcnt2) 103732948
+            HGL: 101701828 101702179(Gcnt2) 101715209 101715564 101724068
+            CPOC: 100723536(Gcnt2)
+            CCAN: 109700881(Gcnt2) 109700883
+            DORD: 105985988 105985989
+            DSP: 122106996
+            NCAR: 124988358
+            OCU: 100356713 103349711
+            OPI: 101533291(GCNT2) 118758264
+            TUP: 102469358 102485510(GCNT2)
+            GVR: 103602336(GCNT2)
+            CFA: 488215(GCNT2)
+            CLUD: 112658449(GCNT2)
+            VVP: 112920550 112920551
+            VLG: 121499590(GCNT2)
+            AML: 100468405(GCNT2) 117802286
+            UMR: 103664926(GCNT2)
+            UAH: 113264440 113264441
+            UAR: 123801609 123801610
+            ELK: 111156684 111156685 111156720
+            LLV: 125102205 125102206
+            MPUF: 101681334(GCNT2)
+            NVS: 122912699(GCNT2)
+            ORO: 101380605 101383306 101383589
+            EJU: 114212530(GCNT2) 114212531
+            ZCA: 113926599(GCNT2)
+            MLX: 118027214 118027450
+            NSU: 110586640
+            LWW: 102727112(GCNT2) 102728644
+            FCA: 101094925(GCNT2) 109491352
+            PYU: 121020542(GCNT2) 121020543
+            PBG: 122489246(GCNT2)
+            LRUF: 124528243
+            PTG: 102972600(GCNT2)
+            PPAD: 109249650(GCNT2)
+            AJU: 106972037 113592392
+            HHV: 120231663(GCNT2) 120231665
+            BTA: 100848875 112443869 520336
+            BOM: 102276215 102276507 102277629 102277917
+            BIU: 109577218
+            BBUB: 102401082(GCNT2)
+            BBIS: 104985613 104985614
+            CHX: 100861326
+            OAS: 101106554
+            ODA: 120869900 120869903
+            CCAD: 122429708(GCNT2) 122429987
+            SSC: 100152566 102157807 110255306
+            CFR: 102520753(GCNT2)
+            CBAI: 105061625 105061626
+            CDK: 105101211(GCNT2)
+            VPC: 102531012(GCNT2)
+            BACU: 103007744 103010651(GCNT2)
+            LVE: 103088671 103088938 103089209
+            OOR: 101271548 101271797 101282851
+            DLE: 111181352(GCNT2) 111181354
+            PCAD: 102980967(GCNT2)
+            PSIU: 116761802(GCNT2) 116761803
+            ECB: 100063291
+            EPZ: 103559596 103559598(GCNT2)
+            EAI: 106833434(GCNT2)
+            MYB: 102245671 102245970(GCNT2)
+            MYD: 102770362(GCNT2) 102770649 102770938
+            MMYO: 118675060(GCNT2) 118675062
+            MLF: 102426091 111823016
+            MNA: 107530399 107530416 107530417
+            PKL: 118724427 118724428
+            HAI: 109377537(GCNT2)
+            DRO: 112297544(GCNT2)
+            SHON: 118986439(GCNT2)
+            AJM: 119034524 119034528 119034529
+            PDIC: 114496371 118500744
+            PHAS: 123820762 123820763
+            MMF: 118627206(GCNT2) 118627207
+            RFQ: 117026868(GCNT2)
+            PALE: 102877728 102898828
+            PGIG: 120598505 120598937(GCNT2) 120598938
+            PVP: 105300842 105300843
+            RAY: 107497201 107497202 107497203
+            MJV: 108396557(GCNT2)
+            TOD: 119251600 119251601 119253232
+            SARA: 101541384 101542179
+            LAV: 100662133 100674841 100675128 100675407 100675689
+            TMU: 101352763 101355412 101355931 101356187 101356441
+            ETF: 101638403 101639346 101647352(GCNT2)
+            DNM: 101424024(GCNT2) 111760113
+            MDO: 100027080(GCNT2) 100027097 100027131
+            GAS: 123231849 123254659 123254681
+            SHR: 100925756 116420643 116420653
+            AFZ: 127544181 127544182
+            PCW: 110191997 110192005 110224059 110224060 110224061
+            OAA: 100084006
+            GGA: 428479(GCNT2)
+            PCOC: 116226449 116226450 116241361
+            MGP: 100539032(GCNT2)
+            CJO: 107309590(GCNT2)
+            NMEL: 110394520 110394521
+            APLA: 101795771(GCNT2)
+            ACYG: 106034848 106041798
+            AFUL: 116485591 116485592
+            TGU: 115493561(GCNT2)
+            SCAN: 115483999(GCNT2)
+            PMOA: 120503483(GCNT2)
+            OTC: 121340411(GCNT2)
+            PRUF: 121357761(GCNT2)
+            GFR: 106631903(GCNT2)
+            FAB: 107603337(GCNT2)
+            PMAJ: 107215848(GCNT2)
+            CCAE: 111923931(GCNT2)
+            CCW: 109145064(GCNT2)
+            CBRC: 103613172(GCNT2)
+            ZAB: 102074701(GCNT2)
+            FPG: 101918293(GCNT2)
+            FCH: 102057507(GCNT2)
+            CLV: 102086182(GCNT2)
+            EGZ: 104127709(GCNT2) 104133970
+            NNI: 104021895 104021896
+            ACUN: 113476690(GCNT2)
+            TALA: 104363045(GCNT2)
+            PADL: 103919086(GCNT2)
+            AFOR: 103894363(GCNT2)
+            ACHC: 115352964(GCNT2)
+            HLE: 104835362(GCNT2)
+            AGEN: 126048702
+            GCL: 127012660 127012661
+            CCRI: 104155881 104166264
+            CSTI: 104562480(GCNT2)
+            EHS: 104505168 104515194
+            CMAC: 104474199(GCNT2)
+            MUI: 104543602(GCNT2)
+            LDI: 104351645(GCNT2)
+            MNB: 103773478(GCNT2)
+            OHA: 104326807(GCNT2)
+            NNT: 104405472(GCNT2)
+            PGUU: 104468166(GCNT2)
+            ACAR: 104527893(GCNT2)
+            CPEA: 104391656(GCNT2)
+            AVIT: 104276295(GCNT2)
+            CVF: 104285716 104286796
+            CUCA: 104062151(GCNT2)
+            TEO: 104371450
+            BRHI: 104499582(GCNT2)
+            AAM: 106482558(GCNT2)
+            AROW: 112965365(GCNT2)
+            NPD: 112947304(GCNT2)
+            TGT: 104566593 104567614(GCNT2)
+            DNE: 112991986(GCNT2)
+            SCAM: 104146145(GCNT2)
+            ASN: 102373136 102374392 106722091
+            AMJ: 102575341(GCNT2)
+            GGN: 109298522(GCNT2)
+            PSS: 102458109 102458349
+            CMY: 102930060(GCNT2)
+            CPIC: 101931709(GCNT2)
+            TST: 117871622 117873197
+            CABI: 116827966 116828588(GCNT2)
+            MRV: 120398881(GCNT2)
+            ACS: 100558219 100558415
+            PVT: 110080870 110080871
+            SUND: 121928724 121929100
+            PBI: 103065974
+            PMUR: 107282985(GCNT2)
+            CTIG: 120310841(GCNT2) 120315318
+            TSR: 106543763
+            PGUT: 117672478(GCNT2)
+            VKO: 123036189 123036194
+            PMUA: 114600911 114601371 114601373
+            ZVI: 118090127 118090174 118090429(GCNT2)
+            GJA: 107111763(GCNT2)
+            STOW: 125439305(GCNT2)
+            XLA: 108718735 432177(gcnt2.2.S) 432275(gcnt2.2.L)
+            XTR: 100038221(gcnt2.2) 100491539
+            NPR: 108788458 108788461
+            RTEM: 120940706 120940707
+            BBUF: 121001281 121001896
+            BGAR: 122938781 122939140
+            LOC: 102693956(gcnt2)
+            PSPA: 121313931
+            ARUT: 117394963
+            LCM: 102366551(GCNT2)
+            CMK: 103184570
+            RTP: 109937915
+            BFO: 118427322
+            CIN: 100175723
+            SCLV: 120330007
+            SPU: 115923646 578725 579029 763273
+            APLC: 110988200 110988201
+            AJC: 117100505
+            SKO: 100370818 100378232
+            LOA: LOAG_16642
+            HRO: HELRODRAFT_139499 HELRODRAFT_163385
+            LGI: LOTGIDRAFT_103000 LOTGIDRAFT_140870 LOTGIDRAFT_140905 LOTGIDRAFT_173237 LOTGIDRAFT_64655 LOTGIDRAFT_64882 LOTGIDRAFT_73453
+            PCAN: 112554326 112565138
+            BGT: 106058038 106058614 106060603
+            GAE: 121385625
+            HRF: 124125097
+            HRJ: 124253766 124269292 124270653
+            PMAX: 117318075
+            MMER: 123531800 123539824
+            OBI: 106872655
+            OVI: T265_04703 T265_10156
+            NVE: 5511223
+            ATEN: 116290394
+            ADF: 107329241
+            AMIL: 114974181
+            XEN: 124440557
+            AQU: 105315875
+DBLINKS     ExplorEnz - The Enzyme Database: 2.4.1.150
+            IUBMB Enzyme Nomenclature: 2.4.1.150
+            ExPASy - ENZYME nomenclature database: 2.4.1.150
+            BRENDA, the Enzyme Database: 2.4.1.150
+            CAS: 85638-40-0
+///

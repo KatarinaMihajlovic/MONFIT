@@ -1,0 +1,504 @@
+ENTRY       EC 3.1.3.108                Enzyme
+NAME        nocturnin;
+            NOCT (gene name);
+            nocturnin (curled);
+            MJ0109 (gene name);
+            NADP phosphatase;
+            NADPase
+CLASS       Hydrolases;
+            Acting on ester bonds;
+            Phosphoric-monoester hydrolases
+SYSNAME     NADPH 2'-phosphohydrolase
+REACTION    (1) NADPH + H2O = NADH + phosphate [RN:R12587];
+            (2) NADP+ + H2O = NAD+ + phosphate [RN:R00118]
+ALL_REAC    R00118 R12587
+SUBSTRATE   NADPH [CPD:C00005];
+            H2O [CPD:C00001];
+            NADP+ [CPD:C00006]
+PRODUCT     NADH [CPD:C00004];
+            phosphate [CPD:C00009];
+            NAD+ [CPD:C00003]
+COMMENT     The mammalian mitochondrial enzyme is a rhythmically expressed protein that regulates metabolism under the control of circadian clock. It has a slight preference for NADPH over NADP+. The archaeal enzyme, identified in Methanocaldococcus jannaschii, is bifunctional acting as NAD+ kinase (EC 2.7.1.23) and NADP+ phosphatase with a slight preference for NADP+ over NADPH.
+HISTORY     EC 3.1.3.108 created 2020
+REFERENCE   1  [PMID:18391451]
+  AUTHORS   Kawai S, Murata K
+  TITLE     Structure and function of NAD kinase and NADP phosphatase: key enzymes that regulate the intracellular balance of NAD(H) and NADP(H).
+  JOURNAL   Biosci Biotechnol Biochem 72:919-30 (2008)
+            DOI:10.1271/bbb.70738
+  SEQUENCE  [mja:MJ_0109]
+REFERENCE   2  [PMID:29860338]
+  AUTHORS   Abshire ET, Chasseur J, Bohn JA, Del Rizzo PA, Freddolino PL, Goldstrohm AC, Trievel RC
+  TITLE     The structure of human Nocturnin reveals a conserved ribonuclease domain that represses target transcript translation and abundance in cells.
+  JOURNAL   Nucleic Acids Res 46:6257-6270 (2018)
+            DOI:10.1093/nar/gky412
+  SEQUENCE  [hsa:25819]
+REFERENCE   3  [PMID:30389976]
+  AUTHORS   Estrella MA, Du J, Korennykh A
+  TITLE     Crystal Structure of Human Nocturnin Catalytic Domain.
+  JOURNAL   Sci Rep 8:16294 (2018)
+            DOI:10.1038/s41598-018-34615-0
+  SEQUENCE  [hsa:25819]
+REFERENCE   4  [PMID:31147539]
+  AUTHORS   Estrella MA, Du J, Chen L, Rath S, Prangley E, Chitrakar A, Aoki T, Schedl P, Rabinowitz J, Korennykh A
+  TITLE     The metabolites NADP(+) and NADPH are the targets of the circadian protein Nocturnin (Curled).
+  JOURNAL   Nat Commun 10:2367 (2019)
+            DOI:10.1038/s41467-019-10125-z
+  SEQUENCE  [hsa:25819]
+ORTHOLOGY   K18764  nocturnin
+GENES       HSA: 25819(NOCT)
+            PTR: 100611804(NOCT)
+            PPS: 100979611(NOCT)
+            GGO: 101133256(NOCT)
+            PON: 100449251(NOCT)
+            NLE: 100591529(NOCT)
+            HMH: 116464020(NOCT)
+            MCC: 100428993(NOCT)
+            MCF: 102134207(NOCT)
+            MTHB: 126954609
+            MNI: 105493258(NOCT)
+            CSAB: 103236274(NOCT)
+            CATY: 105580807(CCRN4L)
+            PANU: 100997677(NOCT)
+            TGE: 112624769(NOCT)
+            MLEU: 105543649(CCRN4L)
+            RRO: 104654345(NOCT)
+            RBB: 108536941(NOCT)
+            TFN: 117085922(NOCT)
+            PTEH: 111551937(NOCT)
+            CANG: 105513704(CCRN4L)
+            CJC: 100393251(NOCT)
+            SBQ: 101030297(CCRN4L)
+            CIMI: 108285596(NOCT)
+            CSYR: 103255271(NOCT)
+            MMUR: 105872360(NOCT)
+            LCAT: 123638565(NOCT)
+            PCOQ: 105818763(CCRN4L)
+            OGA: 100962419(NOCT)
+            MMU: 12457(Noct)
+            MCAL: 110291122(Noct)
+            MPAH: 110320210(Noct)
+            RNO: 310395(Noct)
+            MCOC: 116094444(Noct)
+            ANU: 117707840(Noct)
+            MUN: 110545133(Noct)
+            CGE: 100766002(Noct)
+            MAUA: 101830083(Noct)
+            PLEU: 114695851(Noct) 114707977
+            MORG: 121452881(Noct)
+            MFOT: 126499231
+            AAMP: 119825973(Noct)
+            NGI: 103742363(Noct)
+            HGL: 101710110(Noct)
+            CPOC: 100713041(Noct)
+            CCAN: 109691470(Noct)
+            DORD: 105995684(Noct)
+            DSP: 122127151(Noct)
+            NCAR: 124994353
+            OCU: 100348337
+            OPI: 101518231(NOCT)
+            TUP: 102502756(NOCT)
+            GVR: 103600636(CCRN4L)
+            CFA: 483818(NOCT)
+            CLUD: 112669290(NOCT)
+            VVP: 112934917(NOCT)
+            VLG: 121493119(NOCT)
+            AML: 100472917(NOCT)
+            UMR: 103657961(NOCT)
+            UAH: 113255683(NOCT)
+            UAR: 123793276(NOCT)
+            ELK: 111149080
+            LLV: 125093397
+            MPUF: 101692678(NOCT)
+            NVS: 122919185(NOCT)
+            ORO: 101365311(CCRN4L)
+            EJU: 114208164(NOCT)
+            ZCA: 113924598(NOCT)
+            MLX: 118022315(NOCT)
+            NSU: 110571230(NOCT)
+            LWW: 102737589(NOCT)
+            FCA: 101092681(NOCT)
+            PYU: 121029610(NOCT)
+            PBG: 122497251(NOCT)
+            LRUF: 124520050
+            PTG: 102965630(NOCT)
+            PPAD: 109249387(NOCT)
+            AJU: 106976192(NOCT)
+            HHV: 120243132(NOCT)
+            BTA: 540641(NOCT)
+            BOM: 102279918(NOCT)
+            BIU: 109571342(NOCT)
+            BBUB: 102399873(NOCT)
+            BBIS: 104981272(CCRN4L)
+            CHX: 102187886(NOCT)
+            OAS: 101117790(NOCT)
+            ODA: 120870925(NOCT)
+            CCAD: 122452524(NOCT)
+            SSC: 100513746(NOCT)
+            CFR: 102524312(NOCT)
+            CBAI: 105068704(CCRN4L)
+            CDK: 105087080(NOCT)
+            VPC: 102538495
+            BACU: 103003260(NOCT)
+            LVE: 103072303(CCRN4L)
+            OOR: 101283045(CCRN4L)
+            DLE: 111164860(NOCT)
+            PCAD: 102992628(NOCT)
+            PSIU: 116753825(NOCT)
+            ECB: 100071468(NOCT)
+            EPZ: 103549003(NOCT)
+            EAI: 106837991(NOCT)
+            MYB: 102260842(NOCT)
+            MYD: 102759031(NOCT)
+            MMYO: 118651580 118658853(NOCT)
+            MLF: 102428003(NOCT)
+            MNA: 107534921(NOCT)
+            PKL: 118711607(NOCT)
+            HAI: 109394194(NOCT)
+            DRO: 112312425(NOCT)
+            SHON: 118995459(NOCT)
+            AJM: 119034879(NOCT)
+            PDIC: 114504158(NOCT)
+            PHAS: 123813997(NOCT)
+            MMF: 118615874(NOCT)
+            RFQ: 117038246(NOCT)
+            PALE: 102883027(NOCT)
+            PGIG: 120613209(NOCT)
+            PVP: 105301556(NOCT)
+            RAY: 107515347(NOCT)
+            MJV: 108407063(NOCT)
+            TOD: 119234772(NOCT)
+            SARA: 101549546(CCRN4L)
+            LAV: 100677271(NOCT)
+            TMU: 101347454
+            ETF: 101647778(NOCT)
+            DNM: 101427251(NOCT)
+            MDO: 100027658(NOCT)
+            GAS: 123251016(NOCT)
+            SHR: 100930989(NOCT)
+            AFZ: 127540638
+            PCW: 110194902(NOCT)
+            OAA: 100078856(NOCT)
+            GGA: 404779(NOCT)
+            PCOC: 116226093(NOCT)
+            MGP: 100541508(NOCT)
+            CJO: 107313121(NOCT)
+            NMEL: 110399084(NOCT)
+            APLA: 101797379(NOCT)
+            ACYG: 106040962(NOCT)
+            AFUL: 116488596(NOCT)
+            TGU: 100231561(NOCT)
+            LSR: 110480519(NOCT)
+            SCAN: 103822546(NOCT)
+            PMOA: 120496055(NOCT)
+            OTC: 121339918(NOCT)
+            PRUF: 121354684(NOCT)
+            GFR: 102040001(NOCT)
+            FAB: 101806807(NOCT)
+            PHI: 102100975(NOCT)
+            PMAJ: 107198931(NOCT)
+            CCAE: 111928919(NOCT)
+            CCW: 104697280(NOCT)
+            CBRC: 103614517(NOCT)
+            ETL: 114058376(NOCT)
+            ZAB: 102063908(NOCT)
+            ACHL: 103804840(CCRN4L)
+            FPG: 101917647(NOCT)
+            FCH: 102053174(NOCT)
+            CLV: 102088785(NOCT)
+            EGZ: 104135809(CCRN4L)
+            NNI: 104015978(CCRN4L)
+            PLET: 104615944(CCRN4L)
+            PCRI: 104032285(CCRN4L)
+            PCAO: 104043146(CCRN4L)
+            ACUN: 113479829(NOCT)
+            TALA: 104369517(NOCT)
+            PADL: 103920979(CCRN4L)
+            AFOR: 103908037(NOCT)
+            ACHC: 115338678(NOCT)
+            HALD: 104312627(CCRN4L)
+            HLE: 104841761(CCRN4L)
+            AGEN: 126044800
+            GCL: 127015925
+            CCRI: 104161150(CCRN4L)
+            CSTI: 104563375(CCRN4L)
+            EHS: 104509053(CCRN4L)
+            CMAC: 104483879(CCRN4L)
+            MUI: 104540965(CCRN4L)
+            FGA: 104071983(CCRN4L)
+            GSTE: 104263383(CCRN4L)
+            LDI: 104349266(CCRN4L)
+            MNB: 103780478(CCRN4L)
+            OHA: 104336715(CCRN4L)
+            NNT: 104409418(CCRN4L)
+            DPUB: 104296870(CCRN4L)
+            PGUU: 104463899(CCRN4L)
+            ACAR: 104530792(NOCT)
+            CPEA: 104398832(CCRN4L)
+            AVIT: 104279765(CCRN4L)
+            CVF: 104292758(CCRN4L)
+            CUCA: 104066442(CCRN4L)
+            TEO: 104377144(CCRN4L)
+            BRHI: 104493236(CCRN4L)
+            AAM: 106491891(NOCT)
+            AROW: 112965417(NOCT)
+            NPD: 112950172(NOCT)
+            TGT: 104577902(CCRN4L)
+            DNE: 112986740(NOCT)
+            SCAM: 104153488(CCRN4L)
+            ASN: 102373172(NOCT)
+            AMJ: 102567362(NOCT)
+            CPOO: 109309613(NOCT)
+            GGN: 109301160(NOCT)
+            PSS: 102451508(NOCT)
+            CMY: 102939146(NOCT)
+            CPIC: 101936301(NOCT)
+            TST: 117878109(NOCT)
+            CABI: 116838879(NOCT)
+            MRV: 120406199(NOCT)
+            ACS: 100556517(noct)
+            PVT: 110073655(NOCT)
+            SUND: 121930735(NOCT)
+            PBI: 103058940(NOCT)
+            PMUR: 107293158(NOCT)
+            CTIG: 120308385(NOCT)
+            TSR: 106545270(NOCT)
+            PGUT: 117680128(NOCT)
+            VKO: 123023763(NOCT)
+            PMUA: 114604123(NOCT)
+            ZVI: 118083410(NOCT)
+            GJA: 107110787(NOCT)
+            STOW: 125440398(NOCT)
+            XLA: 378568(noct.L) 734309(noct.S)
+            XTR: 549285(noct)
+            NPR: 108787519(NOCT)
+            RTEM: 120919058(NOCT)
+            BBUF: 120989975(NOCT)
+            BGAR: 122943301(NOCT)
+            DRE: 568973(noctb) 572044(nocta)
+            SRX: 107714224 107742507 107756481(noct)
+            SANH: 107676528 107680657 107692596 107702303
+            SGH: 107550850(noct) 107562977 107563986 107601501
+            CCAR: 109045774 109079183 109102500
+            CAUA: 113044314 113091093 113114064
+            CGIB: 127948694 127970881 128027532
+            PPRM: 120460783(nocta) 120481331(noctb)
+            MAMB: 125258890(nocta) 125272488(noctb)
+            CIDE: 127509561 127525632
+            MASI: 127412676 127417760 127443400 127445407
+            IPU: 108268604(nocta)
+            PHYP: 113542743(noct)
+            SMEO: 124385831(nocta)
+            TFD: 113645990(nocta)
+            AMEX: 103024657(noct)
+            EEE: 113581505(noct)
+            TRU: 101067716 101074895
+            TNG: GSTEN00023219G001 GSTEN00026635G001
+            LCO: 104922934(noct) 104938899
+            NCC: 104959560 104966628
+            CGOB: 115013792 115015035(noct)
+            ELY: 117255743 117261177(nocta)
+            EFO: 125886576 125894363(nocta)
+            PLEP: 121941963(noctb) 121947728(nocta)
+            SLUC: 116039580 116042198(nocta)
+            ECRA: 117951223(nocta) 117955006(noctb)
+            ESP: 116669841(noct) 116695867
+            PFLV: 114562853(noct) 114565677
+            GAT: 120817933(nocta) 120825114
+            PPUG: 119211376(nocta) 119217668
+            MSAM: 119884055 119888743(nocta) 119899704
+            CUD: 121508649 121516664(nocta)
+            ALAT: 119008016(nocta) 119027483
+            MZE: 101478528(noct)
+            ONL: 100690381(noct)
+            OAU: 116331504(noctb)
+            OLA: 101157593(noct)
+            OML: 112153354 112157020
+            XMA: 102226828 102237197
+            XCO: 114145157 114153060(noct)
+            XHE: 116714362 116719974
+            PRET: 103463886 103471162(noct)
+            PFOR: 103132691 103154723(noct)
+            PLAI: 106946193 106963244(noct)
+            PMEI: 106905149 106931160
+            GAF: 122836546(nocta)
+            CVG: 107093243 107097348
+            CTUL: 119773479(nocta) 119786952
+            GMU: 124859873(nocta) 124868318
+            NFU: 107389498(noct) 107396430
+            KMR: 108245508 108249656(nocta)
+            ALIM: 106511359 106511585 106524622(noct)
+            NWH: 119409150(nocta) 119422687
+            AOCE: 111572374(noct) 111585149
+            MCEP: 125004132 125008415(nocta)
+            CSEM: 103384260(noct)
+            POV: 109624667 109627218
+            SSEN: 122762066(noctb) 122778975
+            HHIP: 117765493 117769693(nocta)
+            HSP: 118098124 118112237(nocta)
+            LCF: 108895516(nocta) 108900154
+            SDU: 111229271 111230402(noct)
+            SLAL: 111663590(noct) 111666744
+            XGL: 120784882(nocta) 120800067
+            HCQ: 109514429(noct) 109527505
+            SSCV: 125968450
+            BPEC: 110155793 110175173(noct)
+            MALB: 109957867 109966424(noct)
+            BSPL: 114862797 114864915(nocta)
+            SASA: 106596388 106597766 106604687 106610553
+            STRU: 115172215 115182600 115182606
+            OTW: 112220937(nocta) 112244497 112255690
+            OMY: 110488807(nocta) 110497191 110497192
+            OGO: 123993401(nocta) 124023194 124023344
+            ONE: 115126566 115130688
+            SALP: 111965719 111967170 112078726
+            SNH: 120041083 120048106(nocta)
+            CCLU: 121536531 121542552
+            ELS: 105020852 105029048
+            SFM: 108925729 108930757
+            PKI: 111853054
+            AANG: 118228032 118231012
+            LOC: 102682701(noct)
+            PSPA: 121325246 121330605
+            ARUT: 117408755 117420930
+            PSEX: 120527823(nocta)
+            LCM: 102349012(NOCT)
+            CMK: 103181305
+            RTP: 109932243(noct)
+            BFO: 118420286
+            BBEL: 109467894
+            SCLV: 120329053
+            SPU: 591893
+            APLC: 110988644
+            AJC: 117112949
+            SKO: 100368766
+            DME: Dmel_CG31299(cu)
+            DER: 26527069
+            DSE: 116801625
+            DSI: Dsimw501_GD26876(Dsim_GD26876)
+            DYA: Dyak_GE27400
+            DAN: 6499531
+            DSR: 110188135
+            DPO: 4803139
+            DPE: 113567256
+            DMN: 108156775
+            DWI: 26528816
+            DGR: 116805427
+            DMO: Dmoj_GI25727
+            DAZ: 108621833
+            DNV: 108659911
+            DHE: 111600242
+            CCAT: 101460917
+            RZE: 108373523
+            MDE: 101887281
+            LCQ: 111674873
+            HIS: 119647579
+            AGA: AgaP_AGAP009893
+            ACOZ: 120959966
+            AARA: 120904983
+            ASTE: 118509089
+            AAG: 5570471
+            AALB: 109398703 109404878
+            CQU: CpipJ_CPIJ011434
+            CPII: 120420797
+            CNS: 116351978
+            BCOO: 119073735
+            TCA: 663596
+            DPA: 109539469
+            ATD: 109598810
+            AGB: 108917458
+            LDC: 111512182
+            NVL: 108556280
+            APLN: 108741418
+            PPYR: 116181069
+            OTU: 111413373
+            CFEL: 113363253
+            API: 100161460
+            DNX: 107170974
+            AGS: 114122020
+            RMD: 113560517
+            BTAB: 109031372
+            DCI: 103506068
+            CLEC: 106663477
+            HHAL: 106682379
+            NLU: 111048726
+            PHU: Phum_PHUM563920
+            FOC: 113204980
+            TPAL: 117653992
+            ZNE: 110827948
+            CSEC: 111871414
+            SGRE: 126365928
+            FCD: 110856840
+            DPX: DAPPUDRAFT_3216
+            DMK: 116917637
+            PVM: 113816919
+            PJA: 122248849
+            PCHN: 125026195
+            PMOO: 119580337
+            HAME: 121869506
+            PCLA: 123771723
+            PTRU: 123509330
+            HAZT: 108670333
+            EAF: 111714947
+            LSM: 121119876
+            PPOI: 119108638
+            ISC: IscW_ISCW023719
+            DSV: 119450253
+            RSAN: 119383299
+            RMP: 119170433
+            VDE: 111248629
+            VJA: 111265314
+            CSCU: 111618187 111618189
+            PTEP: 107440090
+            SDM: 118182631
+            LGI: LOTGIDRAFT_95897
+            PCAN: 112560883
+            BGT: 106060053
+            GAE: 121374500 121391533
+            HRF: 124133660
+            HRJ: 124272289
+            CRG: 105336378
+            MYI: 110454107
+            PMAX: 117329411
+            MCAF: 127714207
+            MMER: 123557696
+            OBI: 106875999
+            OSN: 115218557
+            LAK: 106167882 106175603
+            SMM: Smp_105040
+            SHX: MS3_00001426(CCRN4L)
+            OVI: T265_04013
+            NVE: 5506068
+            EPA: 110243529
+            ATEN: 116289593 116293651
+            ADF: 107328558
+            AMIL: 114966105
+            PDAM: 113680403
+            SPIS: 111337344
+            DGT: 114527765
+            XEN: 124446063
+            HMG: 105845432
+            TAD: TRIADDRAFT_25141
+            PPP: 112287324
+            CRE: CHLRE_10g448950v5
+            VCN: VOLCADRAFT_98156
+            MNG: MNEG_6331
+            CSL: COCSUDRAFT_66649
+            OLU: OSTLU_26290
+            OTA: OT_ostta02g01180
+            BPG: Bathy11g03490
+            MIS: MICPUN_109024
+            MPP: MICPUCDRAFT_42465
+            GSL: Gasu_20920
+            MBR: MONBRDRAFT_36891
+            SRE: PTSG_04783 PTSG_07643
+            ACAN: ACA1_215730 ACA1_338400 ACA1_354370
+            TET: TTHERM_00660300 TTHERM_00825610
+            PTM: GSPATT00021689001
+            SPAR: SPRG_11328 SPRG_19107
+            GTT: GUITHDRAFT_143708
+            MFB: MFUL124B02_29440
+DBLINKS     ExplorEnz - The Enzyme Database: 3.1.3.108
+            IUBMB Enzyme Nomenclature: 3.1.3.108
+            ExPASy - ENZYME nomenclature database: 3.1.3.108
+            BRENDA, the Enzyme Database: 3.1.3.108
+///

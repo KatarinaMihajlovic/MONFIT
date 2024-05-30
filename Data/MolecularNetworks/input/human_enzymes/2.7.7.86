@@ -1,0 +1,386 @@
+ENTRY       EC 2.7.7.86                 Enzyme
+NAME        cyclic GMP-AMP synthase;
+            cGAMP synthase;
+            cGAS
+CLASS       Transferases;
+            Transferring phosphorus-containing groups;
+            Nucleotidyltransferases
+SYSNAME     ATP:GTP adenylyltransferase (cyclizing)
+REACTION    ATP + GTP = 2 diphosphate + cyclic Gp(2'-5')Ap(3'-5') (overall reaction) [RN:R10462];
+            (1a) ATP + GTP = pppGp(2'-5')A + diphosphate;
+            (1b) pppGp(2'-5')A = cyclic Gp(2'-5')Ap(3'-5') + diphosphate
+ALL_REAC    R10462
+SUBSTRATE   ATP [CPD:C00002];
+            GTP [CPD:C00044];
+            pppGp(2'-5')A
+PRODUCT     diphosphate [CPD:C00013];
+            cyclic Gp(2'-5')Ap(3'-5') [CPD:C20640];
+            pppGp(2'-5')A
+COMMENT     Cyclic Gp(2'-5')Ap(3'-5') is a signalling molecule in mammalian cells that triggers the production of type I interferons and other cytokines.
+HISTORY     EC 2.7.7.86 created 2013, modified 2014
+REFERENCE   1  [PMID:23258413]
+  AUTHORS   Sun L, Wu J, Du F, Chen X, Chen ZJ
+  TITLE     Cyclic GMP-AMP synthase is a cytosolic DNA sensor that activates the type I interferon pathway.
+  JOURNAL   Science 339:786-91 (2013)
+            DOI:10.1126/science.1232458
+  SEQUENCE  [hsa:115004] [mmu:214763]
+REFERENCE   2  [PMID:23722158]
+  AUTHORS   Ablasser A, Goldeck M, Cavlar T, Deimling T, Witte G, Rohl I, Hopfner KP, Ludwig J, Hornung V.
+  TITLE     cGAS produces a 2'-5'-linked cyclic dinucleotide second messenger that activates  STING.
+  JOURNAL   Nature 498:380-4 (2013)
+            DOI:10.1038/nature12306
+ORTHOLOGY   K17834  cyclic GMP-AMP synthase
+GENES       HSA: 115004(CGAS)
+            PTR: 462822(CGAS)
+            PPS: 100990327(CGAS)
+            GGO: 101146170(CGAS)
+            PON: 100456001(CGAS)
+            NLE: 100583298(CGAS)
+            HMH: 116468920(CGAS)
+            MCC: 717665(CGAS)
+            MCF: 102133276(CGAS)
+            MTHB: 126952121
+            MNI: 105479453(CGAS)
+            CSAB: 103243898(MB21D1)
+            CATY: 105589206(MB21D1)
+            PANU: 100137406(CGAS)
+            TGE: 112622071(CGAS)
+            MLEU: 105544565(MB21D1)
+            RRO: 104669277(CGAS)
+            RBB: 108529201(MB21D1)
+            TFN: 117087450(CGAS)
+            PTEH: 111547444(CGAS)
+            CANG: 105513551(MB21D1)
+            CJC: 100387233(MB21D1)
+            SBQ: 101052976(MB21D1)
+            CIMI: 108301246(CGAS)
+            CSYR: 103258632(MB21D1)
+            MMUR: 105858834 105884657(MB21D1)
+            LCAT: 123632173(CGAS)
+            PCOQ: 105807017 105811756(MB21D1)
+            OGA: 100960993(CGAS)
+            MMU: 214763(Cgas)
+            MCAL: 110302572(Mb21d1)
+            MPAH: 110328585(Mb21d1)
+            RNO: 682147(Cgas)
+            MCOC: 116072532 116073422
+            ANU: 117693634(Cgas)
+            MUN: 110560519(Mb21d1)
+            CGE: 100754516 100758179(Cgas)
+            MAUA: 101831922(Cgas) 106021433
+            PLEU: 114686791(Cgas)
+            MORG: 121466160(Cgas)
+            MFOT: 126491081
+            AAMP: 119809822(Cgas)
+            NGI: 103744364(Mb21d1)
+            HGL: 101717623(Mb21d1)
+            CPOC: 100713978(Cgas)
+            CCAN: 109694315 109702432
+            DORD: 106000092(Mb21d1)
+            DSP: 122113960(Cgas)
+            NCAR: 124988764
+            OCU: 100349407(CGAS)
+            OPI: 101520974(CGAS)
+            TUP: 102474401(MB21D1)
+            GVR: 103595481(MB21D1)
+            CFA: 611033(CGAS)
+            CLUD: 112658300(CGAS)
+            VVP: 112926356(CGAS)
+            VLG: 121477532(CGAS)
+            AML: 100471590(CGAS)
+            UMR: 103657480(MB21D1)
+            UAH: 113261117(CGAS)
+            UAR: 123796269(CGAS)
+            ELK: 111152334
+            LLV: 125103240
+            MPUF: 101687874(MB21D1)
+            NVS: 122899794(CGAS)
+            ORO: 101374743(MB21D1)
+            EJU: 114204499(CGAS)
+            ZCA: 113926618(CGAS)
+            MLX: 118000892(CGAS)
+            NSU: 110583453(CGAS)
+            LWW: 102733539(CGAS)
+            FCA: 101098056(CGAS)
+            PYU: 121029669(CGAS)
+            PBG: 122489692(CGAS)
+            LRUF: 124528966
+            PTG: 102952381(MB21D1)
+            PPAD: 109248226(MB21D1)
+            AJU: 106980198(CGAS)
+            HHV: 120242942(CGAS)
+            BTA: 782472(CGAS)
+            BOM: 102285090(MB21D1)
+            BIU: 109563704(MB21D1)
+            BBUB: 102415629(CGAS)
+            BBIS: 104996886(MB21D1)
+            CHX: 102187049(MB21D1)
+            OAS: 114116050(CGAS)
+            ODA: 120862886(CGAS)
+            CCAD: 122422632(CGAS)
+            SSC: 100516408(MB21D1)
+            CFR: 102523852(CGAS)
+            CBAI: 105064893(MB21D1)
+            CDK: 105099837(CGAS)
+            VPC: 102545127(CGAS)
+            BACU: 103017021 103017298
+            LVE: 103082954(MB21D1)
+            OOR: 101289557(MB21D1)
+            DLE: 111183240(CGAS)
+            PCAD: 102985456(CGAS)
+            PSIU: 116763806(CGAS)
+            ECB: 100067982(CGAS)
+            EPZ: 103562297(MB21D1)
+            EAI: 106827075(CGAS)
+            MYB: 102243555
+            MYD: 102775467(MB21D1)
+            MMYO: 118660304(CGAS)
+            MLF: 102428890(CGAS)
+            MNA: 107531610(MB21D1)
+            PKL: 118705992(CGAS)
+            HAI: 109387546(MB21D1)
+            DRO: 112319268(CGAS)
+            SHON: 118978695(CGAS)
+            AJM: 119050815(CGAS)
+            PDIC: 114495020(CGAS)
+            PHAS: 123821499 123821692(CGAS)
+            MMF: 118621468(CGAS)
+            RFQ: 117020212(CGAS)
+            PALE: 102883365(CGAS)
+            PGIG: 120594970(CGAS)
+            PVP: 105306113(CGAS)
+            RAY: 107509280(MB21D1)
+            TOD: 119251468(CGAS)
+            SARA: 101553412(MB21D1)
+            LAV: 100664322(CGAS)
+            TMU: 101344880
+            ETF: 101644613(CGAS)
+            MDO: 100021282(MB21D1)
+            GAS: 123246481(CGAS)
+            SHR: 100920386(CGAS)
+            AFZ: 127561909
+            PCW: 110217669(MB21D1)
+            OAA: 100087769(CGAS) 103165103
+            GGA: 421864(MB21D1)
+            PCOC: 116240629(CGAS)
+            MGP: 100549716(CGAS)
+            CJO: 107312047(CGAS)
+            NMEL: 110396507(MB21D1)
+            APLA: 101797757(CGAS)
+            ACYG: 106030386(CGAS)
+            AFUL: 116487495(CGAS)
+            TGU: 100224044(CGAS)
+            LSR: 116183447(CGAS)
+            SCAN: 103822607(CGAS)
+            PMOA: 120511371(CGAS)
+            OTC: 121339126(CGAS)
+            PRUF: 121358896(CGAS)
+            GFR: 102042126(MB21D1)
+            FAB: 101809319(MB21D1)
+            PHI: 102108130(MB21D1)
+            PMAJ: 107201290(CGAS)
+            CCAE: 111925811(CGAS)
+            CCW: 104694402(CGAS)
+            CBRC: 103619163(MB21D1)
+            ETL: 114057629(CGAS)
+            ZAB: 102069185(CGAS)
+            ACHL: 103811171(MB21D1)
+            FPG: 101922902(MB21D1)
+            FCH: 102047663(CGAS)
+            CLV: 102091030(MB21D1)
+            EGZ: 104125162(MB21D1)
+            NNI: 104022036(MB21D1)
+            PLET: 104624433(MB21D1)
+            PCRI: 104031956(MB21D1)
+            PCAO: 104039501(MB21D1)
+            ACUN: 113478379(CGAS)
+            TALA: 104360478(CGAS)
+            PADL: 103924675(MB21D1)
+            AFOR: 103896032(MB21D1)
+            ACHC: 115350836(CGAS)
+            HALD: 104310548(MB21D1)
+            HLE: 104830712(MB21D1)
+            AGEN: 126046073
+            GCL: 127014782
+            CCRI: 104154713(MB21D1)
+            CSTI: 104549935(MB21D1)
+            EHS: 104502947(MB21D1)
+            CMAC: 104479842(MB21D1)
+            FGA: 104079823(MB21D1)
+            GSTE: 104250724(MB21D1)
+            LDI: 104347026(MB21D1)
+            MNB: 103773119(MB21D1)
+            OHA: 104334473(MB21D1)
+            NNT: 104399529(MB21D1)
+            DPUB: 104301303(MB21D1)
+            ACAR: 104523863(CGAS)
+            CPEA: 104393982(MB21D1)
+            AVIT: 104268341(MB21D1)
+            CVF: 104295951(MB21D1)
+            CUCA: 104062712(MB21D1)
+            TEO: 104384573(MB21D1)
+            BRHI: 104488787(MB21D1)
+            AAM: 106492488(MB21D1)
+            AROW: 112977541(CGAS)
+            NPD: 112957605(CGAS)
+            TGT: 104565337(MB21D1)
+            DNE: 112984436(CGAS)
+            ASN: 102379168 102388310(CGAS)
+            AMJ: 102565317(MB21D1) 102576030
+            CPOO: 109311795(MB21D1) 109321596
+            GGN: 109298553 109299820(MB21D1)
+            PSS: 102447277(CGAS) 112544782 112544783 112544784 112546990
+            CMY: 102930662 102934779(CGAS) 102936464
+            CPIC: 101937365(CGAS) 101951637 122172622
+            TST: 117868382 117875177(CGAS) 117877076
+            CABI: 116815600(CGAS) 116830189 116835107
+            MRV: 120389418 120401978(CGAS) 120405307
+            ACS: 100567354(mb21d1)
+            PVT: 110075025(MB21D1)
+            SUND: 121916199 121919775(CGAS)
+            CTIG: 120316881
+            PGUT: 117663498
+            PMUA: 114593874(CGAS) 114601597
+            ZVI: 118082764(CGAS) 118086762
+            GJA: 107107013 107123189(MB21D1)
+            STOW: 125432413 125437822
+            XLA: 108704160(mb21d1.L) 108717996
+            XTR: 100488048(cgas)
+            NPR: 108795988 108795990
+            RTEM: 120937033 120937034 120937377
+            BBUF: 120998121(CGAS)
+            BGAR: 122934311(CGAS)
+            DRE: 100536487 557043(mb21d1)
+            SRX: 107706136 107718834(mb21d1)
+            SANH: 107654670 107693606(mb21d1) 107696517
+            SGH: 107588675 107589446 107591657
+            CCAR: 109112294 109112296
+            CAUA: 113056938 113112671 113119289
+            CGIB: 127934967 127970662 127978745 128026636
+            PPRM: 120479510(cgas) 120485031
+            MAMB: 125275080 125276950(cgasa)
+            CIDE: 127500875 127524368
+            MASI: 127412118 127414345 127421380
+            IPU: 108256977 108263730(cgasa)
+            PHYP: 113536320 113545662(cgas)
+            SMEO: 124375754 124395062(cgasa)
+            TFD: 113636304(cgasa) 113661383
+            AMEX: 103037406(mb21d1) 103045125
+            EEE: 113578442 113580312
+            LCO: 104930807 104930999 109139339(cgas)
+            NCC: 104953808 104960303
+            ELY: 117248427(cgas) 117264086
+            EFO: 125903006(cgasa) 125905116
+            PLEP: 121954978(cgasa) 121958065
+            SLUC: 116047115 116061627(cgas)
+            ECRA: 117956958 117960151(cgas)
+            ESP: 116701880 116705125(cgas)
+            PFLV: 114568181 114571773
+            GAT: 120826951
+            PPUG: 119218702
+            MSAM: 119906690 119909717 119917545(cgas)
+            CUD: 121511480(cgasa)
+            ALAT: 119015120 119033773(cgas)
+            MZE: 101482018 101485826
+            ONL: 102078106 106097853 109204785
+            OAU: 116324850 116326666 120443305(cgas)
+            OLA: 101161502(cgas)
+            OML: 112162124(cgas)
+            XMA: 102238245(cgas) 106699738
+            XCO: 114137781 114156605
+            XHE: 116713105 116731906
+            PRET: 103472993 103476464
+            PFOR: 103137383(mb21d1) 103143458
+            PLAI: 106938210(mb21d1) 106951929
+            PMEI: 106911808 106923428
+            GAF: 122842438(cgasa) 122843138
+            CVG: 107098985 107101098
+            CTUL: 119774847(cgas) 119790489
+            GMU: 124859105(cgasa) 124878899
+            NFU: 107375894(mb21d1)
+            KMR: 108244627(cgas)
+            ALIM: 106533424(mb21d1)
+            NWH: 119430509(cgasa)
+            AOCE: 111563935 111586938
+            MCEP: 125018945 125018951 125019502
+            POV: 109631848(mb21d1)
+            SSEN: 122786074
+            HHIP: 117775272(cgas)
+            HSP: 118118935(cgasa)
+            LCF: 108873443(cgasa) 108898898
+            SDU: 111220892 111227407 111227458(cgas)
+            SLAL: 111645593 111646355 111646980 111648681 111649430
+            XGL: 120786458 120796225(cgasa)
+            BPEC: 110156913(mb21d1)
+            MALB: 109954004 109961116 109970716
+            BSPL: 114865590 114870674(cgasa)
+            SASA: 106570029 106577085(mb21d1) 106606998
+            STRU: 115153193 115175959 115193802
+            OTW: 112229902 112253530(cgasa) 112254417 112264864
+            OMY: 110489275 110496144 110502447 110528533(cgas)
+            OGO: 124037217 124041278(cgasa) 124043619
+            ONE: 115112699 115128993 115131684 115135136
+            SALP: 111951600 111955989 112080536 112080849
+            SNH: 120017425(cgas) 120027447 120045881
+            CCLU: 121553461 121570526 121585758
+            ELS: 105023252 105027914
+            SFM: 108927166 108933614
+            PKI: 111850720 111854243
+            AANG: 118218464(cgas) 118232887
+            LOC: 102683757(mb21d1) 107076494
+            PSPA: 121308405 121316824(cgasa)
+            ARUT: 117411600(cgas) 117968100 117971567
+            PSEX: 120516706(cgas)
+            LCM: 102346272(MB21D1) 102353888
+            CMK: 103172828
+            RTP: 109919108(mb21d1)
+            BFO: 118419102 118425279
+            BBEL: 109470647
+            SKO: 100376890 102805563
+            DPO: 4812402 6900849
+            DPE: 6599088 6601652
+            DMN: 108153688
+            DMO: Dmoj_GI13277
+            BIM: 100743943
+            BTER: 100644606
+            BPYO: 122569612
+            OBB: 114876897
+            MGEN: 117228555
+            AEC: 105145568
+            HST: 105183688 112590534
+            DQU: 106749942
+            LHU: 105675429
+            PGC: 109860398
+            PCF: 106785405
+            NVI: 103315742 103315824
+            CGLO: 123267413
+            DAM: 107044363
+            BMOR: 101736938
+            BMAN: 114247162
+            PMAC: 106719607
+            HAW: 110382810
+            TNL: 113492539
+            TPAL: 117647679 117653494
+            PCHN: 125032947
+            PPOI: 119098006
+            RSAN: 119406268
+            CSCU: 111614518 111640160
+            PTEP: 107449532 107453297 107453300
+            PCAN: 112564288
+            HRF: 124133238 124133248
+            HRJ: 124262090 124290754
+            CRG: 105322102 105322103 117689519
+            PMAX: 117337624
+            MMER: 123535881 123537456 123553184 123553746 123559378 123559536 123560041 123560404 123561450 123563286
+            EPA: 110240579
+            ATEN: 116287623 116295534 116307849
+            ADF: 107334028 107337790 107349987 107349993 107353078
+            AMIL: 114948743 114949417 114965664
+            PDAM: 113665500 113670688 113680563 113681850 113681904
+            SPIS: 111338054 111345036 111345331 111345339 111345504
+            HMG: 105846279 105850432
+DBLINKS     ExplorEnz - The Enzyme Database: 2.7.7.86
+            IUBMB Enzyme Nomenclature: 2.7.7.86
+            ExPASy - ENZYME nomenclature database: 2.7.7.86
+            BRENDA, the Enzyme Database: 2.7.7.86
+///

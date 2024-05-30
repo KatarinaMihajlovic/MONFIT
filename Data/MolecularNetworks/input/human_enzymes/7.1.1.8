@@ -1,0 +1,3400 @@
+ENTRY       EC 7.1.1.8                  Enzyme
+NAME        quinol---cytochrome-c reductase;
+            ubiquinol---cytochrome-c reductase;
+            coenzyme Q-cytochrome c reductase;
+            dihydrocoenzyme Q-cytochrome c reductase;
+            reduced ubiquinone-cytochrome c reductase;
+            complex III (mitochondrial electron transport);
+            ubiquinone-cytochrome c reductase;
+            ubiquinol-cytochrome c oxidoreductase;
+            reduced coenzyme Q-cytochrome c reductase;
+            ubiquinone-cytochrome c oxidoreductase;
+            reduced ubiquinone-cytochrome c oxidoreductase;
+            mitochondrial electron transport complex III;
+            ubiquinol-cytochrome c-2 oxidoreductase;
+            ubiquinone-cytochrome b-c1 oxidoreductase;
+            ubiquinol-cytochrome c2 reductase;
+            ubiquinol-cytochrome c1 oxidoreductase;
+            CoQH2-cytochrome c oxidoreductase;
+            ubihydroquinol:cytochrome c oxidoreductase;
+            coenzyme QH2-cytochrome c reductase;
+            QH2:cytochrome c oxidoreductase;
+            ubiquinol:ferricytochrome-c oxidoreductase
+CLASS       Translocases;
+            Catalysing the translocation of hydrons;
+            Linked to oxidoreductase reactions
+SYSNAME     quinol:ferricytochrome-c oxidoreductase
+REACTION    quinol + 2 ferricytochrome c = quinone + 2 ferrocytochrome c + 2 H+[side 2]
+SUBSTRATE   quinol [CPD:C00530];
+            ferricytochrome c [CPD:C00125]
+PRODUCT     quinone [CPD:C00472];
+            ferrocytochrome c [CPD:C00126];
+            H+[side 2]
+COMMENT     The enzyme, often referred to as the cytochrome bc1 complex or complex III, is the third complex in the electron transport chain. It is present in the mitochondria of all aerobic eukaryotes and in the inner membranes of most bacteria. The mammalian enzyme contains cytochromes b-562, b-566 and c1, and a 2-iron ferredoxin. Depending on the organism and physiological conditions, the enzyme extrudes either two or four protons from the cytoplasmic to the non-cytoplasmic compartment (cf. EC 1.6.99.3, NADH dehydrogenase).
+HISTORY     EC 7.1.1.8 created 1978 as EC 1.10.2.2, modified 2013, transferred 2018 to EC 7.1.1.8
+REFERENCE   1  [PMID:597492]
+  AUTHORS   Marres CM, Slater EC.
+  TITLE     Polypeptide composition of purified QH2:cytochrome c oxidoreductase from beef-heart mitochondria.
+  JOURNAL   Biochim Biophys Acta 462:531-48 (1977)
+            DOI:10.1016/0005-2728(77)90099-8
+REFERENCE   2  [PMID:788795]
+  AUTHORS   Rieske JS.
+  TITLE     Composition, structure, and function of complex III of the respiratory chain.
+  JOURNAL   Biochim Biophys Acta 456:195-247 (1976)
+            DOI:10.1016/0304-4173(76)90012-4
+REFERENCE   3  [PMID:6267990]
+  AUTHORS   Wikstrom M, Krab K, Saraste M.
+  TITLE     Proton-translocating cytochrome complexes.
+  JOURNAL   Annu Rev Biochem 50:623-55 (1981)
+            DOI:10.1146/annurev.bi.50.070181.003203
+REFERENCE   4  [PMID:8647852]
+  AUTHORS   Sone N, Tsuchiya N, Inoue M, Noguchi S
+  TITLE     Bacillus stearothermophilus qcr operon encoding rieske FeS protein, cytochrome b6, and a novel-type cytochrome c1 of quinol-cytochrome c reductase.
+  JOURNAL   J Biol Chem 271:12457-62 (1996)
+            DOI:10.1074/jbc.271.21.12457
+  SEQUENCE  [gtn:GTNG_2126 GTNG_2125 GTNG_2124]
+REFERENCE   5  [PMID:9535866]
+  AUTHORS   Yu J, Le Brun NE
+  TITLE     Studies of the cytochrome subunits of menaquinone:cytochrome c reductase (bc complex) of Bacillus subtilis. Evidence for the covalent attachment of heme to the cytochrome b subunit.
+  JOURNAL   J Biol Chem 273:8860-6 (1998)
+            DOI:10.1074/jbc.273.15.8860
+REFERENCE   6  [PMID:10358017]
+  AUTHORS   Elbehti A, Nitschke W, Tron P, Michel C, Lemesle-Meunier D
+  TITLE     Redox components of cytochrome bc-type enzymes in acidophilic prokaryotes. I. Characterization of the cytochrome bc1-type complex of the acidophilic ferrous ion-oxidizing bacterium Thiobacillus ferrooxidans.
+  JOURNAL   J Biol Chem 274:16760-5 (1999)
+            DOI:10.1074/jbc.274.24.16760
+PATHWAY     ec00190  Oxidative phosphorylation
+            ec01100  Metabolic pathways
+ORTHOLOGY   K00411  ubiquinol-cytochrome c reductase iron-sulfur subunit
+GENES       HSA: 7386(UQCRFS1)
+            PTR: 741344(UQCRFS1)
+            PPS: 100974890 117977402
+            GGO: 101131106
+            PON: 100459356
+            NLE: 100605926
+            HMH: 116478821
+            MCC: 700087 705178
+            MCF: 102132017 102133631
+            MTHB: 126930673 126943623
+            MNI: 105487652 105493947
+            CSAB: 103234417
+            CATY: 105578094
+            PANU: 101026782
+            TGE: 112612521
+            MLEU: 105550366
+            RRO: 104656160 104668069
+            RBB: 108530603 108530604 108532893
+            TFN: 117092025 117092255
+            PTEH: 111553897
+            CANG: 105516834
+            CJC: 100395443(ISP)
+            SBQ: 101051648
+            CIMI: 108283532
+            CSYR: 103254098 103265462
+            MMUR: 105877012
+            LCAT: 123624276
+            PCOQ: 105812563
+            OGA: 100949704
+            MMU: 66694(Uqcrfs1)
+            MCAL: 110307963
+            MPAH: 110333870
+            RNO: 291103(Uqcrfs1)
+            MCOC: 116082198
+            ANU: 117714289
+            MUN: 110558163
+            CGE: 100759002
+            MAUA: 101839974
+            PLEU: 114701092 114701855
+            MORG: 121434112
+            MFOT: 126501702
+            AAMP: 119816634
+            NGI: 103737005
+            HGL: 101708594
+            CPOC: 100719489
+            CCAN: 109693090
+            DORD: 105993168
+            DSP: 122097460
+            NCAR: 124967159
+            OCU: 100350787
+            OPI: 101520130 101530924
+            TUP: 102472121
+            GVR: 103600935
+            CFA: 476503(UQCRFS1)
+            CLUD: 112645623
+            VVP: 112911861
+            VLG: 121485588
+            AML: 100465810
+            UMR: 103673823
+            UAH: 113252198
+            UAR: 123776651
+            ELK: 111139384
+            LLV: 125089498
+            NVS: 122910115 122911488
+            ORO: 101381163
+            EJU: 114224452
+            ZCA: 113914728 113936090
+            MLX: 118022759
+            NSU: 110590331
+            LWW: 102733727
+            FCA: 101094311
+            PYU: 121024703
+            PBG: 122494168
+            LRUF: 124511280
+            PTG: 102964791
+            PPAD: 109251558
+            AJU: 106975763
+            HHV: 120227495
+            BTA: 287020(UQCRFS1)
+            BOM: 102283287
+            BIU: 109571597
+            BBUB: 102404930
+            BBIS: 104996455
+            CHX: 102172289
+            OAS: 101113001
+            ODA: 120872874
+            CCAD: 122420886
+            SSC: 100522678
+            CFR: 102517471
+            CBAI: 105064978
+            CDK: 105089357
+            VPC: 102531964
+            BACU: 103010509
+            LVE: 103076796 103087521
+            OOR: 101274086
+            DLE: 111180964
+            PCAD: 102990513
+            PSIU: 116744331
+            ECB: 100053634
+            EPZ: 103542603
+            EAI: 106834965
+            MYB: 102249581
+            MYD: 102769800
+            MMYO: 118674548
+            MLF: 102433574
+            MNA: 107535868
+            PKL: 118716045
+            HAI: 109383030
+            DRO: 112296783
+            SHON: 119001162
+            AJM: 119049098 119049737
+            PDIC: 114490131
+            PHAS: 123806199
+            MMF: 118638700
+            RFQ: 117034844
+            PALE: 102877816
+            PGIG: 120617223
+            PVP: 105301194
+            RAY: 107515880
+            MJV: 108388550
+            TOD: 119249189
+            SARA: 101555430
+            LAV: 100667241
+            TMU: 101349349
+            ETF: 101644773
+            DNM: 101445631
+            MDO: 100012527
+            GAS: 123235316
+            SHR: 100920165
+            AFZ: 127550666
+            PCW: 110207439
+            OAA: 100074926
+            GGA: 415752(UQCRFS1)
+            PCOC: 116243761
+            MGP: 100538539
+            CJO: 107319344
+            NMEL: 110404424
+            APLA: 101804160
+            ACYG: 106039566
+            AFUL: 116494067
+            TGU: 100227575
+            LSR: 110475983
+            SCAN: 103816798
+            PMOA: 120507909
+            OTC: 121334008
+            PRUF: 121348906
+            GFR: 102040907
+            FAB: 101819243
+            PHI: 102113007
+            PMAJ: 107209600
+            CCAE: 111934652
+            CCW: 104687438
+            CBRC: 103620326
+            ETL: 114063487
+            ZAB: 102060571
+            ACHL: 103809321
+            FPG: 101922682
+            FCH: 102054118
+            CLV: 102090868
+            EGZ: 104125584
+            NNI: 104011297
+            PLET: 104623217
+            PCRI: 104031417
+            PCAO: 104040741
+            ACUN: 113484534
+            TALA: 104361552
+            PADL: 103913749
+            AFOR: 103896851
+            ACHC: 115346040
+            HALD: 104316365
+            HLE: 104842602
+            AGEN: 126041078
+            GCL: 127021047
+            CCRI: 104156920
+            CSTI: 104561669
+            EHS: 104510447
+            CMAC: 104483508
+            MUI: 104535513
+            FGA: 104077307
+            GSTE: 104261545
+            LDI: 104349739
+            MNB: 103777432
+            OHA: 104338249
+            NNT: 104409442
+            DPUB: 104307848
+            PGUU: 104465670
+            ACAR: 104520014
+            CPEA: 104388605
+            AVIT: 104275645
+            CVF: 104294480
+            CUCA: 104055806
+            TEO: 104378061
+            BRHI: 104488603
+            AAM: 106483298
+            AROW: 112962979
+            NPD: 112949866
+            TGT: 104575397
+            DNE: 112984409
+            SCAM: 104146422
+            ASN: 102381524
+            AMJ: 102566104(UQCRFS1)
+            CPOO: 109310562
+            GGN: 109289290
+            PSS: 102460102
+            CMY: 102947970
+            CPIC: 101937707
+            TST: 117886638
+            CABI: 116829108
+            MRV: 120384843
+            ACS: 100565991
+            PVT: 110088927
+            SUND: 121914703
+            PBI: 103050017
+            PMUR: 107290105
+            CTIG: 120312147
+            TSR: 106541302
+            PGUT: 117670513
+            VKO: 123022273
+            PMUA: 114602258
+            ZVI: 118087727
+            GJA: 107107068 107114139
+            STOW: 125443805
+            XLA: 379942(uqcrfs1.S) 779413(uqcrfs1.L)
+            XTR: 394506(uqcrfs1)
+            NPR: 108784293
+            RTEM: 120917890
+            BBUF: 120980621
+            BGAR: 122931431
+            DRE: 406359(uqcrfs1)
+            SRX: 107735582 107741896
+            SANH: 107666217 107684685 107696665
+            SGH: 107559809 107565776 107587043
+            CAUA: 113051518 113061551 113106206 113118231
+            CGIB: 127934262 127961696 127977759 128016684
+            PPRM: 120462031 120480983
+            MAMB: 125254801 125264883
+            CIDE: 127499537 127516194
+            MASI: 127410003 127417288 127446204
+            IPU: 108259670 108264773 124627937
+            PHYP: 113523960 113534316
+            SMEO: 124380123 124396126
+            TFD: 113652837
+            AMEX: 103029512 103039511
+            EEE: 113585433
+            TRU: 101061875 101078837
+            TNG: GSTEN00015928G001 GSTEN00026523G001
+            LCO: 104923720 104939823
+            NCC: 104949269 104959708
+            CGOB: 115006421 115009480
+            ELY: 117253625 117257775
+            EFO: 125886998 125902759
+            PLEP: 121942635 121950490
+            SLUC: 116038616 116041108
+            ECRA: 117947128 117948668
+            ESP: 116694821 116702647
+            PFLV: 114554892 114559949
+            GAT: 120808736 120810160 120812875
+            PPUG: 119195734 119197406
+            MSAM: 119890700 119894250
+            CUD: 121508219 121514775
+            ALAT: 119017667 119024418
+            MZE: 101479997 101485419
+            ONL: 100702099 100707594
+            OAU: 116312561 116323985
+            OLA: 101159190 101172392
+            OML: 112141911 112152356
+            XMA: 102227478 102232877
+            XCO: 114143353 114155310
+            XHE: 116718984 116734593
+            PRET: 103462283 103466211
+            PFOR: 103144378 103149177
+            PLAI: 106938292 106956354
+            PMEI: 106918864 106930666
+            GAF: 122836257 122846824
+            CVG: 107082449 107103748
+            CTUL: 119776437 119796792
+            GMU: 124855878 124867154
+            NFU: 107389074
+            KMR: 108237883
+            ALIM: 106516676
+            NWH: 119430204
+            AOCE: 111570301 111575927 111583405
+            MCEP: 125014797
+            CSEM: 103379188 103379190 103380415
+            POV: 109624998 109641918
+            SSEN: 122772796
+            HHIP: 117759433 117763568
+            HSP: 118109991 118111412
+            LCF: 108875265 108877838
+            SDU: 111222428 111228717
+            SLAL: 111661846 111669311
+            XGL: 120793740 120796375
+            HCQ: 109530487
+            SSCV: 125971180
+            BPEC: 110161331 110162579
+            MALB: 109961859
+            BSPL: 114852558 114858006
+            SASA: 106561396 106562006(UCRI) 106587304(UCRI)
+            STRU: 115167438 115197401 115202928
+            OTW: 112218748 112249074 112263551
+            OMY: 110497954 110506369 110526261
+            OGO: 124033867 124034797 124035847
+            ONE: 115112120 115113540 115134083
+            SALP: 111962590 111969259 111974636
+            SNH: 120024906 120046115 120066423
+            CCLU: 121532277 121548316 121583278
+            ELS: 105017601
+            SFM: 108926261
+            PKI: 111849657
+            AANG: 118228520
+            LOC: 102687258
+            PSPA: 121296589 121326162
+            ARUT: 117424372 117425469
+            PSEX: 120535359
+            LCM: 102347045
+            CMK: 103176055
+            RTP: 109913461
+            BFO: 118417953
+            BBEL: 109473570
+            CIN: 100177491
+            SCLV: 120336444
+            SPU: 580369
+            APLC: 110984748
+            AJC: 117113151
+            SKO: 100367689
+            DME: Dmel_CG7361(RFeSP)
+            DER: 6543423
+            DSE: 6617392
+            DSI: Dsimw501_GD22901(Dsim_GD22901)
+            DYA: Dyak_GE15522(Dyak_RFeSP)
+            DAN: 6496864
+            DSR: 110179926
+            DPO: 6903212
+            DPE: 6595676
+            DMN: 108163804
+            DWI: 6642728
+            DGR: 6562350
+            DMO: Dmoj_GI17080
+            DAZ: 108611959
+            DNV: 115563654
+            DHE: 111595815
+            DVI: 6627842
+            CCAT: 101451069 101453403
+            BOD: 106616810 106620280
+            RZE: 108359090 108370586 108372428 108376065
+            MDE: 101889907
+            SCAC: 106085514
+            LCQ: 111691204
+            LSQ: 119599972
+            HIS: 119647041 119661558
+            AGA: AgaP_AGAP008955
+            ACOZ: 120956796
+            AARA: 120901828
+            ASTE: 118509271
+            AAG: 5578796
+            AALB: 109404395
+            CQU: CpipJ_CPIJ017217
+            CPII: 120421723
+            CNS: 116343689 116343691
+            BCOO: 119070954
+            AME: 411183 725527
+            ACER: 107993480 107994032
+            ALAB: 122715426 122720824
+            BIM: 100742152 100749017
+            BBIF: 117212464 117213649
+            BVK: 117234293 117238485
+            BVAN: 117161633 117163231
+            BTER: 100644605 100647717
+            BPYO: 122568333 122569171
+            CCAL: 108623687 108624886
+            OBB: 114873685 114881019 114881048
+            MGEN: 117218497 117221764
+            NMEA: 116429646 116429867
+            CGIG: 122404945 122405078
+            SOC: 105199813 105200732
+            MPHA: 105838665 105839935
+            AEC: 105147847 105148086
+            ACEP: 105623517 105625566
+            PBAR: 105431280 105432541
+            VEM: 105558876 105560606 105562284
+            HST: 105187961 105188206
+            DQU: 106750734 106752105
+            CFO: 105251122 105257218
+            FEX: 115233007 115236643 115238090
+            LHU: 105669991 105679393
+            PGC: 109856663 109858363
+            OBO: 105277719 105278497
+            PCF: 106784505 106786783
+            PFUC: 122519992 122522948
+            VPS: 122629774 122630496
+            NVI: 100114128(Uqcrfs1) 100115558
+            CSOL: 105366269
+            TPRE: 106648026 106656067
+            MDL: 103569693
+            CGLO: 123260589
+            FAS: 105265444 105268013
+            DAM: 107036112 107039067
+            AGIF: 122855263
+            CINS: 118073216
+            LHT: 122500029
+            CCIN: 107263875 107264444
+            TCA: 656326 661125(GLEAN_00043)
+            DPA: 109538106 109545582
+            SOY: 115877162 115879318
+            ATD: 109596743 109605202 109606475 109606776
+            CSET: 123307554 123322869
+            AGB: 108913187 108914419
+            LDC: 111502692 111510735
+            NVL: 108569303
+            APLN: 108734322 108734329
+            PPYR: 116175145 116180420
+            OTU: 111417612 111428803
+            BMOR: 100134921 101736488
+            BMAN: 114246931 114248092
+            MSEX: 115443636 119190855
+            DPL: KGM_203971 KGM_210917
+            BANY: 112042787 112053478
+            NIQ: 126780303 126781237
+            PMAC: 106719247 106719959
+            PPOT: 106101302 106102740
+            PXU: 106113688 106118251
+            PRAP: 111001344 111004102
+            PBX: 123707565 123716271
+            PNAP: 125056099 125063352
+            ZCE: 119829351 119831237
+            CCRC: 123694246 123706319
+            HAW: 110374513 110381728
+            HZE: 124645283 124646175
+            TNL: 113493136 113494201
+            SLIU: 111352633 111360860
+            OFU: 114363907 114365037
+            PXY: 105389382 105392040
+            CFEL: 113364324 113371346 113373970 113385743 113385745
+            API: 100161745(Rfesp) 100570317
+            DNX: 107167663
+            AGS: 114122434
+            RMD: 113560474
+            BTAB: 109032904
+            DCI: 103505378
+            CLEC: 106665842 106669288
+            HHAL: 106689704
+            NLU: 111047414
+            PHU: Phum_PHUM464800
+            FOC: 113212205
+            TPAL: 117647644
+            ZNE: 110839827
+            CSEC: 111863166
+            SGRE: 126365757
+            FCD: 110842438
+            DPX: DAPPUDRAFT_304712 DAPPUDRAFT_47869
+            DMK: 116917550
+            DPZ: 124328762
+            PVM: 113813706
+            PJA: 122260470
+            PCHN: 125044780
+            PMOO: 119582868
+            HAME: 121859497
+            PCLA: 123745575
+            PTRU: 123513967 123518110
+            HAZT: 108667547
+            EAF: 111709541
+            LSM: 121117806
+            PPOI: 119089631
+            ISC: IscW_ISCW014071
+            DSV: 119464237
+            RSAN: 119378831
+            RMP: 119176285
+            VDE: 111252362
+            VJA: 111265907
+            TUT: 107365294
+            DPTE: 113791623
+            DFR: 124499826
+            CSCU: 111631626
+            PTEP: 107437613
+            SDM: 118196484
+            CEL: CELE_F42G8.12(isp-1)
+            CBR: CBG_01551(Cbr-isp-1)
+            BMY: BM_BM10802(Bma-isp-1.1) BM_BM4033(Bma-isp-1.2)
+            LOA: LOAG_08023 LOAG_09948
+            NAI: NECAME_02362 NECAME_09780
+            HRO: HELRODRAFT_77345
+            LGI: LOTGIDRAFT_108787
+            PCAN: 112576944
+            BGT: 106063345 106068942
+            GAE: 121388394 121390896
+            HRF: 124121454
+            HRJ: 124255225
+            CRG: 105345808
+            MYI: 110454455
+            PMAX: 117337373
+            MCAF: 127701346
+            MMER: 123548720
+            OBI: 106880109
+            OSN: 115209855
+            LAK: 106156399
+            SMM: Smp_061870
+            SHX: MS3_00003627(UQCRFS1)
+            OVI: T265_09055
+            EGL: EGR_02377
+            NVE: 5508036
+            EPA: 110236534
+            ATEN: 116300614
+            AMIL: 114961480
+            PDAM: 113679456
+            SPIS: 111347478
+            DGT: 114532653
+            XEN: 124437629
+            HMG: 100209435
+            TAD: TRIADDRAFT_24746
+            AQU: 100637439 100639911
+            ATH: AT5G13430 AT5G13440
+            ALY: 9309680 9309681
+            CRB: 17882690 17883484
+            CSAT: 104705594 104705595 104735345 104735346 104769561 104769562
+            EUS: EUTSA_v10014363mg EUTSA_v10014365mg
+            BRP: 103846574 103850868 103850869 103856015 103856016
+            BNA: 106345856 106345857 106372296 106384182 106384194 106384202 106411107 106411470 106431938 106431951 111201486 111204273 111204274
+            BOE: 106313421 106319544 106327495 106334705 106335958
+            RSZ: 108817305 108817306 108817380 108817381 108842383 108842384 108844586
+            THJ: 104802365 104807277 104825458
+            CPAP: 110812965 110816388
+            CIT: 102621317 102624833
+            CIC: CICLE_v10005587mg CICLE_v10016224mg
+            PVY: 116107764 116113874 116126158 116133700
+            MINC: 123192275 123196437 123223675 123227049 123227747
+            TCC: 18601136
+            GRA: 105763624 105774322 105800033 105802406
+            GHI: 107911745 107924147 107938477 107945735 107954704
+            GAB: 108473783 108483780
+            DZI: 111290753 111292139 111316505
+            EGR: 104419095 104433735 104455564
+            GMX: 100798615 100799135 100806917
+            GSJ: 114383014 114383030 114389688
+            PVU: PHAVU_001G083900g PHAVU_004G069800g
+            VRA: 106753663
+            VAR: 108319878 108346161
+            VUN: 114182306 114185653
+            CCAJ: 109798761 109812055
+            APRC: 113861148
+            MTR: 11442639
+            CAM: 101511521
+            PSAT: 127126741
+            LJA: Lj1g3v3904490.1(Lj1g3v3904490.1)
+            ADU: 107494602 107494603 107494604
+            AIP: 107604875 107604877 107604878
+            AHF: 112697089 112697090 112697091 112754982 112754983 112754985
+            LANG: 109335729 109347484 109350358
+            FVE: 101304159 101304403
+            RCN: 112186764 112200715
+            PPER: 18782473 18792381
+            PMUM: 103322148 103330432
+            PAVI: 110764338 110768696
+            PDUL: 117615283
+            MDM: 103411104 103416934 103433163
+            PXB: 103936999 103944762 103950397 103966593
+            ZJU: 107427964 107429697 107431798
+            MNT: 21390954 21396318
+            CSV: 101222717 101222955
+            CMO: 103503117 103503125
+            BHJ: 120067218 120067321
+            MCHA: 111011857 111011937
+            CMAX: 111487805 111488983 111488984
+            CMOS: 111444974 111444975 111463881
+            CPEP: 111808136 111808345 111808346
+            RCU: 8273093 8285696
+            JCU: 105630217 105647298
+            HBR: 110638596 110647943 110663618 110664915
+            MESC: 110612627 110621701 110626437
+            POP: 7481176 7482824
+            PEU: 105123103 105133776
+            PALZ: 118042674 118054410
+            JRE: 109001287 109001852 109006497
+            CILL: 122305739 122306710 122306711
+            QSU: 111985034 111995548 112011363 112020957
+            QLO: 115976345 115982519
+            TWL: 119991096 119993858 119999315 120006790
+            VVI: 100256570 100257494
+            VRI: 117913960 117930373
+            SLY: 101257727
+            SPEN: 107004752
+            SOT: 102591978(FeS1)
+            SSTN: 125844748
+            CANN: 107870343
+            NTA: 107777879(RISP3) 107786155(RISP2) 107798995(RISP5) 107804709(RISP1)
+            NSY: 104240648 104247256
+            NTO: 104095560 104121005
+            NAU: 109224011 109237156
+            INI: 109176021 109179644
+            ITR: 116002826 116027734
+            SIND: 105168485 105175454
+            OEU: 111365402 111401676 111406209
+            EGT: 105964105 105968047 105968979
+            SSPL: 121774918 121777120 121794543 121798448 121802999 121803006 121806393
+            APAN: 127245431 127249640
+            HAN: 110865190 110921036 110925852
+            ECAD: 122579574 122579670
+            LSV: 111912342 111915005
+            CCAV: 112527602
+            DCR: 108192781 108217735
+            CSIN: 114257851 114261521
+            BVG: 104897661
+            SOE: 110804916
+            CQI: 110702632 110727198
+            NNU: 104591870 104592740
+            MING: 122077504 122079524
+            TSS: 122656025 122670614
+            PSOM: 113271398 113271520 113281202 113281333
+            OSA: 4329497 4335710
+            DOSA: Os02t0520800-01(Os02g0520800) Os04t0398500-01(Os04g0398500)
+            OBR: 102721731 121053544
+            BDI: 100835132 100843417
+            ATS: 109758141 109774557 109774564 109774565
+            TDC: 119316914 119326404 119338574 119355017 119364146
+            TAES: 123045346 123053185 123127522 123137192 123144627 123162336 123189100
+            TUA: 125513439 125537942
+            LPER: 127334374 127334640
+            SBI: 110434950 8072038
+            ZMA: 100192468 100192538 542550
+            SITA: 101757866 101758440
+            SVS: 117857553 117864158
+            PVIR: 120640806 120655876 120681648 120703072
+            PHAI: 112899029 112899595
+            PDA: 103696992 103712404 120105390
+            EGU: 105049748 105051101 105060386
+            MUS: 103972848 103979356 103985582
+            ZOF: 121967183 121971117 121976556 122052387
+            DCT: 110094662
+            PEQ: 110033452 110037249 110039606
+            AOF: 109823545 109831488 109837382
+            NCOL: 116247806 116260544
+            ATR: 18425010 18425812
+            SMO: SELMODRAFT_92007 SELMODRAFT_94112
+            PPP: 112273700 112276141 112286142 112289440
+            CRE: CHLRE_01g051900v5
+            VCN: VOLCADRAFT_77835
+            MNG: MNEG_4712
+            CSL: COCSUDRAFT_64564
+            CVR: CHLNCDRAFT_36997
+            APRO: F751_2979
+            OLU: OSTLU_36665 OSTLU_41673
+            OTA: OT_ostta13g03020
+            BPG: Bathy04g01510
+            MIS: MICPUN_94567
+            MPP: MICPUCDRAFT_37463
+            CME: CYME_CMN203C
+            GSL: Gasu_59410
+            CCP: CHC_T00008759001
+            SCE: YEL024W(RIP1)
+            SEUB: DI49_1368
+            SPAO: SPAR_E00460
+            AGO: AGOS_AEL067W
+            ERC: Ecym_1371
+            KLA: KLLA0_E22573g
+            KMX: KLMA_10723(RIP1)
+            LTH: KLTH0H14344g
+            VPO: Kpol_1056p22
+            ZRO: ZYRO0E03146g
+            CGR: CAGL0I03190g
+            NCS: NCAS_0G04020(NCAS0G04020)
+            NDI: NDAI_0G00430(NDAI0G00430)
+            TPF: TPHA_0O00760(TPHA0O00760)
+            TBL: TBLA_0D01970(TBLA0D01970)
+            TGB: HG536_0G03720
+            TDL: TDEL_0B05350(TDEL0B05350)
+            KAF: KAFR_0E00620(KAFR0E00620)
+            KNG: KNAG_0G00580(KNAG0G00580)
+            ZMK: HG535_0B03660
+            PPA: PAS_chr2-1_0850
+            DHA: DEHA2F11726g
+            PIC: PICST_39828(UCRI)
+            PGU: PGUG_00871
+            SPAA: SPAPADRAFT_72393
+            LEL: LELG_02655
+            CAL: CAALFM_C304430WA(RIP1)
+            CTP: CTRG_02304
+            COT: CORT_0C03090
+            CDU: CD36_84370
+            CTEN: CANTEDRAFT_112750
+            YLI: YALI0A02915g
+            CLU: CLUG_05494
+            CLUS: A9F13_16g01001
+            CAUR: CJI97_005587
+            SLB: AWJ20_3707(RIP1)
+            PKZ: C5L36_0D00980
+            BNN: FOA43_001025(RIP1)
+            BBRX: BRETT_003679(RIP1)
+            OPA: HPODL_02740
+            SLUD: SCDLUD_003496
+            NCR: NCU06606(fes-1)
+            NTE: NEUTE1DRAFT78519(NEUTE1DRAFT_78519)
+            SMP: SMAC_04732
+            PAN: PODANSg7536
+            TTT: THITE_2077933
+            MTM: MYCTH_2316294
+            CTHR: CTHT_0036520
+            MGR: MGG_16866
+            PPEI: PpBr36_03467
+            TMN: UCRPA7_3404
+            SSCK: SPSK_09987
+            FGR: FGSG_05251
+            FPU: FPSE_07242
+            FVR: FVEG_06221
+            FOX: FOXG_08455
+            NHE: NECHADRAFT_103366
+            TRE: TRIREDRAFT_21609
+            TRR: M419DRAFT_96464
+            MAW: MAC_01258
+            MAJ: MAA_06282
+            CMT: CCM_00897
+            PLJ: VFPFJ_06386
+            VAL: VDBG_01186
+            VDA: VDAG_00788
+            CFJ: CFIO01_07794
+            CLUP: CLUP02_18143
+            CHIG: CH63R_13644
+            SAPO: SAPIO_CDS7529
+            ELA: UCREL1_11439
+            PFY: PFICI_04898
+            SSL: SS1G_08646
+            BFU: BCIN_12g04650(Bcrip1)
+            MBE: MBM_00838
+            PSCO: LY89DRAFT_685181
+            GLZ: GLAREA_02840
+            ANI: AN2306.2
+            AFM: AFUA_5G10610
+            ACT: ACLA_013620
+            NFI: NFIA_076600
+            AOR: AO090010000475
+            ANG: ANI_1_588124(An14g04080)
+            AFV: AFLA_013957
+            ALUC: AKAW2_41078S(FES1_1)
+            ACHE: ACHE_31409A(FES1_1) ACHE_41061A(FES1_2)
+            APUU: APUU_20644A(FES1_2)
+            PCS: Pc21g10160
+            PDP: PDIP_57650
+            TMF: PMAA_073310
+            TRG: TRUGW13939_06357
+            CIM: CIMG_00699
+            CPW: CPC735_055790
+            URE: UREG_00690
+            PBL: PAAG_02297
+            PBN: PADG_05436
+            ABE: ARB_02990
+            TVE: TRV_05128
+            AJE: HCAG_00943
+            BGH: BDBG_08893
+            PNO: SNOG_08842
+            PTE: PTT_15012
+            BZE: COCCADRAFT_7755
+            BSC: COCSADRAFT_78765
+            BOR: COCMIDRAFT_6669
+            AALT: CC77DRAFT_1020827
+            ZTR: MYCGRDRAFT_75376
+            PFJ: MYCFIDRAFT_72052
+            FFU: CLAFUR5_11555
+            BCOM: BAUCODRAFT_79098
+            NPA: UCRNP2_6359
+            SPO: SPBC16H5.06(rip1)
+            CNE: CNE02310
+            CNB: CNBE2310
+            CNG: CNAG_02315
+            CGI: CGB_E3100C
+            TMS: TREMEDRAFT_43002
+            TASA: A1Q1_01906
+            TVS: TRAVEDRAFT_159748
+            DSQ: DICSQDRAFT_141991
+            PCO: PHACADRAFT_168084
+            SHS: STEHIDRAFT_63281
+            HIR: HETIRDRAFT_306473
+            PSQ: PUNSTDRAFT_56741
+            ADL: AURDEDRAFT_109624
+            FME: FOMMEDRAFT_19639
+            GTR: GLOTRDRAFT_53670
+            LBC: LACBIDRAFT_321219
+            CCI: CC1G_10506
+            ABP: AGABI1DRAFT32109(AGABI1DRAFT_32109)
+            ABV: AGABI2DRAFT61124(RIP1)
+            PCUB: JR316_0001138
+            MPR: MPER_08520
+            MRR: Moror_275
+            MORE: E1B28_001383(FES1)
+            CPUT: CONPUDRAFT_86382
+            SLA: SERLADRAFT_359840(RIP1)
+            WSE: WALSEDRAFT_52797
+            WIC: J056_001653
+            UMA: UMAG_10507
+            PFP: PFL1_04096
+            MGL: MGL_2011
+            MRT: MRET_1543
+            MSYM: MSY001_1094
+            PGR: PGTG_17500
+            MLR: MELLADRAFT_36650 MELLADRAFT_41235
+            MBR: MONBRDRAFT_7678
+            SRE: PTSG_03018
+            DDI: DDB_G0284947(ucr)
+            DPP: DICPUDRAFT_82910
+            DFA: DFA_02272(ucr)
+            ACAN: ACA1_321370
+            PFA: PF3D7_1439400
+            PFD: PFDG_03667
+            PFH: PFHG_00303
+            PREI: PRSY57_1438700
+            PGAB: PGSY75_1439400
+            PYO: PY17X_1307100
+            PCB: PCHAS_1306500
+            PBE: PBANKA_1303300
+            PVV: PVVCY_1300510
+            PKN: PKNH_1242900
+            PVX: PVX_118520
+            PCY: PCYB_127570
+            TAN: TA10085
+            TPV: TP04_0913
+            TOT: TOT_040000027
+            BEQ: BEWA_011660
+            BBO: BBOV_III009930
+            BMIC: BmR1_04g09325
+            BBIG: BBBOND_0313720
+            TGO: TGME49_320220
+            TET: TTHERM_00295080
+            PTM: GSPATT00006952001 GSPATT00012854001 GSPATT00013163001 GSPATT00016710001
+            SMIN: v1.2.038109.t1(symbB.v1.2.038109.t1)
+            PTI: PHATRDRAFT_12233
+            FCY: FRACYDRAFT_271239
+            TPS: THAPSDRAFT_32914(risp1)
+            AAF: AURANDRAFT_52117
+            PIF: PITG_05840
+            SPAR: SPRG_07845
+            EHX: EMIHUDRAFT_358392 EMIHUDRAFT_439725 EMIHUDRAFT_460004
+            GTT: GUITHDRAFT_67785
+            TBR: Tb09.211.4700
+            TBG: TbgDal_IX8870
+            TCR: 506999.90 510759.120
+            LMA: LMJF_35_1540
+            LIF: LINJ_35_1540
+            LDO: LDBPK_351540
+            LMI: LMXM_34_1540
+            LBZ: LBRM_34_1450
+            LPAN: LPMP_341390(RISP)
+            NGR: NAEGRDRAFT_78817
+            KLW: DA718_08950(petA)
+            CKO: CKO_01263
+            CBRA: A6J81_07765(petA)
+            CWE: CO701_08635(petA)
+            CYO: CD187_14960(petA)
+            CPOT: FOB25_02890(petA)
+            CFQ: C2U38_08995(petA)
+            CAMA: F384_08375
+            CAF: AL524_13850(petA)
+            CIF: AL515_13510(petA)
+            CFAR: CI104_14495(petA)
+            CIR: C2U53_23520(petA)
+            CPAR: CUC49_09235(petA)
+            CTEL: GBC03_16095(petA)
+            CITZ: E4Z61_06830(petA)
+            PSHI: SAMEA2665130_0368(petA)
+            XFA: XF_0908
+            XFT: PD_1777(petA)
+            XFM: Xfasm12_1945
+            XFN: XfasM23_1880
+            XFF: XFLM_03270
+            XFL: P303_10230
+            XFH: XFHB_10825
+            XCC: XCC2324(petA)
+            XCB: XC_1792
+            XCA: xcc-b100_1848
+            XCP: XCR_2597(petA)
+            XCV: XCV2634(petA)
+            XAX: XACM_2436(petA)
+            XAC: XAC2457(petA)
+            XCI: XCAW_02129(qcrA)
+            XCT: J151_02633
+            XCJ: J158_02623
+            XCU: J159_02621
+            XCN: J169_02630
+            XCW: J162_02622
+            XCR: J163_02617
+            XCM: J164_02619
+            XCF: J172_02624
+            XFU: XFF4834R_chr24410
+            XAO: XAC29_12465
+            XOM: XOO2602(XOO2602)
+            XOO: XOO2762(petA)
+            XOP: PXO_00441(petA)
+            XOY: AZ54_10295
+            XOR: XOC_2037(petA)
+            XOZ: BE73_09615
+            XAL: XALC_1264
+            XSA: SB85_04530
+            XTN: FD63_11720
+            XFR: BER92_06880
+            XVE: BJD12_03230
+            XPE: BJD13_04245
+            XHR: XJ27_06005
+            XGA: BI317_10705
+            XPH: XppCFBP6546_00835(petA)
+            XVA: C7V42_09995(petA)
+            XAN: AC801_12485
+            XAR: XB05_07175
+            XHY: FZ025_00815(petA)
+            XTH: G4Q83_10225(petA)
+            XEU: XSP_002439(petA)
+            XHD: LMG31886_18400(petA)
+            XPR: MUG10_19405(petA)
+            XAG: HEP73_01707
+            SML: Smlt1604(petA)
+            SMT: Smal_1361
+            BUJ: BurJV3_1351
+            SMZ: SMD_1430(petA)
+            SACZ: AOT14_13980(petA)
+            STEK: AXG53_02810
+            SRH: BAY15_1477
+            SLM: BIZ42_15895
+            STEN: CCR98_07210(petA)
+            STEM: CLM74_07730(petA)
+            STES: MG068_06855(petA)
+            SINC: DAIF1_14470(petA)
+            SPAQ: STNY_R14830(petA)
+            STEQ: ICJ04_12130(petA)
+            PSU: Psesu_0829
+            PSUW: WQ53_12545
+            PSD: DSC_12400
+            PMEX: H4W19_08475(petA)
+            PJP: LAG73_03345(petA)
+            PDD: MNQ95_11060(petA)
+            LAB: LA76x_1717(petA)
+            LAQ: GLA29479_549(petA)
+            LCP: LC55x_1608(petA)
+            LGU: LG3211_3608(petA)
+            LEZ: GLE_3601(petA)
+            LEM: LEN_1527(petA)
+            LMB: C9I47_0930
+            LYT: DWG18_03595(petA)
+            LUE: DCD74_07445(petA)
+            LYJ: FKV23_04355(petA)
+            LSOL: GOY17_14170(petA)
+            LSX: H8B22_02380(petA)
+            LARE: HIV01_000730(petA)
+            LHX: LYSHEL_19870(petA)
+            LCAS: LYSCAS_19880(petA)
+            LCIC: INQ41_04500(petA)
+            LAVI: INQ42_04305(petA)
+            LLZ: LYB30171_00879(petA)
+            LUM: CNR27_12420(petA)
+            LUS: E5843_10960(petA)
+            LUG: FPZ22_04020(petA)
+            THES: FHQ07_12510(petA)
+            THEH: G7079_05020(petA)
+            TCN: H9L16_00645(petA)
+            TBV: H9L17_03040(petA)
+            XBC: ELE36_05215(petA)
+            FAU: Fraau_2243
+            RHD: R2APBS1_2943
+            RGL: CS053_04430(petA)
+            RTH: LRK53_14835(petA)
+            DJI: CH75_02490
+            DJA: HY57_08315
+            DTX: ATSB10_20900
+            DYE: EO087_04870(petA)
+            DCS: ISN74_03290(petA)
+            DTL: H8F01_14900(petA)
+            DTA: DYST_01963
+            DKO: I596_2392
+            LRZ: BJI69_13120
+            LPY: FIV34_06205(petA)
+            LANH: KR767_01460(petA)
+            XBA: C7S18_13795(petA)
+            RBD: ALSL_1430
+            VCH: VC_0573
+            VCF: IR04_07835
+            VCS: MS6_0395
+            VCE: Vch1786_I2885(petA)
+            VCQ: EN18_19855
+            VCJ: VCD_001035
+            VCI: O3Y_02695
+            VCO: VC0395_A0105(petA)
+            VCR: VC395_0590(petA)
+            VCM: VCM66_0531(petA)
+            VCL: VCLMA_A0498
+            VCX: VAA049_3117(petA)
+            VCZ: VAB027_3271(petA)
+            VVU: VV1_0597(petA)
+            VVY: VV0596
+            VVM: VVMO6_02595
+            VVL: VV93_v1c05370
+            VPA: VP0441
+            VPB: VPBB_0422
+            VPK: M636_19610
+            VPF: M634_04105
+            VPH: VPUCM_0433
+            VHA: VIBHAR_00883
+            VCA: M892_08470
+            VAG: N646_2597
+            VEX: VEA_004509
+            VDB: AL552_10495(petA)
+            VHR: AL538_11545(petA)
+            VNA: PN96_11295
+            VOW: A9237_06185
+            VRO: BSZ04_21280
+            VSP: VS_0431
+            VEJ: VEJY3_01985
+            VFU: vfu_A02950
+            VNI: VIBNI_A0209(petA)
+            VAN: VAA_03736
+            LAG: N175_03950
+            VAU: VANGNB10_cI2187c
+            VCY: IX92_12390
+            VCT: JV59_01965
+            VTU: IX91_12440
+            VEU: IXK98_21185(petA)
+            VSI: MTO69_02615(petA)
+            VFL: AL536_17945(petA)
+            VMI: AL543_12000(petA)
+            VBR: A6E01_01995
+            VSC: VSVS12_02580(rip1)
+            VSH: BSZ05_04015
+            VQI: CCZ37_10600(petA)
+            VTA: A0220(petA)
+            VAF: D1115_13140(petA)
+            VNL: D3H41_02045(petA)
+            VCC: FAZ90_12760(petA)
+            VAS: GT360_02760(petA)
+            VAQ: FIV01_11875(petA)
+            VKA: BTD91_04180(petA)
+            VZI: G5S32_12035(petA)
+            VNV: IF132_12995(petA)
+            VGI: MID13_02240(petA)
+            VSL: LTQ54_06555(petA)
+            VPL: SA104470976_02151(petA)
+            VJP: NP165_02740(petA)
+            VPG: LZI70_04860(petA)
+            VOS: KNV97_15860(petA)
+            VTI: CEQ48_15980(petA)
+            VCRA: IS519_08160(petA)
+            VFI: VF_2220
+            VFM: VFMJ11_2331(petA)
+            VSA: VSAL_I2662
+            AWD: AWOD_I_0379
+            PPR: PBPRA3235(CV4008)
+            PGB: H744_2c0685
+            PDS: CAY62_12395
+            PGH: FH974_01755(petA)
+            GHO: AL542_07560(petA)
+            PMAI: CF386_02195(petA)
+            SALY: E8E00_11685(petA)
+            SKS: FCN78_01915(petA)
+            SCOT: HBA18_01840(petA)
+            SPRO: N7E60_01975(petA)
+            PAE: PA4431
+            PAEV: N297_4576(petA)
+            PAEI: N296_4576(petA)
+            PAU: PA14_57570
+            PAP: PSPA7_5003(petA)
+            PAG: PLES_48101
+            PAF: PAM18_4522
+            PNC: NCGM2_1172
+            PAEB: NCGM1900_2261
+            PDK: PADK2_23085
+            PSG: G655_22785
+            PRP: M062_23340
+            PAEP: PA1S_24055
+            PAER: PA1R_gp2331
+            PAEM: U769_23845
+            PAEL: T223_24570
+            PAES: SCV20265_5006
+            PAEU: BN889_04926
+            PAEG: AI22_09995
+            PAEC: M802_4574(petA)
+            PAEO: M801_4441(petA)
+            PMY: Pmen_0903
+            PMK: MDS_0991
+            PRE: PCA10_10590(petA)
+            PPSE: BN5_3481
+            PFUW: KF707C_9850
+            PALC: A0T30_05765
+            PCQ: PcP3B5_12000(petA)
+            PMUI: G4G71_26945(petA)
+            PNT: G5B91_06010(petA)
+            PPAA: B7D75_22815(petA)
+            PPU: PP_1317(petA)
+            PPF: Pput_4407
+            PPG: PputGB1_4532
+            PPW: PputW619_0924
+            PPT: PPS_4376
+            PPB: PPUBIRD1_4245(petA)
+            PPI: YSA_03027
+            PPX: T1E_4337(petA)
+            PPUH: B479_22010
+            PPUT: L483_27080
+            PPUN: PP4_08270(petA)
+            PPUD: DW66_4766
+            PFV: Psefu_0781
+            PMON: X969_21550
+            PMOT: X970_21185
+            PMOS: O165_028505
+            PPJ: RK21_00147
+            POR: APT59_16470
+            PMOL: CLJ08_17630(petA)
+            PCI: PCH70_42510
+            PVD: CFBP1590__1154(petA)
+            PAST: N015_21905(petA)
+            PLIJ: KQP88_20095(petA)
+            PFL: PFL_5080(petA)
+            PPRC: PFLCHA0_c50550(petA)
+            PPRO: PPC_5079(petA)
+            PFE: PSF113_4802
+            PFN: HZ99_12560
+            PFO: Pfl01_4692(petA)
+            PFS: PFLU_0841(petA)
+            PFC: PflA506_0832(petA)
+            PPZ: H045_01000
+            PFB: VO64_3926
+            PMAN: OU5_4515
+            PTV: AA957_09755
+            PCG: AXG94_10235
+            PVR: PverR02_04530
+            PAZO: AYR47_11530
+            POI: BOP93_04040
+            PRX: HRH33_05095(petA)
+            PMED: E3Z27_23390(petA)
+            PFW: PF1751_v1c08110(petA)
+            PFF: PFLUOLIPICF704080
+            PFX: A7318_03595
+            PEN: PSEEN4505(petA)
+            PLUL: FOB45_20435(petA)
+            PBA: PSEBR_a4639
+            PBC: CD58_24565
+            PPUU: PputUW4_04524(petA)
+            PDR: H681_05535
+            PSV: PVLB_04405
+            PSK: U771_05405
+            PKC: PKB_4539(petA)
+            PCH: EY04_25750
+            PCZ: PCL1606_11870
+            PCP: JM49_05930
+            PFZ: AV641_04095
+            PALK: PSAKL28_09060
+            PRH: LT40_03980
+            PSW: LK03_09995
+            PPV: NJ69_13690
+            PSES: PSCI_2839
+            PSEM: TO66_25805
+            PSEC: CCOS191_4413(petA)
+            PPSY: AOC04_00910
+            PSOS: POS17_5060(petA)
+            PKR: AYO71_25350
+            PFK: PFAS1_16535
+            PANR: A7J50_0849
+            PPSL: BJP27_08155
+            PSET: THL1_1108
+            PSIL: PMA3_04040
+            PYM: AK972_0692
+            PKE: DLD99_23820(petA)
+            PALL: UYA_04430
+            PUM: HGP31_26170(petA)
+            POJ: PtoMrB4_12270
+            PGG: FX982_00590
+            PPSH: G5J76_06915(petA)
+            PGY: AWU82_27590(petA)
+            PLAL: FXN65_04915(petA)
+            PSEJ: HNQ25_19740(petA)
+            PVK: EPZ47_24590(petA)
+            PEZ: HWQ56_24090(petA)
+            PBZ: GN234_23755(petA)
+            PKH: JLK41_04730(petA)
+            PTY: JWV26_15510(petA)
+            PMAO: PMYSY11_1099(petA)
+            PATA: JWU58_05575(petA)
+            PDW: BV82_4656(petA)
+            PZE: HU754_024855(petA)
+            PMOE: HV782_024145(petA)
+            PCAM: HNE05_08150 HNE05_13995(petA)
+            PSEP: C4K39_4550
+            PVW: HU752_005785(petA)
+            PTRT: HU722_0005445(petA)
+            PXA: KSS93_08005(petA)
+            PSAM: HU731_020325(petA)
+            PTZ: HU718_025340(petA)
+            PQI: KH389_22110(petA)
+            PSHH: HU773_023610(petA)
+            PXN: HU772_004570(petA)
+            PHV: HU739_024130(petA)
+            PPRG: HU725_004220(petA)
+            PNN: KEM63_03135(petA)
+            PANH: HU763_020175(petA)
+            PASG: KSS96_05030(petA)
+            PFAK: KSS94_04790(petA)
+            PMUY: KSS95_07615(petA)
+            PMAM: KSS90_21240(petA)
+            PAZE: KSS91_24115(petA)
+            PALV: KSS97_06020(petA)
+            PPHA: BVH74_08185
+            PORY: EJA05_04965(petA)
+            PWZ: J7655_04240(petA)
+            PTK: EXN22_22755(petA)
+            PTW: TUM18999_13220
+            PZA: HU749_024405(petA)
+            PIE: HU724_023355(petA)
+            PWY: HU734_005625(petA)
+            PTAE: NCTC10697_00839(petA)
+            PGF: J0G10_25705(petA)
+            PCAV: D3880_18400(petA)
+            PJU: L1P09_20710(petA)
+            PHF: NLY38_04570(petA)
+            PPHN: HU825_09345(petA)
+            PIZ: LAB08_R50930(petA)
+            PPEG: KUA23_04460(petA)
+            PSII: NF676_22370(petA)
+            PSIH: LOY51_04865(petA)
+            PCAS: LOY40_04960(petA)
+            PFIT: KJY40_25130(petA)
+            PSA: PST_1063(petA)
+            PSZ: PSTAB_0966(petA)
+            PSC: A458_16425
+            PSJ: PSJM300_04035
+            PSH: Psest_3279
+            PSTU: UIB01_04785
+            PSTT: CH92_16975
+            PSED: DM292_13955(petA)
+            PCHL: LLJ08_15865(petA)
+            PBM: CL52_16055
+            PKG: LW136_16960(petA)
+            SDEG: GOM96_14690(petA)
+            AVN: Avin_13060(petA)
+            AVL: AvCA_13060(petA)
+            AVD: AvCA6_13060(petA)
+            ACX: Achr_29610(petA)
+            PBB: AKN87_05710
+            PAGR: E2H98_06175(petA)
+            HPEG: EAO82_18280(petA)
+            HAES: LO767_02420(petA)
+            HARR: HV822_04845(petA)
+            DCE: O6P33_00075(petA)
+            PBAU: OS670_08540(petA)
+            MAQ: Maqu_2470
+            MHC: MARHY0774(petA)
+            MAD: HP15_545(petA)
+            MBS: MRBBS_0753(petA)
+            MSX: AU14_08685
+            MPQ: ABA45_03965
+            MARI: ACP86_14150
+            MLQ: ASQ50_15535
+            MSQ: BKP64_11605
+            MARA: D0851_16540(petA)
+            MARJ: MARI_21610(petA)
+            MALL: PBN92_04030(petA)
+            PAR: Psyc_1420
+            PCR: Pcryo_1583
+            PRW: PsycPRwf_0796
+            PSO: PSYCG_08285
+            PUR: AOC03_02655
+            PALI: A3K91_0924
+            PSPG: AK823_08905
+            PSYG: AK825_09130
+            PSYC: DABAL43B_1872(petA)
+            PSYA: AOT82_45
+            PSYY: DLE54_04000(petA)
+            PSYP: E5677_08745(petA)
+            PKY: PKHYL_26170
+            MCT: MCR_1355(qcrA)
+            MCS: DR90_567(petA)
+            MCAT: MC25239_01316(petA)
+            MOI: MOVS_03735
+            MOS: AXE82_10200
+            MBL: AAX09_03160
+            MBOI: DQF64_09760(petA)
+            MCUN: NCTC10297_01022(petA)
+            MNN: I6G26_08785(petA)
+            MNS: LU293_08355(petA)
+            MBAH: HYN46_02275(petA)
+            SON: SO_0608(petA)
+            SDN: Sden_3201
+            SFR: Sfri_3307
+            SAZ: Sama_3021
+            SBL: Sbal_0562
+            SBM: Shew185_3763
+            SBN: Sbal195_3889
+            SBP: Sbal223_3706
+            SBT: Sbal678_3919
+            SBS: Sbal117_0664
+            SBB: Sbal175_3684
+            SLO: Shew_0570
+            SPC: Sputcn32_3276
+            SHP: Sput200_3403
+            SSE: Ssed_0801
+            SPL: Spea_3536
+            SHE: Shewmr4_0602
+            SHM: Shewmr7_3428
+            SHN: Shewana3_0601
+            SHW: Sputw3181_0665
+            SHL: Shal_3630
+            SWD: Swoo_4166
+            SWP: swp_0793
+            SVO: SVI_0489(petA)
+            SHF: CEQ32_13070(petA)
+            SJA: SJ2017_3564
+            SPSW: Sps_05076
+            SBJ: CF168_17820(petA)
+            SMAV: CFF01_02795(petA)
+            SHEW: CKQ84_04510(petA)
+            SALG: BS332_10595
+            SLJ: EGC82_18850(petA)
+            SMAI: EXU30_06515(petA)
+            SPOL: FH971_17165(petA)
+            SBK: SHEWBE_1157(petA)
+            SKH: STH12_02933(petA)
+            SAES: HBH39_03125(petA)
+            SLIT: JQC75_15510(petA)
+            SDK: KHX94_12500(petA)
+            SCAA: TUM17387_06280(petA)
+            SPSH: FM037_03690(petA)
+            SEUR: FM038_021250(petA)
+            SYK: KDN34_14450(petA)
+            SCYP: JYB88_14875(petA)
+            SAVI: JYB87_03545(petA)
+            SSEM: JYB85_15335(petA)
+            SGLA: FJ709_16460(petA)
+            SINV: K8B83_05745(petA)
+            SXM: MKD32_17965(petA)
+            SVM: KDH10_003759(petA)
+            SHEJ: MZ182_17395(petA)
+            SSEH: N7V09_20475(petA)
+            SCHK: GII14_03535(petA)
+            ILO: IL0416
+            ILI: K734_02085
+            IPI: CEW91_10590(petA)
+            IDI: CWC33_03620(petA)
+            IDT: C5610_01625(petA)
+            IAB: K5X84_01930(petA)
+            CPS: CPS_4440(petA)
+            COM: CMT41_15430
+            COZ: A3Q34_13245
+            COLW: A3Q33_06385
+            COLA: DBO93_16605(petA)
+            COV: EKO29_18435(petA)
+            CBER: B5D82_06500(petA)
+            LSD: EMK97_14265(petA)
+            THT: E2K93_10550(petA)
+            THAP: FNC98_02520(petA)
+            THAB: LP316_05705(petA)
+            THAT: H3N35_03695(petA)
+            TACT: SG35_003720(petA)
+            TVD: SG34_004170(petA)
+            PHA: PSHAa2530
+            PTN: PTRA_a3049(petA)
+            PAT: Patl_3701
+            PSM: PSM_A0475
+            PSEO: OM33_01890
+            PIA: PI2015_0499
+            PPHE: PP2015_313
+            PBW: D172_003515
+            PRR: AT705_14125
+            PLZ: S4054249_18950
+            PALN: B0W48_05535
+            PPIS: B1L02_16925(petA)
+            PEA: PESP_a3326(petA)
+            PSPO: PSPO_a2956(petA)
+            PART: PARC_a0695(petA)
+            PTU: PTUN_a0540(petA)
+            PNG: PNIG_a3229(petA)
+            PTD: PTET_a0520(petA)
+            PSEN: PNC201_01870(petA)
+            PDJ: D0907_02535(petA)
+            PAGA: PAGA_a3335(petA)
+            PCAR: PC2016_0551
+            PMAA: CPA52_13430(petA)
+            PXI: J5O05_07570(petA)
+            PVB: J5X90_07750(petA)
+            PSAZ: PA25_03030(petA)
+            PDV: FFU37_01575(petA)
+            PFLI: CTT31_16325(petA)
+            PSYM: J1N51_12015(petA)
+            AMC: MADE_000001020805
+            AMH: I633_03930
+            AMAA: amad1_03855
+            AMAL: I607_03750
+            AMAE: I876_03960
+            AMAO: I634_04115
+            AMAD: I636_03845
+            AMAI: I635_03820
+            AMAG: I533_03680
+            AMAC: MASE_03300
+            AMB: AMBAS45_03645
+            AMG: AMEC673_03560
+            AMK: AMBLS11_03525
+            ALT: ambt_14680
+            AAL: EP13_03750
+            AAUS: EP12_03860
+            ASP: AOR13_2747
+            ASQ: AVL57_05015
+            AAW: AVL56_03790
+            ALR: DS731_04330(petA)
+            ALE: AV939_04085
+            ALZ: AV940_03930
+            APEL: CA267_005445(petA)
+            SALM: D0Y50_03175(petA)
+            SALK: FBQ74_14000(petA)
+            SMAA: IT774_13795(petA)
+            GAG: Glaag_3692
+            GNI: GNIT_0728
+            GPS: C427_4573
+            PMES: FX988_03213
+            LAL: AT746_16360
+            CATE: C2869_20525(petA)
+            SALH: HMF8227_02493(rip1)
+            HMI: soil367_03800(petA)
+            PAEW: KIH87_17395(petA)
+            AGZ: M0C34_17250(petA)
+            AGQ: LQZ07_04990(petA)
+            ALKM: NKI27_16135(petA)
+            ASEM: NNL22_12565(petA)
+            CATT: OLW01_01625(petA)
+            PIN: Ping_2874(petA)
+            PSY: PCNPT3_09695
+            FBL: Fbal_3421
+            FES: HER31_13810(petA)
+            MVS: MVIS_4203
+            MYA: MORIYA_3263(petA)
+            MMAA: FR932_19125(petA)
+            CJA: CJA_2785(petA)
+            CEB: B0D95_09275
+            CELL: CBR65_20365
+            CEK: D0B88_17570(petA)
+            CEG: D0C16_09800(petA)
+            SDE: Sde_3162
+            TTU: TERTU_3678(petA)
+            SAGA: M5M_17640
+            MARQ: MARGE09_P1795
+            GIL: NHM04_06930(petA)
+            MKE: OOT55_01930(petA)
+            SPOI: IMCC21906_01198
+            SNAN: I6N98_04145(petA)
+            STAW: NCG89_05820(petA)
+            ZAL: AZF00_14655
+            OSG: BST96_12560
+            MTHD: A3224_05110
+            MICC: AUP74_03394(petA)
+            MAGA: Mag101_13390
+            MII: BTJ40_05575 BTJ40_13165 BTJ40_17025(petA)
+            MICT: FIU95_15755(petA)
+            MHYD: GTQ55_13220(petA)
+            MCEL: LPW13_02765(petA)
+            MICZ: GL2_23800
+            MVB: MJO52_16035(petA)
+            HJA: BST95_17610
+            HALC: EY643_04515(petA)
+            KIM: G3T16_17345
+            AFUS: EYZ66_10800(petA)
+            ALG: AQULUS_18730(petA)
+            ASIP: AQUSIP_21190(petA)
+            LPN: lpg2705(petA)
+            LPH: LPV_3054(petA)
+            LPO: LPO_2989(petA)
+            LPU: LPE509_00319
+            LPM: LP6_2738(petA)
+            LPF: lpl2633(petA)
+            LPP: lpp2760(petA)
+            LPC: LPC_0430(petA)
+            LPA: lpa_03947(qcrA)
+            LPE: lp12_2698
+            LLO: LLO_0347(petA)
+            LFA: LFA_0358(petA)
+            LHA: LHA_2738(petA)
+            LOK: Loa_02684
+            LCD: clem_02565(petA)
+            LSH: CAB17_05825(petA)
+            LLG: 44548918_02290(petA)
+            LIB: E4T55_05395(petA)
+            LGT: E4T54_07190(petA)
+            LJR: NCTC11533_02377(petA)
+            LCJ: NCTC11976_00263(petA)
+            LWA: SAMEA4504053_3209(petA)
+            LSS: NCTC12082_01493(petA)
+            LADL: NCTC12735_01536(petA)
+            LANT: TUM19329_31790(petA)
+            LLY: J2N86_02945(petA)
+            TMC: LMI_2811(petA)
+            MCA: MCA1962(petA)
+            METU: GNH96_07335(petA)
+            MMT: Metme_0676
+            MDN: JT25_007295
+            MDH: AYM39_00685
+            MKO: MKLM6_0174
+            METL: U737_02610(petA)
+            MPAD: KEF85_01310(petA)
+            MELL: IVG45_17760(petA)
+            MRP: NM686_019515(petA)
+            MAH: MEALZ_0634(petA)
+            MBUR: EQU24_03115(petA)
+            MPSY: CEK71_01700(petA)
+            MMAI: sS8_2106
+            MMOB: F6R98_12330(petA)
+            MEIN: methR_P0762
+            MOZ: MoryE10_17900
+            MISZ: MishRS11D_14370(petA)
+            MESL: KKZ03_07890(petA)
+            TCX: Tcr_0991
+            HTR: EPV75_05600(petA)
+            HMAR: HVMH_1403(petA)
+            TCY: Thicy_0482
+            TAO: THIAE_07555
+            THIO: AYJ59_08290
+            TMH: JX580_03330(petA)
+            MEJ: Q7A_632(petA)
+            MEC: Q7C_2216
+            MPIN: LGT42_014475(petA)
+            CYQ: Q91_1631(petA)
+            CZA: CYCME_0829(petA)
+            CYY: CPC19_04695(petA)
+            THIG: FE785_02730(petA)
+            TXA: HQN79_09200(petA)
+            TIB: THMIRHAM_05920(petA)
+            TSE: THMIRHAS_06850(petA)
+            TZO: THMIRHAT_09710(petA)
+            TIG: THII_0853
+            BLEP: AL038_09915(petA)
+            THIS: HZT40_08180(petA) HZT40_08755(petA)
+            TUN: J9260_04725(petA) J9260_09995(petA)
+            TLO: J9253_02125(petA) J9253_04340(petA)
+            TSB: HMY34_15755(petA) HMY34_18490(petA)
+            TANI: J8380_15040(petA) J8380_16425(petA)
+            TWN: L2Y54_15970(petA) L2Y54_19175(petA)
+            NOC: Noc_0299
+            NHL: Nhal_3860
+            NWA: Nwat_0395
+            NWR: E3U44_04755(petA)
+            ALV: Alvin_0068
+            ATEP: Atep_02440(petA)
+            TVI: Thivi_0859 Thivi_3744
+            TMB: Thimo_1648 Thimo_2286
+            MPUR: MARPU_01465 MARPU_02325
+            TEE: Tel_15060
+            NTT: TAO_1745
+            TSY: THSYN_11680
+            RHH: E0Z06_01555(petA)
+            TTP: E6P07_09770(petA)
+            NTG: NSCAC_0091(petA)
+            THIP: N838_32930(petA)
+            CJAP: GWK36_02430(petA)
+            THIM: KFB96_19890(petA)
+            TBOG: LT988_15160(petA)
+            AEH: Mlg_2211
+            HHA: Hhal_0182
+            HHK: HH1059_18410(petA)
+            HHC: M911_02600 M911_12440
+            EBS: ECTOBSL9_0429 ECTOBSL9_2166
+            TGR: Tgr7_0749 Tgr7_1198
+            TKM: TK90_0892 TK90_2219
+            TNI: TVNIR_2113 TVNIR_2622(petA_[H])
+            TTI: THITH_06595 THITH_14560
+            TVR: TVD_02090 TVD_07440
+            SSAL: SPISAL_06915
+            SPIU: SPICUR_07725
+            SROS: BBH56_06940
+            SPIZ: GJ672_07780(petA)
+            APRS: BI364_09045 BI364_10550 BI364_14640 BI364_15210
+            NAX: HC341_06295(petA) HC341_14470(petA)
+            HNA: Hneap_1138
+            HAZ: A9404_04450
+            WMA: WM2015_1302
+            WEZ: IC757_05890(petA)
+            WOC: BA177_14255
+            GAI: IMCC3135_10605(petA_1) IMCC3135_29275(petA_2)
+            GHL: GM160_06325(petA)
+            TTC: FOKN1_2544
+            THIC: TspCOW1_32750(petA)
+            HCH: HCH_05900(petA)
+            HAHE: ENC22_04465(petA)
+            HEL: HELO_1943(petA)
+            HCS: FF32_17520
+            HAK: KO116_02677 KO116_P100014
+            HAM: HALO2943
+            HHU: AR456_07400
+            HCO: LOKO_00493(petA)
+            HSI: BOX17_01810
+            HALO: BWR19_12245
+            HHH: CLM76_16950(petA)
+            HBE: BEI_1192 BEI_2358
+            HAG: BB497_10590
+            HALK: CUU95_13475(petA)
+            HVN: EI420_12050(petA)
+            HOL: HORIV_26360
+            HSR: HSBAA_24470
+            HMD: CTT34_11465(petA)
+            HAXI: HAALTHF_32210n
+            HTT: HZS52_19240(petA)
+            HCAM: I4484_13500(petA)
+            HPIZ: GYM47_10640(petA)
+            HSX: HNO51_08195(petA) HNO51_13185(petA)
+            HSV: HNO53_13780(petA)
+            HTX: EKK97_14880(petA)
+            HPRO: LMS44_08710(petA)
+            HQD: K1Y77_10130(petA)
+            HBH: E4T21_07105(petA)
+            CMAI: BFX80_13595
+            CAMH: LCW13_03655(petA)
+            COBE: CLAM6_07120
+            PAUR: FGL86_14680(petA)
+            ABO: ABO_0578(petA)
+            ALN: AS19_05950
+            ADI: B5T_03519(petA)
+            AXE: P40_16565
+            APAC: S7S_04715
+            KAK: Kalk_17325(petA)
+            MME: Marme_1796
+            TOL: TOL_0401 TOL_1730
+            TOR: R615_01890 R615_08875
+            TWAN: HUF19_02525(petA)
+            OAI: OLEAN_C04160(petA)
+            MARS: A8C75_05170
+            MGEO: CFI10_05850(petA)
+            MSEC: LN244_04370(petA)
+            MARL: HH196_05930(petA)
+            MRZ: KDW95_10955(petA)
+            BSAN: CHH28_08455(petA)
+            NCU: F0U83_04415(petA)
+            NJP: NEJAP_0938(petA)
+            NIK: F5I99_04205(petA)
+            BMAR: HF888_04210(petA)
+            AJP: AMJAP_0888(petA)
+            VCW: GJQ55_11290(petA)
+            BACZ: KFF03_02125(petA)
+            GSN: YC6258_01949
+            RFO: REIFOR_03149
+            OME: OLMES_4716
+            LLP: GH975_10430(petA)
+            ENW: MJO57_26610(petA)
+            EEI: NX720_19060(petA)
+            AHA: AHA_3903(petA)
+            AHY: AHML_20675
+            AHD: AI20_21575
+            AHR: V428_21545
+            AHP: V429_21575
+            AHJ: V469_01940
+            AHH: RY45_20415
+            AHI: VU14_02185
+            AAJ: BOQ57_20370
+            ASA: ASA_0335(petA)
+            AEO: O23A_p3254
+            AVR: B565_0325
+            AVO: AMS64_02925
+            AMED: B224_0049
+            ASR: WL1483_1843(petA)
+            ADH: CK627_01760(petA)
+            ACAV: VI35_01930(petA)
+            AEM: CK911_15185(petA)
+            AEA: C2U39_02310(petA)
+            ARV: C7N77_06230(petA)
+            AES: C2U30_16790(petA)
+            AEL: NCTC12917_03847(petA)
+            ASIM: FE240_14320(petA)
+            AALL: I6G90_14110(petA)
+            AJD: I6H43_12405(petA)
+            ARIV: KYK33_02200(petA)
+            ASAA: KXJ75_21860(petA)
+            AEJ: E5E97_02265(petA)
+            ABES: IU367_19710(petA)
+            OCE: GU3_04265
+            OCM: CBP12_12220
+            OPF: CBP31_09710
+            ZDF: AN401_16335
+            KKO: Kkor_0667 Kkor_1289
+            KGE: TQ33_1722
+            KSD: KS2013_1779
+            KPD: CW740_03030(petA)
+            CHJ: NCTC10426_02296(petA)
+            SUTR: L0B52_00025(petA)
+            IGN: MMG00_02075(petA)
+            SDF: ACG33_03195
+            SOK: D0B54_05630(petA)
+            SINI: GT972_07300(petA)
+            FCE: JN531_009335(petA)
+            GBI: PG2T_01420
+            SLIM: SCL_2172
+            SVA: SVA_0674 SVA_3235
+            ATY: A9R16_013025(petA) A9R16_014120(petA)
+            GBAC: MMH89_04540(petA)
+            TBN: TBH_C0454
+            SEDS: AAY24_11700
+            TSN: W908_08715
+            THIN: CRN91_01435(petA)
+            THO: SP60_04075
+            PSPI: PS2015_2316
+            REV: HUE57_02545 HUE57_07685(petA)
+            ACIL: ESZ_00136(petA)
+            RMA: Rmag_0011
+            REO: HUE58_05690(petA)
+            VOK: COSY_0012(petA)
+            EPS: L0Y14_01285(petA)
+            EBH: BSEPE_0015(petA)
+            BTHG: MS2017_0017
+            GPB: HDN1F_06540(petA)
+            ENM: EBS_2185(petA)
+            IFO: CVFO_1185(petA)
+            APHF: CVPH_0015(petA)
+            NME: NMB2053(petA)
+            NMP: NMBB_2359
+            NMH: NMBH4476_1998(petA)
+            NMD: NMBG2136_1954(petA)
+            NMM: NMBM01240149_0129(petA)
+            NMS: NMBM01240355_1988(petA)
+            NMQ: NMBM04240196_1995(petA)
+            NMZ: NMBNZ0533_1985(petA)
+            NMA: NMA0383
+            NMW: NMAA_0102(petA)
+            NMX: NMA510612_0407(petA)
+            NMC: NMC2034(petA)
+            NMN: NMCC_0133(petA)
+            NMT: NMV_2256(petA)
+            NMI: NMO_0115(petA)
+            NGO: NGO_2029
+            NGK: NGK_2207
+            NLA: NLA_2710(petA)
+            NEL: NELON_01730
+            NWE: SAMEA3174300_1521(petA)
+            NSI: A6J88_01620(petA)
+            NMJ: NM96_09865(petA)
+            NEI: BG910_06265(petA)
+            NEK: CGZ77_05530(petA)
+            NFV: FAH67_08030(petA)
+            NSF: FAH66_07470(petA)
+            NZL: D0T92_02870(petA)
+            NAQ: D0T90_03545(petA)
+            NBL: GJV52_03775(petA)
+            NZO: SAMEA4504057_0565(petA)
+            NCI: NCTC10296_01109(petA)
+            NCZ: NCTC10294_01374(petA)
+            NANI: NCTC12227_02141(petA)
+            NBC: H3L91_01570(petA)
+            NWD: H3L96_02260(petA)
+            NSG: H3L94_09835(petA)
+            NMUS: H7A79_2584(petA)
+            NSC: J7445_08840(petA)
+            NPF: LPB400_03000(petA)
+            NDN: H3L92_09485(petA)
+            NWX: CGZ65_12200(petA)
+            NDU: LVJ88_10960(petA)
+            NAW: LVJ86_08840(petA)
+            NMB: MON40_11655(petA)
+            KKI: KKKWG1_2066(petA)
+            KOA: H3L93_11855(petA)
+            KPOT: LVJ84_14130(petA)
+            VFF: VITFI_CDS0177
+            VMS: LVJ82_07100(petA)
+            ECOR: SAMEA4412678_2044(petA)
+            SMUR: BWP33_01260
+            AFF: H3L97_05160(petA)
+            ACRS: LVJ80_04645(petA)
+            CSTE: H3L98_05665(petA)
+            CKH: LVJ77_03530(petA)
+            PTES: JQU52_06325(petA)
+            MCER: MON37_10085(petA)
+            USU: LVJ78_10890(petA)
+            UTE: LVJ83_12230(petA)
+            WBO: MIS45_02645(petA)
+            CVI: CV_4008(petA)
+            CVC: BKX93_10730
+            CHRO: CXB49_17965(petA)
+            CHRI: DK842_11565(petA)
+            CHRB: DK843_17010(petA)
+            CRZ: D1345_19175(petA)
+            CHRM: FYK34_00055(petA) FYK34_20210(petA)
+            CHAE: CH06BL_39360(petA)
+            IOD: EJO50_12370(petA)
+            IFL: C1H71_09615(petA)
+            LHK: LHK_02890(petA)
+            PSE: NH8B_3533
+            JEU: BJP62_13100
+            JES: JHS3_29460(petA)
+            AQL: BXU06_11300
+            AMAH: DLM_3367
+            AQS: DKK66_10260(petA)
+            DEE: HQN60_01675(petA)
+            DTK: K4H28_02640(petA)
+            CHIZ: HQ393_01535(petA)
+            CFON: HZU75_02415(petA)
+            VOG: LCH97_09790(petA)
+            CHIC: N8I74_18435(petA)
+            RSO: RSc2929(petA)
+            RSC: RCFBP_10522(petA)
+            RSL: RPSI07_0570(petA)
+            RSN: RSPO_c00572(petA)
+            RSM: CMR15_10467(petA)
+            RSE: F504_2893
+            RSY: RSUY_05420(petA)
+            RPI: Rpic_1794 Rpic_3206
+            RPF: Rpic12D_2859
+            RPJ: N234_19085
+            RMN: TK49_00280
+            RIN: ACS15_3288(petA)
+            RPU: CDC45_14935(petA)
+            RSG: JK151_15690(petA)
+            RWE: KOL96_21485(petA)
+            REH: H16_A3398(qcrA)
+            CNC: CNE_1c33380(petA)
+            CUH: BJN34_18210
+            REU: Reut_A3093
+            RME: Rmet_3230(petA)
+            CTI: RALTA_A2857(petA)
+            CBW: RR42_m3822
+            CGD: CR3_2509(petA)
+            CCUP: BKK81_00045 BKK81_18415
+            CUP: BKK80_19300
+            CUU: BKK79_12775
+            CPAU: EHF44_07135(petA)
+            COX: E0W60_26145(petA)
+            CCAM: M5D45_15285(petA)
+            CCAX: KZ686_01990(petA) KZ686_24840(petA)
+            BMA: BMA2698(petA)
+            BMV: BMASAVP1_A3256(petA)
+            BML: BMA10229_A1805(petA)
+            BMN: BMA10247_2748(petA)
+            BMAL: DM55_1216(petA)
+            BMAE: DM78_168(petA)
+            BMAQ: DM76_1192(petA)
+            BMAI: DM57_1482
+            BMAF: DM51_2329(petA)
+            BMAZ: BM44_583(petA)
+            BMAB: BM45_37(petA)
+            BPS: BPSL3123(petA)
+            BPM: BURPS1710b_3676(petA)
+            BPL: BURPS1106A_3707(petA)
+            BPD: BURPS668_3650(petA)
+            BPR: GBP346_A3834(petA)
+            BPSE: BDL_2275(petA)
+            BPSM: BBQ_171(petA)
+            BPSU: BBN_297(petA)
+            BPSD: BBX_668(petA)
+            BPZ: BP1026B_I3352(petA)
+            BPQ: BPC006_I3761
+            BPK: BBK_1752(petA)
+            BPSH: DR55_1379(petA)
+            BPSA: BBU_2425(petA)
+            BPSO: X996_997(petA)
+            BUT: X994_3011(petA)
+            BTE: BTH_I2977(petA)
+            BTQ: BTQ_2912(petA)
+            BTJ: BTJ_2785(petA)
+            BTZ: BTL_670(petA)
+            BTD: BTI_447(petA)
+            BTV: BTHA_767(petA)
+            BTHE: BTN_682(petA)
+            BTHM: BTRA_907(petA)
+            BTHA: DR62_881
+            BTHL: BG87_909(petA)
+            BOK: DM82_2822(petA)
+            BOC: BG90_1895(petA)
+            BUU: WS70_02030
+            BSAV: WS86_02555
+            BHG: I6G56_18565(petA)
+            BVI: Bcep1808_0420
+            BVE: AK36_3916(petA) AK36_397(petA)
+            BUR: Bcep18194_A3539
+            BCM: Bcenmc03_0420
+            BCH: Bcen2424_0441
+            BCJ: BCAL0328(petA)
+            BCEN: DM39_258(petA)
+            BCEW: DM40_1158(petA)
+            BCEO: I35_0319(petA)
+            BAM: Bamb_0359
+            BAC: BamMC406_0368
+            BMJ: BMULJ_02910(rip1)
+            BMU: Bmul_0344
+            BMK: DM80_1236(petA) DM80_5958(petA)
+            BMUL: NP80_486(petA)
+            BCT: GEM_3081
+            BCED: DM42_1380(petA)
+            BCEP: APZ15_05820
+            BDL: AK34_2705(petA)
+            BPYR: ABD05_07865
+            BCON: NL30_20015 NL30_24305
+            BUB: BW23_1311(petA)
+            BDF: WI26_01810
+            BLAT: WK25_00500
+            BTEI: WS51_12630
+            BSEM: WJ12_01890
+            BPSL: WS57_19705
+            BMEC: WJ16_01840
+            BSTG: WT74_02180
+            BSTL: BBJ41_11935 BBJ41_37260
+            BANN: JFN94_01835(petA) JFN94_25275(petA)
+            BARI: NLX30_02060(petA)
+            BGL: bglu_1g03470
+            BGU: KS03_1291(petA)
+            BUG: BC1001_3183
+            BGF: BC1003_3144
+            BGD: bgla_1g03920
+            BGO: BM43_1784(petA)
+            BYI: BYI23_A023570
+            BUK: MYA_0359
+            BUE: BRPE67_ACDS24370
+            BUL: BW21_524(petA)
+            BUQ: AC233_16180
+            BGP: BGL_1c03410(petA)
+            BPLA: bpln_1g03360
+            BUD: AQ610_02020
+            BUM: AXG89_03895
+            BUI: AX768_13785
+            BURK: DM992_01915(petA)
+            BXE: Bxe_A0414
+            BXB: DR64_2584(petA)
+            BPH: Bphy_2743
+            BGE: BC1002_2803
+            BPX: BUPH_06273
+            BPY: Bphyt_3544 Bphyt_6384
+            BUZ: AYM40_18510
+            BFN: OI25_1864(petA) OI25_7986(petA) OI25_8240(petA)
+            BCAI: K788_0002617 K788_0006222
+            PSPW: BJG93_14485(petA)
+            PARA: BTO02_18705
+            PARB: CJU94_07215(petA)
+            PHS: C2L64_16350(petA) C2L64_37195(petA)
+            PTER: C2L65_14190(petA) C2L65_33295(petA)
+            PGP: CUJ91_16105(petA)
+            PCJ: CUJ87_15480(petA)
+            PTS: CUJ90_16270(petA)
+            PMEG: FNZ07_31325(petA)
+            PTRO: G5S35_12965(petA)
+            PGIS: I6I06_13685(petA)
+            PACP: FAZ97_12720(petA) FAZ97_19510(petA)
+            PACS: FAZ98_12495(petA)
+            PEW: KZJ38_03395(petA)
+            PDIO: PDMSB3_3977(petA)
+            PBRY: NDK50_18965(petA)
+            BRH: RBRH_02276
+            PNU: Pnuc_0125
+            PNE: Pnec_0135
+            PDQ: CL55_00001220
+            POH: DPM16_00675(petA)
+            PTRP: DCO17_00655(petA)
+            PANI: DCO16_00650(petA)
+            PPAL: AOC06_00650(petA)
+            PCOS: C2747_00675(petA)
+            PYT: PKF023_01300(petA)
+            PPK: U875_00700
+            PPNO: DA70_18330
+            PPNM: LV28_12455
+            PRB: X636_08565
+            PPUL: RO07_06440
+            PSPU: NA29_02310
+            PAPI: SG18_06830
+            PVE: UC34_22510
+            POX: MB84_02435
+            PTX: ABW99_18475
+            PFG: AB870_09385
+            PNR: AT302_06030
+            PAND: DRB87_20960(petA)
+            PFIB: PI93_005515(petA)
+            PCOM: NTU39_24645(petA)
+            PLG: NCTC10937_01055(petA)
+            HYF: DTO96_100688(petA)
+            LMIR: NCTC12852_00125(petA)
+            MCYS: MCB1EB_0305
+            CABA: SBC2_31890(petA)
+            BUO: BRPE64_ACDS24910
+            LIMN: HKT17_13485(petA)
+            CARI: FNU76_08940(petA)
+            CKS: H9L41_21255(petA)
+            BPE: BP0277(petA)
+            BPC: BPTD_0255(petA)
+            BPER: BN118_3450(petA)
+            BPET: B1917_0281(petA)
+            BPEU: Q425_36500(petA)
+            BPAR: BN117_4416(petA)
+            BPA: BPP4283(petA)
+            BBH: BN112_3560(petA)
+            BBR: BB4870(petA)
+            BBM: BN115_4539(petA)
+            BBX: BBS798_4646(petA)
+            BPT: Bpet0122(petA)
+            BAV: BAV3329(petA)
+            BHO: D560_1559(petA)
+            BHM: D558_1550(petA)
+            BHZ: ACR54_04507(petA)
+            BTRM: SAMEA390648701088(petA)
+            BBRO: BAU06_00775
+            BFZ: BAU07_00625
+            BPDZ: BBN53_00605
+            BOH: AKI39_00650
+            BGM: CAL15_00835
+            AXY: AXYL_00170(petA)
+            AXO: NH44784_020221
+            AXN: AX27061_0180
+            AXX: ERS451415_00179(petA)
+            ADT: APT56_01145
+            AIS: BUW96_26610
+            ASW: CVS48_05180(petA)
+            ACHR: C2U31_05810(petA)
+            ACHB: DVB37_00815(petA)
+            ADY: HLG70_20915(petA)
+            ACHO: H4P35_00780(petA)
+            AMUI: PE062_24670(petA)
+            TEQ: TEQUI_0480
+            TEA: KUI_1466(petA)
+            TEG: KUK_0768(petA)
+            TAS: TASI_1442
+            TAT: KUM_1101(petA)
+            PUT: PT7_3107
+            PUS: CKA81_13745(petA)
+            PUD: G9Q38_04890(petA)
+            AKA: TKWG_03230
+            AMIM: MIM_c04980(petA)
+            CDN: BN940_01791
+            BPSI: IX83_00825
+            AFA: UZ73_12060
+            AFQ: AFA_17220(petA)
+            AAQU: D3M96_18465(petA)
+            AAMM: FE795_16020(petA)
+            PHN: PAEH1_08765
+            ODI: ODI_R0259
+            OUR: CEQ07_10345(petA)
+            OUE: I6G29_05945(petA)
+            PIG: EGT29_24770(petA)
+            PACR: FXN63_02925(petA)
+            PARK: LSG25_14755(petA)
+            RFR: Rfer_2964
+            RSB: RS694_16120
+            RAC: RA876_09735 RA876_15010
+            RHY: RD110_06770
+            RHF: EUB48_04015(petA)
+            RHG: EXZ61_16395(petA)
+            RHOA: HZ993_21005(petA)
+            POL: Bpro_0821 Bpro_3500
+            PNA: Pnap_0713
+            POS: DT070_10435(petA)
+            POO: F7R28_20170(petA)
+            PVAC: HC248_02893(petA)
+            AAV: Aave_3696
+            AJS: Ajs_0145 Ajs_0789
+            AAA: Acav_3611
+            ACK: C380_04125 C380_04500
+            ACRA: BSY15_706(petA)
+            ACID: CBP33_15110
+            ACIP: CBP36_15540
+            ACIN: CBP34_15915
+            ACIS: CBP35_03390
+            AMON: H9L24_19880(petA)
+            AANT: HUK68_15795(petA)
+            ARAD: KI609_01070(petA) KI609_18390(petA)
+            ATEM: PQV96_16575(petA) PQV96_16820(petA)
+            VEI: Veis_3935
+            DAC: Daci_5503
+            DEL: DelCs14_1107
+            DTS: BI380_27600
+            DHK: BO996_25640
+            DLA: I6G47_28210(petA)
+            VAP: Vapar_1200
+            VPE: Varpa_1279
+            VPD: VAPA_1c12590(petA)
+            VAA: AX767_05405
+            VBO: CKY39_06130(petA)
+            VAM: C4F17_13115(petA)
+            CTT: CtCNB1_0747
+            CTES: O987_04035
+            CKE: B5M06_07965
+            CSER: CCO03_15890
+            COF: FOZ74_13925(petA)
+            CAQT: KAQ61_00655(petA)
+            CODO: LAD35_17210(petA)
+            ADN: Alide_0903
+            ADK: Alide2_0859
+            RTA: Rta_08420(petA)
+            OTO: ADJ79_08285
+            OTK: C6570_17575(petA)
+            OTD: J1M35_04080(petA)
+            LIM: L103DPR2_00751(petA)
+            LIH: L63ED372_02571(petA)
+            HYR: BSY239_3066(petA)
+            HYB: Q5W_02365
+            HYL: LPB072_04905
+            HYC: E5678_12115(petA)
+            HPSE: HPF_19610(petA)
+            HYN: F9K07_25245(petA)
+            HTN: KI616_06525(petA) KI616_25020(petA)
+            HCZ: G9Q37_20965(petA)
+            DPY: BA022_10970 BA022_14120
+            DIH: G7047_17290(petA)
+            DAER: H9K75_07285(petA)
+            DRG: H9K76_04670(petA)
+            DIA: Dtpsy_0163 Dtpsy_0752
+            SIMP: C6571_11715(petA)
+            MELM: C7H73_13940(petA)
+            MELA: C6568_04165(petA)
+            MJE: LVC68_13255(petA)
+            CBAA: SRAA_1623(petA)
+            CBAB: SMCB_1531
+            KIA: G8A07_21445(petA)
+            STHM: IS481_03695(petA)
+            PBH: AAW51_4638
+            SAQA: OMP39_02185(petA)
+            MPT: Mpe_A0849 Mpe_A1832
+            METP: C1M51_13295(petA)
+            RGE: RGE_10480(petA) RGE_21410(petA2)
+            RBN: RBXJA2T_06965 RBXJA2T_16987
+            RDP: RD2015_1295
+            ROI: N4261_07485(petA)
+            MIU: ABE85_15975
+            SNN: EWH46_08280(petA) EWH46_12865(petA)
+            IDC: LRM40_04930(petA)
+            ATER: MW290_03630(petA) MW290_28700(petA)
+            HAR: HEAR3052(petA)
+            MMS: mma_3271(petA)
+            JAG: GJA_5078(petA)
+            JAB: VN23_18660
+            JAZ: YQ44_25550
+            JAL: BZG29_02570
+            JSV: CNX70_02630(petA)
+            JAJ: EKL02_17515(petA)
+            JAS: FJQ89_19605(petA)
+            JLV: G3257_02460(petA)
+            JAH: JAB4_005520(petA)
+            HSE: Hsero_4049(petA)
+            HSZ: ACP92_20225
+            HHT: F506_03640
+            HRB: Hrubri_4010(petA)
+            HEE: hmeg3_03565(petA)
+            HHF: E2K99_21130(petA)
+            HFR: G5S34_21935(petA)
+            CFU: CFU_0660(petA)
+            CARE: LT85_0718
+            CPRA: CPter91_0772(petA)
+            MNR: ACZ75_17695
+            MASW: AM586_01985
+            MASS: CR152_03270(petA)
+            MTIM: DIR46_12730(petA)
+            MASY: DPH57_21880(petA)
+            MANC: IV454_09360(petA)
+            MFY: HH212_07080(petA)
+            MVAR: MasN3_04550(petA)
+            MASZ: C9I28_27455(petA)
+            MALI: EYF70_27525(petA)
+            MUM: FCL38_21985(petA)
+            MFLA: GO485_17340(petA)
+            MPLI: E1742_17750(petA)
+            DUG: HH213_12345(petA)
+            UPV: EJN92_12250(petA)
+            UPI: EJG51_014785(petA)
+            UND: UNDKW_4938(petA)
+            NOK: FAY22_08135(petA) FAY22_13930(petA) FAY22_21110(petA)
+            GLC: JQN73_11240(petA)
+            LCH: Lcho_0930 Lcho_3552
+            TIN: Tint_2192
+            THI: THI_2529(petA)
+            PKT: AT984_12310 AT984_13825
+            RGU: A4W93_21830
+            AON: DEH84_05340(petA)
+            XYK: GT347_09350(petA)
+            TTW: LCC91_10025(petA)
+            BBAG: E1O_21560
+            NEU: NE0809
+            NET: Neut_1110
+            NIT: NAL212_2481
+            NII: Nit79A3_3117
+            NCO: AAW31_05460
+            NUR: ATY38_07560
+            NST: Nstercoris_00166
+            NMU: Nmul_A1005
+            NLC: EBAPG3_012885(petA)
+            NIZ: NNRS527_01044
+            SHD: SUTH_01191 SUTH_02116
+            METR: BSY238_1925(petA) BSY238_610(petA)
+            DOE: DENOEST_1332(petA)
+            TBD: Tbd_1833
+            MMB: Mmol_0326
+            MEH: M301_0317
+            MEI: Msip34_0282
+            MEP: MPQ_0296(qcrA)
+            MBAC: BN1209_0215(petA)
+            MBAT: BN1208_0192(petA)
+            MEU: ACJ67_02485
+            MPAU: ZMTM_02590(petA)
+            SLT: Slit_0130
+            FAM: OYT1_ch0265
+            NIM: W01_11800(petA)
+            NARC: NTG6680_0819(petA)
+            FKU: FGKAn22_04990(petA)
+            SEME: MIZ01_0107
+            SDR: SCD_n00601
+            SULF: CAP31_03410
+            SPLB: SFPGR_04720(petA_1) SFPGR_17620(petA_2) SFPGR_32140(petA_3)
+            SNIV: SFSGTM_07580(petA)
+            SLAC: SKTS_03730(petA)
+            URU: DSM104443_03670(petA)
+            UPL: DSM104440_03198(petA)
+            DSU: Dsui_1812
+            ARES: IWH25_04490(petA) IWH25_05610(petA) IWH25_09375(petA)
+            AIQ: Azoinq_00635(petA) Azoinq_02455(petA)
+            RBU: PG1C_06980
+            OTR: OTERR_09540(petA)
+            NIV: JY500_05025(petA)
+            EBA: ebA1198(petA)
+            ABRE: pbN1_10660(petA)
+            APET: ToN1_33560(petA)
+            RBH: B4966_03200 B4966_09150
+            DAR: Daro_0809
+            DEY: HYN24_03710(petA)
+            DDEN: KI615_17880(petA)
+            QAU: KI612_13065(petA) KI612_16210(petA)
+            FLE: KI610_04230(petA) KI610_09925(petA)
+            AZO: azo0960(petA1) azo1235(petA2)
+            AOA: dqs_1034 dqs_1350
+            AZA: AZKH_0856(petA)
+            AZI: AzCIB_0756 AzCIB_1714
+            AZD: CDA09_04625(petA)
+            AZR: CJ010_05745(petA) CJ010_07540(petA)
+            TMZ: Tmz1t_1402 Tmz1t_2021
+            THU: AC731_001600 AC731_018965
+            TCL: Tchl_0992
+            THK: CCZ27_02380(petA) CCZ27_15875(petA) CCZ27_18920(petA)
+            TAK: Tharo_1029
+            AZQ: G3580_13565(petA)
+            ACOM: CEW83_01765(petA) CEW83_19215(petA)
+            ATW: C0099_03685(petA)
+            ZPA: C3497_02955(petA) C3497_08670(petA)
+            FPHO: SHINM1_003030(petA)
+            FMY: HO273_07715(petA)
+            APP: CAP2UW1_0314 CAP2UW1_1673 CAP2UW1_4199
+            DDZ: DSYM_11050
+            BPRC: D521_0121
+            BEB: AEM42_00695
+            BEBA: BWI17_08690
+            HPY: HP_1540
+            HEO: C694_07980
+            HPJ: jhp_1459(petA)
+            HPA: HPAG1_1489
+            HPS: HPSH_08090
+            HHP: HPSH112_07990
+            HHQ: HPSH169_07775
+            HHR: HPSH417_07870
+            HPG: HPG27_1478
+            HPP: HPP12_1544(petA)
+            HPB: HELPY_1543(petA)
+            HPL: HPB8_1668(petA)
+            HPC: HPPC_07930
+            HCA: HPPC18_07780
+            HPM: HPSJM_07965
+            HPE: HPELS_08085
+            HPO: HMPREF4655_20171(petA)
+            HPI: hp908_1564
+            HPQ: hp2017_1502
+            HPW: hp2018_1508(petA)
+            HPU: HPCU_07950
+            HEF: HPF16_1465(petA)
+            HPF: HPF30_1443(petA)
+            HEQ: HPF32_1458(petA)
+            HEX: HPF57_1485(petA)
+            HPT: HPSAT_07605
+            HPZ: HPKB_1474(fbcF)
+            HPV: HPV225_1596(petA)
+            HPX: HMPREF0462_1574(petA)
+            HEN: HPSNT_07730
+            HPH: HPLT_08000
+            HEG: HPGAM_08280
+            HPN: HPIN_08240
+            HEP: HPPN120_07870
+            HEU: HPPN135_07945
+            HES: HPSA_07955
+            HPYS: HPSA20_1701(petA)
+            HCN: HPB14_07500
+            HPD: KHP_1422(fbcF)
+            HEY: MWE_1766
+            HER: C695_08000
+            HEI: C730_07985
+            HPYA: HPAKL117_07630
+            HPYK: HPAKL86_06405
+            HPYO: HPOK113_1488(petA)
+            HPYL: HPOK310_1458(petA)
+            HPYB: HPOKI102_07955
+            HPYC: HPOKI112_07980
+            HPYD: HPOKI128_00195
+            HPYE: HPOKI154_00195
+            HPYF: HPOKI422_07995
+            HPYG: HPOKI673_00195
+            HPYH: HPOKI828_00195
+            HPYJ: HPOKI898_07975
+            HPYR: K747_08335
+            HPYI: K750_00370
+            HPYU: K751_07955
+            HPYM: K749_06030
+            HEM: K748_04465
+            HEB: U063_1590
+            HEZ: U064_1594
+            HHE: HH_1007
+            HAC: Hac_0300(fbcF)
+            HMS: HMU04030(petA)
+            HFE: HFELIS_09950(petA)
+            HBI: HBZC1_05400
+            HCE: HCW_00495
+            HCM: HCD_03825
+            HCP: HCN_0089
+            HCB: HCBAA847_0083
+            HHM: BN341_7050
+            HTY: BN2458_PEG0087
+            HBL: XJ32_08840
+            HAD: CDV25_00405(petA)
+            HET: BBW65_02485
+            HCL: NCTC13205_00788(fbcF)
+            HWI: A0Z60_05160(petA)
+            HSH: NHP194022_01910(fbcF)
+            HPUL: NCTC13154_00390(fbcF)
+            HAIL: ASB7_01930
+            WSU: WS2152(PETA)
+            TDN: Suden_1921
+            SUA: Saut_1928
+            SULN: FJR47_08840(petA)
+            SULG: FJR48_11135(petA)
+            SULC: CVO_00695(petA)
+            SPAL: FM071_09145(petA)
+            SSEI: FJR45_10845(petA)
+            SBAL: HUE88_12510(petA)
+            SMAS: HUE87_11445(petA)
+            SMAX: FJR03_10065(petA)
+            SKU: Sulku_2314
+            SULR: B649_10920
+            CJE: Cj1186c(petA)
+            CJB: BN148_1186c(petA)
+            CJJ: CJJ81176_1201(petA)
+            CJU: C8J_1130(petA)
+            CJN: ICDCCJ07001_1137
+            CJI: CJSA_1124(petA)
+            CJM: CJM1_1168(petA)
+            CJS: CJS3_1228(petA)
+            CJP: A911_05750
+            CJEJ: N564_01149
+            CJEU: N565_01192
+            CJEN: N755_01186
+            CJEI: N135_01220
+            CJER: H730_06870
+            CJV: MTVDSCj20_1191(petA)
+            CJY: QZ67_01261(petA)
+            CJQ: UC78_1137(petA)
+            CJL: PJ17_06060
+            CJW: PJ18_05860
+            CJR: CJE1320(petA)
+            CJD: JJD26997_0543(petA)
+            CJZ: M635_01620
+            CJX: BN867_11810
+            CFF: CFF8240_1448(petA)
+            CFT: CFF04554_1460(petA)
+            CFV: CFVI03293_1486(petA)
+            CFX: CFV97608_1586(petA)
+            CFZ: CSG_15880
+            CAMP: CFT03427_1411(petA)
+            CFP: CR44_07140
+            CCV: CCV52592_1814(petA)
+            CHA: CHAB381_1238(petA)
+            CCO: CCC13826_1921(petA)
+            CCOC: CCON33237_1599(petA)
+            CLA: CLA_1097(petA)
+            CLR: UPTC16701_1069(petA)
+            CLM: UPTC16712_1099(petA)
+            CLQ: UPTC4110_1078(petA)
+            CLN: UPTC3659_1312(petA)
+            CLL: CONCH_1051(petA)
+            CCOL: BN865_09450
+            CCC: G157_03000
+            CCQ: N149_1126(petA)
+            CCF: YSQ_03055
+            CCY: YSS_06375
+            CCOI: YSU_03090
+            CCOF: VC76_05830(petA)
+            CCOO: ATE51_01234(petA)
+            CAJ: CIG1485E_1448(petA)
+            CIS: CINS_1062(petA)
+            CVO: CVOL_1071(petA)
+            CPEL: CPEL_1202(petA)
+            CAMR: CAQ16704_1090(petA)
+            CSM: CSUB8521_1263(petA)
+            CSF: CSUB8523_1368(petA)
+            CGRA: CGRAC_1643(petA)
+            CURE: CUREO_1316(petA)
+            CHYO: CHH_0307(petA)
+            CHV: CHELV3228_0465(petA)
+            CSPF: CSF_0388(petA)
+            CPIN: CPIN18020_0564(petA)
+            CCUN: CCUN_0673(petA)
+            CLX: CLAN_0284(petA)
+            CAVI: CAV_0335(petA)
+            CHW: A2J15_001055(petA)
+            CAMZ: CVIC12175_1329(petA)
+            CAMY: CSUIS_0211(petA)
+            COJ: CORN_1167(petA)
+            CUX: CUP3940_1209(petA)
+            CRX: CRECT_1789(petA)
+            CGEO: CGEO_0460(petA)
+            CBLA: CBLAS_0402(petA)
+            CCOR: CCORG_0364(petA)
+            CARM: CARM_1117(petA)
+            CMUC: CMCT_1602(petA)
+            CSHO: CSHOW_1630(petA)
+            CINF: CINF_0378(petA)
+            CNV: CNZW441b_0541(petA)
+            CVU: CVULP_0420(petA)
+            SDL: Sdel_0118 Sdel_0740 Sdel_1831
+            SBA: Sulba_0108 Sulba_1925
+            SMUL: SMUL_0612 SMUL_0957 SMUL_2521
+            SHAL: SHALO_0361 SHALO_0603 SHALO_0973 SHALO_2270
+            SULS: Sdiek1_0566 Sdiek1_0901 Sdiek1_0985 Sdiek1_2342
+            SULJ: SJPD1_0563 SJPD1_0906 SJPD1_1004 SJPD1_2272
+            SULT: FA592_03990(petA) FA592_09865 FA592_11415(petA)
+            ABU: Abu_2066(petA)
+            ABT: ABED_1873
+            ABL: A7H1H_2003(petA)
+            ASK: EI285_01425
+            ATP: ATR_1732(petA)
+            ACIB: ACBT_0497(petA)
+            ACRE: ACRYA_0241(petA)
+            ALAN: ALANTH_1971(petA)
+            APOC: APORC_0309(petA)
+            AFC: AFAEC_0264(petA)
+            ATHR: ATH_0289(petA)
+            ANT: Arnit_0509
+            AELL: AELL_2524(petA)
+            AAQI: AAQM_2212(petA)
+            ASUI: ASUIS_2299(petA)
+            ACLO: ACLO_2345(petA)
+            AVP: AVENP_2728(petA)
+            ADZ: ADFLV_2652(petA)
+            ARC: ABLL_2526
+            PACO: AACT_2652(petA)
+            ALK: ALEK_0459(petA)
+            ALP: LPB137_02035
+            AHS: AHALO_0341(petA)
+            AMYT: AMYT_0375(petA)
+            AMAR: AMRN_0392(petA)
+            ACAA: ACAN_0421(petA)
+            AMOL: AMOL_0344(petA)
+            APAI: APAC_0330(petA)
+            HBV: ABIV_2198(petA)
+            HEBR: AEBR_0455(petA)
+            AANA: AANAER_0455(petA)
+            HYO: NNO_0198
+            NSA: Nitsa_1863
+            SUN: SUN_0208
+            SLH: YH65_10015
+            SINU: IMZ28_09795
+            NIS: NIS_1585
+            RPR: RP270(RP270)
+            RPO: MA1_01310
+            RPW: M9W_01320
+            RPZ: MA3_01330
+            RPG: MA5_02680
+            RPS: M9Y_01320
+            RPV: MA7_01315
+            RPQ: rpr22_CDS265(petA)
+            RPL: H375_3460
+            RPN: H374_8190
+            RTY: RT0261(petA)
+            RTT: RTTH1527_01270
+            RTB: RTB9991CWPP_01275
+            RCM: A1E_01555
+            RCC: RCA_01470
+            RBE: RBE_0828(petA)
+            RBO: A1I_05275
+            RCO: RC0358(petA)
+            RHE: Rh054_02025
+            RFE: RF_1010(petA)
+            RAK: A1C_01945
+            RRI: A1G_02045
+            RRJ: RrIowa_0430
+            RRA: RPO_02025
+            RRC: RPL_02015
+            RRH: RPM_02010
+            RRB: RPN_04880
+            RRN: RPJ_02010
+            RRP: RPK_01995
+            RRM: RRM_01975
+            RRR: RRR_01965
+            RMS: RMA_0363(petA)
+            RMI: RMB_06355
+            RPK: RPR_02275
+            RAF: RAF_ORF0332(petA)
+            RJA: RJP_0287(petA)
+            RSV: Rsl_421(petA)
+            RSW: MC3_02045
+            RPH: RSA_01975
+            RAU: MC5_06150
+            RMO: MCI_05990
+            RPP: MC1_01995
+            RRE: MCC_02585
+            RAM: MCE_02485
+            RAB: AL573_02315
+            RMC: RMONA_04230(petA)
+            RAS: RAS_04250(petA)
+            RTL: H6P87_00364(petA)
+            RIC: BA173_00785
+            OTS: OTBS_1396(petA)
+            OTT: OTT_0723(petA)
+            MENM: LF888_01545(petA)
+            WOL: WD_1201(petA)
+            WRI: WRi_011790(petA)
+            WEN: wHa_10030(petA)
+            WED: wNo_05750(petA)
+            WPI: WP0952(petA)
+            WBM: Wbm0406
+            WOO: wOo_03340
+            WCL: WCLE_007600(petA)
+            WEO: ASM33_01015(petA)
+            WPP: DEJ70_07115(petA)
+            WEC: wCauA_00905(petA)
+            WDM: EJB00_00270(petA)
+            WEB: WBP_0358(petA)
+            WES: JKF54_03925(petA)
+            WEA: EA652_1171(petA)
+            WEM: CAI20_02070
+            WEY: wYak_08530(petA)
+            WEL: GOY07_00300(petA)
+            WET: GOY13_00905(petA)
+            WEW: HUB92_03440(petA)
+            WER: wSan_08530(petA)
+            WEF: GOY12_03270(petA)
+            WEP: JSQ73_004305(petA)
+            WEH: J4T77_06000(petA)
+            WEE: LOK48_03080(petA)
+            WEG: L0Z57_05950(petA)
+            WEU: GOY14_00375(petA)
+            WEJ: L2227_05960(petA)
+            SSIV: MJ631_05760(petA)
+            WEX: M1L25_000174(petA)
+            WEK: M1L26_000122(petA)
+            WEQ: NHG98_00885(petA)
+            WEV: ONI09_00730(petA)
+            AMA: AM784(petA)
+            AMF: AMF_581(petA) AMF_582(petA)
+            AMW: U370_02935
+            AMP: U128_03030
+            ACN: ACIS_00553(petA)
+            APH: APH_0401(petA)
+            APY: YYU_01950
+            APD: YYY_01985
+            APHA: WSQ_01960
+            AOH: AOV_02795
+            ERU: Erum5040(petA)
+            ERW: ERWE_CDS_05280(petA)
+            ERG: ERGA_CDS_05180(petA)
+            ECN: Ecaj_0512
+            ECH: ECH_0520(petA)
+            ECHA: ECHHL_0453(petA)
+            ECHJ: ECHJAX_0603(petA)
+            ECHL: ECHLIB_0605(petA)
+            ECHS: ECHOSC_0461(petA)
+            ECHV: ECHSTV_0593(petA)
+            ECHW: ECHWAK_0598(petA)
+            ECHP: ECHWP_0450(petA)
+            EMR: EMUR_02680
+            EHH: EHF_0462(petA)
+            NSE: NSE_0624(petA)
+            NRI: NRI_0595(petA)
+            NHM: NHE_0598(petA)
+            NEF: GP480_02515(petA)
+            NMIK: LUA81_04855(petA)
+            MMN: midi_01242
+            RBT: NOVO_01530(petA)
+            REN: EF513_02355(petA)
+            PACA: ID47_08370
+            CAQ: IM40_06790
+            NAF: GQ61_04420
+            EAA: I862_00840
+            MLO: mll2707 mlr0970
+            MLN: A9174_11415
+            MCI: Mesci_2145
+            MCIC: A4R28_15950 A4R28_31600
+            MOP: Mesop_2271 Mesop_5554
+            MAM: Mesau_02184
+            MAMO: A6B35_26505
+            MESW: A9K65_011290
+            MESM: EJ066_00920(petA)
+            MESP: C1M53_20000(petA)
+            MHUA: MCHK_4283(petA)
+            MJR: EB229_11265(petA)
+            MERD: EB233_11570(petA)
+            MESR: FGU64_07365(petA)
+            MOH: IHQ72_11820(petA)
+            MESO: BSQ44_18665
+            MES: Meso_2166
+            HOE: IMCC20628_00677
+            AAK: AA2016_2407
+            AMIH: CO731_02406(petA)
+            PHT: BLM14_03960
+            PHYL: HB779_19400(petA)
+            RPOD: E0E05_13810(petA) E0E05_15490(petA)
+            NIY: FQ775_17715(petA)
+            NKI: KW403_02810(petA)
+            ORM: HTY61_00775(petA)
+            PLA: Plav_2242
+            PMOB: HG718_02665(petA)
+            KMN: HW532_17310(petA)
+            RBS: RHODOSMS8_02062(petA)
+            SME: SMc00187(fbcF)
+            SMK: Sinme_1724
+            SMQ: SinmeB_1569
+            SMX: SM11_chr1580(fbcF)
+            SMI: BN406_01552(petA)
+            SMEG: C770_GR4Chr1874 C770_GR4pA178
+            SMEL: SM2011_c00187(fbcF)
+            SMER: DU99_09930
+            SMD: Smed_1541
+            RHI: NGR_b07090(fbcF1) NGR_b08230 NGR_c16730(fbcF3)
+            SFH: SFHH103_01553(fbcF) SFHH103_06119(fbcF)
+            SFD: USDA257_c27180(petA1) USDA257_c40950(petA2)
+            SIX: BSY16_343(petA)
+            SAME: SAMCFNEI73_Ch2051(petA)
+            SINO: SS05631_c18300
+            EAD: OV14_2999(fbcF3)
+            EAH: FA04_07890
+            ESJ: SJ05684_b56300 SJ05684_c17250
+            EAK: EKH55_1660 EKH55_3798
+            EMX: FKV68_10495(petA)
+            ATU: Atu2239(fbcF)
+            ARA: Arad_3203(petA)
+            ATA: AWN88_16125
+            AGR: AGROH133_07789(fbcF)
+            ATF: Ach5_21180(fbcF)
+            AGC: BSY240_4345(petA)
+            ARO: B0909_01905(petA)
+            AGT: EYD00_09260(petA)
+            ALF: CFBP5473_04740(petA)
+            ARUI: G6M88_03740(petA)
+            AVQ: HRR99_10650(petA)
+            AVV: RvVAT039_05920(fbcF3)
+            AVF: RvVAR031_25850(fbcF3)
+            AVI: Avi_3205(petA)
+            RET: RHE_CH03038(fbcF)
+            REC: RHECIAT_CH0003197(fbcF)
+            REL: REMIM1_CH03085(petA)
+            REP: IE4803_CH03259(petA)
+            REI: IE4771_CH03295(petA)
+            RLE: RL3486(petA)
+            RLT: Rleg2_2778
+            RLG: Rleg_3042
+            RLB: RLEG3_25805
+            RLU: RLEG12_25100
+            RTR: RTCIAT899_CH12765(petA)
+            RIR: BN877_I2315
+            RPUS: CFBP5875_09585(petA)
+            RHL: LPU83_2939(fbcF)
+            RGA: RGR602_CH02670(petA)
+            RHN: AMJ98_CH03195(petA)
+            RPHA: AMC79_CH03198(petA)
+            RHX: AMK02_CH03127(petA)
+            RHV: BA939_05610
+            RHK: Kim5_CH03303(petA)
+            REZ: AMJ99_CH03246(petA)
+            RJG: CCGE525_13940(petA)
+            RHR: CKA34_15635(petA)
+            RGR: FZ934_10385(petA) FZ934_20480(petA)
+            RAD: CO657_14205(petA)
+            ROY: G3A56_14770(petA)
+            RII: FFM53_019640(petA)
+            RHID: FFM81_005960(petA)
+            RBQ: J2J99_15940(petA)
+            RLN: J0663_02705(petA)
+            RBAN: J2J98_15320(petA)
+            RRG: J3P73_17975(petA)
+            RROS: D4A92_20405(petA)
+            RAW: NE851_26895(petA)
+            RSUL: N2599_11610(petA)
+            RLW: RlegWSM1455_15275(petA)
+            NGL: RG1141_CH25280
+            NGG: RG540_CH25310
+            NEO: CYG48_09335(petA)
+            NEN: NCHU2750_22970(fbcF)
+            RHT: NT26_2342
+            RFV: RFYW14_02379 RFYW14_04409(petA)
+            SHZ: shn_12980
+            SZO: K8M09_11600(petA)
+            SOJ: K6301_10230(petA)
+            ABAW: D5400_07635(petA)
+            PDES: FE840_016285(petA)
+            KAI: K32_32880
+            BME: BMEI0473
+            BMEL: DK63_950(petA)
+            BMI: BMEA_A1599(petA)
+            BMZ: BM28_A1551(petA)
+            BMG: BM590_A1538
+            BMW: BMNI_I1488
+            BMEE: DK62_1995(petA)
+            BMF: BAB1_1559
+            BMB: BruAb1_1532
+            BMC: BAbS19_I14580
+            BAA: BAA13334_I01503
+            BABO: DK55_1516(petA)
+            BABR: DO74_373(petA)
+            BABT: DK49_1274(petA)
+            BABB: DK48_603(petA)
+            BABU: DK53_1500(petA)
+            BABS: DK51_2041(petA)
+            BABC: DO78_1421(petA)
+            BMS: BR1543
+            BSI: BS1330_I1537
+            BSF: BSS2_I1500
+            BSUI: BSSP1_I1562
+            BSUP: BSPT1_I1577
+            BSUV: BSPT2_I1560
+            BSUC: BSSP2_I1565
+            BMT: BSUIS_A1602(petA)
+            BSZ: DK67_778(petA)
+            BSV: BSVBI22_A1537
+            BSW: IY71_07570
+            BSG: IY72_07315
+            BOV: BOV_1492(petA)
+            BCS: BCAN_A1580(petA)
+            BSK: BCA52141_I2713
+            BOL: BCOUA_I1543
+            BCAR: DK60_1560(petA)
+            BCAS: DA85_07410
+            BMR: BMI_I1557(petA)
+            BPP: BPI_I1597(petA)
+            BPV: DK65_1946(petA)
+            BCET: V910_100467
+            BCEE: V568_100523
+            BVL: BF3285c1_0282(petA)
+            BRU: BFS01_07415
+            BRJ: BKD03_14090
+            OIN: IAR37_11605(petA)
+            BIO: BR141012304_11170(petA)
+            OAN: Oant_1623
+            OAH: DR92_1108(petA)
+            OPS: A8A54_07275
+            BPSN: NIK97_05450(petA)
+            OCH: CES85_1772(petA)
+            OCR: HGK82_08325(petA)
+            OCL: GTN27_08635(petA)
+            PSCQ: KHQ08_12295(petA)
+            BJA: blr2485(blr2485)
+            BJU: BJ6T_73420
+            BJP: RN69_35600
+            BRA: BRADO1976
+            BBT: BBta_2300 BBta_p0097(petA)
+            BRS: S23_55020(fbcF)
+            AOL: S58_55720
+            BRC: BCCGELA001_27360
+            BRAD: BF49_2307
+            BIC: LMTR13_07280
+            BRO: BRAD285_5313
+            BRK: CWS35_00680(petA) CWS35_14385(petA)
+            BOT: CIT37_00200(petA)
+            BRQ: CIT40_06890(petA)
+            BGQ: X265_28635(petA)
+            BGZ: XH91_26615(petA)
+            BSYM: CIT39_05675(petA)
+            BBET: F8237_07460(petA)
+            BARH: WN72_12645(petA)
+            BVZ: BRAD3257_6566
+            BEL: BE61_29970
+            BDG: LPJ38_15210(petA)
+            BSEP: HAP48_0006815(petA)
+            BQB: J4P68_0029125(petA)
+            BSEI: KMZ68_07605(petA)
+            BBAN: J4G43_013675(petA)
+            BCAN: BcanWSM471_11510(petA)
+            RPA: RPA1016(petA) RPA1192
+            RPB: RPB_1200 RPB_4306
+            RPC: RPC_0924 RPC_1923 RPC_3226
+            RPD: RPD_1302 RPD_4204
+            RPE: RPE_0948 RPE_1207 RPE_3977
+            RPT: Rpal_1208 Rpal_1384
+            RPX: Rpdx1_1176 Rpdx1_1363
+            RBK: E0H22_20530(petA)
+            NWI: Nwi_2617
+            NHA: Nham_2113 Nham_3241
+            OCA: OCAR_6996(petA)
+            OCG: OCA5_c10940(petA)
+            OCO: OCA4_c10940(petA)
+            VGO: GJW-30_1_01739(petA)
+            TRB: HB776_28160(petA)
+            BOP: AXW83_11670
+            BOS: BSY19_3811(petA)
+            BVV: BHK69_26955
+            BOI: BLM15_00360
+            BOF: FQV39_26750(petA)
+            BQR: RM11_0304 RM11_0305
+            BTR: BT_0718(fbcF)
+            BTX: BM1374166_00671(fbcF)
+            BGR: Bgr_05300(fbcF)
+            BVN: BVwin_10220(fbcF)
+            BAPI: BBC0122_016550
+            BEZ: NCTC12898_00389(petA)
+            BARN: D1092_01720(petA)
+            BKY: D1093_05180(petA)
+            BTAY: LAJ60_03335(petA)
+            BMAC: LNM86_08935(petA)
+            BHAR: NMK50_06940(petA)
+            BAPA: BBC0178_016400
+            XAU: Xaut_2957
+            XDI: EZH22_11450(petA)
+            AZC: AZC_3501
+            SNO: Snov_2479
+            STAR: G3545_28095(petA)
+            LNE: FZC33_28390(petA)
+            ANC: GBB76_07135(petA)
+            APRA: G3A50_02970(petA)
+            APOL: K9D25_12570(petA)
+            MEA: Mex_1p2509(petA)
+            MDI: METDI3272(petA)
+            MEX: Mext_2542
+            MCH: Mchl_2765
+            MPO: Mpop_2470
+            MZA: B2G69_20145
+            MRD: Mrad2831_0463
+            MET: M446_6798
+            MNO: Mnod_7537
+            MOR: MOC_0619(petA)
+            META: Y590_12135
+            MAQU: Maq22A_1p33330(qcrA)
+            MPHY: MCBMB27_05643
+            MEE: DA075_15190(petA)
+            METD: C0214_14360(petA)
+            METX: A3862_28640
+            METS: DK389_00605(petA)
+            METI: DK427_14050(petA)
+            MMES: MMSR116_16345(petA)
+            MTEA: DK419_11545(petA)
+            MIND: mvi_58800(petA)
+            MOG: MMB17_05900(petA)
+            MTAD: M6G65_14010(petA)
+            MOC: BB934_18090
+            MIV: C4E04_05075(petA)
+            MICO: GDR74_14300(petA)
+            BID: Bind_0154
+            MSL: Msil_3801
+            MTUN: MTUNDRAET4_0339(petA)
+            MLG: CWB41_04485(petA)
+            RHJ: HZY79_09230(petA)
+            BBAR: RHAL1_01428(petA)
+            CHEL: AL346_02585
+            CDQ: BOQ54_13260
+            HDN: Hden_2528
+            HDT: HYPDE_36228
+            HMC: HYPMC_0913(petA)
+            HNI: W911_14865
+            RVA: Rvan_0756 Rvan_1295
+            FIL: BN1229_v1_3508(petA)
+            FIY: BN1229_v1_2413(petA)
+            RHZ: RHPLAN_05580 RHPLAN_24800
+            MCG: GL4_2720
+            METG: HT051_05845(petA)
+            NTD: EGO55_08145(petA)
+            CAEN: K5X80_01875(petA)
+            PHL: KKY_2197
+            PEM: OF122_05905(petA) OF122_06745(petA)
+            DEQ: XM25_12380
+            DEI: C4375_13330(petA)
+            DEA: FPZ08_10235(petA)
+            DSAL: K1X15_14450(petA)
+            DEVO: H4N61_12930(petA)
+            MMYR: MXMO3_01255
+            YTI: FNA67_16105(petA)
+            BVR: BVIR_1473 BVIR_2485
+            BLAG: BLTE_04230(petA_1) BLTE_27140(petA_2)
+            MSC: BN69_0097
+            MBRY: B1812_17110
+            MROS: EHO51_01920(petA) EHO51_07255(petA) EHO51_18500(petA)
+            MHEY: H2LOC_012500(petA)
+            MPAR: F7D14_14745(petA)
+            MTW: CQW49_00050(petA)
+            PLEO: OHA_1_04120(petA)
+            HDI: HDIA_2999(petA)
+            MEY: TM49_10375
+            MAAD: AZF01_02755
+            MMED: Mame_04057(petA)
+            MLUT: JET14_03830(petA)
+            AUA: M673_08430
+            AALA: IGS74_06120(petA)
+            AALM: LUX29_06910(petA)
+            AUZ: Sa4125_33710
+            AUB: LXB15_04735(petA)
+            JIE: OH818_07345(petA)
+            BRN: D1F64_17415(petA)
+            HCI: HCDSEM_172
+            HCT: HCTETULN_173(petA)
+            HCD: HCTETUND2_109(petA)
+            THD: BHV28_12150
+            PSIN: CAK95_00565
+            NOH: G5V57_00985(petA)
+            TSO: IZ6_08350(fbcF3)
+            RBM: TEF_14410 TEF_20365
+            PSF: PSE_4450(petA)
+            PPHR: APZ00_13375
+            LAP: ACP90_07225
+            LABR: CHH27_13000(petA)
+            LABP: FJ695_11480(petA)
+            LABT: FIU93_12880(petA)
+            LAGG: B0E33_19290
+            SIW: GH266_07625(petA)
+            PHR: C6569_11700(petA)
+            PSTG: E8M01_03880(petA)
+            LIZ: LGH83_10370(petA)
+            ACUT: MRB58_15080(petA)
+            CCR: CC_0472
+            CCS: CCNA_00505
+            CAK: Caul_0701
+            CSE: Cseg_0537
+            CHQ: AQ619_01750
+            CMB: CSW64_04800(petA)
+            CFH: C1707_10540(petA)
+            CAUF: CSW63_04390(petA)
+            CAUL: KCG34_06490(petA) KCG34_19670(petA)
+            PZU: PHZ_c2872
+            PHB: HYN04_03355(petA)
+            BSB: Bresu_2681
+            BRD: JL11_09060
+            BNE: DA69_07210
+            BRG: A4249_02560
+            BRL: BZG35_06475
+            BVC: CEP68_02965(petA)
+            BDM: EQG53_12250(petA) EQG53_12400(petA) EQG53_15300(petA)
+            BRF: E4M01_13845(petA)
+            BREV: E7T10_12710(petA)
+            BMED: GYM46_01730(petA)
+            BVY: NCTC9239_01001(petA_1) NCTC9239_01553(petA_2)
+            BND: KWG56_02105(petA)
+            BPON: IFE19_05165(petA) IFE19_11070(petA)
+            BGOE: IFJ75_02505(petA)
+            BVIT: JIP62_03355(petA)
+            BALB: M8231_03610(petA)
+            AEX: Astex_1141
+            TSV: DSM104635_00715(petA)
+            SIL: SPO0271(petA)
+            SIT: TM1040_2814
+            RUA: D1823_15320(petA)
+            RUT: FIU92_15905(petA1) FIU92_21685(petA2)
+            RCON: K3740_17445(petA)
+            JAN: Jann_0325
+            RDE: RD1_0563(petA)
+            RLI: RLO149_c021180(petA1) RLO149_c040430(petA2) RLO149_p830900(petA)
+            RPON: G3256_17870(petA)
+            DSH: Dshi_3278(petA)
+            KVL: KVU_2317(petA)
+            KVU: EIO_2827(petA)
+            KRO: BVG79_02421(petA)
+            PGA: PGA1_c34000(petA)
+            PGL: PGA2_c32210(petA)
+            PGD: Gal_03465
+            PHP: PhaeoP97_03299(petA)
+            PPIC: PhaeoP14_03205(petA)
+            PHQ: D1820_11970(petA)
+            OAT: OAN307_c01150(petA)
+            OAR: OA238_c47210(petA)
+            OTM: OSB_00090(petA_1) OSB_30990(petA_2)
+            OCT: FTO60_06000(petA) FTO60_15525(petA)
+            LMD: METH_20600
+            LEJ: ETW24_20310(petA)
+            LAQU: R2C4_18575(petA)
+            LEV: ETW23_03665(petA)
+            LCAE: K3721_14060(petA) K3721_18090(petA)
+            RED: roselon_00897
+            CID: P73_0318
+            CMAR: IMCC12053_1865
+            CEH: CEW89_12400(petA)
+            MALG: MALG_03058
+            CON: TQ29_17220
+            YPAC: CEW88_11720(petA)
+            YAN: AYJ57_05690
+            TPRO: Ga0080559_TMP2487
+            PABY: Ga0080574_TMP1577
+            SUAM: BOO69_00580
+            SULZ: C1J03_21955(petA)
+            SULI: C1J05_19975(petA)
+            SULD: B5M07_01125
+            SPOT: G6548_02680(petA)
+            SMED: JNX03_12740(petA) JNX03_19315(petA)
+            SINL: DSM14862_00204(petA)
+            SFAV: PL335_00970(petA) PL335_17755(petA)
+            SPSE: SULPSESMR1_03011(petA)
+            TOM: BWR18_16055
+            RMM: ROSMUCSMR3_02981(petA) ROSMUCSMR3_04180(petA)
+            ROK: RAK1035_1879 RAK1035_4103
+            RID: RIdsm_00086(petA_1) RIdsm_05671(petA_2)
+            ROM: EI983_02990(petA)
+            ROH: FIU89_00985(petA)
+            AHT: ANTHELSMS3_01648(petA)
+            SAGU: CDO87_11945(petA)
+            THAA: CFI11_22865(petA)
+            OCD: FHY55_00770(petA)
+            MARU: FIU81_01080(petA)
+            ROT: FIV09_08450(petA1) FIV09_14915(petA2)
+            RMH: LVO79_12970(petA) LVO79_18570(petA)
+            MALU: KU6B_49430(fbcF)
+            TGL: HFZ77_10620(petA)
+            TMD: KUV46_01900(petA)
+            HAT: RC74_07295
+            PALX: GQA70_03860(petA)
+            LSAL: KBK07_13835(petA)
+            RSP: RSP_1396(fbcF)
+            RSH: Rsph17029_0063
+            RSQ: Rsph17025_2803
+            RSK: RSKD131_2794
+            CAZT: LV780_14015(petA)
+            RCP: RCAP_rcc02768(petA)
+            RHP: LPB142_14860
+            RBL: B6K69_09890
+            PDE: Pden_2305
+            PAMI: JCM7686_3040
+            PYE: A6J80_12040(petA)
+            PCON: B0A89_04670
+            PZH: CX676_12955(petA)
+            PARO: CUV01_08880(petA)
+            PARU: CYR75_09660(petA)
+            PAMN: JCM7685_0661
+            PMUT: DPM13_10490(petA)
+            PARS: DRW48_04955(petA)
+            PARR: EOJ32_01545(petA)
+            PAAK: FIU66_00555(petA)
+            PKD: F8A10_10335(petA)
+            PPAN: ESD82_18775(petA)
+            PLIA: E4191_14705(petA)
+            PSAN: HGN31_08710(petA)
+            PMAU: CP157_00160(petA)
+            PMEH: JWJ88_08800(petA)
+            PSEW: JHW44_13325(petA)
+            PTP: RCA23_c00360(petA)
+            RSU: NHU_04263(petA2)
+            RHM: B5V46_17605
+            RHC: RGUI_2660
+            RMB: K529_013850 K529_022255
+            DAA: AKL17_4247
+            DON: BSK21_13585
+            RBZ: B9057_13235
+            THW: BMG03_14575
+            TEC: AKL02_013930(petA)
+            LVS: LOKVESSMR4R_03636(petA)
+            RBG: BG454_03135(petA)
+            GEH: HYN69_16400(petA)
+            GFU: KM031_10825(petA)
+            TAW: EI545_10080(petA)
+            SALO: EF888_05065(petA)
+            SEDI: EBB79_20010(petA)
+            HML: HmaOT1_12075(petA)
+            BOO: E2K80_15090(petA)
+            PSEB: EOK75_10815(petA)
+            LIT: FPZ52_08635(petA)
+            PPRU: FDP22_10115(petA)
+            PAED: G5B38_09990(petA)
+            MON: G8E03_05055(petA)
+            PAMO: BAR1_01055(petA)
+            PSHQ: F3W81_14100(petA)
+            POZ: I0K15_12035(petA)
+            PALW: PSAL_025060(petA)
+            PPAF: I8N54_00235(petA)
+            PGV: SL003B_1172(fbcF)
+            CACT: HZ995_07970(petA)
+            THAS: C6Y53_11730(petA)
+            HDH: G5B40_13765(petA)
+            CMAG: CBW24_01030
+            FAP: GR316_09005(petA)
+            GCE: KYE46_02295(petA) KYE46_07135(petA)
+            NSM: JO391_14285(petA)
+            ACRO: K3J57_14610(petA)
+            SINR: O5O51_02335(petA)
+            AALK: LGT41_0000290(petA)
+            FAQ: G5B39_05615(petA) G5B39_18295(petA)
+            AMAQ: GO499_12775(petA)
+            MMR: Mmar10_0185 Mmar10_0736
+            GAK: X907_0416
+            HYT: HXX25_01630(petA)
+            HNE: HNE_0350(petA)
+            HBA: Hbal_0745
+            CBOT: ATE48_06425
+            HBC: AEM38_09405
+            ZMO: ZMO0956
+            ZMN: Za10_0345
+            ZMM: Zmob_0349
+            ZMB: ZZ6_0349
+            ZMI: ZCP4_0359
+            ZMC: A265_00357(petA)
+            ZMR: A254_00357(petA)
+            ZMP: Zymop_0317
+            NAR: Saro_0678
+            NPP: PP1Y_AT1286
+            NPN: JI59_10920
+            NRE: BES08_14930
+            NOV: TQ38_016375(petA)
+            NOT: C7W88_03560(petA)
+            NOR: FA702_13975(petA)
+            NGF: FRF71_06820(petA)
+            NDR: HT578_15310(petA)
+            NHUM: PQ457_01050(petA)
+            SAL: Sala_1345
+            SPHK: SKP52_07770
+            SPHP: LH20_10580
+            SMAG: AN936_09560
+            SMAZ: LH19_09780
+            STER: AOA14_17055
+            SGI: SGRAN_2127(petA)
+            SPHQ: BWQ93_04740
+            SPHO: C3E99_08385(petA)
+            SPHX: E5675_12195(petA)
+            SPHU: SPPYR_2090(petA)
+            SWI: Swit_1396
+            SPHD: HY78_19595
+            RDI: CMV14_07780(petA)
+            SPHM: G432_02040
+            STAX: MC45_09045
+            SPHI: TS85_02360
+            SSAN: NX02_00405
+            SNJ: A7E77_09455
+            SMY: BJP26_05370
+            SPAN: AWL63_12005
+            SKR: BRX40_20390
+            SPLM: BXU08_09475
+            SPLK: AV944_15810
+            SPKC: KC8_07770
+            SPHC: CVN68_10205(petA)
+            SPHF: DM480_03980(petA)
+            SPHA: D3Y57_16405(petA)
+            SPAU: DRN02_016595(petA)
+            SECH: B18_14195
+            SLUT: H9L13_06195(petA)
+            SRHI: H9L12_06505(petA)
+            SLAN: GV829_08760(petA)
+            SDH: H9L15_00105(petA)
+            SSED: H9L14_08065(petA)
+            SPAP: H3Z74_14655(petA)
+            SXA: FMM02_09400(petA)
+            SPAI: FPZ24_02510(petA)
+            SPII: G7077_01180(petA)
+            SSIN: G7078_08460(petA)
+            SSAU: H8M03_00345(petA)
+            SARI: H5J25_05340(petA)
+            SCHY: GVO57_00110(petA)
+            SSUA: FPZ54_10050(petA)
+            SBIN: SBA_ch1_12500
+            SAER: NEF64_05005(petA)
+            SMOR: LHA26_13260(petA)
+            SGLC: M1K48_06490(petA)
+            SQO: NMP03_00210(petA)
+            SCAB: LZK98_04435(petA)
+            SRAD: LLW23_03415(petA)
+            SHAN: PPZ50_06290(petA)
+            SJP: SJA_C1-30530(rip1)
+            SINB: SIDU_12460
+            SCH: Sphch_2675
+            SSY: SLG_34280(petA)
+            SYB: TZ53_02355
+            SBD: ATN00_06815
+            SPMI: K663_12965
+            SPHB: EP837_02037(rip1)
+            SPHR: BSY17_809(petA)
+            SPHT: K426_05520
+            SHYD: CJD35_02985(petA)
+            SYA: A6768_15975(petA)
+            SCLO: SCLO_1015910
+            SPYG: YGS_C1P3204
+            SUFL: FIL70_13520(petA)
+            SBAR: H5V43_11505(petA)
+            SAMI: SAMIE_1023920
+            SPPH: KFK14_02785(petA)
+            CIJ: WG74_02470
+            SPHG: AZE99_08240
+            SFLA: SPHFLASMR4Y_00742(petA)
+            SPHY: CHN51_14830(petA)
+            SPHL: LPB140_04745
+            BLAS: BSY18_2803(petA)
+            BFW: B5J99_04975
+            SPHJ: BSL82_06555
+            SPZR: G5C33_04540(petA)
+            HGN: E6W36_15425(petA)
+            PALG: HFP57_05470(petA)
+            PARJ: J4G78_02675(petA)
+            PHAO: HF685_03420(petA)
+            SMIC: SmB9_04560
+            SPHS: ETR14_25915(petA)
+            SAND: H3309_05130(petA)
+            POQ: KZX46_08860(petA)
+            PMEA: KTC28_01135(petA)
+            AEP: AMC99_02664
+            ALB: AEB_P0490
+            ALH: G6N82_09550(petA)
+            AAY: WYH_02391(petA_1) WYH_02556(petA_2)
+            AMX: AM2010_2127
+            PMAS: NCF86_12335(petA)
+            ANH: A6F65_00330(petA)
+            ADO: A6F68_00613(petA)
+            TFV: IDJ81_03880(petA)
+            CNA: AB433_14270
+            CMAN: A9D14_11750
+            ERY: CP97_02590
+            EGN: BMF35_a0774
+            EFV: CHH26_01555(petA)
+            QCI: NCF85_14260(petA)
+            ELI: ELI_13635
+            ELQ: Ga0102493_111129
+            ERK: CD351_01510(petA)
+            ERR: DVR09_03180(petA)
+            ERF: FIU90_01520(petA)
+            EMV: HQR01_06180(petA)
+            PNS: A9D12_03445
+            PORL: BG023_11256
+            PHZ: CHX26_01015(petA)
+            POT: E2E27_04255(petA)
+            GOX: GOX0565
+            GOH: B932_2811
+            GOY: GLS_c06590(petA)
+            GAL: A0U94_01345
+            GTI: FXF46_13475(petA)
+            GSP: IGS75_03490(petA)
+            GFA: MKW11_12655(petA)
+            GDI: GDI3179(petA)
+            GDJ: Gdia_3181
+            GXY: GLX_16230
+            GXL: H845_185
+            KNA: B0W47_10475
+            KEU: S101446_02149(rip1)
+            KSC: CD178_01246(petA)
+            KRE: GWK63_13890(petA)
+            APT: APA01_18610
+            APW: APA42C_18610
+            APF: APA03_18610
+            APU: APA07_18610
+            APG: APA12_18610
+            APQ: APA22_18610
+            APX: APA26_18610
+            APZ: APA32_18610
+            APK: APA386B_777(petA)
+            ASZ: ASN_514(petA)
+            ASV: WG31_09735
+            AACE: A0U92_10565
+            APER: A0U91_07205
+            APOM: CPF11_11105(petA)
+            ATO: CIW82_09760(petA)
+            AASC: A4S02_07415
+            ACET: DS739_09285(petA)
+            AOT: AcetOri_orf01388
+            AOY: EOV40_008665(petA)
+            ACEK: FLP30_09325(petA)
+            KBA: A0U89_02275
+            RGI: RGI145_03155
+            ROS: CTJ15_21865(petA)
+            RMUC: FOB66_16090(petA)
+            RMT: IAI58_14540(petA)
+            RCV: PFY06_15625(petA)
+            NCH: A0U93_01690
+            COQ: D9V35_07315(petA)
+            COMM: GN303_07105(petA)
+            NTN: D5366_10160(petA)
+            NEH: E3E11_02445(petA)
+            SWF: E3E12_02695(petA)
+            BOB: GN304_01465(petA)
+            BOMB: GT348_06820(petA)
+            EBLA: JGUZn3_01540(petC)
+            LCK: HN018_14010(petA)
+            KHA: IFJ82_01175(petA)
+            PARZ: DTQ13_05760(petA)
+            SRF: LHU95_13665(petA)
+            RAP: RHOA_0798(petA) RHOA_3277(petA)
+            ACIM: GT370_08165(petA)
+            SHUM: STHU_05730
+            SVC: STVA_07860
+            STEL: STAQ_07540
+            AZL: AZL_c04850(rip1)
+            ALI: AZOLI_p30509(petA)
+            ABS: AZOBR_p1140010(petA)
+            ABQ: ABAZ39_18720
+            ABF: AMK58_15480
+            ATI: AL072_14830
+            AZT: TSH58p_23915(petA)
+            AZM: DM194_18295(petA)
+            AZZ: DEW08_03905(petA)
+            AOZ: HUE56_01870(petA)
+            AARE: D3093_15235(petA)
+            NAO: Y958_10240(petA)
+            NCB: C0V82_09855(petA)
+            SKT: IGS68_04230(petA)
+            SMUC: JL100_004405(petA)
+            SROE: JL101_004150(petA)
+            RRU: Rru_A0364 Rru_A1192
+            RRF: F11_01855 F11_06175
+            RCE: RC1_2445 RC1_3422(petA)
+            RPM: RSPPHO_00341(petA) RSPPHO_01157
+            MAG: amb4088
+            MGY: MGMSRv2__2827
+            MGRY: MSR1_35300(petA)
+            MAGX: XM1_0304(petA)
+            MAGN: WV31_03920
+            THAL: A1OE_664(petA)
+            EFK: P856_379(petA)
+            HJO: AY555_01345
+            FER: FNB15_12835(petA)
+            HTQ: FRZ44_09340 FRZ44_45550
+            HADH: FRZ61_09330 FRZ61_43200
+            DEX: HWD60_16480(petA)
+            DVN: HQ394_08615(petA)
+            TMO: TMO_c0154(petA)
+            TXI: TH3_16665
+            THAC: CSC3H3_15635(petA)
+            TII: DY252_05175(petA)
+            THAI: IT893_15595(petA)
+            MAGQ: MGMAQ_0685
+            ELIO: KO353_06605(petA)
+            NACI: NUH88_07130(petA)
+            PBR: PB2503_10624
+            HFL: PUV54_14860(petA)
+            MGM: Mmc1_0358
+            PUB: SAR11_0100(petA)
+            PEL: SAR11G3_00714
+            PEG: E5R92_05795(petA)
+            APC: HIMB59_00007850
+            APM: HIMB5_00001520
+            ECOG: FIV45_08780(petA)
+            APB: SAR116_2187
+            SNEA: NBZ79_05035(petA)
+            KOZ: KFF44_11625(petA)
+            MAI: MICA_1675(petA)
+            MAN: A11S_1596
+            AFR: AFE_2729(petA-2) AFE_3109(petA-1)
+            AFE: Lferr_2351 Lferr_2707
+            AFI: Acife_0615 Acife_3269
+            AFJ: AFERRID_06830 AFERRID_13980
+            AFP: K1Y48_02645(petA) K1Y48_04885(petA)
+            MAES: Ga0123461_0966
+            MFN: Ga0123462_1365
+            HTL: HPTL_0302
+            PARH: I5S86_05665(petA)
+            BUN: Bun01g_15770
+            AAE: aq_045(petA)
+            HYA: HY04AAS1_0466 HY04AAS1_1533
+            HHO: HydHO_1501
+            HYS: HydSN_1544
+            HTH: HTH_1334(qcrA)
+            HTE: Hydth_1325
+            TAL: Thal_0368
+            TRD: THERU_06695
+            SUL: SYO3AOP1_1453
+            SAF: SULAZ_0288(petA)
+            PMX: PERMA_0586(petA)
+            POG: Pogu_1776(poxE)
+DBLINKS     ExplorEnz - The Enzyme Database: 7.1.1.8
+            IUBMB Enzyme Nomenclature: 7.1.1.8
+            ExPASy - ENZYME nomenclature database: 7.1.1.8
+            BRENDA, the Enzyme Database: 7.1.1.8
+            CAS: 9027-03-6
+///

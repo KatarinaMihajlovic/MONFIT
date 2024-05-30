@@ -1,0 +1,539 @@
+ENTRY       EC 2.4.1.134                Enzyme
+NAME        galactosylxylosylprotein 3-beta-galactosyltransferase;
+            galactosyltransferase II;
+            uridine diphosphogalactose-galactosylxylose galactosyltransferase;
+            UDP-galactose:4-beta-D-galactosyl-O-beta-D-xylosylprotein 3-beta-D-galactosyltransferase;
+            UDP-alpha-D-galactose:4-beta-D-galactosyl-O-beta-D-xylosylprotein 3-beta-D-galactosyltransferase
+CLASS       Transferases;
+            Glycosyltransferases;
+            Hexosyltransferases
+SYSNAME     UDP-alpha-D-galactose:[protein]-3-O-(beta-D-galactosyl-(1->4)-beta-D-xylosyl)-L-serine (configuration-inverting)
+REACTION    UDP-alpha-D-galactose + [protein]-3-O-(beta-D-galactosyl-(1->4)-beta-D-xylosyl)-L-serine = UDP + [protein]-3-O-(beta-D-galactosyl-(1->3)-beta-D-galactosyl-(1->4)-beta-D-xylosyl)-L-serine [RN:R05927]
+ALL_REAC    R05927(G)
+SUBSTRATE   UDP-alpha-D-galactose [CPD:C00052];
+            [protein]-3-O-(beta-D-galactosyl-(1->4)-beta-D-xylosyl)-L-serine
+PRODUCT     UDP [CPD:C00015];
+            [protein]-3-O-(beta-D-galactosyl-(1->3)-beta-D-galactosyl-(1->4)-beta-D-xylosyl)-L-serine [CPD:C04825]
+COMMENT     Involved in the biosynthesis of the linkage region of glycosaminoglycan chains as part of proteoglycan biosynthesis (chondroitin, dermatan and heparan sulfates). Requires Mn2+.
+HISTORY     EC 2.4.1.134 created 1984, modified 2002
+REFERENCE   1  [PMID:3924029]
+  AUTHORS   Robinson JA, Robinson HC.
+  TITLE     Initiation of chondroitin sulphate synthesis by beta-D-galactosides. Substrates for galactosyltransferase II.
+  JOURNAL   Biochem J 227:805-14 (1985)
+            DOI:10.1042/bj2270805
+REFERENCE   2  [PMID:1150655]
+  AUTHORS   Schwartz NB, Roden L.
+  TITLE     Biosynthesis of chondroitin sulfate. Solubilization of chondroitin sulfate glycosyltransferases and partial purification of uridine diphosphate-D-galactose:D-xylose galactosyltrans.
+  JOURNAL   J Biol Chem 250:5200-7 (1975)
+REFERENCE   3  [PMID:11551958]
+  AUTHORS   Bai X, Zhou D, Brown JR, Crawford BE, Hennet T, Esko JD
+  TITLE     Biosynthesis of the linkage region of glycosaminoglycans: cloning and activity of galactosyltransferase II, the sixth member of the beta 1,3-galactosyltransferase family (beta 3GalT6).
+  JOURNAL   J Biol Chem 276:48189-95 (2001)
+            DOI:10.1074/jbc.M107339200
+  SEQUENCE  [hsa:126792] [mmu:117592]
+PATHWAY     ec00532  Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate
+            ec00534  Glycosaminoglycan biosynthesis - heparan sulfate / heparin
+            ec01100  Metabolic pathways
+ORTHOLOGY   K00734  galactosylxylosylprotein 3-beta-galactosyltransferase
+GENES       HSA: 126792(B3GALT6)
+            PTR: 457187(B3GALT6)
+            PPS: 100971409(B3GALT6)
+            PON: 112135480(B3GALT6)
+            NLE: 115833053(B3GALT6)
+            HMH: 116812768(B3GALT6)
+            MCC: 703713(B3GALT6)
+            MCF: 102115188(B3GALT6)
+            MTHB: 126952061
+            MNI: 105498306(B3GALT6)
+            CSAB: 103225816(B3GALT6)
+            CATY: 105572458(B3GALT6)
+            PANU: 101003310(B3GALT6)
+            TGE: 112625398(B3GALT6)
+            RRO: 104673226(B3GALT6)
+            RBB: 108544195(B3GALT6)
+            TFN: 117093480(B3GALT6)
+            PTEH: 111526850(B3GALT6)
+            CJC: 100387131(B3GALT6)
+            CIMI: 108313919(B3GALT6)
+            CSYR: 103250094(B3GALT6)
+            MMUR: 105877638(B3GALT6)
+            LCAT: 123636029(B3GALT6)
+            PCOQ: 105820907(B3GALT6)
+            OGA: 100958919(B3GALT6)
+            MMU: 117592(B3galt6)
+            MCAL: 110292468(B3galt6)
+            MPAH: 110322882(B3galt6)
+            RNO: 298690(B3galt6)
+            MCOC: 116097170(B3galt6)
+            ANU: 117708571(B3galt6)
+            MUN: 110560227(B3galt6)
+            CGE: 100767598(B3galt6)
+            MAUA: 101833181(B3galt6)
+            PLEU: 114708248(B3galt6)
+            MORG: 121443545 121448529(B3galt6)
+            MFOT: 126493175
+            AAMP: 119816893(B3galt6)
+            NGI: 103749737(B3galt6)
+            HGL: 101721217(B3galt6)
+            CPOC: 100730778(B3galt6)
+            CCAN: 109681028(B3galt6)
+            DORD: 106002935(B3galt6)
+            DSP: 122127349(B3galt6)
+            NCAR: 124963718
+            OCU: 103351814
+            OPI: 101521287(B3GALT6)
+            TUP: 102502785(B3GALT6)
+            CFA: 664717(B3GALT6)
+            CLUD: 112647021(B3GALT6)
+            VVP: 112926057(B3GALT6)
+            VLG: 121500774(B3GALT6)
+            AML: 100473227(B3GALT6)
+            UMR: 103682080(B3GALT6)
+            UAH: 113270686(B3GALT6)
+            UAR: 123796089(B3GALT6)
+            ELK: 111154922
+            LLV: 125097488
+            MPUF: 101677593(B3GALT6)
+            NVS: 122899323(B3GALT6)
+            ORO: 101364618(B3GALT6)
+            EJU: 114213404(B3GALT6)
+            ZCA: 113928681(B3GALT6)
+            MLX: 118020133(B3GALT6)
+            NSU: 110575332(B3GALT6)
+            FCA: 105259949(B3GALT6)
+            PYU: 121017977(B3GALT6)
+            PBG: 122479773(B3GALT6)
+            LRUF: 124514991
+            PTG: 102964488(B3GALT6)
+            PPAD: 109273914(B3GALT6)
+            AJU: 106978137 113599162(B3GALT6)
+            HHV: 120242505(B3GALT6)
+            BTA: 522406(B3GALT6)
+            BOM: 102265005(B3GALT6)
+            BIU: 109570568(B3GALT6)
+            BBUB: 102406953(B3GALT6)
+            BBIS: 104996102(B3GALT6)
+            CHX: 102191357(B3GALT6)
+            OAS: 101105768(B3GALT6)
+            ODA: 120862075 120880627(B3GALT6)
+            CCAD: 122452078(B3GALT6)
+            SSC: 100523125(B3GALT6)
+            CFR: 102522264(B3GALT6)
+            CBAI: 105071076(B3GALT6)
+            CDK: 105105583(B3GALT6)
+            LVE: 103085660(B3GALT6)
+            OOR: 101276763(B3GALT6)
+            DLE: 111187245(B3GALT6)
+            PCAD: 112065327(B3GALT6)
+            PSIU: 116756707(B3GALT6)
+            ECB: 100146417(B3GALT6)
+            EPZ: 103558570(B3GALT6)
+            EAI: 106845197(B3GALT6)
+            MMYO: 118655568(B3GALT6)
+            MNA: 107543692(B3GALT6)
+            PKL: 118731977(B3GALT6)
+            HAI: 109391146(B3GALT6)
+            DRO: 112299603(B3GALT6)
+            SHON: 118998221(B3GALT6)
+            AJM: 119050524(B3GALT6)
+            PDIC: 114497174(B3GALT6)
+            PHAS: 123831877(B3GALT6)
+            MMF: 118643408(B3GALT6)
+            RFQ: 117026943(B3GALT6)
+            PALE: 102879449(B3GALT6)
+            PGIG: 120614084(B3GALT6)
+            RAY: 107503893 107510710(B3GALT6)
+            MJV: 108409072(B3GALT6)
+            TOD: 119236531(B3GALT6)
+            SARA: 101551557(B3GALT6)
+            LAV: 100659349(B3GALT6)
+            TMU: 101342110
+            ETF: 101640488(B3GALT6)
+            DNM: 101412993(B3GALT6)
+            MDO: 100024991(B3GALT6)
+            GAS: 123240111(B3GALT6)
+            SHR: 116422871(B3GALT6)
+            AFZ: 127556024
+            PCW: 110201068(B3GALT6)
+            OAA: 100074836(B3GALT6)
+            GGA: 428185(B3GALT6)
+            PCOC: 116242558(B3GALT6)
+            MGP: 104914138(B3GALT6)
+            CJO: 107323501(B3GALT6)
+            NMEL: 110408704(B3GALT6)
+            APLA: 101798225(B3GALT6)
+            ACYG: 106044272(B3GALT6)
+            AFUL: 116497597(B3GALT6)
+            TGU: 100225099(B3GALT6)
+            LSR: 110474385(B3GALT6)
+            SCAN: 103820901(B3GALT6)
+            PMOA: 120511127(B3GALT6)
+            OTC: 121344105(B3GALT6)
+            PRUF: 121358335(B3GALT6) 121358342
+            FAB: 101808759(B3GALT6)
+            PHI: 102108353(B3GALT6)
+            PMAJ: 107213734(B3GALT6)
+            CCAE: 111938482(B3GALT6)
+            CCW: 104693401(B3GALT6)
+            CBRC: 103622302(B3GALT6)
+            ETL: 114071242(B3GALT6)
+            ZAB: 102062738(B3GALT6)
+            ACHL: 103809603(B3GALT6)
+            FPG: 101913380(B3GALT6)
+            FCH: 102056999(B3GALT6)
+            CLV: 102096830(B3GALT6)
+            EGZ: 104133398(B3GALT6)
+            NNI: 104009059(B3GALT6)
+            PLET: 104620975(B3GALT6)
+            PCRI: 104023992(B3GALT6)
+            PCAO: 104047856(B3GALT6)
+            ACUN: 113487982(B3GALT6)
+            TALA: 104355594(B3GALT6)
+            PADL: 103918023(B3GALT6)
+            AFOR: 103894783(B3GALT6)
+            ACHC: 115343036(B3GALT6)
+            HALD: 104312985(B3GALT6)
+            HLE: 104837931(B3GALT6)
+            AGEN: 126041894
+            GCL: 127024687
+            CCRI: 104154611(B3GALT6)
+            CSTI: 104562399(B3GALT6)
+            EHS: 104508150(B3GALT6)
+            CMAC: 104479565(B3GALT6)
+            MUI: 104534116(B3GALT6)
+            FGA: 104074823(B3GALT6)
+            GSTE: 104263956(B3GALT6)
+            LDI: 104339978(B3GALT6)
+            MNB: 103779504(B3GALT6)
+            OHA: 104336061(B3GALT6)
+            NNT: 104403522(B3GALT6)
+            DPUB: 104305940(B3GALT6)
+            PGUU: 104469478(B3GALT6)
+            ACAR: 104520744(B3GALT6)
+            CPEA: 104395466(B3GALT6)
+            AVIT: 104279118(B3GALT6)
+            CVF: 104290552(B3GALT6)
+            CUCA: 104055619(B3GALT6)
+            TEO: 104372719(B3GALT6)
+            BRHI: 104496585(B3GALT6)
+            AAM: 106495555(B3GALT6)
+            AROW: 112970105(B3GALT6)
+            NPD: 112957393(B3GALT6)
+            TGT: 104569274(B3GALT6)
+            DNE: 112983500(B3GALT6)
+            SCAM: 104141997(B3GALT6)
+            ASN: 102373206(B3GALT6)
+            AMJ: 102571760(B3GALT6)
+            CPOO: 109314423(B3GALT6)
+            GGN: 109293554(B3GALT6)
+            PSS: 102452076(B3GALT6)
+            CMY: 102942046(B3GALT6)
+            CPIC: 101943011(B3GALT6)
+            TST: 117867974(B3GALT6)
+            CABI: 116824600(B3GALT6)
+            MRV: 120387825(B3GALT6)
+            PVT: 110073136(B3GALT6)
+            SUND: 121937204(B3GALT6)
+            PBI: 103049964(B3GALT6)
+            PMUR: 107298347(B3GALT6)
+            CTIG: 120318999(B3GALT6)
+            TSR: 106541052(B3GALT6)
+            PGUT: 117675860(B3GALT6)
+            VKO: 123030942(B3GALT6)
+            PMUA: 114602507(B3GALT6)
+            ZVI: 118087931(B3GALT6)
+            GJA: 107110843(B3GALT6)
+            STOW: 125445691(B3GALT6)
+            XLA: 108696563(b3galt6.L) 108697636(b3galt6.S)
+            XTR: 548849(b3galt6)
+            NPR: 108784315(B3GALT6)
+            RTEM: 120915404(B3GALT6)
+            BBUF: 121004783(B3GALT6)
+            BGAR: 122926567(B3GALT6)
+            DRE: 572324(b3galt6)
+            SRX: 107714504 107751019
+            SANH: 107680432 107699339
+            SGH: 107555998 107592565
+            CCAR: 109066899 109098579
+            CAUA: 113055100 113069397
+            CGIB: 127968611 128022598
+            PPRM: 120473396(b3galt6)
+            MAMB: 125256819(b3galt6)
+            CIDE: 127522816
+            MASI: 127426325 127428241
+            IPU: 108255271(b3galt6)
+            PHYP: 113539477(b3galt6)
+            SMEO: 124402544(b3galt6)
+            TFD: 113661931(b3galt6)
+            AMEX: 103027814(b3galt6)
+            EEE: 113585544(b3galt6)
+            TRU: 777996(b3galt6)
+            LCO: 104939272(b3galt6)
+            NCC: 104942072(b3galt6)
+            CGOB: 115008833(b3galt6)
+            ELY: 117256359(b3galt6)
+            EFO: 125886969(b3galt6)
+            PLEP: 121953859(b3galt6)
+            SLUC: 116067467(b3galt6)
+            ECRA: 117943739(b3galt6)
+            ESP: 116687782(b3galt6)
+            PFLV: 114554241(b3galt6)
+            GAT: 120835278(b3galt6)
+            PPUG: 119229718(b3galt6)
+            MSAM: 119886187(b3galt6)
+            CUD: 121529149(b3galt6)
+            ALAT: 119021203(b3galt6)
+            MZE: 101485514(b3galt6)
+            ONL: 100693145(b3galt6)
+            OAU: 116326550(b3galt6)
+            OLA: 100049392(b3galt6)
+            OML: 112145073(b3galt6)
+            XMA: 102230525(b3galt6)
+            XCO: 114136114(b3galt6)
+            XHE: 116710500(b3galt6)
+            PRET: 103464912(b3galt6)
+            PFOR: 103144356(b3galt6)
+            PLAI: 106955120(b3galt6)
+            PMEI: 106917398(b3galt6)
+            GAF: 122833643(b3galt6)
+            CVG: 107101435(b3galt6)
+            CTUL: 119791815(b3galt6)
+            GMU: 124856092(b3galt6)
+            NFU: 107385557(b3galt6)
+            KMR: 108246845(b3galt6)
+            ALIM: 106513334(b3galt6)
+            NWH: 119411667(b3galt6)
+            AOCE: 111587882(b3galt6)
+            MCEP: 125007439(b3galt6)
+            CSEM: 103386136(b3galt6)
+            POV: 109629160(b3galt6)
+            SSEN: 122767632(b3galt6)
+            HHIP: 117761446(b3galt6)
+            HSP: 118105344(b3galt6)
+            LCF: 108884066
+            SDU: 111221818(b3galt6)
+            SLAL: 111667675(b3galt6)
+            XGL: 120807316(b3galt6)
+            HCQ: 109522223(b3galt6)
+            SSCV: 125977869
+            BPEC: 110165823(b3galt6)
+            MALB: 109956258(b3galt6)
+            BSPL: 114856146(b3galt6)
+            SASA: 106582684 106593203
+            STRU: 115151055 115207362
+            OTW: 112221817 112254159
+            OMY: 110494759 110527712
+            OGO: 124002933 124021082
+            ONE: 115143517 115145326
+            SALP: 111970598 112080947
+            SNH: 120023840 120064928
+            CCLU: 121574770(b3galt6)
+            ELS: 105007424(b3galt6)
+            SFM: 108938192(b3galt6)
+            PKI: 111853658(b3galt6)
+            AANG: 118210577(b3galt6)
+            LOC: 102694517(b3galt6)
+            PSPA: 121329263 121329297
+            ARUT: 117425319 117972756
+            PSEX: 120530945(b3galt6)
+            LCM: 102355255(B3GALT6)
+            CMK: 103187433(b3galt6)
+            RTP: 109918536(b3galt6)
+            BFO: 118410806 118411359 118430418
+            BBEL: 109464793 109466855 109479943
+            CIN: 778996(b3galt6)
+            SCLV: 120341313 120341315
+            SPU: 115921698 115924557 753784
+            APLC: 110979066 110979076
+            AJC: 117114774
+            SKO: 100367674
+            DME: Dmel_CG8734(beta3GalTII)
+            DER: 6543072
+            DSE: 6608207
+            DSI: Dsimw501_GD27981(Dsim_GD27981)
+            DYA: Dyak_GE22868(Dyak_beta3galt6)
+            DAN: 6502488
+            DSR: 110182817
+            DPO: 6902748
+            DPE: 6597933
+            DMN: 108162389
+            DWI: 6644411
+            DGR: 6566393
+            DMO: Dmoj_GI17485
+            DAZ: 108610340
+            DNV: 115562853
+            DHE: 111592079
+            DVI: 6627305
+            CCAT: 101456591
+            BOD: 106615736
+            RZE: 108365364 108374143
+            MDE: 101899820
+            SCAC: 106084399
+            LCQ: 111679243
+            LSQ: 119609799
+            HIS: 119653093
+            AGA: AgaP_AGAP009175
+            ACOZ: 120959582
+            AARA: 120901636
+            ASTE: 118512538
+            AAG: 5568811
+            AALB: 109419591
+            CQU: CpipJ_CPIJ010407
+            CPII: 120425909
+            CNS: 116341215
+            BCOO: 119078669
+            AME: 102655877
+            ACER: 108003457
+            ALAB: 122711455
+            BIM: 100740262
+            BBIF: 117214488
+            BVK: 117242628
+            BVAN: 117161233
+            BTER: 100644667
+            BPYO: 122576443
+            CCAL: 108622599
+            OBB: 114880076
+            MGEN: 117222654
+            NMEA: 116425873
+            CGIG: 122403002 122403764
+            SOC: 105194992
+            MPHA: 105829197
+            AEC: 105155005
+            ACEP: 105626882
+            PBAR: 105426350
+            VEM: 105566820
+            HST: 105186112
+            DQU: 106745352
+            CFO: 105255994
+            FEX: 115243790
+            LHU: 105669725
+            PGC: 109857902
+            OBO: 105284463
+            PCF: 106788423
+            PFUC: 122522484
+            VPS: 122634692
+            NVI: 100680242
+            CSOL: 105359846
+            TPRE: 106659421
+            MDL: 103571274
+            CGLO: 123261645
+            FAS: 105270274
+            DAM: 107035758
+            AGIF: 122859047
+            CINS: 118064670
+            LHT: 122499156
+            CCIN: 107266373
+            TCA: 656431
+            DPA: 109534754
+            SOY: 115889543
+            ATD: 109599054
+            CSET: 123311551
+            AGB: 108910758
+            LDC: 111509085
+            NVL: 108563522
+            APLN: 108735776
+            PPYR: 116170377
+            OTU: 111424934
+            BMOR: 101740645
+            BMAN: 114247960
+            MSEX: 115449198
+            DPL: KGM_203077
+            BANY: 112045668
+            NIQ: 126778792
+            PMAC: 106712341
+            PPOT: 106107973
+            PXU: 106117241
+            PRAP: 111001912
+            PBX: 123717655
+            PNAP: 125061803
+            ZCE: 119830168
+            CCRC: 123700226
+            HAW: 110383736
+            HZE: 124641691
+            TNL: 113493565
+            SLIU: 111354696
+            OFU: 114352165
+            PXY: 105386738
+            API: 100168819 100574538
+            DNX: 107164501
+            AGS: 114128883 114128889
+            RMD: 113556535 113559464
+            BTAB: 109035941
+            DCI: 103514882
+            CLEC: 106670905
+            HHAL: 106686435
+            NLU: 111047956
+            PHU: Phum_PHUM361650
+            FOC: 113218242
+            TPAL: 117643550
+            ZNE: 110831323
+            CSEC: 111867039
+            SGRE: 126295406 126295408
+            FCD: 110850766
+            DPX: DAPPUDRAFT_65862
+            DMK: 116916453
+            DPZ: 124328348
+            PVM: 113821037 113821051
+            PJA: 122248394
+            PCHN: 125029043
+            PMOO: 119574129
+            HAME: 121879271
+            PCLA: 123756098
+            PTRU: 123517004
+            HAZT: 108667009
+            EAF: 111700018
+            LSM: 121114049
+            PPOI: 119096713 119097867
+            ISC: IscW_ISCW012863
+            DSV: 119446461 119446463
+            RSAN: 119389641 119389643
+            RMP: 119180578 119180586
+            VDE: 111249317
+            VJA: 111270592
+            TUT: 107368691
+            DPTE: 113794377
+            DFR: 124497317
+            CSCU: 111625572
+            PTEP: 107448329
+            SDM: 118186131
+            CEL: CELE_Y110A2AL.14(sqv-2)
+            CBR: CBG_19617(Cbr-sqv-2)
+            BMY: BM_BM7274(Bma-sqv-2)
+            LOA: LOAG_03680
+            NAI: NECAME_13336
+            HRO: HELRODRAFT_169080
+            LGI: LOTGIDRAFT_125392
+            PCAN: 112556227
+            BGT: 106065403
+            GAE: 121390616
+            HRF: 124111204
+            HRJ: 124265859
+            CRG: 105340554
+            MYI: 110450118
+            PMAX: 117344584
+            MCAF: 127720574
+            MMER: 123527630
+            OBI: 106882295
+            OSN: 115224526
+            LAK: 106161537
+            NVE: 5501668
+            EPA: 110240882
+            ATEN: 116295325
+            ADF: 107328872
+            AMIL: 114971432
+            PDAM: 113675377
+            SPIS: 111320722
+            DGT: 114526059
+            XEN: 124446513
+            HMG: 100208936
+            AQU: 100637620 100640622 105313401 105313426 105316663
+            PALZ: 118058471
+            MBR: MONBRDRAFT_23896
+            SRE: PTSG_02498
+            FCY: FRACYDRAFT_267815
+DBLINKS     ExplorEnz - The Enzyme Database: 2.4.1.134
+            IUBMB Enzyme Nomenclature: 2.4.1.134
+            ExPASy - ENZYME nomenclature database: 2.4.1.134
+            BRENDA, the Enzyme Database: 2.4.1.134
+            CAS: 56626-21-2 56626-19-8
+///

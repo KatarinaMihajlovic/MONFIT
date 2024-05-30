@@ -1,0 +1,413 @@
+ENTRY       EC 6.3.4.16                 Enzyme
+NAME        carbamoyl-phosphate synthase (ammonia);
+            carbon-dioxide---ammonia ligase;
+            carbamoylphosphate synthase;
+            carbamylphosphate synthetase;
+            carbamoylphosphate synthase (ammonia);
+            carbamoylphosphate synthetase;
+            carbamylphosphate synthetase I;
+            CPSI (gene name);
+            carbon-dioxide:ammonia ligase (ADP-forming, carbamate-phosphorylating)
+CLASS       Ligases;
+            Forming carbon-nitrogen bonds;
+            Other carbon-nitrogen ligases
+SYSNAME     hydrogencarbonate:ammonia ligase (ADP-forming, carbamate-phosphorylating)
+REACTION    2 ATP + NH3 + hydrogencarbonate = 2 ADP + phosphate + carbamoyl phosphate (overall reaction) [RN:R00149];
+            (1a) ATP + hydrogencarbonate = ADP + carboxyphosphate;
+            (1b) NH3 + carboxyphosphate = carbamate + phosphate;
+            (1c) ATP + carbamate = ADP + carbamoyl phosphate
+ALL_REAC    R00149
+SUBSTRATE   ATP [CPD:C00002];
+            NH3 [CPD:C00014];
+            hydrogencarbonate [CPD:C00288];
+            carboxyphosphate [CPD:C20969];
+            carbamate [CPD:C01563]
+PRODUCT     ADP [CPD:C00008];
+            phosphate [CPD:C00009];
+            carbamoyl phosphate [CPD:C00169];
+            carboxyphosphate [CPD:C20969];
+            carbamate [CPD:C01563]
+COMMENT     The enzyme catalyses the first committed step in the urea cycle. The reaction proceeds via three separate chemical reactions: phosphorylation of hydrogencarbonate to carboxyphosphate; a nucleophilic attack of ammonia on carboxyphosphate yielding carbamate; and the phosphorylation of carbamate forming carbamoyl phosphate. Two moles of ATP are utilized for the synthesis of one molecule of carbamyl phosphate, making the reaction essentially irreversible. The enzyme requires the allosteric activator N-acetyl-L-glutamate. cf. EC 6.3.5.5, carbamoyl-phosphate synthase (glutamine-hydrolysing).
+HISTORY     EC 6.3.4.16 created 1965 as EC 2.7.2.5, transferred 1978 to EC 6.3.4.16
+REFERENCE   1  [PMID:14213379]
+  AUTHORS   FAHIEN LA, COHEN PP.
+  TITLE     A KINETIC STUDY OF CARBAMYL PHOSPHATE SYNTHETASE.
+  JOURNAL   J Biol Chem 239:1925-34 (1964)
+REFERENCE   2  [PMID:13790558]
+  AUTHORS   JONES ME, SPECTOR L.
+  TITLE     The pathway of carbonate in the biosynthesis of carbamyl phosphate.
+  JOURNAL   J Biol Chem 235:2897-901 (1960)
+REFERENCE   3  [PMID:13563449]
+  AUTHORS   METZENBERG RL, MARSHALL M, COHEN PP.
+  TITLE     Purification of carbamyl phosphate synthetase from frog liver.
+  JOURNAL   J Biol Chem 233:102-5 (1958)
+REFERENCE   4  [PMID:26151989]
+  AUTHORS   Marshall M, Metzenberg RL, Cohen PP
+  TITLE     Physical and Kinetic Properties of Carbamyl Phosphate Synthetase from Frog Liver.
+  JOURNAL   J Biol Chem 236:2229-37 (1961)
+REFERENCE   5  [PMID:6249820]
+  AUTHORS   Pierson DL, Brien JM
+  TITLE     Human carbamylphosphate synthetase I. Stabilization, purification, and partial characterization of the enzyme from human liver.
+  JOURNAL   J Biol Chem 255:7891-5 (1980)
+REFERENCE   6  [PMID:19754428]
+  AUTHORS   Pekkala S, Martinez AI, Barcelona B, Gallego J, Bendala E, Yefimenko I, Rubio V, Cervera J
+  TITLE     Structural insight on the control of urea synthesis: identification of the binding site for N-acetyl-L-glutamate, the essential allosteric activator of mitochondrial carbamoyl phosphate synthetase.
+  JOURNAL   Biochem J 424:211-20 (2009)
+            DOI:10.1042/BJ20090888
+  SEQUENCE  [hsa:1373]
+PATHWAY     ec00220  Arginine biosynthesis
+            ec00250  Alanine, aspartate and glutamate metabolism
+            ec00910  Nitrogen metabolism
+            ec01100  Metabolic pathways
+            ec01120  Microbial metabolism in diverse environments
+ORTHOLOGY   K01948  carbamoyl-phosphate synthase (ammonia)
+GENES       HSA: 1373(CPS1)
+            PTR: 738670(CPS1)
+            PPS: 100984596(CPS1)
+            GGO: 101130709(CPS1)
+            PON: 100442727(CPS1)
+            NLE: 100596216(CPS1)
+            HMH: 116810358(CPS1)
+            MCC: 711806(CPS1)
+            MCF: 102139369(CPS1)
+            MTHB: 126932526
+            MNI: 105481139(CPS1)
+            CSAB: 103217763(CPS1)
+            CATY: 105580142(CPS1)
+            PANU: 100998090(CPS1)
+            TGE: 112636758(CPS1)
+            MLEU: 105529410(CPS1)
+            RRO: 104655495(CPS1)
+            RBB: 108540334(CPS1)
+            TFN: 117094576(CPS1)
+            PTEH: 111548015(CPS1)
+            CANG: 105504766(CPS1)
+            CJC: 100402602(CPS1)
+            SBQ: 101050943(CPS1)
+            CIMI: 108316738(CPS1)
+            CSYR: 103265850(CPS1)
+            MMUR: 105863911(CPS1)
+            LCAT: 123643910(CPS1)
+            PCOQ: 105823919(CPS1)
+            OGA: 100951321(CPS1)
+            MMU: 227231(Cps1)
+            MCAL: 110289777(Cps1)
+            MPAH: 110322614(Cps1)
+            RNO: 497840(Cps1)
+            MCOC: 116089210(Cps1)
+            ANU: 117705509(Cps1)
+            MUN: 110539643
+            CGE: 100760467(Cps1)
+            MAUA: 101832270(Cps1)
+            PLEU: 114693613(Cps1)
+            MORG: 121433434(Cps1)
+            MFOT: 126508819
+            AAMP: 119820686(Cps1)
+            NGI: 103744467(Cps1)
+            HGL: 101696508(Cps1)
+            CPOC: 100723563(Cps1)
+            CCAN: 109699651(Cps1)
+            DORD: 105995361(Cps1)
+            DSP: 122107420(Cps1)
+            NCAR: 124979792
+            OCU: 100303765
+            OPI: 101527604(CPS1)
+            TUP: 102491899(CPS1)
+            GVR: 103596711(CPS1)
+            CFA: 488506(CPS1)
+            CLUD: 112656390(CPS1)
+            VVP: 112922588(CPS1)
+            VLG: 121480750(CPS1)
+            AML: 100466842(CPS1)
+            UMR: 103659822(CPS1)
+            UAH: 113250504(CPS1)
+            UAR: 123798268(CPS1)
+            ELK: 111156350
+            LLV: 125095184
+            MPUF: 101674281(CPS1)
+            NVS: 122902267(CPS1)
+            ORO: 101371212(CPS1)
+            EJU: 114215934(CPS1)
+            ZCA: 113920213(CPS1)
+            MLX: 118012083(CPS1)
+            NSU: 110591845(CPS1)
+            LWW: 102728411(CPS1)
+            FCA: 101099824(CPS1)
+            PYU: 121031013(CPS1)
+            PBG: 122481726(CPS1)
+            LRUF: 124515815
+            PTG: 102968283(CPS1)
+            PPAD: 109265124(CPS1)
+            AJU: 106984775(CPS1)
+            HHV: 120243755(CPS1)
+            BTA: 510506(CPS1)
+            BOM: 102267831(CPS1)
+            BIU: 109570387(CPS1)
+            BBUB: 102415970(CPS1)
+            BBIS: 105003728(CPS1)
+            CHX: 102179612(CPS1)
+            OAS: 101107584(CPS1)
+            ODA: 120854532(CPS1)
+            CCAD: 122426621(CPS1)
+            SSC: 100157716(CPS1)
+            CFR: 102516394(CPS1)
+            CBAI: 105072943(CPS1)
+            CDK: 105101586(CPS1)
+            VPC: 102537219(CPS1)
+            BACU: 103003987(CPS1)
+            LVE: 103079188(CPS1)
+            OOR: 101279675(CPS1)
+            DLE: 111171789(CPS1)
+            PCAD: 102973240(CPS1)
+            PSIU: 116756616(CPS1)
+            ECB: 100050116(CPS1)
+            EPZ: 103554808(CPS1)
+            EAI: 106843053(CPS1)
+            MYB: 102262103(CPS1)
+            MYD: 102756563(CPS1)
+            MMYO: 118661701(CPS1)
+            MLF: 102436612(CPS1)
+            MNA: 107524839(CPS1)
+            PKL: 118709020(CPS1)
+            HAI: 109390430(CPS1)
+            DRO: 112307671(CPS1)
+            SHON: 118984231(CPS1)
+            AJM: 119044341(CPS1)
+            PDIC: 114494376(CPS1)
+            PHAS: 123828195(CPS1)
+            MMF: 118625808(CPS1)
+            RFQ: 117025658(CPS1)
+            PALE: 102895317(CPS1)
+            PGIG: 120587605(CPS1)
+            PVP: 105291095(CPS1)
+            RAY: 107517643(CPS1)
+            MJV: 108396990(CPS1)
+            TOD: 119256167(CPS1)
+            SARA: 101556847(CPS1)
+            LAV: 100669826(CPS1)
+            TMU: 101359193
+            ETF: 101651869(CPS1)
+            DNM: 101436387(CPS1)
+            MDO: 100015090(CPS1)
+            GAS: 123242723(CPS1)
+            SHR: 100929825(CPS1)
+            AFZ: 127553150
+            PCW: 110223299(CPS1)
+            OAA: 100077228(CPS1)
+            GGA: 428994(CPS1)
+            PCOC: 116235914(CPS1)
+            MGP: 100539661(CPS1)
+            CJO: 107316483(CPS1)
+            NMEL: 110399288(CPS1)
+            APLA: 101797791(CPS1)
+            ACYG: 106034508(CPS1)
+            AFUL: 116490822(CPS1)
+            TGU: 100221389(CPS1)
+            LSR: 110471694(CPS1)
+            SCAN: 103814751(CPS1)
+            PMOA: 120511507(CPS1)
+            OTC: 121339687(CPS1)
+            PRUF: 121364445(CPS1)
+            GFR: 102044867(CPS1)
+            FAB: 101816308(CPS1)
+            PHI: 102105821(CPS1)
+            PMAJ: 107207199(CPS1)
+            CCAE: 111931881(CPS1)
+            CCW: 104694540(CPS1)
+            CBRC: 103624329(CPS1)
+            ETL: 114059416(CPS1)
+            ZAB: 102066900(CPS1)
+            ACHL: 103807118(CPS1)
+            FPG: 101910440(CPS1)
+            FCH: 102046837(CPS1)
+            CLV: 102091543(CPS1)
+            EGZ: 104124302(CPS1)
+            NNI: 104009921(CPS1)
+            PLET: 104627545(CPS1)
+            PCRI: 104030248(CPS1)
+            PCAO: 104045913(CPS1)
+            ACUN: 113482015(CPS1)
+            TALA: 104368683(CPS1)
+            PADL: 103921645(CPS1)
+            AFOR: 103900404(CPS1)
+            ACHC: 115343371(CPS1)
+            HALD: 104321187
+            HLE: 104841537(CPS1)
+            AGEN: 126039478
+            GCL: 127018302
+            CCRI: 104161143(CPS1)
+            EHS: 104510972
+            CMAC: 104477513(CPS1)
+            MUI: 104538785(CPS1)
+            FGA: 104075389(CPS1)
+            GSTE: 104254124(CPS1)
+            LDI: 104350520(CPS1)
+            MNB: 103771914(CPS1)
+            OHA: 104338581(CPS1)
+            NNT: 104405431(CPS1)
+            DPUB: 104299635
+            PGUU: 104466714(CPS1)
+            ACAR: 104531757(CPS1)
+            CPEA: 104388101(CPS1)
+            AVIT: 104278583(CPS1)
+            CVF: 104288744(CPS1)
+            CUCA: 104064581(CPS1)
+            TEO: 104379491(CPS1)
+            BRHI: 104497824(CPS1)
+            AAM: 106492382(CPS1)
+            AROW: 112977009(CPS1)
+            NPD: 112955714(CPS1)
+            TGT: 104578213(CPS1)
+            DNE: 112996164(CPS1)
+            SCAM: 104153019(CPS1)
+            ASN: 102386005(CPS1)
+            AMJ: 106736782(CPS1)
+            CPOO: 109323109(CPS1)
+            GGN: 109301987(CPS1)
+            PSS: 102462440(CPS1)
+            CMY: 102943091(CPS1)
+            CPIC: 101942404(CPS1)
+            TST: 117884622(CPS1)
+            CABI: 116816082(CPS1)
+            MRV: 120374564(CPS1)
+            ACS: 100562333(cps1)
+            PVT: 110072386(CPS1)
+            SUND: 121919956(CPS1)
+            PBI: 103061484(CPS1)
+            PMUR: 107301875(CPS1)
+            CTIG: 120312340(CPS1)
+            TSR: 106557156(CPS1)
+            PGUT: 117674372(CPS1)
+            VKO: 123024301(CPS1)
+            PMUA: 114583459(CPS1)
+            ZVI: 118096710(CPS1)
+            XLA: 733340(cps1.L)
+            XTR: 100158506(cps1)
+            NPR: 108794421(CPS1)
+            RTEM: 120943863(CPS1)
+            BBUF: 121007628(CPS1)
+            BGAR: 122945871(CPS1)
+            DRE: 555623(cps1)
+            SRX: 107741925
+            SANH: 107660611
+            SGH: 107555908(cps1)
+            CAUA: 113108375(cps1)
+            CGIB: 127964800
+            PPRM: 120461485 120461522(cps1)
+            MAMB: 125270576(cps1)
+            CIDE: 127519252
+            MASI: 127447239
+            IPU: 108266807(cps1)
+            PHYP: 113526109(cps1)
+            SMEO: 124383048(cps1)
+            TFD: 113648186(cps1)
+            AMEX: 103026142(cps1)
+            EEE: 113589154(cps1)
+            TRU: 101074466(cps1)
+            TNG: GSTEN00004415G001
+            LCO: 104929821(cps1)
+            NCC: 104953308(cps1)
+            CGOB: 115026190(cps1)
+            ELY: 117251123(cps1)
+            EFO: 125899448(cps1)
+            PLEP: 121949412(cps1)
+            SLUC: 116037726(cps1) 116050235
+            ECRA: 117952874(cps1)
+            ESP: 116698408(cps1)
+            PFLV: 114563820(cps1)
+            GAT: 120834388(cps1)
+            PPUG: 119229014(cps1)
+            MSAM: 119903960(cps1)
+            CUD: 121523069(cps1)
+            ALAT: 119025840(cps1)
+            MZE: 101479159(cps1)
+            ONL: 100696002(cps1)
+            OAU: 116312077(cps1)
+            OLA: 101164854(cps1)
+            OML: 112155538(cps1)
+            XMA: 102232024(cps1)
+            XCO: 114147479(cps1)
+            XHE: 116723745(cps1)
+            PRET: 103461545(cps1)
+            PFOR: 103141450(cps1)
+            PLAI: 106948981(cps1)
+            PMEI: 106918783(cps1)
+            GAF: 122839359(cps1)
+            CVG: 107088030(cps1)
+            CTUL: 119798621(cps1)
+            GMU: 124871823(cps1)
+            NFU: 107396242(cps1)
+            KMR: 108240446(cps1)
+            ALIM: 106519746(cps1)
+            NWH: 119418844(cps1)
+            AOCE: 111584991(cps1)
+            MCEP: 125018029(cps1)
+            CSEM: 103392237(cps1)
+            POV: 109631134(cps1)
+            SSEN: 122765088(cps1)
+            HHIP: 117755012(cps1)
+            HSP: 118119733(cps1)
+            LCF: 108892757
+            SDU: 111218322(cps1)
+            SLAL: 111662716(cps1)
+            XGL: 120801664(cps1)
+            HCQ: 109531202(cps1)
+            BPEC: 110156044(cps1)
+            BSPL: 114847503(cps1)
+            SASA: 106586447(cps1)
+            STRU: 115160979(cps1)
+            OTW: 112238893(cps1)
+            OMY: 100136758(cps1)
+            OGO: 124044011(cps1)
+            ONE: 115111283(cps1)
+            SALP: 112068953(cps1)
+            SNH: 120058044(cps1)
+            CCLU: 121536995(cps1)
+            ELS: 105008497(cps1)
+            SFM: 108922278(cps1)
+            AANG: 118224050(cps1)
+            LOC: 102687173(cps1)
+            PSPA: 121323136(cps1)
+            ARUT: 117412900(cps1)
+            PSEX: 120530771(cps1)
+            LCM: 102363877(CPS1)
+            CMK: 103182939(cps1)
+            RTP: 109937803(cps1)
+            BFO: 118405554
+            BBEL: 109465412
+            SCLV: 120327643 120328367
+            SPU: 584369
+            APLC: 110989285
+            AJC: 117122950
+            SKO: 100367850
+            LGI: LOTGIDRAFT_137874
+            PCAN: 112558598
+            BGT: 106078424
+            GAE: 121387415
+            HRF: 124119867
+            HRJ: 124262534
+            OBI: 106879763
+            OSN: 115215632
+            LAK: 106172324 106173741
+            NVE: 5504557 5515702
+            EPA: 110246605
+            ATEN: 116288266
+            ADF: 107350432 107350434
+            AMIL: 114968085
+            PDAM: 113673921
+            SPIS: 111323363
+            DGT: 114517513
+            XEN: 124452820
+            PTI: PHATRDRAFT_24195
+            FCY: FRACYDRAFT_169332(Fc_169332)
+            TPS: THAPSDRAFT_40323
+            AAF: AURANDRAFT_20552(CPS1)
+            PIF: PITG_03098
+            PSOJ: PHYSODRAFT_348996
+            SPAR: SPRG_05438
+DBLINKS     ExplorEnz - The Enzyme Database: 6.3.4.16
+            IUBMB Enzyme Nomenclature: 6.3.4.16
+            ExPASy - ENZYME nomenclature database: 6.3.4.16
+            BRENDA, the Enzyme Database: 6.3.4.16
+            CAS: 9026-23-7
+///

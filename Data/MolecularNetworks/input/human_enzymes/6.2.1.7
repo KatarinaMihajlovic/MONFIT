@@ -1,0 +1,412 @@
+ENTRY       EC 6.2.1.7                  Enzyme
+NAME        cholate---CoA ligase;
+            BAL;
+            bile acid CoA ligase;
+            bile acid coenzyme A ligase;
+            choloyl-CoA synthetase;
+            choloyl coenzyme A synthetase;
+            cholic thiokinase;
+            cholate thiokinase;
+            cholic acid:CoA ligase;
+            3alpha,7alpha,12alpha-trihydroxy-5beta-cholestanoyl coenzyme A synthetase;
+            3alpha,7alpha,12alpha-trihydroxy-5beta-cholestanoate-CoA ligase;
+            3alpha,7alpha,12alpha-trihydroxy-5beta-cholestanoate-CoA synthetase;
+            THCA-CoA ligase;
+            3alpha,7alpha,12alpha-trihydroxy-5beta-cholestanate---CoA ligase;
+            3alpha,7alpha,12alpha-trihydroxy-5beta-cholestanate:CoA ligase (AMP-forming);
+            cholyl-CoA synthetase;
+            trihydroxycoprostanoyl-CoA synthetase
+CLASS       Ligases;
+            Forming carbon-sulfur bonds;
+            Acid-thiol ligases
+SYSNAME     cholate:CoA ligase (AMP-forming)
+REACTION    (1) ATP + cholate + CoA = AMP + diphosphate + choloyl-CoA [RN:R02794];
+            (2) ATP + (25R)-3alpha,7alpha,12alpha-trihydroxy-5beta-cholestan-26-oate + CoA = AMP + diphosphate + (25R)-3alpha,7alpha,12alpha-trihydroxy-5beta-cholestanoyl-CoA [RN:R04580]
+ALL_REAC    R02794 R04580;
+            (other) R04507 R08733 R08738 R08743
+SUBSTRATE   ATP [CPD:C00002];
+            cholate [CPD:C00695];
+            CoA [CPD:C00010];
+            (25R)-3alpha,7alpha,12alpha-trihydroxy-5beta-cholestan-26-oate
+PRODUCT     AMP [CPD:C00020];
+            diphosphate [CPD:C00013];
+            choloyl-CoA [CPD:C01794];
+            (25R)-3alpha,7alpha,12alpha-trihydroxy-5beta-cholestanoyl-CoA
+COMMENT     Requires Mg2+ for activity. The mammalian enzyme is membrane-bound and catalyses the first step in the conjugation of bile acids with amino acids, converting bile acids into their acyl-CoA thioesters. Chenodeoxycholate, deoxycholate, lithocholate and trihydroxycoprostanoate can also act as substrates [7]. The bacterial enzyme is soluble and participates in an anaerobic bile acid 7 alpha-dehydroxylation pathway [5].
+HISTORY     EC 6.2.1.7 created 1961 (EC 6.2.1.29 created 1992, incorporated 2005), modified 2005
+REFERENCE   1  [PMID:13303991]
+  AUTHORS   ELLIOTT WH.
+  TITLE     The enzymic activation of cholic acid by guinea-pig-liver microsomes.
+  JOURNAL   Biochem J 62:427-33 (1956)
+            DOI:10.1042/bj0620427
+REFERENCE   2  [PMID:13403911]
+  AUTHORS   ELLIOTT WH.
+  TITLE     The breakdown of adenosine triphosphate accompanying cholic acid activation by guinea-pig liver microsomes.
+  JOURNAL   Biochem J 65:315-21 (1957)
+            DOI:10.1042/bj0650315
+REFERENCE   3  [PMID:3183523]
+  AUTHORS   Prydz K, Kase BF, Bjorkhem I, Pedersen JI.
+  TITLE     Subcellular localization of 3 alpha, 7 alpha-dihydroxy- and 3 alpha,7 alpha,12 alpha-trihydroxy-5 beta-cholestanoyl-coenzyme A ligase(s) in rat liver.
+  JOURNAL   J Lipid Res 29:997-1004 (1988)
+REFERENCE   4  [PMID:2521999]
+  AUTHORS   Schepers L, Casteels M, Verheyden K, Parmentier G, Asselberghs S, Eyssen HJ, Mannaerts GP.
+  TITLE     Subcellular distribution and characteristics of trihydroxycoprostanoyl-CoA synthetase in rat liver.
+  JOURNAL   Biochem J 257:221-9 (1989)
+            DOI:10.1042/bj2570221
+REFERENCE   5  [PMID:1551828]
+  AUTHORS   Mallonee DH, Adams JL, Hylemon PB
+  TITLE     The bile acid-inducible baiB gene from Eubacterium sp. strain VPI 12708 encodes a bile acid-coenzyme A ligase.
+  JOURNAL   J Bacteriol 174:2065-71 (1992)
+            DOI:10.1128/JB.174.7.2065-2071.1992
+  SEQUENCE  [ag:AAC45410]
+REFERENCE   6  [PMID:9390170]
+  AUTHORS   Wheeler JB, Shaw DR, Barnes S.
+  TITLE     Purification and characterization of a rat liver bile acid coenzyme A ligase from rat liver microsomes.
+  JOURNAL   Arch Biochem Biophys 348:15-24 (1997)
+            DOI:10.1006/abbi.1997.0391
+  SEQUENCE  [rno:79111]
+REFERENCE   7  [PMID:12454267]
+  AUTHORS   Falany CN, Xie X, Wheeler JB, Wang J, Smith M, He D, Barnes S.
+  TITLE     Molecular cloning and expression of rat liver bile acid CoA ligase.
+  JOURNAL   J Lipid Res 43:2062-71 (2002)
+            DOI:10.1194/jlr.m200260-jlr200
+  SEQUENCE  [rno:79111]
+PATHWAY     ec00120  Primary bile acid biosynthesis
+            ec00121  Secondary bile acid biosynthesis
+            ec01100  Metabolic pathways
+ORTHOLOGY   K08748  solute carrier family 27 (fatty acid transporter), member 5
+            K15868  bile acid-coenzyme A ligase
+GENES       HSA: 10998(SLC27A5)
+            PTR: 456351(SLC27A5)
+            PPS: 100973518(SLC27A5)
+            GGO: 101141402(SLC27A5)
+            PON: 100450572(SLC27A5)
+            NLE: 100598523(SLC27A5)
+            HMH: 116479284(SLC27A5)
+            MCC: 713713(SLC27A5)
+            MCF: 102139611(SLC27A5)
+            MTHB: 126941889
+            MNI: 105488041(SLC27A5)
+            CSAB: 103235458(SLC27A5)
+            CATY: 105593284(SLC27A5)
+            PANU: 101012361(SLC27A5)
+            TGE: 112612525(SLC27A5)
+            MLEU: 105531198(SLC27A5)
+            RRO: 104680867(SLC27A5)
+            RBB: 108514368(SLC27A5)
+            TFN: 117091868(SLC27A5)
+            PTEH: 111530345(SLC27A5)
+            CANG: 105524030(SLC27A5)
+            CJC: 100394591(SLC27A5)
+            SBQ: 101033269(SLC27A5)
+            CIMI: 108289969(SLC27A5)
+            CSYR: 103262310(SLC27A5)
+            MMUR: 105864502(SLC27A5)
+            LCAT: 123624765(SLC27A5)
+            PCOQ: 105819607(SLC27A5)
+            OGA: 100943998(SLC27A5)
+            MMU: 26459(Slc27a5)
+            MCAL: 110297223(Slc27a5)
+            MPAH: 110336881(Slc27a5)
+            RNO: 79111(Slc27a5)
+            MCOC: 116101654(Slc27a5)
+            ANU: 117700681(Slc27a5)
+            MUN: 110562939(Slc27a5)
+            CGE: 100765567(Slc27a5)
+            MAUA: 101824762(Slc27a5)
+            PLEU: 114703883(Slc27a5)
+            MORG: 121449385(Slc27a5)
+            MFOT: 126493814
+            AAMP: 119820463(Slc27a5)
+            NGI: 103725476(Slc27a5)
+            HGL: 101724180(Slc27a5)
+            CPOC: 100717817(Slc27a5)
+            CCAN: 109683037(Slc27a5)
+            DORD: 105994312(Slc27a5)
+            DSP: 122110673(Slc27a5)
+            NCAR: 124966722
+            OCU: 100340287
+            OPI: 101527096(SLC27A5)
+            TUP: 102483776(SLC27A5)
+            GVR: 103595548(SLC27A5)
+            CFA: 608675(SLC27A5)
+            CLUD: 112643327(SLC27A5)
+            VVP: 112908791(SLC27A5)
+            VLG: 121484156(SLC27A5)
+            AML: 100478693(SLC27A5)
+            UMR: 103677216(SLC27A5)
+            UAH: 113248017(SLC27A5)
+            UAR: 123776624(SLC27A5)
+            ELK: 111139861
+            LLV: 125089011
+            MPUF: 101687342(SLC27A5)
+            NVS: 122912093(SLC27A5)
+            ORO: 101381954(SLC27A5)
+            EJU: 114200965(SLC27A5)
+            ZCA: 113936449(SLC27A5)
+            MLX: 117997921(SLC27A5)
+            NSU: 110581926(SLC27A5)
+            LWW: 102737843(SLC27A5)
+            FCA: 101086686(SLC27A5)
+            PYU: 121023395(SLC27A5)
+            PBG: 122494649(SLC27A5)
+            LRUF: 124522780
+            PTG: 102948587(SLC27A5)
+            PPAD: 109260425(SLC27A5)
+            AJU: 106987933(SLC27A5)
+            HHV: 120227093(SLC27A5)
+            BTA: 533016(SLC27A5)
+            BOM: 102285844(SLC27A5)
+            BIU: 109571897(SLC27A5)
+            BBUB: 102396712(SLC27A5)
+            BBIS: 105001638(SLC27A5)
+            CHX: 102172839(SLC27A5)
+            OAS: 101120689(SLC27A5)
+            ODA: 120871847(SLC27A5)
+            CCAD: 122420603(SLC27A5)
+            SSC: 102158419(SLC27A5)
+            CFR: 102519177(SLC27A5)
+            CBAI: 105074455(SLC27A5)
+            CDK: 105096797(SLC27A5)
+            VPC: 102538658(SLC27A5)
+            BACU: 103020672(SLC27A5)
+            LVE: 103086085(SLC27A5)
+            OOR: 101280268(SLC27A5)
+            DLE: 111170038(SLC27A5)
+            PCAD: 102979842(SLC27A5)
+            PSIU: 116744807(SLC27A5)
+            ECB: 100051678(SLC27A5)
+            EPZ: 103567891(SLC27A5)
+            EAI: 106846663(SLC27A5)
+            MYB: 102261821(SLC27A5)
+            MYD: 102751593(SLC27A5)
+            MMYO: 118657417(SLC27A5)
+            MLF: 102425294(SLC27A5)
+            MNA: 107539367(SLC27A5)
+            PKL: 118712387(SLC27A5)
+            HAI: 109377097(SLC27A5)
+            DRO: 112313581(SLC27A5)
+            SHON: 118988175(SLC27A5)
+            AJM: 119051596(SLC27A5)
+            PDIC: 114511678(SLC27A5)
+            PHAS: 123825485(SLC27A5)
+            MMF: 118638221(SLC27A5)
+            RFQ: 117034578(SLC27A5)
+            PALE: 102890200(SLC27A5)
+            PGIG: 120607133(SLC27A5)
+            PVP: 105308648(SLC27A5)
+            RAY: 107500402(SLC27A5)
+            MJV: 108408237(SLC27A5)
+            TOD: 119249800(SLC27A5)
+            SARA: 101552573(SLC27A5)
+            LAV: 100676206(SLC27A5)
+            TMU: 101361902
+            ETF: 101643777(SLC27A5)
+            DNM: 101438816(SLC27A5)
+            MDO: 100029941(SLC27A5)
+            GAS: 123242899(SLC27A5)
+            SHR: 100916639(SLC27A5)
+            AFZ: 127556609
+            PCW: 110220184(SLC27A5)
+            OAA: 100090562(SLC27A5)
+            KIM: G3T16_11475 G3T16_16845
+            SDF: ACG33_01260
+            DOE: DENOEST_3894
+            PLA: Plav_1025 Plav_1029 Plav_1034
+            RBS: RHODOSMS8_00086(baiB)
+            BJA: bll0131(bll0131)
+            BJU: BJ6T_01450
+            BJP: RN69_00685
+            BRA: BRADO6529
+            BBT: BBta_1112
+            BRS: S23_06710
+            AOL: S58_10890
+            BRC: BCCGELA001_03190
+            BIC: LMTR13_34780
+            BRO: BRAD285_6438
+            BRK: CWS35_11230
+            BOT: CIT37_14150
+            BRQ: CIT40_01725
+            BGQ: X265_03260
+            BGZ: XH91_04175
+            BSYM: CIT39_00180
+            BBET: F8237_17610
+            BARH: WN72_46090
+            BVZ: BRAD3257_0642
+            BEL: BE61_86530
+            BDG: LPJ38_06565
+            BSEP: HAP48_0020605
+            BQB: J4P68_0013450
+            BSEI: KMZ68_04495
+            BBAN: J4G43_050000
+            BCAN: BcanWSM471_03240 BcanWSM471_08330
+            VGO: GJW-30_1_02490(baiB_2)
+            XDI: EZH22_21750
+            RBM: TEF_16880
+            CAK: Caul_3247 Caul_4604
+            CAUL: KCG34_17910
+            PZU: PHZ_c2517
+            BNE: DA69_06025
+            TSV: DSM104635_02995 DSM104635_03075
+            YAN: AYJ57_19780
+            TMD: KUV46_00545
+            RSU: NHU_03725
+            RHM: B5V46_17095
+            HNE: HNE_0099(baiB)
+            NGF: FRF71_13160
+            SMAZ: LH19_12220 LH19_27280
+            SPHO: C3E99_13085
+            SWI: Swit_0351 Swit_1599 Swit_1600
+            SPHD: HY78_17585 HY78_17590 HY78_17610 HY78_26355
+            RDI: CMV14_03665
+            SJP: SJA_C2-03890 SJA_C2-04050
+            SCH: Sphch_3661
+            SPMI: K663_20463
+            SPHT: K426_28370
+            CIJ: WG74_11935
+            NAO: Y958_27085
+            CSCI: HDCHBGLK_01430(baiB)
+            PHX: KGNDJEFE_00401(baiB)
+            MPA: MAP_2354
+            MIT: OCO_16930 OCO_48560
+            MIA: OCU_17130 OCU_48510
+            MID: MIP_02338 MIP_07342
+            MYO: OEM_14930 OEM_48710
+            MCHI: AN480_08330 AN480_23315 AN480_25245
+            MIR: OCQ_14600 OCQ_49570
+            MMAL: CKJ54_07175 CKJ54_23135
+            MMAN: MMAN_24730 MMAN_36630
+            MSA: Mycsm_00180
+            MUL: MUL_3844
+            MMI: MMAR_3983
+            MMAE: MMARE11_37900
+            MLI: MULP_04163
+            MMC: Mmcs_0223
+            MKM: Mkms_0233
+            MJL: Mjls_0213
+            MMM: W7S_07140 W7S_24315
+            MKN: MKAN_05880
+            MYE: AB431_01945
+            MGO: AFA91_08425
+            MSHG: MSG_00422 MSG_03568
+            MFJ: MFLOJ_30860 MFLOJ_51280
+            MSTO: MSTO_34790 MSTO_55390
+            MSIM: MSIM_20450 MSIM_40770
+            MSAK: MSAS_18290
+            MKU: I2456_02760 I2456_18740
+            MLW: MJO58_02270
+            MXE: MYXE_17320 MYXE_46350
+            MNV: MNVI_02600 MNVI_19750
+            MPAG: C0J29_02725 C0J29_21705
+            MGOR: H0P51_02740 H0P51_19675
+            MCOO: MCOO_16060 MCOO_35900
+            MBAI: MB901379_03460(lcfB_9)
+            MSEO: MSEO_23560 MSEO_43170
+            MHEK: JMUB5695_01801 JMUB5695_04479
+            MGAU: MGALJ_47310
+            MLJ: MLAC_10490
+            MBRD: MBRA_12830 MBRA_32660
+            MMAM: K3U93_16925
+            MHOL: K3U96_25350
+            MSEN: K3U95_01455
+            MPAE: K0O64_01570
+            MSPG: F6B93_16025
+            MOT: LTS72_05340
+            MRF: MJO55_01200
+            MPAA: MKK62_07880 MKK62_23045
+            MCRO: MI149_02120
+            MSM: MSMEG_0318
+            MSG: MSMEI_0312
+            MSB: LJ00_01600
+            MSN: LI99_01600
+            MSH: LI98_01600
+            MVA: Mvan_0252
+            MGI: Mflv_0419
+            MCB: Mycch_0222
+            MFT: XA26_02940
+            MPHL: MPHLCCUG_04868(baiB_2)
+            MVQ: MYVA_0257
+            MLL: B1R94_01565
+            MRH: MycrhN_1496
+            MTHN: 4412656_00248(fadD_2)
+            MDU: MDUV_11370
+            MCHT: MCHIJ_07000
+            MAUU: NCTC10437_00256
+            MMOR: MMOR_01890 MMOR_58370
+            MAIC: MAIC_53080
+            MIJ: MINS_27090
+            MTY: MTOK_10360
+            MPSC: MPSYJ_06360
+            MGAD: MGAD_45630
+            MHEV: MHEL_18710
+            MSAR: MSAR_18910
+            MANY: MANY_43890
+            MPOF: MPOR_07960
+            MBOK: MBOE_15230
+            MFG: K6L26_30000
+            MFLV: NCTC10271_04880
+            MCEE: MCEL_29920
+            MMON: EWR22_01215
+            MAB: MAB_2316
+            MMV: MYCMA_1247
+            MABB: MASS_2242
+            MABL: MMASJCM_2266
+            MCHE: BB28_11610
+            MIZ: BAB75_12360
+            MSTE: MSTE_02250
+            MSAO: MYCSP_11375
+            MSAL: DSM43276_02035(baiB)
+            CGY: CGLY_15810
+            NBR: O3I_021420
+            NNO: NONO_c50630
+            NOZ: DMB37_08020
+            NYA: LTV02_22920
+            RTM: G4H71_11130
+            RKO: JWS14_47605
+            GOM: D7316_03708(baiB_2)
+            SBH: SBI_00137
+            STRC: AA958_12300
+            SNZ: DC008_01285
+            SSEO: D0Z67_25560
+            SBAT: G4Z16_17215
+            YIA: LO772_03550 LO772_29980 LO772_35175
+            CPHA: FGI33_11885
+            CCAF: FGD68_03385
+            RFS: C1I64_10215
+            CART: PA27867_2220
+            BRR: C1N80_03880
+            CDON: KKR89_09550
+            AER: AERYTH_14445
+            ACTW: F7P10_09660 F7P10_11280
+            NOW: GBF35_30420
+            FRE: Franean1_0614 Franean1_4026
+            FRI: FraEuI1c_2666 FraEuI1c_3335 FraEuI1c_4447 FraEuI1c_5318 FraEuI1c_5444
+            SEN: SACE_3387(baiB)
+            AMYY: YIM_33605(baiB2)
+            PDX: Psed_0542
+            PSEA: WY02_09705
+            PSEE: FRP1_04515
+            PSEH: XF36_02965
+            PSEQ: AD006_12175
+            PECQ: AD017_20000
+            PAUT: Pdca_52450
+            PBRO: HOP40_02455
+            PPEL: H6H00_02995
+            SSYI: EKG83_31105
+            KAL: KALB_5626
+            KPHY: AOZ06_30715
+            MICH: FJK98_11545
+            VER: HUT12_13430
+            PLK: CIK06_12190
+            DFU: Dfulv_32595
+            EKE: EK0264_04430
+            AYM: YM304_25790
+            ATQ: GH723_15305
+            AQZ: KSP35_22785
+            ELE: Elen_3099
+DBLINKS     ExplorEnz - The Enzyme Database: 6.2.1.7
+            IUBMB Enzyme Nomenclature: 6.2.1.7
+            ExPASy - ENZYME nomenclature database: 6.2.1.7
+            BRENDA, the Enzyme Database: 6.2.1.7
+            CAS: 9027-90-1
+///

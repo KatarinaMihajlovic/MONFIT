@@ -1,0 +1,716 @@
+ENTRY       EC 3.2.1.114                Enzyme
+NAME        mannosyl-oligosaccharide 1,3-1,6-alpha-mannosidase;
+            MAN2A1 (gene name);
+            MAN2A2 (gene name);
+            mannosidase II;
+            exo-1,3-1,6-alpha-mannosidase;
+            alpha-D-mannosidase II;
+            alpha-mannosidase II;
+            alpha1-3,6-mannosidase;
+            GlcNAc transferase I-dependent alpha1,3[alpha1,6]mannosidase;
+            Golgi alpha-mannosidase II;
+            ManII;
+            1,3(1,6)-alpha-D-mannosidase;
+            1,3-(1,6-)mannosyl-oligosaccharide alpha-D-mannohydrolase;
+            (1->3)-(1->6)-mannosyl-oligosaccharide alpha-D-mannohydrolase
+CLASS       Hydrolases;
+            Glycosylases;
+            Glycosidases, i.e. enzymes that hydrolyse O- and S-glycosyl compounds
+SYSNAME     (1->3)-(1->6)-mannosyl-oligosaccharide alpha-D-mannohydrolase (configuration-retaining)
+REACTION    Man5GlcNAc3-[protein] + 2 H2O = Man3GlcNAc3-[protein] + 2 alpha-D-mannopyranose [RN:R05984]
+ALL_REAC    R05984(G)
+SUBSTRATE   Man5GlcNAc3-[protein];
+            H2O [CPD:C00001]
+PRODUCT     Man3GlcNAc3-[protein];
+            alpha-D-mannopyranose [CPD:C00936]
+COMMENT     The enzyme, found in plants and animals, participates in the processing of N-glycans in the Golgi apparatus. It removes two mannosyl residues, one linked by alpha1,3 linkage, and the other linked by alpha1,6 linkage, both of which are removed by the same catalytic site. The enzyme is sensitive to swainsonine.
+HISTORY     EC 3.2.1.114 created 1986, modified 2018
+REFERENCE   1  [PMID:863880]
+  AUTHORS   Tulsiani DR, Opheim DJ, Touster O.
+  TITLE     Purification and characterization of alpha-D-mannosidase from rat liver golgi membranes.
+  JOURNAL   J Biol Chem 252:3227-33 (1977)
+REFERENCE   2  [PMID:212436]
+  AUTHORS   Tabas I, Kornfeld S
+  TITLE     The synthesis of complex-type oligosaccharides. III. Identification of an alpha-D-mannosidase activity involved in a late stage of processing of complex-type oligosaccharides.
+  JOURNAL   J Biol Chem 253:7779-86 (1978)
+REFERENCE   3  [PMID:6445359]
+  AUTHORS   Harpaz N, Schachter H.
+  TITLE     Control of glycoprotein synthesis. Processing of asparagine-linked oligosaccharides by one or more rat liver Golgi alpha-D-mannosidases dependent on the prior action of UDP-N-acetylglucosamine: alpha-D-mannoside beta 2-N-acetylglucosaminyltransferase I.
+  JOURNAL   J Biol Chem 255:4894-902 (1980)
+REFERENCE   4  [PMID:7061502]
+  AUTHORS   Tulsiani DR, Hubbard SC, Robbins PW, Touster O.
+  TITLE     alpha-D-Mannosidases of rat liver Golgi membranes. Mannosidase II is the GlcNAcMAN5-cleaving enzyme in glycoprotein biosynthesis and mannosidases Ia and IB are the enzymes converting Man9 precursors to Man5 intermediates.
+  JOURNAL   J Biol Chem 257:3660-8 (1982)
+REFERENCE   5  [PMID:1757461]
+  AUTHORS   Moremen KW, Robbins PW
+  TITLE     Isolation, characterization, and expression of cDNAs encoding murine alpha-mannosidase II, a Golgi enzyme that controls conversion of high mannose to  complex N-glycans.
+  JOURNAL   J Cell Biol 115:1521-34 (1991)
+            DOI:10.1083/jcb.115.6.1521
+  SEQUENCE  [hsa:4124] [mmu:17158]
+REFERENCE   6  [PMID:8524845]
+  AUTHORS   Misago M, Liao YF, Kudo S, Eto S, Mattei MG, Moremen KW, Fukuda MN
+  TITLE     Molecular cloning and expression of cDNAs encoding human alpha-mannosidase II and a previously unrecognized alpha-mannosidase IIx isozyme.
+  JOURNAL   Proc Natl Acad Sci U S A 92:11766-70 (1995)
+            DOI:10.1073/pnas.92.25.11766
+  SEQUENCE  [hsa:4124 4122]
+REFERENCE   7  [PMID:11406577]
+  AUTHORS   van den Elsen JM, Kuntz DA, Rose DR
+  TITLE     Structure of Golgi alpha-mannosidase II: a target for inhibition of growth and metastasis of cancer cells.
+  JOURNAL   EMBO J 20:3008-17 (2001)
+            DOI:10.1093/emboj/20.12.3008
+  SEQUENCE  [dme:Dmel_CG18802]
+REFERENCE   8  [PMID:15721331]
+  AUTHORS   Athanasopoulos VI, Niranjan K, Rastall RA.
+  TITLE     The production, purification and characterisation of two novel alpha-D-mannosidases from Aspergillus phoenicis.
+  JOURNAL   Carbohydr Res 340:609-17 (2005)
+            DOI:10.1016/j.carres.2005.01.005
+REFERENCE   9  [PMID:18599462]
+  AUTHORS   Shah N, Kuntz DA, Rose DR
+  TITLE     Golgi alpha-mannosidase II cleaves two sugars sequentially in the same catalytic  site.
+  JOURNAL   Proc Natl Acad Sci U S A 105:9570-5 (2008)
+            DOI:10.1073/pnas.0802206105
+  SEQUENCE  [dme:Dmel_CG18802]
+REFERENCE   10 [PMID:22819743]
+  AUTHORS   Rose DR
+  TITLE     Structure, mechanism and inhibition of Golgi alpha-mannosidase II.
+  JOURNAL   Curr Opin Struct Biol 22:558-62 (2012)
+            DOI:10.1016/j.sbi.2012.06.005
+PATHWAY     ec00510  N-Glycan biosynthesis
+            ec00513  Various types of N-glycan biosynthesis
+            ec01100  Metabolic pathways
+ORTHOLOGY   K01231  alpha-mannosidase II
+GENES       HSA: 4122(MAN2A2) 4124(MAN2A1)
+            PTR: 461982(MAN2A1) 745986(MAN2A2)
+            PPS: 100973826(MAN2A1) 100975142(MAN2A2)
+            GGO: 101130735(MAN2A2) 101130746(MAN2A1)
+            PON: 100449341(MAN2A2) 100455258(MAN2A1)
+            NLE: 100581120(MAN2A1) 100598002(MAN2A2)
+            HMH: 116463308 116463662 116470951(MAN2A1)
+            MCC: 705480(MAN2A1) 715720(MAN2A2)
+            MCF: 101865831(MAN2A1) 102118107(MAN2A2)
+            MTHB: 126956217 126958892
+            MNI: 105471104(MAN2A1) 105488288(MAN2A2)
+            CSAB: 103231182(MAN2A2) 103244316(MAN2A1)
+            CATY: 105576648(MAN2A1) 105601196(MAN2A2)
+            PANU: 101004326(MAN2A1) 101020239(MAN2A2)
+            TGE: 112626169(MAN2A1) 112628732(MAN2A2)
+            MLEU: 105538487(MAN2A2) 105552522(MAN2A1)
+            RRO: 104675604(MAN2A1) 104679282(MAN2A2)
+            RBB: 108517212(MAN2A2)
+            TFN: 117064837(MAN2A1) 117070195(MAN2A2)
+            PTEH: 111528634(MAN2A2) 111542679(MAN2A1)
+            CANG: 105516184(MAN2A2) 105516982(MAN2A1)
+            CJC: 100394604(MAN2A2) 100415670(MAN2A1)
+            SBQ: 101028436(MAN2A1) 101032034(MAN2A2)
+            CIMI: 108287585(MAN2A2) 108303398(MAN2A1)
+            CSYR: 103251650(MAN2A2) 103258927(MAN2A1)
+            MMUR: 105870622(MAN2A2) 105885357(MAN2A1)
+            LCAT: 123645112(MAN2A2) 123648579(MAN2A1)
+            PCOQ: 105809856(MAN2A2) 105812819(MAN2A1)
+            OGA: 100953447(MAN2A1) 100957305(MAN2A2)
+            MMU: 140481(Man2a2) 17158(Man2a1)
+            MCAL: 110298418(Man2a2) 110302683 110312160(Man2a1)
+            MPAH: 110327713(Man2a2) 110335524(Man2a1)
+            RNO: 25478(Man2a1) 308757(Man2a2)
+            MCOC: 116088842(Man2a1) 116102462(Man2a2)
+            ANU: 117707782(Man2a2) 117722464(Man2a1)
+            MUN: 110552374(Man2a1) 110553370 110553376
+            CGE: 100757006(Man2a1) 100764014(Man2a2)
+            MAUA: 101827164(Man2a1) 101828565(Man2a2)
+            PLEU: 114696192(Man2a2) 114696324(Man2a1)
+            MORG: 121433416(Man2a1) 121453316(Man2a2)
+            MFOT: 126508290 126508667
+            AAMP: 119802698(Man2a2) 119820806(Man2a1)
+            NGI: 103749886(Man2a2) 103752287(Man2a1)
+            HGL: 101697315(Man2a1) 101717094(Man2a2)
+            CPOC: 100722220(Man2a1) 100734282(Man2a2)
+            CCAN: 109695085(Man2a2) 109699084(Man2a1)
+            DORD: 105982460(Man2a2) 105988705(Man2a1)
+            DSP: 122099994(Man2a2) 122118070(Man2a1)
+            NCAR: 124975905 124986848
+            OCU: 100345634 100350334
+            OPI: 101522683(MAN2A2) 101535285(MAN2A1)
+            TUP: 102469872(MAN2A2) 102485972(MAN2A1)
+            GVR: 103583574(MAN2A2) 103596889(MAN2A1)
+            CFA: 488745(MAN2A2) 488878(MAN2A1)
+            CLUD: 112653238(MAN2A2) 112653892(MAN2A1)
+            VVP: 112915442(MAN2A1) 112921479(MAN2A2)
+            VLG: 121488991(MAN2A2) 121489296(MAN2A1)
+            AML: 100474640(MAN2A1) 100475150(MAN2A2)
+            UMR: 103660265(MAN2A2) 103675784(MAN2A1)
+            UAH: 113255007(MAN2A1) 113263716(MAN2A2)
+            UAR: 123799253(MAN2A1) 123802468(MAN2A2)
+            ELK: 111148294 111152536
+            LLV: 125099905 125104118
+            MPUF: 101673986(MAN2A2) 101676924(MAN2A1)
+            NVS: 122894235(MAN2A2) 122916980(MAN2A1)
+            ORO: 101368244(MAN2A1) 101371875(MAN2A2)
+            EJU: 114208623(MAN2A1) 114223292(MAN2A2)
+            ZCA: 113909908(MAN2A2) 113928715(MAN2A1)
+            MLX: 118023074(MAN2A2)
+            NSU: 110572308(MAN2A2) 110590651(MAN2A1)
+            LWW: 102728690(MAN2A1) 102745949(MAN2A2)
+            FCA: 101086451(MAN2A1) 101101317(MAN2A2)
+            PYU: 121012159(MAN2A1) 121042360(MAN2A2)
+            PBG: 122467536(MAN2A2) 122491884(MAN2A1)
+            LRUF: 124517254 124519720
+            PTG: 102953845(MAN2A1) 102959757(MAN2A2)
+            PPAD: 109267616(MAN2A1) 109273465(MAN2A2)
+            AJU: 106965940(MAN2A2) 106975671(MAN2A1)
+            HHV: 120222486(MAN2A1) 120249001(MAN2A2)
+            BTA: 521539(MAN2A1) 527449(MAN2A2)
+            BOM: 102269911(MAN2A2) 102286530(MAN2A1)
+            BIU: 109562380(MAN2A1) 109575464(MAN2A2)
+            BBUB: 102393495(MAN2A2) 102396245(MAN2A1)
+            BBIS: 104989398(MAN2A2) 104991361(MAN2A1)
+            CHX: 102171012(MAN2A2) 102182591(MAN2A1)
+            OAS: 101106798(MAN2A2) 101116572(MAN2A1)
+            ODA: 120863464(MAN2A1) 120875582(MAN2A2)
+            CCAD: 122419747(MAN2A2) 122439466(MAN2A1)
+            SSC: 100154397(MAN2A2) 100514631(MAN2A1)
+            CFR: 102512093(MAN2A2) 102513706(MAN2A1)
+            CBAI: 105069081(MAN2A2) 105082023(MAN2A1)
+            CDK: 105094696(MAN2A2) 105095392(MAN2A1)
+            VPC: 102539333(MAN2A1) 102542027(MAN2A2)
+            BACU: 103020657(MAN2A1) 103021128(MAN2A2)
+            LVE: 103074675(MAN2A2) 103076739(MAN2A1)
+            OOR: 101272169(MAN2A1) 101272204(MAN2A2)
+            DLE: 111169626(MAN2A2) 111183761(MAN2A1)
+            PCAD: 102974194(MAN2A2) 102974411(MAN2A1)
+            PSIU: 116747493(MAN2A2) 116751733(MAN2A1)
+            ECB: 100053432(MAN2A2) 100064575(MAN2A1)
+            EPZ: 103546211(MAN2A2) 103551677(MAN2A1)
+            EAI: 106832048(MAN2A2) 106832412(MAN2A1)
+            MYB: 102239755(MAN2A2) 102241544(MAN2A1)
+            MYD: 102760778(MAN2A1) 102764752(MAN2A2)
+            MMYO: 118656377(MAN2A1) 118679225(MAN2A2)
+            MLF: 102429994 102435674(MAN2A1) 102439002
+            MNA: 107540397(MAN2A2) 107546496(MAN2A1)
+            PKL: 118703963(MAN2A1) 118706308(MAN2A2)
+            HAI: 109371540(MAN2A1) 109381472(MAN2A2)
+            DRO: 112305889(MAN2A2) 112307206(MAN2A1)
+            SHON: 118977338(MAN2A1) 118991941(MAN2A2)
+            AJM: 119052124(MAN2A2) 119065110(MAN2A1)
+            PDIC: 114488515(MAN2A2) 114494997(MAN2A1)
+            PHAS: 123809609(MAN2A2) 123818093(MAN2A1)
+            MMF: 118640879(MAN2A2) 118642854(MAN2A1)
+            RFQ: 117018934(MAN2A2) 117024814(MAN2A1)
+            PALE: 102878318(MAN2A1) 102884371(MAN2A2)
+            PGIG: 120590802(MAN2A1) 120599240(MAN2A2)
+            PVP: 105295470(MAN2A1) 105302879(MAN2A2)
+            RAY: 107506530(MAN2A1) 107514130(MAN2A2)
+            MJV: 108385796(MAN2A2) 108407113(MAN2A1)
+            TOD: 119244240(MAN2A2) 119260546(MAN2A1)
+            SARA: 101541026(MAN2A2) 101541110(MAN2A1)
+            LAV: 100669338(MAN2A1) 100671385(MAN2A2)
+            TMU: 101344297 101354641
+            ETF: 101652531(MAN2A2) 101658351(MAN2A1)
+            DNM: 101436317(MAN2A2) 101439931(MAN2A1)
+            MDO: 100010442(MAN2A1) 100014504(MAN2A2)
+            GAS: 123234215(MAN2A2) 123236188(MAN2A1)
+            SHR: 100913308(MAN2A1) 100922248(MAN2A2)
+            AFZ: 127551411 127560295
+            PCW: 110193635(MAN2A2) 110195899(MAN2A1)
+            OAA: 100082559(MAN2A1) 100090754(MAN2A2)
+            GGA: 415585(MAN2A2) 415611(MAN2A1)
+            PCOC: 116225521(MAN2A2) 116234843(MAN2A1)
+            MGP: 100539000(MAN2A2) 104915174(MAN2A1)
+            CJO: 107306350(MAN2A1) 107318993(MAN2A2)
+            NMEL: 110389397(MAN2A1) 110403851(MAN2A2)
+            APLA: 101790343(MAN2A2) 101792614(MAN2A1)
+            ACYG: 106042345(MAN2A1) 106048641(MAN2A2)
+            AFUL: 116493695(MAN2A2) 116501098(MAN2A1)
+            TGU: 100226019(MAN2A2) 100227845(MAN2A1)
+            LSR: 110467593(MAN2A1) 110476670(MAN2A2)
+            SCAN: 103816135(MAN2A2) 103824196(MAN2A1)
+            PMOA: 120509098(MAN2A2) 120513740(MAN2A1)
+            OTC: 121331463(MAN2A1) 121343669(MAN2A2)
+            PRUF: 121352247(MAN2A2) 121354031(MAN2A1)
+            GFR: 102041186(MAN2A1) 102041635(MAN2A2)
+            FAB: 101806895(MAN2A2) 101819402(MAN2A1)
+            PHI: 102101154(MAN2A2) 102113458(MAN2A1)
+            PMAJ: 107209587(MAN2A2) 107216400(MAN2A1)
+            CCAE: 111940865(MAN2A1) 111943021(MAN2A2)
+            CCW: 104683853(MAN2A2) 104693206(MAN2A1)
+            CBRC: 103611667(MAN2A1) 103618817(MAN2A2)
+            ETL: 114056033(MAN2A1) 114064253(MAN2A2)
+            ZAB: 102061220(MAN2A1) 102071919(MAN2A2)
+            ACHL: 103797001 103812036
+            FPG: 101913159(MAN2A2) 101921020
+            FCH: 102048168(MAN2A2) 102050767(MAN2A1)
+            CLV: 102090971(MAN2A2) 102097702(MAN2A1)
+            EGZ: 104133484(MAN2A2) 104135037(MAN2A1)
+            NNI: 104017021(MAN2A2) 104022201(MAN2A1)
+            PLET: 104624182(MAN2A2)
+            ACUN: 113484037(MAN2A2) 113489918(MAN2A1)
+            TALA: 104358494(MAN2A1) 116961121(MAN2A2)
+            PADL: 103914784(MAN2A2) 103920875(MAN2A1)
+            AFOR: 103899825(MAN2A2) 103903072(MAN2A1)
+            ACHC: 115336851(MAN2A1) 115342030(MAN2A2)
+            HLE: 104829309(MAN2A1) 104834654(MAN2A2)
+            AGEN: 126036159 126044133
+            GCL: 127027130
+            CSTI: 104553919(MAN2A1)
+            EHS: 104506599
+            GSTE: 104259095
+            LDI: 104345790(MAN2A1)
+            MNB: 103781774
+            OHA: 104337837(MAN2A1)
+            DPUB: 104297367(MAN2A2) 104306042
+            CPEA: 104385796(MAN2A2) 104397284(MAN2A1)
+            AVIT: 104279066
+            CVF: 104282395(MAN2A1) 104284686(MAN2A2)
+            CUCA: 104056420(MAN2A2) 104061125(MAN2A1)
+            TEO: 104374022(MAN2A1)
+            BRHI: 104496142(MAN2A1)
+            AAM: 106491449(MAN2A2)
+            AROW: 112964263(MAN2A1) 112976300(MAN2A2)
+            NPD: 112948334(MAN2A2) 112951728(MAN2A1)
+            TGT: 104580109(MAN2A1)
+            DNE: 112994987(MAN2A2) 112995230(MAN2A1)
+            SCAM: 104150970(MAN2A1) 104151025(MAN2A2)
+            ASN: 102369470(MAN2A1) 102383379(MAN2A2)
+            AMJ: 102561641(MAN2A1) 102566705(MAN2A2)
+            CPOO: 109308162(MAN2A1)
+            GGN: 109297471(MAN2A1)
+            PSS: 102459905(MAN2A1)
+            CMY: 102941559(MAN2A2) 102944199(MAN2A1)
+            CPIC: 101937670 101953630(MAN2A2)
+            TST: 117878692(MAN2A1) 117884331(MAN2A2)
+            CABI: 116814770(MAN2A1) 116833017(MAN2A2)
+            MRV: 120373280(MAN2A2) 120407767(MAN2A1)
+            ACS: 100555933(man2a1) 100568077(man2a2)
+            PVT: 110072017(MAN2A1) 110084439(MAN2A2)
+            SUND: 121924154(MAN2A1) 121933219(MAN2A2)
+            PBI: 103053695(MAN2A1) 103058391(MAN2A2)
+            PMUR: 107289784(MAN2A2) 107293675(MAN2A1)
+            CTIG: 120305939(MAN2A1) 120316415(MAN2A2)
+            TSR: 106543694(MAN2A1) 106553803(MAN2A2)
+            PGUT: 117674626(MAN2A1) 117676225(MAN2A2)
+            VKO: 123030714(MAN2A2) 123031172(MAN2A1)
+            PMUA: 114584355(MAN2A2) 114606107(MAN2A1)
+            ZVI: 118076729(MAN2A1) 118092868(MAN2A2)
+            GJA: 107120457(MAN2A1) 107125467(MAN2A2)
+            STOW: 125424513(MAN2A2) 125436400(MAN2A1)
+            XLA: 108707218(man2a1.S) 108712863(man2a2.S) 108717353(man2a1.L) 443991(man2a2.L)
+            XTR: 100036612(man2a1) 448465(man2a2)
+            NPR: 108789334(MAN2A1) 108798147(MAN2A2)
+            RTEM: 120931239(MAN2A2) 120931614(MAN2A1)
+            BBUF: 120985902(MAN2A2) 120992563(MAN2A1)
+            BGAR: 122924645(MAN2A1) 122927556(MAN2A2)
+            DRE: 100333987(man2a2) 560219(man2a1)
+            SRX: 107720774 107721641(man2a1) 107750719 107751258
+            SANH: 107663767 107670215 107673231(man2a2) 107691725(man2a1)
+            SGH: 107564047(man2a1) 107564609 107581805 107603169
+            CCAR: 109078545
+            CAUA: 113043692 113049817 113066713 113082394
+            CGIB: 127946829 127958588 127994174 128014540
+            PPRM: 120468300(man2a2) 120472040(man2a1)
+            MAMB: 125246718(man2a2) 125267915(man2a1)
+            CIDE: 127506522 127512194
+            MASI: 127426773 127435890 127437632 127439837
+            IPU: 108274717(man2a2)
+            PHYP: 113529699(man2a2)
+            SMEO: 124392803(man2a2)
+            TFD: 113660003(man2a2)
+            AMEX: 103023301(man2a1) 103041860(man2a2)
+            EEE: 113572463 113588518(man2a2)
+            TRU: 101061792(man2a2) 101077627(man2a1)
+            TNG: GSTEN00003927G001 GSTEN00022835G001
+            LCO: 104925267(man2a2) 104932414
+            NCC: 104944004(man2a2)
+            ELY: 117262193(man2a2) 117270133(man2a1)
+            EFO: 125887197(man2a2) 125906294(man2a1)
+            PLEP: 121949968(man2a2) 121959715(man2a1)
+            SLUC: 116038801(man2a2) 116065613
+            ECRA: 117949100(man2a2) 117959781(man2a1)
+            ESP: 116694124(man2a2)
+            PFLV: 114552021 114560151(man2a2) 114570585(man2a1)
+            GAT: 120809442(man2a2) 120812180 120831692(man2a1)
+            PPUG: 119196376(man2a2) 119226927(man2a1)
+            MSAM: 119893108(man2a2) 119914086 119914087
+            CUD: 121514902(man2a2) 121524694(man2a1)
+            ALAT: 119024918(man2a2) 119030211(man2a1)
+            MZE: 101474154 101483319(man2a2)
+            ONL: 100708597(man2a2) 102081444
+            OAU: 116321290 116335402(man2a2)
+            OLA: 101158104(man2a2) 101174073
+            OML: 112152466(man2a2) 112162978(man2a1)
+            XMA: 102218498(man2a1) 102232197(man2a2)
+            XCO: 114136954 114155110(man2a2)
+            XHE: 116724829(man2a1) 116733889(man2a2)
+            PRET: 103460455(man2a1) 103466353(man2a2)
+            PFOR: 103131079(man2a1) 103133657(man2a2)
+            PLAI: 106943897 106945048(man2a2)
+            PMEI: 106909111 106927549(man2a2)
+            GAF: 122819277(man2a1) 122835727(man2a2)
+            CVG: 107098036(man2a1) 107104235(man2a2)
+            CTUL: 119774472(man2a1) 119793068(man2a2)
+            GMU: 124872651(man2a1) 124884982(man2a2)
+            NFU: 107374983(man2a1) 107388979(man2a2)
+            KMR: 108228395 108239965(man2a2)
+            ALIM: 106515631(man2a2) 106536243
+            NWH: 119415567(man2a2) 119424942
+            AOCE: 111563148(man2a2) 111564348
+            MCEP: 124996980(man2a1) 125014490(man2a2)
+            CSEM: 103380513(man2a2) 103390365(man2a1)
+            POV: 109624583(man2a2) 109642276
+            SSEN: 122775906(man2a2) 122776385
+            HHIP: 117762833(man2a2) 117771297(man2a1)
+            HSP: 118109956(man2a2) 118125907(man2a1)
+            LCF: 108874626 108875305
+            SDU: 111228707(man2a2) 111238819(man2a1)
+            SLAL: 111651803 111655358(man2a2)
+            XGL: 120792691(man2a2) 120806732(man2a1)
+            HCQ: 109530362(man2a2)
+            SSCV: 125971370
+            BPEC: 110153167 110165893(man2a2)
+            MALB: 109968742(man2a2) 109973112(man2a1)
+            BSPL: 114856995(man2a2) 114867106(man2a1)
+            SASA: 106561301 106562091(man2a1) 106568341 106573342(man2a2)
+            STRU: 115149336 115152135(man2a2) 115159214(man2a1) 115197323
+            OTW: 112214463(man2a1) 112218991 112252518 112257442
+            OMY: 110522404(man2a2) 110523878 110536799
+            OGO: 124000099 124002196 124048631(man2a1)
+            ONE: 115105938 115109522(man2a2) 115126674
+            SALP: 111952337(man2a2) 111961325(man2a1) 111962448 111981710
+            SNH: 120025911 120044213 120054035 120065912(man2a2)
+            CCLU: 121532213 121574167 121577036 121582802
+            ELS: 105018384(man2a2) 105027936(man2a1)
+            SFM: 108932015(man2a1) 108941123(man2a2)
+            PKI: 111835779(man2a1) 111845078(man2a2)
+            AANG: 118212479(man2a1) 118227271(man2a2)
+            LOC: 102691193(man2a2) 102696037(man2a1)
+            PSPA: 121294610 121299015 121301854 121315950
+            ARUT: 117409290 117428313 117429435 117973182
+            PSEX: 120532080(man2a1) 120541429(man2a2)
+            LCM: 102355620 102360088(MAN2A2)
+            CMK: 103178412(man2a1) 103188552(man2a2)
+            RTP: 109930439 109938999
+            BFO: 118411916
+            BBEL: 109468568
+            CIN: 100180083
+            SCLV: 120343811
+            SPU: 594620
+            APLC: 110979321
+            AJC: 117125135
+            SKO: 102802038
+            DME: Dmel_CG18802(alpha-Man-IIa)
+            DER: 6552301
+            DSE: 6607114
+            DSI: Dsimw501_GD18615(Dsim_GD18615)
+            DYA: Dyak_GE25950
+            DAN: 6500000
+            DSR: 110191164
+            DPO: 4800594
+            DPE: 6595142
+            DMN: 108155782
+            DWI: 6647583
+            DGR: 6563084
+            DMO: Dmoj_GI24010
+            DAZ: 108614123
+            DNV: 108653307
+            DHE: 111593673
+            DVI: 6629947
+            CCAT: 101462695
+            BOD: 106615218
+            RZE: 108378692
+            MDE: 101898268
+            SCAC: 106086721
+            LCQ: 111685869
+            LSQ: 119601914
+            HIS: 119651272 119652370
+            AGA: AgaP_AGAP004020
+            ACOZ: 120949537
+            AARA: 120895003
+            ASTE: 118503462
+            AAG: 5575653
+            AALB: 109402419 109405454
+            CQU: CpipJ_CPIJ009720
+            CPII: 120423830
+            CNS: 116349279
+            BCOO: 119070080
+            AME: 552382
+            ACER: 107994422
+            ALAB: 122714930
+            BIM: 100749601
+            BBIF: 117205087
+            BVK: 117231097
+            BVAN: 117157558
+            BTER: 100646824
+            BPYO: 122567772
+            CCAL: 108623658
+            OBB: 114880562
+            MGEN: 117224144
+            NMEA: 116423930
+            CGIG: 122398868
+            SOC: 105198479
+            MPHA: 105836778
+            AEC: 105154407
+            ACEP: 105623777
+            PBAR: 105423365
+            VEM: 105565777
+            HST: 105190974
+            DQU: 106750368
+            CFO: 105253605
+            FEX: 115237693
+            LHU: 105674564
+            PGC: 109851679
+            OBO: 105274664
+            PCF: 106789840
+            PFUC: 122513263
+            VPS: 122636855
+            NVI: 100116564
+            CSOL: 105364669
+            TPRE: 106650757
+            MDL: 103577084 103579008
+            CGLO: 123259501 123274900
+            FAS: 105270282
+            DAM: 107035984
+            AGIF: 122857485 122857617
+            CINS: 118073819
+            LHT: 122504425
+            CCIN: 107264491
+            TCA: 660728
+            DPA: 109544976
+            SOY: 115888958
+            ATD: 109605290
+            CSET: 123307622
+            AGB: 108912629
+            LDC: 111514244
+            NVL: 108562674
+            APLN: 108743170 108743178
+            PPYR: 116159269
+            OTU: 111420892
+            BMOR: 101742043
+            BMAN: 114250890
+            MSEX: 115449114 119189147
+            DPL: KGM_214574
+            BANY: 112058378
+            NIQ: 126775935
+            PMAC: 106721685
+            PPOT: 106103852
+            PXU: 106120187
+            PRAP: 110993078
+            PBX: 123716701
+            PNAP: 125063158
+            ZCE: 119828502
+            CCRC: 123699655
+            HAW: 110380432
+            HZE: 124640060
+            TNL: 113499077
+            SLIU: 111350250
+            OFU: 114356108
+            PXY: 105380392
+            CFEL: 113385536
+            API: 100169064
+            DNX: 107161638
+            AGS: 114131656
+            RMD: 113555742
+            BTAB: 109044339
+            CLEC: 106666206
+            HHAL: 106677705 106677835
+            NLU: 111054344
+            PHU: Phum_PHUM459490
+            FOC: 113214831
+            TPAL: 117650266
+            ZNE: 110835247
+            CSEC: 111868354
+            SGRE: 126340516
+            FCD: 110848037
+            DMK: 116923686
+            DPZ: 124315071
+            PVM: 113815567
+            PJA: 122246341
+            PCHN: 125044374
+            PMOO: 119578776
+            HAME: 121876770
+            PCLA: 123775118
+            PTRU: 123514813
+            HAZT: 108678706
+            EAF: 111710355
+            LSM: 121120461
+            PPOI: 119095240 119095241
+            ISC: IscW_ISCW018027
+            DSV: 119456041
+            RSAN: 119393875
+            RMP: 119172694
+            VDE: 111246456
+            VJA: 111261034
+            TUT: 107360206
+            DPTE: 113797886
+            DFR: 124494692
+            CSCU: 111620191 111620547
+            PTEP: 107455528
+            SDM: 118186080 118200216 118204655
+            CEL: CELE_F58H1.1(aman-2)
+            CBR: CBG_23330(Cbr-aman-2)
+            BMY: BM_BM4567(Bma-aman-2)
+            LOA: LOAG_06074 LOAG_08114 LOAG_18290
+            NAI: NECAME_08623 NECAME_08624
+            TSP: Tsp_10745
+            HRO: HELRODRAFT_110840
+            LGI: LOTGIDRAFT_164424 LOTGIDRAFT_188902
+            PCAN: 112556419 112570581 112570746
+            BGT: 106053755 106061128 106069804
+            GAE: 121371265 121373761 121384824
+            HRF: 124122870 124143923 124148741
+            HRJ: 124255342 124260264 124285348
+            CRG: 105331810 105332200 105341572 105343542 117687453
+            MYI: 110442311 110449962 110450072 110450325 110454737 110465474
+            PMAX: 117314924 117323212 117324211 117324627 117326963
+            MCAF: 127722088
+            MMER: 123530261 123530275 123531139 123537102 123537266 123541858 123541918 123543018 123546697 123550153 123553765 123560815
+            OBI: 106875435 106875688
+            OSN: 115231032 115231539
+            LAK: 106153188 106156030 106166353 106176305
+            SMM: Smp_143430
+            SHX: MS3_00009069(MAN2A1_1)
+            OVI: T265_07096
+            EGL: EGR_08871
+            NVE: 5512609
+            EPA: 110234138
+            ATEN: 116299384
+            ADF: 107347367
+            AMIL: 114961754
+            PDAM: 113670726
+            SPIS: 111324658
+            DGT: 114525319
+            XEN: 124451115
+            HMG: 100198326 100202382
+            TAD: TRIADDRAFT_60265
+            ATH: AT5G14950(GMII)
+            ALY: 9309767
+            CRB: 17881567
+            CSAT: 104709139 104735512 104769734
+            EUS: EUTSA_v10012487mg
+            BRP: 103850958 103856103
+            BNA: 106367195 106429929
+            BOE: 106327011 106334765
+            RSZ: 108842391 108845613 108847660
+            THJ: 104821170
+            CIT: 102615196
+            CIC: CICLE_v10014083mg
+            PVY: 116142958
+            MINC: 123195543
+            TCC: 18601342
+            GRA: 105768375 105798286
+            GHI: 107888651 107892313 107955563 107958597
+            GAB: 108454878 108457471
+            DZI: 111291640 111316658
+            EGR: 104422581
+            GMX: 100806647 100811858
+            GSJ: 114381996 114398155
+            PVU: PHAVU_004G022500g
+            VRA: 106770832
+            VAR: 108345656
+            VUN: 114180334
+            CCAJ: 109817438
+            APRC: 113867315
+            MTR: 11439146
+            CAM: 101499632(MAN2A2)
+            PSAT: 127122848
+            LJA: Lj2g3v1022240.1(Lj2g3v1022240.1)
+            ADU: 107471073
+            AIP: 107622688
+            AHF: 112716315 112784225
+            LANG: 109335920 109347307 109347309
+            FVE: 101296768
+            RCN: 112184196
+            PPER: 18782416
+            PMUM: 103329931
+            PAVI: 110756683
+            PDUL: 117620960
+            MDM: 103404378 103442297
+            PXB: 103928463
+            ZJU: 107415425
+            MNT: 21393801
+            CSV: 101208332
+            CMO: 103487047
+            BHJ: 120090184
+            MCHA: 111018346
+            CMAX: 111469337 111482230
+            CMOS: 111433153 111441463
+            CPEP: 111790312 111792352
+            RCU: 8280600
+            JCU: 105642251
+            HBR: 110641257 110654833
+            MESC: 110601253
+            POP: 18095306 7495932
+            PEU: 105114251 105141682
+            PALZ: 118036907 118058267
+            JRE: 108992841
+            CILL: 122302525
+            QSU: 111999605
+            QLO: 115976745
+            TWL: 120008882
+            VVI: 100243903(MAN2A2)
+            VRI: 117929602
+            SLY: 101266287
+            SPEN: 107011510
+            SOT: 102605224
+            SSTN: 125846408
+            CANN: 107860595
+            NTA: 107777832 107829947
+            NSY: 104211404
+            NTO: 104108022
+            NAU: 109205422
+            INI: 109158199 109180593
+            ITR: 116000145 116012756
+            SIND: 105177181
+            OEU: 111409226
+            EGT: 105968893
+            SSPL: 121767131 121771656
+            APAN: 127242012 127257835
+            HAN: 110903921
+            ECAD: 122603697
+            LSV: 111891915
+            CCAV: 112523600
+            DCR: 108214457
+            CSIN: 114263477 114296797
+            BVG: 104905356
+            SOE: 110786831
+            CQI: 110715303 110724888
+            NNU: 104607979
+            MING: 122075952 122079250
+            TSS: 122654368 122670711
+            PSOM: 113276377 113343777
+            OSA: 4340636
+            DOSA: Os06t0245700-00(Os06g0245700)
+            OBR: 102707404
+            BDI: 100822520
+            ATS: 109783252
+            TDC: 119329460 119336349
+            TAES: 123149332 123156793 123165270
+            TUA: 125522393
+            LPER: 127317442
+            SBI: 8061493
+            ZMA: 100502340 103629954
+            SITA: 101761357
+            SVS: 117852889
+            PVIR: 120669859 120703002
+            PHAI: 112889969
+            PDA: 103710003
+            EGU: 105039124 105050069
+            MUS: 103990861
+            ZOF: 122008780 122017400
+            DCT: 110092430
+            PEQ: 110026121
+            AOF: 109820905
+            NCOL: 116250575 116258674
+            ATR: 18446724
+            SMO: SELMODRAFT_104910 SELMODRAFT_116442 SELMODRAFT_154366 SELMODRAFT_228
+            PPP: 112275693
+            SRE: PTSG_03147 PTSG_07075 PTSG_11582
+            DPP: DICPUDRAFT_45100 DICPUDRAFT_74852
+            DFA: DFA_02000 DFA_07693(manD)
+            ACAN: ACA1_068820
+            TET: TTHERM_00230960
+            FCY: FRACYDRAFT_250184
+            NGR: NAEGRDRAFT_57722
+DBLINKS     ExplorEnz - The Enzyme Database: 3.2.1.114
+            IUBMB Enzyme Nomenclature: 3.2.1.114
+            ExPASy - ENZYME nomenclature database: 3.2.1.114
+            BRENDA, the Enzyme Database: 3.2.1.114
+            CAS: 82047-77-6
+///

@@ -1,0 +1,546 @@
+ENTRY       EC 3.6.1.53                 Enzyme
+NAME        Mn2+-dependent ADP-ribose/CDP-alcohol diphosphatase;
+            Mn2+-dependent ADP-ribose/CDP-alcohol pyrophosphatase;
+            ADPRibase-Mn
+CLASS       Hydrolases;
+            Acting on acid anhydrides;
+            In phosphorus-containing anhydrides
+SYSNAME     CDP-choline phosphohydrolase
+REACTION    (1) CDP-choline + H2O = CMP + phosphocholine [RN:R09538];
+            (2) ADP-D-ribose + H2O = AMP + D-ribose 5-phosphate [RN:R01054]
+ALL_REAC    R01054 R09538
+SUBSTRATE   CDP-choline [CPD:C00307];
+            H2O [CPD:C00001];
+            ADP-D-ribose [CPD:C00301]
+PRODUCT     CMP [CPD:C00055];
+            phosphocholine [CPD:C00588];
+            AMP [CPD:C00020];
+            D-ribose 5-phosphate [CPD:C00117]
+COMMENT     Requires Mn2+. Unlike EC 3.6.1.13, ADP-ribose diphosphatase, it cannot utilize Mg2+. ADP-D-ribose, CDP-choline, CDP-ethanolamine and ADP are substrates for this enzyme but ADP-D-glucose, UDP-D-glucose, CDP-D-glucose, CDP, CMP and AMP are not hydrolysed [2]. The mammalian enzyme hydrolyses cyclic ADP-ribose to 1-(5-phospho-beta-D-ribosyl)-AMP with ~100-fold lower efficiency than ADP-D-ribose [3]. In rat, the enzyme is found predominantly in thymus and spleen.
+HISTORY     EC 3.6.1.53 created 2008
+REFERENCE   1  [PMID:7819284]
+  AUTHORS   Canales J, Pinto RM, Costas MJ, Hernandez MT, Miro A, Bernet D, Fernandez A, Cameselle JC
+  TITLE     Rat liver nucleoside diphosphosugar or diphosphoalcohol pyrophosphatases different from nucleotide pyrophosphatase or phosphodiesterase I: substrate specificities of Mg(2+)-and/or Mn(2+)-dependent hydrolases acting on ADP-ribose.
+  JOURNAL   Biochim Biophys Acta 1246:167-77 (1995)
+            DOI:10.1016/0167-4838(94)00191-I
+REFERENCE   2  [PMID:18352857]
+  AUTHORS   Canales J, Fernandez A, Ribeiro JM, Cabezas A, Rodrigues JR, Cameselle JC, Costas MJ
+  TITLE     Mn2+-dependent ADP-ribose/CDP-alcohol pyrophosphatase: a novel metallophosphoesterase family preferentially expressed in rodent immune cells.
+  JOURNAL   Biochem J 413:103-13 (2008)
+            DOI:10.1042/BJ20071471
+  SEQUENCE  [rno:287406]
+REFERENCE   3  [PMID:19379742]
+  AUTHORS   Canales J, Fernandez A, Rodrigues JR, Ferreira R, Ribeiro JM, Cabezas A, Costas MJ, Cameselle JC
+  TITLE     Hydrolysis of the phosphoanhydride linkage of cyclic ADP-ribose by the Mn(2+)-dependent ADP-ribose/CDP-alcohol pyrophosphatase.
+  JOURNAL   FEBS Lett 583:1593-8 (2009)
+            DOI:10.1016/j.febslet.2009.04.023
+  SEQUENCE  [rno:287406]
+REFERENCE   4  [PMID:22848751]
+  AUTHORS   Rodrigues JR, Fernandez A, Canales J, Cabezas A, Ribeiro JM, Costas MJ, Cameselle JC
+  TITLE     Characterization of Danio rerio Mn2+-dependent ADP-ribose/CDP-alcohol diphosphatase, the structural prototype of the ADPRibase-Mn-like protein family.
+  JOURNAL   PLoS One 7:e42249 (2012)
+            DOI:10.1371/journal.pone.0042249
+  SEQUENCE  [dre:393393]
+ORTHOLOGY   K01517  manganese-dependent ADP-ribose/CDP-alcohol diphosphatase
+GENES       HSA: 56985(ADPRM)
+            PTR: 745728(ADPRM)
+            PPS: 100989248(ADPRM)
+            GGO: 101139187(ADPRM)
+            PON: 100436862(ADPRM)
+            NLE: 100601662(ADPRM)
+            HMH: 116458238(ADPRM)
+            MCC: 717991(ADPRM)
+            MCF: 102147209(ADPRM)
+            MTHB: 126939727
+            MNI: 105473567(ADPRM)
+            CSAB: 103242388(ADPRM)
+            CATY: 105581448(ADPRM)
+            PANU: 101011738(ADPRM)
+            TGE: 112609623(ADPRM)
+            MLEU: 105534449(ADPRM)
+            RRO: 104675129(ADPRM)
+            RBB: 108520319(ADPRM)
+            TFN: 117067688(ADPRM)
+            PTEH: 111525452(ADPRM)
+            CANG: 105505425(ADPRM)
+            CJC: 100399298(ADPRM)
+            SBQ: 101035686(ADPRM)
+            CIMI: 108306475(ADPRM)
+            CSYR: 103252151(ADPRM)
+            MMUR: 105878313(ADPRM)
+            LCAT: 123650626(ADPRM)
+            PCOQ: 105818078(ADPRM)
+            OGA: 100947880(ADPRM)
+            MMU: 66358(Adprm)
+            MCAL: 110305174(Adprm)
+            MPAH: 110332174(Adprm)
+            RNO: 287406(Adprm)
+            MCOC: 116077456(Adprm)
+            ANU: 117710164(Adprm)
+            MUN: 110552777(Adprm)
+            CGE: 100767531(Adprm)
+            MAUA: 101825901(Adprm)
+            PLEU: 114693125(Adprm)
+            MORG: 121456418(Adprm)
+            MFOT: 126513905
+            AAMP: 119812200(Adprm)
+            NGI: 103752060(Adprm)
+            HGL: 101700336(Adprm)
+            CPOC: 100728957 100735078
+            CCAN: 109697084(Adprm)
+            DORD: 105983501(Adprm)
+            DSP: 122117185(Adprm)
+            NCAR: 124979804
+            OCU: 100350105
+            OPI: 101531379(ADPRM)
+            TUP: 102478915(ADPRM)
+            GVR: 103601745(ADPRM)
+            CFA: 479504(ADPRM)
+            CLUD: 112647360(ADPRM)
+            VVP: 112924903(ADPRM)
+            VLG: 121499597(ADPRM)
+            AML: 100484618(ADPRM)
+            UMR: 103660405(ADPRM)
+            UAH: 113271215(ADPRM)
+            UAR: 123792077(ADPRM)
+            ELK: 111161136
+            LLV: 125087124
+            MPUF: 101676533(ADPRM)
+            NVS: 122906764(ADPRM)
+            ORO: 101374847(ADPRM)
+            EJU: 114225347(ADPRM)
+            ZCA: 113939129(ADPRM)
+            MLX: 118000074(ADPRM)
+            NSU: 110584604(ADPRM)
+            LWW: 102728358(ADPRM)
+            FCA: 101085161(ADPRM)
+            PYU: 121015893(ADPRM)
+            PBG: 122484963(ADPRM)
+            LRUF: 124519588
+            PTG: 102965979(ADPRM)
+            PPAD: 109245856(ADPRM)
+            AJU: 106983330(ADPRM)
+            HHV: 120231401(ADPRM)
+            BTA: 534038(ADPRM)
+            BOM: 102283155(ADPRM)
+            BIU: 109573878(ADPRM)
+            BBUB: 102391966(ADPRM)
+            BBIS: 104990713(ADPRM)
+            CHX: 102181988(ADPRM)
+            OAS: 101113772(ADPRM)
+            ODA: 120865978(ADPRM)
+            CCAD: 122445103(ADPRM)
+            SSC: 100519388(ADPRM)
+            CFR: 102511144(ADPRM)
+            CBAI: 105077565(ADPRM)
+            CDK: 105095885(ADPRM)
+            VPC: 102542518(ADPRM)
+            BACU: 103010454(ADPRM)
+            LVE: 103089607(ADPRM)
+            OOR: 101271746(ADPRM)
+            DLE: 111186014(ADPRM)
+            PCAD: 102975974(ADPRM)
+            PSIU: 116745527(ADPRM)
+            ECB: 100073085(ADPRM)
+            EPZ: 103557154(ADPRM)
+            EAI: 106845767(ADPRM)
+            MYB: 102260362(ADPRM)
+            MYD: 102759013(ADPRM) 102769086
+            MMYO: 118672158(ADPRM)
+            MLF: 102438238(ADPRM)
+            MNA: 107544565(ADPRM)
+            PKL: 118726904(ADPRM)
+            HAI: 109389128(ADPRM)
+            DRO: 112308415(ADPRM)
+            SHON: 118974743(ADPRM)
+            AJM: 119056602(ADPRM)
+            PDIC: 114515391(ADPRM)
+            PHAS: 123809179(ADPRM)
+            MMF: 118634441(ADPRM)
+            RFQ: 117012874(ADPRM)
+            PALE: 102882253(ADPRM)
+            PGIG: 120589741(ADPRM)
+            PVP: 105291270(ADPRM)
+            RAY: 107498319(ADPRM)
+            MJV: 108392721(ADPRM)
+            TOD: 119230843(ADPRM)
+            SARA: 101552793(ADPRM)
+            LAV: 100672645(ADPRM)
+            TMU: 101361939
+            ETF: 101652947(ADPRM)
+            DNM: 101447474(ADPRM)
+            MDO: 100031391(ADPRM)
+            GAS: 123245031(ADPRM)
+            SHR: 100918137(ADPRM)
+            AFZ: 127560735
+            PCW: 110193957(ADPRM)
+            OAA: 100089526(ADPRM)
+            GGA: 768578(ADPRM)
+            PCOC: 116235560(ADPRM)
+            MGP: 100544671(ADPRM)
+            CJO: 107321978(ADPRM)
+            NMEL: 110407346(ADPRM)
+            APLA: 101805114(ADPRM)
+            ACYG: 125184266(ADPRM)
+            AFUL: 116496663(ADPRM)
+            TGU: 100232304(ADPRM)
+            LSR: 110474918(ADPRM)
+            SCAN: 103823912(ADPRM)
+            PMOA: 120498260(ADPRM)
+            OTC: 121348142(ADPRM)
+            PRUF: 121352717(ADPRM)
+            GFR: 102037693(ADPRM)
+            FAB: 101822214(ADPRM)
+            PHI: 102102216(ADPRM)
+            PMAJ: 107212591(ADPRM)
+            CCAE: 111937534(ADPRM)
+            CCW: 104695677(ADPRM)
+            ETL: 114067596(ADPRM)
+            ZAB: 102068717(ADPRM)
+            ACHL: 103800792(ADPRM)
+            FPG: 101917811(ADPRM)
+            FCH: 102046962(ADPRM)
+            CLV: 102096818(ADPRM)
+            NNI: 104014562(ADPRM)
+            PCRI: 104036996(ADPRM)
+            ACUN: 113490956(ADPRM)
+            TALA: 104358472(ADPRM)
+            PADL: 103925367(ADPRM)
+            AFOR: 103899677(ADPRM)
+            ACHC: 115342335(ADPRM)
+            HALD: 104311510(ADPRM)
+            HLE: 104839251(ADPRM)
+            AGEN: 126043993
+            GCL: 127024080
+            CCRI: 104155365(ADPRM)
+            CMAC: 104485420(ADPRM)
+            MUI: 104534111(ADPRM)
+            GSTE: 104251529(ADPRM)
+            PGUU: 104458571(ADPRM)
+            ACAR: 104521012(ADPRM)
+            CPEA: 104398218(ADPRM)
+            CUCA: 104057895(ADPRM)
+            AAM: 106496876(ADPRM)
+            AROW: 112970885(ADPRM)
+            DNE: 112995542(ADPRM)
+            ASN: 102378502(ADPRM)
+            AMJ: 102564317(ADPRM)
+            CPOO: 109311086(ADPRM)
+            PSS: 102454910(ADPRM)
+            CMY: 102947863(ADPRM)
+            CPIC: 101938771(ADPRM)
+            TST: 117887304(ADPRM)
+            CABI: 116838534(ADPRM)
+            MRV: 120383222(ADPRM)
+            ACS: 100557018(adprm)
+            PVT: 110075038(ADPRM)
+            SUND: 121921434(ADPRM)
+            PBI: 103062440(ADPRM)
+            PMUR: 107282490(ADPRM)
+            CTIG: 120298329(ADPRM)
+            TSR: 106542940(ADPRM)
+            PGUT: 117660436(ADPRM)
+            VKO: 123035487(ADPRM)
+            PMUA: 114590700(ADPRM)
+            ZVI: 118079905(ADPRM)
+            STOW: 125428388(ADPRM)
+            XLA: 108701161(adprm.2.L) 380120(adprm.L)
+            XTR: 100498212(adprm.2) 493375(adprm)
+            NPR: 108800850 108801529(ADPRM)
+            RTEM: 120918990 120919145(ADPRM)
+            BBUF: 121004707(ADPRM) 121005235
+            BGAR: 122924105 122931349
+            DRE: 393393(adprm)
+            SANH: 107653999(adprm)
+            SGH: 107556466(adprm)
+            CCAR: 109060013 109103884
+            CAUA: 113112013(adprm)
+            CGIB: 127969397
+            PPRM: 120464390(adprm)
+            MAMB: 125255884(adprm)
+            CIDE: 127523487
+            MASI: 127423156
+            IPU: 108274373(adprm)
+            PHYP: 113527145(adprm)
+            SMEO: 124388762(adprm)
+            TFD: 113662614(adprm)
+            AMEX: 103043761 103044468
+            EEE: 113570913(adprm)
+            TNG: GSTEN00021735G001
+            LCO: 104919483(adprm)
+            NCC: 104963227(adprm)
+            CGOB: 115024397(adprm)
+            ELY: 117246741(adprm)
+            EFO: 125881206(adprm)
+            PLEP: 121958470(adprm)
+            SLUC: 116067530(adprm)
+            ECRA: 117936605(adprm)
+            ESP: 116671101 116705659
+            PFLV: 114548639(adprm)
+            GAT: 120819488(adprm)
+            PPUG: 119212515(adprm)
+            MSAM: 119894653 119916291(adprm)
+            CUD: 121527869(adprm)
+            ALAT: 119009365(adprm)
+            MZE: 101478096(adprm)
+            ONL: 100710111(adprm)
+            OAU: 116330879(adprm)
+            OLA: 105356600 111946384
+            OML: 112153871(adprm)
+            XMA: 102227889(adprm)
+            XCO: 114151735(adprm)
+            XHE: 116726664(adprm)
+            PRET: 103481918(adprm)
+            PFOR: 103144496(adprm)
+            PLAI: 106964992(adprm)
+            PMEI: 106924853(adprm)
+            GAF: 122823157(adprm)
+            CVG: 107096249(adprm)
+            CTUL: 119796022(adprm)
+            GMU: 124875574(adprm)
+            NFU: 107373834 107397354
+            KMR: 108235853(adprm)
+            ALIM: 106531924
+            NWH: 119423774(adprm)
+            AOCE: 111572502(adprm)
+            MCEP: 125022935(adprm)
+            CSEM: 103382417(adprm)
+            POV: 109643054(adprm)
+            SSEN: 122760971(adprm)
+            HHIP: 117753109(adprm)
+            HSP: 118101073(adprm)
+            LCF: 108890898
+            SDU: 111219537(adprm)
+            SLAL: 111667088(adprm)
+            XGL: 120793977(adprm)
+            HCQ: 109512603(adprm)
+            SSCV: 125991608
+            BPEC: 110154055(adprm)
+            MALB: 109966666(adprm)
+            BSPL: 114845947(adprm)
+            SASA: 106589237(adprm)
+            STRU: 115201274(adprm)
+            OTW: 112233704(adprm)
+            OMY: 110498890(adprm)
+            OGO: 124040121(adprm)
+            ONE: 115144576(adprm)
+            SALP: 111967034(adprm)
+            SNH: 120029905(adprm)
+            CCLU: 121547983(adprm)
+            ELS: 105023010(adprm)
+            SFM: 108939934 114909203
+            PKI: 111856920(adprm)
+            AANG: 118220164(adprm)
+            LOC: 102683124(adprm)
+            PSPA: 121295923 121296479
+            ARUT: 117423255(adprm) 117424544
+            PSEX: 120517834(adprm)
+            LCM: 102354487(ADPRM)
+            CMK: 103175697(adprm)
+            RTP: 109912985 109912988(adprm)
+            BFO: 118429669
+            BBEL: 109483378
+            SCLV: 120330472
+            APLC: 110978621 110989831
+            AJC: 117109740
+            SKO: 100369075
+            DSV: 119453708
+            RSAN: 119399329
+            RMP: 119179522
+            TUT: 107361847
+            DPTE: 113799744
+            DFR: 124494090
+            CSCU: 111636117
+            PTEP: 107445858
+            SDM: 118188538
+            HRO: HELRODRAFT_123984
+            LGI: LOTGIDRAFT_149678
+            PCAN: 112566952
+            BGT: 106056255 106058336
+            GAE: 121375974
+            HRF: 124142692
+            HRJ: 124290179
+            CRG: 105341087
+            MYI: 110448605 110448607 110448642
+            PMAX: 117331538 117331549 117331556
+            MCAF: 127709056
+            MMER: 123563371
+            OBI: 106867761
+            OSN: 115231016
+            LAK: 106161328
+            EPA: 110231729
+            ADF: 107346478
+            AMIL: 114976828
+            PDAM: 113672215 113672221
+            SPIS: 111329389 111329411
+            HMG: 100198316 100198467 105843075
+            ATH: AT4G24730
+            ALY: 9303721
+            CRB: 17878964
+            CSAT: 104717803 104722510 104730974
+            EUS: EUTSA_v10025788mg
+            BRP: 108868780
+            BNA: 111198213 111198217
+            RSZ: 108839677
+            THJ: 104824991
+            CPAP: 110814750
+            CIT: 102626985
+            CIC: CICLE_v10021198mg
+            PVY: 116137190
+            MINC: 123211286
+            TCC: 18604977
+            GRA: 105764744 105788525
+            GHI: 107887289 107946572 107949731 121224249
+            GAB: 108483804 108486747
+            DZI: 111284677
+            EGR: 104417636
+            GMX: 100780293 100792911 100808714 100815255
+            GSJ: 114394051 114412007 114416398 114416400
+            PVU: PHAVU_003G206000g PHAVU_009G172700g PHAVU_009G172800g PHAVU_009G172900g
+            VRA: 106753290 106761055 106761199 106761426
+            VAR: 108330242 108330655 108330910 108334577
+            VUN: 114162196 114162277 114164439 114177949
+            CCAJ: 109791847 109797016
+            APRC: 113847274 113847696
+            MTR: 11416144 25493698
+            CAM: 101501360 101505685
+            PSAT: 127073983 127083725
+            LJA: Lj0g3v0335139.1(Lj0g3v0335139.1) Lj0g3v0335139.2(Lj0g3v0335139.2)
+            ADU: 107478909 107489578
+            AIP: 107629382 107631189
+            AHF: 112722265 112736302 112790435 112805522
+            LANG: 109328725 109362447 109362932
+            FVE: 101314949
+            RCN: 112175288
+            PPER: 18777900
+            PMUM: 103337949
+            PAVI: 110745894
+            PDUL: 117627823
+            MDM: 103455068
+            PXB: 103952940
+            ZJU: 107418316
+            MNT: 21401927
+            CSV: 101207870
+            CMO: 103483938
+            BHJ: 120082712
+            MCHA: 111009099
+            CMAX: 111490346 111495463
+            CMOS: 111431448
+            CPEP: 111782649 111802590
+            RCU: 8278270
+            JCU: 105640292
+            HBR: 110648058
+            MESC: 110617701
+            POP: 7484431
+            PEU: 105118923 105136717
+            PALZ: 118044772
+            JRE: 108986726
+            CILL: 122290310
+            QSU: 112033540
+            QLO: 115964155
+            TWL: 119985279
+            VVI: 100265684
+            VRI: 117904811
+            SLY: 101246124
+            SPEN: 107012378
+            SOT: 102587466
+            SSTN: 125860041
+            CANN: 107862601
+            NTA: 107766620 107813486 107817197 107821971
+            NSY: 104218770 104242644
+            NTO: 104099242 104104495
+            NAU: 109208701 109239772
+            INI: 109180078
+            ITR: 116010271
+            SIND: 105157296 105179367
+            OEU: 111396293 111407625
+            EGT: 105950434 105975095
+            SSPL: 121754155 121758132 121761779 121763377 121763557 121789649 121789652
+            APAN: 127252867 127255344
+            HAN: 110879851 110879853 110879854
+            ECAD: 122590303
+            LSV: 111907042
+            CCAV: 112508842
+            DCR: 108206584
+            CSIN: 114281386 114290194
+            BVG: 104884525
+            SOE: 110802382
+            CQI: 110687827 110715551
+            NNU: 104591517
+            MING: 122079719
+            TSS: 122670842
+            PSOM: 113341967
+            OSA: 4344352 4346295
+            DOSA: Os07t0688000-01(Os07g0688000) Os08t0557200-01(Os08g0557200)
+            OBR: 102712498
+            BDI: 100823930 100846848
+            ATS: 109779171 109779172 109782101
+            TDC: 119302974 119302975 119311650 119311651 119330944 119340739
+            TAES: 123104872 123104873 123113158 123113159 123122678 123122679 123152762 123161595 123169332
+            TUA: 125510473 125510475 125521051 125527443 125527445 125556628 125556630
+            LPER: 127303041 127316255
+            SBI: 110433154 8057997
+            ZMA: 100191359 103653268
+            SITA: 101771143 101781539
+            SVS: 117846620 117860064
+            PVIR: 120659981 120671022 120679067 120713827
+            PHAI: 112883342 112897528
+            PDA: 103719827
+            EGU: 105052964
+            MUS: 103970733
+            ZOF: 121971410 121976251 122021109 122025701
+            DCT: 110114792
+            PEQ: 110018884 110024473
+            AOF: 109830064 109843108
+            NCOL: 116250524
+            ATR: 18442745
+            SMO: SELMODRAFT_112495 SELMODRAFT_78013
+            PPP: 112276109 112292179
+            MNG: MNEG_2546 MNEG_4962
+            CSL: COCSUDRAFT_12655
+            CVR: CHLNCDRAFT_138033 CHLNCDRAFT_36248
+            APRO: F751_1456
+            OLU: OSTLU_5767 OSTLU_5807
+            OTA: OT_ostta01g03460 OT_ostta09g01710
+            BPG: Bathy01g04470 Bathy10g02940
+            MIS: MICPUN_60963 MICPUN_88004
+            MPP: MICPUCDRAFT_5295 MICPUCDRAFT_58423
+            CME: CYME_CMQ308C
+            GSL: Gasu_29190
+            CCP: CHC_T00008291001 CHC_T00009409001
+            SMIN: v1.2.028698.t1(symbB.v1.2.028698.t1)
+            FCY: FRACYDRAFT_160037
+            TPS: THAPSDRAFT_16656
+            PIF: PITG_00701
+            PSOJ: PHYSODRAFT_315792
+            SPAR: SPRG_19962
+            EHX: EMIHUDRAFT_239808 EMIHUDRAFT_55032
+            GTT: GUITHDRAFT_135549
+            PBW: D172_001300
+            PAGA: PAGA_a0239
+            SPHK: SKP52_05880
+            GRC: GI584_05825
+            ARU: ASPU41_17480
+            ARTH: C3B78_11265
+            LUO: HHL09_06745
+            PBAS: SMSP2_02132
+            ALUS: STSP2_00146
+            PFER: IRI77_33965
+            BCAC: CGC64_03390
+            MCOS: GM418_24565
+            CBAE: COR50_00170
+            SPDR: G6053_15520
+            POM: MED152_12824
+            POB: LPB03_06815
+            PRN: BW723_00645
+            POLA: BXQ17_06130
+            LUL: LPB138_09200
+            CPH: Cpha266_2539
+            PPH: Ppha_2785
+            PAA: Paes_0208
+            CTS: Ctha_1338
+DBLINKS     ExplorEnz - The Enzyme Database: 3.6.1.53
+            IUBMB Enzyme Nomenclature: 3.6.1.53
+            ExPASy - ENZYME nomenclature database: 3.6.1.53
+            BRENDA, the Enzyme Database: 3.6.1.53
+///

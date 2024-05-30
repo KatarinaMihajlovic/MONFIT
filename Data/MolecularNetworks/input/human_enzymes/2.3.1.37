@@ -1,0 +1,1671 @@
+ENTRY       EC 2.3.1.37                 Enzyme
+NAME        5-aminolevulinate synthase;
+            ALAS;
+            ALA synthase;
+            alpha-aminolevulinic acid synthase;
+            delta-aminolevulinate synthase;
+            delta-aminolevulinate synthetase;
+            delta-aminolevulinic acid synthase;
+            delta-aminolevulinic acid synthetase;
+            delta-aminolevulinic synthetase;
+            5-aminolevulinate synthetase;
+            5-aminolevulinic acid synthetase;
+            ALA synthetase;
+            aminolevulinate synthase;
+            aminolevulinate synthetase;
+            aminolevulinic acid synthase;
+            aminolevulinic acid synthetase;
+            aminolevulinic synthetase
+CLASS       Transferases;
+            Acyltransferases;
+            Transferring groups other than aminoacyl groups
+SYSNAME     succinyl-CoA:glycine C-succinyltransferase (decarboxylating)
+REACTION    succinyl-CoA + glycine = 5-aminolevulinate + CoA + CO2 [RN:R00830]
+ALL_REAC    R00830
+SUBSTRATE   succinyl-CoA [CPD:C00091];
+            glycine [CPD:C00037]
+PRODUCT     5-aminolevulinate [CPD:C00430];
+            CoA [CPD:C00010];
+            CO2 [CPD:C00011]
+COMMENT     A pyridoxal-phosphate protein. The enzyme in erythrocytes is genetically distinct from that in other tissues.
+HISTORY     EC 2.3.1.37 created 1972
+REFERENCE   1  [PMID:2347585]
+  AUTHORS   Bishop DF, Henderson AS, Astrin KH.
+  TITLE     Human delta-aminolevulinate synthase: assignment of the housekeeping gene to 3p21 and the erythroid-specific gene to the X chromosome.
+  JOURNAL   Genomics 7:207-14 (1990)
+            DOI:10.1016/0888-7543(90)90542-3
+REFERENCE   2  [PMID:13598764]
+  AUTHORS   KIKUCHI G, KUMAR A, TALMAGE P, SHEMIN D.
+  TITLE     The enzymatic synthesis of delta-aminolevulinic acid.
+  JOURNAL   J Biol Chem 233:1214-9 (1958)
+REFERENCE   3  [PMID:4685279]
+  AUTHORS   Ramaswamy NK, Nair PM.
+  TITLE     -Aminolevulinic acid synthetase from cold-stored potatoes.
+  JOURNAL   Biochim Biophys Acta 293:269-77 (1973)
+            DOI:10.1016/0005-2744(73)90399-9
+REFERENCE   4  [PMID:4624703]
+  AUTHORS   Scholnick PL, Hammaker LE, Marver HS.
+  TITLE     Souble  -aminolevulinic acid synthetase of rat liver. I. Some properties of the partially purified enzyme.
+  JOURNAL   J Biol Chem 247:4126-31 (1972)
+REFERENCE   5  [PMID:5035685]
+  AUTHORS   Scholnick PL, Hammaker LE, Marver HS.
+  TITLE     Soluble  -aminolevulinic acid synthetase of rat liver. II. Studies related to the mechanism of enzyme action and hemin inhibition.
+  JOURNAL   J Biol Chem 247:4132-7 (1972)
+REFERENCE   6  [PMID:4722442]
+  AUTHORS   Tait GH.
+  TITLE     Aminolaevulinate synthetase of Micrococcus denitrificans. Purification and properties of the enzyme, and the effect of growth conditions on the enzyme activity in cells.
+  JOURNAL   Biochem J 131:389-403 (1973)
+            DOI:10.1042/bj1310389
+REFERENCE   7  [PMID:5315997]
+  AUTHORS   Warnick GR, Burnham BF.
+  TITLE     Regulation of prophyrin biosynthesis. Purification and characterization of -aminolevulinic acid synthase.
+  JOURNAL   J Biol Chem 246:6880-5 (1971)
+PATHWAY     ec00260  Glycine, serine and threonine metabolism
+            ec00860  Porphyrin metabolism
+            ec01100  Metabolic pathways
+            ec01110  Biosynthesis of secondary metabolites
+ORTHOLOGY   K00643  5-aminolevulinate synthase
+GENES       HSA: 211(ALAS1) 212(ALAS2)
+            PTR: 112207863 460416(ALAS1) 473626(ALAS2)
+            PPS: 100974937(ALAS2) 100987351(ALAS1)
+            GGO: 101138046(ALAS1) 101141780(ALAS2)
+            PON: 100172808(ALAS1) 100174709(ALAS2)
+            NLE: 100606858(ALAS2) 100607410(ALAS1)
+            HMH: 116473409(ALAS1) 116811720(ALAS2)
+            MCC: 698093(ALAS1) 704727(ALAS2)
+            MCF: 101926862(ALAS1) 102140507(ALAS2)
+            MTHB: 126946511 126948659
+            MNI: 105480532(ALAS1) 105493769(ALAS2)
+            CSAB: 103227717(ALAS1) 103232039(ALAS2)
+            CATY: 105585547(ALAS1) 105598645(ALAS2)
+            PANU: 101017677(ALAS1) 101021134(ALAS2)
+            TGE: 112615628(ALAS2) 112619337(ALAS1)
+            MLEU: 105544016(ALAS1) 105548114(ALAS2)
+            RRO: 104657177(ALAS2) 104663715(ALAS1)
+            RBB: 108522344(ALAS1) 108540600(ALAS2)
+            TFN: 117078252(ALAS2) 117082647(ALAS1)
+            PTEH: 111528766(ALAS1) 111535800(ALAS2)
+            CANG: 105505820(ALAS2) 105523847(ALAS1)
+            CJC: 100388038(ALAS1) 100410919(ALAS2)
+            SBQ: 101033049(ALAS2) 101037628(ALAS1)
+            CIMI: 108296996(ALAS2) 108304237(ALAS1)
+            CSYR: 103255488(ALAS2) 103255928(ALAS1)
+            MMUR: 105862242(ALAS2) 105875039(ALAS1)
+            LCAT: 123623203(ALAS1) 123628895(ALAS2)
+            PCOQ: 105824253(ALAS2) 105825694(ALAS1)
+            OGA: 100961107(ALAS1) 100962763(ALAS2)
+            MMU: 11655(Alas1) 11656(Alas2)
+            MCAL: 110286625(Alas2) 110300966(Alas1)
+            MPAH: 110313393(Alas2) 110327340(Alas1)
+            RNO: 25748(Alas2) 65155(Alas1)
+            MCOC: 116072962(Alas1) 116089458(Alas2)
+            ANU: 117693526(Alas1) 117694758(Alas2)
+            MUN: 110540248(Alas2) 110550184(Alas1)
+            CGE: 100753315(Alas2) 100766370(Alas1)
+            MAUA: 101822757(Alas1) 101838716(Alas2)
+            PLEU: 114702868(Alas2) 114710976(Alas1)
+            MORG: 121445007(Alas2) 121445036 121464373(Alas1)
+            MFOT: 126492163 126499872
+            AAMP: 119804588(Alas2) 119810001(Alas1)
+            NGI: 103738665(Alas2) 103747456(Alas1)
+            HGL: 101699592(Alas2) 101701151(Alas1)
+            CPOC: 100721933(Alas2) 100723853(Alas1)
+            CCAN: 109685357(Alas1) 109700225(Alas2)
+            DORD: 105994502(Alas1) 106000523(Alas2)
+            DSP: 122095701(Alas1) 122112013(Alas2)
+            NCAR: 124971951 124992821
+            OCU: 100345273 100345847
+            OPI: 101518285(ALAS1) 101525074(ALAS2)
+            TUP: 102494737(ALAS2) 102501420(ALAS1)
+            GVR: 103590349(ALAS1) 103601423(ALAS2)
+            CFA: 476600(ALAS1) 491498(ALAS2)
+            CLUD: 112665874(ALAS1) 112673052(ALAS2)
+            VVP: 112910650(ALAS1) 112912376(ALAS2)
+            VLG: 121483240(ALAS2) 121495491(ALAS1)
+            AML: 100473179(ALAS1) 100484665(ALAS2)
+            UMR: 103674770(ALAS1) 103682097(ALAS2)
+            UAH: 113248664(ALAS2) 113256943(ALAS1)
+            UAR: 123789899(ALAS2) 123798724(ALAS1)
+            ELK: 111139789 111143821
+            LLV: 125079182
+            MPUF: 101677013(ALAS1) 101692545(ALAS2)
+            NVS: 122897661(ALAS2) 122909366(ALAS1)
+            ORO: 101370846(ALAS1) 101377080(ALAS2)
+            EJU: 114200784(ALAS2) 114225029(ALAS1)
+            ZCA: 113917537(ALAS1) 113930879(ALAS2)
+            MLX: 118000423(ALAS2) 118004998(ALAS1)
+            NSU: 110585023(ALAS1) 110589838(ALAS2)
+            LWW: 102733749(ALAS2) 102744399(ALAS1)
+            FCA: 101080876(ALAS1) 101095553(ALAS2)
+            PYU: 121016888(ALAS1) 121024787(ALAS2)
+            PBG: 122477736(ALAS2) 122487296(ALAS1)
+            LRUF: 124522280 124523795
+            PTG: 102969114(ALAS2) 102969461(ALAS1)
+            PPAD: 109247892(ALAS1) 109259213(ALAS2)
+            AJU: 106986505(ALAS2) 106987031(ALAS1)
+            HHV: 120226645(ALAS2) 120239418(ALAS1)
+            BTA: 511791(ALAS2) 534286(ALAS1)
+            BOM: 102265037(ALAS2) 102273625(ALAS1)
+            BIU: 109555549(ALAS2) 109576290(ALAS1)
+            BBUB: 102406416(ALAS2) 102413826(ALAS1)
+            BBIS: 104997146(ALAS1)
+            CHX: 100861387(ALAS1) 102175385(ALAS2)
+            OAS: 101112853(ALAS1) 101115684(ALAS2)
+            ODA: 120868348(ALAS1) 120882185(ALAS2)
+            CCAD: 122424282(ALAS1) 122435874(ALAS2)
+            SSC: 100518817(ALAS2)
+            CFR: 102505426(ALAS2) 102513811(ALAS1)
+            CBAI: 105069590(ALAS2) 105080188(ALAS1)
+            CDK: 105093500(ALAS1) 105103536(ALAS2)
+            VPC: 102527645(ALAS2) 102531068(ALAS1)
+            BACU: 103009683(ALAS1) 103013578(ALAS2)
+            LVE: 103072141(ALAS2) 103084400(ALAS1)
+            OOR: 101283886(ALAS2) 101288560(ALAS1)
+            DLE: 111169408(ALAS2) 111174319(ALAS1)
+            PCAD: 102980727(ALAS1) 102982094(ALAS2)
+            PSIU: 116747431(ALAS2) 116762556(ALAS1)
+            ECB: 100060491(ALAS1) 100060580(ALAS2)
+            EPZ: 103541964(ALAS2) 103546488(ALAS1)
+            EAI: 106821748(ALAS1) 106834257(ALAS2)
+            MYB: 102245779(ALAS2) 102253955(ALAS1)
+            MYD: 102752766(ALAS2) 102760760(ALAS1)
+            MMYO: 118653957(ALAS2) 118668417(ALAS1)
+            MLF: 102422599(ALAS2) 102432191(ALAS1) 102435732
+            MNA: 107529153(ALAS1) 107543146(ALAS2)
+            PKL: 118706468(ALAS2) 118715607(ALAS1)
+            HAI: 109375832(ALAS1) 109396960(ALAS2)
+            DRO: 112308165(ALAS2) 112309714(ALAS1)
+            SHON: 118981782(ALAS2) 118989413(ALAS1)
+            AJM: 119036597(ALAS1) 119055496(ALAS2)
+            PDIC: 114501615(ALAS1) 114504761(ALAS2)
+            PHAS: 123814842(ALAS2) 123830612(ALAS1)
+            MMF: 118633363(ALAS1) 118636459(ALAS2)
+            RFQ: 117029629(ALAS2) 117037013(ALAS1)
+            PALE: 102894224(ALAS1) 102898326(ALAS2)
+            PGIG: 120582420(ALAS1) 120593536(ALAS2)
+            PVP: 105295120(ALAS1) 105307787(ALAS2)
+            RAY: 107504164(ALAS1) 107506598(ALAS2)
+            MJV: 108389942(ALAS2) 108404434(ALAS1)
+            TOD: 119246699(ALAS2) 119260994(ALAS1)
+            SARA: 101552832(ALAS1) 101557694(ALAS2)
+            LAV: 100654638(ALAS2) 100662381(ALAS1)
+            TMU: 101342212 101351282
+            ETF: 101647999(ALAS1) 101657597(ALAS2)
+            DNM: 101414485(ALAS1) 101445468(ALAS2)
+            MDO: 100031030(ALAS1) 100617275(ALAS2)
+            GAS: 123245860(ALAS1) 123253699(ALAS2)
+            SHR: 100924960(ALAS2) 100931559(ALAS1)
+            AFZ: 127542475 127554020
+            PCW: 110197537(ALAS1) 110203448(ALAS2)
+            OAA: 100074585(ALAS1) 114812894(ALAS2)
+            GGA: 552895(ALAS2)
+            PCOC: 116241056(ALAS1)
+            MGP: 100547950(ALAS1)
+            CJO: 107319619(ALAS1)
+            NMEL: 110404931(ALAS1)
+            APLA: 101793120(ALAS1)
+            ACYG: 106042859(ALAS1)
+            AFUL: 116493169(ALAS1)
+            TGU: 100231674(ALAS1)
+            LSR: 110472195(ALAS1) 110483987
+            SCAN: 103824295(ALAS1)
+            PMOA: 120495615(ALAS1)
+            OTC: 121337215 121347367(ALAS1)
+            PRUF: 121351560(ALAS1) 121365282
+            GFR: 102032883(ALAS1)
+            FAB: 101813119(ALAS1)
+            PHI: 102108448(ALAS1) 102112035
+            PMAJ: 107198872 107210265(ALAS1)
+            CCAE: 111935158(ALAS1)
+            CCW: 104683241(ALAS1) 120412225
+            CBRC: 103614378(ALAS1)
+            ETL: 114058694(ALAS1)
+            ZAB: 102067428(ALAS1)
+            ACHL: 103802800(ALAS1)
+            FPG: 101922412(ALAS1)
+            FCH: 102058246(ALAS1)
+            CLV: 102093270(ALAS1)
+            EGZ: 104126675(ALAS1)
+            NNI: 104008696(ALAS1)
+            PLET: 104624941(ALAS1)
+            PCRI: 104027090
+            PCAO: 104052493(ALAS1)
+            ACUN: 113484906(ALAS1)
+            TALA: 104366361(ALAS1)
+            PADL: 103915086(ALAS1)
+            AFOR: 103895180(ALAS1)
+            ACHC: 115353763(ALAS1)
+            HALD: 104319294(ALAS1)
+            HLE: 104835179(ALAS1)
+            AGEN: 126049564
+            GCL: 127021431
+            CCRI: 104169463(ALAS1)
+            CSTI: 104550296(ALAS1)
+            EHS: 104503683(ALAS1)
+            CMAC: 104477700(ALAS1)
+            MUI: 104543911(ALAS1)
+            FGA: 104070235(ALAS1)
+            GSTE: 104251233(ALAS1)
+            LDI: 104340482(ALAS1)
+            MNB: 103776984(ALAS1)
+            OHA: 104336639(ALAS1)
+            NNT: 104410091(ALAS1)
+            DPUB: 104305433(ALAS1)
+            PGUU: 104458394(ALAS1)
+            ACAR: 104523112(ALAS1)
+            CPEA: 104387143(ALAS1)
+            AVIT: 104270346(ALAS1)
+            CVF: 104291968(ALAS1)
+            CUCA: 104066736(ALAS1)
+            TEO: 104374320(ALAS1)
+            BRHI: 104492571(ALAS1)
+            AAM: 106487066(ALAS1)
+            AROW: 112968840(ALAS1)
+            NPD: 112953016(ALAS1)
+            TGT: 104576514(ALAS1)
+            DNE: 112986956(ALAS1)
+            SCAM: 104139411(ALAS1)
+            ASN: 102375887(ALAS2) 102379535(ALAS1)
+            AMJ: 102563405(ALAS1) 102576756(ALAS1)
+            PSS: 102460278(ALAS1)
+            CMY: 102936462(ALAS2) 102942173(ALAS1)
+            CPIC: 101937796(ALAS1) 101953465(ALAS2)
+            TST: 117880404(ALAS1) 117888959(ALAS2)
+            CABI: 116818904 116839697(ALAS1)
+            MRV: 120369120(ALAS1) 120388515(ALAS2)
+            ACS: 100567696(alas2) 100567706(alas1)
+            PVT: 110078642(ALAS2) 110080626(ALAS1)
+            SUND: 121923382(ALAS1) 121923743(ALAS2)
+            PBI: 103059716(ALAS2) 103063603(ALAS1)
+            PMUR: 107286555(ALAS2) 107299847(ALAS1)
+            CTIG: 120307641(ALAS1) 120318447(ALAS2)
+            TSR: 106542516(ALAS1) 106554005(ALAS2)
+            PGUT: 117675454(ALAS2) 117678380(ALAS1)
+            VKO: 123029996(ALAS2) 123034228(ALAS1)
+            PMUA: 114588161(ALAS2) 114591581(ALAS1)
+            ZVI: 118080621(ALAS1) 118097635(ALAS2)
+            GJA: 107118547(ALAS1) 107121338(ALAS2)
+            STOW: 125429411(ALAS1)
+            XLA: 398824(alas1.L) 444480(alas1.S) 447323(alas2.L) 495283(alas2.S)
+            XTR: 448773(alas2) 493434(alas1)
+            NPR: 108794415(ALAS1) 108797519(ALAS2) 108802501
+            RTEM: 120913133(ALAS2) 120922742(ALAS1)
+            BBUF: 120977249 120979620(ALAS1)
+            BGAR: 122946106
+            DRE: 64607(alas2) 64608(alas1)
+            SRX: 107731137 107738883 107745783 107747836(alas1)
+            SANH: 107667982 107669932(alas1) 107695277(alas2)
+            SGH: 107549233 107555603 107571510(alas1) 107577143
+            CCAR: 109061931 109099039
+            CAUA: 113054922 113068167(alas1) 113069946 113100310 113107212
+            CGIB: 127963004 127968282 128018730 128022695
+            PPRM: 120467741(alas1) 120485380(alas2)
+            MAMB: 125256613(alas1) 125279371(alas2)
+            CIDE: 127517039 127522951
+            MASI: 127414702 127424653 127425944 127428174
+            IPU: 108254863(alas1) 108265738(alas2)
+            PHYP: 113532067 113537972(alas1)
+            SMEO: 124399936(alas2) 124402169(alas1)
+            TFD: 113636433(alas1) 113655916(alas2)
+            AMEX: 103038356(alas1)
+            EEE: 113581077(alas2) 113582014(alas1)
+            TRU: 101061330 101062386(alas2) 101063380(alas1)
+            TNG: GSTEN00010369G001 GSTEN00023716G001 GSTEN00027613G001
+            LCO: 104919653 104920213(alas2) 104931401(alas1)
+            NCC: 104948607(alas1) 104956593(alas2) 104958737
+            CGOB: 115008771(alas1) 115010878 115010929
+            ELY: 117257405(alas1) 117257833 117258766(alas2)
+            EFO: 125891399 125891684(alas2) 125892309(alas1)
+            PLEP: 121946839 121947540(alas2) 121957502(alas1)
+            SLUC: 116040731(alas2) 116051347(alas1) 116062215
+            ECRA: 117943032(alas1) 117947295(alas2) 117948222
+            ESP: 116687425(alas1) 116692198 116693262(alas2)
+            PFLV: 114554179(alas1) 114559014 114559382(alas2)
+            GAT: 120828861 120829692(alas2) 120835380(alas1)
+            PPUG: 119221984 119223672(alas2) 119230003(alas1)
+            MSAM: 119886305(alas1) 119905566 119905987(alas2)
+            CUD: 121507466(alas1) 121517763(alas2) 121518228
+            ALAT: 119021677(alas1) 119022092 119022904(alas2)
+            MZE: 101479627 101480657(alas1)
+            ONL: 100692207(alas1) 100697245
+            OAU: 116309709(alas2) 116313653
+            OLA: 100049501 101158598(alas1)
+            OML: 112144974(alas1) 112159540(alas2)
+            XMA: 102222797 102232693(alas1)
+            XCO: 114135888(alas1) 114144814
+            XHE: 116710886(alas1) 116725717(alas2)
+            PRET: 103464428(alas1) 103468004 103481316
+            PFOR: 103136089(alas1) 103138946
+            PLAI: 106947073(alas1) 106960026(alas2)
+            PMEI: 106908800(alas1) 106921697(alas2)
+            GAF: 122833452(alas1) 122836121(alas2)
+            CVG: 107087501 107102832(alas1)
+            CTUL: 119782190(alas2) 119787987(alas1)
+            GMU: 124856866(alas1) 124871429(alas2)
+            NFU: 107385301(alas1) 107390720
+            KMR: 108231470(alas1) 108236847(alas2)
+            ALIM: 106514719(alas1) 106524166
+            NWH: 119417060(alas2) 119429362 119429376
+            AOCE: 111578048 111583481 111588726
+            MCEP: 125007156(alas1) 125017613(alas2) 125018219
+            CSEM: 103384928 103385437 103386369(alas1)
+            POV: 109630526 109635084 109635582(alas1)
+            SSEN: 122768696(alas1) 122776681(alas2) 122777652
+            HHIP: 117761635(alas1) 117764964 117765374(alas2)
+            HSP: 118105185(alas1) 118110449 118111295(alas2)
+            LCF: 108891056 108891712 108900180
+            SDU: 111217420 111219041 111223977(alas1)
+            SLAL: 111670196(alas1) 111670752 111672180
+            XGL: 120783337(alas1) 120804312(alas2) 120804534
+            HCQ: 109522606(alas1) 109526572
+            SSCV: 125976835 125989376
+            BPEC: 110161105 110164459 110168401(alas1)
+            MALB: 109951199(alas1) 109970588
+            BSPL: 114856112(alas1) 114858897(alas2)
+            SASA: 106566237 106566749(HEM1) 106572153(alas2) 106583798(HEM1)
+            STRU: 115149968 115166040 115168389 115207215
+            OTW: 112215959(alas2) 112222112 112222206 112235146(alas1)
+            OMY: 110492405 110494837 110528663 110532218(alas2)
+            OGO: 124003594 124024977 124031885(alas2) 124045686
+            ONE: 115102102 115122192 115125159 115132099
+            SALP: 111966395 111976613 112071095 112073439
+            SNH: 120037969 120058273 120059372(alas2) 120061315
+            CCLU: 121538276(alas2) 121545416 121556597 121577879
+            ELS: 105013539(alas1) 105013802 105029146
+            SFM: 108925535 108929841(alas1) 108931236
+            PKI: 111837570(alas1) 111840350 111844758
+            AANG: 118207820(alas2) 118208563 118211726(alas1)
+            LOC: 102685240 102686312 102688036(alas1)
+            PSPA: 121298003 121305518 121328768 121328871
+            ARUT: 117401600 117404307 117414238 117962350
+            PSEX: 120540247(alas1) 120542955
+            LCM: 102352626(ALAS1) 102357971(ALAS2)
+            CMK: 103172113(alas1)
+            RTP: 109911548(alas1)
+            BFO: 118415343
+            BBEL: 109470345
+            CIN: 100179288
+            SCLV: 120336888
+            SPU: 588142
+            APLC: 110974149
+            AJC: 117110854
+            SKO: 100374546
+            DME: Dmel_CG3017(Alas)
+            DER: 6548133
+            DSE: 6615819
+            DSI: Dsimw501_GD11815(Dsim_GD11815)
+            DYA: Dyak_GE14349(Dyak_Alas)
+            DAN: 6495729
+            DSR: 110191483
+            DPO: 4804282
+            DPE: 6590983
+            DMN: 108159117
+            DWI: 6641040
+            DGR: 6560017
+            DMO: Dmoj_GI20706
+            DAZ: 108617389
+            DNV: 115564911
+            DHE: 111600042
+            DVI: 6635401
+            CCAT: 101456193
+            BOD: 106626754
+            RZE: 108359265 108369660
+            MDE: 101887683
+            SCAC: 106082402
+            LCQ: 111677009
+            LSQ: 119600641
+            HIS: 119660358
+            AGA: AgaP_AGAP003184
+            ACOZ: 120947787
+            AARA: 120904818
+            ASTE: 118508292
+            AAG: 5569629
+            AALB: 109401055 109408415
+            CQU: CpipJ_CPIJ007746
+            CPII: 120414813
+            CNS: 116339451
+            BCOO: 119072924
+            AME: 413228
+            ACER: 108003491
+            ALAB: 122720704
+            BIM: 100750046
+            BBIF: 117211563
+            BVK: 117239175
+            BVAN: 117154342
+            BTER: 100648776
+            BPYO: 122573174
+            CCAL: 108624863
+            OBB: 114879798
+            MGEN: 117229182
+            NMEA: 116429870
+            CGIG: 122400022
+            SOC: 105204395
+            MPHA: 105828733
+            AEC: 105147679
+            ACEP: 105625180
+            PBAR: 105428015
+            VEM: 105568350
+            HST: 105182816
+            DQU: 106747700
+            CFO: 105253644
+            FEX: 115241079
+            LHU: 105676197
+            PGC: 109852265
+            OBO: 105276802
+            PCF: 106786584
+            PFUC: 122522899
+            VPS: 122629851
+            NVI: 100119347
+            CSOL: 105359896
+            TPRE: 106652236
+            MDL: 103580657
+            CGLO: 123259635
+            FAS: 105272197
+            DAM: 107038275
+            AGIF: 122852899
+            CINS: 118072770
+            LHT: 122513086
+            CCIN: 107269823
+            TCA: 655127
+            DPA: 109537956
+            SOY: 115875021 115891634
+            ATD: 109595238 109608312
+            CSET: 123321608
+            AGB: 108917004
+            LDC: 111509340
+            NVL: 108558940 108562365
+            APLN: 108741261
+            PPYR: 116161434
+            OTU: 111425416
+            BMOR: 101738292
+            BMAN: 114247369
+            MSEX: 115443491
+            DPL: KGM_209785
+            BANY: 112052984
+            NIQ: 126768937
+            PMAC: 106720363
+            PPOT: 106106061
+            PXU: 106120857
+            PRAP: 111001425
+            PBX: 123710830
+            PNAP: 125052868
+            ZCE: 119838261
+            CCRC: 123693027
+            HAW: 110378575
+            HZE: 124631651
+            TNL: 113500512
+            SLIU: 111355440
+            OFU: 114365503
+            PXY: 105386594
+            CFEL: 113370162 113370163 113370166
+            API: 100165680
+            DNX: 107169059
+            AGS: 114132457
+            RMD: 113556088
+            BTAB: 109033807
+            DCI: 103515857
+            CLEC: 106664900 106670938
+            HHAL: 106680881
+            NLU: 111043293
+            PHU: Phum_PHUM297900
+            FOC: 113204637
+            TPAL: 117639521
+            ZNE: 110839496
+            CSEC: 111864090
+            SGRE: 126297581
+            FCD: 110856852
+            DPX: DAPPUDRAFT_225386 DAPPUDRAFT_320395
+            DMK: 116921349
+            DPZ: 124336987 124336988
+            PVM: 113815957 113829568
+            PJA: 122256682
+            PCHN: 125025010
+            PMOO: 119578504
+            HAME: 121868722
+            PCLA: 123752809
+            PTRU: 123512243
+            HAZT: 108671388
+            EAF: 111707833
+            PPOI: 119089634 119090109 119090422
+            VDE: 111251695 111253557
+            VJA: 111272467
+            TUT: 107369470
+            DPTE: 113795740
+            DFR: 124491621
+            CSCU: 111617056 111640955
+            PTEP: 107448161 122273993
+            SDM: 118193540 118204857
+            HRO: HELRODRAFT_189320
+            LGI: LOTGIDRAFT_182709
+            PCAN: 112572591
+            BGT: 106055584 106063071
+            GAE: 121369046
+            HRF: 124120949
+            HRJ: 124276571
+            CRG: 105330021
+            MYI: 110452629
+            PMAX: 117330291
+            MMER: 123528624
+            OBI: 106877209
+            OSN: 115212743
+            LAK: 106164039
+            SMM: Smp_045260
+            SHX: MS3_00006606(ALAS1_1)
+            OVI: T265_02686
+            EGL: EGR_09147
+            NVE: 5518255
+            EPA: 110243027
+            ATEN: 116307294
+            ADF: 107350246
+            AMIL: 114953733
+            PDAM: 113686641
+            SPIS: 111335648
+            DGT: 114521902
+            XEN: 124435411
+            HMG: 100213708
+            TAD: TRIADDRAFT_55298
+            AQU: 100637067
+            QSU: 112001172 112003544
+            SCE: YDR232W(HEM1)
+            SEUB: DI49_0413
+            SPAO: SPAR_D04300
+            AGO: AGOS_ABL104C
+            ERC: Ecym_5125
+            KLA: KLLA0_C15059g
+            KMX: KLMA_30530(HEM1)
+            LTH: KLTH0E10538g
+            VPO: Kpol_1031p56
+            ZRO: ZYRO0A10032g
+            CGR: CAGL0B02607g
+            NCS: NCAS_0B02680(NCAS0B02680)
+            NDI: NDAI_0C05010(NDAI0C05010)
+            TPF: TPHA_0L01140(TPHA0L01140)
+            TBL: TBLA_0A01440(TBLA0A01440)
+            TGB: HG536_0H01860
+            TDL: TDEL_0B01820(TDEL0B01820)
+            KAF: KAFR_0E02710(KAFR0E02710)
+            KNG: KNAG_0A04260(KNAG0A04260)
+            ZMK: HG535_0F05000
+            PPA: PAS_chr2-1_0716
+            DHA: DEHA2B05478g
+            PIC: PICST_89623(HEM1)
+            PGU: PGUG_00819
+            SPAA: SPAPADRAFT_59870(HEM1)
+            LEL: LELG_00121
+            CAL: CAALFM_CR02000CA(HEM1)
+            CTP: CTRG_00881
+            COT: CORT_0A01140
+            CDU: CD36_26880
+            CTEN: CANTEDRAFT_114653
+            YLI: YALI0C06083g
+            CLU: CLUG_03673
+            CLUS: A9F13_01g04851
+            CAUR: CJI97_002548
+            SLB: AWJ20_1310(HEM1)
+            PKZ: C5L36_0C07180
+            BNN: FOA43_004499(HEM1)
+            BBRX: BRETT_002313(HEM1)
+            OPA: HPODL_04865
+            SLUD: SCDLUD_001923
+            NCR: NCU06189
+            NTE: NEUTE1DRAFT146158(NEUTE1DRAFT_146158)
+            SMP: SMAC_05362
+            PAN: PODANSg4834
+            TTT: THITE_2119559
+            MTM: MYCTH_2304147
+            CTHR: CTHT_0024010
+            MGR: MGG_06446
+            PPEI: PpBr36_06035
+            TMN: UCRPA7_1659
+            SSCK: SPSK_02321
+            FGR: FGSG_07266
+            FPU: FPSE_01114
+            FVR: FVEG_05314
+            FOX: FOXG_02151
+            NHE: NECHADRAFT_68614
+            TRE: TRIREDRAFT_57947
+            TRR: M419DRAFT_71023
+            MAW: MAC_00606
+            MAJ: MAA_05937
+            CMT: CCM_01504
+            PLJ: VFPFJ_05648
+            VDA: VDAG_06343
+            CFJ: CFIO01_10599
+            CLUP: CLUP02_03608
+            CHIG: CH63R_02667 CH63R_06551
+            SAPO: SAPIO_CDS2968
+            ELA: UCREL1_3544
+            PFY: PFICI_02734
+            SSL: SS1G_06936
+            BFU: BCIN_10g03090(Bchem1)
+            MBE: MBM_00994
+            PSCO: LY89DRAFT_202082
+            GLZ: GLAREA_13075
+            ANI: AN2284.2
+            AFM: AFUA_5G06270
+            ACT: ACLA_009580
+            NFI: NFIA_036860
+            AOR: AO090009000630
+            ANG: ANI_1_472154(An17g01480)
+            AFV: AFLA_010740
+            ALUC: AKAW2_70834S(HEM1)
+            ACHE: ACHE_20491S(HEM1)
+            APUU: APUU_20614A(HEM1)
+            PCS: Pc22g13500
+            PDP: PDIP_54060
+            TMF: PMAA_084830
+            TRG: TRUGW13939_08017
+            CIM: CIMG_06055
+            CPW: CPC735_026260
+            URE: UREG_04321
+            PBL: PAAG_00397
+            PBN: PADG_02278
+            ABE: ARB_04050
+            TVE: TRV_04844
+            AJE: HCAG_01937
+            BGH: BDBG_03855
+            PNO: SNOG_09357(DQ167577)
+            PTE: PTT_15437
+            BZE: COCCADRAFT_29610
+            BSC: COCSADRAFT_197357
+            BOR: COCMIDRAFT_2093
+            AALT: CC77DRAFT_1021013
+            ZTR: MYCGRDRAFT_105601(ALS1)
+            PFJ: MYCFIDRAFT_57285
+            FFU: CLAFUR5_07667
+            BCOM: BAUCODRAFT_437936
+            NPA: UCRNP2_5519
+            TML: GSTUM_00007887001
+            SPO: SPAC2F3.09(hem1)
+            CNE: CNB04260
+            CNB: CNBB1490
+            CNG: CNAG_03939
+            CGI: CGB_A1710W
+            TMS: TREMEDRAFT_43654
+            TASA: A1Q1_08006
+            TVS: TRAVEDRAFT_27324
+            DSQ: DICSQDRAFT_57308
+            PCO: PHACADRAFT_249961
+            SHS: STEHIDRAFT_120398
+            HIR: HETIRDRAFT_381754
+            PSQ: PUNSTDRAFT_50991
+            ADL: AURDEDRAFT_110589
+            FME: FOMMEDRAFT_110564
+            GTR: GLOTRDRAFT_114233
+            LBC: LACBIDRAFT_187624
+            CCI: CC1G_00058
+            ABP: AGABI1DRAFT120486(AGABI1DRAFT_120486)
+            ABV: AGABI2DRAFT219335(AGABI2DRAFT_219335)
+            PCUB: JR316_0004695
+            MRR: Moror_17625
+            MORE: E1B28_004550(HEM1)
+            SCM: SCHCO_02623956(SCHCODRAFT_02623956)
+            CPUT: CONPUDRAFT_165123
+            SLA: SERLADRAFT_435088
+            WSE: WALSEDRAFT_53868
+            WIC: J056_002492
+            UMA: UMAG_05059
+            PFP: PFL1_04696
+            MGL: MGL_3066
+            MRT: MRET_3678
+            MSYM: MSY001_1223
+            PGR: PGTG_16892
+            PFA: PF3D7_1246100
+            PFH: PFHG_04906
+            PREI: PRSY57_1245500
+            PGAB: PGSY75_1246100
+            PYO: PY17X_1461800
+            PCB: PCHAS_1461500
+            PBE: PBANKA_1459200
+            PVV: PVVCY_1406130
+            PKN: PKNH_1465700
+            PVX: PVX_101195
+            PCY: PCYB_147050
+            CTEL: GBC03_14640(hemA)
+            SMAR: SM39_1297
+            SMAC: SMDB11_1078
+            SMW: SMWW4_v1c17770
+            SPE: Spro_1830
+            SRR: SerAS9_1777
+            SRL: SOD_c16560(hemA1)
+            SRY: M621_09175
+            SRS: SerAS12_1777
+            SRA: SerAS13_1778
+            SLQ: M495_08515
+            SERF: L085_19580
+            SERS: SERRSCBI_08555
+            SQU: E4343_07035(hemA)
+            SSUR: ATE40_005690
+            SURI: J0X03_14820(hemA)
+            SENP: KHA73_09155(hemA)
+            SNEM: NLX84_08980(hemA)
+            RBAD: H2866_17150(hemA)
+            XBU: HGO23_02905(hemA)
+            LRZ: BJI69_15345
+            PMK: MDS_2891
+            PFUW: KF707C_21700
+            PFV: Psefu_2141
+            PSET: THL1_3454
+            PKH: JLK41_12680(hemA)
+            PHF: NLY38_14400(hemA)
+            PSR: PSTAA_2412
+            PSJ: PSJM300_10750
+            PSTU: UIB01_09575
+            PSED: DM292_07160(hemA)
+            PCHL: LLJ08_08985(hemA)
+            EAZ: JHT90_04760(hemA)
+            ABAB: BJAB0715_01015
+            TVD: SG34_031450(hemA)
+            MICZ: GL2_20400
+            PSAL: PSLF89_1177
+            CVI: CV_0803
+            BSTG: WT74_19715
+            BPT: Bpet1325
+            RPR: RP841(RP841)
+            RPO: MA1_04065
+            RPW: M9W_04075
+            RPZ: MA3_04110
+            RPG: MA5_01155
+            RPS: M9Y_04080
+            RPV: MA7_04065
+            RPQ: rpr22_CDS821(hemA)
+            RPL: H375_6770
+            RPN: H374_2000
+            RTY: RT0829(hemA)
+            RTT: RTTH1527_03980
+            RTB: RTB9991CWPP_03980
+            RCM: A1E_05390
+            RCC: RCA_05005
+            RBE: RBE_0631(hemA)
+            RBO: A1I_04395
+            RCO: RC1303(hemA)
+            RHE: Rh054_07075
+            RFE: RF_1334(hemA)
+            RAK: A1C_06520
+            RRI: A1G_07150
+            RRJ: RrIowa_1528
+            RRA: RPO_07200
+            RRC: RPL_07195
+            RRH: RPM_07170
+            RRB: RPN_07255
+            RRN: RPJ_07160
+            RRP: RPK_07120
+            RRM: RRM_06705
+            RRR: RRR_06685
+            RMS: RMA_1326(hemA)
+            RMI: RMB_06965
+            RPK: RPR_04980
+            RAF: RAF_ORF1193(hemA)
+            RJA: RJP_0957(hemA)
+            RSV: Rsl_1486(hemA)
+            RSW: MC3_07225
+            RPH: RSA_07180
+            RAU: MC5_01295
+            RMO: MCI_03790
+            RPP: MC1_07190
+            RRE: MCC_00105
+            RAM: MCE_00095
+            RAB: AL573_00090
+            RMC: RMONA_01440(hemA)
+            RAS: RAS_14510(hemA)
+            RTL: H6P87_01318(hemA)
+            RIC: BA173_05590
+            OTS: OTBS_0349(hemA)
+            OTT: OTT_1072
+            MENM: LF888_01840(hemA)
+            WOL: WD_1279(hemA)
+            WRI: WRi_013060(hemA)
+            WEN: wHa_10640
+            WED: wNo_04400(hemA)
+            WPI: WP0778(hemA)
+            WBM: Wbm0133
+            WOO: wOo_05590
+            WCL: WCLE_008970(hemA)
+            WEO: ASM33_01860(hemA)
+            WPP: DEJ70_00605(hemA)
+            WEC: wCauA_03150(hemA)
+            WDM: EJB00_05780(hemA)
+            WEB: WBP_0675(hemA)
+            WES: JKF54_03260(hemA)
+            WEA: EA652_1303(hemA)
+            WEM: CAI20_01280
+            WEY: wYak_11790(hemA)
+            WEL: GOY07_02320(hemA)
+            WET: GOY13_00185(hemA)
+            WEW: HUB92_03040(hemA)
+            WER: wSan_12020(hemA)
+            WEF: GOY12_00375(hemA)
+            WEP: JSQ73_004035(hemA)
+            WEH: J4T77_06490(hemA)
+            WEE: LOK48_03770(hemA)
+            WEG: L0Z57_06350(hemA)
+            WEU: GOY14_03025(hemA)
+            WEJ: L2227_04375(hemA)
+            SSIV: MJ631_07330(hemA)
+            WEX: M1L25_001123(hemA)
+            WEK: M1L26_001128(hemA)
+            WEQ: NHG98_02035(hemA)
+            WEV: ONI09_06575(hemA)
+            AMA: AM1202(hemA)
+            AMF: AMF_905(hemA)
+            AMW: U370_04480
+            AMP: U128_04670
+            ACN: ACIS_00197(hemA)
+            APH: APH_1243(hemA)
+            APY: YYU_05740
+            APD: YYY_05815
+            APHA: WSQ_05805
+            AOH: AOV_05070(hemA)
+            ERU: Erum0630(hemA)
+            ERW: ERWE_CDS_00540(hemA)
+            ERG: ERGA_CDS_00530(hemA)
+            ECN: Ecaj_0056
+            ECH: ECH_0092(hemA)
+            ECHA: ECHHL_0972(hemA)
+            ECHJ: ECHJAX_0993(hemA)
+            ECHL: ECHLIB_0994(hemA)
+            ECHS: ECHOSC_0987(hemA)
+            ECHV: ECHSTV_0975(hemA)
+            ECHW: ECHWAK_0986(hemA)
+            ECHP: ECHWP_0967(hemA)
+            EMR: EMUR_00240
+            EHH: EHF_0952(hemA)
+            NSE: NSE_0826(hemA)
+            NRI: NRI_0797(hemA)
+            NHM: NHE_0791(hemA)
+            NEF: GP480_03355(hemA)
+            NMIK: LUA81_02260(hemA)
+            MMN: midi_00769(hemA)
+            RBT: NOVO_03265(hemA)
+            REN: EF513_01135(hemA)
+            PACA: ID47_09415
+            CAQ: IM40_08980
+            NAF: GQ61_06505
+            EAA: I862_01820
+            MLO: mll5695 mll6600
+            MLN: A9174_15055 A9174_33195
+            MCI: Mesci_5952
+            MCIC: A4R28_28830
+            MOP: Mesop_6047 Mesop_6605
+            MAM: Mesau_02488 Mesau_05977
+            MAMO: A6B35_08110
+            MESW: A9K65_031940
+            MESM: EJ066_11510(hemA)
+            MESP: C1M53_23615(hemA)
+            MHUA: MCHK_0098(hemA) MCHK_3914(hemA)
+            MJR: EB229_15235(hemA) EB229_33975(hemA)
+            MERD: EB233_28310(hemA) EB233_31760(hemA)
+            MESR: FGU64_20190(hemA)
+            MOH: IHQ72_31480(hemA) IHQ72_35065(hemA)
+            MESO: BSQ44_06705
+            MES: Meso_0088
+            HOE: IMCC20628_02054
+            AAK: AA2016_5288
+            AMIH: CO731_05022(hemA)
+            PHT: BLM14_14905 BLM14_19665
+            PHYL: HB779_08165(hemA)
+            RPOD: E0E05_05010(hemA) E0E05_11840(hemA)
+            NIY: FQ775_16730(hemA)
+            NKI: KW403_11365(hemA)
+            ORM: HTY61_03345(hemA) HTY61_10400(hemA)
+            PLA: Plav_2905
+            PMOB: HG718_05850(hemA)
+            KMN: HW532_20725(hemA)
+            RBS: RHODOSMS8_01231(hemA)
+            SME: SMc03104(hemA)
+            SMK: Sinme_3043 Sinme_6249
+            SMQ: SinmeB_2817 SinmeB_5086
+            SMX: SM11_chr3166(hemA) SM11_pC0590(hemA)
+            SMI: BN406_02845(hemA) BN406_04785(hemA)
+            SMEG: C770_GR4Chr3127
+            SMEL: SM2011_c03104(hemA)
+            SMER: DU99_16490 DU99_20795
+            SMD: Smed_2880
+            RHI: NGR_c30700(hemA)
+            SFH: SFHH103_03095(hemA) SFHH103_05259(hemA)
+            SFD: USDA257_c55130(hemA1) USDA257_c56620(hemA2)
+            SIX: BSY16_3542(hemA)
+            SAME: SAMCFNEI73_Ch3434(hemA)
+            SINO: SS05631_c34370
+            EAD: OV14_0545(hemA)
+            EAH: FA04_16240
+            ESJ: SJ05684_c30760
+            EAK: EKH55_2952
+            EMX: FKV68_18950(hemA) FKV68_21760(hemA) FKV68_28775(hemA)
+            ATU: Atu2613(hemA)
+            ARA: Arad_4265(hemAch)
+            ATA: AWN88_17950
+            AGR: AGROH133_08807(hemA)
+            ATF: Ach5_24980(hemA)
+            AGC: BSY240_3160(hemA) BSY240_3658(hemA)
+            ARO: B0909_25090(hemA)
+            AGT: EYD00_11150(hemA)
+            ALF: CFBP5473_02350(hemA)
+            ARUI: G6M88_06505(hemA)
+            AVQ: HRR99_13410(hemA)
+            AVV: RvVAT039_14180(hemA)
+            AVF: RvVAR031_01220(hemA)
+            AVI: Avi_4085(hemA)
+            RET: RHE_CH03846(hemAch) RHE_PF00489(hemAf)
+            REC: RHECIAT_CH0004127(hemA)
+            REL: REMIM1_CH03935(hemA-1) REMIM1_PE00265(hemA-2) REMIM1_PF00234(hemA-3)
+            REP: IE4803_CH04227(hemA)
+            REI: IE4771_CH04169(hemA)
+            RLE: RL4379(hemA1) pRL90008(hemA)
+            RLT: Rleg2_3624
+            RLG: Rleg_3912
+            RLB: RLEG3_30650
+            RLU: RLEG12_29565
+            RTR: RTCIAT899_CH16580(hemA)
+            RIR: BN877_I2698(hemA)
+            RPUS: CFBP5875_11485(hemA)
+            RHL: LPU83_3877(hemA)
+            RGA: RGR602_CH03766(hemA-1) RGR602_PC02074(hemA-2)
+            RHN: AMJ98_CH04072(hemA-1) AMJ98_PB00118(hemA-2)
+            RPHA: AMC79_CH04057(hemA-1) AMC79_PA00156(hemA-2)
+            RHX: AMK02_CH03970(hemA-1) AMK02_PB00132(hemA-2)
+            RHV: BA939_07665
+            RHK: Kim5_CH04204(hemA)
+            REZ: AMJ99_CH04123(hemA-1) AMJ99_PA00118(hemA-2)
+            RJG: CCGE525_19525(hemA)
+            RHR: CKA34_19485(hemA)
+            RGR: FZ934_20640(hemA)
+            RAD: CO657_18610(hemA)
+            ROY: G3A56_12705(hemA)
+            RII: FFM53_015110(hemA)
+            RHID: FFM81_001585(hemA)
+            RBQ: J2J99_20390(hemA) J2J99_26195(hemA)
+            RLN: J0663_07190(hemA) J0663_28965(hemA)
+            RBAN: J2J98_19575(hemA) J2J98_28580(hemA)
+            RRG: J3P73_00605(hemA) J3P73_22670(hemA)
+            RLS: HB780_23515(hemA)
+            RROS: D4A92_02685(hemA) D4A92_04555(hemA)
+            RAW: NE851_10285(hemA) NE851_31195(hemA)
+            RSUL: N2599_16400(hemA) N2599_26165(hemA)
+            RLW: RlegWSM1455_19765(hemA)
+            NGL: RG1141_CH35700
+            NGG: RG540_CH36340
+            NEO: CYG48_13440(hemA)
+            NEN: NCHU2750_33880(hemA)
+            RHT: NT26_3460(hemA)
+            RFV: RFYW14_03353
+            LAS: CLIBASIA_02455(hemA)
+            LAA: WSI_02940
+            LAT: CGUJ_02455(hemA)
+            LSO: CKC_00275
+            LCC: B488_11640
+            LAR: lam_1026(bioF)
+            LAU: G293_03375
+            SHZ: shn_19130
+            SZO: K8M09_15220(hemA)
+            SOJ: K6301_13120(hemA)
+            ABAW: D5400_04940(hemA) D5400_04985(hemA)
+            PDES: FE840_002375(hemA) FE840_003125(hemA)
+            KAI: K32_02660
+            BME: BMEI1604
+            BMEL: DK63_1887(hemA)
+            BMI: BMEA_A0357(hemA)
+            BMZ: BM28_A0350
+            BMG: BM590_A0347
+            BMW: BMNI_I0345
+            BMEE: DK62_1065(hemA)
+            BMF: BAB1_0349
+            BMB: BruAb1_0345(hemA)
+            BMC: BAbS19_I03190
+            BAA: BAA13334_I03411
+            BABO: DK55_367(hemA)
+            BABR: DO74_1520(hemA)
+            BABT: DK49_130(hemA)
+            BABB: DK48_1759(hemA)
+            BABU: DK53_357(hemA)
+            BABS: DK51_1108(hemA)
+            BABC: DO78_274(hemA)
+            BMS: BR0319(hemA)
+            BSI: BS1330_I0320(hemA)
+            BSF: BSS2_I0315(hemA)
+            BSUI: BSSP1_I0336(hemA)
+            BSUP: BSPT1_I0341(hemA)
+            BSUV: BSPT2_I0338(hemA)
+            BSUC: BSSP2_I0337(hemA)
+            BMT: BSUIS_A0348(hemA)
+            BSZ: DK67_1262(hemA)
+            BSV: BSVBI22_A0320(hemA)
+            BSW: IY71_01700
+            BSG: IY72_01425
+            BOV: BOV_0335(hemA)
+            BCS: BCAN_A0328(hemA)
+            BSK: BCA52141_I1172
+            BOL: BCOUA_I0319(hemA)
+            BCAR: DK60_415(hemA)
+            BCAS: DA85_01565
+            BMR: BMI_I325(hemA)
+            BPP: BPI_I354(hemA)
+            BPV: DK65_1024(hemA)
+            BCET: V910_101625
+            BVL: BF3285c1_0359(hemA)
+            BRU: BFS01_01665
+            BRJ: BKD03_09190
+            OIN: IAR37_04750(hemA)
+            BIO: BR141012304_10227
+            OAN: Oant_0412
+            OAH: DR92_2529(hemA)
+            OPS: A8A54_01330
+            BPSN: NIK97_10995(hemA)
+            OCH: CES85_0349(hemA)
+            OCR: HGK82_01335(hemA)
+            OCL: GTN27_01810(hemA)
+            PSCQ: KHQ08_04885(hemA)
+            BJA: bll1200(hemA)
+            BJU: BJ6T_86620(hemA)
+            BJP: RN69_41825
+            BRA: BRADO1266(hemA) BRADO1651(hemA) BRADO3594(hemA) BRADO6672(hemA)
+            BBT: BBta_0861(hemA) BBta_4023(hemA) BBta_6405(hemA)
+            BRS: S23_08200(hemA) S23_19500(hemA)
+            AOL: S58_07840 S58_30930 S58_37560 S58_58870 S58_60380
+            BRC: BCCGELA001_33620
+            BRAD: BF49_4033
+            BIC: LMTR13_03045 LMTR13_14120
+            BRO: BRAD285_3726(hemA) BRAD285_5750(hemA) BRAD285_6737(hemA)
+            BRK: CWS35_10400(hemA)
+            BOT: CIT37_16115(hemA)
+            BRQ: CIT40_02395(hemA) CIT40_23780(hemA)
+            BGQ: X265_33895(hemA)
+            BGZ: XH91_02800(hemA) XH91_32305(hemA)
+            BSYM: CIT39_00860(hemA)
+            BBET: F8237_19010(hemA) F8237_24835(hemA)
+            BARH: WN72_45270(hemA)
+            BVZ: BRAD3257_0817(hemA)
+            BEL: BE61_15920(hemA)
+            BDG: LPJ38_01210(hemA)
+            BSEP: HAP48_0011615(hemA)
+            BQB: J4P68_0015485(hemA)
+            BSEI: KMZ68_04045(hemA) KMZ68_10960(hemA) KMZ68_20365(hemA)
+            BBAN: J4G43_048445(hemA)
+            BCAN: BcanWSM471_05155(hemA)
+            RPA: RPA0854(hemO) RPA1554(hemA)
+            RPB: RPB_3969 RPB_4563
+            RPC: RPC_1325 RPC_4824
+            RPD: RPD_0838 RPD_2301 RPD_3724
+            RPE: RPE_1359 RPE_4787
+            RPT: Rpal_0922 Rpal_1742
+            RPX: Rpdx1_1021 Rpdx1_3966
+            RBK: E0H22_03525(hemA)
+            NWI: Nwi_0242
+            NHA: Nham_0276
+            OCA: OCAR_4706(hemA)
+            OCG: OCA5_c32440(hemA)
+            OCO: OCA4_c31920(hemA)
+            VGO: GJW-30_1_00395(hemA)
+            TRB: HB776_26720(hemA)
+            BOP: AXW83_20405
+            BOS: BSY19_344(hemA) BSY19_4047(hemA)
+            BVV: BHK69_05290
+            BOI: BLM15_21305
+            BOF: FQV39_19475(hemA)
+            XAU: Xaut_2126
+            XDI: EZH22_05470(hemA)
+            AZC: AZC_0334
+            SNO: Snov_0094
+            STAR: G3545_16515(hemA)
+            LNE: FZC33_27070(hemA)
+            ANC: GBB76_15410(hemA)
+            APRA: G3A50_12815(hemA)
+            APOL: K9D25_02430(hemA)
+            MEA: Mex_1p1968(hemA) Mex_1p5261(hemA) Mex_2p1124(hemT)
+            MDI: METDI2755(hemA) METDI5861(hemA)
+            MEX: Mext_1989 Mext_4804
+            MCH: Mchl_2266 Mchl_5271
+            MPO: Mpop_1944 Mpop_5349
+            MZA: B2G69_06005 B2G69_17405 B2G69_25245
+            MRD: Mrad2831_1836 Mrad2831_3508
+            MET: M446_2643 M446_3442 M446_3730
+            MNO: Mnod_2107 Mnod_4932
+            MOR: MOC_2240 MOC_4021
+            META: Y590_09500 Y590_24550
+            MAQU: Maq22A_c01740(bioF)
+            MPHY: MCBMB27_01458 MCBMB27_02992
+            MEE: DA075_04110(hemA) DA075_16360(hemA)
+            METD: C0214_11340(hemA) C0214_26290(hemA)
+            METX: A3862_13915 A3862_21745
+            METS: DK389_01010(hemA) DK389_02390(hemA) DK389_05920(hemA) DK389_11040(hemA)
+            METI: DK427_03695(hemA) DK427_05500(hemA) DK427_17960(hemA) DK427_20350(hemA)
+            MMES: MMSR116_00700(hemA) MMSR116_22310(hemA) MMSR116_30740(hemA)
+            MTEA: DK419_05070(hemA) DK419_20680(hemA)
+            MIND: mvi_09290(hemA_1) mvi_14240(hemA_2)
+            MOG: MMB17_06865(hemA) MMB17_13915(hemA)
+            MTAD: M6G65_04600(hemA) M6G65_18925(hemA) M6G65_20815(hemA)
+            MOC: BB934_07155 BB934_22200
+            MIV: C4E04_16360(hemA)
+            MICO: GDR74_05065(hemA)
+            BID: Bind_3210
+            MSL: Msil_1167 Msil_2030
+            MTUN: MTUNDRAET4_0643(hemA)
+            MLG: CWB41_03490(hemA)
+            RHJ: HZY79_05475(hemA)
+            BBAR: RHAL1_02861(hemA)
+            CHEL: AL346_11530
+            CDQ: BOQ54_03745
+            HDN: Hden_0959
+            HDT: HYPDE_33028
+            HMC: HYPMC_2777(hemA)
+            HNI: W911_09330
+            RVA: Rvan_3500
+            FIL: BN1229_v1_3345(hemA)
+            FIY: BN1229_v1_2577(hemA)
+            RHZ: RHPLAN_63520
+            MCG: GL4_3176
+            METG: HT051_09175(hemA)
+            NTD: EGO55_02085(hemA)
+            CAEN: K5X80_11515(hemA)
+            PHL: KKY_389
+            PEM: OF122_16410(hemA)
+            DEQ: XM25_00055
+            DEI: C4375_04300(hemA)
+            DEA: FPZ08_21650(hemA)
+            DSAL: K1X15_02210(hemA)
+            DEVO: H4N61_01720(hemA)
+            MMYR: MXMO3_02908
+            YTI: FNA67_04080(hemA)
+            BVR: BVIR_560
+            BLAG: BLTE_01450(hemA)
+            MSC: BN69_2223
+            MBRY: B1812_05585 B1812_20730
+            MROS: EHO51_14330(hemA) EHO51_17230(hemA)
+            MHEY: H2LOC_007685(hemA)
+            MPAR: F7D14_06175(hemA)
+            MTW: CQW49_19185(hemA)
+            CMET: K6K41_01605(hemA) K6K41_11875(hemA)
+            PLEO: OHA_1_03808(hemA)
+            HDI: HDIA_4756(hemA)
+            MEY: TM49_08770
+            MAAD: AZF01_14210
+            MMED: Mame_01039(hemA)
+            MLUT: JET14_15845(hemA)
+            AUA: M673_09075
+            AALA: IGS74_08845(hemA)
+            AUZ: Sa4125_09600 Sa4125_27660(hemA)
+            AUB: LXB15_14470(hemA)
+            JIE: OH818_14015(hemA)
+            BRN: D1F64_05980(hemA)
+            THD: BHV28_11900
+            PSIN: CAK95_05360
+            NOH: G5V57_26035(hemA)
+            TSO: IZ6_26160
+            RBM: TEF_17980
+            PSF: PSE_1769
+            PPHR: APZ00_21405
+            LAP: ACP90_05580
+            LABR: CHH27_15060(hemA)
+            LABP: FJ695_08425(hemA) FJ695_27580(hemA)
+            LABT: FIU93_11220(hemA1) FIU93_29230(hemA2)
+            LAGG: B0E33_17135 B0E33_29305
+            SIW: GH266_14060(hemA)
+            PHR: C6569_19205(hemA)
+            PSTG: E8M01_12560(hemA)
+            LIZ: LGH83_10210(hemA)
+            ACUT: MRB58_05020(hemA)
+            CCR: CC_1355
+            CCS: CCNA_01417
+            CAK: Caul_3049
+            CSE: Cseg_1655
+            CHQ: AQ619_09980
+            CMB: CSW64_10275(hemA)
+            CFH: C1707_22405(hemA)
+            CAUF: CSW63_13985(hemA)
+            CAUL: KCG34_03605(hemA)
+            PZU: PHZ_c1677(hemA) PHZ_c2795
+            PHB: HYN04_06220(hemA)
+            BSB: Bresu_1881 Bresu_2093 Bresu_3076
+            BRD: JL11_12725
+            BNE: DA69_03390 DA69_05465
+            BRG: A4249_06055
+            BRL: BZG35_09420 BZG35_15600
+            BVC: CEP68_00080(hemA)
+            BDM: EQG53_01395(hemA) EQG53_10975(hemA)
+            BRF: E4M01_10540(hemA)
+            BREV: E7T10_09470(hemA)
+            BMED: GYM46_16195(hemA)
+            BVY: NCTC9239_00305(hemA_1) NCTC9239_01758(hemA_2)
+            BND: KWG56_05255(hemA)
+            BPON: IFE19_10260(hemA)
+            BGOE: IFJ75_08775(hemA)
+            BVIT: JIP62_01700(hemA)
+            BALB: M8231_07420(hemA)
+            AEX: Astex_2947
+            TSV: DSM104635_02145(hemA)
+            SIL: SPO2596(hemA-1) SPOA0194(hemA-2)
+            SIT: TM1040_0860
+            RUA: D1823_03610(hemA) D1823_09060(hemA) D1823_20190(hemA)
+            RUT: FIU92_04345(hemA1) FIU92_09320(hemA2) FIU92_10100(hemA3) FIU92_19560(hemA4)
+            RCON: K3740_10330(hemA) K3740_17580(hemA)
+            JAN: Jann_0149(hemA) Jann_1933
+            RDE: RD1_0127(hemA) RD1_1576(hemA) RD1_2827(hemA) RD1_3778(hemA)
+            RLI: RLO149_c006660(hemA3) RLO149_c016130(hemA1) RLO149_c031270(hemA2) RLO149_p940830(hemA)
+            RPON: G3256_09765(hemA) G3256_19045(hemA)
+            DSH: Dshi_1182(hemA2) Dshi_3190(hemA3) Dshi_3546(hemA1)
+            KVL: KVU_0696(hemA)
+            KVU: EIO_1198
+            KRO: BVG79_00966(hemA)
+            PGA: PGA1_c20350(hemA)
+            PGL: PGA2_c19240(hemA)
+            PGD: Gal_01363
+            PHP: PhaeoP97_02036(hemA)
+            PPIC: PhaeoP14_01847(hemA)
+            PHQ: D1820_05650(hemA)
+            OAT: OAN307_c28800(hemA)
+            OAR: OA238_c11400(hemA)
+            OTM: OSB_13290(hemA_1) OSB_17300(hemA_2)
+            OCT: FTO60_04305(hemA) FTO60_08780(hemA) FTO60_10275(hemA)
+            LMD: METH_11545
+            LEJ: ETW24_12185(hemA)
+            LAQU: R2C4_06795(hemA)
+            LEV: ETW23_07425(hemA)
+            LCAE: K3721_10545(hemA)
+            RED: roselon_01110 roselon_02257 roselon_03095
+            CID: P73_2911
+            CMAR: IMCC12053_215
+            CEH: CEW89_04855(hemA)
+            MALG: MALG_01543
+            CON: TQ29_10940
+            YPAC: CEW88_16470(hemA) CEW88_17640(hemA) CEW88_19560(hemA) CEW88_19565
+            YAN: AYJ57_01975 AYJ57_12025
+            TPRO: Ga0080559_TMP3416
+            PABY: Ga0080574_TMP4619
+            SUAM: BOO69_09850 BOO69_19130
+            SULZ: C1J03_13365(hemA) C1J03_15050(hemA)
+            SULI: C1J05_12790(hemA) C1J05_18550(hemA)
+            SULD: B5M07_10645
+            SPOT: G6548_08975(hemA)
+            SMED: JNX03_03410(hemA)
+            SINL: DSM14862_01239(hemA)
+            SFAV: PL335_06010(hemA)
+            SPSE: SULPSESMR1_01230(hemA)
+            TOM: BWR18_05770 BWR18_20135
+            RMM: ROSMUCSMR3_00781(hemA) ROSMUCSMR3_00893(hemA)
+            ROK: RAK1035_3652 RAK1035_3763
+            RID: RIdsm_01767(hemA_1) RIdsm_03187(hemA_2)
+            ROM: EI983_05490(hemA) EI983_08800(hemA) EI983_10350(hemA)
+            ROH: FIU89_03920(hemA1) FIU89_08435(hemA2) FIU89_14165(hemA3)
+            AHT: ANTHELSMS3_01170 ANTHELSMS3_03211
+            SAGU: CDO87_20450(hemA)
+            THAA: CFI11_09490(hemA) CFI11_23900(hemA)
+            OCD: FHY55_11905(hemA)
+            MARU: FIU81_09745(hemA1) FIU81_10255(hemA2) FIU81_16425(hemA3)
+            ROT: FIV09_11250(hemA1) FIV09_18215(hemA2)
+            RMH: LVO79_06605(hemA) LVO79_15005(hemA)
+            MALU: KU6B_00990(hemA_1) KU6B_16540(hemA_2) KU6B_26170(hemA_3)
+            TGL: HFZ77_03970(hemA)
+            TMD: KUV46_13225(hemA)
+            HAT: RC74_15095
+            PALX: GQA70_09435(hemA)
+            LSAL: KBK07_05605(hemA)
+            RSP: RSP_2984(hemA) RSP_3028(hemT)
+            RSH: Rsph17029_1630 Rsph17029_3755
+            RSQ: Rsph17025_1863
+            RSK: RSKD131_1307 RSKD131_3169
+            CAZT: LV780_08195(hemA)
+            RCP: RCAP_rcc01447(hemA)
+            RHP: LPB142_10675
+            RBL: B6K69_02755 B6K69_03540
+            PDE: Pden_1822
+            PAMI: JCM7686_1341
+            PYE: A6J80_04005(hemA)
+            PCON: B0A89_01865
+            PZH: CX676_07170(hemA)
+            PARO: CUV01_15015(hemA)
+            PARU: CYR75_03715(hemA)
+            PAMN: JCM7685_1352
+            PMUT: DPM13_01890(hemA)
+            PARS: DRW48_07165(hemA)
+            PARR: EOJ32_11380(hemA)
+            PAAK: FIU66_10400(hemA)
+            PKD: F8A10_06575(hemA)
+            PPAN: ESD82_05385(hemA)
+            PLIA: E4191_04995(hemA)
+            PSAN: HGN31_03745(hemA)
+            PMAU: CP157_01467(hemA)
+            PMEH: JWJ88_04310(hemA)
+            PSEW: JHW44_10350(hemA)
+            PTP: RCA23_c00210(hemA1) RCA23_c17320(hemA2) RCA23_c29800(hemA3)
+            RSU: NHU_02973
+            RHM: B5V46_05455
+            RHC: RGUI_0382
+            RMB: K529_009115
+            DAA: AKL17_2029
+            DON: BSK21_03800 BSK21_10430
+            RBZ: B9057_03175 B9057_09705
+            THW: BMG03_12510
+            TEC: AKL02_012065(hemA)
+            LVS: LOKVESSMR4R_01187(hemA) LOKVESSMR4R_03616(hemA)
+            RBG: BG454_02140(hemA) BG454_02860(hemA)
+            GEH: HYN69_05355(hemA) HYN69_07690(hemA)
+            GFU: KM031_01670(hemA)
+            TAW: EI545_18775(hemA) EI545_19820(hemA)
+            SALO: EF888_08365(hemA)
+            SEDI: EBB79_03335(hemA) EBB79_07890(hemA)
+            HML: HmaOT1_08935(hemA)
+            BOO: E2K80_07375(hemA)
+            PSEB: EOK75_13195(hemA)
+            LIT: FPZ52_03975(hemA)
+            PPRU: FDP22_06165(hemA)
+            PAED: G5B38_04110(hemA)
+            MON: G8E03_14785(hemA)
+            PAMO: BAR1_10235(hemA)
+            PSHQ: F3W81_05740(hemA)
+            POZ: I0K15_13115(hemA) I0K15_16960(hemA)
+            PALW: PSAL_006280(hemA)
+            PPAF: I8N54_09240(hemA)
+            PGV: SL003B_2021(hemA)
+            CACT: HZ995_11895(hemA) HZ995_14460(hemA)
+            THAS: C6Y53_16150(hemA)
+            HDH: G5B40_19275(hemA)
+            CMAG: CBW24_10250
+            FAP: GR316_01655(hemA)
+            GCE: KYE46_11990(hemA)
+            NSM: JO391_07905(hemA) JO391_16295(hemA)
+            ACRO: K3J57_04825(hemA)
+            SINR: O5O51_09050(hemA)
+            AALK: LGT41_0012380(hemA)
+            FAQ: G5B39_09040(hemA)
+            AMAQ: GO499_16015(hemA)
+            MMR: Mmar10_1540
+            GAK: X907_1671
+            HYT: HXX25_05185(hemA)
+            HNE: HNE_2062(hemA)
+            HBA: Hbal_1370
+            CBOT: ATE48_01170
+            HBC: AEM38_07360 AEM38_14665
+            ZMO: ZMO1198
+            ZMN: Za10_0131
+            ZMM: Zmob_0132
+            ZMB: ZZ6_0134
+            ZMI: ZCP4_0135
+            ZMC: A265_00135(hemA)
+            ZMR: A254_00135(hemA)
+            ZMP: Zymop_0104
+            NAR: Saro_1797
+            NPP: PP1Y_AT29919
+            NPN: JI59_01610
+            NRE: BES08_02075
+            NOV: TQ38_011270(hemA) TQ38_027890(hemA)
+            NOT: C7W88_00620(hemA) C7W88_11790(hemA)
+            NOR: FA702_01640(hemA) FA702_16740(hemA)
+            NGF: FRF71_02955(hemA) FRF71_09285(hemA) FRF71_11305(hemA)
+            NOG: GKE62_08575(hemA) GKE62_16875(hemA)
+            NDR: HT578_04415(hemA)
+            NHUM: PQ457_12230(hemA)
+            SAL: Sala_1206
+            SPHK: SKP52_09025(hemA1) SKP52_22615(hemA2)
+            SPHP: LH20_11630
+            SMAG: AN936_07720
+            SMAZ: LH19_07870
+            STER: AOA14_16645
+            SGI: SGRAN_1987(hemA)
+            SPHQ: BWQ93_07480
+            SPHO: C3E99_09105(hemA)
+            SPHX: E5675_11090(hemA)
+            SPHU: SPPYR_1869(hemA)
+            SWI: Swit_3823
+            SPHD: HY78_05130
+            RDI: CMV14_22890(hemA)
+            SPHM: G432_04075
+            STAX: MC45_12820
+            SPHI: TS85_21815 TS85_22945
+            SSAN: NX02_18405 NX02_29700
+            SNJ: A7E77_08600
+            SPAN: AWL63_01290
+            SKR: BRX40_04660
+            SPLM: BXU08_14860
+            SPLK: AV944_03980
+            SPKC: KC8_17280
+            SPHC: CVN68_15555(hemA) CVN68_17675(hemA)
+            SPHF: DM480_04265(hemA)
+            SPHA: D3Y57_08330(hemA)
+            SPAU: DRN02_004605(hemA) DRN02_011475(hemA)
+            SLUT: H9L13_09130(hemA)
+            SRHI: H9L12_06195(hemA) H9L12_10160(hemA)
+            SLAN: GV829_12045(hemA)
+            SDH: H9L15_08950(hemA)
+            SSED: H9L14_07660(hemA)
+            SPAP: H3Z74_22205(hemA)
+            SXA: FMM02_09690(hemA)
+            SPAI: FPZ24_16545(hemA)
+            SPII: G7077_00835(hemA)
+            SSIN: G7078_04555(hemA)
+            SSAU: H8M03_00505(hemA)
+            SARI: H5J25_16765(hemA)
+            SCHY: GVO57_11585(hemA) GVO57_11700(hemA)
+            SSUA: FPZ54_17160(hemA)
+            SBIN: SBA_ch1_24940(hemA)
+            SAER: NEF64_02385(hemA)
+            SMOR: LHA26_13545(hemA)
+            SGLC: M1K48_13760(hemA) M1K48_14225(hemA)
+            SQO: NMP03_02175(hemA) NMP03_13305(hemA)
+            SCAB: LZK98_04150(hemA)
+            SRAD: LLW23_10320(hemA) LLW23_12195(hemA)
+            SHAN: PPZ50_04615(hemA)
+            SJP: SJA_C1-17200(alaS)
+            SINB: SIDU_05745
+            SCH: Sphch_0777
+            SSY: SLG_20350
+            SYB: TZ53_19105
+            SBD: ATN00_13085
+            SPMI: K663_07835
+            SPHB: EP837_00155(alaS)
+            SPHR: BSY17_219(hemA)
+            SPHT: K426_03045 K426_13305 K426_27795
+            SHYD: CJD35_12885(hemA)
+            SYA: A6768_09035(hemA)
+            SCLO: SCLO_1009350
+            SPYG: YGS_C1P1074
+            SUFL: FIL70_07845(hemA)
+            SBAR: H5V43_05945(hemA)
+            SAMI: SAMIE_1007750 SAMIE_1035220
+            SPPH: KFK14_14435(hemA)
+            CIJ: WG74_05175 WG74_11640
+            SPHG: AZE99_07640
+            SFLA: SPHFLASMR4Y_00830(hemA)
+            SPHY: CHN51_15365(hemA)
+            SPHL: LPB140_07395
+            BLAS: BSY18_2696(hemA) BSY18_993(hemA)
+            BFW: B5J99_04430 B5J99_14325
+            SPHJ: BSL82_09935
+            SPZR: G5C33_03475(hemA)
+            PALG: HFP57_04975(hemA) HFP57_06810(hemA)
+            PARJ: J4G78_01410(hemA) J4G78_07395(hemA)
+            PHAO: HF685_02410(hemA)
+            SMIC: SmB9_22610
+            SPHS: ETR14_01255(hemA) ETR14_25545(hemA)
+            SAND: H3309_10300(hemA) H3309_12825(hemA)
+            POQ: KZX46_18665(hemA)
+            PMEA: KTC28_16975(hemA)
+            AEP: AMC99_00899
+            ALB: AEB_P1970
+            ALH: G6N82_02430(hemA) G6N82_11575(hemA)
+            AAY: WYH_00745(hemA)
+            AMX: AM2010_1025
+            PMAS: NCF86_06030(hemA)
+            ANH: A6F65_01923(hemA)
+            ADO: A6F68_01871(hemA)
+            TFV: IDJ81_12695(hemA)
+            CNA: AB433_11405
+            CMAN: A9D14_02310
+            ERY: CP97_08950
+            EGN: BMF35_a2129
+            EFV: CHH26_06005(hemA)
+            QCI: NCF85_03685(hemA)
+            ELI: ELI_04785
+            ELQ: Ga0102493_111811 Ga0102493_112784
+            ERK: CD351_08655(hemA) CD351_14010(hemA)
+            ERR: DVR09_12135(hemA)
+            ERF: FIU90_08735(hemA1) FIU90_13965(hemA2)
+            EMV: HQR01_11800(hemA)
+            PNS: A9D12_01420 A9D12_10820
+            PORL: BG023_111675 BG023_112697
+            PHZ: CHX26_09825(hemA) CHX26_14635(hemA)
+            POT: E2E27_07200(hemA) E2E27_13325(hemA)
+            GOX: GOX1636
+            GOH: B932_0401
+            GOY: GLS_c17550(hemA)
+            GAL: A0U94_02270
+            GTI: FXF46_08540(hemA)
+            GSP: IGS75_09575(hemA)
+            GFA: MKW11_08390(hemA)
+            GBE: GbCGDNIH1_0308
+            GBH: GbCGDNIH2_0308
+            GBC: GbCGDNIH3_0308
+            GBS: GbCGDNIH4_0308
+            ACR: Acry_0044
+            AMV: ACMV_00680(hemA) ACMV_19080(hemA)
+            GDI: GDI2299(hemA)
+            GDJ: Gdia_0516
+            GXY: GLX_24670
+            GXL: H845_406
+            KNA: B0W47_12415
+            KEU: S101446_02798(alaS)
+            KSC: CD178_00612(hemA)
+            KRE: GWK63_02965(hemA)
+            APT: APA01_00410
+            APW: APA42C_00410
+            APF: APA03_00410
+            APU: APA07_00410
+            APG: APA12_00410
+            APQ: APA22_00410
+            APX: APA26_00410
+            APZ: APA32_00410
+            APK: APA386B_1523(hemA)
+            ASZ: ASN_1583(hemA)
+            ASV: WG31_00200
+            AACE: A0U92_02055
+            APER: A0U91_08655
+            APOM: CPF11_07145(hemA)
+            ATO: CIW82_04440(hemA)
+            AASC: A4S02_12400
+            ACET: DS739_00280(hemA)
+            AOT: AcetOri_orf03092
+            AOY: EOV40_000420(hemA)
+            ACEK: FLP30_05845(hemA)
+            ABG: Asbog_02148
+            KBA: A0U89_01150
+            RGI: RGI145_03125 RGI145_22935
+            ROS: CTJ15_21835(hemA)
+            RMUC: FOB66_16120(hemA)
+            RMT: IAI58_21305(hemA)
+            RCV: PFY06_03990(hemA)
+            NCH: A0U93_10000
+            COQ: D9V35_07530(hemA)
+            COMM: GN303_07320(hemA)
+            NTN: D5366_02740(hemA)
+            NEH: E3E11_06035(hemA)
+            SSAM: E3D00_06500(hemA)
+            SWF: E3E12_05585(hemA)
+            BOB: GN304_02300(hemA)
+            BOMB: GT348_01980(hemA)
+            EBLA: JGUZn3_06760(hemA)
+            LCK: HN018_15060(hemA)
+            KHA: IFJ82_13170(hemA)
+            PARZ: DTQ13_06590(hemA)
+            SRF: LHU95_13920(hemA)
+            RAP: RHOA_2410(hemA)
+            SVC: STVA_47210(hemA_2)
+            STEL: STAQ_42700(hemA_2)
+            AZL: AZL_003210(alaS)
+            ALI: AZOLI_2712(hemA)
+            ABS: AZOBR_40211(hemA)
+            ABQ: ABAZ39_01720
+            ABF: AMK58_12120 AMK58_28615
+            ATI: AL072_05625
+            AHU: A6A40_10805
+            AZT: TSH58p_13260(hemA)
+            AZM: DM194_10395(hemA)
+            AZZ: DEW08_09025(hemA)
+            AOZ: HUE56_22185(hemA)
+            AARE: D3093_07475(hemA)
+            NAO: Y958_08800(hemA)
+            NCB: C0V82_03010(hemA) C0V82_18115(hemA)
+            SKT: IGS68_07670(hemA) IGS68_17065(hemA)
+            SMUC: JL100_008980(hemA) JL100_019945(hemA)
+            SROE: JL101_015235(hemA) JL101_018690(hemA)
+            RRU: Rru_A1146 Rru_A2508
+            RRF: F11_05910 F11_12885
+            RCE: RC1_0996(hemA) RC1_2103(hemA)
+            RPM: RSPPHO_00402
+            MAG: amb1683
+            MGY: MGMSRv2__0299(hemA)
+            MGRY: MSR1_19020(hemA_1)
+            MAGX: XM1_2247(hemA)
+            MAGN: WV31_18870
+            HJO: AY555_09285
+            FER: FNB15_11665(hemA)
+            HTQ: FRZ44_36630
+            HADH: FRZ61_35700(hemA)
+            DEX: HWD60_04990(hemA)
+            DVN: HQ394_16015(hemA)
+            TMO: TMO_2051(hemA)
+            TXI: TH3_06795
+            THAC: CSC3H3_06575(hemA)
+            TII: DY252_09745(hemA)
+            THAI: IT893_11520(hemA)
+            MAGQ: MGMAQ_1307(hemA)
+            ELIO: KO353_02855(hemA)
+            NACI: NUH88_06540(hemA)
+            PBR: PB2503_05032
+            HFL: PUV54_00270(hemA)
+            PEL: SAR11G3_00565
+            APC: HIMB59_00000610
+            ECOG: FIV45_09015(hemA)
+            APB: SAR116_0081
+            SNEA: NBZ79_08000(hemA)
+            KOZ: KFF44_09830(hemA)
+            MAI: MICA_786(hemA)
+            MAN: A11S_699
+            BTM: MC28_G079
+            BMYC: DJ92_5566(hemA)
+            GTH: Geoth_4012
+            BMUR: ABE28_018845
+            SUE: SAOV_2045
+            SUF: SARLGA251_18270(hemA)
+            SAB: SAB1880c
+            PCHI: PC41400_15435(hemA)
+            NBR: O3I_014270
+            NOZ: DMB37_34605(hemA)
+            NAH: F5544_31970(hemA)
+            NWL: NWFMUON74_37010(hemA_1)
+            SGR: SGR_5295
+            SSX: SACTE_2174
+            SRC: M271_46340
+            SMAL: SMALA_0323 SMALA_1253
+            SSOI: I1A49_00830(hemA) I1A49_05120(hemA)
+            SLC: SL103_10720
+            SCZ: ABE83_03080
+            STRT: A8713_28245 A8713_30360
+            SLS: SLINC_6346
+            SPLU: LK06_025585
+            SAUO: BV401_01080 BV401_05365 BV401_10040
+            SGE: DWG14_05686(hemA_2)
+            SLK: SLUN_31610(hemA)
+            SAST: CD934_29265(hemA)
+            SCAV: CVT27_30445(hemA)
+            SSEO: D0Z67_22535(hemA)
+            SHUN: DWB77_04700(hemA_2)
+            SVD: CP969_30905(hemA)
+            SPRA: CP972_01440(hemA)
+            SDD: D9753_06665(hemA)
+            SINE: KI385_38420(hemA)
+            SLF: JEQ17_04690(hemA)
+            SYAN: NRK68_17790(hemA)
+            KSK: KSE_73430(bfmK)
+            KAB: B7C62_33060
+            KIS: HUT16_05370(hemA)
+            BCAU: I6G59_16700(hemA)
+            SRO: Sros_9236
+            AOI: AORI_2942
+            AJA: AJAP_12395
+            SESP: BN6_21290 BN6_48530 BN6_50240
+            PLK: CIK06_18275(hemA)
+DBLINKS     ExplorEnz - The Enzyme Database: 2.3.1.37
+            IUBMB Enzyme Nomenclature: 2.3.1.37
+            ExPASy - ENZYME nomenclature database: 2.3.1.37
+            BRENDA, the Enzyme Database: 2.3.1.37
+            CAS: 9037-14-3
+///

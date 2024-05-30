@@ -1,0 +1,554 @@
+ENTRY       EC 1.1.1.170                Enzyme
+NAME        3beta-hydroxysteroid-4alpha-carboxylate 3-dehydrogenase (decarboxylating);
+            3beta-hydroxy-4beta-methylcholestenecarboxylate 3-dehydrogenase (decarboxylating);
+            3beta-hydroxy-4beta-methylcholestenoate dehydrogenase;
+            sterol 4alpha-carboxylic decarboxylase;
+            sterol-4alpha-carboxylate 3-dehydrogenase (decarboxylating) (ambiguous);
+            ERG26 (gene name);
+            NSDHL (gene name)
+CLASS       Oxidoreductases;
+            Acting on the CH-OH group of donors;
+            With NAD+ or NADP+ as acceptor
+SYSNAME     3beta-hydroxysteroid-4alpha-carboxylate:NAD(P)+ 3-oxidoreductase (decarboxylating)
+REACTION    a 3beta-hydroxysteroid-4alpha-carboxylate + NAD(P)+ = a 3-oxosteroid + CO2 + NAD(P)H [RN:R12366 R12406]
+ALL_REAC    R12366 > R04483;
+            R12406 > R07149 R07494 R12404;
+            (other) R04328
+SUBSTRATE   3beta-hydroxysteroid-4alpha-carboxylate [CPD:C22111];
+            NAD+ [CPD:C00003];
+            NADP+ [CPD:C00006]
+PRODUCT     3-oxosteroid [CPD:C01876];
+            CO2 [CPD:C00011];
+            NADH [CPD:C00004];
+            NADPH [CPD:C00005]
+COMMENT     The enzyme participates in the biosynthesis of several important sterols such as ergosterol and cholesterol. It is part of a three enzyme system that removes methyl groups from the C-4 position of steroid molecules. The first enzyme, EC 1.14.18.9, 4alpha-methylsterol monooxygenase, catalyses three successive oxidations of the methyl group, resulting in a carboxyl group; the second enzyme, EC 1.1.1.170, catalyses an oxidative decarboxylation that results in a reduction of the 3beta-hydroxy group at the C-3 carbon to an oxo group; and the last enzyme, EC 1.1.1.270, 3beta-hydroxysteroid 3-dehydrogenase, reduces the 3-oxo group back to a 3beta-hydroxyl. If a second methyl group remains at the C-4 position, this enzyme also catalyses its epimerization from 4beta to 4alpha orientation, so it could serve as a substrate for a second round of demethylation. cf. EC 1.1.1.418, plant 3beta-hydroxysteroid-4alpha-carboxylate 3-dehydrogenase (decarboxylating).
+HISTORY     EC 1.1.1.170 created 1978, modified 2002, modified 2012, modified 2019
+REFERENCE   1  [PMID:5791927]
+  AUTHORS   Sharpless KB, Snyder TE, Spencer TA, Maheshwari KK, Nelson JA
+  TITLE     Biological demethylation of 4,4-dimethyl sterols, Evidence for enzymic epimerization of the 4beta-methyl group prior to its oxidative removal.
+  JOURNAL   J Am Chem Soc 91:3394-6 (1969)
+            DOI:10.1021/ja01040a065
+REFERENCE   2  [PMID:4401584]
+  AUTHORS   Rahimtula AD, Gaylor JL.
+  TITLE     Partial purification of a microsomal sterol 4 -carboxylic acid decarboxylase.
+  JOURNAL   J Biol Chem 247:9-15 (1972)
+REFERENCE   3  [PMID:7430141]
+  AUTHORS   Brady DR, Crowder RD, Hayes WJ
+  TITLE     Mixed function oxidases in sterol metabolism. Source of reducing equivalents.
+  JOURNAL   J Biol Chem 255:10624-9 (1980)
+REFERENCE   4  [PMID:9811880]
+  AUTHORS   Gachotte D, Barbuch R, Gaylor J, Nickel E, Bard M
+  TITLE     Characterization of the Saccharomyces cerevisiae ERG26 gene encoding the C-3 sterol dehydrogenase (C-4 decarboxylase) involved in sterol biosynthesis.
+  JOURNAL   Proc Natl Acad Sci U S A 95:13794-9 (1998)
+            DOI:10.1073/pnas.95.23.13794
+  SEQUENCE  [sce:YGL001C]
+REFERENCE   5  [PMID:14506130]
+  AUTHORS   Caldas H, Herman GE
+  TITLE     NSDHL, an enzyme involved in cholesterol biosynthesis, traffics through the Golgi and accumulates on ER membranes and on the surface of lipid droplets.
+  JOURNAL   Hum Mol Genet 12:2981-91 (2003)
+            DOI:10.1093/hmg/ddg321
+  SEQUENCE  [hsa:50814]
+PATHWAY     ec00100  Steroid biosynthesis
+            ec01100  Metabolic pathways
+            ec01110  Biosynthesis of secondary metabolites
+ORTHOLOGY   K07748  sterol-4alpha-carboxylate 3-dehydrogenase (decarboxylating)
+GENES       HSA: 50814(NSDHL)
+            PTR: 465960(NSDHL)
+            PPS: 100975917(NSDHL)
+            GGO: 101144867(NSDHL)
+            PON: 100172372(NSDHL)
+            NLE: 100596441(NSDHL)
+            HMH: 116465313 116811212
+            MCC: 693333(NSDHL)
+            MCF: 102137627(NSDHL)
+            MTHB: 126945406
+            MNI: 105470185(NSDHL)
+            CSAB: 103232767(NSDHL)
+            CATY: 105577846(NSDHL)
+            PANU: 101003162(NSDHL)
+            TGE: 112616261(NSDHL)
+            MLEU: 105535676(NSDHL)
+            RRO: 104654022(NSDHL)
+            RBB: 108513868(NSDHL)
+            TFN: 117078175(NSDHL)
+            PTEH: 111535852(NSDHL)
+            CANG: 105525472(NSDHL)
+            CJC: 100398582(NSDHL)
+            SBQ: 101027738(NSDHL)
+            CIMI: 108284228(NSDHL)
+            CSYR: 103267449(NSDHL)
+            MMUR: 105884688(NSDHL)
+            LCAT: 123628689(NSDHL)
+            PCOQ: 105822899(NSDHL)
+            OGA: 100959606(NSDHL)
+            MMU: 18194(Nsdhl)
+            MCAL: 110287212(Nsdhl)
+            MPAH: 110313833(Nsdhl)
+            RNO: 309262(Nsdhl)
+            MCOC: 116085853(Nsdhl)
+            ANU: 117694449(Nsdhl)
+            MUN: 110540271(Nsdhl)
+            CGE: 100764429(Nsdhl)
+            MAUA: 101826427(Nsdhl)
+            PLEU: 114687208(Nsdhl)
+            MORG: 121440229 121440453
+            MFOT: 126489391
+            AAMP: 119804719(Nsdhl)
+            NGI: 103731179(Nsdhl)
+            HGL: 101716507(Nsdhl)
+            CPOC: 100728279(Nsdhl)
+            CCAN: 109695438(Nsdhl)
+            DORD: 105992860(Nsdhl)
+            DSP: 122108455(Nsdhl)
+            NCAR: 124971944
+            OCU: 100351296
+            OPI: 101523731(NSDHL)
+            TUP: 102500582(NSDHL)
+            GVR: 103602164(NSDHL)
+            CFA: 481079(NSDHL)
+            CLUD: 112668410(NSDHL)
+            VVP: 112912365(NSDHL)
+            VLG: 121483462(NSDHL)
+            AML: 100466780(NSDHL)
+            UMR: 103674163(NSDHL)
+            UAH: 113246811(NSDHL)
+            UAR: 123786532(NSDHL)
+            ELK: 111139213
+            LLV: 125091933
+            MPUF: 101678660(NSDHL)
+            NVS: 122897432(NSDHL)
+            ORO: 101372464(NSDHL)
+            EJU: 114200013(NSDHL)
+            ZCA: 113930781(NSDHL)
+            MLX: 118015061(NSDHL)
+            NSU: 110574761(NSDHL)
+            LWW: 102730822(NSDHL)
+            FCA: 101096551(NSDHL)
+            PYU: 121025059(NSDHL)
+            PBG: 122477763(NSDHL)
+            LRUF: 124514468 124525377
+            PTG: 102959228(NSDHL)
+            PPAD: 109260189(NSDHL)
+            AJU: 106971243(NSDHL)
+            HHV: 120222745(NSDHL)
+            BTA: 616694(NSDHL)
+            BOM: 102276234(NSDHL)
+            BIU: 109555394(NSDHL)
+            BBUB: 102398147(NSDHL)
+            CHX: 102173170(NSDHL)
+            OAS: 101112792(NSDHL)
+            ODA: 120881834(NSDHL)
+            CCAD: 122435188(NSDHL)
+            SSC: 100157894(NSDHL)
+            CFR: 102516550(NSDHL)
+            CBAI: 105070047(NSDHL)
+            CDK: 105104051(NSDHL)
+            VPC: 102529905(NSDHL)
+            BACU: 103020703(NSDHL)
+            LVE: 103087463(NSDHL)
+            OOR: 101278134(NSDHL)
+            DLE: 111170601(NSDHL)
+            PCAD: 102989952(NSDHL)
+            PSIU: 116747920(NSDHL)
+            ECB: 100063648(NSDHL)
+            EPZ: 103543383(NSDHL)
+            EAI: 106834275(NSDHL)
+            MYB: 102257708(NSDHL)
+            MYD: 102771848(NSDHL)
+            MMYO: 118654030(NSDHL)
+            MLF: 102429573(NSDHL)
+            MNA: 107537970(NSDHL)
+            PKL: 118705018(NSDHL)
+            HAI: 109394344(NSDHL)
+            DRO: 112296338(NSDHL)
+            SHON: 118996037(NSDHL)
+            AJM: 119040353(NSDHL)
+            PDIC: 114505131(NSDHL)
+            PHAS: 123807049(NSDHL)
+            MMF: 118636496(NSDHL)
+            RFQ: 117030159(NSDHL)
+            PALE: 102879960(NSDHL)
+            PGIG: 120614230(NSDHL)
+            PVP: 105308815(NSDHL)
+            RAY: 107520609(NSDHL)
+            MJV: 108402575(NSDHL)
+            TOD: 119245819(NSDHL)
+            SARA: 101552618(NSDHL)
+            LAV: 100671133(NSDHL)
+            TMU: 101357526
+            ETF: 101638970(NSDHL)
+            DNM: 101427230(NSDHL)
+            MDO: 100026414(NSDHL)
+            SHR: 100914940(NSDHL)
+            AFZ: 127542910
+            PCW: 110199978(NSDHL)
+            OAA: 103171093(NSDHL)
+            GGA: 422302(NSDHL)
+            PCOC: 116229717(NSDHL)
+            MGP: 100544971(NSDHL)
+            CJO: 107312870(NSDHL)
+            NMEL: 110402996(NSDHL)
+            APLA: 101790127(NSDHL)
+            ACYG: 106047509(NSDHL)
+            AFUL: 116494532(NSDHL)
+            TGU: 100190543(NSDHL)
+            LSR: 110477979(NSDHL)
+            SCAN: 103816322(NSDHL)
+            PMOA: 120512703(NSDHL)
+            OTC: 121346437(NSDHL)
+            PRUF: 121362827(NSDHL)
+            GFR: 102041531(NSDHL)
+            FAB: 101814664(NSDHL)
+            PHI: 102100867(NSDHL)
+            PMAJ: 107204042(NSDHL)
+            CCAE: 111929260(NSDHL)
+            CCW: 104691595(NSDHL)
+            CBRC: 103622062(NSDHL)
+            ETL: 114062107(NSDHL)
+            ZAB: 102075085(NSDHL)
+            ACHL: 103806476(NSDHL)
+            FPG: 101921503(NSDHL)
+            FCH: 102048326(NSDHL)
+            CLV: 102098029(NSDHL)
+            EGZ: 104127975(NSDHL)
+            NNI: 104021094(NSDHL)
+            PLET: 104615169(NSDHL)
+            PCRI: 104038238(NSDHL)
+            PCAO: 104050999(NSDHL)
+            ACUN: 113480109(NSDHL)
+            TALA: 104362605(NSDHL)
+            PADL: 103925887(NSDHL)
+            AFOR: 103894092(NSDHL)
+            ACHC: 115333841(NSDHL)
+            HALD: 104321247(NSDHL)
+            HLE: 104832740(NSDHL)
+            AGEN: 126050328
+            GCL: 127019650
+            CCRI: 104156040(NSDHL)
+            CSTI: 104558265(NSDHL)
+            EHS: 104504414(NSDHL)
+            CMAC: 104487357(NSDHL)
+            MUI: 104545447(NSDHL)
+            FGA: 104081481(NSDHL)
+            GSTE: 104256585(NSDHL)
+            LDI: 104344091(NSDHL)
+            MNB: 103779599(NSDHL)
+            OHA: 104333410(NSDHL)
+            NNT: 104400498(NSDHL)
+            DPUB: 104297868(NSDHL)
+            PGUU: 104459655(NSDHL)
+            ACAR: 104530455(NSDHL)
+            CPEA: 104393919(NSDHL)
+            AVIT: 104276251(NSDHL)
+            CVF: 104282705(NSDHL)
+            CUCA: 104060489(NSDHL)
+            TEO: 104374997(NSDHL)
+            BRHI: 104501802(NSDHL)
+            AAM: 106489838(NSDHL)
+            AROW: 112975809(NSDHL)
+            NPD: 112946970(NSDHL)
+            TGT: 104577583(NSDHL)
+            DNE: 112983256(NSDHL)
+            SCAM: 104154141(NSDHL)
+            ASN: 102383140(NSDHL)
+            AMJ: 102562140(NSDHL)
+            CPOO: 109313657(NSDHL)
+            GGN: 109300684(NSDHL)
+            PSS: 102446000(ZNF185) 102447619(NSDHL)
+            CMY: 102942264(ZNF185) 102945577(NSDHL)
+            CPIC: 101937255(ZNF185) 112058643(NSDHL)
+            TST: 117882424(NSDHL)
+            CABI: 116817089(NSDHL)
+            MRV: 120372126(NSDHL)
+            ACS: 100562829(nsdhl)
+            PVT: 110088403(NSDHL)
+            SUND: 121937401(NSDHL)
+            PBI: 103061373(NSDHL)
+            PMUR: 107293162(NSDHL)
+            CTIG: 120302750(NSDHL)
+            TSR: 106555925(NSDHL)
+            PGUT: 117669520(NSDHL)
+            VKO: 123022040(NSDHL)
+            PMUA: 114589018(NSDHL)
+            ZVI: 118084372(NSDHL)
+            GJA: 107118212(NSDHL)
+            STOW: 125442377(NSDHL)
+            XLA: 108700163(nsdhl.S) 496236(nsdhl.L)
+            XTR: 550044(nsdhl)
+            NPR: 108795343(NSDHL)
+            RTEM: 120913590(NSDHL)
+            BBUF: 120977570(NSDHL)
+            BGAR: 122946536(NSDHL)
+            DRE: 550369(nsdhl)
+            SRX: 107733445(nsdhl)
+            SANH: 107663101(nsdhl)
+            SGH: 107554660(nsdhl)
+            CCAR: 109059120 109102549
+            CAUA: 113113351 113113575
+            CGIB: 127971059 128027020
+            PPRM: 120464422(nsdhl)
+            MAMB: 125259117(nsdhl)
+            CIDE: 127494576
+            IPU: 108268902(nsdhl)
+            PHYP: 113542904(nsdhl)
+            SMEO: 124386454(nsdhl)
+            TFD: 113647795(nsdhl)
+            AMEX: 103027604(nsdhl)
+            EEE: 113576547(nsdhl)
+            TRU: 101061359(nsdhl)
+            TNG: GSTEN00017071G001
+            LCO: 104923201(nsdhl)
+            NCC: 104948435(nsdhl)
+            CGOB: 115014428(nsdhl)
+            ELY: 117260605(nsdhl)
+            EFO: 125894135(nsdhl)
+            PLEP: 121948179(nsdhl)
+            SLUC: 116064271(nsdhl)
+            ECRA: 117951569(nsdhl)
+            ESP: 116697394(nsdhl)
+            PFLV: 114562747(nsdhl)
+            GAT: 120818015(nsdhl)
+            PPUG: 119211431(nsdhl)
+            MSAM: 119888821(nsdhl) 119919306
+            CUD: 121515971(nsdhl)
+            ALAT: 119007226(nsdhl)
+            MZE: 101480912(nsdhl)
+            ONL: 100712373(nsdhl)
+            OAU: 116324542(nsdhl)
+            OLA: 101171010(nsdhl)
+            OML: 112153776(nsdhl)
+            XMA: 102221009(nsdhl)
+            XCO: 114139190(nsdhl)
+            XHE: 116714396(nsdhl)
+            PRET: 103471168(nsdhl)
+            PFOR: 103135633(nsdhl)
+            PLAI: 106965181(nsdhl)
+            PMEI: 106928394(nsdhl)
+            GAF: 122837034(nsdhl)
+            CVG: 107089032(nsdhl)
+            CTUL: 119792450(nsdhl)
+            GMU: 124859965(nsdhl)
+            NFU: 107395696(nsdhl)
+            KMR: 108242032(nsdhl)
+            ALIM: 106515962(nsdhl)
+            NWH: 119408270(nsdhl)
+            AOCE: 111565582(nsdhl)
+            MCEP: 125008344(nsdhl)
+            CSEM: 103391149(nsdhl)
+            POV: 109624038(nsdhl)
+            SSEN: 122778088(nsdhl)
+            HHIP: 117768979(nsdhl)
+            HSP: 118111862(nsdhl)
+            LCF: 108882885
+            SDU: 111226496(nsdhl)
+            SLAL: 111652007(nsdhl)
+            XGL: 120785536(nsdhl)
+            HCQ: 109515829(nsdhl)
+            SSCV: 125979363
+            BPEC: 110163595(nsdhl)
+            MALB: 109968402(nsdhl)
+            BSPL: 114864705(nsdhl)
+            SASA: 106604248 106612199
+            STRU: 115167682 115205673
+            OTW: 112221226 112247746
+            OMY: 110489156 110504568(nsdhl)
+            OGO: 123993682 124011401(nsdhl)
+            ONE: 115125623 115130984
+            SALP: 112069177 112073419
+            SNH: 120047904 120062403(nsdhl)
+            CCLU: 121531291 121539231
+            ELS: 105025751(nsdhl)
+            SFM: 108925361(nsdhl)
+            PKI: 111843704(nsdhl)
+            AANG: 118236510(nsdhl)
+            LOC: 102686211(nsdhl)
+            PSPA: 121295893 121318722(nsdhl)
+            ARUT: 117411886 117430363
+            PSEX: 120537140(nsdhl)
+            LCM: 102355835(NSDHL)
+            CMK: 103177331(nsdhl)
+            RTP: 109917662(nsdhl)
+            BFO: 118419129
+            BBEL: 109470548
+            SPU: 577670
+            APLC: 110983741
+            AJC: 117112122
+            SKO: 100367277
+            HRO: HELRODRAFT_185437
+            LGI: LOTGIDRAFT_125131
+            PCAN: 112560719
+            BGT: 106068123
+            GAE: 121376237
+            HRF: 124115631
+            HRJ: 124281694
+            OSN: 118761140
+            LAK: 106150518
+            TAD: TRIADDRAFT_56172
+            AQU: 100641976
+            QSU: 111984500 111989054 111999340 112007898 112021913 112023362 112026924
+            CRE: CHLRE_12g518650v5
+            VCN: VOLCADRAFT_79975
+            CSL: COCSUDRAFT_54657
+            CVR: CHLNCDRAFT_49861
+            APRO: F751_0534
+            CME: CYME_CMP217C
+            GSL: Gasu_22080
+            SCE: YGL001C(ERG26)
+            SEUB: DI49_1966
+            SPAO: SPAR_G02320
+            AGO: AGOS_AFR001W
+            ERC: Ecym_6178
+            KLA: KLLA0_C18513g
+            KMX: KLMA_40026(ERG26)
+            LTH: KLTH0E08338g
+            VPO: Kpol_1025p36
+            ZRO: ZYRO0G10582g
+            CGR: CAGL0G00594g
+            NCS: NCAS_0A05210(NCAS0A05210)
+            NDI: NDAI_0K02600(NDAI0K02600)
+            TPF: TPHA_0K01550(TPHA0K01550)
+            TBL: TBLA_0E01630(TBLA0E01630)
+            TGB: HG536_0D04270
+            TDL: TDEL_0F02190(TDEL0F02190)
+            KAF: KAFR_0F03320(KAFR0F03320)
+            KNG: KNAG_0D03430(KNAG0D03430)
+            ZMK: HG535_0E03780
+            PPA: PAS_chr1-4_0604
+            DHA: DEHA2C11550g
+            PIC: PICST_71224(ERG26)
+            PGU: PGUG_05873
+            SPAA: SPAPADRAFT_58811
+            LEL: LELG_04583
+            CAL: CAALFM_C406270CA(ERG26)
+            CTP: CTRG_04041
+            COT: CORT_0E04240
+            CDU: CD36_45790(ERG26)
+            CTEN: CANTEDRAFT_114564
+            YLI: YALI0C22165g
+            CLU: CLUG_01042
+            CLUS: A9F13_09g00891
+            CAUR: CJI97_000938
+            SLB: AWJ20_2805(ERG26)
+            PKZ: C5L36_0A07870
+            BNN: FOA43_000837(ERG26)
+            BBRX: BRETT_001264(ERG26)
+            OPA: HPODL_04897
+            SLUD: SCDLUD_001511
+            NCR: NCU02693
+            NTE: NEUTE1DRAFT119017(NEUTE1DRAFT_119017)
+            SMP: SMAC_04350
+            PAN: PODANSg2055
+            TTT: THITE_129164
+            MTM: MYCTH_122939
+            CTHR: CTHT_0009530
+            MGR: MGG_04938 MGG_11399 MGG_15439
+            PPEI: PpBr36_00188 PpBr36_03310 PpBr36_10742
+            TMN: UCRPA7_2436 UCRPA7_5729
+            SSCK: SPSK_09448 SPSK_09457
+            FGR: FGSG_01203 FGSG_11714
+            FPU: FPSE_01810
+            FVR: FVEG_01330 FVEG_12076
+            FOX: FOXG_00186 FOXG_03780
+            NHE: NECHADRAFT_88124 NECHADRAFT_98704
+            TRE: TRIREDRAFT_78929
+            TRR: M419DRAFT_25332
+            MAW: MAC_04166 MAC_06812
+            MAJ: MAA_01307 MAA_07206
+            CMT: CCM_07037
+            PLJ: VFPFJ_03411
+            VAL: VDBG_04735
+            VDA: VDAG_04277
+            CFJ: CFIO01_02970 CFIO01_11980
+            CLUP: CLUP02_05522 CLUP02_09790
+            CHIG: CH63R_00640
+            SAPO: SAPIO_CDS3130
+            ELA: UCREL1_10141 UCREL1_11513
+            PFY: PFICI_00577 PFICI_10785
+            SSL: SS1G_06585 SS1G_08084 SS1G_09117
+            BFU: BCIN_15g00310
+            MBE: MBM_00113
+            PSCO: LY89DRAFT_460429 LY89DRAFT_644372 LY89DRAFT_687795 LY89DRAFT_697537 LY89DRAFT_786714
+            GLZ: GLAREA_03076 GLAREA_04261 GLAREA_05189 GLAREA_06506 GLAREA_07964 GLAREA_09332 GLAREA_09630 GLAREA_10161 GLAREA_11673 GLAREA_11772
+            ANI: AN7575.2 AN8440.2
+            AFM: AFUA_2G15030 AFUA_2G17400
+            ACT: ACLA_072440 ACLA_081520
+            NFI: NFIA_090280 NFIA_098940
+            AOR: AO090120000187
+            ANG: ANI_1_470134(An15g03090)
+            AFV: AFLA_002140 AFLA_009409
+            ALUC: AKAW2_60401A(ERG26)
+            ACHE: ACHE_31358A(ERG26_2)
+            APUU: APUU_80379S(ERG26_2)
+            PCS: Pc12g00300
+            PDP: PDIP_04860
+            TMF: PMAA_101270
+            TRG: TRUGW13939_00828 TRUGW13939_09934
+            CIM: CIMG_02365
+            CPW: CPC735_040060
+            URE: UREG_01388
+            PBL: PAAG_11343(PAAG_01699)
+            PBN: PADG_00078
+            ABE: ARB_03639 ARB_07982
+            TVE: TRV_01960 TRV_04269
+            AJE: HCAG_00257 HCAG_05272
+            BGH: BDBG_00070
+            PNO: SNOG_03352 SNOG_13918 SNOG_15264
+            PTE: PTT_14047
+            BZE: COCCADRAFT_38332 COCCADRAFT_89445 COCCADRAFT_91862
+            BSC: COCSADRAFT_145696 COCSADRAFT_162726 COCSADRAFT_38364
+            BOR: COCMIDRAFT_103766 COCMIDRAFT_3390 COCMIDRAFT_9629
+            AALT: CC77DRAFT_1044889 CC77DRAFT_590852 CC77DRAFT_933025
+            ZTR: MYCGRDRAFT_32274(ERG26) MYCGRDRAFT_45223 MYCGRDRAFT_67122
+            PFJ: MYCFIDRAFT_27681 MYCFIDRAFT_31190
+            FFU: CLAFUR5_01747
+            BCOM: BAUCODRAFT_323543 BAUCODRAFT_36849
+            NPA: UCRNP2_2416
+            TML: GSTUM_00005894001
+            SPO: SPBC3F6.02c
+            CNE: CNJ00460
+            CNB: CNBJ3060
+            CNG: CNAG_04605
+            CGI: CGB_D9350C
+            TMS: TREMEDRAFT_67694
+            TASA: A1Q1_01819
+            PPL: POSPLDRAFT_90796 POSPLDRAFT_94333
+            TVS: TRAVEDRAFT_122801
+            DSQ: DICSQDRAFT_56128
+            PCO: PHACADRAFT_265060
+            SHS: STEHIDRAFT_125133 STEHIDRAFT_171904 STEHIDRAFT_66049
+            HIR: HETIRDRAFT_475223
+            PSQ: PUNSTDRAFT_143387 PUNSTDRAFT_82149
+            ADL: AURDEDRAFT_184737
+            FME: FOMMEDRAFT_113387
+            GTR: GLOTRDRAFT_77094
+            LBC: LACBIDRAFT_188460
+            CCI: CC1G_03447
+            ABP: AGABI1DRAFT113991(AGABI1DRAFT_113991)
+            ABV: AGABI2DRAFT193828(AGABI2DRAFT_193828)
+            PCUB: JR316_0007059
+            MPR: MPER_10147
+            MRR: Moror_13970
+            MORE: E1B28_012476 E1B28_012672
+            CPUT: CONPUDRAFT_124515 CONPUDRAFT_126428 CONPUDRAFT_91182
+            SLA: SERLADRAFT_363075 SERLADRAFT_469613
+            WSE: WALSEDRAFT_38521
+            WIC: J056_002950
+            UMA: UMAG_04127
+            PFP: PFL1_03818
+            MGL: MGL_3391
+            MRT: MRET_1855
+            MSYM: MSY001_1593
+            PGR: PGTG_02889
+            MLR: MELLADRAFT_36679
+            DDI: DDB_G0281487
+            DPP: DICPUDRAFT_79373
+            DFA: DFA_04893
+            ACAN: ACA1_115740 ACA1_169090 ACA1_203130
+            SPAR: SPRG_01499
+            NGR: NAEGRDRAFT_2444
+DBLINKS     ExplorEnz - The Enzyme Database: 1.1.1.170
+            IUBMB Enzyme Nomenclature: 1.1.1.170
+            ExPASy - ENZYME nomenclature database: 1.1.1.170
+            BRENDA, the Enzyme Database: 1.1.1.170
+            CAS: 71822-23-6
+///

@@ -1,0 +1,65 @@
+ENTRY       EC 1.14.13.32               Enzyme
+NAME        albendazole monooxygenase;
+            albendazole oxidase (misleading);
+            albendazole sulfoxidase (ambiguous);
+            FMO3 (gene name);
+            albendazole monooxygenase (flavin-containing)
+CLASS       Oxidoreductases;
+            Acting on paired donors, with incorporation or reduction of molecular oxygen;
+            With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+SYSNAME     albendazole,NADPH:oxygen oxidoreductase (sulfoxide-forming)
+REACTION    albendazole + NADPH + H+ + O2 = albendazole S-oxide + NADP+ + H2O [RN:R03712]
+ALL_REAC    R03712
+SUBSTRATE   albendazole [CPD:C01779];
+            NADPH [CPD:C00005];
+            H+ [CPD:C00080];
+            O2 [CPD:C00007]
+PRODUCT     albendazole S-oxide [CPD:C02809];
+            NADP+ [CPD:C00006];
+            H2O [CPD:C00001]
+COMMENT     A microsomal flavin-containing monooxygenase. A similar conversion is also carried out by some microsomal cytochrome P-450 enzymes [EC 1.14.14.73, albendazole monooxygenase (sulfoxide-forming)]. It is estimated that cytochrome P-450s are responsible for 70% of the activity.
+HISTORY     EC 1.14.13.32 created 1989, modified 2018
+REFERENCE   1  [PMID:3739217]
+  AUTHORS   Fargetton X, Galtier P, Delatour P.
+  TITLE     Sulfoxidation of albendazole by a cytochrome P450-independent monooxygenase from rat liver microsomes.
+  JOURNAL   Vet Res Commun 10:317-24 (1986)
+            DOI:10.1007/bf02213995
+REFERENCE   2  [PMID:7736906]
+  AUTHORS   Moroni P, Buronfosse T, Longin-Sauvageon C, Delatour P, Benoit E
+  TITLE     Chiral sulfoxidation of albendazole by the flavin adenine dinucleotide-containing and cytochrome P450-dependent monooxygenases from rat liver microsomes.
+  JOURNAL   Drug Metab Dispos 23:160-5 (1995)
+REFERENCE   3  [PMID:10759686]
+  AUTHORS   Rawden HC, Kokwaro GO, Ward SA, Edwards G.
+  TITLE     Relative contribution of cytochromes P-450 and flavin-containing monoxygenases to the metabolism of albendazole by human liver microsomes.
+  JOURNAL   Br J Clin Pharmacol 49:313-22 (2000)
+            DOI:10.1046/j.1365-2125.2000.00170.x
+ORTHOLOGY   K17689  cytochrome P450 family 3 subfamily A4
+GENES       HSA: 1576(CYP3A4)
+            PTR: 463582(CYP3A4)
+            PPS: 100976899(CYP3A4)
+            GGO: 101149513
+            PON: 100436782
+            NLE: 100593175
+            MCC: 678670(CYP3A4)
+            MCF: 102144258(CYP3A4)
+            MTHB: 126950475
+            CSAB: 103246766
+            CATY: 105584402
+            PANU: 101026757
+            TGE: 112621193
+            RRO: 104673585
+            RBB: 108538168
+            TFN: 117072034
+            PTEH: 111530171 111534893
+            CJC: 100404344(CYP3A4)
+            SBQ: 101037403
+            CSYR: 103252931
+            MMUR: 105868328 105868331
+            LCAT: 123631591 123631593
+            OGA: 100948865
+DBLINKS     ExplorEnz - The Enzyme Database: 1.14.13.32
+            IUBMB Enzyme Nomenclature: 1.14.13.32
+            ExPASy - ENZYME nomenclature database: 1.14.13.32
+            BRENDA, the Enzyme Database: 1.14.13.32
+            CAS: 101299-59-6
+///

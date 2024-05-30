@@ -1,0 +1,577 @@
+ENTRY       EC 1.6.3.1                  Enzyme
+NAME        NAD(P)H oxidase (H2O2-forming);
+            THOX2;
+            ThOX;
+            dual oxidase;
+            p138tox;
+            thyroid NADPH oxidase;
+            thyroid oxidase;
+            thyroid oxidase 2;
+            NADPH oxidase;
+            NAD(P)H:oxygen oxidoreductase;
+            NAD(P)H oxidase
+CLASS       Oxidoreductases;
+            Acting on NADH or NADPH;
+            With oxygen as acceptor
+SYSNAME     NAD(P)H:oxygen oxidoreductase (H2O2-forming)
+REACTION    NAD(P)H + H+ + O2 = NAD(P)+ + H2O2 [RN:R07171 R07172]
+ALL_REAC    R07171 R07172
+SUBSTRATE   NADH [CPD:C00004];
+            NADPH [CPD:C00005];
+            H+ [CPD:C00080];
+            O2 [CPD:C00007]
+PRODUCT     NAD+ [CPD:C00003];
+            NADP+ [CPD:C00006];
+            H2O2 [CPD:C00027]
+COMMENT     Requires FAD, heme and calcium. When calcium is present, this transmembrane glycoprotein generates H2O2 by transfering electrons from intracellular NAD(P)H to extracellular molecular oxygen. The electron bridge within the enzyme contains one molecule of FAD and probably two heme groups. This flavoprotein is expressed at the apical membrane of thyrocytes, and provides H2O2 for the thyroid peroxidase-catalysed biosynthesis of thyroid hormones.
+HISTORY     EC 1.6.3.1 created 2003, modified 2013
+REFERENCE   1  [PMID:12110737]
+  AUTHORS   Moreno JC, Bikker H, Kempers MJ, van Trotsenburg AS, Baas F, de Vijlder JJ, Vulsma T, Ris-Stalpers C
+  TITLE     Inactivating mutations in the gene for thyroid oxidase 2 (THOX2) and congenital hypothyroidism.
+  JOURNAL   N Engl J Med 347:95-102 (2002)
+            DOI:10.1056/NEJMoa012752
+  SEQUENCE  [hsa:50506]
+REFERENCE   2  [PMID:11822874]
+  AUTHORS   De Deken X, Wang D, Dumont JE, Miot F
+  TITLE     Characterization of ThOX proteins as components of the thyroid H(2)O(2)-generating system.
+  JOURNAL   Exp Cell Res 273:187-96 (2002)
+            DOI:10.1006/excr.2001.5444
+  SEQUENCE  [hsa:53905 50506]
+REFERENCE   3  [PMID:10806195]
+  AUTHORS   De Deken X, Wang D, Many MC, Costagliola S, Libert F, Vassart G, Dumont JE, Miot F
+  TITLE     Cloning of two human thyroid cDNAs encoding new members of the NADPH oxidase family.
+  JOURNAL   J Biol Chem 275:23227-33 (2000)
+            DOI:10.1074/jbc.M000916200
+  SEQUENCE  [hsa:53905 50506]
+REFERENCE   4  [PMID:10601291]
+  AUTHORS   Dupuy C, Ohayon R, Valent A, Noel-Hudson MS, Deme D, Virion A.
+  TITLE     Purification of a novel flavoprotein involved in the thyroid NADPH oxidase. Cloning of the porcine and human cdnas.
+  JOURNAL   J Biol Chem 274:37265-9 (1999)
+            DOI:10.1074/jbc.274.52.37265
+  SEQUENCE  [hsa:50506] [ssc:397060]
+REFERENCE   5  [PMID:10401672]
+  AUTHORS   Leseney AM, Deme D, Legue O, Ohayon R, Chanson P, Sales JP, Pires de Carvalho D, Dupuy C, Virion A.
+  TITLE     Biochemical characterization of a Ca2+/NAD(P)H-dependent H2O2 generator in human thyroid tissue.
+  JOURNAL   Biochimie 81:373-80 (1999)
+            DOI:10.1016/S0300-9084(99)80084-4
+REFERENCE   6  [PMID:1995628]
+  AUTHORS   Dupuy C, Virion A, Ohayon R, Kaniewski J, Deme D, Pommier J.
+  TITLE     Mechanism of hydrogen peroxide formation catalyzed by NADPH oxidase in thyroid plasma membrane.
+  JOURNAL   J Biol Chem 266:3739-43 (1991)
+ORTHOLOGY   K13411  dual oxidase
+GENES       HSA: 50506(DUOX2) 53905(DUOX1)
+            PTR: 453395(DUOX2) 467673(DUOX1)
+            PPS: 100974723(DUOX1) 100978429(DUOX2)
+            GGO: 101137548(DUOX1) 101139037(DUOX2)
+            PON: 100445893(DUOX2) 100447745(DUOX1)
+            NLE: 100588618(DUOX1) 100595406(DUOX2)
+            HMH: 116481630(DUOX2) 116481634(DUOX1)
+            MCC: 713126(DUOX1) 713906(DUOX2)
+            MCF: 102131806(DUOX2) 102133834(DUOX1)
+            MTHB: 126959003 126959006
+            MNI: 105491060(DUOX1) 105491076(DUOX2)
+            CSAB: 103245704(DUOX2) 103245708(DUOX1)
+            CATY: 105588180(DUOX2) 105588237(DUOX1)
+            PANU: 101001178(DUOX1) 101003630(DUOX2)
+            TGE: 112627574(DUOX2) 112627626(DUOX1)
+            MLEU: 105548205(DUOX2) 105548207(DUOX1)
+            RRO: 104653891(DUOX2) 104653893(DUOX1)
+            RBB: 108530131(DUOX1) 108530134(DUOX2)
+            TFN: 117070727(DUOX1) 117070728(DUOX2)
+            PTEH: 111552779(DUOX2) 111552783(DUOX1)
+            CANG: 105502161(DUOX1) 105502244(DUOX2)
+            CJC: 100387872(DUOX2) 100406741(DUOX1)
+            SBQ: 101043225(DUOX1) 101045049(DUOX2)
+            CIMI: 108315882(DUOX1) 108315930(DUOX2)
+            CSYR: 103264964(DUOX1) 103264967(DUOX2)
+            MMUR: 105872553(DUOX2) 105872556(DUOX1)
+            LCAT: 123622110(DUOX2) 123622143(DUOX1)
+            PCOQ: 105814270(DUOX1) 105814287(DUOX2)
+            OGA: 100944838(DUOX2) 100951355(DUOX1)
+            MMU: 214593(Duox2) 99439(Duox1)
+            MCAL: 110289528(Duox2) 110289597(Duox1)
+            MPAH: 110318871(Duox2) 110318947(Duox1)
+            RNO: 266807(Duox1) 79107(Duox2)
+            MCOC: 116091779(Duox2) 116091780(Duox1)
+            ANU: 117702979(Duox1) 117703645
+            MUN: 110553262(Duox2) 110553266(Duox1)
+            CGE: 100764526(Duox2) 100774391(Duox1)
+            MAUA: 101839193(Duox2) 101839454(Duox1)
+            PLEU: 114699556(Duox2) 114699606(Duox1)
+            MORG: 121465728(Duox1) 121465787(Duox2)
+            MFOT: 126496594 126496822
+            AAMP: 119814681(Duox1) 119815006(Duox2)
+            NGI: 103746898(Duox2) 103746936(Duox1)
+            HGL: 101698133(Duox1) 101698889(Duox2)
+            CPOC: 100712930(Duox2) 100713662(Duox1)
+            CCAN: 109692712(Duox2) 109692713(Duox1)
+            DORD: 105980984(Duox1) 105980986(Duox2)
+            DSP: 122114489(Duox2) 122114688(Duox1)
+            NCAR: 124976018 124976951
+            OCU: 100344845 100345610
+            OPI: 101518356(DUOX1) 101527435(DUOX2)
+            TUP: 102471164(DUOX2) 102496442(DUOX1)
+            GVR: 103599021(DUOX2) 103599027(DUOX1)
+            CFA: 403719(DUOX2) 403720(DUOX1)
+            CLUD: 112676001(DUOX1) 112676004(DUOX2)
+            VVP: 112919876(DUOX2) 112919877(DUOX1)
+            VLG: 121480469(DUOX1) 121485693(DUOX2)
+            AML: 100469477
+            UMR: 103656587(DUOX2) 103656588(DUOX1)
+            UAH: 113246795 113249136 113269715
+            UAR: 123775598 123801946(DUOX1) 123801956(DUOX2)
+            ELK: 111159740 111161962
+            LLV: 125104903 125105521
+            MPUF: 101675593(DUOX2) 101677288
+            NVS: 122893437(DUOX1) 122893611(DUOX2)
+            ORO: 101365122(DUOX2) 101365433(DUOX1)
+            EJU: 114226548(DUOX1) 114226550(DUOX2)
+            ZCA: 113908521(DUOX2) 113909575(DUOX1)
+            MLX: 118003552(DUOX2) 118003553
+            NSU: 110585577(DUOX1) 110585599(DUOX2)
+            LWW: 102736507(DUOX1) 102745755(DUOX2)
+            FCA: 101087408(DUOX2) 101091374(DUOX1)
+            PYU: 121041635(DUOX2) 121041640(DUOX1)
+            PBG: 122468696(DUOX1) 122468698(DUOX2)
+            LRUF: 124508067 124508070
+            PTG: 102968075(DUOX2) 102968369(DUOX1)
+            PPAD: 109263047(DUOX1) 109263048(DUOX2)
+            AJU: 106986276(DUOX1) 106986277
+            HHV: 120243824(DUOX1) 120243827(DUOX2)
+            BTA: 510409(DUOX1) 785698(DUOX2)
+            BOM: 102272102(DUOX2) 102277170(DUOX1)
+            BIU: 109564555(DUOX1) 109565168(DUOX2)
+            BBUB: 102403106(DUOX1) 102405152(DUOX2)
+            BBIS: 104994233(DUOX2) 104994265(DUOX1)
+            CHX: 102179569(DUOX1) 106502554(DUOX2)
+            OAS: 100462743(DUOX2) 101111972(DUOX1)
+            ODA: 120852935(DUOX2) 120852937(DUOX1)
+            CCAD: 122443648(DUOX1) 122443649(DUOX2)
+            SSC: 397060(DUOX2) 397177(DUOX1)
+            CFR: 102510558(DUOX1) 102510795(DUOX2)
+            CBAI: 105076985(DUOX2) 105077066(DUOX1)
+            CDK: 105101748(DUOX1) 105101749(DUOX2)
+            VPC: 102537541(DUOX2) 102537792(DUOX1)
+            BACU: 103001055(DUOX2) 103001339(DUOX1)
+            LVE: 103071982(DUOX2) 103076766(DUOX1)
+            OOR: 101269659 101280015
+            DLE: 111181555 111181567
+            PCAD: 102980878(DUOX2) 102993288(DUOX1)
+            PSIU: 116748576 116749048(DUOX2)
+            ECB: 100070541(DUOX1) 100070566(DUOX2)
+            EPZ: 103554035(DUOX1) 103554037(DUOX2)
+            EAI: 106834993(DUOX1) 106834997(DUOX2)
+            MYB: 102242003(DUOX2) 102252627(DUOX1)
+            MYD: 102771512(DUOX1) 102771797(DUOX2)
+            MMYO: 118651162(DUOX2) 118651210(DUOX1)
+            MLF: 102431860(DUOX2) 102435194(DUOX1)
+            MNA: 107536153(DUOX1) 107536249(DUOX2)
+            PKL: 118721941(DUOX1) 118722118(DUOX2)
+            HAI: 109396658(DUOX1) 109396662
+            DRO: 112311051(DUOX2) 112311507(DUOX1)
+            SHON: 118992575(DUOX2) 118992576(DUOX1)
+            AJM: 119053965(DUOX1) 119054202(DUOX2)
+            PDIC: 114493099(DUOX2) 114493372(DUOX1)
+            PHAS: 123808383(DUOX2) 123808384(DUOX1)
+            MMF: 118634032(DUOX2) 118643623(DUOX1)
+            RFQ: 117022873(DUOX2) 117022930(DUOX1)
+            PALE: 102894515(DUOX1) 102895435(DUOX2)
+            PGIG: 120622692(DUOX1) 120622695(DUOX2)
+            PVP: 105288716(DUOX1) 105288802(DUOX2)
+            RAY: 107514952(DUOX2) 107514968(DUOX1)
+            MJV: 108400250 108400257(DUOX1)
+            TOD: 119238574(DUOX2) 119238578(DUOX1)
+            SARA: 101538188(DUOX2) 101544879(DUOX1)
+            LAV: 100661484(DUOX2) 100677682(DUOX1)
+            TMU: 101345381 101356645
+            ETF: 101649942(DUOX1) 101654000
+            DNM: 101412118(DUOX2) 101412552
+            MDO: 100012658(DUOX2) 100012836(DUOX1)
+            GAS: 123234061 123235930(DUOX1)
+            SHR: 100931267(DUOX2) 100932050(DUOX1)
+            AFZ: 127546640 127549323
+            PCW: 110223647(DUOX1) 110223721
+            OAA: 100089154(DUOX2) 100093104
+            GGA: 427482(DUOX2)
+            PCOC: 116244490(DUOX2)
+            MGP: 100538948(DUOX2)
+            CJO: 107318475(DUOX2)
+            NMEL: 110403879(DUOX2)
+            APLA: 101800626(DUOX2)
+            ACYG: 106047419(DUOX2)
+            AFUL: 116493480
+            TGU: 100218721
+            LSR: 110483946
+            SCAN: 103816154
+            PMOA: 120508906
+            OTC: 121343480
+            PRUF: 121354438
+            GFR: 102037063(DUOX2)
+            FAB: 101805677(DUOX2)
+            PHI: 102105296
+            PMAJ: 107209583
+            CCAE: 111934317
+            CCW: 104697496
+            CBRC: 103613492
+            ETL: 114060481(DUOX2)
+            ZAB: 102073652(DUOX2)
+            ACHL: 103803619
+            FPG: 101914675(DUOX2)
+            FCH: 102054788
+            CLV: 102097710(DUOX2)
+            EGZ: 104130687(DUOX2)
+            NNI: 104016775(DUOX2)
+            PLET: 104623027
+            PCRI: 104035098
+            PCAO: 104045946
+            ACUN: 113483989
+            TALA: 104369414
+            PADL: 103916812(DUOX2)
+            AFOR: 103896475
+            ACHC: 115341551
+            HALD: 104314108
+            HLE: 104834669(DUOX2)
+            AGEN: 126043498
+            GCL: 127020504
+            CCRI: 104161059(DUOX2)
+            CSTI: 104554504
+            EHS: 104510797
+            CMAC: 104476107(DUOX2)
+            MUI: 104546897
+            FGA: 104069584(DUOX2)
+            GSTE: 104261232
+            LDI: 104355052
+            MNB: 103773474
+            OHA: 104330638
+            NNT: 104404842
+            PGUU: 104468825
+            ACAR: 104517945
+            CPEA: 104396143(DUOX2)
+            AVIT: 104275030(DUOX2)
+            CVF: 104293626
+            CUCA: 104064857(DUOX2)
+            TEO: 104381060(DUOX2)
+            BRHI: 104491634
+            AAM: 106487968
+            AROW: 112967264
+            NPD: 112951292(DUOX2)
+            TGT: 104580189(DUOX2)
+            DNE: 112993048(DUOX2)
+            SCAM: 104139038(DUOX2)
+            ASN: 102372872
+            AMJ: 102573689(DUOX2)
+            CPOO: 109308805
+            GGN: 109288798
+            PSS: 102461565(DUOX2)
+            CMY: 102933380
+            CPIC: 101942492(DUOX2)
+            TST: 117884303(DUOX2)
+            CABI: 116827174
+            MRV: 120373615
+            ACS: 100562649
+            PVT: 110091655
+            SUND: 121934790(DUOX2)
+            PBI: 103059551(DUOX2)
+            PMUR: 107294062(DUOX2)
+            CTIG: 120306363
+            PGUT: 117674550(DUOX2)
+            VKO: 123033744
+            PMUA: 114584565(DUOX2)
+            ZVI: 118092463
+            GJA: 107106710
+            STOW: 125424641
+            XLA: 108710292(duox2.L) 108711340 108712328(duox2.S)
+            XTR: 100486050(duox2) 100486194(duox1)
+            NPR: 108801818 108804829
+            RTEM: 120931421 120931423
+            BBUF: 120985726(DUOX1) 120986322
+            BGAR: 122923413 122927672
+            DRE: 565097(duox)
+            SRX: 107712499 107739096
+            SANH: 107662471 107688941
+            SGH: 107557982 107589348
+            CCAR: 109059806
+            CAUA: 113043483 113043896 113067050
+            CGIB: 127946775 128013932
+            PPRM: 120495536(duox)
+            MAMB: 125247766(duox)
+            CIDE: 127507635
+            MASI: 127435739
+            IPU: 108275020(duox)
+            PHYP: 113529691(duox1)
+            SMEO: 124392773(duox)
+            TFD: 113660148(duox)
+            AMEX: 103026091(duox1)
+            EEE: 113584048
+            TRU: 100124426(duox)
+            TNG: GSTEN00025605G001
+            LCO: 104937849(duox1)
+            NCC: 104960088(duox1)
+            CGOB: 115009999
+            ELY: 117262773(duox)
+            EFO: 125887379(duox)
+            PLEP: 121950646(duox)
+            SLUC: 116038809(duox)
+            ECRA: 117949674(duox)
+            ESP: 116693897(duox1)
+            PFLV: 114559718(duox1)
+            GAT: 120809557(duox)
+            PPUG: 119195784(duox)
+            MSAM: 119894233(duox)
+            CUD: 121515362(duox)
+            ALAT: 119024169(duox)
+            MZE: 101470770
+            ONL: 100696790(duox1)
+            OAU: 116326693(duox)
+            OLA: 101160477(duox1)
+            OML: 112152210(duox)
+            XMA: 102217295(duox1)
+            XCO: 114151766(duox1)
+            XHE: 116710584 116711046
+            PRET: 103466440(duox1)
+            PFOR: 103155698
+            PLAI: 106958144
+            PMEI: 106919349
+            GAF: 122834984(duox)
+            CVG: 107087399
+            CTUL: 119775040(duox)
+            GMU: 124882361(duox)
+            NFU: 107388507
+            KMR: 108229956(duox)
+            ALIM: 106526813(duox1)
+            NWH: 119416339(duox)
+            AOCE: 111577711
+            MCEP: 125014956(duox)
+            CSEM: 103380468(duox1)
+            POV: 109624285(duox1)
+            SSEN: 122761368(duox)
+            HHIP: 117763804(duox)
+            HSP: 118110158(duox)
+            LCF: 108876727(duox)
+            SDU: 111229749(duox1)
+            SLAL: 111658523(duox1)
+            XGL: 120793840(duox)
+            HCQ: 109507657(duox1)
+            SSCV: 125971362
+            BPEC: 110169429
+            MALB: 109973835
+            BSPL: 114857408(duox)
+            SASA: 106561775 106584698
+            STRU: 115192881 115197710
+            OTW: 112257697(duox)
+            OMY: 110502555(duox) 110521216
+            OGO: 124031608 124037496
+            ONE: 115144669
+            SALP: 112068471 112070024
+            SNH: 120051672 120065946
+            CCLU: 121540085 121568188
+            ELS: 105018355(duox1)
+            SFM: 108926713 108931140
+            PKI: 111835096(duox1)
+            AANG: 118214827(duox) 118227745
+            LOC: 102686607
+            PSPA: 121294413 121299078
+            ARUT: 117427637 117429209
+            PSEX: 120541780(duox)
+            LCM: 102354060
+            CMK: 103188862(duox) 103189631
+            RTP: 109915384 109929142
+            BFO: 118405238 118410062 118410673
+            BBEL: 109478520 109484726 109485115
+            CIN: 100170036(duox-d) 100170037(duox-c) 100170038(duox-b) 100170039(duox-a)
+            SCLV: 120342587
+            SPU: 100893745 588656(duox1)
+            APLC: 110980995
+            AJC: 117119778
+            SKO: 100378968 102804119 102808835
+            DME: Dmel_CG3131(Duox)
+            DER: 6542143
+            DSE: 6613156
+            DSI: Dsimw501_GD22800(Dsim_GD22800)
+            DYA: Dyak_GE15013
+            DAN: 6497732
+            DSR: 110185672
+            DPO: 4816533
+            DPE: 6603391
+            DMN: 108163035
+            DWI: 6644426
+            DGR: 6570040
+            DMO: Dmoj_GI12101
+            DAZ: 108610468
+            DNV: 115564315
+            DHE: 111592500
+            CCAT: 101460810
+            BOD: 106625065
+            RZE: 108361967 108372158
+            MDE: 101898456
+            SCAC: 106088128
+            LCQ: 111691057
+            LSQ: 119602199
+            HIS: 119652329
+            AGA: AgaP_AGAP009978(DUOX)
+            ACOZ: 120957353
+            AARA: 120901491
+            ASTE: 118512226
+            AAG: 5569378
+            AALB: 109622897 115258596
+            CQU: CpipJ_CPIJ003117
+            CPII: 120422785
+            CNS: 116343935
+            BCOO: 119081949
+            AME: 551970
+            ACER: 107993848
+            ALAB: 122712686
+            BIM: 100742890
+            BBIF: 117206993
+            BVK: 117235941
+            BVAN: 117154209
+            BTER: 100646100
+            BPYO: 122566024
+            CCAL: 108628573
+            OBB: 114871314
+            MGEN: 117217339 117223205
+            NMEA: 116428719 116432216
+            CGIG: 122398578 122399477
+            SOC: 105193293 105198516
+            MPHA: 105832768 105839999
+            AEC: 105143353
+            ACEP: 105623067
+            PBAR: 105425537 105433753
+            VEM: 105561934 105565430
+            HST: 105180870 105189824 105191215
+            DQU: 106745647 106748066
+            CFO: 105249651 105253135
+            FEX: 115238324 115238334 115243603
+            LHU: 105674245 105674838
+            PGC: 109853998 109861167
+            OBO: 105277837 105283516
+            PCF: 106787395 106787604
+            PFUC: 122514344 122522295
+            VPS: 122626888 122632224
+            NVI: 100123854
+            CSOL: 105360056
+            TPRE: 106654602
+            MDL: 103568521 103578043
+            CGLO: 123258500 123265286
+            FAS: 105271402 105271872
+            DAM: 107039719 107045559
+            AGIF: 122857152
+            CINS: 118071263
+            LHT: 122502121
+            CCIN: 107264776 107268015 107268261
+            TCA: 659451 660520
+            DPA: 109541703
+            SOY: 115891745
+            ATD: 109594881 109594882 109596781
+            CSET: 123316127 123322151
+            AGB: 108905028 108907487
+            LDC: 111502526 111510352
+            NVL: 108556323 108568369
+            APLN: 108735923
+            PPYR: 116165495 116181099
+            OTU: 111425098 111429313
+            BMOR: 101742234
+            BMAN: 114249899
+            MSEX: 115447638
+            DPL: KGM_207783
+            BANY: 112051693
+            NIQ: 126773546
+            PMAC: 106717948
+            PPOT: 106108434
+            PXU: 106115869
+            PRAP: 110992372
+            PBX: 123709947
+            PNAP: 125053715
+            ZCE: 119830708
+            CCRC: 123696144
+            HAW: 110372854
+            HZE: 124637464
+            TNL: 113498966
+            SLIU: 111347853
+            OFU: 114364584
+            PXY: 105389437
+            CFEL: 113386970
+            API: 100160850
+            DNX: 107163754
+            AGS: 114128657
+            RMD: 113556351
+            BTAB: 109040851
+            DCI: 103506134
+            CLEC: 106669322
+            HHAL: 106678549
+            NLU: 111058714 120354282
+            PHU: Phum_PHUM454140
+            FOC: 113214828
+            TPAL: 117640823
+            ZNE: 110836218 110836302
+            CSEC: 111862142 111873871
+            SGRE: 126355596
+            FCD: 110845799 110847047
+            DPX: DAPPUDRAFT_115264 DAPPUDRAFT_320872 DAPPUDRAFT_329115
+            DMK: 116936030
+            DPZ: 124344465 124344476
+            PVM: 113809368 113821689
+            PJA: 122247237 122250160
+            PCHN: 125029410 125043153
+            PMOO: 119585016
+            HAME: 121856691 121876182
+            PCLA: 123765441 123768988
+            PTRU: 123502638 123516038
+            HAZT: 108668232 108674360
+            EAF: 111699344 111712072
+            LSM: 121126652 121132081
+            PPOI: 119096881 119097515 119109308
+            ISC: IscW_ISCW007865
+            DSV: 119434619 119442650
+            RSAN: 119386466 119387297
+            RMP: 119178146 119188292
+            VDE: 111248894
+            VJA: 111269827
+            TUT: 107362746 107366415
+            DPTE: 113794004 113795926
+            DFR: 124490589 124491423
+            CSCU: 111612592 111619848 111625119
+            PTEP: 107441689 107445505 107451888
+            SDM: 118182489 118187761 118195019
+            CEL: CELE_F53G12.3(duox-2) CELE_F56C11.1(bli-3)
+            CBR: CBG_05103(Cbr-duox-2)
+            BMY: BM_BM4466(Bm4466)
+            LOA: LOAG_18205
+            NAI: NECAME_02527
+            TSP: Tsp_00940
+            LGI: LOTGIDRAFT_112352 LOTGIDRAFT_235056 LOTGIDRAFT_235234
+            PCAN: 112553786 112554429 112554430 112558393
+            BGT: 106070912 106078268
+            GAE: 121385129 121388454
+            HRF: 124112180 124122507 124122515
+            HRJ: 124278674 124291869 124291870
+            CRG: 105325327 105331097 105334568
+            MYI: 110445627 110445731 110453652 110456222
+            PMAX: 117314677 117334185 117334744
+            MCAF: 127730076 127734067 127734992
+            MMER: 123560845 123565534 123566150 123566602
+            OBI: 106882005
+            OSN: 115213405
+            LAK: 106150451 106151065 106178827
+            DGT: 114531756 114531757
+            XEN: 124439533 124439535
+            AQU: 100637823
+            CCP: CHC_T00004536001
+            PAN: PODANSg09756
+            MGR: MGG_08299
+            PPEI: PpBr36_02127
+            FPU: FPSE_02823
+            FVR: FVEG_12250
+            FOX: FOXG_13287
+            VAL: VDBG_00422
+            VDA: VDAG_00032
+            CFJ: CFIO01_04415
+            CHIG: CH63R_09213
+            PFY: PFICI_13149
+            SRE: PTSG_06098
+DBLINKS     ExplorEnz - The Enzyme Database: 1.6.3.1
+            IUBMB Enzyme Nomenclature: 1.6.3.1
+            ExPASy - ENZYME nomenclature database: 1.6.3.1
+            BRENDA, the Enzyme Database: 1.6.3.1
+            CAS: 77106-92-4
+///

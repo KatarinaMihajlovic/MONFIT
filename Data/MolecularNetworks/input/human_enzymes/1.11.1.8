@@ -1,0 +1,412 @@
+ENTRY       EC 1.11.1.8                 Enzyme
+NAME        iodide peroxidase;
+            thyroid peroxidase;
+            iodoperoxidase (heme type);
+            iodide peroxidase-tyrosine iodinase;
+            thyroperoxidase;
+            tyrosine iodinase;
+            TPO;
+            iodinase
+CLASS       Oxidoreductases;
+            Acting on a peroxide as acceptor;
+            Peroxidases
+SYSNAME     iodide:hydrogen-peroxide oxidoreductase
+REACTION    (1) 2 iodide + H2O2 + 2 H+ = diiodine + 2 H2O [RN:R02810];
+            (2) [thyroglobulin]-L-tyrosine + iodide + H2O2 = [thyroglobulin]-3-iodo-L-tyrosine + 2 H2O;
+            (3) [thyroglobulin]-3-iodo-L-tyrosine + iodide + H2O2 = [thyroglobulin]-3,5-diiodo-L-tyrosine + 2 H2O;
+            (4) 2 [thyroglobulin]-3,5-diiodo-L-tyrosine + H2O2 = [thyroglobulin]-L-thyroxine + [thyroglobulin]-aminoacrylate + 2 H2O [RN:R08523];
+            (5) [thyroglobulin]-3-iodo-L-tyrosine + [thyroglobulin]-3,5-diiodo-L-tyrosine + H2O2 = [thyroglobulin]-3,5,3'-triiodo-L-thyronine + [thyroglobulin]-aminoacrylate + 2 H2O [RN:R08522]
+ALL_REAC    R02810 R08522 R08523;
+            (other) R03208 R03539 R03953 R03973 R08520 R08521
+SUBSTRATE   iodide [CPD:C00708];
+            H2O2 [CPD:C00027];
+            H+ [CPD:C00080];
+            [thyroglobulin]-L-tyrosine [CPD:C16733];
+            [thyroglobulin]-3-iodo-L-tyrosine [CPD:C16732];
+            [thyroglobulin]-3,5-diiodo-L-tyrosine [CPD:C16731]
+PRODUCT     diiodine [CPD:C01382];
+            H2O [CPD:C00001];
+            [thyroglobulin]-3-iodo-L-tyrosine [CPD:C16732];
+            [thyroglobulin]-3,5-diiodo-L-tyrosine [CPD:C16731];
+            [thyroglobulin]-L-thyroxine [CPD:C16729];
+            [thyroglobulin]-aminoacrylate [CPD:C16734];
+            [thyroglobulin]-3,5,3'-triiodo-L-thyronine [CPD:C16730]
+COMMENT     Thyroid peroxidase catalyses the biosynthesis of the thyroid hormones L-thyroxine and triiodo-L-thyronine. It catalyses both the iodination of tyrosine residues in thyroglobulin (forming mono- and di-iodinated forms) and their coupling to form either L-thyroxine or triiodo-L-thyronine.
+HISTORY     EC 1.11.1.8 created 1961, modified 2012
+REFERENCE   1  [PMID:13718859]
+  AUTHORS   CUNNINGHAM BA, KIRKWOOD S.
+  TITLE     Enzyme systems concerned with the synthesis of monoiodotyrosine. III. Ion requirements of the soluble system.
+  JOURNAL   J Biol Chem 236:485-9 (1961)
+REFERENCE   2  [PMID:13964156]
+  AUTHORS   HOSOYA T, KONDO Y, UI N.
+  TITLE     Peroxidase activity in thyroid gland and partial purification of the enzyme.
+  JOURNAL   J Biochem 52:180-9 (1962)
+            DOI:10.1093/oxfordjournals.jbchem.a127594
+REFERENCE   3  [PMID:12325367]
+  AUTHORS   Coval ML, Taurog A.
+  TITLE     Purification and iodinating activity of hog thyroid peroxidase.
+  JOURNAL   J Biol Chem 242:5510-23 (1967)
+REFERENCE   4  [PMID:7021557]
+  AUTHORS   Gavaret JM, Cahnmann HJ, Nunez J
+  TITLE     Thyroid hormone synthesis in thyroglobulin. The mechanism of the coupling reaction.
+  JOURNAL   J Biol Chem 256:9167-73 (1981)
+REFERENCE   5  [PMID:7142155]
+  AUTHORS   Ohtaki S, Nakagawa H, Nakamura M, Yamazaki I
+  TITLE     One- and two-electron oxidations of tyrosine, monoiodotyrosine, and diiodotyrosine catalyzed by hog thyroid peroxidase.
+  JOURNAL   J Biol Chem 257:13398-403 (1982)
+REFERENCE   6  [PMID:6706930]
+  AUTHORS   Magnusson RP, Taurog A, Dorris ML
+  TITLE     Mechanism of iodide-dependent catalatic activity of thyroid peroxidase and lactoperoxidase.
+  JOURNAL   J Biol Chem 259:197-205 (1984)
+REFERENCE   7  [PMID:2996435]
+  AUTHORS   Virion A, Courtin F, Deme D, Michot JL, Kaniewski J, Pommier J
+  TITLE     Spectral characteristics and catalytic properties of thyroid peroxidase-H2O2 compounds in the iodination and coupling reactions.
+  JOURNAL   Arch Biochem Biophys 242:41-7 (1985)
+            DOI:10.1016/0003-9861(85)90477-1
+REFERENCE   8  [PMID:1497352]
+  AUTHORS   Rawitch AB, Pollock G, Yang SX, Taurog A
+  TITLE     Thyroid peroxidase glycosylation: the location and nature of the N-linked oligosaccharide units in porcine thyroid peroxidase.
+  JOURNAL   Arch Biochem Biophys 297:321-7 (1992)
+            DOI:10.1016/0003-9861(92)90679-Q
+  SEQUENCE  [ssc:445522]
+REFERENCE   9  [PMID:8448141]
+  AUTHORS   Sun W, Dunford HB
+  TITLE     Kinetics and mechanism of the peroxidase-catalyzed iodination of tyrosine.
+  JOURNAL   Biochemistry 32:1324-31 (1993)
+            DOI:10.1021/bi00056a018
+REFERENCE   10 [PMID:8651700]
+  AUTHORS   Taurog A, Dorris ML, Doerge DR
+  TITLE     Mechanism of simultaneous iodination and coupling catalyzed by thyroid peroxidase.
+  JOURNAL   Arch Biochem Biophys 330:24-32 (1996)
+            DOI:10.1006/abbi.1996.0222
+REFERENCE   11 [PMID:16098474]
+  AUTHORS   Ruf J, Carayon P
+  TITLE     Structural and functional aspects of thyroid peroxidase.
+  JOURNAL   Arch Biochem Biophys 445:269-77 (2006)
+            DOI:10.1016/j.abb.2005.06.023
+PATHWAY     ec00350  Tyrosine metabolism
+            ec01100  Metabolic pathways
+ORTHOLOGY   K00431  thyroid peroxidase
+GENES       HSA: 7173(TPO)
+            PTR: 112208205(TPO)
+            PPS: 100996140(TPO)
+            GGO: 101154382(TPO)
+            PON: 100456793(TPO)
+            NLE: 100600125(TPO) 115834294
+            HMH: 116480453(TPO)
+            MCC: 721610(TPO)
+            MCF: 102125126(TPO)
+            MTHB: 126933457
+            MNI: 105497560(TPO)
+            CSAB: 103220948(TPO)
+            CATY: 105587598(TPO)
+            PANU: 101002980(TPO)
+            TGE: 112604644(TPO)
+            MLEU: 105546350(TPO)
+            RRO: 104680243(TPO)
+            RBB: 108520786(TPO)
+            TFN: 117062801(TPO)
+            PTEH: 111526756(TPO)
+            CANG: 105525386(TPO)
+            CJC: 100386952(TPO)
+            SBQ: 101037216(TPO)
+            CIMI: 108292902(TPO)
+            CSYR: 103263957(TPO)
+            MMUR: 105870505(TPO)
+            LCAT: 123636559(TPO)
+            PCOQ: 105824646(TPO)
+            OGA: 100950962(TPO)
+            MMU: 22018(Tpo)
+            MCAL: 110307221(Tpo)
+            MPAH: 110324682(Tpo)
+            RNO: 54314(Tpo)
+            MCOC: 116080994(Tpo)
+            ANU: 117717370(Tpo)
+            MUN: 110552563 110561242
+            CGE: 100774668(Tpo)
+            MAUA: 101838356(Tpo)
+            PLEU: 114683239(Tpo)
+            MORG: 121432305(Tpo)
+            MFOT: 126491107
+            AAMP: 119807272(Tpo)
+            NGI: 103747657(Tpo)
+            HGL: 101704548(Tpo)
+            CPOC: 100723704(Tpo)
+            CCAN: 109698840(Tpo)
+            DORD: 105995174(Tpo)
+            DSP: 122100091(Tpo)
+            NCAR: 124962925
+            OCU: 100358662
+            OPI: 101529357(TPO)
+            TUP: 102498362(TPO)
+            GVR: 103595081(TPO)
+            CFA: 403521(TPO)
+            CLUD: 112664926(TPO)
+            VVP: 112927779(TPO)
+            VLG: 121491902(TPO)
+            AML: 100482359(TPO)
+            UMR: 103659385(TPO)
+            UAH: 113269244(TPO)
+            UAR: 123786594(TPO)
+            ELK: 111154148
+            LLV: 125108840
+            MPUF: 101677724(TPO)
+            NVS: 122915502(TPO)
+            ORO: 101386003(TPO)
+            EJU: 114206012(TPO)
+            ZCA: 113937469(TPO)
+            MLX: 118007270 118007322
+            NSU: 110587338(TPO)
+            LWW: 102736066(TPO)
+            FCA: 101098706(TPO)
+            PYU: 121044026(TPO)
+            PBG: 122467124(TPO)
+            LRUF: 124525761
+            PTG: 102968585(TPO)
+            PPAD: 109258749(TPO)
+            AJU: 106970832(TPO)
+            HHV: 120247915(TPO)
+            BTA: 525013(TPO)
+            BOM: 102270919(TPO)
+            BBUB: 102407971(TPO)
+            BBIS: 104994785(TPO)
+            CHX: 102182976(TPO)
+            OAS: 105606468(TPO)
+            ODA: 120864488(TPO)
+            CCAD: 122432081(TPO)
+            SSC: 445522(TPO)
+            CFR: 102509347(TPO)
+            CBAI: 105075311(TPO)
+            CDK: 105105788(TPO)
+            VPC: 102531846(TPO)
+            BACU: 103019738(TPO)
+            LVE: 103068590(TPO)
+            OOR: 101277595(TPO)
+            DLE: 111167991(TPO)
+            PCAD: 102992243(TPO)
+            PSIU: 116764397(TPO)
+            ECB: 100072955(TPO)
+            EPZ: 103558875(TPO)
+            EAI: 106831426(TPO)
+            MYB: 102261673(TPO)
+            MYD: 102752073(TPO)
+            MMYO: 118669324(TPO)
+            MNA: 107526670(TPO)
+            PKL: 118714838(TPO)
+            HAI: 109384713(TPO)
+            DRO: 112298003(TPO)
+            SHON: 118988799(TPO)
+            AJM: 119053969(TPO)
+            PDIC: 114498752(TPO)
+            PHAS: 123822481(TPO)
+            MMF: 118630987(TPO)
+            RFQ: 117032670(TPO)
+            PALE: 102894645(TPO)
+            PGIG: 120596537(TPO)
+            PVP: 105306937(TPO)
+            RAY: 107516248(TPO)
+            MJV: 108410043(TPO)
+            TOD: 119258688(TPO)
+            SARA: 101544834(TPO)
+            LAV: 100654315(TPO)
+            TMU: 101356790
+            ETF: 101650056(TPO)
+            DNM: 101411611(TPO)
+            MDO: 100032350(TPO)
+            GAS: 123233464(TPO)
+            SHR: 100914346(TPO)
+            AFZ: 127546516
+            PCW: 110193820(TPO)
+            OAA: 100080616(TPO)
+            GGA: 776120(TPO)
+            PCOC: 116240489(TPO)
+            MGP: 100547103(TPO)
+            CJO: 107312163(TPO)
+            NMEL: 110396710(TPO)
+            APLA: 101799650(TPO)
+            ACYG: 106030804(TPO)
+            AFUL: 116487946(TPO)
+            TGU: 100218312(TPO)
+            LSR: 110482186(TPO)
+            SCAN: 103822861(TPO)
+            PMOA: 120505263(TPO)
+            OTC: 121344293(TPO)
+            PRUF: 121359149(TPO)
+            GFR: 102035753(TPO)
+            FAB: 101810932(TPO)
+            PHI: 102101957(TPO)
+            PMAJ: 107202328(TPO)
+            CCAE: 111926044(TPO)
+            CCW: 104685517(TPO)
+            CBRC: 103622838(TPO)
+            ETL: 114069616(TPO)
+            ZAB: 102067657(TPO)
+            ACHL: 103798919(TPO)
+            FPG: 101922364(TPO)
+            FCH: 102045733(TPO)
+            CLV: 102095211(TPO)
+            EGZ: 104122160(TPO)
+            NNI: 104013841(TPO)
+            PLET: 104625294
+            PCRI: 104032438
+            PCAO: 104047200
+            ACUN: 113477604(TPO)
+            TALA: 104359736(TPO)
+            PADL: 103921358(TPO)
+            AFOR: 103895897(TPO)
+            ACHC: 115351124(TPO)
+            HALD: 104315049(TPO)
+            HLE: 104831289(TPO)
+            AGEN: 126046400
+            GCL: 127014894
+            CCRI: 104164426(TPO)
+            EHS: 104504514(TPO)
+            MUI: 104533545(TPO)
+            FGA: 104079472(TPO)
+            GSTE: 104252217(TPO)
+            LDI: 104351831(TPO)
+            MNB: 103777585(TPO)
+            OHA: 104329380(TPO)
+            DPUB: 104305690(TPO)
+            PGUU: 104469372(TPO)
+            ACAR: 104529229(TPO)
+            CPEA: 104390153(TPO)
+            AVIT: 104270482(TPO)
+            CVF: 104289037(TPO)
+            CUCA: 104064875(TPO)
+            TEO: 104380949(TPO)
+            BRHI: 104489655(TPO)
+            AAM: 106492987(TPO)
+            AROW: 112973093(TPO)
+            NPD: 112945458(TPO)
+            TGT: 104580334(TPO)
+            DNE: 112992818(TPO)
+            SCAM: 104143498(TPO)
+            ASN: 102375780(TPO)
+            AMJ: 106736998(TPO)
+            CPOO: 109312104(TPO)
+            GGN: 109300041(TPO)
+            PSS: 102447524(TPO)
+            CMY: 102940210(TPO)
+            CPIC: 101932866(TPO)
+            TST: 117874041(TPO)
+            CABI: 116817604(TPO)
+            MRV: 120401415(TPO)
+            ACS: 100562991(tpo)
+            PVT: 110073409(TPO)
+            SUND: 121925349(TPO)
+            PBI: 103055216(TPO)
+            PMUR: 107288276(TPO)
+            CTIG: 120310082(TPO)
+            TSR: 106551315(TPO)
+            PGUT: 117674498(TPO)
+            VKO: 123017669(TPO)
+            PMUA: 114593754(TPO) 114600521
+            ZVI: 118078350 118082781(TPO)
+            GJA: 107108843 107120374(TPO)
+            STOW: 125426778 125439527(TPO)
+            XLA: 100049788(tpo.S)
+            XTR: 100036738(tpo)
+            NPR: 108789262(TPO)
+            RTEM: 120936386(TPO)
+            BBUF: 120999023(TPO)
+            BGAR: 122935226(TPO)
+            DRE: 100331172(epx) 569363(tpo)
+            SRX: 107707791(tpo) 107732259
+            SANH: 107676453 107678715(tpo) 107701038
+            SGH: 107594129
+            CCAR: 109084952 109099142
+            CAUA: 113042938 113085118(tpo)
+            CGIB: 128013963 128031820
+            PPRM: 120471728(epx) 120473217 120473261
+            MAMB: 125247940(epx) 125269309(tpo)
+            CIDE: 127498092 127507673
+            MASI: 127435674 127455176
+            IPU: 108269580(tpo) 108274988(epx)
+            PHYP: 113529680 113538844(tpo)
+            SMEO: 124389670(tpo) 124392946(epx)
+            TFD: 113653966(epx) 113659460(tpo)
+            AMEX: 103026466 103032699(tpo)
+            EEE: 113572650(tpo) 113583564
+            TRU: 101062981 101079869 115247027
+            TNG: GSTEN00010284G001 GSTEN00012455G001
+            LCO: 104928854 104934649(tpo)
+            NCC: 104944637
+            CGOB: 115009405 115027547(tpo)
+            ELY: 117261785(epx) 117267275
+            EFO: 125886852(epx) 125901384(tpo)
+            PLEP: 121950093(epx) 121953636(tpo)
+            SLUC: 116038497(epx) 116042521(tpo)
+            ECRA: 117935626(tpo) 117949679(epx)
+            ESP: 116669921(tpo) 116694341
+            PFLV: 114547036(tpo) 114560272
+            GAT: 120808678(epx) 120832611(tpo)
+            PPUG: 119195992(epx) 119227498(tpo)
+            MSAM: 119893789(epx) 119910842(tpo)
+            CUD: 121514495(epx) 121526598
+            ALAT: 119005006(tpo) 119024167(epx)
+            MZE: 101470734(tpo) 101472649
+            ONL: 100692514 100700906(tpo)
+            OAU: 116326276(epx) 120434955(tpo)
+            OLA: 101167362 105356959(tpo)
+            OML: 112143527(tpo) 112152280(epx)
+            XMA: 102230399 102232241
+            XCO: 114134369 114151183
+            XHE: 116709035 116709593 116732146
+            PRET: 103460527 103466494
+            PFOR: 103141318 103154181(tpo)
+            PLAI: 106953134(tpo) 106964663
+            PMEI: 106923933(tpo) 106933097
+            GAF: 122835368(epx) 122845674(tpo)
+            CVG: 107100628
+            CTUL: 119787434(epx) 119797839(tpo)
+            GMU: 124858077(epx) 124884924(tpo)
+            NFU: 107388669 107392598(tpo)
+            KMR: 108230067(epx) 108241739(tpo)
+            ALIM: 106521174 106521219(tpo)
+            NWH: 119416466(epx) 119427722(tpo)
+            AOCE: 111562581(tpo) 111584102
+            MCEP: 125014719(epx) 125023792(tpo)
+            CSEM: 103379991(tpo) 103380299
+            POV: 109624077 109627948(tpo)
+            SSEN: 122776537(epx) 122783162(tpo)
+            HHIP: 117756338 117762621(epx)
+            HSP: 118109462(epx) 118116664(tpo)
+            LCF: 108886978(epx) 108897943
+            SDU: 111226032(tpo) 111229744
+            SLAL: 111666321 111666895 111670224(tpo)
+            XGL: 120792877(epx) 120795322(tpo)
+            HCQ: 109507502 109530238
+            SSCV: 125970095 125981320
+            BPEC: 110155374(tpo) 110169467
+            MALB: 109965011(tpo) 109972931
+            BSPL: 114848308(tpo) 114857330(epx)
+            SASA: 106584777 106611389(tpo)
+            STRU: 115161765 115192923
+            OTW: 112237628(epx) 112256946(tpo)
+            OMY: 110504252(tpo) 110522697(epx)
+            OGO: 124037374(epx) 124046982(tpo)
+            ONE: 115121024
+            SALP: 112069494(tpo) 112070266
+            SNH: 120022964 120022991 120051654(epx)
+            CCLU: 121540756(epx) 121544226(tpo)
+            ELS: 105028745(tpo) 105029701
+            SFM: 108942507(tpo)
+            PKI: 111848005 111857914(tpo)
+            AANG: 118215539(epx) 118234749(tpo)
+            LOC: 102695049(tpo)
+            PSPA: 121294970(epx) 121317659(tpo)
+            ARUT: 117411246(tpo) 117432329(epx)
+            PSEX: 120526592(tpo)
+            LCM: 102362813(TPO)
+            CMK: 103175078 103185975(tpo)
+            RTP: 109918711 109928222
+            CIN: 100183311 100183818 445593
+            SCLV: 120346294
+            PFLA: Pflav_004530
+DBLINKS     ExplorEnz - The Enzyme Database: 1.11.1.8
+            IUBMB Enzyme Nomenclature: 1.11.1.8
+            ExPASy - ENZYME nomenclature database: 1.11.1.8
+            BRENDA, the Enzyme Database: 1.11.1.8
+            CAS: 9031-28-1
+///

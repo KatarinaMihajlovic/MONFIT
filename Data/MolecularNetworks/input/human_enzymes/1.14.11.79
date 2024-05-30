@@ -1,0 +1,574 @@
+ENTRY       EC 1.14.11.79               Enzyme
+NAME        protein-L-histidine (3S)-3-hydroxylase;
+            RIOX1 (gene name);
+            RIOX2 (gene name);
+            protein histidyl hydroxylase
+CLASS       Oxidoreductases;
+            Acting on paired donors, with incorporation or reduction of molecular oxygen;
+            With 2-oxoglutarate as one donor, and incorporation of one atom of oxygen into each donor
+SYSNAME     protein-L-histidine,2-oxoglutarate:oxygen oxidoreductase (3S-hydroxylating)
+REACTION    a [protein]-L-histidine + 2-oxoglutarate + O2 = a [protein]-(3S)-3-hydroxy-L-histidine + succinate + CO2 [RN:R13015]
+ALL_REAC    R13015
+SUBSTRATE   [protein]-L-histidine [CPD:C00615];
+            2-oxoglutarate [CPD:C00026];
+            O2 [CPD:C00007]
+PRODUCT     [protein]-(3S)-3-hydroxy-L-histidine [CPD:C22519];
+            succinate [CPD:C00042];
+            CO2 [CPD:C00011]
+COMMENT     The human enzymes encoded by the RIOX1 and RIOX2 genes catalyse the hydroxylation of L-histidine residues in the 60S ribosomal proteins Rpl8 and L27a, respectively. Both proteins contain JmjC and winged helix domains, and both also catalyse histone L-lysine demethylation activities.
+HISTORY     EC 1.14.11.79 created 2022
+REFERENCE   1  [PMID:23103944]
+  AUTHORS   Ge W, Wolf A, Feng T, Ho CH, Sekirnik R, Zayer A, Granatino N, Cockman ME, Loenarz C, Loik ND, Hardy AP, Claridge TD, Hamed RB, Chowdhury R, Gong L, Robinson CV, Trudgian DC, Jiang M, Mackeen MM, McCullagh JS, Gordiyenko Y, Thalhammer A, Yamamoto A, Yang M, Liu-Yi P, Zhang Z, Schmidt-Zachmann M, Kessler BM, Ratcliffe PJ, Preston GM, Coleman ML, Schofield CJ
+  TITLE     Oxygenase-catalyzed ribosome hydroxylation occurs in prokaryotes and humans.
+  JOURNAL   Nat Chem Biol 8:960-2 (2012)
+            DOI:10.1038/nchembio.1093
+  SEQUENCE  [hsa:79697 84864]
+REFERENCE   2  [PMID:30151692]
+  AUTHORS   Bundred JR, Hendrix E, Coleman ML.
+  TITLE     The emerging roles of ribosomal histidyl hydroxylases in cell biology, physiology and disease.
+  JOURNAL   Cell Mol Life Sci 75:4093-4105 (2018)
+            DOI:10.1007/s00018-018-2903-z
+  SEQUENCE  [hsa:79697 84864]
+ORTHOLOGY   K16914  protein-L-histidine (3S)-3-hydroxylase / [histone H3]-trimethyl-L-lysine4/36 demethylase
+            K21760  protein-L-histidine (3S)-3-hydroxylase / [histone H3]-trimethyl-L-lysine9 demethylase
+GENES       HSA: 79697(RIOX1) 84864(RIOX2)
+            PTR: 104002100(RIOX1) 460541(RIOX2)
+            PPS: 100969073(RIOX2) 103787047(RIOX1)
+            GGO: 101123951(RIOX2)
+            PON: 100174658(RIOX2) 103892384(RIOX1)
+            NLE: 100605193(RIOX2) 105739243(RIOX1)
+            HMH: 116467033(RIOX2) 116484625(RIOX1)
+            MCC: 696773(RIOX1) 696986(RIOX2)
+            MCF: 102127356(RIOX2) 102135352(RIOX1)
+            MTHB: 126949300 126959510
+            MNI: 105477436(RIOX2) 105494285(RIOX1)
+            CSAB: 103228492(RIOX2) 103229309(RIOX1)
+            CATY: 105583562(MINA) 105599557
+            PANU: 101014233(RIOX2) 103886364(RIOX1)
+            TGE: 112618682(RIOX2) 112629404(RIOX1)
+            MLEU: 105541877 105544347(MINA)
+            RRO: 104654541(RIOX2) 104656344(RIOX1)
+            RBB: 108536225(CUNH14orf169) 108540766(MINA)
+            TFN: 117069369(RIOX1) 117083623(RIOX2)
+            PTEH: 111520542(RIOX1) 111545118(RIOX2)
+            CANG: 105501613(MINA) 105517321
+            CJC: 100404196(RIOX1) 100413649(RIOX2)
+            SBQ: 101045993 104650789
+            CIMI: 108304494(RIOX1) 108316394(RIOX2)
+            CSYR: 103263700(RIOX2) 103273243(RIOX1)
+            MMUR: 105858343(RIOX1) 105872735(RIOX2)
+            LCAT: 123630621(RIOX2) 123647004(RIOX1)
+            PCOQ: 105817187(MINA) 105819790
+            OGA: 100965459(RIOX2) 105886713(RIOX1)
+            MMU: 67014(Riox2) 71952(Riox1)
+            MCAL: 110307186(Riox1) 110311290(Riox2)
+            MPAH: 110324497(Riox1) 110329605(Riox2)
+            RNO: 266670(Riox2) 314300(Riox1)
+            MCOC: 116080287(Riox1) 116086031(Riox2)
+            ANU: 117697455(Riox1) 117717589(Riox2)
+            MUN: 110558535(Riox1) 110563478(Riox2)
+            CGE: 100752945(Riox2) 100774465
+            MAUA: 101823566(Riox2) 101837244(Riox1) 121137752
+            PLEU: 114698396(Riox1) 114700029(Riox2)
+            MORG: 121452248(Riox1) 121465274(Riox2)
+            MFOT: 126505593 126515167
+            AAMP: 119818543(Riox1) 119824584(Riox2)
+            NGI: 103741044(Riox2) 103747411(Riox1)
+            HGL: 101712659(Riox1) 101713050 101726082(Riox2)
+            CPOC: 100723333(Riox2) 100729659(Riox1)
+            CCAN: 109691362(Riox1) 109695250(Riox2)
+            DORD: 105982898 105991511(Mina)
+            DSP: 122105440(Riox2) 122118818(Riox1)
+            NCAR: 124977643 124992886 124993715
+            OCU: 100341449(RIOX2)
+            OPI: 101522672(RIOX2) 105941772(RIOX1)
+            TUP: 102476379(RIOX2) 102484507(RIOX1)
+            GVR: 103599654(MINA) 103599802
+            CFA: 106559177(RIOX1) 478533(RIOX2)
+            CLUD: 112640736(RIOX2) 112657830(RIOX1)
+            VVP: 112913366(RIOX2) 112927248(RIOX1)
+            VLG: 121493577(RIOX1) 121496945(RIOX2)
+            AML: 100468557(RIOX1) 100480089(RIOX2)
+            UMR: 103662016(RIOX2) 103673481(RIOX1)
+            UAH: 113250339(RIOX2) 113270360(RIOX1)
+            UAR: 123784128(RIOX2) 123799008(RIOX1)
+            ELK: 111147334 111148493
+            LLV: 125081412 125095988 125103705
+            MPUF: 101671929 101680555(MINA)
+            NVS: 122893635(RIOX1) 122903960 122908427(RIOX2)
+            ORO: 101363260(MINA) 101379219
+            EJU: 114199294(RIOX1) 114221047(RIOX2)
+            ZCA: 113909018(RIOX1) 113917121(RIOX2)
+            MLX: 118002325(RIOX1) 118017358(RIOX2)
+            NSU: 110571430(RIOX1) 110578455(RIOX2)
+            LWW: 102739562(RIOX1)
+            FCA: 101082510(RIOX2) 102900260(RIOX1)
+            PYU: 121032016(RIOX1) 121036137(RIOX2)
+            PBG: 122469294(RIOX1) 122491346(RIOX2)
+            LRUF: 124512053 124526702
+            PTG: 102960977(RIOX1) 102972427(RIOX2)
+            PPAD: 109253798(CUNH14orf169) 109266292(MINA)
+            AJU: 106974332(RIOX1) 106982633(RIOX2)
+            HHV: 120223771(RIOX2) 120231954(RIOX1)
+            BTA: 511031(RIOX1) 540466(RIOX2)
+            BOM: 102274346(RIOX2) 102285244(RIOX1)
+            BIU: 109563697(RIOX2) 109565323(RIOX1)
+            BBUB: 102396348(RIOX2)
+            BBIS: 104994731(MINA) 105000131
+            CHX: 102171372(MINA) 102173094(C10H14orf169)
+            OAS: 101103688(RIOX2) 105606501(RIOX1)
+            ODA: 120853043(RIOX2) 120853602(RIOX1)
+            CCAD: 122428638(RIOX2)
+            SSC: 100523074(RIOX1) 110256447(RIOX2)
+            CFR: 102505373(RIOX1) 102521859(RIOX2)
+            CBAI: 105075429 105077936(MINA)
+            CDK: 105086126(RIOX1) 105087752(RIOX2)
+            VPC: 102538677(RIOX2) 102544596(RIOX1)
+            BACU: 103006403(RIOX2) 103014019(RIOX1)
+            LVE: 103069841 103078391(MINA)
+            OOR: 101275960 101288735(MINA)
+            DLE: 111176276(RIOX1) 111179419(RIOX2)
+            PCAD: 102978515(RIOX2) 102980914(RIOX1)
+            PSIU: 116749506(RIOX1) 116752913(RIOX2)
+            ECB: 100072544(RIOX2) 100146448(RIOX1) 111767495
+            EPZ: 103565590(RIOX2) 103567990(RIOX1)
+            EAI: 106827705(RIOX1) 106845721(RIOX2)
+            MYB: 102256349(RIOX2) 102256784(RIOX1)
+            MYD: 102757410(RIOX1) 102759340(RIOX2)
+            MMYO: 118657792(RIOX1) 118677557(RIOX2)
+            MLF: 102424538(RIOX2) 102440102(RIOX1)
+            MNA: 107527067(MINA) 107533472
+            PKL: 118715502(RIOX1) 118722739(RIOX2)
+            HAI: 109373953(RIOX2) 109381570(RIOX1)
+            DRO: 112302621(RIOX2) 112311546(RIOX1)
+            SHON: 118976654(RIOX1) 118995849(RIOX2)
+            AJM: 119036137(RIOX1) 119039008(RIOX2)
+            PDIC: 114490416(RIOX2) 114492357(RIOX1)
+            PHAS: 123808581(RIOX1) 123826794(RIOX2)
+            MMF: 118616455(RIOX1) 118617155(RIOX2)
+            RFQ: 117022753(RIOX1) 117034584(RIOX2)
+            PALE: 102881417(RIOX2) 102887644(RIOX1)
+            PGIG: 120615921(RIOX2) 120619476(RIOX1)
+            PVP: 105289632(RIOX2) 105299251(RIOX1)
+            RAY: 107505016 107516609(MINA)
+            MJV: 108397196(CUNH14orf169) 108398802(MINA)
+            TOD: 119239267(RIOX1) 119257593(RIOX2)
+            SARA: 101549361(MINA) 105943148
+            LAV: 100663887(RIOX2) 100668526(RIOX1)
+            TMU: 101348575 101358804
+            ETF: 101639863(RIOX2) 105979987(RIOX1)
+            DNM: 101427960(RIOX2) 101437091(RIOX1)
+            MDO: 100024523(RIOX1) 100031200(RIOX2)
+            GAS: 123235838(RIOX1) 123241693(RIOX2)
+            SHR: 100923073(RIOX2) 105750349(RIOX1)
+            AFZ: 127549524 127553585
+            PCW: 110202003(RIOX2) 110208359(RIOX1)
+            OAA: 100086314(RIOX1) 100089826(RIOX2)
+            GGA: 418436(RIOX1) 423249(C5H14ORF169)
+            PCOC: 116229243(RIOX1) 116242019(RIOX2)
+            MGP: 100542356(RIOX2) 100545882(RIOX1)
+            CJO: 107314864(RIOX1) 107321747(RIOX2)
+            NMEL: 110401094(RIOX2) 110401899(RIOX1)
+            APLA: 101796505(RIOX1) 101804263(RIOX2)
+            ACYG: 106039660(RIOX2) 106040700(RIOX1)
+            AFUL: 116485436(RIOX2) 116489571(RIOX1)
+            TGU: 100219109(RIOX1) 100225271(RIOX2)
+            LSR: 110472176(RIOX1) 110481507(RIOX2)
+            SCAN: 103818372(RIOX2) 103826967(RIOX1)
+            PMOA: 120500278(RIOX1) 120504028(RIOX2)
+            OTC: 121334309(RIOX1) 121344686(RIOX2)
+            PRUF: 121349550(RIOX1) 121360391(RIOX2)
+            GFR: 102034845(RIOX2) 102035608(RIOX1)
+            FAB: 101809956(RIOX2) 101819482(RIOX1)
+            PHI: 102099511(MINA) 102111633
+            PMAJ: 107201247(RIOX2) 107205486(RIOX1)
+            CCAE: 111930251(RIOX1) 111941906(RIOX2)
+            CCW: 104688287(RIOX1) 104689381(RIOX2)
+            CBRC: 103613689(MINA) 103620966(CUNH14orf169)
+            ETL: 114055505(RIOX1) 114070459(RIOX2)
+            ZAB: 102060487(RIOX1) 102066324(RIOX2)
+            ACHL: 103807005(MINA) 103807375
+            FPG: 101913319(RIOX2) 101922675(RIOX1)
+            FCH: 102046169(RIOX2) 102052952(RIOX1)
+            CLV: 102085791(RIOX1) 102088246(RIOX2)
+            EGZ: 104127769(MINA) 104132280
+            NNI: 104014135(MINA) 104020430
+            PLET: 104619961 104628549(MINA)
+            PCRI: 104037210 104037511(MINA)
+            PCAO: 104050530(MINA) 104053667
+            ACUN: 113478746(RIOX2) 113480503(RIOX1)
+            TALA: 104357502(RIOX1) 104362988(RIOX2)
+            PADL: 103912835 103916840(MINA)
+            AFOR: 103895064(MINA) 103898887(CUNH14orf169)
+            ACHC: 115338395(RIOX1) 115344074(RIOX2)
+            HALD: 104311484(MINA) 104314949
+            HLE: 104831601(MINA)
+            AGEN: 126048861 126049446
+            GCL: 127014783 127016865
+            CCRI: 104158036 104158185 104164870
+            CSTI: 104562289 104562395(MINA)
+            EHS: 104515024(MINA) 104515933
+            CMAC: 104479817(MINA) 104483476
+            MUI: 104533703(MINA) 104537340
+            FGA: 104080124 104081975(MINA)
+            GSTE: 104251195 104262296
+            LDI: 104340698 104346596(MINA)
+            MNB: 103774562 103778279(MINA)
+            OHA: 104328193 104337353(MINA)
+            NNT: 104399702 104406728(MINA)
+            DPUB: 104300359 104301777(MINA)
+            PGUU: 104461693(MINA) 104464730
+            ACAR: 104518307(RIOX1) 104526803(RIOX2)
+            CPEA: 104390585 104395743(MINA)
+            AVIT: 104275072(MINA) 104281348
+            CVF: 104284091 104290920(MINA)
+            CUCA: 104055971(MINA) 104061865
+            TEO: 104370496(MINA) 104373599
+            BRHI: 104492453(MINA) 104500050
+            AAM: 106490689(RIOX2) 106498095(RIOX1)
+            AROW: 112964060(RIOX1) 112974428(RIOX2)
+            NPD: 112946664(RIOX2)
+            TGT: 104566975(MINA) 104579083
+            DNE: 112980748(RIOX1) 112983202(RIOX2)
+            SCAM: 104141222 104149223(MINA)
+            ASN: 102368506(RIOX2) 102376489(RIOX1)
+            AMJ: 102560036(RIOX1) 102564263(RIOX2)
+            CPOO: 109305656(MINA) 109321529(CUNH14orf169)
+            GGN: 109298811(CUNH14orf169) 109303518(MINA)
+            PSS: 102447426(RIOX2) 102450180(RIOX1)
+            CMY: 102933242(RIOX1) 102947964(RIOX2)
+            CPIC: 101944414(RIOX1) 101945151(RIOX2)
+            TST: 117876967(RIOX1) 117888218(RIOX2)
+            CABI: 116825381(RIOX1) 116839253(RIOX2)
+            MRV: 120396775(RIOX2) 120404335(RIOX1)
+            ACS: 100557464(riox1) 100565569(riox2)
+            PVT: 110088098(RIOX1) 110088219(RIOX2)
+            SUND: 121919007(RIOX1) 121924810(RIOX2)
+            PBI: 103056061(RIOX2) 103064072(RIOX1)
+            PMUR: 107290099(RIOX1) 107302762(RIOX2)
+            CTIG: 120302776(RIOX1) 120304747(RIOX2)
+            TSR: 106540035
+            PGUT: 117663499(RIOX2) 117665617(RIOX1)
+            VKO: 123026708(RIOX1) 123028967(RIOX2)
+            PMUA: 114594532(RIOX1) 114595937(RIOX2)
+            ZVI: 118085616(RIOX2) 118097647(RIOX1)
+            GJA: 107111814(RIOX1) 107111980(RIOX2)
+            STOW: 125430662(RIOX2) 125435934(RIOX1)
+            XLA: 108716657(riox1.L) 446691(riox2.L)
+            XTR: 100488150(riox2) 100488246(riox1)
+            NPR: 108788943(CUNH14orf169) 108797254(MINA)
+            RTEM: 120927798(RIOX2) 120937491(RIOX1)
+            BBUF: 120994598(RIOX2) 120998764(RIOX1)
+            BGAR: 122933058(RIOX2) 122934417(RIOX1)
+            DRE: 393308(riox2) 560815(riox1)
+            SRX: 107719421 107744203(mina)
+            SANH: 107669424 107671636(mina) 107704066
+            SGH: 107548410 107559126 107565555(mina)
+            CCAR: 109068503 109081363 109092732
+            CAUA: 113068568 113068613 113088320 113110071 113120605
+            CGIB: 127938534 127947792 127980497 127984595
+            PPRM: 120478435(riox2) 120491947(riox1)
+            MAMB: 125262591(riox2) 125278713(riox1)
+            CIDE: 127502362 127520236
+            MASI: 127415547 127433878
+            IPU: 108257725(riox1) 108277065(riox2)
+            PHYP: 113532105(riox1) 113543479(riox2)
+            SMEO: 124377246(riox1) 124393031(riox2)
+            TFD: 113645667(riox2) 113655601(riox1)
+            AMEX: 103032133(riox2) 103035470(riox1)
+            EEE: 113571701(riox1) 113581698(riox2)
+            TRU: 101069081(riox1)
+            TNG: GSTEN00023017G001
+            LCO: 104919748(riox2) 104930843(riox1)
+            NCC: 104950067 104958373(mina)
+            CGOB: 115019472(riox2)
+            ELY: 117265100(riox2) 117270465(riox1)
+            EFO: 125896950(riox1) 125897982(riox2)
+            PLEP: 121952924(riox2) 121955439(riox1)
+            SLUC: 116058276(riox2) 116066116(riox1)
+            ECRA: 117955831(riox2) 117961991(riox1)
+            ESP: 116700835(riox2) 116706862(riox1)
+            PFLV: 114567367(riox2) 114572971(riox1)
+            GAT: 120807956(riox1) 120810062(riox2)
+            PPUG: 119194751(riox1) 119197892(riox2)
+            MSAM: 119895915(riox2) 119908808(riox1)
+            CUD: 121521468(riox1)
+            ALAT: 119013099(riox1) 119031758(riox2)
+            MZE: 101466884(riox1) 101469377(riox2)
+            ONL: 100697044(riox2) 100712195(riox1)
+            OAU: 116312736(riox1) 116312852(riox2)
+            OLA: 101163704(riox1)
+            OML: 112157677(riox1)
+            XMA: 102226754
+            XCO: 114158239
+            XHE: 116734273(riox1)
+            PRET: 103457383
+            PFOR: 103133537
+            PLAI: 106962978
+            PMEI: 106911368
+            GAF: 122825053(riox1)
+            CVG: 107080779
+            CTUL: 119771556(riox1)
+            GMU: 124882140(riox1)
+            NFU: 107377721
+            KMR: 108233352(riox1)
+            ALIM: 106525670
+            NWH: 119418309(riox1)
+            AOCE: 111571796
+            MCEP: 124999565(riox1)
+            CSEM: 103381232(c7h14orf169) 103395706(mina)
+            POV: 109636096
+            SSEN: 122779615(riox2) 122784601(riox1)
+            HHIP: 117758517(riox1)
+            HSP: 118099488(riox1)
+            LCF: 108873507(riox1) 108900080(riox2)
+            SDU: 111234384(riox2) 111237580(riox1)
+            SLAL: 111654039(riox2) 111661395(riox1)
+            XGL: 120788910(riox1) 120803008(riox2)
+            HCQ: 109514677(riox1)
+            SSCV: 125990074
+            BPEC: 110164233(riox1) 110175014(riox2)
+            MALB: 109962343
+            BSPL: 114849888(riox1)
+            SASA: 106571660 106603730(riox2) 106608197
+            STRU: 115154098(riox2) 115159950 115174601
+            OTW: 112217927 112228378(riox2) 112250477
+            OMY: 110522552 110529775 110533460(riox2)
+            OGO: 123990907 123995725 124012843(riox2)
+            ONE: 115107911 115136084(riox2) 115139161
+            SALP: 111950360(riox2) 111954191 112069089
+            SNH: 120019127 120024164 120056903(riox2)
+            CCLU: 121548544 121552393 123492141(riox2)
+            ELS: 105010743(riox2) 105017561(riox1)
+            SFM: 108924117(riox1) 108936031(riox2)
+            PKI: 111841139(riox1) 111855795(riox2)
+            AANG: 118229175(riox1) 118235498(riox2)
+            LOC: 102690247(clg1h14orf169) 102690727(mina)
+            PSPA: 121302667(riox2) 121317174(riox1)
+            ARUT: 117406131 117407514 117411433(riox1)
+            PSEX: 120523268(riox2) 120525792(riox1)
+            LCM: 102352369(RIOX1) 102356579(RIOX2)
+            CMK: 103181758(riox1) 103183688(riox2)
+            RTP: 109921777(riox1) 109927722(riox2)
+            BFO: 118407424 118413074 118423058
+            BBEL: 109464575 109464582 109484918
+            CIN: 100179691 100179783
+            SCLV: 120327006
+            SPU: 577190 584413
+            APLC: 110981516 110982530
+            AJC: 117116088
+            SKO: 100371564 100375112
+            DME: Dmel_CG2982(NO66)
+            DER: 6550993
+            DSE: 116802029 6612514
+            DYA: Dyak_GE16340
+            DAN: 6503484
+            DSR: 110176117
+            DPO: 117183205 117185202 117185203 117185205 26533390 6903974
+            DPE: 113566194 6597402
+            DMN: 108164587 117187195 117187196 117187199 117187200 117190646
+            DWI: 6652943
+            DGR: 6565600
+            DMO: Dmoj_GI16410
+            DAZ: 108618020
+            DNV: 108657567
+            DHE: 111591852
+            DVI: 6633376
+            CCAT: 101450076
+            BOD: 106618530
+            RZE: 108361822
+            MDE: 101891741
+            SCAC: 106091915
+            LCQ: 111683814
+            LSQ: 119604703
+            HIS: 119655659
+            AGA: AgaP_AGAP001938
+            ACOZ: 120952293
+            AARA: 120897878
+            ASTE: 118506573
+            AAG: 5571894
+            AALB: 109426359 109621627
+            CQU: CpipJ_CPIJ008401
+            CPII: 120414310
+            CNS: 116344626
+            BCOO: 119071048 119072009
+            AME: 411568
+            ACER: 107996957
+            ALAB: 122717612
+            BIM: 100749187
+            BBIF: 117216404
+            BVK: 117233553
+            BVAN: 117154730
+            BTER: 100650659
+            BPYO: 122574469
+            CCAL: 108624157
+            OBB: 114874494
+            MGEN: 117226998
+            NMEA: 116434741
+            CGIG: 122403328
+            SOC: 105197100
+            MPHA: 105830462
+            AEC: 105148932
+            ACEP: 105622879
+            PBAR: 105431133
+            VEM: 105567104
+            HST: 105181653
+            DQU: 106745310
+            CFO: 105256776
+            FEX: 115232796
+            LHU: 105669936
+            PGC: 109852596
+            PCF: 106785092
+            PFUC: 122519508
+            VPS: 122631693
+            NVI: 100114113
+            CSOL: 105368275
+            TPRE: 106650151
+            MDL: 103569265
+            CGLO: 123260654
+            FAS: 105267041
+            DAM: 107039223
+            AGIF: 122848926
+            CINS: 118069435
+            LHT: 122507711
+            CCIN: 107263919
+            TCA: 663248
+            DPA: 109536781
+            SOY: 115879320
+            ATD: 109605029
+            CSET: 123310038
+            AGB: 108908622
+            LDC: 111516081
+            NVL: 108567342
+            APLN: 108740416
+            PPYR: 116169446
+            OTU: 111425061
+            BMOR: 101739566
+            BMAN: 114246951
+            MSEX: 115441256
+            DPL: KGM_214532
+            BANY: 112050888
+            NIQ: 126772336
+            PMAC: 106709696
+            PPOT: 106105778
+            PXU: 106122209
+            PRAP: 110993211
+            PBX: 123713279
+            PNAP: 125058447
+            ZCE: 119833729 119833950
+            CCRC: 123696902
+            HAW: 110376084
+            HZE: 124634099
+            TNL: 113505739
+            SLIU: 111362738
+            OFU: 114360506
+            PXY: 105380251
+            API: 100167047
+            DNX: 107165474
+            AGS: 114132286
+            RMD: 113549623
+            BTAB: 109041551
+            DCI: 103507167
+            CLEC: 106662860
+            HHAL: 106689248
+            NLU: 111061999 120353620
+            PHU: Phum_PHUM117430
+            FOC: 113202349 113210838
+            TPAL: 117645121 117654523
+            ZNE: 110828085
+            CSEC: 111873254
+            SGRE: 126278370
+            FCD: 110846387
+            PVM: 113828611
+            PJA: 122243313
+            PCHN: 125037456
+            PMOO: 119594520
+            HAME: 121876486
+            PCLA: 123770279
+            PTRU: 123515565
+            HAZT: 108673958
+            EAF: 111697580
+            LSM: 121118183
+            PPOI: 119094441
+            ISC: IscW_ISCW006451 IscW_ISCW006941
+            DSV: 119457670 119460967
+            RSAN: 119374841 119396870
+            RMP: 119167101 119174961
+            VDE: 111245149 111251512 111252762
+            VJA: 111265908 111269221 111273000
+            TUT: 107364953
+            CSCU: 111628258 111638095
+            PTEP: 107438310
+            SDM: 118182827
+            CEL: CELE_T28F2.4(jmjc-1)
+            CBR: CBG_11988(Cbr-jmjc-1)
+            BMY: BM_BM6073(Bma-jmjc-1)
+            LOA: LOAG_00418
+            NAI: NECAME_11131
+            HRO: HELRODRAFT_116230
+            LGI: LOTGIDRAFT_194127
+            PCAN: 112569766
+            BGT: 106070561
+            GAE: 121370586
+            HRF: 124123858
+            HRJ: 124285197
+            CRG: 105337855
+            MYI: 110459592
+            PMAX: 117324179
+            MCAF: 127737655
+            MMER: 123533161
+            OBI: 106882535
+            OSN: 115217342
+            LAK: 106150818
+            OVI: T265_03702
+            NVE: 5504751 5510735
+            EPA: 110232641 110233938
+            ATEN: 116305330 116307035
+            ADF: 107337535 107343008
+            AMIL: 114959632 114975668
+            PDAM: 113672030 113673467
+            SPIS: 111334731 111340509
+            DGT: 114522136 114535977
+            XEN: 124442627 124442673
+            HMG: 100209380 100212596
+            TAD: TRIADDRAFT_50673
+            AQU: 100636565
+            PPP: 112277103
+            CSL: COCSUDRAFT_64552
+            CVR: CHLNCDRAFT_140729
+            APRO: F751_3734
+            OLU: OSTLU_15879
+            OTA: OT_ostta06g03570
+            BPG: Bathy10g01340
+            MIS: MICPUN_68455
+            MPP: MICPUCDRAFT_55966
+            CCP: CHC_T00004130001
+            MBR: MONBRDRAFT_25525
+            SRE: PTSG_10023
+            DDI: DDB_G0287513(jcdG)
+            DPP: DICPUDRAFT_32138
+            DFA: DFA_11703(jcdG)
+            ACAN: ACA1_163410 ACA1_392950
+            SMIN: v1.2.004901.t1(symbB.v1.2.004901.t1)
+            PTI: PHATRDRAFT_14981
+            FCY: FRACYDRAFT_140013
+            TPS: THAPSDRAFT_21082
+            AAF: AURANDRAFT_67230
+            PIF: PITG_03548 PITG_15871
+            PSOJ: PHYSODRAFT_330429 PHYSODRAFT_473010
+            SPAR: SPRG_13570 SPRG_19899
+            EHX: EMIHUDRAFT_204434 EMIHUDRAFT_251857 EMIHUDRAFT_468207
+            GTT: GUITHDRAFT_137055 GUITHDRAFT_99731
+            TCR: 508141.30
+            LMA: LMJF_31_0240
+            LIF: LINJ_31_0250
+            LDO: LDBPK_310250
+            LMI: LMXM_30_0240
+            LBZ: LBRM_31_0350
+            LPAN: LPMP_310240
+            NGR: NAEGRDRAFT_50047
+DBLINKS     ExplorEnz - The Enzyme Database: 1.14.11.79
+            IUBMB Enzyme Nomenclature: 1.14.11.79
+            ExPASy - ENZYME nomenclature database: 1.14.11.79
+            BRENDA, the Enzyme Database: 1.14.11.79
+///

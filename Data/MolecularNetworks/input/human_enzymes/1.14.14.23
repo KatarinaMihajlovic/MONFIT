@@ -1,0 +1,388 @@
+ENTRY       EC 1.14.14.23               Enzyme
+NAME        cholesterol 7alpha-monooxygenase;
+            cholesterol 7alpha-hydroxylase;
+            CYP7A1 (gene name)
+CLASS       Oxidoreductases;
+            Acting on paired donors, with incorporation or reduction of molecular oxygen;
+            With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+SYSNAME     cholesterol,NADPH---hemoprotein reductase:oxygen oxidoreductase (7alpha-hydroxylating)
+REACTION    cholesterol + [reduced NADPH---hemoprotein reductase] + O2 = 7alpha-hydroxycholesterol + [oxidized NADPH---hemoprotein reductase] + H2O [RN:R01463]
+ALL_REAC    R01463;
+            (other) R07372 R08961
+SUBSTRATE   cholesterol [CPD:C00187];
+            [reduced NADPH---hemoprotein reductase] [CPD:C03024];
+            O2 [CPD:C00007]
+PRODUCT     7alpha-hydroxycholesterol [CPD:C03594];
+            [oxidized NADPH---hemoprotein reductase] [CPD:C03161];
+            H2O [CPD:C00001]
+COMMENT     A P-450 heme-thiolate liver protein that catalyses the first step in the biosynthesis of bile acids. The direct electron donor to the enzyme is EC 1.6.2.4, NADPH---hemoprotein reductase.
+HISTORY     EC 1.14.14.23 created 1976 as EC 1.14.13.17, transferred 2016 to EC 1.14.14.23
+REFERENCE   1  [PMID:4397276]
+  AUTHORS   Mitton JR, Scholan NA, Boyd GS.
+  TITLE     The oxidation of cholesterol in rat liver sub-cellular particles. The cholesterol-7-alpha-Hydroxylase enzyme system.
+  JOURNAL   Eur J Biochem 20:569-79 (1971)
+            DOI:10.1111/j.1432-1033.1971.tb01429.x
+REFERENCE   2  [PMID:4147676]
+  AUTHORS   Boyd GS, Grimwade AM, Lawson ME.
+  TITLE     Studies on rat-liver microsomal cholesterol 7alpha-hydroxylase.
+  JOURNAL   Eur J Biochem 37:334-40 (1973)
+            DOI:10.1111/j.1432-1033.1973.tb02992.x
+REFERENCE   3  [PMID:3584134]
+  AUTHORS   Ogishima T, Deguchi S, Okuda K.
+  TITLE     Purification and characterization of cholesterol 7 alpha-hydroxylase from rat liver microsomes.
+  JOURNAL   J Biol Chem 262:7646-50 (1987)
+REFERENCE   4  [PMID:2106520]
+  AUTHORS   Nguyen LB, Shefer S, Salen G, Ness G, Tanaka RD, Packin V, Thomas P, Shore V, Batta A
+  TITLE     Purification of cholesterol 7 alpha-hydroxylase from human and rat liver and production of inhibiting polyclonal antibodies.
+  JOURNAL   J Biol Chem 265:4541-6 (1990)
+REFERENCE   5  [PMID:8938182]
+  AUTHORS   Nguyen LB, Shefer S, Salen G, Chiang JY, Patel M
+  TITLE     Cholesterol 7alpha-hydroxylase activities from human and rat liver are modulated  in vitro posttranslationally by phosphorylation/dephosphorylation.
+  JOURNAL   Hepatology 24:1468-74 (1996)
+            DOI:10.1002/hep.510240628
+PATHWAY     ec00120  Primary bile acid biosynthesis
+            ec00140  Steroid hormone biosynthesis
+            ec01100  Metabolic pathways
+ORTHOLOGY   K00489  cholesterol 7alpha-monooxygenase
+GENES       HSA: 1581(CYP7A1)
+            PTR: 464191(CYP7A1)
+            PPS: 100991402(CYP7A1)
+            GGO: 101132324
+            PON: 100457945
+            NLE: 100606037
+            HMH: 116812628
+            MCC: 698127(CYP7A1)
+            MCF: 102132452(CYP7A1)
+            MTHB: 126961679
+            MNI: 105482250
+            CSAB: 103236848
+            CATY: 105600600
+            PANU: 101004221
+            TGE: 112630469
+            MLEU: 105541241
+            RRO: 104680718
+            RBB: 108529422
+            TFN: 117079320
+            PTEH: 111549283
+            CANG: 105504490
+            CJC: 100399021(CYP7A1)
+            SBQ: 101042921
+            CIMI: 108317247(CYP7A1)
+            CSYR: 103260752
+            MMUR: 105885233
+            LCAT: 123644622
+            PCOQ: 105824071
+            OGA: 100948731
+            MMU: 13122(Cyp7a1)
+            MCAL: 110293070
+            MPAH: 110338888
+            RNO: 25428(Cyp7a1)
+            MCOC: 116089021
+            ANU: 117698743
+            MUN: 110541406
+            CGE: 100689275(Cyp7a1)
+            MAUA: 101824665(Cyp7a1)
+            PLEU: 114686695 114699453
+            MORG: 121451936
+            MFOT: 126515871
+            AAMP: 119826425
+            NGI: 103732272
+            HGL: 101701685
+            CPOC: 100337633(Cyp7a1)
+            CCAN: 109696686
+            DORD: 105980356
+            DSP: 122095949
+            NCAR: 124992322
+            OCU: 100328551(CYP7A1)
+            OPI: 101535440
+            TUP: 102485369
+            GVR: 103591747
+            CFA: 486962(CYP7A1)
+            CLUD: 112678486
+            VVP: 112929610
+            VLG: 121498511
+            AML: 100463816
+            UMR: 103677451
+            UAH: 113268152
+            UAR: 123786797
+            ELK: 111155461
+            LLV: 125099217
+            MPUF: 101675165
+            NVS: 122903959
+            ORO: 101367833
+            EJU: 114216366
+            ZCA: 113907999
+            MLX: 118014846
+            NSU: 110578952
+            LWW: 102731486
+            FCA: 101099612
+            PYU: 121038236
+            PBG: 122495434
+            LRUF: 124507401
+            PTG: 102949308
+            PPAD: 109250285
+            AJU: 106984174
+            HHV: 120246958
+            BTA: 510507(CYP7A1)
+            BOM: 102279131
+            BIU: 109568695
+            BBUB: 102415293
+            BBIS: 104987886
+            CHX: 102187785
+            OAS: 101116841
+            ODA: 120878598
+            CCAD: 122451515
+            SSC: 448985(CYP7A1)
+            CFR: 102524538
+            CBAI: 105081472
+            CDK: 105093285
+            VPC: 102526027
+            BACU: 102998844
+            LVE: 103077935
+            OOR: 101277445
+            DLE: 111165853
+            PCAD: 102991949
+            PSIU: 116742636
+            ECB: 100052888
+            EPZ: 103563857
+            EAI: 106841669
+            MYB: 102259720
+            MYD: 102775453
+            MMYO: 118670864
+            MLF: 102434576
+            MNA: 107533134
+            PKL: 118718287
+            HAI: 109376133
+            DRO: 112315717
+            SHON: 118974982
+            AJM: 119065523
+            PDIC: 114514767
+            PHAS: 123832883
+            MMF: 118631757
+            RFQ: 117033590
+            PALE: 102882765
+            PGIG: 120607418
+            PVP: 105291411
+            RAY: 107521198
+            MJV: 108398999
+            TOD: 119242257
+            SARA: 101551537
+            LAV: 100671887
+            TMU: 101350541
+            ETF: 101638011
+            DNM: 101438362
+            MDO: 100022261(CYP7A1)
+            GAS: 123231699
+            SHR: 100926104
+            AFZ: 127543839
+            PCW: 110221415
+            OAA: 100079392
+            GGA: 414834(CYP7A1)
+            PCOC: 116242210
+            MGP: 100539035
+            CJO: 107310210
+            NMEL: 110393778
+            APLA: 101790267
+            ACYG: 106039033
+            AFUL: 116486602
+            TGU: 100225999
+            LSR: 110484788
+            SCAN: 103812446
+            PMOA: 120499269
+            OTC: 121340198
+            PRUF: 121356849
+            GFR: 102033927
+            FAB: 101816047
+            PHI: 102101999
+            PMAJ: 107214557
+            CCAE: 111924705
+            CCW: 104690369
+            CBRC: 103625509
+            ETL: 114061871
+            ZAB: 102073561
+            ACHL: 103801952
+            FPG: 101912511
+            FCH: 102047420
+            CLV: 102098419
+            EGZ: 104127660
+            NNI: 104019742
+            PLET: 104624744
+            PCRI: 104025865
+            PCAO: 104045362
+            ACUN: 113476802
+            TALA: 104364739
+            PADL: 103923674
+            AFOR: 103907177
+            ACHC: 115340134
+            HALD: 104325141
+            HLE: 104841331
+            AGEN: 126047246
+            GCL: 127029908
+            CCRI: 104163021
+            CSTI: 104554703
+            EHS: 104516570
+            CMAC: 104483775
+            MUI: 104541850
+            FGA: 104078458
+            GSTE: 104261805
+            LDI: 104353835
+            MNB: 103772695
+            OHA: 104332304
+            NNT: 104403686
+            DPUB: 104303479
+            PGUU: 104462701
+            ACAR: 104524897
+            CPEA: 104386864
+            AVIT: 104271088
+            CVF: 104293282
+            CUCA: 104061352
+            TEO: 104379460
+            BRHI: 104499095
+            AAM: 106494421
+            AROW: 112960451
+            NPD: 112956580
+            TGT: 104578551
+            DNE: 112984488
+            SCAM: 104143177
+            ASN: 102373750
+            AMJ: 102573271(CYP7A1)
+            CPOO: 109315304
+            GGN: 109298757
+            PSS: 102457003
+            CMY: 102939127
+            CPIC: 101944838
+            TST: 117873511
+            CABI: 116837635
+            MRV: 120396470
+            ACS: 100562614
+            PVT: 110088844
+            SUND: 121927812
+            PBI: 103055952
+            PMUR: 107284319
+            CTIG: 120309397
+            TSR: 106556732
+            PGUT: 117672821
+            VKO: 123020537
+            PMUA: 114600583
+            ZVI: 118090076
+            GJA: 107111819
+            STOW: 125438770
+            XLA: 108695305(cyp7a1.S) 108718803(cyp7a1.L)
+            XTR: 100488670(cyp7a1)
+            NPR: 108793280
+            RTEM: 120941018
+            BBUF: 121001649
+            BGAR: 122938779 122939024 122939329
+            DRE: 394148(cyp7a1) 559097(cyp7a1b)
+            SRX: 107718110 107722516 107730123
+            SANH: 107691428 107693703 107698673
+            SGH: 107559847 107586715 107589909
+            CCAR: 109056383 109057064 109057066
+            CAUA: 113040546 113045841 113106318
+            CGIB: 127950474 127961200 128027733
+            PPRM: 120480128 120483094
+            MAMB: 125251471 125265875
+            CIDE: 127496167 127516385 127525483
+            MASI: 127427182 127440520 127442624 127454199
+            IPU: 108267573 108278029
+            PHYP: 113539292 113540421
+            SMEO: 124388006 124394123
+            TFD: 113647919 113657587
+            AMEX: 103040934 103044953
+            EEE: 113579320 113588311
+            TRU: 101069556
+            TNG: GSTEN00033663G001
+            LCO: 104938020
+            NCC: 104954899
+            CGOB: 115022772
+            ELY: 117272518
+            EFO: 125902808
+            PLEP: 121951402
+            SLUC: 116043932
+            ECRA: 117954613
+            ESP: 116699647
+            PFLV: 114565386
+            GAT: 120816011
+            PPUG: 119209795 119209821
+            MSAM: 119901591
+            CUD: 121520430
+            ALAT: 119010555 119010568
+            MZE: 101471767
+            ONL: 100709377
+            OAU: 116333999
+            OLA: 101160349
+            OML: 112144311
+            XMA: 102216615
+            XCO: 114145836
+            XHE: 116721805
+            PRET: 103479251
+            PFOR: 103156348
+            PLAI: 106936901
+            PMEI: 106932602
+            GAF: 122840756
+            CVG: 107103459
+            CTUL: 119774539
+            GMU: 124869527
+            NFU: 107395038
+            KMR: 108250404
+            ALIM: 106521321
+            NWH: 119414357
+            AOCE: 111576985
+            MCEP: 125010184
+            CSEM: 103396539
+            POV: 109641444
+            SSEN: 122782482
+            HHIP: 117777913
+            HSP: 118117218
+            LCF: 108896681
+            SDU: 111233897
+            SLAL: 111648405
+            XGL: 120799103
+            HCQ: 109521146
+            SSCV: 125985102
+            BPEC: 110155719
+            MALB: 109967627
+            BSPL: 114844385
+            SASA: 106569008(CP7A1) 106599162
+            STRU: 115156828 115169870
+            OTW: 112227027 112261098
+            OMY: 110508825 110530204
+            OGO: 124009846 124040961
+            ONE: 115103177 115113922
+            SALP: 111956365 111979725
+            SNH: 120020428 120055841
+            CCLU: 121535121 121580836
+            ELS: 105029205
+            SFM: 108929603 108929630 108937652
+            PKI: 111847244 111852535
+            AANG: 118224694 118233129
+            LOC: 102694683 102694877 102695076
+            PSPA: 121309455 121313448 121313830
+            ARUT: 117399510 117399809 117972377
+            PSEX: 120530238 120530239
+            LCM: 102352060 102354799 102364376
+            CMK: 103180710
+            RTP: 109931928
+            BFO: 118409614
+            BBEL: 109465361 109486986
+            CIN: 100175980 100176228
+            SCLV: 120333146
+            HRO: HELRODRAFT_188864
+            LGI: LOTGIDRAFT_234414
+            PCAN: 112572137 112572563 112572564 112572567 112572778
+            BGT: 106064157
+            GAE: 121367920
+            HRF: 124134357
+            HRJ: 124258679
+            CRG: 105347692
+            MYI: 110452653
+            PMAX: 117330753
+            OBI: 106867135
+            OSN: 115230238
+            LAK: 106166062
+DBLINKS     ExplorEnz - The Enzyme Database: 1.14.14.23
+            IUBMB Enzyme Nomenclature: 1.14.14.23
+            ExPASy - ENZYME nomenclature database: 1.14.14.23
+            BRENDA, the Enzyme Database: 1.14.14.23
+            CAS: 9037-53-0
+///

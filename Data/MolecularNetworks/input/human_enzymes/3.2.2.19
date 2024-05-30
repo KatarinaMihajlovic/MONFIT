@@ -1,0 +1,390 @@
+ENTRY       EC 3.2.2.19                 Enzyme
+NAME        [protein ADP-ribosylarginine] hydrolase;
+            ADP-ribose-L-arginine cleavage enzyme;
+            ADP-ribosylarginine hydrolase;
+            Nomega-(ADP-D-ribosyl)-L-arginine ADP-ribosylhydrolase;
+            protein-omega-N-(ADP-D-ribosyl)-L-arginine ADP-ribosylhydrolase
+CLASS       Hydrolases;
+            Glycosylases;
+            Hydrolysing N-glycosyl compounds
+SYSNAME     protein-Nomega-(ADP-D-ribosyl)-L-arginine ADP-ribosylhydrolase
+REACTION    (1) protein-Nomega-(ADP-D-ribosyl)-L-arginine + H2O = ADP-D-ribose + protein-L-arginine [RN:R07626];
+            (2) Nomega-(ADP-D-ribosyl)-L-arginine + H2O = ADP-D-ribose + L-arginine [RN:R01886]
+ALL_REAC    R01886 R07626
+SUBSTRATE   protein-Nomega-(ADP-D-ribosyl)-L-arginine [CPD:C16011];
+            H2O [CPD:C00001];
+            Nomega-(ADP-D-ribosyl)-L-arginine [CPD:C01201]
+PRODUCT     ADP-D-ribose [CPD:C00301];
+            protein-L-arginine [CPD:C00613];
+            L-arginine [CPD:C00062]
+COMMENT     The enzyme will remove ADP-D-ribose from arginine residues in ADP-ribosylated proteins.
+HISTORY     EC 3.2.2.19 created 1989, modified 2004
+REFERENCE   1  [PMID:2994036]
+  AUTHORS   Moss J, Jacobson MK, Stanley SJ.
+  TITLE     Reversibility of arginine-specific mono(ADP-ribosyl)ation: identification in erythrocytes of an ADP-ribose-L-arginine cleavage enzyme.
+  JOURNAL   Proc Natl Acad Sci U S A 82:5603-7 (1985)
+            DOI:10.1073/pnas.82.17.5603
+REFERENCE   2  [PMID:1375222]
+  AUTHORS   Moss J, Stanley SJ, Nightingale MS, Murtagh JJ Jr, Monaco L, Mishima K, Chen HC, Williamson KC, Tsai SC.
+  TITLE     Molecular and immunological characterization of ADP-ribosylarginine hydrolases.
+  JOURNAL   J Biol Chem 267:10481-8 (1992)
+  SEQUENCE  [rno:25371]
+REFERENCE   3  [PMID:10358013]
+  AUTHORS   Konczalik P, Moss J.
+  TITLE     Identification of critical, conserved vicinal aspartate residues in mammalian and bacterial ADP-ribosylarginine hydrolases.
+  JOURNAL   J Biol Chem 274:16736-40 (1999)
+            DOI:10.1074/jbc.274.24.16736
+REFERENCE   4  [PMID:8349667]
+  AUTHORS   Takada T, Iida K, Moss J.
+  TITLE     Cloning and site-directed mutagenesis of human ADP-ribosylarginine hydrolase.
+  JOURNAL   J Biol Chem 268:17837-43 (1993)
+  SEQUENCE  [hsa:141] [mmu:11544]
+REFERENCE   5  [PMID:8678289]
+  AUTHORS   Ohno T, Tsuchiya M, Osago H, Hara N, Jidoi J, Shimoyama M.
+  TITLE     Detection of arginine-ADP-ribosylated protein using recombinant ADP-ribosylarginine hydrolase.
+  JOURNAL   Anal Biochem 231:115-22 (1995)
+            DOI:10.1006/abio.1995.1510
+ORTHOLOGY   K01245  ADP-ribosylarginine hydrolase
+GENES       HSA: 141(ADPRH)
+            PTR: 470893(ADPRH)
+            PPS: 100968536(ADPRH)
+            GGO: 101150307(ADPRH)
+            PON: 100440790(ADPRH)
+            NLE: 100602502(ADPRH)
+            HMH: 116466906(ADPRH)
+            MCC: 712562(ADPRH)
+            MCF: 102138957(ADPRH)
+            MTHB: 126947746
+            MNI: 105470337(ADPRH)
+            CSAB: 103228225(ADPRH)
+            CATY: 105589730(ADPRH)
+            PANU: 101022390(ADPRH)
+            TGE: 112619716(ADPRH)
+            MLEU: 105544622(ADPRH)
+            RRO: 104657619(ADPRH)
+            RBB: 108541872(ADPRH)
+            TFN: 117083467(ADPRH)
+            PTEH: 111543816(ADPRH)
+            CANG: 105510731(ADPRH)
+            CJC: 100391892(ADPRH)
+            SBQ: 101054411(ADPRH)
+            CIMI: 108296455(ADPRH)
+            CSYR: 103254572(ADPRH)
+            MMUR: 105879922(ADPRH)
+            LCAT: 123630512(ADPRH)
+            PCOQ: 105806300(ADPRH)
+            OGA: 100963855(ADPRH)
+            MMU: 11544(Adprh)
+            MCAL: 110311490(Adprh)
+            MPAH: 110329643(Adprh)
+            RNO: 25371(Adprh)
+            MCOC: 116085900(Adprh)
+            ANU: 117718235(Adprh)
+            MUN: 110555394(Adprh)
+            CGE: 100761196(Adprh)
+            MAUA: 101842244(Adprh)
+            PLEU: 114701487(Adprh)
+            MORG: 121461960(Adprh)
+            MFOT: 126505595
+            AAMP: 119825642(Adprh)
+            NGI: 103741941(Adprh)
+            HGL: 101705433(Adprh)
+            CPOC: 100713280(Adprh)
+            CCAN: 109694540(Adprh)
+            DORD: 105987933(Adprh)
+            DSP: 122097939(Adprh)
+            NCAR: 124993324
+            OCU: 100354201
+            OPI: 101534352(ADPRH)
+            TUP: 102473277(ADPRH)
+            GVR: 103595385(ADPRH)
+            CFA: 100855709(ADPRH)
+            CLUD: 112677714(ADPRH)
+            VVP: 112913462(ADPRH)
+            VLG: 121484441(ADPRH)
+            AML: 100479971(ADPRH)
+            UMR: 103678790(ADPRH)
+            UAH: 113251889(ADPRH)
+            UAR: 123784030(ADPRH)
+            ELK: 111151469
+            LLV: 125097753
+            MPUF: 101672105(ADPRH)
+            NVS: 122908534(ADPRH)
+            ORO: 101363531(ADPRH)
+            EJU: 114214719(ADPRH)
+            ZCA: 113916213(ADPRH)
+            MLX: 118007065(ADPRH)
+            NSU: 110582030(ADPRH)
+            LWW: 102742050(ADPRH)
+            LRUF: 124526447
+            HHV: 120225968(ADPRH)
+            BTA: 525738(ADPRH)
+            BOM: 102277051(ADPRH)
+            BIU: 109577238(ADPRH)
+            BBUB: 102404516(ADPRH)
+            BBIS: 104992478(ADPRH)
+            CHX: 102168665(ADPRH)
+            OAS: 101106222(ADPRH)
+            ODA: 120871264(ADPRH)
+            CCAD: 122445583(ADPRH)
+            SSC: 100153158(ADPRH)
+            CFR: 102524560(ADPRH)
+            CBAI: 105081594(ADPRH)
+            CDK: 105090325(ADPRH)
+            VPC: 102538613(ADPRH)
+            BACU: 103002571(ADPRH)
+            LVE: 103086426(ADPRH)
+            OOR: 101281103(ADPRH)
+            DLE: 111167283(ADPRH)
+            PSIU: 116753673(ADPRH)
+            ECB: 100070997(ADPRH)
+            EPZ: 103547420(ADPRH)
+            MYB: 102245153(ADPRH)
+            MYD: 102755321(ADPRH)
+            MMYO: 118676173(ADPRH)
+            MLF: 102426289(ADPRH)
+            MNA: 107527215(ADPRH)
+            PKL: 118724330(ADPRH)
+            HAI: 109388460(ADPRH)
+            DRO: 112320614(ADPRH)
+            SHON: 118986588(ADPRH)
+            AJM: 119059196(ADPRH)
+            PDIC: 114490559(ADPRH)
+            PHAS: 123826860(ADPRH)
+            MMF: 118617150(ADPRH)
+            RFQ: 117036413(ADPRH)
+            PALE: 102881506(ADPRH)
+            PGIG: 120586657(ADPRH)
+            PVP: 105301917(ADPRH)
+            RAY: 107508368(ADPRH)
+            MJV: 108392248(ADPRH)
+            TOD: 119257494(ADPRH)
+            SARA: 101539676(ADPRH)
+            LAV: 100660874(ADPRH)
+            TMU: 101350795
+            ETF: 101637935(ADPRH)
+            DNM: 101434760(ADPRH)
+            MDO: 100016348(ADPRH)
+            GAS: 123239476(ADPRH)
+            SHR: 100927416(ADPRH)
+            AFZ: 127554101
+            PCW: 110208068(ADPRH)
+            GGA: 426545(ADPRHL)
+            PCOC: 116238875 116242110(ADPRH)
+            MGP: 100540673(ADPRH) 104916026
+            CJO: 107322016(ADPRH) 107325783
+            NMEL: 110401341(ADPRH) 110402643
+            APLA: 101795135(ADPRH)
+            ACYG: 106039946(ADPRH)
+            AFUL: 116501476(ADPRH) 116501650
+            TGU: 100225609 100226233(ADPRH)
+            LSR: 110474901 110476539(ADPRH)
+            SCAN: 103818418(ADPRH) 103819895
+            PMOA: 120504029(ADPRH) 120505586
+            OTC: 121344704(ADPRH) 121348155
+            PRUF: 121349252 121360411(ADPRH)
+            GFR: 102040950(ADPRH)
+            FAB: 101806150(ADPRH) 101808754
+            PHI: 102101461(ADPRH) 102112496
+            PMAJ: 107209760(ADPRH) 107212272
+            CCAE: 111937223 111941677(ADPRH)
+            CCW: 104689397(ADPRH) 104695645
+            CBRC: 103613724(ADPRH) 103621695
+            ETL: 114059619(ADPRH) 114065648
+            ZAB: 102069290(ADPRH)
+            ACHL: 103801240
+            FPG: 101915329(ADPRH)
+            FCH: 102058856(ADPRH)
+            CLV: 102084426 102087478(ADPRH)
+            EGZ: 104123010(ADPRH)
+            NNI: 104014985(ADPRH) 104023367
+            PLET: 104619793(ADPRH)
+            PCRI: 104028846(ADPRH)
+            PCAO: 104045584(ADPRH)
+            ACUN: 113475984(ADPRH)
+            TALA: 104364187(ADPRH) 116962294
+            PADL: 103916851(ADPRH) 103925986
+            AFOR: 103894075 103894983(ADPRH)
+            ACHC: 115337800 115343780(ADPRH)
+            HALD: 104324771(ADPRH)
+            HLE: 104831586(ADPRH) 104835803
+            AGEN: 126034964 126048945
+            GCL: 127022565 127028525
+            CCRI: 104157627
+            CSTI: 104559003(ADPRH) 104560117
+            EHS: 104503408(ADPRH)
+            CMAC: 104478363(ADPRH)
+            MUI: 104533728(ADPRH)
+            FGA: 104074367(ADPRH)
+            GSTE: 104258494(ADPRH)
+            LDI: 104348492(ADPRH)
+            MNB: 103771505(ADPRH)
+            NNT: 104403752(ADPRH)
+            DPUB: 104299529(ADPRH)
+            PGUU: 104461561(ADPRH)
+            ACAR: 104529867 104531015(ADPRH)
+            CPEA: 104395753(ADPRH)
+            AVIT: 104278212(ADPRH)
+            CVF: 104290908(ADPRH)
+            CUCA: 104054854 104055985(ADPRH)
+            TEO: 104384406(ADPRH)
+            BRHI: 104491034(ADPRH)
+            AAM: 106490658(ADPRH)
+            AROW: 112974426(ADPRH)
+            NPD: 112948423(ADPRH)
+            TGT: 104577451(ADPRH)
+            DNE: 112979286(ADPRH)
+            SCAM: 104149205(ADPRH)
+            ASN: 102386159(ADPRH)
+            AMJ: 102562154(ADPRH) 102567119
+            CPOO: 109305674(ADPRH)
+            GGN: 109303505(ADPRH)
+            PSS: 102452391(ADPRH)
+            CMY: 102934922(ADPRH) 119566298
+            CPIC: 101931729(ADPRH) 101936712
+            TST: 117888510(ADPRH)
+            CABI: 116839122(ADPRH)
+            MRV: 120394810(ADPRH) 120404512
+            ACS: 100563208(adprh) 100565391
+            PVT: 110078575 110088473(ADPRH)
+            SUND: 121926624(ADPRH) 121935601
+            PBI: 103049757(ADPRH) 103050993
+            PMUR: 107282553 107289021(ADPRH)
+            CTIG: 120303882(ADPRH) 120304568
+            TSR: 106557080 106557382(ADPRH)
+            PGUT: 117663793(ADPRH) 117669151
+            VKO: 123029470(ADPRH) 123032210
+            PMUA: 114582790 114595963(ADPRH)
+            ZVI: 118085653(ADPRH) 118095262
+            GJA: 107117555(ADPRH) 107122687
+            STOW: 125430542(ADPRH) 125445296
+            XLA: 108704185 432184(adprh.L) 447554(adprh.S) 495095(adprh)
+            XTR: 100135190(adprh) 493544(adprh)
+            NPR: 108784947 108784953 108789187
+            RTEM: 120943082 120943841(ADPRH)
+            BBUF: 121007570 121007979(ADPRH)
+            BGAR: 122944489 122945050(ADPRH)
+            DRE: 445059(adprh)
+            SRX: 107726130
+            SANH: 107704615(adprh)
+            SGH: 107571852
+            CCAR: 109110344
+            CAUA: 113112133
+            CGIB: 127969173
+            MAMB: 125260965(adprh)
+            CIDE: 127523546
+            MASI: 127421955 127427134
+            IPU: 100528393(adprh) 108274007
+            PHYP: 113547472 113547477
+            SMEO: 124388883 124388884
+            TFD: 113650622 113650623
+            AMEX: 103037544 111192396
+            EEE: 113576880
+            TRU: 101073656 101076629
+            TNG: GSTEN00035061G001 GSTEN00035062G001
+            LCO: 109141701(adprh)
+            NCC: 104947179(adprh)
+            CGOB: 115024306(adprh)
+            ELY: 117247246(adprh)
+            EFO: 125880885(adprh)
+            PLEP: 121959068(adprh)
+            SLUC: 116060957(adprh)
+            ECRA: 117937315(adprh)
+            ESP: 116671313(adprh)
+            PFLV: 114548095
+            GAT: 120819115(adprh)
+            PPUG: 119212659(adprh)
+            MSAM: 119915760(adprh)
+            CUD: 121528113(adprh)
+            ALAT: 119009492(adprh)
+            MZE: 101482423(adprh)
+            ONL: 100711972(adprh)
+            OAU: 116327642(adprh)
+            OLA: 101172847(adprh)
+            OML: 112153970(adprh)
+            XMA: 102216979 102225753
+            XCO: 114133640 114136652
+            XHE: 116727404 116727496
+            PRET: 103481379 103481399
+            PFOR: 103152333 103152348
+            PLAI: 106934950 106956260
+            PMEI: 106904148(adprh) 106924693
+            GAF: 122823533(adprh) 122823567
+            CVG: 107094293 107094305
+            CTUL: 119777812(adprh) 119796759
+            GMU: 124874862(adprh) 124875567
+            NFU: 107387950 107387955
+            KMR: 108249548 108249559(adprh)
+            ALIM: 106521401 106535168
+            NWH: 119423604 119423619
+            AOCE: 111568801 111574344
+            CSEM: 103381590
+            POV: 109641266(adprh)
+            SSEN: 122759594(adprh)
+            HHIP: 117752751(adprh)
+            HSP: 118100484(adprh)
+            LCF: 108890419
+            SDU: 111219950(adprh)
+            SLAL: 111652249(adprh)
+            XGL: 120794853(adprh)
+            SSCV: 125991555
+            BPEC: 110170987 110171022
+            MALB: 109973617(adprh)
+            BSPL: 114846085(adprh)
+            SASA: 100194575(adprh) 106579059 106586332(adprh)
+            STRU: 115160839 115160840 115162372
+            OTW: 112223322(adprh) 112237465 112237501
+            OMY: 110492864(adprh) 110520181 110520182
+            OGO: 124043928 124043931
+            ONE: 115109915 115109924(adprh)
+            SALP: 111976284
+            SNH: 120045812(adprh) 120058290 120058293
+            CCLU: 121536716 121536718 121572470(adprh)
+            ELS: 105016254 105024377
+            SFM: 108930637(adprh) 108933024
+            PKI: 111833209(adprh)
+            AANG: 118220254(adprh)
+            LOC: 102692964(adprh)
+            PSPA: 121307308(adprh) 121322949
+            ARUT: 117399057(adprh) 117402915
+            PSEX: 120531144 120531145 120536480(adprh)
+            LCM: 102353586 102354521(ADPRH)
+            CMK: 103176834
+            RTP: 109926461(adprh)
+            BFO: 118404985 118425262
+            BBEL: 109462731 109482741 109485214
+            SPU: 577960 578587
+            APLC: 110980273 110983402
+            AJC: 117105666 117120575
+            SKO: 100373408 100373742
+            HRO: HELRODRAFT_161549 HELRODRAFT_184901 HELRODRAFT_65081 HELRODRAFT_65129
+            LGI: LOTGIDRAFT_170414
+            PCAN: 112556689
+            BGT: 106056268
+            GAE: 121378956
+            HRF: 124131820
+            MYI: 110453922
+            PMAX: 117337337
+            MCAF: 127736034 127736036
+            MMER: 123530266 123561984 123562957 123563268 123563285 123564832 123564835 123564836 123564837 123564841
+            LAK: 106157901 106158834 106174255
+            NVE: 5499174 5504669 5504679
+            EPA: 110239995
+            ATEN: 116298878
+            ADF: 107341614
+            AMIL: 114957647
+            SPIS: 111328293
+            DGT: 114539455
+            XEN: 124440981 124447726 124448018 124448032 124448139 124448144 124448145 124448183 124448191 124448195 124448819 124448820 124448855 124456687 124456688 124457245 124457248 124457255 124457603 124457942 124459019
+            AQU: 100637875
+            DDI: DDB_G0289675(adprh)
+            DPP: DICPUDRAFT_34975
+            DFA: DFA_04483(adprh)
+            ACAN: ACA1_020140 ACA1_147520
+            NGR: NAEGRDRAFT_31389 NAEGRDRAFT_33467(AM35b) NAEGRDRAFT_54990(AM35a) NAEGRDRAFT_80552
+DBLINKS     ExplorEnz - The Enzyme Database: 3.2.2.19
+            IUBMB Enzyme Nomenclature: 3.2.2.19
+            ExPASy - ENZYME nomenclature database: 3.2.2.19
+            BRENDA, the Enzyme Database: 3.2.2.19
+            CAS: 98668-52-1
+///

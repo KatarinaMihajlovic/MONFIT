@@ -1,0 +1,323 @@
+ENTRY       EC 3.1.4.50                 Enzyme
+NAME        glycosylphosphatidylinositol phospholipase D;
+            GPI-PLD;
+            glycoprotein phospholipase D;
+            phosphatidylinositol phospholipase D;
+            phosphatidylinositol-specific phospholipase D
+CLASS       Hydrolases;
+            Acting on ester bonds;
+            Phosphoric-diester hydrolases
+SYSNAME     glycoprotein-phosphatidylinositol phosphatidohydrolase
+REACTION    6-(alpha-D-glucosaminyl)-1-phosphatidyl-1D-myo-inositol + H2O = 6-(alpha-D-glucosaminyl)-1D-myo-inositol + 3-sn-phosphatidate [RN:R06623]
+ALL_REAC    R06623(G);
+            (other) R04149 R07398
+SUBSTRATE   6-(alpha-D-glucosaminyl)-1-phosphatidyl-1D-myo-inositol [CPD:C04248];
+            H2O [CPD:C00001]
+PRODUCT     6-(alpha-D-glucosaminyl)-1D-myo-inositol [CPD:C15658];
+            3-sn-phosphatidate [CPD:C00416]
+COMMENT     This enzyme is also active when O-4 of the glucosamine is substituted by carrying the oligosaccharide that can link a protein to the structure. It therefore cleaves proteins from the lipid part of the glycosylphosphatidylinositol (GPI) anchors, but does so by hydrolysis, whereas glycosylphosphatidylinositol diacylglycerol-lyase (EC 4.6.1.14) does so by elimination. It acts on plasma membranes only after solubilization of the substrate with detergents or solvents, but it may act on intracellular membranes.
+HISTORY     EC 3.1.4.50 created 1990, modified 2002
+REFERENCE   1  [PMID:3422494]
+  AUTHORS   Low MG, Prasad AR
+  TITLE     A phospholipase D specific for the phosphatidylinositol anchor of cell-surface proteins is abundant in plasma.
+  JOURNAL   Proc Natl Acad Sci U S A 85:980-4 (1988)
+            DOI:10.1073/pnas.85.4.980
+REFERENCE   2  [PMID:3028377]
+  AUTHORS   Malik AS, Low MG.
+  TITLE     Conversion of human placental alkaline phosphatase from a high Mr form to a low Mr form during butanol extraction. An investigation of the role of endogenous phosphoinositide-specific phospholipases.
+  JOURNAL   Biochem J 240:519-27 (1986)
+            DOI:10.1042/bj2400519
+REFERENCE   3  [PMID:7961859]
+  AUTHORS   Li JY, Hollfelder K, Huang KS, Low MG.
+  TITLE     Structural features of GPI-specific phospholipase D revealed by proteolytic fragmentation and Ca2+ binding studies.
+  JOURNAL   J Biol Chem 269:28963-71 (1994)
+REFERENCE   4  [PMID:11254757]
+  AUTHORS   Deeg MA, Bierman EL, Cheung MC.
+  TITLE     GPI-specific phospholipase D associates with an apoA-I- and apoA-IV-containing complex.
+  JOURNAL   J Lipid Res 42:442-51 (2001)
+PATHWAY     ec00563  Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
+            ec01100  Metabolic pathways
+ORTHOLOGY   K01127  glycosylphosphatidylinositol phospholipase D
+GENES       HSA: 2822(GPLD1)
+            PTR: 462473(GPLD1)
+            PPS: 100973223(GPLD1)
+            GGO: 101146393(GPLD1)
+            PON: 100455517(GPLD1)
+            NLE: 100598329(GPLD1)
+            HMH: 116459945(GPLD1)
+            MCC: 707782(GPLD1)
+            MCF: 102125729(GPLD1)
+            MTHB: 126952975
+            MNI: 105482539(GPLD1)
+            CSAB: 103222053(GPLD1)
+            CATY: 105572618(GPLD1)
+            PANU: 101001857(GPLD1)
+            TGE: 112622303(GPLD1)
+            MLEU: 105552512(GPLD1)
+            RRO: 104663891(GPLD1)
+            RBB: 108533667(GPLD1)
+            TFN: 117086801(GPLD1)
+            PTEH: 111541103(GPLD1)
+            CANG: 105526706(GPLD1)
+            CJC: 100385911(GPLD1)
+            SBQ: 101035773(GPLD1)
+            CIMI: 108287071(GPLD1)
+            CSYR: 103251843(GPLD1)
+            MMUR: 105865209(GPLD1)
+            LCAT: 123638333(GPLD1)
+            PCOQ: 105805640(GPLD1)
+            OGA: 100943003(GPLD1)
+            MMU: 14756(Gpld1)
+            MCAL: 110307663(Gpld1)
+            MPAH: 110333811(Gpld1)
+            RNO: 291132(Gpld1)
+            MCOC: 116081596(Gpld1)
+            ANU: 117713545(Gpld1)
+            MUN: 110551065(Gpld1)
+            CGE: 100759513(Gpld1)
+            MAUA: 101825977(Gpld1)
+            PLEU: 114700916(Gpld1)
+            MORG: 121434002(Gpld1)
+            MFOT: 126501644
+            AAMP: 119817603(Gpld1)
+            NGI: 103745185(Gpld1)
+            HGL: 101724062(Gpld1)
+            CPOC: 100734898(Gpld1)
+            CCAN: 109688371(Gpld1)
+            DORD: 106000038(Gpld1)
+            DSP: 122111059(Gpld1)
+            NCAR: 124988281
+            OCU: 100351916
+            OPI: 101523140(GPLD1)
+            TUP: 102501907(GPLD1)
+            GVR: 103596846(GPLD1)
+            CFA: 478735(GPLD1)
+            CLUD: 112657196(GPLD1)
+            VVP: 112920498(GPLD1)
+            VLG: 121499732(GPLD1)
+            AML: 100484842(GPLD1)
+            UMR: 103665176(GPLD1)
+            UAH: 113264336(GPLD1)
+            UAR: 123794261(GPLD1)
+            ELK: 111138612
+            LLV: 125101848
+            MPUF: 101688496(GPLD1)
+            NVS: 122913238(GPLD1)
+            ORO: 101370230(GPLD1)
+            EJU: 114212585(GPLD1)
+            ZCA: 113926556(GPLD1)
+            MLX: 118027226(GPLD1)
+            NSU: 110586839(GPLD1)
+            LWW: 102732488(GPLD1)
+            FCA: 101088486(GPLD1)
+            PYU: 121020624(GPLD1)
+            PBG: 122489168(GPLD1)
+            LRUF: 124528799
+            PTG: 102964289(GPLD1)
+            PPAD: 109252710(GPLD1)
+            AJU: 106968449(GPLD1)
+            HHV: 120219837(GPLD1)
+            BTA: 287025(GPLD1)
+            BOM: 102286788(GPLD1)
+            BIU: 109577315(GPLD1)
+            BBUB: 102389512(GPLD1)
+            BBIS: 104991130(GPLD1)
+            CHX: 102169718(GPLD1)
+            OAS: 101119000(GPLD1)
+            ODA: 120870310(GPLD1)
+            CCAD: 122429730(GPLD1)
+            SSC: 100157497(GPLD1)
+            CFR: 102518271(GPLD1)
+            CBAI: 105061677(GPLD1)
+            CDK: 105089129(GPLD1)
+            VPC: 102538547(GPLD1)
+            BACU: 103003582(GPLD1)
+            LVE: 103088629(GPLD1)
+            OOR: 101288738(GPLD1)
+            DLE: 111168561(GPLD1)
+            PCAD: 102975868(GPLD1)
+            PSIU: 116761576(GPLD1)
+            ECB: 100067517(GPLD1)
+            EPZ: 103546694(GPLD1)
+            EAI: 106822357(GPLD1)
+            MYB: 102260484(GPLD1)
+            MYD: 102753404(GPLD1)
+            MMYO: 118672726(GPLD1)
+            MNA: 107539689(GPLD1)
+            PKL: 118727102(GPLD1)
+            HAI: 109396397(GPLD1)
+            DRO: 112313946(GPLD1)
+            SHON: 118990658(GPLD1)
+            AJM: 119054900(GPLD1)
+            PDIC: 114489512(GPLD1)
+            PHAS: 123833507(GPLD1)
+            MMF: 118637507(GPLD1)
+            RFQ: 117015438(GPLD1)
+            PALE: 102896882(GPLD1)
+            PGIG: 120607804(GPLD1)
+            PVP: 105306900(GPLD1)
+            RAY: 107508879(GPLD1)
+            MJV: 108399074(GPLD1)
+            TOD: 119230328 119251689(GPLD1)
+            SARA: 101538377(GPLD1)
+            LAV: 100677378(GPLD1)
+            TMU: 101344243
+            ETF: 101648291(GPLD1)
+            DNM: 101430948(GPLD1)
+            MDO: 100024296(GPLD1)
+            GAS: 123240054(GPLD1)
+            SHR: 100931811(GPLD1)
+            AFZ: 127544109
+            PCW: 110208720(GPLD1)
+            OAA: 100092985(GPLD1)
+            GGA: 420819(GPLD1)
+            PCOC: 116239798(GPLD1)
+            MGP: 100546397(GPLD1)
+            CJO: 107309738(GPLD1)
+            NMEL: 110394624(GPLD1)
+            APLA: 101792700(GPLD1)
+            ACYG: 106038351(GPLD1)
+            AFUL: 116485918(GPLD1)
+            TGU: 100230775(GPLD1)
+            LSR: 110483464(GPLD1)
+            SCAN: 103819395(GPLD1)
+            PMOA: 120503505(GPLD1)
+            OTC: 121347820(GPLD1)
+            PRUF: 121357795(GPLD1)
+            GFR: 102032214(GPLD1)
+            FAB: 101816045(GPLD1)
+            PHI: 102114237(GPLD1)
+            PMAJ: 107200258(GPLD1)
+            CCAE: 111923724(GPLD1)
+            CCW: 104691444(GPLD1)
+            CBRC: 103613169(GPLD1)
+            ETL: 114069829(GPLD1)
+            ZAB: 102066942(GPLD1)
+            ACHL: 103807301(GPLD1)
+            FPG: 101912228(GPLD1)
+            FCH: 102052413(GPLD1)
+            CLV: 102090900(GPLD1)
+            EGZ: 104125477(GPLD1)
+            NNI: 104021793(GPLD1)
+            PLET: 104618061(GPLD1)
+            PCRI: 104029539(GPLD1)
+            PCAO: 104041515(GPLD1)
+            ACUN: 113476037(GPLD1)
+            TALA: 104368490(GPLD1)
+            PADL: 103919061(GPLD1)
+            AFOR: 103903819(GPLD1)
+            ACHC: 115353059(GPLD1)
+            HALD: 104313504(GPLD1)
+            HLE: 104829910(GPLD1)
+            AGEN: 126048542
+            GCL: 127013027
+            CCRI: 104167493(GPLD1)
+            CSTI: 104554877(GPLD1)
+            CMAC: 104478271(GPLD1)
+            MUI: 104543338(GPLD1)
+            FGA: 104078730(GPLD1)
+            GSTE: 104254087(GPLD1)
+            LDI: 104350256(GPLD1)
+            MNB: 103771284(GPLD1)
+            OHA: 104335531(GPLD1)
+            NNT: 104402944
+            DPUB: 104302368(GPLD1)
+            PGUU: 104457898(GPLD1)
+            ACAR: 104521825(GPLD1)
+            CPEA: 104394880(GPLD1)
+            AVIT: 104267477(GPLD1)
+            CVF: 104288417(GPLD1)
+            CUCA: 104062174(GPLD1)
+            TEO: 104383487(GPLD1)
+            BRHI: 104495115(GPLD1)
+            AAM: 106483272(GPLD1)
+            AROW: 112972795(GPLD1)
+            NPD: 112958299 112958300
+            TGT: 104564647(GPLD1)
+            DNE: 112992496(GPLD1)
+            SCAM: 104153090(GPLD1)
+            ASN: 102375814(GPLD1)
+            AMJ: 102574726(GPLD1)
+            CPOO: 109316301(GPLD1)
+            GGN: 109302143(GPLD1)
+            PSS: 102448848(GPLD1)
+            CMY: 102944962(GPLD1)
+            CPIC: 101945760(GPLD1)
+            TST: 117873259(GPLD1)
+            CABI: 116836102(GPLD1)
+            MRV: 120396443(GPLD1)
+            ACS: 100567850(gpld1)
+            PVT: 110072878(GPLD1)
+            SUND: 121927761(GPLD1)
+            PBI: 103063314(GPLD1)
+            PMUR: 107289603(GPLD1)
+            CTIG: 120300001(GPLD1)
+            PGUT: 117672545(GPLD1)
+            VKO: 123021649(GPLD1)
+            PMUA: 114600839(GPLD1)
+            ZVI: 118090549(GPLD1)
+            GJA: 107113400(GPLD1)
+            STOW: 125439160(GPLD1)
+            XLA: 108718535
+            XTR: 116411679(gpld1)
+            NPR: 108792898(GPLD1)
+            RTEM: 120940771(GPLD1)
+            BBUF: 121001703(GPLD1)
+            BGAR: 122939268(GPLD1)
+            LCM: 102345190(GPLD1)
+            BFO: 118405295
+            BBEL: 109466135
+            SPU: 115926364 590298
+            APLC: 110975439
+            AJC: 117117987
+            SKO: 102801774
+            EAF: 111713084
+            PCAN: 112573356
+            BGT: 106061229
+            GAE: 121374135
+            HRF: 124113065
+            HRJ: 124288674
+            CRG: 105347431 105347449 105347450
+            MYI: 110456981
+            PMAX: 117326416 117326417
+            LAK: 106165615
+            NVE: 5525170
+            EPA: 110241955
+            ATEN: 116291696
+            ADF: 107355065
+            PDAM: 113678713
+            SPIS: 111330701
+            DGT: 114523470
+            XEN: 124446939
+            SCE: YJL132W
+            SPAO: SPAR_J00780
+            KLA: KLLA0_E15401g
+            KMX: KLMA_60039
+            LTH: KLTH0F05830g
+            ZRO: ZYRO0D03256g
+            CGR: CAGL0L05720g
+            NCS: NCAS_0A09790(NCAS0A09790)
+            NDI: NDAI_0G06190(NDAI0G06190)
+            TBL: TBLA_0D05660(TBLA0D05660)
+            TGB: HG536_0F01060
+            TDL: TDEL_0H01030(TDEL0H01030)
+            KNG: KNAG_0C02670(KNAG0C02670)
+            ZMK: HG535_0C00920
+            PPA: PAS_chr4_0595
+            YLI: YALI0B15972g
+            SLB: AWJ20_2030
+            PKZ: C5L36_0C01010
+            BNN: FOA43_004168
+            OPA: HPODL_01688
+            TML: GSTUM_00002772001
+            SRE: PTSG_02129
+            DDI: DDB_G0276919(pldG)
+            DPP: DICPUDRAFT_96554
+            DFA: DFA_04808(pldG)
+            ACAN: ACA1_147710
+DBLINKS     ExplorEnz - The Enzyme Database: 3.1.4.50
+            IUBMB Enzyme Nomenclature: 3.1.4.50
+            ExPASy - ENZYME nomenclature database: 3.1.4.50
+            BRENDA, the Enzyme Database: 3.1.4.50
+            CAS: 113756-14-2
+///

@@ -1,0 +1,407 @@
+ENTRY       EC 1.14.15.15               Enzyme
+NAME        cholestanetriol 26-monooxygenase;
+            5beta-cholestane-3alpha,7alpha,12alpha-triol 26-hydroxylase;
+            5beta-cholestane-3alpha,7alpha,12alpha-triol hydroxylase;
+            cholestanetriol 26-hydroxylase;
+            sterol 27-hydroxylase;
+            sterol 26-hydroxylase;
+            cholesterol 27-hydroxylase;
+            CYP27A;
+            CYP27A1;
+            cytochrome P450 27A1'
+CLASS       Oxidoreductases;
+            Acting on paired donors, with incorporation or reduction of molecular oxygen;
+            With reduced iron-sulfur protein as one donor, and incorporation of one atom of oxygen into the other donor
+SYSNAME     5beta-cholestane-3alpha,7alpha,12alpha-triol,adrenodoxin:oxygen oxidoreductase (26-hydroxylating)
+REACTION    5beta-cholestane-3alpha,7alpha,12alpha-triol + 6 reduced adrenodoxin + 6 H+ + 3 O2 = (25R)-3alpha,7alpha,12alpha-trihydroxy-5beta-cholestan-26-oate + 6 oxidized adrenodoxin + 4 H2O (overall reaction) [RN:R11142];
+            (1a) 5beta-cholestane-3alpha,7alpha,12alpha-triol + 2 reduced adrenodoxin + 2 H+ + O2 = (25R)-5beta-cholestane-3alpha,7alpha,12alpha,26-tetraol + 2 oxidized adrenodoxin + H2O [RN:R04807];
+            (1b) (25R)-5beta-cholestane-3alpha,7alpha,12alpha,26-tetraol + 2 reduced adrenodoxin + 2 H+ + O2 = (25R)-3alpha,7alpha,12alpha-trihydroxy-5beta-cholestan-26-al + 2 oxidized adrenodoxin + 2 H2O [RN:R03507];
+            (1c) (25R)-3alpha,7alpha,12alpha-trihydroxy-5beta-cholestan-26-al + 2 reduced adrenodoxin + 2 H+ + O2 = (25R)-3alpha,7alpha,12alpha-trihydroxy-5beta-cholestan-26-oate + 2 oxidized adrenodoxin + H2O [RN:R08761]
+ALL_REAC    R03507 R04807 R08761 R11142;
+            (other) R04806 R08505 R08758 R08759 R08760
+SUBSTRATE   5beta-cholestane-3alpha,7alpha,12alpha-triol [CPD:C05454];
+            reduced adrenodoxin [CPD:C00662];
+            H+ [CPD:C00080];
+            O2 [CPD:C00007];
+            (25R)-5beta-cholestane-3alpha,7alpha,12alpha,26-tetraol;
+            (25R)-3alpha,7alpha,12alpha-trihydroxy-5beta-cholestan-26-al
+PRODUCT     (25R)-3alpha,7alpha,12alpha-trihydroxy-5beta-cholestan-26-oate;
+            oxidized adrenodoxin [CPD:C00667];
+            H2O [CPD:C00001];
+            (25R)-5beta-cholestane-3alpha,7alpha,12alpha,26-tetraol;
+            (25R)-3alpha,7alpha,12alpha-trihydroxy-5beta-cholestan-26-al
+COMMENT     This mitochondrial cytochrome P-450 enzyme requires adrenodoxin. It catalyses the first three sterol side chain oxidations in bile acid biosynthesis via the neutral (classic) pathway. Can also act on cholesterol, cholest-5-ene-3beta,7alpha-diol, 7alpha-hydroxycholest-4-en-3-one, and 5beta-cholestane-3alpha,7alpha-diol. The enzyme can also hydroxylate cholesterol at positions 24 and 25. The initial source of the electrons is NADPH, which transfers the electrons to the adrenodoxin via EC 1.18.1.6, adrenodoxin-NADP+ reductase.
+HISTORY     EC 1.14.15.15 created 1976 as EC 1.14.13.15, modified 2005, modified 2012, transferred 2016 to EC 1.14.15.15
+REFERENCE   1  [PMID:5914340]
+  AUTHORS   Masui T, Herman R, Staple E.
+  TITLE     The oxidation of 5-beta-cholestane-3-alpha, 7-alpha, 12-alpha, 26-tetraol to 5-beta-cholestane-3-alpha, 7-alpha, 12-alpha-triol-26-oic acid via 5-beta-cholestane-3-alpha, 7-alpha, 12-alpha-triol-26-al by rat liver.
+  JOURNAL   Biochim Biophys Acta 117:266-8 (1966)
+            DOI:10.1016/0304-4165(66)90177-2
+REFERENCE   2  [PMID:4388637]
+  AUTHORS   Okuda K, Hoshita N.
+  TITLE     Oxidation of 5-beta-cholestane-3 alpha, 7 alpha, 12 alpha-triol by rat-liver mitochondria.
+  JOURNAL   Biochim Biophys Acta 164:381-8 (1968)
+            DOI:10.1016/0005-2760(68)90162-8
+REFERENCE   3  [PMID:6423637]
+  AUTHORS   Wikvall K.
+  TITLE     Hydroxylations in biosynthesis of bile acids. Isolation of a cytochrome P-450 from rabbit liver mitochondria catalyzing 26-hydroxylation of C27-steroids.
+  JOURNAL   J Biol Chem 259:3800-4 (1984)
+REFERENCE   4  [PMID:2722778]
+  AUTHORS   Andersson S, Davis DL, Dahlback H, Jornvall H, Russell DW
+  TITLE     Cloning, structure, and expression of the mitochondrial cytochrome P-450 sterol 26-hydroxylase, a bile acid biosynthetic enzyme.
+  JOURNAL   J Biol Chem 264:8222-9 (1989)
+  SEQUENCE  [ocu:100348736]
+REFERENCE   5  [PMID:2322231]
+  AUTHORS   Dahlback H, Holmberg I
+  TITLE     Oxidation of 5 beta-cholestane-3 alpha,7 alpha, 12 alpha-triol into 3 alpha,7 alpha,12 alpha-trihydroxy-5 beta-cholestanoic acid by cytochrome P-450(26) from rabbit liver mitochondria.
+  JOURNAL   Biochem Biophys Res Commun 167:391-5 (1990)
+            DOI:10.1016/0006-291X(90)92034-W
+REFERENCE   6  [PMID:8496170]
+  AUTHORS   Holmberg-Betsholtz I, Lund E, Bjorkhem I, Wikvall K.
+  TITLE     Sterol 27-hydroxylase in bile acid biosynthesis. Mechanism of oxidation of 5 beta-cholestane-3 alpha,7 alpha,12 alpha,27-tetrol into 3 alpha,7 alpha,12 alpha-trihydroxy-5 beta-cholestanoic acid.
+  JOURNAL   J Biol Chem 268:11079-85 (1993)
+REFERENCE   7  [PMID:9660774]
+  AUTHORS   Pikuleva IA, Babiker A, Waterman MR, Bjorkhem I
+  TITLE     Activities of recombinant human cytochrome P450c27 (CYP27) which produce intermediates of alternative bile acid biosynthetic pathways.
+  JOURNAL   J Biol Chem 273:18153-60 (1998)
+            DOI:10.1074/jbc.273.29.18153
+REFERENCE   8  [PMID:10512735]
+  AUTHORS   Furster C, Bergman T, Wikvall K.
+  TITLE     Biochemical characterization of a truncated form of CYP27A purified from rabbit liver mitochondria.
+  JOURNAL   Biochem Biophys Res Commun 263:663-6 (1999)
+            DOI:10.1006/bbrc.1999.1426
+REFERENCE   9  [PMID:11412116]
+  AUTHORS   Pikuleva IA, Puchkaev A, Bjorkhem I
+  TITLE     Putative helix F contributes to regioselectivity of hydroxylation in mitochondrial cytochrome P450 27A1.
+  JOURNAL   Biochemistry 40:7621-9 (2001)
+            DOI:10.1021/bi010193i
+  SEQUENCE  [hsa:1593]
+PATHWAY     ec00120  Primary bile acid biosynthesis
+            ec01100  Metabolic pathways
+ORTHOLOGY   K00488  cholestanetriol 26-monooxygenase
+            K22878  cytochrome P450 daf-9
+GENES       HSA: 1593(CYP27A1)
+            PTR: 459951
+            PPS: 100989602(CYP27A1)
+            GGO: 101131774
+            PON: 100451841
+            NLE: 100606147
+            HMH: 116810284
+            MCC: 700192(CYP27A1)
+            MCF: 102129822(CYP27A1)
+            MTHB: 126932993
+            MNI: 105481230
+            CSAB: 103217882(CYP27A1)
+            CATY: 105587055
+            PANU: 100999256
+            TGE: 112636454
+            MLEU: 105528099
+            RRO: 104660034
+            RBB: 108518476
+            TFN: 117094510
+            PTEH: 111548691
+            CANG: 105504716
+            CJC: 100393783(CYP27A1)
+            SBQ: 101029011
+            CIMI: 108309072(CYP27A1)
+            CSYR: 103261235
+            MMUR: 105857702
+            LCAT: 123643999
+            PCOQ: 105808833
+            OGA: 100948265
+            MMU: 104086(Cyp27a1)
+            MCAL: 110290578
+            MPAH: 110322436
+            RNO: 301517(Cyp27a1)
+            MCOC: 116088582
+            ANU: 117705443
+            MUN: 110566769
+            CGE: 100751584
+            MAUA: 101842686
+            PLEU: 114709306
+            MORG: 121447473
+            MFOT: 126492940
+            AAMP: 119820452
+            NGI: 103727727
+            HGL: 101700018
+            CPOC: 100725007
+            CCAN: 109679372
+            DORD: 105987202
+            DSP: 122107505
+            NCAR: 124981023
+            OCU: 100348736(CYP27A1)
+            OPI: 101518668
+            TUP: 102471009
+            GVR: 103600243
+            CFA: 610489(CYP27A1)
+            CLUD: 112656756
+            VVP: 112922543
+            VLG: 121480575
+            AML: 100480153
+            UMR: 103662754
+            UAH: 113250446
+            UAR: 123779428
+            ELK: 111142401
+            LLV: 125095290
+            MPUF: 101690391
+            NVS: 122902315
+            ORO: 101374314
+            EJU: 114200186
+            ZCA: 113919618
+            MLX: 118012034
+            NSU: 110592102
+            LWW: 102750264
+            FCA: 101091962
+            PYU: 121031077
+            PBG: 122481780
+            LRUF: 124516601
+            PTG: 102958835
+            PPAD: 109265055
+            AJU: 106970103
+            HHV: 120232403
+            BTA: 511960(CYP27A1)
+            BOM: 102275770
+            BIU: 109570716
+            BBUB: 102408966
+            BBIS: 105003777
+            CHX: 102177672
+            OAS: 101111528
+            ODA: 120854365
+            CCAD: 122426554
+            SSC: 100126282(CYP27A1)
+            CFR: 102517717
+            CBAI: 105064023
+            CDK: 105096090
+            VPC: 102536104
+            BACU: 102999025
+            LVE: 103080163
+            OOR: 101288855
+            DLE: 111171838
+            PCAD: 102992597
+            PSIU: 116756897
+            ECB: 100055936(CYP27A1)
+            EPZ: 103567914
+            EAI: 106838458
+            MYB: 102255768
+            MYD: 102761397
+            MMYO: 118661548
+            MLF: 102424757
+            MNA: 107524820
+            PKL: 118717011
+            HAI: 109380589
+            DRO: 112307709
+            SHON: 118975441
+            AJM: 119056899
+            PDIC: 114495561
+            PHAS: 123829715
+            MMF: 118625177
+            RFQ: 117025889
+            PALE: 102883032
+            PGIG: 120587665
+            PVP: 105291113
+            RAY: 107516735
+            MJV: 108390517
+            TOD: 119256216
+            SARA: 101541473
+            LAV: 100662261
+            TMU: 101347420
+            ETF: 101661290
+            DNM: 101411078 101411838 101423385
+            MDO: 100011045(CYP27A1)
+            GAS: 123242736
+            SHR: 100918281
+            AFZ: 127553095
+            PCW: 110219429
+            OAA: 100093207
+            GGA: 431683(CYP27A1)
+            PCOC: 116227314
+            MGP: 100539204
+            CJO: 107317020
+            NMEL: 110400531
+            APLA: 101802865
+            ACYG: 106039314
+            AFUL: 116490905
+            TGU: 100232323
+            LSR: 110468382
+            SCAN: 103814667
+            PMOA: 120496874
+            OTC: 121335742
+            PRUF: 121356764
+            GFR: 102036968
+            FAB: 101815213
+            PHI: 102102670
+            PMAJ: 107207520
+            CCAE: 111932181
+            CCW: 104693966
+            CBRC: 103611331
+            ETL: 114055287
+            ZAB: 102062293
+            ACHL: 103804610
+            FPG: 101912381
+            FCH: 102046779
+            CLV: 102085729
+            EGZ: 104132432
+            NNI: 104010100
+            PLET: 104625871
+            PCRI: 104034046
+            ACUN: 113482393
+            TALA: 116959647
+            PADL: 103917680
+            AFOR: 103895441
+            ACHC: 115342636
+            HLE: 104833136
+            AGEN: 126044548
+            GCL: 127018337
+            CCRI: 104164669
+            CSTI: 104560122
+            EHS: 104505705
+            CMAC: 104485562
+            MUI: 104542244
+            FGA: 104076041
+            LDI: 104354355
+            MNB: 103771183
+            OHA: 104339178
+            NNT: 104404639
+            ACAR: 104522074
+            CPEA: 104387486
+            AVIT: 104271934
+            CVF: 104285520
+            CUCA: 104056625
+            TEO: 104381960
+            AAM: 106499073
+            AROW: 112972033
+            NPD: 112959865
+            TGT: 104568471
+            DNE: 112980321
+            SCAM: 104153734
+            ASN: 102377709
+            AMJ: 102562954
+            CPOO: 109322499
+            GGN: 109301588
+            CMY: 102937044
+            CPIC: 101943409
+            CABI: 116832589
+            MRV: 120374801
+            ACS: 100565025
+            PVT: 110078231
+            SUND: 121935066
+            PBI: 103054208
+            PMUR: 107292512
+            CTIG: 120318333
+            TSR: 106540772
+            PGUT: 117675268
+            VKO: 123027531
+            PMUA: 114603027
+            ZVI: 118090854
+            GJA: 107116962 107122111
+            STOW: 125425853 125427460
+            XLA: 100381137(cyp27a1) 108702937 446987(XB984297.L)
+            XTR: 100145331 100496109 116407844 594905
+            NPR: 108783869 108783870 108783871 108783872 108783878 108783885
+            RTEM: 120944205 120944206 120944214
+            BBUF: 121007459 121007461 121008616
+            BGAR: 122944797 122944805 122945772
+            DRE: 322341(cyp27a1.4) 402831(cyp27a7) 558239(si:ch211-113j14.1) 565876(cyp27a3) 723999(zgc:136333) 795106(cyp27a1.2)
+            SRX: 107705485 107706665 107714212 107723676 107725254 107741910
+            SANH: 107658292 107659991 107660625 107660626 107677609 107683415
+            SGH: 107555015 107555356 107555927 107578255 107581419 107584802 107596087
+            CCAR: 109064887 109072531 109088722 109088733 109088804 109096773 109113433
+            CAUA: 113050872 113053045 113053331 113092289 113108126 113108393 113108395 113108503
+            CGIB: 127959978(si:ch211-113j14.1) 127964813 127965339 128016157 128019738 128020024
+            PPRM: 120461532 120461533 120466971(si:dkey-91i10.3) 120491553(si:ch211-113j14.1)
+            MAMB: 125270463(si:dkey-91i10.3) 125270558 125270559 125270561 125270562 125274236(si:ch211-113j14.1)
+            CIDE: 127514128(si:ch211-113j14.1) 127518365 127518366 127518368(si:dkey-91i10.3) 127518425
+            MASI: 127446272(si:ch211-113j14.1) 127447105(si:dkey-91i10.3) 127447172 127448309 127448847
+            IPU: 108261037 108261972 108266301 108266489 108266490 108266491 108272717(si:ch211-113j14.1)
+            PHYP: 113526131 113526132 113526133 113526134 113526210 113526267 113538157
+            SMEO: 124380536 124382704 124383131 124383132 124383214(si:dkey-91i10.3) 124392227(si:ch211-113j14.1)
+            TFD: 113651034(si:ch211-113j14.1) 113654303 113654508(si:dkey-91i10.3) 113654626
+            AMEX: 103023980 103024291 103027002 103036363
+            EEE: 113567700 113577222 113586367
+            TRU: 101062671 101063777 101069976
+            TNG: GSTEN00029207G001
+            LCO: 104934615 104939434 109141591
+            NCC: 104944399 104954736 104955625
+            CGOB: 115017336 115026484 115026794
+            ELY: 117249878(si:ch211-113j14.1) 117251494(si:dkey-91i10.3) 117251800
+            EFO: 125884826(si:ch211-113j14.1) 125899310(si:dkey-91i10.3) 125899964
+            PLEP: 121949258(si:dkey-91i10.3) 121949317 121962951(si:ch211-113j14.1)
+            SLUC: 116033996(si:dkey-91i10.3) 116044772(si:ch211-113j14.1)
+            ECRA: 117939647(si:ch211-113j14.1) 117952801(si:dkey-91i10.3)
+            ESP: 116673863 116697553
+            PFLV: 114550996 114564588
+            GAT: 120814973 120814975 120834098
+            PPUG: 119220421(si:ch211-113j14.1) 119228308 119228466(si:dkey-91i10.3)
+            MSAM: 119900367(si:ch211-113j14.1) 119903811 119904427(si:dkey-91i10.3)
+            CUD: 121506513(si:ch211-113j14.1) 121522777 121522982(si:dkey-91i10.3)
+            ALAT: 119015239(si:ch211-113j14.1) 119025758(si:dkey-91i10.3) 119026140
+            MZE: 101465003 101473743 101478374
+            ONL: 100691854 100693469 100705229
+            OAU: 116314781(si:dkey-91i10.3) 116317150(si:ch211-113j14.1) 116334070
+            OLA: 101156051 101160538 101175691
+            OML: 112154786 112155582(si:dkey-91i10.3) 112156772(si:ch211-113j14.1)
+            XMA: 102225514 102230910 102234678 102234938
+            XCO: 114140560 114147791 114147794 114148371
+            XHE: 116715672 116722946 116723684 116723685
+            PRET: 103456753 103461862 103461863 103478550
+            PFOR: 103134814 103138135 103154130
+            PLAI: 106945401 106945403 106949526 106956502
+            PMEI: 106916312 106919596 106926480
+            GAF: 122826962 122840052 122840053 122840415(si:dkey-91i10.3)
+            CVG: 107086204 107086205 107095844 107096820
+            CTUL: 119774007 119774012 119778495(si:dkey-91i10.3) 119794638(si:ch211-113j14.1)
+            GMU: 124861938(si:ch211-113j14.1) 124870981 124871015 124871107(si:dkey-91i10.3)
+            NFU: 107384645 107389662 107396451
+            KMR: 108238813(si:dkey-91i10.3) 108244283
+            ALIM: 106511198 106511262 106514257 106532599
+            NWH: 119419001 119419472(si:dkey-91i10.3) 119429051(si:ch211-113j14.1)
+            AOCE: 111562629 111568532 111571431 111574457
+            MCEP: 125000998(si:ch211-113j14.1) 125018222(si:dkey-91i10.3) 125018282
+            CSEM: 103380768 103389542
+            POV: 109637350 109640203 109641449
+            SSEN: 122765461(si:ch211-113j14.1) 122783812 122784640(si:dkey-91i10.3)
+            HHIP: 117755070(si:dkey-91i10.3) 117755238 117778068(si:ch211-113j14.1)
+            HSP: 118103627(si:ch211-113j14.1) 118120133 118120203(si:dkey-91i10.3)
+            LCF: 108873048(si:ch211-113j14.1) 108897118(si:dkey-91i10.3) 108897170
+            SDU: 111218457 111218691 111222696
+            SLAL: 111653799 111667407 111672420
+            XGL: 120798148(si:ch211-113j14.1) 120801357(si:dkey-91i10.3) 120801379
+            HCQ: 109517561 109519132 109528391
+            SSCV: 125973467 125973998(si:dkey-91i10.3) 125988453(si:ch211-113j14.1)
+            BPEC: 110165678 110166041 110171370
+            MALB: 109955654 109972640 109974026
+            BSPL: 114845813(si:ch211-113j14.1) 114846707 114846743(si:dkey-91i10.3)
+            SASA: 106574240 106575170 106586130 106586420 106586421
+            STRU: 115156161 115160652 115160949 115160950 115179454 115196033
+            OTW: 112225125 112235263 112238608(si:dkey-91i10.3) 112253824 112266509
+            OMY: 110495869 110501573 110520006 110520277(si:dkey-91i10.3) 110527483
+            OGO: 124008274 124010863 124041765 124043781 124043995(si:dkey-91i10.3)
+            ONE: 115107908 115110822 115129706 115133470 115136440
+            SALP: 111953394 111959818 111970920 111973814
+            SNH: 120033627(si:ch211-113j14.1) 120050736 120058201 120058325 120058328 120064454
+            CCLU: 121536654 121537015 121548322 123481257
+            ELS: 105016129 105016181 105019951
+            SFM: 108928920 108936404
+            PKI: 111840728 111851734
+            AANG: 118214017(si:ch211-113j14.1) 118222144(si:dkey-91i10.3) 118222523 118223580
+            LOC: 102687850 102689682 102690084 102695871
+            PSPA: 121322499 121323017 121323418 121323529(si:dkey-91i10.3)
+            ARUT: 117404073 117408072 117411922 117426218
+            PSEX: 120530726(si:dkey-91i10.3) 120531223 120531279(si:ch211-113j14.1)
+            LCM: 102347924 102352926 102355859(EAF2) 102357152
+            CMK: 103189020(si:dkey-91i10.3)
+            RTP: 109912644 109924020
+            BBEL: 109482768
+            CEL: CELE_T13C5.1(daf-9)
+            CBR: CBG_10440 CBG_14860(Cbr-daf-9)
+            BMY: BM_BM2557(Bma-daf-9)
+            LOA: LOAG_03116
+            GAE: 121371591 121371592 121372413
+            HRJ: 124282300 124282301
+            ATEN: 116287947
+DBLINKS     ExplorEnz - The Enzyme Database: 1.14.15.15
+            IUBMB Enzyme Nomenclature: 1.14.15.15
+            ExPASy - ENZYME nomenclature database: 1.14.15.15
+            BRENDA, the Enzyme Database: 1.14.15.15
+            CAS: 52227-77-7
+///

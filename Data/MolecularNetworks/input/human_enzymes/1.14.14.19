@@ -1,0 +1,385 @@
+ENTRY       EC 1.14.14.19               Enzyme
+NAME        steroid 17alpha-monooxygenase;
+            steroid 17alpha-hydroxylase;
+            cytochrome P-450 17alpha;
+            cytochrome P-450 (P-450 17alpha,lyase);
+            17alpha-hydroxylase-C17,20 lyase;
+            CYP17;
+            CYP17A1 (gene name)
+CLASS       Oxidoreductases;
+            Acting on paired donors, with incorporation or reduction of molecular oxygen;
+            With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+SYSNAME     steroid,NADPH---hemoprotein reductase:oxygen oxidoreductase (17alpha-hydroxylating)
+REACTION    a C21-steroid + [reduced NADPH---hemoprotein reductase] + O2 = a 17alpha-hydroxy-C21-steroid + [oxidized NADPH---hemoprotein reductase] + H2O [RN:R02131]
+ALL_REAC    R02131 > R02211 R03783 R04852 R04853
+SUBSTRATE   C21-steroid;
+            [reduced NADPH---hemoprotein reductase] [CPD:C03024];
+            O2 [CPD:C00007]
+PRODUCT     17alpha-hydroxy-C21-steroid;
+            [oxidized NADPH---hemoprotein reductase] [CPD:C03161];
+            H2O [CPD:C00001]
+COMMENT     Requires NADPH and EC 1.6.2.4, NADPH---hemoprotein reductase. A microsomal hemeprotein that catalyses two independent reactions at the same active site - the 17alpha-hydroxylation of pregnenolone and progesterone, which is part of glucocorticoid hormones biosynthesis, and the conversion of the 17alpha-hydroxylated products via a 17,20-lyase reaction to form androstenedione and dehydroepiandrosterone, leading to sex hormone biosynthesis (EC 1.14.14.32, 17alpha-hydroxyprogesterone deacetylase). The ratio of the 17alpha-hydroxylase and 17,20-lyase activities is an important factor in determining the directions of steroid hormone biosynthesis towards biosynthesis of glucocorticoid or sex hormones.
+HISTORY     EC 1.14.14.19 created 1961 as EC 1.99.1.9, transferred 1965 to EC 1.14.1.7, transferred 1972 to EC 1.14.99.9, modified 2013, transferred 2015 to EC 1.14.14.19
+REFERENCE   1  [PMID:13549484]
+  AUTHORS   LYNN WS Jr, BROWN RH.
+  TITLE     The conversion of progesterone to androgens by testes.
+  JOURNAL   J Biol Chem 232:1015-30 (1958)
+REFERENCE   2  [PMID:6966286]
+  AUTHORS   Yoshida KI, Oshima H, Troen P
+  TITLE     Studies of the human testis. XIII. Properties of nicotinamide adenine dinucleotide (reduced form)-linked 17 alpha-hydroxylation.
+  JOURNAL   J Clin Endocrinol Metab 50:895-9 (1980)
+            DOI:10.1210/jcem-50-5-895
+REFERENCE   3  [PMID:12693981]
+  AUTHORS   Gilep AA, Estabrook RW, Usanov SA
+  TITLE     Molecular cloning and heterologous expression in E. coli of cytochrome P45017alpha. Comparison of structural and functional properties of substrate-specific cytochromes P450 from different species.
+  JOURNAL   Biochemistry (Mosc) 68:86-98 (2003)
+            DOI:10.1023/a:1022101703670
+  SEQUENCE  [oas:493968] [ag:AAG02227 AAF65823]
+REFERENCE   4  [PMID:17386955]
+  AUTHORS   Kolar NW, Swart AC, Mason JI, Swart P
+  TITLE     Functional expression and characterisation of human cytochrome P45017alpha in Pichia pastoris.
+  JOURNAL   J Biotechnol 129:635-44 (2007)
+            DOI:10.1016/j.jbiotec.2007.02.003
+REFERENCE   5  [PMID:18707589]
+  AUTHORS   Pechurskaya TA, Lukashevich OP, Gilep AA, Usanov SA
+  TITLE     Engineering, expression, and purification of "soluble" human cytochrome P45017alpha and its functional characterization.
+  JOURNAL   Biochemistry (Mosc) 73:806-11 (2008)
+            DOI:10.1134/s0006297908070092
+PATHWAY     ec00140  Steroid hormone biosynthesis
+            ec01100  Metabolic pathways
+ORTHOLOGY   K00512  steroid 17alpha-monooxygenase / 17alpha-hydroxyprogesterone deacetylase
+GENES       HSA: 1586(CYP17A1)
+            PTR: 450141(CYP17A1)
+            PPS: 100989182(CYP17A1)
+            GGO: 101152080
+            PON: 100439753
+            NLE: 100596228
+            HMH: 116484149
+            MCC: 678693(CYP17A1)
+            MCF: 102133235(CYP17A1)
+            MTHB: 126962752
+            MNI: 105478336
+            CSAB: 103216445(CYP17A1)
+            CATY: 105581896
+            PANU: 101026704
+            TGE: 112630974
+            MLEU: 105537798
+            RRO: 104656530
+            RBB: 108515083
+            TFN: 117067514
+            PTEH: 111538851
+            CANG: 105522771
+            CJC: 100400572(CYP17A1)
+            SBQ: 101048584
+            CIMI: 108306253(CYP17A1)
+            CSYR: 103251416
+            MMUR: 105874387
+            LCAT: 123650072
+            PCOQ: 105824322
+            OGA: 100959209
+            MMU: 13074(Cyp17a1)
+            MCAL: 110285327
+            MPAH: 110334801
+            RNO: 25146(Cyp17a1)
+            MCOC: 116101357
+            ANU: 117722327
+            MUN: 110556807
+            CGE: 100758683
+            MAUA: 101831170(Cyp17a1)
+            PLEU: 114696710
+            MORG: 121453907
+            MFOT: 126504210
+            AAMP: 119802303
+            NGI: 103744072
+            HGL: 101726496
+            CPOC: 100729670
+            CCAN: 109691327
+            DORD: 105986673
+            DSP: 122115926
+            NCAR: 124985398
+            OCU: 100346394
+            OPI: 101532918
+            TUP: 102472543
+            GVR: 103596172
+            CFA: 477807(CYP17A1)
+            CLUD: 112672259
+            VVP: 112917782
+            VLG: 121485837
+            AML: 100476785
+            UMR: 103681600
+            UAH: 113251880
+            UAR: 123795915
+            ELK: 111145221
+            LLV: 125084794
+            MPUF: 101671806
+            NVS: 122901070
+            ORO: 101384623
+            EJU: 114205173
+            ZCA: 113923407
+            MLX: 118025661
+            NSU: 110589350
+            LWW: 102745940
+            FCA: 493967(CYP17A1)
+            PYU: 121037171
+            PBG: 122493194
+            LRUF: 124507106
+            PTG: 102966057
+            PPAD: 109272832
+            AJU: 106966901
+            HHV: 120239617
+            BTA: 112441470 112444495 281739(CYP17A1)
+            BOM: 102270241 102270532
+            BIU: 109553214 109579081
+            BBUB: 102412624 112581551
+            BBIS: 105002787
+            CHX: 102182376 102182663(CYP17A1A)
+            OAS: 105601846(CYP17) 493968(CYP17A1)
+            ODA: 120873501
+            CCAD: 122445953 122446740
+            SSC: 403330(CYP17A1)
+            CFR: 102519078
+            CBAI: 105081696
+            CDK: 105095024
+            VPC: 102528385
+            BACU: 103007900
+            LVE: 103081477
+            OOR: 101283719
+            DLE: 111172355
+            PCAD: 102989171
+            PSIU: 116741612
+            ECB: 100034232(CYP17A1)
+            EPZ: 103558137
+            EAI: 106838161
+            MYB: 102259343
+            MYD: 102761363
+            MMYO: 118670308
+            MLF: 102417518
+            MNA: 107542528
+            PKL: 118718912
+            HAI: 109379659
+            DRO: 112300189
+            SHON: 118999460
+            AJM: 119059642
+            PDIC: 114497592
+            PHAS: 123828947
+            MMF: 118631983
+            RFQ: 117036161
+            PALE: 102884618
+            PGIG: 120609141
+            PVP: 105309652
+            RAY: 107515566
+            MJV: 108410298
+            TOD: 119234280 119234908 119253889
+            SARA: 101555669
+            LAV: 100660963
+            TMU: 101354636
+            ETF: 101641397
+            DNM: 101441314
+            MDO: 100028896
+            GAS: 123234242
+            SHR: 100915970
+            AFZ: 127551531
+            PCW: 110194957
+            OAA: 100080906
+            GGA: 425056(CYP17A1)
+            PCOC: 116231659
+            MGP: 100540331
+            CJO: 107316091
+            NMEL: 110399428
+            APLA: 101792920
+            ACYG: 106031836
+            AFUL: 116491607
+            TGU: 100218933
+            LSR: 110473583
+            SCAN: 103813852
+            PMOA: 120502140
+            OTC: 121341799
+            PRUF: 121350302
+            GFR: 102038147
+            FAB: 101821194
+            PHI: 102104333
+            PMAJ: 107206790
+            CCAE: 111931270
+            CCW: 104695563
+            CBRC: 103624562
+            ETL: 114071768
+            ZAB: 102070509
+            ACHL: 103809385
+            FPG: 101910363
+            FCH: 102054501
+            CLV: 102093575
+            EGZ: 104125602
+            NNI: 104022305
+            PLET: 104618241
+            ACUN: 113481735
+            TALA: 104366646
+            PADL: 103916301
+            AFOR: 103897707
+            ACHC: 115348606
+            HALD: 104314833
+            HLE: 104830098
+            AGEN: 126042899
+            GCL: 127017763
+            CCRI: 104161242
+            CSTI: 104553046
+            EHS: 104508633
+            CMAC: 104485256
+            MUI: 104536211
+            FGA: 104083220
+            GSTE: 104261700
+            LDI: 104355067
+            MNB: 103779364
+            OHA: 104336177
+            NNT: 104400042
+            DPUB: 104307099
+            PGUU: 104461069
+            ACAR: 104518499
+            CPEA: 104390883
+            AVIT: 104273742
+            CVF: 104283370
+            CUCA: 104059767
+            TEO: 104377577
+            BRHI: 104495232
+            AAM: 106494668
+            AROW: 112967993
+            NPD: 112957074
+            TGT: 104565299
+            DNE: 112989287
+            SCAM: 104138131
+            ASN: 102372221
+            AMJ: 102567971(CYP17A1)
+            CPOO: 109323822
+            GGN: 109287570
+            PSS: 102457785
+            CMY: 102945773
+            CPIC: 101933089
+            TST: 117880996
+            CABI: 116817103
+            MRV: 120408966
+            ACS: 100553634 100553834
+            PVT: 110077624
+            SUND: 121925460
+            PBI: 103063631
+            PMUR: 107290855
+            CTIG: 120316288
+            TSR: 106541312
+            PGUT: 117678655
+            VKO: 123024050
+            PMUA: 114597528
+            GJA: 107117909
+            STOW: 125437989
+            XLA: 100036774(cyp17a1.L)
+            XTR: 100145650(cyp17a1)
+            NPR: 108784547 108784564
+            RTEM: 120946990
+            BBUF: 121004269 121005522
+            BGAR: 122942304
+            DRE: 399692(cyp17a1) 796487(cyp17a2)
+            SRX: 107707716 107750198
+            SANH: 107673162 107695149
+            SGH: 107574436 107588661
+            CCAR: 109076732 109111078
+            CAUA: 113041336 113056832 113074379 113085111
+            CGIB: 127970183 128012018
+            PPRM: 120479844 120484073 120484098
+            MAMB: 125260617 125276970 125276972
+            CIDE: 127504550 127525002
+            MASI: 127413875 127418618
+            IPU: 100313515(cyp17) 108275468
+            PHYP: 113530739 113542020
+            SMEO: 124396975 124398983
+            TFD: 113636291 113641757
+            AMEX: 103036160 111194069
+            EEE: 113570353 113585465
+            TRU: 100125766(cyp17a2) 100125798(cyp17a1) 115249663
+            LCO: 104935158 104936651
+            NCC: 104957534
+            CGOB: 115019922
+            ELY: 117248465 117272651
+            EFO: 125883749 125904031
+            PLEP: 121954365 121962489
+            SLUC: 116034661 116053620
+            ECRA: 117935140 117960349
+            ESP: 116686493
+            PFLV: 114546162 114571983
+            GAT: 100192329(cyp17a2) 100192330(cyp17a1)
+            PPUG: 119214573 119222944
+            MSAM: 119912282 119917252
+            CUD: 121504405 121510915
+            ALAT: 119026703 119033497
+            MZE: 101475441 101477086
+            ONL: 100702216(cyp17a2) 100703469(cyp17)
+            OAU: 116332169 116335890
+            OLA: 100125816(cyp17) 101170547(cyp17a2)
+            OML: 112156384 112161529
+            XMA: 102221767 102238057
+            XCO: 114138338 114157614
+            XHE: 116712776 116732588 116732589
+            PRET: 103476526 103480951
+            PFOR: 103149115 103155787
+            PLAI: 106934850 106958972
+            PMEI: 106916522 106928572
+            GAF: 122820816 122842871
+            CVG: 107083007 107099069
+            CTUL: 119773762 119787729
+            GMU: 124858740 124881307
+            NFU: 107375507 107396730
+            KMR: 108239115 108251556
+            ALIM: 106511002 106515325
+            NWH: 119417878 119430866
+            AOCE: 111563640 111579695
+            MCEP: 125009171 125018366
+            CSEM: 103387725 103389439
+            POV: 109634757 109639880
+            SSEN: 122766283 122781515
+            HHIP: 117751868 117775903
+            HSP: 118102904 118119196
+            LCF: 108892361 108895342
+            SDU: 111233121 111239202
+            SLAL: 111661066 111669513
+            XGL: 120796819 120797261
+            HCQ: 109516617 109523214
+            SSCV: 125978579 125992396
+            BPEC: 110156961 110160276
+            MALB: 109972947 109973668
+            BSPL: 114841926 114851252
+            SASA: 106576693 106592366
+            STRU: 115193858 115198019
+            OTW: 112238453 112252939
+            OMY: 100137017(cyp17a1) 110509408
+            OGO: 124013898 124040788
+            ONE: 115136350
+            SALP: 111951662 112078788
+            SNH: 120017914
+            CCLU: 121553719 121559195
+            ELS: 105006241 105008018
+            SFM: 108926160 108933747
+            PKI: 111836781 111859263
+            AANG: 118218511 118231945
+            LOC: 102683310 102696373
+            PSPA: 121321480 121326245
+            ARUT: 117409034 117415544
+            PSEX: 120514450
+            LCM: 102350866 102365866
+            CMK: 103177103
+            RTP: 109937010
+            BFO: 118425323 118425478
+            BBEL: 109475258 109487130
+            AJC: 117119402
+            DSV: 119442568
+            RSAN: 119377837
+            RMP: 119159398
+            BGT: 106073674
+            HRJ: 124264060 124275507
+            CRG: 105337314
+            PMAX: 117327584
+            MMER: 123555172 123555557 123558347
+            OSN: 115223139
+            ATEN: 116286226 116287483 116289234 116292213 116292286 116300224 116300467 116304432 116305619 116307262 116308086 116309069
+            XEN: 124452194 124452197 124452291 124455834
+DBLINKS     ExplorEnz - The Enzyme Database: 1.14.14.19
+            IUBMB Enzyme Nomenclature: 1.14.14.19
+            ExPASy - ENZYME nomenclature database: 1.14.14.19
+            BRENDA, the Enzyme Database: 1.14.14.19
+            CAS: 9029-67-8
+///

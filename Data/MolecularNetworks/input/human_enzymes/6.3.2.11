@@ -1,0 +1,250 @@
+ENTRY       EC 6.3.2.11                 Enzyme
+NAME        carnosine synthase;
+            carnosine synthetase;
+            carnosine-anserine synthetase;
+            homocarnosine-carnosine synthetase;
+            carnosine-homocarnosine synthetase;
+            L-histidine:beta-alanine ligase (AMP-forming) (incorrect)
+CLASS       Ligases;
+            Forming carbon-nitrogen bonds;
+            Acid-D-amino-acid ligases (peptide synthases)
+SYSNAME     L-histidine:beta-alanine ligase (ADP-forming)
+REACTION    ATP + L-histidine + beta-alanine = ADP + phosphate + carnosine [RN:R01164]
+ALL_REAC    R01164;
+            (other) R00910 R00912 R01991 R03286
+SUBSTRATE   ATP [CPD:C00002];
+            L-histidine [CPD:C00135];
+            beta-alanine [CPD:C00099]
+PRODUCT     ADP [CPD:C00008];
+            phosphate [CPD:C00009];
+            carnosine [CPD:C00386]
+COMMENT     This enzyme was thought to form AMP [1,2], but studies with highly purified enzyme proved that it forms ADP [4]. Carnosine is a dipeptide that is present at high concentrations in skeletal muscle and the olfactory bulb of vertebrates [3]. It is also found in the skeletal muscle of some invertebrates. The enzyme can also catalyse the formation of homocarnosine from 4-aminobutanoate and L-histidine, with much lower activity [4].
+HISTORY     EC 6.3.2.11 created 1965, modified 2010
+REFERENCE   1  [PMID:14404206]
+  AUTHORS   KALYANKAR GD, MEISTER A.
+  TITLE     Enzymatic synthesis of carnosine and related beta-alanyl and gamma-aminobutyryl peptides.
+  JOURNAL   J Biol Chem 234:3210-8 (1959)
+REFERENCE   2  [PMID:16748858]
+  AUTHORS   Stenesh JJ, Winnick T.
+  TITLE     Carnosine-anserine synthetase of muscle. 4. Partial purification of the enzyme and further studies of beta-alanyl peptide synthesis.
+  JOURNAL   Biochem J 77:575-81 (1960)
+            DOI:10.1042/bj0770575
+REFERENCE   3  [PMID:4988625]
+  AUTHORS   Crush KG
+  TITLE     Carnosine and related substances in animal tissues.
+  JOURNAL   Comp Biochem Physiol 34:3-30 (1970)
+            DOI:10.1016/0010-406x(70)90049-6
+REFERENCE   4  [PMID:20097752]
+  AUTHORS   Drozak J, Veiga-da-Cunha M, Vertommen D, Stroobant V, Van Schaftingen E
+  TITLE     Molecular identification of carnosine synthase as ATP-grasp domain-containing protein 1 (ATPGD1).
+  JOURNAL   J Biol Chem 285:9346-56 (2010)
+            DOI:10.1074/jbc.M109.095505
+  SEQUENCE  [gga:100359387] [hsa:57571] [mmu:107239]
+PATHWAY     ec00330  Arginine and proline metabolism
+            ec00340  Histidine metabolism
+            ec00410  beta-Alanine metabolism
+            ec01100  Metabolic pathways
+ORTHOLOGY   K14755  carnosine synthase
+GENES       HSA: 57571(CARNS1)
+            PTR: 451368(CARNS1)
+            PPS: 100992842(CARNS1)
+            GGO: 101133589(CARNS1)
+            PON: 100433050(CARNS1)
+            NLE: 100586652(CARNS1)
+            HMH: 116469075(CARNS1)
+            MCC: 712485(CARNS1)
+            MCF: 102140146(CARNS1)
+            MTHB: 126935432
+            MNI: 105469678(CARNS1)
+            CSAB: 103217912(CARNS1)
+            CATY: 105577355(CARNS1)
+            PANU: 101012781(CARNS1)
+            TGE: 112606990(CARNS1)
+            RRO: 104664741(CARNS1)
+            RBB: 108518609(CARNS1)
+            TFN: 117080245(CARNS1)
+            PTEH: 111522251(CARNS1)
+            CANG: 105512324(CARNS1)
+            CJC: 100396814(CARNS1)
+            SBQ: 101048183(CARNS1)
+            CIMI: 108310358(CARNS1)
+            MMUR: 105867471(CARNS1)
+            LCAT: 123642850(CARNS1)
+            PCOQ: 105827361(CARNS1)
+            OGA: 100941290(CARNS1)
+            MMU: 107239(Carns1)
+            MCAL: 110286079(Carns1)
+            MPAH: 110336527(Carns1)
+            RNO: 309150(Carns1)
+            MCOC: 116103323(Carns1)
+            ANU: 117713991(Carns1)
+            MUN: 110560365(Carns1)
+            CGE: 100765077(Carns1)
+            MAUA: 101828407(Carns1)
+            PLEU: 114685990(Carns1)
+            MORG: 121453760(Carns1)
+            MFOT: 126498508
+            AAMP: 119805188(Carns1)
+            NGI: 103725587(Carns1)
+            HGL: 101703269(Carns1)
+            CPOC: 100733118(Carns1)
+            CCAN: 109688626(Carns1)
+            DORD: 105989174(Carns1)
+            DSP: 122105364(Carns1)
+            NCAR: 124958804
+            OPI: 101525872(CARNS1)
+            TUP: 102476516(CARNS1)
+            GVR: 103589997(CARNS1)
+            CFA: 483695(CARNS1)
+            CLUD: 112659426(CARNS1)
+            VVP: 112924184(CARNS1)
+            VLG: 121472179(CARNS1)
+            AML: 100470611(CARNS1)
+            UMR: 103679612(CARNS1)
+            UAH: 113244030(CARNS1)
+            UAR: 123778450(CARNS1)
+            ELK: 111149703
+            LLV: 125079633
+            MPUF: 101671143(CARNS1)
+            NVS: 122913181(CARNS1)
+            ORO: 101382286(CARNS1)
+            EJU: 114220188(CARNS1)
+            ZCA: 113914532(CARNS1)
+            MLX: 118016128(CARNS1)
+            NSU: 110576037(CARNS1)
+            FCA: 101080661(CARNS1)
+            PYU: 121023681(CARNS1)
+            PBG: 122484050(CARNS1)
+            LRUF: 124506130
+            PTG: 102953183(CARNS1)
+            PPAD: 109246848(CARNS1)
+            AJU: 106971104(CARNS1)
+            HHV: 120233868(CARNS1)
+            BTA: 783525(CARNS1)
+            BOM: 102288119(CARNS1)
+            BIU: 109554139(CARNS1)
+            BBUB: 102414079(CARNS1)
+            BBIS: 104987068(CARNS1)
+            CHX: 102182385(CARNS1)
+            OAS: 101109312(CARNS1)
+            ODA: 120874774(CARNS1)
+            CCAD: 122430820(CARNS1)
+            SSC: 100512885(CARNS1)
+            CFR: 102520872(CARNS1)
+            CBAI: 105070428(CARNS1)
+            CDK: 105104426(CARNS1)
+            VPC: 102536997(CARNS1)
+            BACU: 103008596(CARNS1)
+            LVE: 103080369(CARNS1)
+            OOR: 101285110(CARNS1)
+            DLE: 111183670(CARNS1)
+            PCAD: 102981468
+            PSIU: 116757789(RPS6KB2)
+            ECB: 100059309(CARNS1)
+            EPZ: 103560159(CARNS1)
+            EAI: 106833657(CARNS1)
+            MYB: 102244811(CARNS1)
+            MYD: 102764108(CARNS1)
+            MMYO: 118665217(CARNS1)
+            MLF: 102436930(CARNS1)
+            MNA: 107537447(CARNS1)
+            PKL: 118706963(CARNS1)
+            HAI: 109384218(CARNS1)
+            DRO: 112317161(CARNS1)
+            SHON: 118991816(CARNS1)
+            AJM: 119041869(CARNS1)
+            PDIC: 114500896(CARNS1)
+            PHAS: 123829616(CARNS1)
+            MMF: 118628350(CARNS1)
+            RFQ: 117029820(CARNS1)
+            PALE: 102891454(CARNS1)
+            PGIG: 120584752(CARNS1)
+            PVP: 105306549(CARNS1)
+            RAY: 107503705(CARNS1)
+            MJV: 108393146(CARNS1)
+            TOD: 119249911(CARNS1)
+            SARA: 101549931(CARNS1)
+            TMU: 101343802
+            ETF: 101647156(CARNS1)
+            DNM: 101445662(CARNS1)
+            MDO: 100028997(CARNS1)
+            GAS: 123252078(CARNS1)
+            SHR: 100934818(CARNS1)
+            AFZ: 127541283
+            PCW: 110195424(CARNS1)
+            OAA: 100681134(CARNS1)
+            GGA: 100359387(CARNS1)
+            PCOC: 116243023(CARNS1)
+            MGP: 100548525(CARNS1)
+            CJO: 107314238(CARNS1)
+            NMEL: 110390570
+            ACYG: 106048295(CARNS1)
+            AFUL: 116490065(CARNS1)
+            TGU: 115495355(CARNS1)
+            LSR: 110485040(CARNS1)
+            PMOA: 120499578(CARNS1)
+            OTC: 121339383 121339658
+            PRUF: 121354246 121355168(CARNS1)
+            FAB: 101810237(CARNS1)
+            PHI: 102100376(CARNS1)
+            PMAJ: 107205283(CARNS1)
+            CCW: 120410069(CARNS1)
+            ETL: 114063334(CARNS1)
+            FPG: 101914136(RPS6KB2) 106112844(CARNS1)
+            FCH: 102053346(CARNS1)
+            CLV: 102090970(CARNS1)
+            TALA: 116962730(CARNS1)
+            ACHC: 115337544(CARNS1)
+            AGEN: 126047496
+            AROW: 112963283(CARNS1)
+            NPD: 112957577(CARNS1)
+            DNE: 112988613(CARNS1)
+            ASN: 102369760(CARNS1)
+            AMJ: 102565182(CARNS1)
+            CPOO: 109324621(CARNS1)
+            PSS: 102451775(CARNS1)
+            CMY: 102932637(CARNS1)
+            CPIC: 101949086(CARNS1)
+            TST: 117876023(CARNS1)
+            CABI: 116833424(CARNS1)
+            MRV: 120393419(CARNS1)
+            ACS: 100557340(carns1)
+            PVT: 110085648(CARNS1)
+            SUND: 121919270(CARNS1)
+            PBI: 103057026(CARNS1)
+            PMUR: 107293631(CARNS1)
+            CTIG: 120306944(CARNS1)
+            TSR: 106538898(CARNS1)
+            PGUT: 117675337(CARNS1)
+            VKO: 123027364(CARNS1)
+            PMUA: 114602074(CARNS1)
+            ZVI: 118090264(CARNS1)
+            GJA: 107121294(CARNS1)
+            STOW: 125425978(CARNS1)
+            XLA: 108696326(carns1.L)
+            XTR: 100487967(carns1)
+            NPR: 108796244
+            RTEM: 120909145(CARNS1)
+            BBUF: 121003071(CARNS1)
+            BGAR: 122940634(CARNS1)
+            OMY: 110488634 110504839
+            OGO: 123993270 124010849
+            ONE: 115129348 115130544
+            SNH: 120047075 120062128
+            AANG: 118231339
+            LOC: 102683811 102697335(carns1)
+            PSPA: 121307257 121307276
+            ARUT: 117409973 117410067 117410068 117966719 117966722 117968602 117970752
+            CRG: 105317679 105324334 105346080
+            MYI: 110448302
+            PMAX: 117317717
+            MMER: 123525736 123534519 123541963 123542593
+            OBI: 106877889 106879380
+            OSN: 115220804 115220869 115220883 115220906
+            CME: CYME_CMF080C
+DBLINKS     ExplorEnz - The Enzyme Database: 6.3.2.11
+            IUBMB Enzyme Nomenclature: 6.3.2.11
+            ExPASy - ENZYME nomenclature database: 6.3.2.11
+            BRENDA, the Enzyme Database: 6.3.2.11
+            CAS: 9023-61-4
+///

@@ -1,0 +1,301 @@
+ENTRY       EC 1.14.15.4                Enzyme
+NAME        steroid 11beta-monooxygenase;
+            steroid 11beta-hydroxylase;
+            steroid 11beta/18-hydroxylase
+CLASS       Oxidoreductases;
+            Acting on paired donors, with incorporation or reduction of molecular oxygen;
+            With reduced iron-sulfur protein as one donor, and incorporation of one atom of oxygen into the other donor
+SYSNAME     steroid,reduced-adrenodoxin:oxygen oxidoreductase (11beta-hydroxylating)
+REACTION    a steroid + 2 reduced adrenodoxin + O2 + 2 H+ = an 11beta-hydroxysteroid + 2 oxidized adrenodoxin + H2O [RN:R02726]
+ALL_REAC    R02726 > R02725;
+            (other) R02218 R02843 R03262 R03263 R03329 R03851 R04850 R08949
+SUBSTRATE   steroid [CPD:C00377];
+            reduced adrenodoxin [CPD:C00662];
+            O2 [CPD:C00007];
+            H+ [CPD:C00080]
+PRODUCT     11beta-hydroxysteroid [CPD:C01058];
+            oxidized adrenodoxin [CPD:C00667];
+            H2O [CPD:C00001]
+COMMENT     A heme-thiolate protein (P-450). Also hydroxylates steroids at the 18-position, and converts 18-hydroxycorticosterone into aldosterone.
+HISTORY     EC 1.14.15.4 created 1961 as EC 1.99.1.7, transferred 1965 to EC 1.14.1.6, transferred 1972 to EC 1.14.15.4, modified 1989, modified 2014
+REFERENCE   1  [PMID:13276417]
+  AUTHORS   GRANT JK, BROWNIE AC.
+  TITLE     The role of fumarate and TPN in steroid enzymic 11beta-hydroxylation.
+  JOURNAL   Biochim Biophys Acta 18:433-4 (1955)
+            DOI:10.1016/0006-3002(55)90111-6
+REFERENCE   2  [PMID:13211659]
+  AUTHORS   HAYANO M, DORFMAN RI.
+  TITLE     On the mechanism of the C11 beta-hydroxylation of steroids.
+  JOURNAL   J Biol Chem 211:227-35 (1954)
+REFERENCE   3  [PMID:13426185]
+  AUTHORS   TOMKINS GM, MICHAEL PJ, CURRAN JF.
+  TITLE     Studies on the nature of steroid 11-beta hydroxylation.
+  JOURNAL   Biochim Biophys Acta 23:655-6 (1957)
+            DOI:10.1016/0006-3002(57)90396-7
+REFERENCE   4  [PMID:3485096]
+  AUTHORS   Yanagibashi K, Haniu M, Shively JE, Shen WH, Hall P
+  TITLE     The synthesis of aldosterone by the adrenal cortex. Two zones (fasciculata and glomerulosa) possess one enzyme for 11 beta-, 18-hydroxylation, and aldehyde synthesis.
+  JOURNAL   J Biol Chem 261:3556-62 (1986)
+REFERENCE   5  [PMID:4967077]
+  AUTHORS   Zuidweg MH.
+  TITLE     Hydroxylation of Reichstein's compound S with cell-free preparations from Curvularia lunata.
+  JOURNAL   Biochim Biophys Acta 152:144-58 (1968)
+            DOI:10.1016/0005-2760(68)90016-7
+PATHWAY     ec00140  Steroid hormone biosynthesis
+            ec01100  Metabolic pathways
+ORTHOLOGY   K00497  steroid 11beta-monooxygenase
+            K07433  steroid 11beta-monooxygenase / corticosterone 18-monooxygenase
+GENES       HSA: 1584(CYP11B1) 1585(CYP11B2)
+            PTR: 464437(CYP11B1) 745937(CYP11B2)
+            PPS: 100971238(CYP11B2) 100971586(CYP11B1)
+            GGO: 101142418 115930159
+            PON: 100459910 100461139
+            NLE: 100605657 115830633
+            HMH: 116465197 116465198
+            MCC: 695793(CYP11B1) 695914(CYP11B2)
+            MCF: 102136659(CYP11B1) 102137301(CYP11B2)
+            MTHB: 126961020 126961026 126961618
+            MNI: 105483796 105488428 105488429
+            CSAB: 103237546(CYP11B1) 103237547(CYP11B2)
+            CATY: 105581188 105581294
+            PANU: 101002490 101002842 116276421
+            TGE: 112630213 112630247
+            MLEU: 105536287 105536288
+            RRO: 104679773 104679775
+            RBB: 108536535 108536550
+            TFN: 117078861 117079172 117079174
+            PTEH: 111535654
+            CANG: 105509012 105509013
+            CJC: 100415304(CYP11B2) 100415667(CYP11B1)
+            SBQ: 101048076
+            CIMI: 108291253(CYP11B1) 108291254(CYP11B2)
+            CSYR: 103276447 103276450
+            MMUR: 105867373 105867374
+            LCAT: 123644516 123644520
+            PCOQ: 105813307 105813360
+            OGA: 100948075 100948396 100958146
+            MMU: 110115(Cyp11b1) 13072(Cyp11b2)
+            MCAL: 110310257 110310258
+            MPAH: 110334511 110335023
+            RNO: 24294(Cyp11b2) 353498(Cyp11b3) 500892(Cyp11b1)
+            MCOC: 116073894 116082436
+            ANU: 117719036 117719092
+            MUN: 110544545 110562757
+            CGE: 100771648 107977023
+            MAUA: 101823339 101823606
+            PLEU: 114684742 114684743
+            MORG: 121461414 121461416
+            MFOT: 126503589 126503590
+            AAMP: 119823440 119823447
+            NGI: 103748431 103748432
+            HGL: 101700701 101701311
+            CPOC: 100379213(Cyp11b2) 100727186 111755182
+            CCAN: 109681807 109681816
+            DORD: 105992320 106002066
+            DSP: 122125332 122125344
+            NCAR: 124991075 124991346
+            OCU: 100328543(CYP11B2) 100342863
+            OPI: 101518686
+            TUP: 102471986 102492986
+            GVR: 103599088 103604864 103604866
+            CFA: 482071(CYP11B2)
+            CLUD: 112662131
+            VVP: 112911200
+            VLG: 121499022
+            AML: 100478197
+            UMR: 103680551
+            UAR: 123779294 123796461
+            ELK: 111146729
+            LLV: 125098158 125099244
+            NVS: 122905498 122905499
+            ORO: 101364874
+            EJU: 114204069 114204070
+            ZCA: 113911085 118356903
+            MLX: 118015252
+            NSU: 110578976
+            LWW: 102732818
+            FCA: 101097790
+            PYU: 121024468 121043245
+            PBG: 122496110 122496111
+            LRUF: 124507499 124507515
+            PTG: 102972244
+            PPAD: 109258417
+            AJU: 106989683
+            HHV: 120227687
+            BTA: 112449566 282422(CYP11B1) 787628
+            BOM: 102272939 102280195
+            BIU: 109568177 109568372 109568377
+            BBUB: 112577757 112579063
+            BBIS: 104997957
+            CHX: 102188238 102188517
+            OAS: 101102377 767576(CYP11B1)
+            ODA: 120859420
+            CCAD: 122451091
+            SSC: 110260194
+            CFR: 102517728
+            CBAI: 105077899
+            CDK: 105106427
+            VPC: 102532708
+            BACU: 103009357
+            LVE: 103089121
+            OOR: 101286768
+            DLE: 111165107
+            PCAD: 102988484
+            PSIU: 116742421
+            ECB: 100063612 100063645
+            EPZ: 103543718
+            EAI: 106827552 123275604
+            MYD: 102752229
+            MMYO: 118670722
+            MNA: 107542744
+            PKL: 118718613
+            HAI: 109390820
+            DRO: 112315587
+            SHON: 118988945
+            AJM: 119064760
+            PDIC: 114514446
+            PHAS: 123833011
+            MMF: 118643316
+            RFQ: 117033759
+            PALE: 102881458
+            PGIG: 120588772
+            PVP: 105302023 105310134
+            RAY: 107507877
+            MJV: 108400067
+            TOD: 119232024
+            SARA: 101544036
+            LAV: 100654178
+            TMU: 101354125
+            ETF: 101664498
+            DNM: 101424711
+            MDO: 100032885
+            GAS: 123255806
+            SHR: 100930767
+            AFZ: 127544520
+            PCW: 110214194
+            OAA: 100082065
+            TGU: 116807520
+            LSR: 110479458
+            PHI: 102113159
+            FPG: 101918505
+            FCH: 102046275
+            AROW: 112976664
+            ASN: 102375758
+            AMJ: 102575737(CYP11B1)
+            CPOO: 109310774
+            CMY: 102933677
+            CPIC: 101950678
+            TST: 117873891
+            CABI: 116833743
+            MRV: 120396417
+            ACS: 100560890
+            PVT: 110084842
+            SUND: 121929727
+            PBI: 103058342
+            PMUR: 107300041
+            CTIG: 120298053
+            TSR: 106545562
+            PGUT: 117666942
+            VKO: 123035256
+            PMUA: 114600140
+            ZVI: 118089700
+            GJA: 107116366
+            STOW: 125425154
+            XLA: 108718624
+            XTR: 101731070
+            RTEM: 120921857
+            BBUF: 121001585
+            BGAR: 122938238
+            DRE: 791124(cyp11c1)
+            SRX: 107745157
+            SANH: 107698185
+            SGH: 107570796
+            CCAR: 109110857
+            CAUA: 113059430
+            CGIB: 128030261
+            PPRM: 120491104
+            MAMB: 125243223
+            CIDE: 127497506
+            MASI: 127453357
+            IPU: 108263488
+            PHYP: 113525473
+            SMEO: 124384380
+            TFD: 113647799
+            AMEX: 103026652
+            EEE: 113574779
+            TRU: 101075863
+            TNG: GSTEN00015374G001
+            LCO: 104920541
+            NCC: 104944920
+            CGOB: 115021232
+            ELY: 117265363
+            EFO: 125893014
+            PLEP: 121945728
+            SLUC: 116049596
+            ECRA: 117946724
+            ESP: 116691100
+            PFLV: 114556971
+            GAT: 120810783
+            PPUG: 119198098
+            MSAM: 119897544
+            CUD: 121514148
+            ALAT: 119006071
+            MZE: 101463871
+            ONL: 100533461(cyp11b)
+            OAU: 116320943
+            OLA: 100125822(cyp11b)
+            OML: 112143274
+            XMA: 102236274
+            XCO: 114139300
+            XHE: 116715552
+            PRET: 103478110
+            PFOR: 103136813
+            PLAI: 106957061
+            PMEI: 106922010
+            GAF: 122830567
+            CVG: 107088793
+            CTUL: 119783082
+            GMU: 124865602
+            NFU: 107379700
+            KMR: 108235361
+            ALIM: 106515094
+            NWH: 119410002
+            AOCE: 111567446 111575932
+            MCEP: 125015727
+            CSEM: 103388284
+            POV: 109633048
+            SSEN: 122774868
+            HHIP: 117777191
+            HSP: 118113534
+            LCF: 108885901
+            SDU: 111230014
+            SLAL: 111652162
+            XGL: 120784322
+            HCQ: 109522775
+            SSCV: 125975714
+            BPEC: 110163163
+            MALB: 109970182
+            BSPL: 114842551
+            SASA: 100136945
+            OTW: 121840636
+            OMY: 100135891(cyp11b) 110534298
+            OGO: 123998350 124004644
+            ONE: 115122985
+            SALP: 112074060
+            SNH: 120047273
+            CCLU: 121543144 123481512
+            ELS: 105018961
+            SFM: 108925533
+            PKI: 111853322
+            AANG: 118210794
+            LOC: 102683152
+            PSPA: 121306922
+            ARUT: 117395226 117969833
+            PSEX: 120518870
+            LCM: 102345423
+DBLINKS     ExplorEnz - The Enzyme Database: 1.14.15.4
+            IUBMB Enzyme Nomenclature: 1.14.15.4
+            ExPASy - ENZYME nomenclature database: 1.14.15.4
+            BRENDA, the Enzyme Database: 1.14.15.4
+            CAS: 9029-66-7
+///

@@ -1,0 +1,637 @@
+ENTRY       EC 1.13.11.63               Enzyme
+NAME        beta-carotene 15,15'-dioxygenase;
+            blh (gene name);
+            BCO1 (gene name);
+            BCDO (gene name);
+            carotene dioxygenase;
+            carotene 15,15'-dioxygenase;
+            BCMO1 (misleading);
+            beta-carotene 15,15'-monooxygenase (incorrect)
+CLASS       Oxidoreductases;
+            Acting on single donors with incorporation of molecular oxygen (oxygenases);
+            With incorporation of two atoms of oxygen
+SYSNAME     beta-carotene:oxygen 15,15'-dioxygenase (bond-cleaving)
+REACTION    beta-carotene + O2 = 2 all-trans-retinal [RN:R00032]
+ALL_REAC    R00032
+SUBSTRATE   beta-carotene [CPD:C02094];
+            O2 [CPD:C00007]
+PRODUCT     all-trans-retinal [CPD:C00376]
+COMMENT     Requires Fe2+. The enzyme cleaves beta-carotene symmetrically, producing two molecules of all-trans-retinal. Both atoms of the oxygen molecule are incorporated into the products [8]. The enzyme can also process beta-cryptoxanthin, 8'-apo-beta-carotenal, 4'-apo-beta-carotenal, alpha-carotene and gamma-carotene in decreasing order. The presence of at least one unsubstituted beta-ionone ring in a substrate greater than C(30) is mandatory [5]. A prokaryotic enzyme has been reported from the uncultured marine bacterium 66A03, where it is involved in the proteorhodopsin system, which uses retinal as its chromophore [6,7].
+HISTORY     EC 1.13.11.63 created 2012 (EC 1.14.99.36 created 1972 as EC 1.13.11.21, transferred 2001 to EC 1.14.99.36, incorporated 2015), modified 2016
+REFERENCE   1  [PMID:5946623]
+  AUTHORS   Goodman DS, Huang HS, Shiratori T.
+  TITLE     Mechanism of the biosynthesis of vitamin A from beta-carotene.
+  JOURNAL   J Biol Chem 241:1929-32 (1966)
+REFERENCE   2
+  AUTHORS   Goodman, D.S., Huang, H.S., Kanai, M. and Shiratori, T.
+  TITLE     The enzymatic conversion of all-trans beta-carotene into retinal.
+  JOURNAL   J Biol Chem 242:3543-3554 (1967)
+REFERENCE   3  [PMID:11401432]
+  AUTHORS   Yan W, Jang GF, Haeseleer F, Esumi N, Chang J, Kerrigan M, Campochiaro M, Campochiaro P, Palczewski K, Zack DJ
+  TITLE     Cloning and characterization of a human beta,beta-carotene-15,15'-dioxygenase that is highly expressed in the retinal pigment epithelium.
+  JOURNAL   Genomics 72:193-202 (2001)
+            DOI:10.1006/geno.2000.6476
+  SEQUENCE  [hsa:53630] [mmu:63857]
+REFERENCE   4  [PMID:11458349]
+  AUTHORS   Leuenberger MG, Engeloch-Jarret C, Woggon WD.
+  TITLE     The Reaction Mechanism of the Enzyme-Catalyzed Central Cleavage of beta-Carotene  to Retinal This research was supported by F. Hoffmann-La Roche AG and the Swiss National Science Foundation. We are grateful to F. Hoffmann-La Roche AG for a generous gift of carotenoids and Dr. Claus Bornemann for preliminary experiments.
+  JOURNAL   Angew Chem Int Ed Engl 40:2613-2617 (2001)
+            DOI:10.1002/1521-3773(20010716)40:14<2613::AID-ANIE2613>3.0.CO;2-Z
+REFERENCE   5  [PMID:18979213]
+  AUTHORS   Kim YS, Oh DK
+  TITLE     Substrate specificity of a recombinant chicken beta-carotene 15,15'-monooxygenase that converts beta-carotene into retinal.
+  JOURNAL   Biotechnol Lett 31:403-8 (2009)
+            DOI:10.1007/s10529-008-9873-4
+REFERENCE   6  [PMID:19366683]
+  AUTHORS   Kim YS, Kim NH, Yeom SJ, Kim SW, Oh DK
+  TITLE     In vitro characterization of a recombinant Blh protein from an uncultured marine bacterium as a beta-carotene 15,15'-dioxygenase.
+  JOURNAL   J Biol Chem 284:15781-93 (2009)
+            DOI:10.1074/jbc.M109.002618
+  SEQUENCE  [ag:AAY68319]
+REFERENCE   7  [PMID:20229064]
+  AUTHORS   Kim YS, Park CS, Oh DK
+  TITLE     Retinal production from beta-carotene by beta-carotene 15,15'-dioxygenase from an unculturable marine bacterium.
+  JOURNAL   Biotechnol Lett 32:957-61 (2010)
+            DOI:10.1007/s10529-010-0239-3
+  SEQUENCE  [ag:AAY68319]
+REFERENCE   8  [PMID:24668807]
+  AUTHORS   dela Sena C, Riedl KM, Narayanasamy S, Curley RW Jr, Schwartz SJ, Harrison EH
+  TITLE     The human enzyme that converts dietary provitamin A carotenoids to vitamin A is a dioxygenase.
+  JOURNAL   J Biol Chem 289:13661-6 (2014)
+            DOI:10.1074/jbc.M114.557710
+  SEQUENCE  [hsa:53630]
+PATHWAY     ec00830  Retinol metabolism
+            ec01100  Metabolic pathways
+ORTHOLOGY   K00515  beta-carotene 15,15'-dioxygenase
+            K21817  beta-carotene 15,15'-dioxygenase
+GENES       HSA: 53630(BCO1)
+            PTR: 468043(BCO1)
+            PPS: 100987572(BCO1)
+            GGO: 101132534(BCO1)
+            PON: 100454129(BCO1)
+            NLE: 100603806(BCO1)
+            HMH: 116470315(BCO1)
+            MCC: 721412(BCO1)
+            MCF: 102121880(BCO1)
+            MTHB: 126943967
+            MNI: 105491208(BCO1)
+            CSAB: 103233367(BCO1)
+            CATY: 105598677(BCO1)
+            PANU: 101002112(BCO1)
+            TGE: 112614365(BCO1)
+            MLEU: 105546790(BCO1)
+            RRO: 104671629(BCO1)
+            RBB: 108539495(BCO1)
+            TFN: 117088107(BCO1)
+            PTEH: 111552571(BCO1)
+            CANG: 105511938(BCO1)
+            CJC: 100393264(BCO1)
+            SBQ: 101032680(BCO1)
+            CIMI: 108313451(BCO1)
+            CSYR: 103267375(BCO1)
+            MMUR: 105861200(BCO1)
+            LCAT: 123625067(BCO1)
+            PCOQ: 105813468(BCO1)
+            OGA: 100950108(BCO1)
+            MMU: 63857(Bco1)
+            MCAL: 110299974(Bco1)
+            MPAH: 110337549(Bco1)
+            RNO: 114106(Bco1)
+            MCOC: 116068084(Bco1)
+            ANU: 117723255(Bco1)
+            MUN: 110549590(Bco1)
+            CGE: 100760350(Bco1)
+            MAUA: 101840370(Bco1)
+            PLEU: 114697444(Bco1)
+            MORG: 121447173(Bco1)
+            MFOT: 126502803
+            AAMP: 119801968(Bco1)
+            NGI: 103732128(Bco1)
+            HGL: 101724039(Bco1)
+            CPOC: 100729027(Bco1)
+            CCAN: 109696646(Bco1)
+            DORD: 105983036(Bco1)
+            DSP: 122126224(Bco1)
+            NCAR: 124967580
+            OCU: 100358087
+            OPI: 101525901(BCO1)
+            TUP: 102484616(BCO1)
+            GVR: 103591523(BCMO1)
+            CFA: 489695(BCO1)
+            CLUD: 112646713(BCO1)
+            VVP: 112911898(BCO1)
+            VLG: 121499453(BCO1)
+            AML: 100483748(BCO1)
+            UMR: 103662084(BCO1)
+            UAH: 113252529(BCO1)
+            UAR: 123791342(BCO1)
+            ELK: 111152742
+            LLV: 125088686
+            MPUF: 101673476(BCO1)
+            NVS: 122911205(BCO1)
+            ORO: 101377344(BCO1)
+            EJU: 114199568(BCO1)
+            ZCA: 113935462(BCO1)
+            MLX: 118023539(BCO1)
+            NSU: 110594207(BCO1)
+            FCA: 101101606(BCO1)
+            PYU: 121009842(BCO1)
+            PBG: 122494509(BCO1)
+            LRUF: 124511918
+            PTG: 102959940(BCO1)
+            PPAD: 109245649(BCO1)
+            AJU: 106984030(BCO1)
+            HHV: 120228696(BCO1)
+            BTA: 534696(BCO1)
+            BOM: 102266127(BCO1)
+            BIU: 109572100(BCO1)
+            BBUB: 102398086(BCO1)
+            BBIS: 104996513(BCO1)
+            CHX: 102179507(BCO1)
+            OAS: 101121875(BCO1)
+            ODA: 120872886(BCO1)
+            CCAD: 122420994(BCO1)
+            SSC: 100192320(BCO1)
+            CFR: 102513983(BCO1)
+            CBAI: 105078898(BCO1)
+            CDK: 105089436(BCO1)
+            VPC: 102540155(BCO1)
+            BACU: 103015035(BCO1)
+            LVE: 103072015(BCMO1)
+            OOR: 101285979(BCO1)
+            DLE: 111179470(BCO1)
+            PSIU: 116744768(BCO1)
+            ECB: 100069873(BCO1)
+            EPZ: 103554670(BCO1)
+            EAI: 106833126(BCO1)
+            MYB: 102263079(BCO1)
+            MYD: 102771959(BCO1)
+            MMYO: 118671234 118674813(BCO1)
+            MLF: 102421551(BCO1)
+            MNA: 107525354(BCO1)
+            PKL: 118721002(BCO1)
+            HAI: 109378342(BCO1)
+            DRO: 112300657(BCO1)
+            SHON: 118981179(BCO1)
+            AJM: 119047106(BCO1)
+            PDIC: 114488398(BCO1)
+            PHAS: 123805926(BCO1)
+            MMF: 118639288(BCO1)
+            RFQ: 117035481(BCO1)
+            PALE: 102897588(BCO1)
+            PGIG: 120622974(BCO1)
+            PVP: 105289864(BCO1)
+            RAY: 107521326(BCO1)
+            MJV: 108396466(BCO1)
+            TOD: 119249114(BCO1)
+            SARA: 101554888(BCO1)
+            TMU: 101341485
+            ETF: 101645209(BCO1)
+            DNM: 101437188(BCO1)
+            MDO: 100031779(BCO1)
+            GAS: 123233493(BCO1)
+            SHR: 100920512(BCO1)
+            AFZ: 127548668
+            PCW: 110212705(BCO1)
+            OAA: 103171493(BCO1)
+            GGA: 395346(BCO1)
+            PCOC: 116243585(BCO1)
+            MGP: 100549225(BCO1)
+            CJO: 107319380(BCO1)
+            NMEL: 110404561(BCO1)
+            APLA: 101798614(BCO1)
+            ACYG: 106033290(BCO1)
+            AFUL: 116493884(BCO1)
+            TGU: 100228904(BCO1)
+            LSR: 110476344(BCO1)
+            SCAN: 103816726(BCO1)
+            PMOA: 120508107(BCO1)
+            OTC: 121333966(BCO1)
+            PRUF: 121348928(BCO1)
+            GFR: 102040064(BCO1)
+            FAB: 101812113(BCO1)
+            PHI: 102103988(BCO1)
+            PMAJ: 107209839(BCO1)
+            CCAE: 111934459(BCO1)
+            CCW: 104691821(BCO1)
+            CBRC: 103620112(BCO1)
+            ETL: 114070262(BCO1)
+            ZAB: 102064471(BCO1)
+            FPG: 101914506(BCO1)
+            FCH: 102058462(BCO1)
+            CLV: 102086476(BCO1)
+            EGZ: 104133740(BCO1)
+            NNI: 104014550(BCO1)
+            PLET: 104619754(BCO1)
+            PCRI: 104037861(BCO1)
+            PCAO: 104048413(BCO1)
+            ACUN: 113484299(BCO1)
+            TALA: 104361474(BCO1)
+            PADL: 103923863(BCO1)
+            AFOR: 103897309(BCO1)
+            ACHC: 115346282(BCO1)
+            HALD: 104323278(BCO1)
+            HLE: 104839388(BCO1)
+            AGEN: 126041246
+            GCL: 127021148
+            CCRI: 104165425(BCO1)
+            CSTI: 104553962(BCO1)
+            EHS: 104516647(BCO1)
+            CMAC: 104473010(BCO1)
+            MUI: 104534068(BCO1)
+            FGA: 104070117(BCO1)
+            GSTE: 104256550(BCO1)
+            LDI: 104343421(BCO1)
+            MNB: 103772739(BCO1)
+            OHA: 104339195(BCO1)
+            NNT: 104411150(BCO1)
+            DPUB: 104300821(BCO1)
+            PGUU: 104468503(BCO1)
+            ACAR: 104523219(BCO1)
+            CPEA: 104396356(BCO1)
+            AVIT: 104276920(BCO1)
+            CVF: 104291184(BCO1)
+            CUCA: 104059378(BCO1)
+            TEO: 104383740(BCO1)
+            BRHI: 104490101(BCO1)
+            AAM: 106483349(BCO1)
+            AROW: 112962937(BCO1)
+            NPD: 112949903(BCO1)
+            TGT: 104568725(BCO1)
+            DNE: 112978848(BCO1)
+            SCAM: 104149342(BCO1)
+            ASN: 102378066(BCO1)
+            AMJ: 102573601(BCO1)
+            CPOO: 109310648(BCO1)
+            GGN: 109289320(BCO1)
+            PSS: 102455966(BCO1)
+            CMY: 102929893(BCO1)
+            CPIC: 101934984(BCO1)
+            TST: 117886728(BCO1)
+            CABI: 116819129(BCO1)
+            MRV: 120384255(BCO1)
+            ACS: 100563614(bco1)
+            PVT: 110085493(BCO1)
+            SUND: 121914241(BCO1)
+            VKO: 123025444(BCO1)
+            PMUA: 114601938(BCO1)
+            ZVI: 118087078(BCO1)
+            GJA: 107105786(BCO1)
+            STOW: 125443273(BCO1)
+            XLA: 108714030(bco1.L)
+            XTR: 100486582(bco1)
+            NPR: 108786164(BCO1)
+            RTEM: 120917687(BCO1)
+            BBUF: 120980552(BCO1)
+            BGAR: 122920589(BCO1)
+            DRE: 393580(bco1l) 84039(bco1)
+            SRX: 107727089 107727092 107730091
+            SANH: 107654342 107654352 107686809
+            SGH: 107562788 107562794 107584731 107584751
+            CCAR: 109107540 109110467 109110468 109110982
+            CAUA: 113051774 113106487 113106488
+            CGIB: 127962425 127962426 128016523
+            PPRM: 120492593(bco1) 120492750(bco1l)
+            MAMB: 125265772(bco1l) 125265773(bco1)
+            CIDE: 127516106 127516537
+            MASI: 127415260 127440575 127440595 127455770
+            IPU: 108271003(bco1) 108271004(bco1l)
+            PHYP: 113536683 113536734
+            SMEO: 124391287(bco1l) 124391288(bco1)
+            TFD: 113646642(bco1l) 113646782(bco1)
+            AMEX: 103036396 103036998
+            EEE: 113577944 113577951
+            TRU: 101076274(bco1) 101078539
+            TNG: GSTEN00007677G001 GSTEN00012538G001
+            LCO: 104925853 104935641
+            NCC: 104958616(bco1)
+            CGOB: 115004956 115025671
+            ELY: 117249967(bco1l) 117264319(bco1)
+            EFO: 125881481(bco1) 125884830(bco1l)
+            PLEP: 121960359(bco1) 121962989(bco1l)
+            SLUC: 116051093(bco1) 116055636(bco1l)
+            ECRA: 117937666(bco1)
+            ESP: 116672117(bco1)
+            PFLV: 114549355(bco1) 114551246
+            GAT: 120811631(bco1) 120814859(bco1l)
+            PPUG: 119198765(bco1) 119220406(bco1l)
+            MSAM: 119904985(bco1l) 119908238(bco1)
+            CUD: 121506263(bco1l) 121527513(bco1)
+            ALAT: 119008343(bco1) 119015125(bco1l)
+            MZE: 101482784 101486459
+            ONL: 100692880 100706968
+            OAU: 116316701(bco1l) 116328308(bco1)
+            OLA: 100125487 100125495
+            OML: 112151052(bco1) 112156770(bco1l)
+            XMA: 102218318 102234994
+            XCO: 114137167 114140569
+            XHE: 116711965 116715674
+            PRET: 103457901 103482517(bco1)
+            PFOR: 103155608(bco1)
+            PLAI: 106958929(bco1)
+            PMEI: 106932827(bco1)
+            GAF: 122824343(bco1) 122827072(bco1l)
+            CVG: 107093921 107097534
+            CTUL: 119771609(bco1l) 119784619(bco1)
+            GMU: 124858258(bco1) 124861460(bco1l)
+            NFU: 107383014 107384617
+            KMR: 108244032(bco1) 108246824(bco1l)
+            ALIM: 106517577 106529014
+            NWH: 119426267(bco1) 119428916(bco1l)
+            AOCE: 111586032 111589149
+            MCEP: 124995733(bco1) 125000656(bco1l)
+            CSEM: 103376919 103389784
+            POV: 109629652 109647352
+            SSEN: 122759699(bco1l) 122768293(bco1)
+            HHIP: 117754152(bco1) 117773410(bco1l)
+            HSP: 118098640(bco1) 118103635(bco1l)
+            LCF: 108873195 108883998(bco1)
+            SDU: 111237286 111240064
+            SLAL: 111646867 111662996
+            XGL: 120790011(bco1) 120797958(bco1l)
+            HCQ: 109510418 109530150
+            SSCV: 125986021 125989427
+            BPEC: 110161019(bco1) 110164025
+            MALB: 109955625 109963704
+            BSPL: 114852864(bco1) 114865931(bco1l)
+            SASA: 101448034(bcmo1) 101448035 106562095
+            STRU: 115167281 115167282
+            OTW: 112249158 112249159 112263687
+            OMY: 110506506 110526385 110526946(bco1)
+            OGO: 124033772 124033773(bco1) 124035751
+            ONE: 115112228 115112229 115112230
+            SALP: 111969357 111969360 112068646
+            SNH: 120025028 120046805 120046840
+            CCLU: 121555741 121555743 121556361 121559480
+            ELS: 105009385 105009410
+            SFM: 108926275 108934555
+            PKI: 111833019(bco1) 111833024
+            AANG: 118227562(bco1) 118228527(bco1l)
+            LOC: 102689435 102696484
+            PSPA: 121296499(bco1l) 121326205(bco1)
+            ARUT: 117424349(bco1l) 117425608(bco1)
+            PSEX: 120535467(bco1l) 120535468
+            LCM: 102362963(BCO1)
+            CMK: 103175958
+            RTP: 109916528(bco1)
+            BFO: 118405416 118405420 118409706 118412454 118425838 118430335
+            BBEL: 109465708 109471927 109480033
+            CIN: 778841(bco)
+            SCLV: 120348520
+            SPU: 591892
+            APLC: 110986645 110986662
+            BCOO: 119069541
+            HHAL: 106681006
+            FCD: 110846545 110846938 110847115 110852649
+            PJA: 122242565 122256722
+            PCHN: 125046915
+            PMOO: 119591004
+            HAME: 121860386
+            PTRU: 123504625 123505767 123505907 123509946
+            HAZT: 108667193
+            LSM: 121113504 121114102 121114104 121117655 121117825 121117914 121118101 121118198 121118435 121119625 121119626 121120559 121120616 121122055 121126346 121126375 121126376 121126378 121126379 121126380 121126381 121126382 121126416 121128363 121128393 121128394 121128395 121131005 121131006 121131698 121131699 121131800
+            PPOI: 119095839 119095906
+            DSV: 119442737 119442747 119442761 119442768 119448967
+            RSAN: 119383762 119394830 119395194
+            RMP: 119161033 119178121
+            SDM: 118193732
+            NAI: NECAME_15663
+            LGI: LOTGIDRAFT_167306 LOTGIDRAFT_175541 LOTGIDRAFT_195993 LOTGIDRAFT_209535
+            PCAN: 112574255
+            BGT: 106056055
+            HRF: 124127802 124136145 124136147 124136226
+            HRJ: 124274827 124284641 124284642 124284668
+            CRG: 105321989 109619332 117690758
+            MYI: 110456893 110462741
+            PMAX: 117326864 117327756 117338088 117338261 117338502 117344162 117344260 117344880
+            MMER: 123546756
+            EPA: 110233465
+            ATEN: 116297854
+            GTT: GUITHDRAFT_118319
+            PAM: PANA_1898
+            PLF: PANA5342_2296
+            PAJ: PAJ_1228
+            PAQ: PAGR_g2209
+            PVA: Pvag_1853
+            PEY: EE896_07445
+            PDIS: D8B20_19485
+            VHA: VIBHAR_02165
+            VCA: M892_02500
+            PMAI: CF386_07920
+            POR: APT59_18960
+            PPSL: BJP27_10835
+            MBS: MRBBS_2788(blh)
+            MPQ: ABA45_08860 ABA45_13165
+            GNI: GNIT_0397
+            GPS: C427_1920
+            HJA: BST95_01490
+            AFUS: EYZ66_11085
+            LHA: LHA_1128
+            LGT: E4T54_11430
+            LANT: TUM19329_07900
+            FPT: BZ13_1936
+            FPM: LA56_173
+            FPZ: LA55_706
+            FPJ: LA02_1759
+            FRT: F7308_1637
+            FHA: CDV26_03535
+            FRC: KX01_1812
+            FMI: F0R74_01890
+            TCY: Thicy_1504
+            SSAL: SPISAL_04630 SPISAL_04965
+            SPIU: SPICUR_05390
+            SROS: BBH56_04725
+            SPIZ: GJ672_05090
+            KUS: B9G99_08295
+            KMA: B9H00_06615
+            SALN: SALB1_1269
+            NBA: CUN60_05475
+            PVAC: HC248_03361(blh_2)
+            VAA: AX767_17620
+            MBAC: BN1209_0334
+            MBAT: BN1208_0602
+            SMUL: SMUL_1186
+            SHAL: SHALO_1176
+            SULS: Sdiek1_1252
+            SULJ: SJPD1_1205
+            SULT: FA592_12225
+            ABU: Abu_0438
+            ABT: ABED_0413
+            ABL: A7H1H_0441
+            ACRE: ACRYA_0570
+            AELL: AELL_0594
+            ADZ: ADFLV_0590
+            ARC: ABLL_0583
+            PACO: AACT_0703
+            APAI: APAC_0479
+            HEBR: AEBR_3045
+            MDI: METDI1925
+            MCH: Mchl_1482
+            MZA: B2G69_13880
+            MET: M446_0536
+            MAQU: Maq22A_1p32950
+            MMES: MMSR116_06350
+            MTEA: DK419_23825
+            MIND: mvi_44840
+            MTAD: M6G65_25305
+            LIZ: LGH83_10610
+            OAT: OAN307_c45390
+            OAR: OA238_c48300
+            SSAN: NX02_06035
+            SPAU: DRN02_011400
+            SPHR: BSY17_1104
+            POQ: KZX46_01835
+            PMEA: KTC28_20505
+            ANH: A6F65_02464
+            EGN: BMF35_b0120
+            POT: E2E27_08100
+            ABG: Asbog_01119(blh)
+            LCK: HN018_01610
+            PUB: SAR11_0123
+            PEL: SAR11G3_00688
+            PEG: E5R92_05675
+            APC: HIMB59_00004220
+            APM: HIMB5_00001280
+            APB: SAR116_2131
+            MRF: MJO55_25675
+            MMAG: MMAD_28640
+            MPSC: MPSYJ_12920
+            RPLA: A4Z71_06455
+            AQG: HRU87_05270
+            CUG: C1N91_16245
+            PSAI: C3B54_11887
+            MALK: MalAC0309_0248
+            MANT: BHD05_05645
+            GLN: F1C58_11220
+            NAQU: ENKNEFLB_02147
+            GOB: Gobs_1772
+            PLAN: A1s21148_02090
+            PLAK: A1s21155_01950
+            PSUF: A1sIA56_01840
+            PVS: A1sIA79_01705
+            RXY: Rxyl_2039
+            RUB: GBA63_13005
+            RMAR: GBA65_04425
+            DEZ: DKM44_03960
+            DEIN: DAAJ005_04430
+            DPH: EHF33_03845
+            TTL: TtJL18_1347
+            TOS: Theos_1452
+            TAQ: TO73_1641
+            TIM: GMBLW1_12210
+            IPA: Isop_3504
+            PHM: PSMK_04480
+            SRU: SRU_0742(brp) SRU_2210
+            SRM: SRM_00919(brp) SRM_02436
+            HHY: Halhy_1746
+            PEJ: FYC62_03975
+            ALM: AO498_12735
+            MDA: IPZ59_15070
+            SLI: Slin_1644
+            RSI: Runsl_0236
+            RUN: DR864_24190
+            FIB: A6C57_11670
+            HYE: AM218_05110
+            HYP: A0257_12995 A0257_17635
+            HYZ: AXW84_04905
+            HNV: DDQ68_20730
+            HQI: H9L05_17065
+            HRS: HER32_02330
+            MTT: Ftrac_2394
+            FPF: DCC35_13955
+            FBT: D770_15435
+            FUV: JR347_00595
+            MARE: EJ994_09040
+            KDI: Krodi_2219
+            DOK: MED134_07114(blh)
+            DDO: I597_1807
+            DOD: DCS32_00600
+            SPON: HME9304_00763
+            PTQ: P700755_000150
+            NDO: DDD_0295
+            NOM: AAT17_12000
+            NSD: BST91_06760
+            NOB: CW736_07965
+            NOJ: EJ995_00755
+            POM: MED152_12849(blh)
+            WIN: WPG_3400
+            WIJ: BWZ20_14700
+            SYI: SB49_08600
+            FOR: FORMB_24820
+            FOH: FORMA_17840
+            KOS: KORDIASMS9_04160
+            MUR: EQY75_09985
+            CAGG: HYG79_12445
+            BBAU: AEM51_06095
+            CPRV: CYPRO_0401
+            HAL: VNG_1465G(brp) VNG_2136G(blh)
+            HSL: OE_3102R(brp) OE_3980R(blh)
+            HHB: Hhub_3440(blh)
+            HAGS: JT689_07280 JT689_09935
+            HABO: JRZ79_05710 JRZ79_08315
+            HLU: LT972_00770
+            HANR: LJ422_05960 LJ422_08585
+            HALX: M0R89_09860
+            HAXZ: M0R88_10080
+            SAIM: K0C01_06250 K0C01_07125
+            HARA: AArcS_2587 AArcS_2786
+            HMA: rrnAC1901(brp) rrnAC2066(blh)
+            HHI: HAH_2414(brp) HAH_2561(blh)
+            HHN: HISP_12290 HISP_13030
+            HAB: SG26_04605 SG26_05300
+            HTA: BVU17_11745 BVU17_12385
+            HALJ: G9465_06230 G9465_06635
+            HSIN: KDQ40_00565 KDQ40_01360
+            NPH: NP_0206A(brp) NP_0650A(blh)
+            NMO: Nmlp_1292(blh) Nmlp_3577(brp)
+            HUT: Huta_0319 Huta_1440
+            HTI: HTIA_0506 HTIA_1600
+            HALA: Hrd1104_00340 Hrd1104_03710
+            HMU: Hmuk_1285 Hmuk_1685
+            HALZ: E5139_09590 E5139_11550
+            HALL: LC1Hm_0499
+            HAZP: GBQ70_09585 GBQ70_11545
+            HSN: DV733_07115 DV733_09840
+            HDS: HSR122_0173 HSR122_2589
+            HRR: HZS55_01685
+            HPEL: HZS54_02175
+            HLT: I7X12_05355 I7X12_10570
+            SSAI: N0B31_16915 N0B31_19500
+            HWA: HQ_1019A(blh) HQ_1864A(brp)
+            HWC: Hqrw_1021(blh) Hqrw_2002(brp)
+            HAQ: DU484_04385
+            HAJ: DU500_04860
+            HAER: DU502_02365
+            HRA: EI982_09635 EI982_11175
+            HLM: DV707_02690
+            HLA: Hlac_2732
+            HALP: DOS48_12490 DOS48_13600
+            HALB: EKH57_08315 EKH57_10900
+            HEZZ: EO776_04180 EO776_15185
+            HALQ: Hrr1229_003125 Hrr1229_006995
+            HSS: J7656_01740 J7656_12680
+            HSAI: HPS36_03025 HPS36_07240
+            HAZZ: KI388_01665 KI388_13165
+            SRUB: C2R22_20235
+            HAE: halTADL_3129
+            HRM: K6T25_06255 K6T25_12715
+            HACB: Hbl1158_11745 Hbl1158_16015
+            HDF: AArcSl_2784(blh) AArcSl_2791(blh2)
+            HLO: J0X27_12460
+            HXA: Halxa_3251
+            NAT: NJ7G_2814
+            NPE: Natpe_0344
+            NPL: FGF80_05455
+            HALY: HYG82_10755
+            HJT: DVR14_11035
+            NGE: Natgr_0246
+            HLC: CHINAEXTREME13545 CHINAEXTREME13555
+            NAJ: B1756_10770
+            NAG: AArcMg_0473 AArcMg_0575
+            NAN: AArc1_0484 AArc1_0587
+            NBG: DV706_12805
+DBLINKS     ExplorEnz - The Enzyme Database: 1.13.11.63
+            IUBMB Enzyme Nomenclature: 1.13.11.63
+            ExPASy - ENZYME nomenclature database: 1.13.11.63
+            BRENDA, the Enzyme Database: 1.13.11.63
+///

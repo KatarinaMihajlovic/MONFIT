@@ -1,0 +1,86 @@
+ENTRY       EC 1.14.14.78               Enzyme
+NAME        phylloquinone omega-hydroxylase;
+            vitamin K1 omega-hydroxylase;
+            CYP4F2;
+            CYP4F11
+CLASS       Oxidoreductases;
+            Acting on paired donors, with incorporation or reduction of molecular oxygen;
+            With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+SYSNAME     phylloquinone,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (omega-hydroxyphylloquinone-forming)
+REACTION    phylloquinone + [reduced NADPH---hemoprotein reductase] + O2 = omega-hydroxyphylloquinone + [oxidized NADPH---hemoprotein reductase] + H2O [RN:R10728]
+ALL_REAC    R10728
+SUBSTRATE   phylloquinone [CPD:C02059];
+            [reduced NADPH---hemoprotein reductase] [CPD:C03024];
+            O2 [CPD:C00007]
+PRODUCT     omega-hydroxyphylloquinone [CPD:C20806];
+            [oxidized NADPH---hemoprotein reductase] [CPD:C03161];
+            H2O [CPD:C00001]
+COMMENT     A cytochrome P-450 (heme-thiolate) protein. Isolated from human tissue. The enzyme will also act on menaquinone-4. Prolonged action of CYP4F2, but not CYP4F11, on the omega hydroxyl group oxidizes it to the corresponding carboxylic acid. CYP4F2 also oxidizes leukotriene B4; see EC 1.14.13.30, leukotriene-B4 20-monooxygenase [1].
+HISTORY     EC 1.14.14.78 created 2014 as EC 1.14.13.194, transferred 2018 to EC 1.14.14.78
+REFERENCE   1  [PMID:9799565]
+  AUTHORS   Jin R, Koop DR, Raucy JL, Lasker JM
+  TITLE     Role of human CYP4F2 in hepatic catabolism of the proinflammatory agent leukotriene B4.
+  JOURNAL   Arch Biochem Biophys 359:89-98 (1998)
+            DOI:10.1006/abbi.1998.0880
+  SEQUENCE  [hsa:8529]
+REFERENCE   2  [PMID:19932081]
+  AUTHORS   Tang Z, Salamanca-Pinzon SG, Wu ZL, Xiao Y, Guengerich FP
+  TITLE     Human cytochrome P450 4F11: heterologous expression in bacteria, purification, and characterization of catalytic function.
+  JOURNAL   Arch Biochem Biophys 494:86-93 (2010)
+            DOI:10.1016/j.abb.2009.11.017
+  SEQUENCE  [hsa:57834]
+REFERENCE   3  [PMID:24138531]
+  AUTHORS   Edson KZ, Prasad B, Unadkat JD, Suhara Y, Okano T, Guengerich FP, Rettie AE
+  TITLE     Cytochrome P450-dependent catabolism of vitamin K: omega-hydroxylation catalyzed by human CYP4F2 and CYP4F11.
+  JOURNAL   Biochemistry 52:8276-85 (2013)
+            DOI:10.1021/bi401208m
+  SEQUENCE  [hsa:8529 57834]
+ORTHOLOGY   K17726  phylloquinone omega-hydroxylase / docosahexaenoic acid omega-hydroxylase / leukotriene-B4 20-monooxygenase
+            K17729  cytochrome P450 family 4 subfamily F11
+GENES       HSA: 4051(CYP4F3) 57834(CYP4F11) 8529(CYP4F2)
+            PTR: 100609185 100616514(CYP4F11) 748117(CYP4F3) 748531(CYP4F2)
+            PPS: 100967411(CYP4F2) 100969141(CYP4F3) 100995728(CYP4F11)
+            GGO: 101125692 101126416 101135418 101152881
+            PON: 100174280(CYP4F11) 100434096 100437847 100453229 100455064
+            NLE: 100579320 100588006 100592711 115836968
+            MCC: 718349 719317 719353
+            MCF: 102130440(CYP4F3) 102132489 102134301(CYP4F2) 102135027(CYP4F11)
+            MTHB: 126942243 126942252 126942253
+            CSAB: 103234079 103234089 103234090
+            CATY: 105601614 105601627 105601628
+            PANU: 101005940 101010705 101011071 116271679
+            TGE: 112612404 112613096 112613097
+            RRO: 104661011 104661012 104661014
+            RBB: 108543262 108543288 108543294 108543295
+            TFN: 117074427 117076174
+            PTEH: 111554202 111554233 111554287 111554290
+            CJC: 100411160 100411868(CYP4F11) 100412575(CYP4F2)
+            SBQ: 101050944 101051361
+            CSYR: 103250633
+            MMUR: 105867925 105867928 105867931
+            LCAT: 123634142 123636967 123639775
+            OGA: 100942215 100943471 100950748 100952962
+            CPOC: 100733735
+            OCU: 100348038 100350957
+            TUP: 102483333
+            VLG: 121495723
+            UAR: 123779961 123780007
+            LLV: 125083145
+            ZCA: 113917975
+            MLX: 118005050
+            MLF: 102425173 102436085
+            PKL: 118706555
+            DRO: 112305042
+            PDIC: 114503445
+            RFQ: 117038128
+            PGIG: 120606485
+            PVP: 105311420
+            RAY: 107517263
+            TOD: 119240020
+            LAV: 100657832
+            DNM: 101441145
+DBLINKS     ExplorEnz - The Enzyme Database: 1.14.14.78
+            IUBMB Enzyme Nomenclature: 1.14.14.78
+            ExPASy - ENZYME nomenclature database: 1.14.14.78
+            BRENDA, the Enzyme Database: 1.14.14.78
+///

@@ -1,0 +1,206 @@
+ENTRY       EC 2.4.1.37                 Enzyme
+NAME        fucosylgalactoside 3-alpha-galactosyltransferase;
+            UDP-galactose:O-alpha-L-fucosyl(1->2)D-galactose alpha-D-galactosyltransferase;
+            UDPgalactose:glycoprotein-alpha-L-fucosyl-(1,2)-D-galactose 3-alpha-D-galactosyltransferase;
+            [blood group substance] alpha-galactosyltransferase;
+            blood-group substance B-dependent galactosyltransferase;
+            glycoprotein-fucosylgalactoside alpha-galactosyltransferase;
+            histo-blood group B transferase;
+            histo-blood substance B-dependent galactosyltransferase;
+            UDP-galactose:alpha-L-fucosyl-1,2-D-galactoside 3-alpha-D-galactosyltransferase;
+            UDP-galactose:alpha-L-fucosyl-(1->2)-D-galactoside 3-alpha-D-galactosyltransferase
+CLASS       Transferases;
+            Glycosyltransferases;
+            Hexosyltransferases
+SYSNAME     UDP-alpha-D-galactose:alpha-L-fucosyl-(1->2)-D-galactoside 3-alpha-D-galactosyltransferase
+REACTION    UDP-alpha-D-galactose + alpha-L-fucosyl-(1->2)-D-galactosyl-R = UDP + alpha-D-galactosyl-(1->3)-[alpha-L-fucosyl(1->2)]-D-galactosyl-R (where R can be OH, an oligosaccharide or a glycoconjugate) [RN:R04548]
+ALL_REAC    R04548 > R06029(G) R06168(G) R06190(G)
+SUBSTRATE   UDP-alpha-D-galactose [CPD:C00052];
+            alpha-L-fucosyl-(1->2)-D-galactosyl-R [CPD:C04648]
+PRODUCT     UDP [CPD:C00015];
+            alpha-D-galactosyl-(1->3)-[alpha-L-fucosyl(1->2)]-D-galactosyl-R [CPD:C04866]
+COMMENT     Acts on blood group substance, and can use a number of 2-fucosyl-galactosides as acceptors.
+HISTORY     EC 2.4.1.37 created 1972, modified 1999, modified 2002
+REFERENCE   1  [PMID:16742598]
+  AUTHORS   Race C, Ziderman D, Watkins WM.
+  TITLE     An alpha-d-galactosyltransferase associated with the blood-group B character.
+  JOURNAL   Biochem J 107:733-735 (1968)
+            DOI:10.1042/bj1070733
+PATHWAY     ec00601  Glycosphingolipid biosynthesis - lacto and neolacto series
+            ec01100  Metabolic pathways
+ORTHOLOGY   K00709  histo-blood group ABO system transferase
+GENES       HSA: 28(ABO)
+            PTR: 450164(ABO)
+            PPS: 100970130(ABO)
+            GGO: 101125978(ABO)
+            PON: 100454822(ABO)
+            NLE: 115836398(ABO)
+            HMH: 116475813(ABO)
+            MCC: 722252(ABO)
+            MCF: 102118138(ABO)
+            MTHB: 126937025
+            MNI: 105495555(ABO)
+            CSAB: 103239700(ABO)
+            CATY: 105594179(ABO)
+            PANU: 101008634(ABO)
+            TGE: 112608047(ABO)
+            MLEU: 105542951(ABO)
+            RRO: 104669731(ABO)
+            RBB: 108512581 108513461(ABO)
+            TFN: 117073926(ABO) 117084469
+            PTEH: 111523986 113223108 116418560
+            CANG: 105503987(ABO)
+            CJC: 100414456(ABO)
+            CIMI: 108298719(ABO) 108299003
+            CSYR: 103250932(ABO)
+            MMUR: 105876954 105880740 105880771(ABO)
+            LCAT: 123624234 123624235 123624502 123646620(ABO)
+            PCOQ: 105826691(ABO)
+            OGA: 100957338 100957637 105887602
+            MMU: 80908(Abo)
+            MCAL: 110289771(Abo)
+            MPAH: 110315370 110319406(Abo)
+            RNO: 100301568(Abo) 296504(Abo2) 65270(Abo3)
+            MCOC: 116091605 116091607(Abo)
+            ANU: 117703701(Abo) 117703959 117711165 117711206 117711208
+            CGE: 100754666 100757742 100758032 100772592(Abo)
+            MAUA: 101830897 106022281 110343791 121136014 121140321 121140322
+            PLEU: 114684223 114686950 114686951 114692827 114698882 114698883
+            MORG: 121449973 121462665 121462666 121462744 121462814
+            MFOT: 126486698 126486699 126496363 126509203 126509335 126509336
+            AAMP: 119818823 119819595 119819744 119821887
+            NGI: 103740691(Abo)
+            HGL: 106010599
+            CCAN: 109683353 109696117(Abo)
+            DORD: 105989363 105995629
+            DSP: 122108875 122108883 122108982 122109075 122109078
+            NCAR: 124966072 124966073
+            OCU: 100337847 100338543 100352380 108175433
+            OPI: 101526707 101528259 101528504 101528819 101533919(GBGT1)
+            TUP: 102470199 102471037
+            GVR: 103581734
+            CFA: 100685413 111095419 119880300 491265(ABO)
+            CLUD: 112645543 112645544 112677406(ABO)
+            VVP: 112906902(ABO)
+            VLG: 121473070(ABO) 121479282 121487042
+            AML: 100466091 105235331
+            UMR: 103659300 103661988 103670246 103673989 103679813 103679933(ABO) 103681749
+            UAH: 113266557 113266558
+            UAR: 123775732 123775738 123791709 123791710 123791716 123792854
+            LLV: 125082917 125106295
+            MPUF: 101679038 101689999(ABO) 106004543
+            NVS: 122917133(ABO)
+            ORO: 101364486 101369984 101372255 101374892 101377160 101380669 101381173 101382297 105758002
+            EJU: 114204063 114204164 114211218
+            ZCA: 113908490 113912178(ABO) 113933904 113939818 118356212 118356899 118357368
+            MLX: 118007373 118007385 118008661 118011058 118013990 118015321 118015336 118017553 118018074 118026207 118026209 118026766
+            NSU: 110581635 123324868
+            LWW: 102731903
+            FCA: 101087791
+            PYU: 121011349 121021218 121024182
+            PBG: 122474447 122474451 122474550 122475149
+            LRUF: 124511764 124522338 124522340 124522341 124522342 124522343 124522405 124522441 124522446 124525617 124525618 124525619 124525620
+            PPAD: 109258275(ABO)
+            AJU: 106989205(ABO)
+            HHV: 120227623 120227624 120227830
+            BTA: 515340(ABO)
+            BOM: 102283688(ABO)
+            BIU: 109565683(ABO)
+            BBUB: 102414923(ABO)
+            BBIS: 104983689
+            CHX: 102168916(ABO)
+            OAS: 101114008(ABO)
+            ODA: 120852322(ABO)
+            CCAD: 122421289 122442346
+            SSC: 396713(ABO)
+            CFR: 102523444(ABO)
+            CBAI: 105069746
+            CDK: 105105838(ABO)
+            VPC: 102537037(ABO)
+            BACU: 102997485
+            DLE: 111171008(ABO)
+            PCAD: 102987697(ABO)
+            ECB: 100147494 102149124(ABO) 111767452
+            EPZ: 103542251 103542252 103547710 103565343(ABO)
+            EAI: 106829212 106829214 106845296 106845360 123275605
+            MYB: 102239108(ABO) 102250048
+            MYD: 102751691 102765942(ABO)
+            MMYO: 118666916(ABO)
+            MLF: 102435523 102436658 102436972
+            MNA: 107524627(ABO)
+            PKL: 118708875 118708888
+            DRO: 112320051(ABO)
+            SHON: 118982529(ABO)
+            AJM: 119037339(ABO)
+            PDIC: 114510857(ABO)
+            PHAS: 123823700(ABO)
+            MMF: 118629595(ABO) 118629684
+            RFQ: 117031856(ABO)
+            TOD: 119230358(ABO) 119231020 119250209
+            LAV: 100670655(ABO)
+            TMU: 101341957 101344015 101351903 101353602 101353733 101356026
+            ETF: 101660827(ABO)
+            DNM: 101413351 101421983
+            MDO: 100017917(ABO)
+            GAS: 123235204(ABO)
+            PCW: 110205086(ABO)
+            OAA: 100075215 100092870
+            TGU: 100223725
+            LSR: 110480583
+            SCAN: 103821701
+            PMOA: 120496584
+            OTC: 121347679
+            PRUF: 121351121 121354041
+            GFR: 102039105
+            FAB: 101817249
+            PHI: 102113787
+            PMAJ: 107215091
+            CCAE: 111940162
+            CCW: 104697784
+            CBRC: 103624609
+            ZAB: 102063040(ABO)
+            PCRI: 104028332
+            ACUN: 113484656
+            PADL: 103917374
+            AFOR: 103893960
+            GCL: 127026728
+            MUI: 104538838(ABO)
+            FGA: 104080004
+            GSTE: 104256454
+            DPUB: 104299235
+            AVIT: 104272769
+            CVF: 104290417
+            CUCA: 104054434(ABO)
+            TEO: 104380311
+            AAM: 106488041
+            PSS: 102449345 102451371 102455524 102462837(ABO) 106732582
+            CPIC: 101943564 101944820 101945105 101953665
+            TST: 117885399
+            CABI: 116816446 116817454 116823991
+            MRV: 120386651 120386990 120386991
+            GJA: 107119149(ABO) 107125123
+            STOW: 125441582(ABO)
+            XLA: 108698211(abo.2.L) 108698863(abo.4.L) 108699511(abo.5.L) 108699512(abo.6.L) 108699928(abo.6.S) 108714350 108715628 495825(abo.3.L)
+            XTR: 100488200 100491571 100491742 100491908 100492744 100492907 100497509(abo.4) 101734865 116406760 549437(abo.3) 549858(abo.2) 550054(abo.1)
+            NPR: 108791544 108791554 108793312 108793313 108801426 108803271
+            RTEM: 120913786 120914023 120914065
+            BBUF: 120977361 120977362 120977364 120977397 120977991 121009511
+            BGAR: 122919453 122919647 122919883 122922624 122945936 122946179 122946259 122946276 122946277 122946287 122946310 122946643 122946791
+            SRX: 107747826 107747839
+            SANH: 107680349 107687664 107687695 107694233
+            SGH: 107569538 107581033 107592359
+            CCAR: 109056910
+            CAUA: 113039522 113039523 113039530 113048792
+            IPU: 108262359
+            PHYP: 113531017
+            EEE: 113569626 113583526
+            OMY: 110525108
+            SALP: 112074307
+            BFO: 118403702
+            GAE: 121392028
+DBLINKS     ExplorEnz - The Enzyme Database: 2.4.1.37
+            IUBMB Enzyme Nomenclature: 2.4.1.37
+            ExPASy - ENZYME nomenclature database: 2.4.1.37
+            BRENDA, the Enzyme Database: 2.4.1.37
+            CAS: 37257-33-3
+///

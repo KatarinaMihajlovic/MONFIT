@@ -1,0 +1,387 @@
+ENTRY       EC 1.2.3.1                  Enzyme
+NAME        aldehyde oxidase;
+            quinoline oxidase;
+            retinal oxidase
+CLASS       Oxidoreductases;
+            Acting on the aldehyde or oxo group of donors;
+            With oxygen as acceptor
+SYSNAME     aldehyde:oxygen oxidoreductase
+REACTION    an aldehyde + H2O + O2 = a carboxylate + H2O2 [RN:R00635]
+ALL_REAC    R00635 > R01709 R02125 R02657 R03871 R04904 R08349 R08384;
+            (other) R04085 R08408
+SUBSTRATE   aldehyde [CPD:C00071];
+            H2O [CPD:C00001];
+            O2 [CPD:C00007]
+PRODUCT     carboxylate [CPD:C00060];
+            H2O2 [CPD:C00027]
+COMMENT     Contains molybdenum, [2Fe-2S] centres and FAD. The enzyme from liver exhibits a broad substrate specificity, and is involved in the metabolism of xenobiotics, including the oxidation of N-heterocycles and aldehydes and the reduction of N-oxides, nitrosamines, hydroxamic acids, azo dyes, nitropolycyclic aromatic hydrocarbons, and sulfoxides [4,6].
+            The enzyme is also responsible for the oxidation of retinal, an activity that was initially attributed to a distinct enzyme (EC 1.2.3.11, retinal oxidase) [5,7].
+HISTORY     EC 1.2.3.1 created 1961, modified 2002, modified 2004, modified 2012
+REFERENCE   1  [PMID:16747217]
+  AUTHORS   Gordon AH, Green DE, Subrahmanyan V
+  TITLE     Liver aldehyde oxidase.
+  JOURNAL   Biochem J 34:764-74 (1940)
+            DOI:10.1042/bj0340764
+REFERENCE   2  [PMID:20985642]
+  AUTHORS   KNOX WE
+  TITLE     The quinine-oxidizing enzyme and liver aldehyde oxidase.
+  JOURNAL   J Biol Chem 163:699-711 (1946)
+REFERENCE   3  [PMID:13201608]
+  AUTHORS   MAHLER HR, MACKLER B, GREEN DE.
+  TITLE     Studies on metalloflavoproteins. III. Aldehyde oxidase: a molybdoflavoprotein.
+  JOURNAL   J Biol Chem 210:465-80 (1954)
+REFERENCE   4  [PMID:5044040]
+  AUTHORS   Krenitsky TA, Neil SM, Elion GB, Hitchings GH
+  TITLE     A comparison of the specificities of xanthine oxidase and aldehyde oxidase.
+  JOURNAL   Arch Biochem Biophys 150:585-99 (1972)
+            DOI:10.1016/0003-9861(72)90078-1
+REFERENCE   5  [PMID:8262244]
+  AUTHORS   Tomita S, Tsujita M, Ichikawa Y
+  TITLE     Retinal oxidase is identical to aldehyde oxidase.
+  JOURNAL   FEBS Lett 336:272-4 (1993)
+            DOI:10.1016/0014-5793(93)80818-F
+REFERENCE   6  [PMID:9015384]
+  AUTHORS   Yoshihara S, Tatsumi K
+  TITLE     Purification and characterization of hepatic aldehyde oxidase in male and female  mice.
+  JOURNAL   Arch Biochem Biophys 338:29-34 (1997)
+            DOI:10.1006/abbi.1996.9774
+REFERENCE   7  [PMID:10190983]
+  AUTHORS   Huang DY, Furukawa A, Ichikawa Y
+  TITLE     Molecular cloning of retinal oxidase/aldehyde oxidase cDNAs from rabbit and mouse livers and functional expression of recombinant mouse retinal oxidase cDNA in Escherichia coli.
+  JOURNAL   Arch Biochem Biophys 364:264-72 (1999)
+            DOI:10.1006/abbi.1999.1129
+  SEQUENCE  [mmu:11761] [ocu:100008601]
+REFERENCE   8  [PMID:14659539]
+  AUTHORS   Uchida H, Kondo D, Yamashita A, Nagaosa Y, Sakurai T, Fujii Y, Fujishiro K, Aisaka K, Uwajima T.
+  TITLE     Purification and characterization of an aldehyde oxidase from Pseudomonas sp. KY 4690.
+  JOURNAL   FEMS Microbiol Lett 229:31-6 (2003)
+            DOI:10.1016/S0378-1097(03)00781-X
+PATHWAY     ec00280  Valine, leucine and isoleucine degradation
+            ec00350  Tyrosine metabolism
+            ec00380  Tryptophan metabolism
+            ec00750  Vitamin B6 metabolism
+            ec00760  Nicotinate and nicotinamide metabolism
+            ec00830  Retinol metabolism
+            ec00982  Drug metabolism - cytochrome P450
+            ec01100  Metabolic pathways
+            ec01120  Microbial metabolism in diverse environments
+ORTHOLOGY   K00157  aldehyde oxidase
+GENES       HSA: 316(AOX1)
+            PTR: 459863(AOX1) 747025
+            PPS: 100968717(AOX1) 117979316
+            GGO: 101125522(AOX1) 115933782
+            PON: 100451794(AOX4) 100939468(AOX1)
+            NLE: 100583419 100583754(AOX1)
+            HMH: 116810475 116810476
+            MCC: 701024(AOX1) 701502(AOX4) 701613(AOX2)
+            MCF: 102131116(AOX1) 102134468(AOX2) 102134825(AOX4)
+            MTHB: 126932103 126932129 126932306
+            MNI: 105468120 105468125 105468286
+            CSAB: 103217611 103217617 103217619
+            CATY: 105580017 105580021 105580200
+            PANU: 101001006(AOX1) 101002286(AOX4) 101002632(AOX2)
+            TGE: 112635867 112636354(AOX1) 112636356
+            MLEU: 105535433 105535434 105535457
+            RRO: 104670351 104670357 104670457
+            RBB: 108531964 108532268 108532294
+            TFN: 117095234 117095238 117095242
+            PTEH: 111546911 111546926
+            CANG: 105517419 105517425(AOX1) 105517476
+            CJC: 100393665(AOX1) 100394388(AOX2)
+            SBQ: 101032494 101033246 101042764
+            CIMI: 108315708 108315709 108315736
+            CSYR: 103271035 103271036 103272311(AOX1)
+            MMUR: 105856978 105856979 105856981
+            LCAT: 123643320 123643621 123643919
+            PCOQ: 105819005 105819061 105819244
+            OGA: 100941419(AOX2) 100951638(AOX4) 100952155(AOX1)
+            MMU: 11761(Aox1) 213043(Aox2) 71724(Aox3) 71872(Aox4)
+            MCAL: 110290283 110290296(Aox1) 110291452 110301976
+            MPAH: 110321275 110321290(Aox1) 110321921
+            RNO: 316421(Aox2) 316424(Aox4) 493909(Aox3) 54349(Aox1)
+            MCOC: 116088453 116088454 116088456 116089178
+            ANU: 117705354 117705706 117705708 117706200
+            MUN: 110559600(Aox1) 110559602 110559604 110559605
+            CGE: 100759157 100760212 100760504 100765484 113830655
+            MAUA: 101823275 101823544 101823809 101842897
+            PLEU: 114704265 114704588 114704606 114704613
+            MORG: 121444847 121444853 121444857 121458912 121458936 121458975
+            MFOT: 126511776 126511844 126511892
+            AAMP: 119803860 119803866 119803907 119803936
+            NGI: 103734373 103734384 103734392(Aox1) 103734495
+            HGL: 101710340 101722324(Aox4) 101722898(Aox1)
+            CPOC: 100714172(Aox4) 100719938(Aox2) 100720210(Aox1)
+            CCAN: 109680764 109688486 109692416(Aox1)
+            DORD: 105981417(Aox1) 105983958 105984047 105997286
+            DSP: 122096444 122096445(Aox1) 122096446 122096447
+            NCAR: 124979845 124980255 124980836
+            OCU: 100008601(AOX1) 100345417(AOX2) 100345675(AOX3) 100354428(AOX4)
+            OPI: 101522091 101522599 101522842 101522997(AOX1)
+            TUP: 102482260 102484619(AOX1) 102490052
+            GVR: 103598161(AOX1) 103606209 103606210
+            CFA: 488467(AOX4) 608849(AOX2)
+            CLUD: 112656511 112656802 112656803
+            VVP: 112922800 112922804 112922830
+            VLG: 121480502 121480828
+            AML: 100470835(AOX4) 100471086(AOX2) 100474367(AOX1)
+            UMR: 103659730 103659731 103659946
+            UAH: 113250605 113250606 113250607
+            UAR: 123798185(AOX1) 123798186 123798188
+            ELK: 111141059 111142784 111153602
+            LLV: 125094988 125095839 125095960
+            MPUF: 101693479 101694323
+            NVS: 122902176 122903470(AOX1) 122903471
+            ORO: 101369776 101370075 101382582
+            EJU: 114222997 114225005 114225222
+            ZCA: 113919830(AOX1) 113919964 113920864
+            MLX: 118012164 118012656 118012657
+            NSU: 110591947 110592050 110592052
+            LWW: 102743641 102743959 102744773
+            FCA: 101085487(AOX1)
+            PYU: 121030893
+            PBG: 122481631
+            LRUF: 124514163
+            PTG: 102949513(AOX1) 102967431
+            PPAD: 109254456
+            AJU: 106979979(AOX1)
+            HHV: 120220681(AOX1)
+            BTA: 338074(AOX1) 518393(AOX4) 531699(AOX2)
+            BOM: 102272565(AOX1) 102281032 102283927
+            BIU: 109569300(AOX1) 109569310 109569328
+            BBUB: 102390255(AOX1) 102391150 102391488
+            BBIS: 105003638(AOX1) 105003640 105003643
+            CHX: 102171556 102187632 102188176
+            OAS: 101102548 101104557(AOX1) 101104808
+            ODA: 120854638 120854640(AOX1) 120854641
+            CCAD: 122426455 122426514 122426516
+            SSC: 100523701(AOX1) 100525616(AOX2) 100623394(AOX4)
+            CFR: 102510869 102511253 102511500
+            CBAI: 105082310 105082311 105082336
+            CDK: 105099168 105099169 105099170
+            VPC: 102539001 102539248 102539743(AOX1)
+            BACU: 102998479 103003536
+            LVE: 103073473 103073747
+            OOR: 101285123(AOX1)
+            DLE: 111171714
+            PCAD: 102987494 102992680(AOX1)
+            PSIU: 116757111
+            ECB: 100067782(AOX4) 100070976(AOX1) 100146423 100146833 111767394
+            EPZ: 103541147(AOX1) 103543311
+            EAI: 106823492 106823501 106825581 106829471 123285083
+            MYB: 102249846 102257951(AOX1)
+            MYD: 102755298(AOX1) 102771691
+            MMYO: 118661030(AOX1) 118661465
+            MLF: 102432042 102432361 102434556(AOX1)
+            MNA: 107524097 107524106 107544193(AOX1)
+            PKL: 118709128 118709266
+            HAI: 109379197 109379198 109379243(AOX1)
+            DRO: 112307752
+            SHON: 118985255 118985256(AOX1)
+            AJM: 119065501 119065518
+            PDIC: 114494690 114495389
+            PHAS: 123824455(AOX1) 123824456
+            MMF: 118624997 118624998 118625352
+            RFQ: 117025797(AOX1) 117025942 117026362
+            PALE: 102879869 102895358
+            PGIG: 120587516 120587727(AOX1) 120587729
+            PVP: 105298171 105298172
+            RAY: 107503175 107503179
+            MJV: 108391579(AOX1) 108391580 108391581
+            TOD: 119254820 119254822 119256085(AOX1)
+            SARA: 101540525(AOX1) 101540787 101541048
+            LAV: 100662726 100665003 100665288 100665571(AOX1)
+            TMU: 101340907 101341581
+            ETF: 101661389 101662325(AOX1) 101662647 101662968
+            DNM: 101442318 101443649 101444097
+            MDO: 100016433(AOX2) 100029977(AOX1) 100030014(AOX4) 107648868
+            GAS: 123241402 123241403 123241891 123242136
+            SHR: 100921509 100923855(AOX1) 100924119 100929481
+            AFZ: 127554414 127554416 127557040 127557273
+            PCW: 110197327 110207269 110207271(AOX1)
+            OAA: 100092481(AOX1)
+            GGA: 424071(AOX1) 424072(AOX2)
+            PCOC: 116233962 116233971
+            MGP: 100548803(AOX1) 100549268
+            CJO: 107316537(AOX1)
+            NMEL: 110400687(AOX1)
+            APLA: 101795737(AOX1)
+            ACYG: 106039970(AOX1)
+            AFUL: 116490590(AOX1)
+            TGU: 100217503(AOX1)
+            LSR: 110484579(AOX1)
+            SCAN: 103814515(AOX1)
+            PMOA: 120496991(AOX1)
+            OTC: 121335283(AOX1)
+            PRUF: 121356479(AOX1)
+            GFR: 102031924(AOX1)
+            FAB: 101818190(AOX1)
+            PHI: 102105114(AOX1)
+            PMAJ: 107207425(AOX1)
+            CCAE: 111931979(AOX1)
+            CCW: 104693769(AOX1)
+            CBRC: 103612225(AOX1)
+            ETL: 114055687 114055700(AOX1)
+            ZAB: 102060431(AOX1)
+            ACHL: 103809102(AOX1)
+            FPG: 101915658(AOX1)
+            FCH: 102057814(AOX1)
+            CLV: 102097486(AOX1)
+            EGZ: 104130522
+            NNI: 104010254(AOX1)
+            PLET: 104617618(AOX1)
+            PCRI: 104029512(AOX1)
+            PCAO: 104053673
+            ACUN: 113480959
+            TALA: 104368060
+            PADL: 103923316(AOX1)
+            AFOR: 103903466
+            ACHC: 115342961(AOX1)
+            HALD: 104314966(AOX1)
+            HLE: 104829954(AOX1) 104832748
+            AGEN: 126041900 126052242
+            GCL: 127018248 127018296
+            CCRI: 104168783(AOX1)
+            CSTI: 104551760
+            EHS: 104505946(AOX1)
+            CMAC: 104483252 104483254
+            MUI: 104533676(AOX1)
+            FGA: 104069670(AOX1)
+            GSTE: 104251026 104251139
+            LDI: 104349693(AOX1)
+            MNB: 103779598(AOX1)
+            OHA: 104332303(AOX1)
+            NNT: 104399881
+            DPUB: 104309286(AOX1)
+            PGUU: 104458228 104461397(AOX1)
+            ACAR: 104526462 104526463
+            AVIT: 104275859
+            CVF: 104291037(AOX1) 104291038
+            CUCA: 104059533(AOX1)
+            TEO: 104376000(AOX1)
+            AAM: 106492369 106492373
+            AROW: 112969295 112969296
+            NPD: 112955066 112955438
+            TGT: 104565871 104570847(AOX1)
+            DNE: 112985928(AOX1) 112986459
+            SCAM: 104150179(AOX1) 104150187
+            ASN: 102376558 102377274 102377506 102383614
+            AMJ: 102557817 102558050 102558282 102558513(AOX1)
+            CPOO: 109322697 109322746 109322941
+            GGN: 109301888 109301889 109301892
+            PSS: 102452808(AOX1) 102453236
+            CMY: 102932261 102932848
+            CPIC: 101949109 101949373(AOX1)
+            TST: 117885114
+            CABI: 116836083 116836084
+            MRV: 120374990 120375097
+            ACS: 100565091 100565481 100565681 100565879
+            PVT: 110089018 110089019(AOX1)
+            SUND: 121919022(AOX1)
+            PBI: 103048615(AOX1)
+            PMUR: 107291766(AOX1)
+            CTIG: 120312632(AOX1)
+            PGUT: 117673209(AOX1)
+            VKO: 123024314(AOX1) 123024423
+            PMUA: 114607773 114607791(AOX1)
+            ZVI: 118095602 118095633
+            GJA: 107108261(AOX1) 107113599 107113600 107117016
+            STOW: 125426207 125427118 125427247
+            XLA: 108701447 108701448 108701449(aox1.L) 444490(aox1.S)
+            XTR: 100379890(aox1) 100493336 100495429(aox1)
+            NPR: 108797592 108799582 108799583 108799585
+            RTEM: 120943718 120943719 120943720 120943721
+            BBUF: 121007369 121007452 121008091 121008794
+            BGAR: 122944374 122945394 122945807 122945874
+            DRE: 570457(aox6) 64265(aox5)
+            SRX: 107739315 107739343
+            SANH: 107653532 107687882
+            SGH: 107600982 107600984
+            CCAR: 109060027
+            CAUA: 113040179 113064802(aox1)
+            CGIB: 127942713 127987425
+            PPRM: 120486809(aox6) 120486811(aox5)
+            MAMB: 125254213(aox5) 125254220(aox6)
+            CIDE: 127521098 127521115
+            MASI: 127438000 127438807
+            IPU: 108259545(aox6)
+            PHYP: 113524277
+            SMEO: 124379761(aox6)
+            TFD: 113649223(aox6)
+            AMEX: 103034951 103035279
+            EEE: 113585478
+            TRU: 101069055(aox1)
+            TNG: GSTEN00031889G001
+            LCO: 104937222(aox1)
+            CGOB: 115018359 115021409
+            ELY: 117249798(aox6)
+            EFO: 125884896(aox6)
+            SLUC: 116048613(aox6)
+            ECRA: 117939455(aox6)
+            ESP: 116674009(aox1)
+            PFLV: 114550961
+            GAT: 120825730(aox6)
+            PPUG: 119219585(aox6)
+            MSAM: 119905158(aox6)
+            CUD: 121506461(aox6)
+            ALAT: 119015200(aox6)
+            MZE: 101479847(aox1)
+            ONL: 100708434(aox6)
+            OAU: 116317008(aox6)
+            OLA: 101168436(aox1)
+            OML: 112156643(aox6)
+            XMA: 102223145(aox1)
+            XCO: 114140277(aox1)
+            XHE: 116716236(aox1)
+            PRET: 103457351(aox1)
+            PFOR: 103149483(aox1)
+            PLAI: 106951183(aox1)
+            PMEI: 106906675(aox1)
+            GAF: 122827269(aox6)
+            CVG: 107082806(aox1)
+            CTUL: 119791441(aox6)
+            GMU: 124861890(aox6)
+            NFU: 107384677(aox1)
+            NWH: 119428820 119428855
+            AOCE: 111570749(aox1)
+            MCEP: 125001147 125001148
+            POV: 109639006 109639051(aox1)
+            SSEN: 122758201 122758208
+            HHIP: 117778377(aox6) 117778544(aox5)
+            HSP: 118103339(aox6) 118103344(aox5)
+            LCF: 108873170(aox6)
+            SDU: 111232312 111232447
+            SLAL: 111670357(aox1)
+            XGL: 120798313(aox6)
+            HCQ: 109520227(aox1)
+            BPEC: 110175588(aox1) 110175628
+            MALB: 109955752(aox1)
+            BSPL: 114845600(aox6)
+            SASA: 106574294 106575224
+            STRU: 115179813 115195969
+            OTW: 112253972(aox6) 112266560(aox5)
+            OMY: 110495922(aox5) 110527537(aox6)
+            OGO: 124008373 124010596(aox5)
+            ONE: 115129646 115129647
+            SALP: 111953152 111970984
+            SNH: 120033102(aox6) 120050454(aox5)
+            CCLU: 121556372(aox5) 121556373(aox6)
+            ELS: 105022540(aox1)
+            SFM: 108930665 108930901
+            PKI: 111856671(aox1)
+            AANG: 118223618(aox6) 118223619(aox5)
+            LOC: 102691296 102691496
+            PSPA: 121322943(aox5)
+            ARUT: 117402944(aox5)
+            PSEX: 120531432
+            LCM: 102354789(AOX1) 102358967
+            RTP: 109935677(aox1)
+            BBEL: 109484006
+            CEL: CELE_B0222.9(gad-3)
+            CBR: CBG_19218 CBG_19219
+DBLINKS     ExplorEnz - The Enzyme Database: 1.2.3.1
+            IUBMB Enzyme Nomenclature: 1.2.3.1
+            ExPASy - ENZYME nomenclature database: 1.2.3.1
+            UM-BBD (Biocatalysis/Biodegradation Database): 1.2.3.1
+            BRENDA, the Enzyme Database: 1.2.3.1
+            CAS: 9029-07-6
+///

@@ -1,0 +1,367 @@
+ENTRY       EC 2.3.1.65                 Enzyme
+NAME        bile acid-CoA:amino acid N-acyltransferase;
+            glycine---taurine N-acyltransferase;
+            amino acid N-choloyltransferase;
+            BAT;
+            glycine N-choloyltransferase;
+            BACAT;
+            cholyl-CoA glycine-taurine N-acyltransferase;
+            cholyl-CoA:taurine N-acyltransferase
+CLASS       Transferases;
+            Acyltransferases;
+            Transferring groups other than aminoacyl groups
+SYSNAME     choloyl-CoA:glycine N-choloyltransferase
+REACTION    choloyl-CoA + glycine = CoA + glycocholate [RN:R03718]
+ALL_REAC    R03718;
+            (other) R03720 R08744 R08745
+SUBSTRATE   choloyl-CoA [CPD:C01794];
+            glycine [CPD:C00037]
+PRODUCT     CoA [CPD:C00010];
+            glycocholate [CPD:C01921]
+COMMENT     Also acts on CoA derivatives of other bile acids. Taurine and 2-fluoro-beta-alanine can act as substrates, but more slowly [4]. The enzyme can also conjugate fatty acids to glycine and can act as a very-long-chain acyl-CoA thioesterase [7]. Bile-acid---amino-acid conjugates serve as detergents in the gastrointestinal tract, solubilizing long chain fatty acids, mono- and diglycerides, fat-soluble vitamins and cholesterol [4]. This is the second enzyme in a two-step process leading to the conjugation of bile acids with amino acids; the first step is the conversion of bile acids into their acyl-CoA thioesters, which is catalysed by EC 6.2.1.7, cholate---CoA ligase.
+HISTORY     EC 2.3.1.65 created 1983, modified 2005
+REFERENCE   1  [PMID:7372637]
+  AUTHORS   Czuba B, Vessey DA.
+  TITLE     Kinetic characterization of cholyl-CoA glycine-taurine N-acyltransferase from bovine liver.
+  JOURNAL   J Biol Chem 255:5296-9 (1980)
+REFERENCE   2
+  AUTHORS   Jordan, T.W., Lee, R. and Lim, W.C.
+  TITLE     Isoelectric focussing of soluble and particulate benzoyl-CoA and cholyl-CoA:amino acid N-acyltransferases from rat liver.
+  JOURNAL   Biochem Int 1:325-330 (1980)
+REFERENCE   3  [PMID:422567]
+  AUTHORS   Vessey DA.
+  TITLE     The co-purification and common identity of cholyl CoA:glycine- and cholyl CoA:taurine-N-acyltransferase activities from bovine liver.
+  JOURNAL   J Biol Chem 254:2059-63 (1979)
+REFERENCE   4  [PMID:2037576]
+  AUTHORS   Johnson MR, Barnes S, Kwakye JB, Diasio RB.
+  TITLE     Purification and characterization of bile acid-CoA:amino acid N-acyltransferase from human liver.
+  JOURNAL   J Biol Chem 266:10227-33 (1991)
+  SEQUENCE  [hsa:570]
+REFERENCE   5  [PMID:12454267]
+  AUTHORS   Falany CN, Xie X, Wheeler JB, Wang J, Smith M, He D, Barnes S.
+  TITLE     Molecular cloning and expression of rat liver bile acid CoA ligase.
+  JOURNAL   J Lipid Res 43:2062-71 (2002)
+            DOI:10.1194/jlr.m200260-jlr200
+REFERENCE   6  [PMID:12951368]
+  AUTHORS   He D, Barnes S, Falany CN.
+  TITLE     Rat liver bile acid CoA:amino acid N-acyltransferase: expression, characterization, and peroxisomal localization.
+  JOURNAL   J Lipid Res 44:2242-9 (2003)
+            DOI:10.1194/jlr.M300128-JLR200
+  SEQUENCE  [rno:29725]
+REFERENCE   7  [PMID:12810727]
+  AUTHORS   O'Byrne J, Hunt MC, Rai DK, Saeki M, Alexson SE.
+  TITLE     The human bile acid-CoA:amino acid N-acyltransferase functions in the conjugation of fatty acids to glycine.
+  JOURNAL   J Biol Chem 278:34237-44 (2003)
+            DOI:10.1074/jbc.M300987200
+  SEQUENCE  [hsa:570]
+PATHWAY     ec00120  Primary bile acid biosynthesis
+            ec00430  Taurine and hypotaurine metabolism
+            ec01100  Metabolic pathways
+ORTHOLOGY   K00659  bile acid-CoA:amino acid N-acyltransferase
+GENES       HSA: 570(BAAT)
+            PTR: 472997
+            PPS: 100992429(BAAT)
+            GGO: 101140183(BAAT)
+            PON: 100431907(BAAT) 100461881
+            NLE: 100598200(BAAT)
+            HMH: 116475340(BAAT)
+            MCC: 100429419(BAAT)
+            MCF: 102132073(BAAT)
+            MTHB: 126937773
+            MNI: 105480981(BAAT)
+            CSAB: 103219118(BAAT)
+            CATY: 105593023(BAAT)
+            PANU: 101007875(BAAT)
+            TGE: 112608227(BAAT)
+            MLEU: 105546769(BAAT) 105546778
+            RRO: 104670797(BAAT)
+            RBB: 108537176(BAAT)
+            TFN: 117098906(BAAT)
+            PTEH: 111536312(BAAT)
+            CANG: 105518150(BAAT)
+            CJC: 100394190 100396712(BAAT)
+            SBQ: 101036806
+            CIMI: 108303855(BAAT)
+            CSYR: 103256776 103256777
+            MMUR: 105873759(BAAT) 105873760
+            LCAT: 123645821(BAAT)
+            PCOQ: 105805378(BAAT) 105805407
+            OGA: 100957082 100957390
+            MMU: 12012(Baat) 209186(Acnat2) 230161(Acnat1)
+            MCAL: 110292343 110293184
+            MPAH: 110323775(Baat) 110323900
+            RNO: 29725(Baat) 313220(Acnat2) 681043(Acnat1)
+            MCOC: 116095310(Baat) 116096003
+            ANU: 117708778 117709136 117709479 117709552
+            MUN: 110557337 110557338(Baat)
+            CGE: 100756252(Baat) 100756541
+            MAUA: 101835789 101836051
+            PLEU: 114702315(Baat) 114702326
+            MORG: 121451765 121452021
+            MFOT: 126509815 126509848
+            AAMP: 119826151 119826854
+            NGI: 103749095 103749096 103749097
+            HGL: 101716142(Baat) 101717293
+            CPOC: 100719696(Baat) 100719973
+            CCAN: 109696243(Baat)
+            DORD: 105990724
+            DSP: 122122419(Baat) 122123761
+            NCAR: 124964800 124964957
+            OCU: 100348617 100350133 100350872
+            OPI: 101519913(BAAT)
+            TUP: 102472797 102473647(BAAT)
+            GVR: 103607004
+            CFA: 481634 481635(BAAT)
+            CLUD: 112649971(BAAT) 112649972
+            VVP: 112930766(BAAT) 112930863
+            VLG: 121494953 121494954
+            AML: 100476252 100476755
+            UMR: 103678524 103678630
+            UAH: 113260385 113260386(BAAT)
+            UAR: 123781224 123781225
+            ELK: 111145724 111145726
+            LLV: 125082990 125083316
+            MPUF: 101671389 101671902(BAAT)
+            NVS: 122917401 122917402
+            ORO: 101365672 101365978
+            EJU: 114213433 114213445
+            ZCA: 113934001
+            MLX: 118018214(BAAT) 118018215
+            NSU: 110581717(BAAT) 110581808
+            LWW: 102729180 102729479
+            FCA: 101095691(BAAT) 101096116
+            PYU: 121034756(BAAT) 121034758
+            PBG: 122474312 122474485(BAAT)
+            LRUF: 124526231 124526233
+            PTG: 102969591(BAAT) 102969870
+            PPAD: 109270057 109270058
+            AJU: 106972069 106972070
+            HHV: 120224623(BAAT) 120224624
+            BTA: 530653 786798(BAAT)
+            BOM: 102268462
+            BIU: 109563300(BAAT)
+            BBUB: 102403928 102405119
+            BBIS: 104992074
+            CHX: 102174570(BAAT)
+            OAS: 101106149 101106409(BAAT)
+            ODA: 120863959
+            CCAD: 122431993
+            SSC: 100515185 102158534 110255172
+            CFR: 102523415(BAAT)
+            CBAI: 105067405(BAAT)
+            CDK: 105086911(BAAT)
+            VPC: 102529299(BAAT)
+            BACU: 103006095 103017253(BAAT)
+            LVE: 103081315 103082496(BAAT)
+            OOR: 101284164(BAAT) 101284403
+            DLE: 111188015(BAAT)
+            PCAD: 102984994(BAAT)
+            PSIU: 116754977 116755602
+            ECB: 100054567 100063137(BAAT)
+            EPZ: 103552469(BAAT) 103568036
+            EAI: 106831794 106831795
+            MYB: 102262596 102263115
+            MYD: 102764048 102764710
+            MMYO: 118667244 118667245
+            MLF: 102433860 102434162(BAAT)
+            MNA: 107546604(BAAT)
+            PKL: 118716241 118716242
+            HAI: 109395040(BAAT)
+            DRO: 112304453(BAAT)
+            SHON: 118979701(BAAT)
+            AJM: 119045945(BAAT)
+            PDIC: 114503289(BAAT)
+            PHAS: 123819950(BAAT)
+            MMF: 118629687(BAAT)
+            RFQ: 117032410(BAAT)
+            PALE: 102892341(BAAT) 102897591
+            PGIG: 120597018
+            PVP: 105296259(BAAT) 105296291
+            RAY: 107499578 107499579
+            MJV: 108397381(BAAT)
+            TOD: 119232402(BAAT)
+            SARA: 101540428(BAAT)
+            LAV: 100654296 100670223
+            TMU: 101357199
+            ETF: 101654639 101654956
+            DNM: 101418518 101419268 101447075
+            MDO: 100017693 100023136(BAAT)
+            GAS: 123230833(BAAT) 123230834 123254112
+            SHR: 100924464 100925244
+            AFZ: 127554786
+            PCW: 110219134(BAAT)
+            OAA: 100084056(BAAT)
+            GGA: 769879(BAAT)
+            PCOC: 116242919
+            MGP: 100539658
+            CJO: 107314177
+            NMEL: 110400838
+            APLA: 101797844
+            ACYG: 106048282
+            AFUL: 116490259
+            TGU: 115495423
+            LSR: 110485078
+            SCAN: 103822142
+            PMOA: 120499625
+            OTC: 121339708
+            PRUF: 121355202
+            GFR: 102037789
+            FAB: 101815920
+            PHI: 102101793
+            PMAJ: 107206148
+            CCAE: 111930612
+            CCW: 120410054
+            CBRC: 103611827
+            ETL: 114063343
+            ZAB: 102062391
+            ACHL: 103805502(BAAT)
+            FPG: 101924136
+            FCH: 102059453
+            CLV: 102094683
+            EGZ: 104134405(BAAT)
+            NNI: 104008979(BAAT)
+            PCRI: 104030139
+            ACUN: 113481099
+            TALA: 116961616
+            AFOR: 103895438
+            ACHC: 115352108
+            HLE: 104829793(BAAT)
+            AGEN: 126046987
+            GCL: 127017185
+            MNB: 103778534(BAAT)
+            OHA: 104328517
+            NNT: 104406607
+            DPUB: 104296264(BAAT)
+            ACAR: 104522067
+            CPEA: 104393367
+            CVF: 104283272(BAAT)
+            CUCA: 104063337(BAAT)
+            TEO: 104377729
+            AAM: 106494986
+            AROW: 112960829(BAAT)
+            NPD: 112952722
+            TGT: 104578818
+            DNE: 112988642
+            SCAM: 104151146(BAAT)
+            ASN: 102368085(BAAT) 102376159 102383708
+            AMJ: 102559248 102564970(BAAT) 102575228
+            CPOO: 109323479 109323497
+            GGN: 109297368 109297370
+            PSS: 102447700(BAAT) 102461463 102461871
+            CMY: 102939533(BAAT) 102947935
+            CPIC: 101932563 101938826(BAAT)
+            TST: 117876003 117879669(BAAT)
+            CABI: 116825950(BAAT)
+            MRV: 120403019 120407254(BAAT) 120407813
+            ACS: 100566890(baat)
+            PVT: 110078385(BAAT)
+            SUND: 121930998
+            PBI: 103065567(BAAT)
+            PMUR: 107292645 107292672
+            CTIG: 120308320 120308321 120308323
+            TSR: 106538123(BAAT)
+            PGUT: 117667061(BAAT)
+            VKO: 123021162 123021248
+            PMUA: 114600844(BAAT)
+            ZVI: 118089420(BAAT)
+            GJA: 107106123 107106126(BAAT)
+            STOW: 125427301 125436721(BAAT)
+            XLA: 100137716(XB5872576.L) 108707337(baat.S)
+            XTR: 100125079(baat) 100488333 100496940 100497260 100497423 100497580 100497738 116408197
+            NPR: 108790690 108790705 108790706 108795509
+            RTEM: 120926637 120926656 120926672 120943647
+            BBUF: 120992241(BAAT) 121008572
+            BGAR: 122924848 122924849 122924850 122945314
+            SRX: 107726829
+            SANH: 107689220 107689257
+            CCAR: 109068937
+            CAUA: 113061125 113068447
+            IPU: 108280978
+            PHYP: 113532413
+            TFD: 113656460
+            EEE: 113584003
+            TNG: GSTEN00014025G001 GSTEN00019694G001
+            CGOB: 115008157
+            ELY: 117256189 117256459 117256968
+            EFO: 125888830 125897968 125897977 125897983 125897996
+            PLEP: 121953471 121953523
+            SLUC: 116066678
+            ECRA: 117944007
+            ESP: 116688512
+            PFLV: 114553794
+            GAT: 120835251
+            PPUG: 119193948
+            CUD: 121506802
+            ALAT: 119021228
+            ONL: 109198392
+            OAU: 116329896
+            OLA: 101166298
+            OML: 112145720
+            XMA: 102226402
+            XCO: 114135870
+            XHE: 116711136
+            PRET: 103465285
+            PFOR: 103144302
+            PLAI: 106934498
+            PMEI: 106906822
+            GAF: 122834742
+            CVG: 107083302
+            CTUL: 119791826
+            GMU: 124856113
+            NFU: 107385610
+            KMR: 108235667
+            NWH: 119411976
+            MCEP: 125006140
+            POV: 109628957 109644008
+            SSEN: 122767935 122768787
+            HHIP: 117761208
+            HSP: 118105133
+            SDU: 111221490
+            SLAL: 111667779
+            HCQ: 109522368
+            SSCV: 125976910
+            BPEC: 110161506 110171280 110171322
+            MALB: 109956248
+            BSPL: 114856054
+            SASA: 106584567 106609489
+            STRU: 115208005
+            OGO: 124003938
+            ONE: 115143032
+            SNH: 120062369 120065229
+            CCLU: 121577792
+            ELS: 105010081
+            SFM: 108933858
+            AANG: 118211819
+            LCM: 102356569(BAAT) 102363365 102363627
+            CIN: 100175018 100182847 100184394
+            SCLV: 120325725 120329571 120329639 120337556 120343818 120343819 120344834 120347055 120348310
+            SPU: 100892177 115926355
+            APLC: 110981446 110989383 110991145
+            AJC: 117105456 117105473
+            HAME: 121871783
+            PCLA: 123754342
+            PTRU: 123506716
+            HAZT: 108682704
+            LGI: LOTGIDRAFT_125734
+            PCAN: 112570277 112570289 112570596
+            HRF: 124137037 124146464
+            HRJ: 124268349 124268350 124270995 124270996 124270998 124276134 124277115 124277116
+            CRG: 105328098
+            MYI: 110465077
+            PMAX: 117323580 117335375 117335376 117336519
+            MMER: 123545107 123545108 123550893 123552208
+            OBI: 106881808
+            OSN: 115226141 115226175 115232312 115232313
+            LAK: 106169569
+            NVE: 5519541
+            EPA: 110233238 110233246 110242348
+            ADF: 107346883
+            AMIL: 114966874
+            PDAM: 113665012 113665467 113666427
+            SPIS: 111328316 111331670 111339322 111339330 111339338 111341936
+DBLINKS     ExplorEnz - The Enzyme Database: 2.3.1.65
+            IUBMB Enzyme Nomenclature: 2.3.1.65
+            ExPASy - ENZYME nomenclature database: 2.3.1.65
+            BRENDA, the Enzyme Database: 2.3.1.65
+            CAS: 65979-40-0
+///

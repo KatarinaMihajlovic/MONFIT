@@ -1,0 +1,378 @@
+ENTRY       EC 3.1.1.111                Enzyme
+NAME        phosphatidylserine sn-1 acylhydrolase;
+            phosphatidylserine-specific phospholipase A1;
+            PS-PLA1;
+            PLA1A (gene name)
+CLASS       Hydrolases;
+            Acting on ester bonds;
+            Carboxylic-ester hydrolases
+SYSNAME     3-sn-phosphatidyl-L-serine sn-1 acylhydrolase
+REACTION    (1) a phosphatidylserine + H2O = a 2-acyl-1-lyso-phosphatidylserine + a fatty acid [RN:R04034];
+            (2) a 1-acyl-2-lyso-phosphatidylserine + H2O = glycerophosphoserine + a fatty acid [RN:R12537]
+ALL_REAC    R04034 R12537
+SUBSTRATE   phosphatidylserine [CPD:C02737];
+            H2O [CPD:C00001];
+            1-acyl-2-lyso-phosphatidylserine [CPD:C18125]
+PRODUCT     2-acyl-1-lyso-phosphatidylserine [CPD:C05974];
+            fatty acid [CPD:C00162];
+            glycerophosphoserine [CPD:C22237]
+COMMENT     The enzyme, which has been described from mammals, is specific for phosphatidylserine and 2-lysophosphatidylserine, and does not act on phosphatidylcholine, phosphatidylethanolamine, phosphatidic acid or phosphatidylinositol.
+HISTORY     EC 3.1.1.111 created 2019
+REFERENCE   1  [PMID:8999922]
+  AUTHORS   Sato T, Aoki J, Nagai Y, Dohmae N, Takio K, Doi T, Arai H, Inoue K
+  TITLE     Serine phospholipid-specific phospholipase A that is secreted from activated platelets. A new member of the lipase family.
+  JOURNAL   J Biol Chem 272:2192-8 (1997)
+            DOI:10.1074/jbc.272.4.2192
+  SEQUENCE  [rno:85311]
+REFERENCE   2  [PMID:10196188]
+  AUTHORS   Nagai Y, Aoki J, Sato T, Amano K, Matsuda Y, Arai H, Inoue K
+  TITLE     An alternative splicing form of phosphatidylserine-specific phospholipase A1 that exhibits lysophosphatidylserine-specific lysophospholipase activity in humans.
+  JOURNAL   J Biol Chem 274:11053-9 (1999)
+            DOI:10.1074/jbc.274.16.11053
+  SEQUENCE  [hsa:51365]
+REFERENCE   3  [PMID:11395520]
+  AUTHORS   Hosono H, Aoki J, Nagai Y, Bandoh K, Ishida M, Taguchi R, Arai H, Inoue K
+  TITLE     Phosphatidylserine-specific phospholipase A1 stimulates histamine release from rat peritoneal mast cells through production of 2-acyl-1-lysophosphatidylserine.
+  JOURNAL   J Biol Chem 276:29664-70 (2001)
+            DOI:10.1074/jbc.M104597200
+  SEQUENCE  [rno:85311]
+REFERENCE   4  [PMID:12069807]
+  AUTHORS   Aoki J, Nagai Y, Hosono H, Inoue K, Arai H
+  TITLE     Structure and function of phosphatidylserine-specific phospholipase A1.
+  JOURNAL   Biochim Biophys Acta 1582:26-32 (2002)
+            DOI:10.1016/s1388-1981(02)00134-8
+  SEQUENCE  [hsa:51365]
+PATHWAY     ec00564  Glycerophospholipid metabolism
+ORTHOLOGY   K13618  phosphatidylserine sn-1 acylhydrolase
+GENES       HSA: 51365(PLA1A)
+            PTR: 470894(PLA1A)
+            PPS: 100969100(PLA1A)
+            GGO: 101150916(PLA1A)
+            PON: 100171726(PLA1A)
+            NLE: 100602828(PLA1A)
+            HMH: 116466904
+            MCC: 712705(PLA1A)
+            MCF: 102138086(PLA1A)
+            MTHB: 126947744
+            MNI: 105470426(PLA1A)
+            CSAB: 103228224(PLA1A)
+            CATY: 105589731(PLA1A)
+            PANU: 101021807(PLA1A)
+            TGE: 112618618(PLA1A)
+            MLEU: 105544621(PLA1A)
+            RRO: 104657620(PLA1A)
+            RBB: 108541869(PLA1A)
+            TFN: 117083465(PLA1A)
+            PTEH: 111543826(PLA1A)
+            CANG: 105510733(PLA1A)
+            CJC: 100391282(PLA1A)
+            SBQ: 101053883(PLA1A)
+            CIMI: 108296453(PLA1A)
+            CSYR: 103258392
+            MMUR: 105879921(PLA1A)
+            LCAT: 123630511(PLA1A)
+            PCOQ: 105808559(PLA1A)
+            OGA: 100963538(PLA1A)
+            MMU: 85031(Pla1a)
+            MCAL: 110311435(Pla1a)
+            MPAH: 110329906(Pla1a)
+            RNO: 85311(Pla1a)
+            MCOC: 116085898(Pla1a)
+            ANU: 117717863(Pla1a)
+            MUN: 110555393(Pla1a)
+            CGE: 100759743(Pla1a)
+            MAUA: 101842511(Pla1a)
+            PLEU: 114701486(Pla1a)
+            MORG: 121461844(Pla1a)
+            MFOT: 126505594
+            AAMP: 119824771(Pla1a)
+            NGI: 103741942(Pla1a)
+            HGL: 101703405(Pla1a)
+            CPOC: 100719689(Pla1a)
+            CCAN: 109694535(Pla1a)
+            DORD: 105987860(Pla1a)
+            DSP: 122099218(Pla1a)
+            NCAR: 124993116
+            OCU: 100343827
+            OPI: 101527277(PLA1A)
+            TUP: 102473695(PLA1A)
+            GVR: 103595386(PLA1A)
+            CFA: 100686158(PLA1A)
+            CLUD: 112677663(PLA1A)
+            VVP: 112913464(PLA1A)
+            VLG: 121484433(PLA1A)
+            AML: 100483166(PLA1A)
+            UMR: 103678789(PLA1A)
+            UAH: 113251915(PLA1A)
+            UAR: 123784028(PLA1A)
+            ELK: 111150672
+            LLV: 125097796
+            MPUF: 101671018(PLA1A)
+            NVS: 122908535(PLA1A)
+            ORO: 101363818(PLA1A)
+            EJU: 114214775(PLA1A)
+            ZCA: 113916411(PLA1A)
+            MLX: 118007062(PLA1A)
+            NSU: 110582657(PLA1A)
+            LWW: 102744491 102748742
+            FCA: 101101581(ADPRH)
+            PYU: 121036276
+            PBG: 122491474
+            LRUF: 124526446
+            PTG: 102963545
+            PPAD: 109266435
+            AJU: 106968281
+            HHV: 120242898(PLA1A)
+            BTA: 515900(PLA1A)
+            BOM: 102276590(PLA1A)
+            BIU: 109577314(PLA1A)
+            BBUB: 102403763(PLA1A)
+            BBIS: 104992479(PLA1A)
+            CHX: 102168941(PLA1A)
+            OAS: 101106480(PLA1A)
+            ODA: 120871224(PLA1A)
+            CCAD: 122445582(PLA1A)
+            SSC: 100154368(PLA1A)
+            CFR: 102503620(PLA1A)
+            CBAI: 105081593(PLA1A)
+            CDK: 105090326(PLA1A)
+            VPC: 102538870(PLA1A)
+            BACU: 103001838(PLA1A)
+            LVE: 103086697(PLA1A)
+            OOR: 101281354(PLA1A)
+            DLE: 111175837(PLA1A)
+            PCAD: 102974952
+            PSIU: 116752550(PLA1A)
+            ECB: 100070985(PLA1A)
+            EPZ: 103547419(PLA1A)
+            EAI: 106823716(PLA1A)
+            MYB: 102246152(PLA1A)
+            MYD: 102754480(PLA1A)
+            MMYO: 118676172(PLA1A)
+            MLF: 102426606(PLA1A)
+            MNA: 107527216(PLA1A)
+            PKL: 118724328(PLA1A)
+            HAI: 109388443(PLA1A)
+            DRO: 112320477(PLA1A)
+            SHON: 118986587(PLA1A)
+            AJM: 119059197(PLA1A)
+            PDIC: 114490593(PLA1A)
+            PHAS: 123826858(PLA1A)
+            MMF: 118617149(PLA1A)
+            RFQ: 117037702(PLA1A)
+            PALE: 102893952(PLA1A)
+            PGIG: 120586660(PLA1A)
+            PVP: 105301770(PLA1A)
+            RAY: 107508367(PLA1A)
+            MJV: 108392241(PLA1A)
+            TOD: 119258114(PLA1A)
+            SARA: 101539420(PLA1A)
+            LAV: 100660582(PLA1A)
+            TMU: 101349358
+            DNM: 101421864(PLA1A)
+            MDO: 100016392(PLA1A)
+            GAS: 123242377(PLA1A)
+            SHR: 100920035(PLA1A)
+            AFZ: 127554100
+            PCW: 110208069(PLA1A)
+            OAA: 103166923
+            GGA: 770199(PLA1A)
+            PCOC: 116242311(PLA1A)
+            MGP: 100546329(PLA1A)
+            CJO: 107319756(PLA1A)
+            NMEL: 110399255(PLA1A)
+            APLA: 101801340(PLA1A)
+            ACYG: 106037445(PLA1A)
+            AFUL: 116498732(PLA1A)
+            TGU: 100227537(PLA1A)
+            LSR: 110480796(PLA1A)
+            SCAN: 103827111(PLA1A)
+            PMOA: 120506422(PLA1A)
+            OTC: 121339315(PLA1A)
+            PRUF: 121351607(PLA1A)
+            GFR: 102036635(PLA1A)
+            FAB: 101809029(PLA1A)
+            PHI: 102106179(PLA1A)
+            PMAJ: 107207715(PLA1A)
+            CCAE: 111943176(PLA1A)
+            CCW: 104687044(PLA1A)
+            CBRC: 103613883(PLA1A)
+            ETL: 114055107(PLA1A)
+            ZAB: 102068266(PLA1A)
+            ACHL: 103797256(PLA1A)
+            FPG: 101918777(PLA1A)
+            FCH: 102059780(PLA1A)
+            CLV: 102092015(PLA1A)
+            EGZ: 104126506(PLA1A)
+            NNI: 104008632(PLA1A)
+            PLET: 104625929(PLA1A)
+            PCRI: 104029194(PLA1A)
+            PCAO: 104048274(PLA1A)
+            ACUN: 113481271(PLA1A)
+            TALA: 104365474(PLA1A)
+            PADL: 103921381(PLA1A)
+            AFOR: 103895063(PLA1A)
+            ACHC: 115343540(PLA1A)
+            HALD: 104316591(PLA1A)
+            HLE: 104831707(PLA1A)
+            AGEN: 126049055
+            GCL: 127025988
+            CCRI: 104155314(PLA1A)
+            CSTI: 104557380(PLA1A)
+            EHS: 104514192(PLA1A)
+            CMAC: 104476888(PLA1A)
+            MUI: 104540070(PLA1A)
+            FGA: 104077969(PLA1A)
+            GSTE: 104257477(PLA1A)
+            LDI: 104346321(PLA1A)
+            MNB: 103769251(PLA1A)
+            OHA: 104335827(PLA1A)
+            NNT: 104399846(PLA1A)
+            DPUB: 104303428(PLA1A)
+            PGUU: 104466092(PLA1A)
+            ACAR: 104526029(PLA1A)
+            CPEA: 104389252(PLA1A)
+            AVIT: 104276888(PLA1A)
+            CVF: 104281848(PLA1A)
+            CUCA: 104055860(PLA1A)
+            TEO: 104376553(PLA1A)
+            BRHI: 104499245(PLA1A)
+            AAM: 106490603(PLA1A)
+            AROW: 112965949(PLA1A)
+            NPD: 112956905(PLA1A)
+            TGT: 104564896(PLA1A)
+            DNE: 112985095(PLA1A)
+            SCAM: 104153678(PLA1A)
+            ASN: 102368651(PLA1A)
+            AMJ: 102572073(PLA1A)
+            CPOO: 109319217(PLA1A)
+            GGN: 109304692(PLA1A)
+            PSS: 102452674(PLA1A)
+            CMY: 102944751(PLA1A)
+            CPIC: 101933691(PLA1A)
+            TST: 117886700(PLA1A)
+            CABI: 116836356(PLA1A)
+            MRV: 120408550(PLA1A)
+            ACS: 100563242(pla1a)
+            PVT: 110076962(PLA1A)
+            SUND: 121923700(PLA1A)
+            PBI: 103054600(PLA1A)
+            PMUR: 107286096(PLA1A)
+            CTIG: 120318674(PLA1A)
+            TSR: 106549750(PLA1A)
+            PGUT: 117661888(PLA1A)
+            PMUA: 114587721(PLA1A)
+            ZVI: 118097767(PLA1A)
+            GJA: 107109383(PLA1A)
+            STOW: 125436311(PLA1A)
+            XLA: 108707384(pla1a.L)
+            XTR: 100490448(pla1a)
+            NPR: 108803036(PLA1A)
+            RTEM: 120928107(PLA1A)
+            BBUF: 120994334(PLA1A)
+            DRE: 334017(pla1a)
+            SRX: 107712265 107724500
+            SANH: 107668900
+            SGH: 107569279 107597373
+            CAUA: 113053400 113108556 113108797
+            CGIB: 127965586 128019703
+            PPRM: 120467155(pla1a)
+            MAMB: 125270535(pla1a)
+            CIDE: 127518653
+            MASI: 127447458 127448581
+            IPU: 108266535(pla1a)
+            PHYP: 113526077(pla1a)
+            SMEO: 124379311(pla1a)
+            TFD: 113654421(pla1a)
+            AMEX: 103024914 103031962(pla1a)
+            EEE: 113587743(pla1a)
+            TRU: 101069655(pla1a)
+            TNG: GSTEN00029151G001
+            LCO: 104921487(pla1a)
+            NCC: 104951595(pla1a)
+            CGOB: 115026138(pla1a)
+            ELY: 117251322(pla1a)
+            EFO: 125900199(pla1a)
+            PLEP: 121948884(pla1a)
+            SLUC: 116059434(pla1a)
+            ECRA: 117952731(pla1a)
+            ESP: 116697660(pla1a)
+            PFLV: 114564576(pla1a)
+            GAT: 120834343(pla1a)
+            PPUG: 119229129(pla1a)
+            MSAM: 119904485(pla1a)
+            CUD: 121522343(pla1a)
+            ALAT: 119026318(pla1a)
+            MZE: 101486002(pla1a)
+            ONL: 100695169(pla1a)
+            OAU: 116332561(pla1a)
+            OLA: 101169888(pla1a)
+            OML: 112138009(pla1a)
+            XMA: 102232463(pla1a)
+            XCO: 114147929(pla1a)
+            XHE: 116723047(pla1a)
+            PRET: 103477984(pla1a)
+            PFOR: 103152153(pla1a)
+            PLAI: 106939752(pla1a)
+            PMEI: 106917520(pla1a)
+            GAF: 122839769(pla1a)
+            CVG: 107087358(pla1a)
+            CTUL: 119774710(pla1a)
+            GMU: 124871928(pla1a)
+            NFU: 107389613(pla1a)
+            KMR: 108244184(pla1a)
+            ALIM: 106531919(pla1a)
+            NWH: 119419427(pla1a)
+            AOCE: 111570575(pla1a)
+            MCEP: 125018237(pla1a)
+            CSEM: 103391993(pla1a)
+            POV: 109637909(pla1a)
+            SSEN: 122785116(pla1a)
+            HHIP: 117754991(pla1a)
+            HSP: 118119737(pla1a)
+            LCF: 108902471
+            SDU: 111218105(pla1a)
+            SLAL: 111652105(pla1a)
+            XGL: 120801207(pla1a)
+            HCQ: 109521818
+            SSCV: 125973251
+            BPEC: 110156183(pla1a)
+            MALB: 109951661(pla1a)
+            BSPL: 114847633(pla1a)
+            SASA: 100195006(pla1a) 106582073
+            STRU: 115155764 115161094
+            OTW: 112225480 112240615
+            OMY: 110501669 110520409(pla1a)
+            OGO: 124044098 124046082
+            ONE: 115112170 115128659
+            SALP: 111959540 111978675
+            SNH: 120058418(pla1a) 120064076
+            CCLU: 121536886 121571685
+            ELS: 105016431(pla1a)
+            SFM: 108926931(pla1a)
+            PKI: 111856869(pla1a)
+            AANG: 118214478(pla1a)
+            LOC: 102685355
+            PSPA: 121320747(pla1a)
+            ARUT: 117405726(pla1a)
+            PSEX: 120522924(pla1a)
+            LCM: 102347723(PLA1A)
+            RTP: 109923493
+            RZE: 108366183
+            CNS: 116337153 116344113 116344212
+            PBAR: 105433450
+            LHU: 105677452
+            OBO: 105277850
+            PPYR: 116161647
+            SLIU: 111351191
+            CSEC: 111875625
+            FCD: 110845572
+            HAME: 121863250
+            PCLA: 123772903
+            HAZT: 108671140
+            SDM: 118204417
+DBLINKS     ExplorEnz - The Enzyme Database: 3.1.1.111
+            IUBMB Enzyme Nomenclature: 3.1.1.111
+            ExPASy - ENZYME nomenclature database: 3.1.1.111
+            BRENDA, the Enzyme Database: 3.1.1.111
+///

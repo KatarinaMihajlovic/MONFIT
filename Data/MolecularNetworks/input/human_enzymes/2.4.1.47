@@ -1,0 +1,439 @@
+ENTRY       EC 2.4.1.47                 Enzyme
+NAME        N-acylsphingosine galactosyltransferase;
+            UGT8 (gene name);
+            CGT (gene name);
+            UDP galactose-N-acylsphingosine galactosyltransferase;
+            uridine diphosphogalactose-acylsphingosine galactosyltransferase;
+            UDP-galactose:N-acylsphingosine D-galactosyltransferase;
+            UDP-alpha-D-galactose:N-acylsphingosine D-galactosyltransferase;
+            2-hydroxyacylsphingosine 1-beta-galactosyltransferase
+CLASS       Transferases;
+            Glycosyltransferases;
+            Hexosyltransferases
+SYSNAME     UDP-alpha-D-galactose:N-acylsphingosine beta-D-galactosyltransferase (configuration-inverting)
+REACTION    UDP-alpha-D-galactose + a ceramide = UDP + a beta-D-galactosylceramide [RN:R01500 R06277]
+ALL_REAC    R01500 R06277(G) > R04322;
+            (other) R10804
+SUBSTRATE   UDP-alpha-D-galactose [CPD:C00052];
+            ceramide [CPD:C00195]
+PRODUCT     UDP [CPD:C00015];
+            beta-D-galactosylceramide
+COMMENT     This membrane-bound, endoplasmic reticulum-located enzyme catalyses the last step in the synthesis of galactocerebrosides, which are abundant sphingolipids of the myelin membrane of the central nervous system and peripheral nervous system. It has a strong preference for ceramides that contain hydroxylated fatty acids.
+HISTORY     EC 2.4.1.47 created 1972
+REFERENCE   1  [PMID:5807218]
+  AUTHORS   Fujino Y, Nakano M.
+  TITLE     Enzymic synthesis of cerebroside from ceramide and uridine diphosphate galactose.
+  JOURNAL   Biochem J 113:573-5 (1969)
+            DOI:10.1042/bj1130573
+REFERENCE   2  [PMID:5793706]
+  AUTHORS   Morell P, Radin NS.
+  TITLE     Synthesis of cerebroside by brain from uridine diphosphate galactose and ceramide containing hydroxy fatty acid.
+  JOURNAL   Biochemistry 8:506-12 (1969)
+            DOI:10.1021/bi00830a008
+REFERENCE   3  [PMID:5497154]
+  AUTHORS   Morell P, Costantino-Ceccarini E, Radin NS
+  TITLE     The biosynthesis by brain microsomes of cerebrosides containing nonhydroxy fatty  acids.
+  JOURNAL   Arch Biochem Biophys 141:738-48 (1970)
+            DOI:10.1016/0003-9861(70)90192-X
+REFERENCE   4  [PMID:5090043]
+  AUTHORS   Basu S, Schultz AM, Basu M, Roseman S.
+  TITLE     Enzymatic synthesis of galactocerebroside by a galactosyltransferase from embryonic chicken brain.
+  JOURNAL   J Biol Chem 246:4272-9 (1971)
+REFERENCE   5  [PMID:762114]
+  AUTHORS   Akanuma H, Kishimoto Y
+  TITLE     Synthesis of ceramides and cerebrosides containing both alpha-hydroxy and nonhydroxy fatty acids from lignoceroyl-CoA by rat brain microsomes.
+  JOURNAL   J Biol Chem 254:1050-60 (1979)
+REFERENCE   6  [PMID:7306007]
+  AUTHORS   Koul O, Jungalwala FB
+  TITLE     UDP-galactose:ceramide galactosyltransferase of rat central-nervous-system myelin.
+  JOURNAL   Biochem J 194:633-7 (1981)
+            DOI:10.1042/bj1940633
+REFERENCE   7  [PMID:7694285]
+  AUTHORS   Schulte S, Stoffel W
+  TITLE     Ceramide UDPgalactosyltransferase from myelinating rat brain: purification, cloning, and expression.
+  JOURNAL   Proc Natl Acad Sci U S A 90:10265-9 (1993)
+            DOI:10.1073/pnas.90.21.10265
+  SEQUENCE  [rno:50555]
+REFERENCE   8  [PMID:9748263]
+  AUTHORS   Sprong H, Kruithof B, Leijendekker R, Slot JW, van Meer G, van der Sluijs P
+  TITLE     UDP-galactose:ceramide galactosyltransferase is a class I integral membrane protein of the endoplasmic reticulum.
+  JOURNAL   J Biol Chem 273:25880-8 (1998)
+            DOI:10.1074/jbc.273.40.25880
+REFERENCE   9  [PMID:15998297]
+  AUTHORS   Fewou SN, Bussow H, Schaeren-Wiemers N, Vanier MT, Macklin WB, Gieselmann V, Eckhardt M
+  TITLE     Reversal of non-hydroxy:alpha-hydroxy galactosylceramide ratio and unstable myelin in transgenic mice overexpressing UDP-galactose:ceramide galactosyltransferase.
+  JOURNAL   J Neurochem 94:469-81 (2005)
+            DOI:10.1111/j.1471-4159.2005.03221.x
+PATHWAY     ec00565  Ether lipid metabolism
+            ec00600  Sphingolipid metabolism
+            ec01100  Metabolic pathways
+ORTHOLOGY   K04628  ceramide galactosyltransferase
+GENES       HSA: 7368(UGT8)
+            PTR: 461446(UGT8)
+            PPS: 100985864(UGT8)
+            GGO: 101137553(UGT8)
+            PON: 100437492(UGT8)
+            NLE: 100607960(UGT8)
+            HMH: 116463268(UGT8)
+            MCC: 702979(UGT8)
+            MCF: 102126400(UGT8)
+            MTHB: 126954282
+            MNI: 105486216(UGT8)
+            CSAB: 103236153(UGT8)
+            CATY: 105571468(UGT8)
+            PANU: 101011998(UGT8)
+            TGE: 112624639(UGT8)
+            MLEU: 105553404(UGT8)
+            RRO: 104675972(UGT8)
+            RBB: 108527094(UGT8)
+            TFN: 117085818(UGT8)
+            PTEH: 111547934(UGT8)
+            CANG: 105516262(UGT8)
+            CJC: 100396627(UGT8)
+            SBQ: 101036737(UGT8)
+            CIMI: 108290692(UGT8)
+            CSYR: 103261614(UGT8)
+            MMUR: 105879492(UGT8)
+            LCAT: 123627686(UGT8)
+            PCOQ: 105818926(UGT8)
+            OGA: 100958105(UGT8)
+            MMU: 22239(Ugt8a)
+            MCAL: 110291396(Ugt8)
+            MPAH: 110320435(Ugt8)
+            RNO: 50555(Ugt8)
+            MCOC: 116093746(Ugt8)
+            ANU: 117707751(Ugt8)
+            MUN: 110554355
+            CGE: 100772408
+            MAUA: 101840830(Ugt8)
+            PLEU: 114684609(Ugt8)
+            MORG: 121453672(Ugt8)
+            MFOT: 126508627
+            AAMP: 119801211(Ugt8)
+            NGI: 103731259(Ugt8)
+            HGL: 101702896(Ugt8)
+            CPOC: 100718939(Ugt8)
+            CCAN: 109677276(Ugt8)
+            DORD: 105991238(Ugt8)
+            DSP: 122123194(Ugt8)
+            NCAR: 124994017
+            OCU: 100341450
+            OPI: 101523880(UGT8)
+            TUP: 102480796(UGT8)
+            GVR: 103581098(UGT8)
+            CFA: 487910(UGT8)
+            CLUD: 112671694(UGT8)
+            VVP: 112930967(UGT8)
+            VLG: 121493881(UGT8)
+            AML: 100465291(UGT8)
+            UMR: 103661766(UGT8)
+            UAH: 113255592(UGT8)
+            UAR: 123793338(UGT8)
+            ELK: 111156987
+            LLV: 125093308
+            MPUF: 101693531(UGT8)
+            NVS: 122889228(UGT8)
+            ORO: 101383800(UGT8)
+            EJU: 114203048 114203049 114222677(UGT8)
+            ZCA: 113924512(UGT8)
+            MLX: 118027111(UGT8)
+            NSU: 110575490(UGT8)
+            LWW: 102743653(UGT8)
+            FCA: 101097722(UGT8)
+            PYU: 121030616(UGT8)
+            PBG: 122476845(UGT8)
+            LRUF: 124519935
+            PTG: 102965984(UGT8)
+            PPAD: 109248503(UGT8)
+            AJU: 106977315(UGT8)
+            HHV: 120225123(UGT8)
+            BTA: 281566(UGT8)
+            BOM: 102269259(UGT8)
+            BIU: 109560234(UGT8)
+            BBUB: 102409846(UGT8)
+            BBIS: 105002052(UGT8)
+            CHX: 102174638(UGT8)
+            OAS: 101113069(UGT8)
+            ODA: 120861700(UGT8)
+            CCAD: 122422350(UGT8)
+            SSC: 100511825(UGT8)
+            CFR: 102522568(UGT8)
+            CBAI: 105067140(UGT8)
+            CDK: 105089918(UGT8)
+            VPC: 102525011(UGT8)
+            BACU: 103004850(UGT8)
+            LVE: 103073438(UGT8)
+            OOR: 101289765(UGT8)
+            DLE: 111186063(UGT8)
+            PCAD: 102993924(UGT8)
+            PSIU: 116754771(UGT8)
+            ECB: 100072587(UGT8)
+            EPZ: 103557103(UGT8)
+            EAI: 106842868(UGT8)
+            MYB: 102252842(UGT8)
+            MMYO: 118652966(UGT8)
+            MLF: 102442855(UGT8)
+            MNA: 107527850(UGT8)
+            PKL: 118726050(UGT8)
+            HAI: 109390271(UGT8)
+            DRO: 112312608(UGT8)
+            SHON: 118980012(UGT8)
+            AJM: 119037686(UGT8)
+            PDIC: 114503128(UGT8)
+            PHAS: 123814153(UGT8)
+            MMF: 118616083(UGT8)
+            RFQ: 117038197(UGT8)
+            PALE: 102881397(UGT8)
+            PGIG: 120589341(UGT8)
+            PVP: 105309073
+            RAY: 107510863(UGT8)
+            MJV: 108409879(UGT8)
+            TOD: 119242760(UGT8)
+            SARA: 101551134(UGT8)
+            LAV: 100665032(UGT8)
+            TMU: 101352658
+            ETF: 101655030(UGT8)
+            DNM: 101410626(UGT8)
+            MDO: 100010696(UGT8)
+            GAS: 123253133(UGT8)
+            SHR: 100927545(UGT8)
+            AFZ: 127540296
+            PCW: 110218601(UGT8)
+            OAA: 100076336(UGT8)
+            GGA: 374033(UGT8) 428949(UGT8L)
+            PCOC: 116231252(UGT8) 116234480
+            MGP: 100539821 100541199(UGT8)
+            CJO: 107313583(UGT8) 107315928
+            NMEL: 110399157(UGT8) 110400413
+            APLA: 101794817 101799126(UGT8)
+            ACYG: 106029878 106038627(UGT8)
+            AFUL: 116489127(UGT8) 116491423
+            TGU: 100228968 100231902(UGT8)
+            LSR: 110471176(UGT8) 110480032
+            SCAN: 103813974 103815551(UGT8)
+            PMOA: 120502064 120502813(UGT8)
+            OTC: 121331975(UGT8) 121341851
+            PRUF: 121349178(UGT8) 121350254
+            GFR: 102031520(UGT8) 102040819
+            FAB: 101807254 101809664(UGT8)
+            PHI: 102107687(UGT8) 102108262
+            PMAJ: 107203102(UGT8) 107206597
+            CCAE: 111928999(UGT8) 111931100
+            CCW: 104696845(UGT8) 104697059
+            CBRC: 103613199(UGT8) 103624465
+            ETL: 114054721 114068337(UGT8)
+            ZAB: 102062618(UGT8) 102066639
+            ACHL: 103803439(UGT8) 103804160
+            FPG: 101914948(UGT8) 101924669
+            FCH: 102047748 102051681(UGT8)
+            CLV: 102089904(UGT8) 102097199
+            EGZ: 104127441 104129123 104135946
+            NNI: 104019136(UGT8) 104019447
+            PLET: 104615011(UGT8) 104622396
+            PCRI: 104036395
+            PCAO: 104047043(UGT8) 104051037
+            ACUN: 113479767(UGT8) 113481588
+            TALA: 104362911 104366712(UGT8)
+            PADL: 103915563 103926098(UGT8)
+            AFOR: 103897613 103901699(UGT8)
+            ACHC: 115344526(UGT8) 115348607
+            HALD: 104315039
+            HLE: 104831885 104836800(UGT8)
+            AGEN: 126042735 126044880
+            GCL: 127015661 127017771
+            CCRI: 104160879 104161821(UGT8)
+            CSTI: 104559430
+            EHS: 104504187(UGT8) 104514948
+            CMAC: 104476709 104487754
+            MUI: 104536489(UGT8) 104543684
+            FGA: 104070646 104075856(UGT8)
+            GSTE: 104259532(UGT8) 104264940
+            LDI: 104351754
+            MNB: 103768724(UGT8) 103769785
+            OHA: 104334458 104336717(UGT8)
+            NNT: 104406016
+            DPUB: 104297688 104310337(UGT8)
+            PGUU: 104459329(UGT8) 104466261
+            ACAR: 104518558 104521111
+            CPEA: 104391481 104393373(UGT8)
+            AVIT: 104273583 104276343 104281458
+            CVF: 104289747 104295651(UGT8)
+            CUCA: 104059087(UGT8) 104067908
+            TEO: 104370543 104376593(UGT8)
+            BRHI: 104492239 104499174(UGT8)
+            AAM: 106492128(UGT8) 106498896
+            AROW: 112967517 112974891 112977284
+            NPD: 112943430(UGT8) 112957115
+            TGT: 104569610(UGT8) 104573043
+            DNE: 112980201 112986157(UGT8)
+            SCAM: 104138032(UGT8) 104141791
+            ASN: 102382334(UGT8) 102384980
+            AMJ: 102574992 106737104(UGT8)
+            CPOO: 109309361(UGT8) 109324295
+            GGN: 109287412 109301099(UGT8)
+            PSS: 102457655 102462979
+            CMY: 102936934(UGT8) 102941238
+            CPIC: 101945157 101952125(UGT8)
+            TST: 117877789(UGT8) 117881007
+            CABI: 116823594 116825360(UGT8)
+            MRV: 120406330(UGT8) 120408926
+            ACS: 100551810(ugt8)
+            PVT: 110083901(UGT8)
+            SUND: 121930338(UGT8)
+            PBI: 103055483(UGT8)
+            PMUR: 107296372(UGT8)
+            CTIG: 120305635(UGT8)
+            TSR: 106556413(UGT8)
+            PGUT: 117679964(UGT8)
+            VKO: 123022823(UGT8)
+            PMUA: 114597016 114604195 114604507
+            ZVI: 118083636(UGT8) 118096504
+            GJA: 107110289(UGT8) 107122753
+            STOW: 125440230(UGT8)
+            XLA: 108706712(ugt8.S) 108710441(ugt8.L)
+            XTR: 779534(ugt8)
+            NPR: 108792209(UGT8)
+            RTEM: 120918452(UGT8)
+            BBUF: 120989896(UGT8)
+            BGAR: 122946095 122946158
+            DRE: 553508(ugt8)
+            SRX: 107745064 107750420
+            SANH: 107656191 107702381
+            SGH: 107548345(ugt8) 107591551
+            CCAR: 109045590 109058520(ugt8) 109105396
+            CAUA: 113044224 113106881
+            CGIB: 127949701 127960912
+            PPRM: 120493749(ugt8)
+            MAMB: 125272607(ugt8)
+            CIDE: 127518492
+            MASI: 127444375 127444494
+            IPU: 108260842(ugt8)
+            PHYP: 113544363(ugt8)
+            SMEO: 124381495(ugt8)
+            TFD: 113660716(ugt8)
+            AMEX: 103043793(ugt8)
+            EEE: 113586472(ugt8)
+            TRU: 101064956(ugt8)
+            TNG: GSTEN00007473G001
+            LCO: 104929353(ugt8)
+            NCC: 104955311(ugt8)
+            CGOB: 115012015(ugt8)
+            ELY: 117255548(ugt8)
+            EFO: 125886638(ugt8)
+            PLEP: 121942478(ugt8)
+            SLUC: 116052239(ugt8)
+            ECRA: 117959889(ugt8)
+            ESP: 116699279(ugt8)
+            PFLV: 114546530(ugt8)
+            GAT: 120825483(ugt8)
+            PPUG: 119218134(ugt8)
+            MSAM: 119899023(ugt8)
+            CUD: 121509021(ugt8)
+            ALAT: 119021954(ugt8)
+            MZE: 101473219(ugt8)
+            ONL: 100696128(ugt8)
+            OAU: 116329078(ugt8)
+            OLA: 101156303(ugt8)
+            OML: 112157358(ugt8)
+            XMA: 102221616(ugt8)
+            XCO: 114144945(ugt8)
+            XHE: 116720325(ugt8)
+            PRET: 103467322(ugt8)
+            PFOR: 103137882(ugt8) 103137940
+            PLAI: 106943362 106947345(ugt8)
+            PMEI: 106923498 106928604(ugt8)
+            GAF: 122829438(ugt8)
+            CVG: 107085760(ugt8)
+            CTUL: 119772592(ugt8)
+            GMU: 124868442(ugt8)
+            NFU: 107375211(ugt8)
+            KMR: 108231012(ugt8)
+            ALIM: 106517139(ugt8)
+            NWH: 119408100(ugt8)
+            AOCE: 111568569(ugt8)
+            MCEP: 125004193(ugt8)
+            CSEM: 103383812(ugt8)
+            POV: 109637829(ugt8)
+            SSEN: 122771324(ugt8)
+            HHIP: 117763218(ugt8)
+            HSP: 118120929(ugt8)
+            LCF: 108896622
+            SDU: 111231488(ugt8)
+            SLAL: 111664066(ugt8)
+            XGL: 120799673(ugt8)
+            HCQ: 109519902(ugt8)
+            SSCV: 125968884
+            BPEC: 110165331(ugt8)
+            MALB: 109961392(ugt8)
+            BSPL: 114859050(ugt8)
+            STRU: 115184006 115184007
+            OTW: 121844288
+            OMY: 110512130 110516863
+            OGO: 124021864
+            CCLU: 121562104(ugt8) 121563379
+            ELS: 105009093(ugt8)
+            SFM: 108924325(ugt8)
+            PKI: 111837341(ugt8)
+            AANG: 118227920(ugt8)
+            LOC: 102684913(ugt8)
+            PSPA: 121295410 121322782
+            ARUT: 117409393
+            PSEX: 120533017(ugt8) 120538937
+            LCM: 102350700 102364207(UGT8)
+            CMK: 103181594 103188741(ugt8) 121851509
+            RTP: 109916958 109928089
+            BFO: 118417462
+            BBEL: 109473946
+            APLC: 110976680 110983599 110983924
+            SKO: 100369397 100369825 100369971 100370117 100376206 100377334 100377471 100377621 102800741 102801407 102802771 102802804 102802916 102809864
+            DER: 6541458
+            DSI: Dsimw501_GD10375(Dsim_GD10375)
+            DPO: 6898026
+            DPE: 6590768
+            DMN: 108160067
+            DMO: Dmoj_GI11922
+            DAZ: 108614624
+            DNV: 108651678
+            DHE: 111605641
+            MDE: 101892333
+            ASTE: 118512076
+            AME: 411298
+            BIM: 100744553
+            OBB: 114872868
+            ACEP: 105619733
+            CFO: 105255889
+            LHU: 105673022
+            PGC: 109853431
+            OBO: 105284682
+            TNL: 113504541
+            SLIU: 111354804
+            BTAB: 109038550
+            FCD: 110844391
+            DPX: DAPPUDRAFT_49730
+            HAZT: 108673810 108673814
+            HRO: HELRODRAFT_177639 HELRODRAFT_186053 HELRODRAFT_85113
+            HRF: 124125061
+            HRJ: 124272888
+            PMAX: 117314629 117344882
+            OBI: 106870503
+            LAK: 106160069 106160895 106164760 106177649 112041410
+            EPA: 110231822 110231830 110242043 110243724
+            ATEN: 116308303
+            ADF: 107331984 107342096
+            AMIL: 114961539 114967941
+            PDAM: 113676364
+            TAD: TRIADDRAFT_22477 TRIADDRAFT_23179 TRIADDRAFT_2420 TRIADDRAFT_2560 TRIADDRAFT_3259 TRIADDRAFT_33822 TRIADDRAFT_53582 TRIADDRAFT_57718 TRIADDRAFT_62077 TRIADDRAFT_62078 TRIADDRAFT_62405
+            AQU: 105315706 109581221
+            MNG: MNEG_2496 MNEG_4536 MNEG_4537 MNEG_7078
+            CSL: COCSUDRAFT_47003
+            CVR: CHLNCDRAFT_140490
+            APRO: F751_1121
+            SRE: PTSG_05600
+            PIF: PITG_05764
+            PSOJ: PHYSODRAFT_517093
+DBLINKS     ExplorEnz - The Enzyme Database: 2.4.1.47
+            IUBMB Enzyme Nomenclature: 2.4.1.47
+            ExPASy - ENZYME nomenclature database: 2.4.1.47
+            BRENDA, the Enzyme Database: 2.4.1.47
+            CAS: 37277-56-8
+///

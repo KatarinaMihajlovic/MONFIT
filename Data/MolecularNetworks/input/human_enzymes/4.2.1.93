@@ -1,0 +1,873 @@
+ENTRY       EC 4.2.1.93                 Enzyme
+NAME        ATP-dependent NAD(P)H-hydrate dehydratase;
+            reduced nicotinamide adenine dinucleotide hydrate dehydratase;
+            ATP-dependent H4NAD(P)+OH dehydratase;
+            (6S)-beta-6-hydroxy-1,4,5,6-tetrahydronicotinamide-adenine-dinucleotide hydro-lyase(ATP-hydrolysing);
+            (6S)-6-beta-hydroxy-1,4,5,6-tetrahydronicotinamide-adenine-dinucleotide hydro-lyase (ATP-hydrolysing;
+            NADH-forming)
+CLASS       Lyases;
+            Carbon-oxygen lyases;
+            Hydro-lyases
+SYSNAME     (6S)-6beta-hydroxy-1,4,5,6-tetrahydronicotinamide-adenine-dinucleotide hydro-lyase (ATP-hydrolysing; NADH-forming)
+REACTION    (1) ATP + (6S)-6beta-hydroxy-1,4,5,6-tetrahydronicotinamide-adenine dinucleotide = ADP + phosphate + NADH [RN:R00129];
+            (2) ATP + (6S)-6beta-hydroxy-1,4,5,6-tetrahydronicotinamide-adenine dinucleotide phosphate = ADP + phosphate + NADPH [RN:R10288]
+ALL_REAC    R00129 R10288
+SUBSTRATE   ATP [CPD:C00002];
+            (6S)-6beta-hydroxy-1,4,5,6-tetrahydronicotinamide-adenine dinucleotide [CPD:C04856];
+            (6S)-6beta-hydroxy-1,4,5,6-tetrahydronicotinamide-adenine dinucleotide phosphate [CPD:C04899]
+PRODUCT     ADP [CPD:C00008];
+            phosphate [CPD:C00009];
+            NADH [CPD:C00004];
+            NADPH [CPD:C00005]
+COMMENT     Acts equally well on hydrated NADH and hydrated NADPH. NAD(P)H spontaneously hydrates to both the (6S)- and (6R)- isomers, and these are interconverted by EC 5.1.99.6, NAD(P)H-hydrate epimerase, to a 60:40 ratio [4]. Hence EC 4.2.1.93 together with EC 5.1.99.6 can restore the mixture of hydrates into NAD(P)H [3,4]. The enzyme from eukaryotes has no activity with ADP, contrary to the enzyme from bacteria (cf. EC 4.2.1.136, ADP-dependent NAD(P)H-hydrate dehydratase) [4].
+HISTORY     EC 4.2.1.93 created 1992, modified 2012
+REFERENCE   1  [PMID:13331940]
+  AUTHORS   MEINHART JO, CHAYKIN S, KREBS EG
+  TITLE     Enzymatic conversion of a reduced diphosphopyridine nucleotide derivative to reduced diphosphopyridine nucleotide.
+  JOURNAL   J Biol Chem 220:821-9 (1956)
+  SEQUENCE  [sce:YKL151C]
+REFERENCE   2
+  AUTHORS   Regueiro Varela, B., Amelunxen, R. and Grisolia, S.
+  TITLE     Synthesis and degradation of monohydroxytetrahydronicotinamide adenine dinucleotide phosphate.
+  JOURNAL   Physiol Chem Phys 2:445-454 (1970)
+REFERENCE   3  [PMID:3061454]
+  AUTHORS   Acheson SA, Kirkman HN, Wolfenden R.
+  TITLE     Equilibrium of 5,6-hydration of NADH and mechanism of ATP-dependent dehydration.
+  JOURNAL   Biochemistry 27:7371-5 (1988)
+            DOI:10.1021/bi00419a030
+  SEQUENCE  [sce:YKL151C]
+REFERENCE   4  [PMID:21994945]
+  AUTHORS   Marbaix AY, Noel G, Detroux AM, Vertommen D, Van Schaftingen E, Linster CL
+  TITLE     Extremely conserved ATP- or ADP-dependent enzymatic system for nicotinamide nucleotide repair.
+  JOURNAL   J Biol Chem 286:41246-52 (2011)
+            DOI:10.1074/jbc.C111.310847
+  SEQUENCE  [mmu:69225] [sce:YKL151C]
+ORTHOLOGY   K17757  ATP-dependent NAD(P)H-hydrate dehydratase
+GENES       HSA: 55739(NAXD)
+            PTR: 452663(NAXD)
+            PPS: 100977905(NAXD)
+            GGO: 101150913(NAXD)
+            PON: 100173186(NAXD)
+            NLE: 100604464(NAXD)
+            HMH: 116467565(NAXD)
+            MCC: 694722(NAXD)
+            MCF: 102128889(NAXD)
+            MTHB: 126940600
+            MNI: 105485297(NAXD)
+            CSAB: 103214799(NAXD)
+            CATY: 105584911(CARKD)
+            PANU: 101013916(NAXD)
+            TGE: 112611019(NAXD)
+            MLEU: 105546554(CARKD)
+            RRO: 104679240(NAXD)
+            RBB: 108527064(NAXD)
+            TFN: 117063505(NAXD)
+            PTEH: 111546322(NAXD)
+            CANG: 105505902(CARKD)
+            CJC: 100405542(NAXD)
+            SBQ: 101045356(CARKD)
+            CIMI: 108284939(NAXD)
+            CSYR: 103252288(NAXD)
+            MMUR: 105864236(NAXD)
+            LCAT: 123649309(NAXD)
+            PCOQ: 105805128(CARKD)
+            OGA: 100950662(NAXD)
+            MMU: 69225(Naxd)
+            MCAL: 110299905(Naxd)
+            MPAH: 110336623(Naxd)
+            RNO: 361185(Naxd)
+            MCOC: 116068908(Naxd)
+            ANU: 117721932(Naxd)
+            MUN: 110548879(Naxd)
+            CGE: 100767494(Naxd)
+            MAUA: 101838334(Naxd)
+            PLEU: 114695102(Naxd)
+            MORG: 121455782 121462427(Naxd)
+            MFOT: 126498355
+            AAMP: 119813741(Naxd)
+            NGI: 103739906 103751678(Naxd)
+            HGL: 101717804(Naxd)
+            CPOC: 100729574(Naxd)
+            CCAN: 109687738(Naxd)
+            DORD: 105990458(Carkd)
+            DSP: 122122757(Naxd)
+            NCAR: 124984474
+            OCU: 100358583
+            OPI: 101526369(NAXD)
+            TUP: 102481205(NAXD)
+            GVR: 103583058(CARKD)
+            CFA: 607381(NAXD)
+            CLUD: 112655955(NAXD)
+            VVP: 112927463(NAXD)
+            VLG: 121476991(NAXD)
+            AML: 100479259(NAXD)
+            UMR: 103657622(NAXD)
+            UAH: 113251542(NAXD)
+            UAR: 123776762(NAXD)
+            ELK: 111146893
+            LLV: 125094837
+            MPUF: 101679129(CARKD)
+            NVS: 122907245(NAXD)
+            ORO: 101380814(CARKD)
+            EJU: 114196624(NAXD)
+            ZCA: 113919821(NAXD)
+            MLX: 118009233(NAXD)
+            NSU: 110585800(NAXD)
+            LWW: 102740171(NAXD)
+            FCA: 101096534(NAXD)
+            PYU: 121037707(NAXD)
+            PBG: 122483519(NAXD)
+            LRUF: 124513711
+            PTG: 102954132(NAXD)
+            PPAD: 109264066(NAXD)
+            AJU: 106986360(NAXD)
+            HHV: 120228354(NAXD)
+            BTA: 613996(NAXD)
+            BOM: 102284176(NAXD)
+            BIU: 109566961(NAXD)
+            BBUB: 102390706(NAXD)
+            CHX: 102171618(NAXD)
+            OAS: 101116066(NAXD)
+            ODA: 120883369(NAXD)
+            CCAD: 122447112(NAXD)
+            SSC: 100153456(NAXD)
+            CFR: 102507835(NAXD)
+            CBAI: 105066895(CARKD)
+            CDK: 105094105(NAXD)
+            VPC: 102540455(NAXD)
+            BACU: 103009018(NAXD)
+            LVE: 103089164(CARKD)
+            OOR: 101275937(CARKD)
+            DLE: 111176381(NAXD)
+            PCAD: 102977529(NAXD)
+            PSIU: 116743137(NAXD)
+            ECB: 100066349(NAXD)
+            EPZ: 103565641(NAXD)
+            EAI: 106838205(NAXD)
+            MYB: 102242541(NAXD)
+            MYD: 102771854(NAXD)
+            MMYO: 118651352(NAXD)
+            MLF: 102427413(NAXD)
+            MNA: 107530386(NAXD)
+            PKL: 118728888(NAXD)
+            HAI: 109383911(NAXD)
+            DRO: 112321417(NAXD)
+            SHON: 118981572(NAXD)
+            AJM: 119043631(NAXD)
+            PDIC: 114508731(NAXD)
+            PHAS: 123807654(NAXD)
+            MMF: 118622801(NAXD)
+            RFQ: 117021520(NAXD)
+            PALE: 102886483(NAXD)
+            PGIG: 120605332(NAXD)
+            PVP: 105301341(NAXD)
+            RAY: 107511119(NAXD)
+            MJV: 108400087(NAXD)
+            TOD: 119259722(NAXD)
+            SARA: 101551445(CARKD)
+            LAV: 100653762(NAXD)
+            TMU: 101345818
+            ETF: 101641105(NAXD)
+            DNM: 101435484(NAXD)
+            MDO: 100023457(NAXD)
+            GAS: 123242627(NAXD)
+            SHR: 100924303(NAXD)
+            AFZ: 127553470
+            PCW: 110193392(NAXD)
+            OAA: 100084483(NAXD)
+            GGA: 418755(NAXD)
+            PCOC: 116242800(NAXD)
+            MGP: 100549983(NAXD)
+            CJO: 107307941(NAXD)
+            NMEL: 110407500(NAXD)
+            APLA: 101804240(NAXD)
+            ACYG: 106044453(NAXD)
+            AFUL: 116491712(NAXD)
+            TGU: 100219904(NAXD)
+            LSR: 110478761(NAXD)
+            SCAN: 103812661(NAXD)
+            PMOA: 120504580(NAXD)
+            OTC: 121343182(NAXD)
+            PRUF: 121356160(NAXD)
+            GFR: 102034719(NAXD)
+            FAB: 101817373(NAXD)
+            PHI: 102099739(CARKD)
+            PMAJ: 107201575(NAXD)
+            CCAE: 111944791(NAXD)
+            CCW: 104686126(NAXD)
+            CBRC: 103617566(NAXD)
+            ETL: 114059816(NAXD)
+            ZAB: 102064630(NAXD)
+            FPG: 101910319(CARKD) 101923883(NAXD)
+            FCH: 102046376(NAXD)
+            CLV: 102088516(NAXD)
+            EGZ: 104132456(CARKD)
+            NNI: 104012566(CARKD)
+            PLET: 104619475(CARKD)
+            PCAO: 104042467(CARKD)
+            ACUN: 113480275(NAXD)
+            TALA: 104367255(NAXD)
+            PADL: 103915651(CARKD)
+            AFOR: 103896251(NAXD)
+            ACHC: 115334522(NAXD)
+            HALD: 104325826
+            HLE: 104836955(CARKD)
+            AGEN: 126053061
+            GCL: 127025432
+            CCRI: 104162866(CARKD)
+            CSTI: 104556049(CARKD)
+            EHS: 104509525(CARKD)
+            CMAC: 104480082(CARKD)
+            FGA: 104080302
+            GSTE: 104255708(CARKD)
+            LDI: 104345480(CARKD)
+            MNB: 103775883(CARKD)
+            OHA: 104328453(CARKD)
+            DPUB: 104298645(CARKD)
+            PGUU: 104471256(CARKD)
+            CPEA: 104388980(CARKD)
+            AVIT: 104279143(CARKD)
+            CVF: 104292723(CARKD)
+            CUCA: 104068397(CARKD)
+            BRHI: 104498742
+            AAM: 106493918(NAXD)
+            AROW: 112967175(NAXD)
+            NPD: 112945127(NAXD)
+            TGT: 104579795(CARKD)
+            DNE: 112984530(NAXD)
+            SCAM: 104138691(CARKD)
+            ASN: 102367921(NAXD)
+            AMJ: 102559151(NAXD)
+            CPOO: 109306316(NAXD)
+            GGN: 109302679(NAXD)
+            PSS: 102453397(NAXD)
+            CMY: 102941875(NAXD)
+            CPIC: 101943239(NAXD)
+            TST: 117870800(NAXD)
+            CABI: 116816039
+            MRV: 120403517(NAXD)
+            ACS: 100554347(naxd)
+            PVT: 110079338(NAXD)
+            SUND: 121925391(NAXD)
+            PBI: 103060468(NAXD)
+            PMUR: 107283854(NAXD)
+            CTIG: 120300544(NAXD)
+            TSR: 106554966(CARKD)
+            PGUT: 117666147(NAXD)
+            VKO: 123022529(NAXD)
+            PMUA: 114596467(NAXD)
+            ZVI: 118084701(NAXD)
+            GJA: 107110343(NAXD)
+            STOW: 125431495(NAXD) 125437395
+            XLA: 108708461(naxd.L) 108709737(naxd.S)
+            XTR: 549064(naxd)
+            NPR: 108787452(NAXD)
+            RTEM: 120926371(NAXD)
+            BBUF: 120995790(NAXD)
+            BGAR: 122931208(NAXD)
+            DRE: 797867(naxd)
+            SRX: 107715914 107721606
+            SANH: 107688713 107702869
+            SGH: 107557926 107559509
+            CCAR: 109069423(naxd)
+            CAUA: 113053636 113108926
+            CGIB: 127965234 128019451
+            PPRM: 120487313(naxd)
+            MAMB: 125269976(naxd)
+            CIDE: 127519337
+            MASI: 127447520 127448189
+            IPU: 108261034 108266299
+            PHYP: 113525967(naxd)
+            SMEO: 124382681(naxd)
+            TFD: 113654377(naxd)
+            AMEX: 103035327(naxd)
+            EEE: 113586364(naxd)
+            TRU: 101070180(naxd)
+            TNG: GSTEN00025998G001
+            LCO: 104932339(naxd)
+            NCC: 104955102(carkd)
+            CGOB: 115026244(naxd)
+            ELY: 117250465(naxd)
+            EFO: 125900007(naxd)
+            PLEP: 121938324 121949518
+            SLUC: 116046747(naxd)
+            ECRA: 117953351(naxd)
+            ESP: 116697741(naxd)
+            PFLV: 114564632(naxd)
+            GAT: 120833669(naxd)
+            PPUG: 119228551(naxd)
+            MSAM: 119904233(naxd)
+            CUD: 121522139(naxd)
+            ALAT: 119025827(naxd)
+            MZE: 106676152 112430068
+            ONL: 100711325(naxd)
+            OAU: 116316096(naxd)
+            OLA: 101163124(naxd)
+            OML: 112155381(naxd)
+            XMA: 102234599(naxd)
+            XCO: 114148128(naxd)
+            XHE: 116722812(naxd)
+            PRET: 103459757(naxd)
+            PFOR: 103140292(naxd)
+            PLAI: 106934725(carkd)
+            PMEI: 106927505(carkd)
+            GAF: 122839406(naxd)
+            CVG: 107096499(carkd)
+            CTUL: 119786379(naxd)
+            GMU: 124871572(naxd)
+            NFU: 107389845(naxd)
+            KMR: 108232361(naxd)
+            ALIM: 106523937(carkd)
+            NWH: 119419202(naxd)
+            AOCE: 111566599(naxd)
+            MCEP: 125017349(naxd)
+            CSEM: 103392143(naxd)
+            POV: 109631177(naxd)
+            SSEN: 122763066(naxd)
+            HHIP: 117754632(naxd)
+            HSP: 118120392(naxd)
+            LCF: 108899727
+            SDU: 111218097(naxd)
+            SLAL: 111662159(naxd)
+            XGL: 120801491(naxd)
+            HCQ: 109524678(naxd)
+            SSCV: 125974021
+            BPEC: 110173162(naxd)
+            MALB: 109965384(naxd)
+            BSPL: 114847098(naxd)
+            SASA: 106582132 106586673
+            STRU: 115156314 115161197
+            OTW: 112225413(naxd) 112241578
+            OMY: 110502008(naxd) 110520478
+            OGO: 124045327(naxd)
+            ONE: 115112641 115126226
+            SALP: 111959596(naxd) 111979264
+            SNH: 120058461 120064179(naxd)
+            CCLU: 121536494 121571617
+            ELS: 105016496(naxd)
+            SFM: 108933210(naxd)
+            PKI: 111851659(naxd)
+            AANG: 118224202(naxd)
+            LOC: 102683617(carkd)
+            PSPA: 121320811 121328157
+            ARUT: 117405696 117407508
+            PSEX: 120524064(naxd)
+            LCM: 102349649(NAXD)
+            CMK: 103177553(naxd)
+            RTP: 109923229(naxd)
+            BFO: 118418927
+            BBEL: 109468036
+            CIN: 100183233
+            SCLV: 120328057
+            SPU: 586141
+            APLC: 110975932
+            AJC: 117100235
+            SKO: 100371541
+            DME: Dmel_CG10424(Naxd)
+            DER: 6545338
+            DSE: 6618386
+            DSI: Dsimw501_GD12303(Dsim_GD12303)
+            DYA: Dyak_GE22522 Dyak_GE22782
+            DSR: 110188794
+            DPO: 6903406
+            DPE: 6593555
+            DMN: 108162850
+            DWI: 6643716 6652659
+            DGR: 6566429
+            DMO: Dmoj_GI19565
+            DAZ: 108612072
+            DNV: 108650037
+            DHE: 111594708
+            DVI: 6629174
+            CCAT: 101459700
+            BOD: 106617635
+            RZE: 108355684
+            MDE: 101891655
+            SCAC: 106080864
+            LCQ: 111684508
+            LSQ: 119608349
+            HIS: 119649308
+            AGA: AgaP_AGAP011983
+            ACOZ: 120958443
+            AARA: 120903529
+            ASTE: 118503854
+            AAG: 5565418
+            AALB: 109426011 115268032
+            CQU: CpipJ_CPIJ005232 CpipJ_CPIJ013574
+            CPII: 120416381
+            CNS: 116344387
+            BCOO: 119066427
+            AME: 550956
+            ACER: 108003976
+            ALAB: 122712135
+            BIM: 100747542
+            BBIF: 117216312
+            BVK: 117233515
+            BVAN: 117154868
+            BTER: 100648143
+            BPYO: 122574417
+            CCAL: 108627518
+            OBB: 114881528
+            MGEN: 117220523
+            NMEA: 116428529
+            CGIG: 122404487
+            SOC: 105199404
+            MPHA: 105829014
+            AEC: 105149171
+            ACEP: 105626756
+            PBAR: 105427939
+            VEM: 105558925
+            HST: 105187053
+            DQU: 106744267
+            CFO: 105249629
+            FEX: 115233311
+            LHU: 105675374
+            PGC: 109854690
+            OBO: 105280739
+            PCF: 106786341
+            PFUC: 122521151
+            VPS: 122627115
+            NVI: 100120400
+            CSOL: 105365338
+            TPRE: 106652155 106652167
+            MDL: 103569008
+            CGLO: 123260313
+            FAS: 105263499
+            DAM: 107043541
+            AGIF: 122855641
+            CINS: 118069437
+            LHT: 122510411
+            CCIN: 107268312
+            TCA: 663809
+            SOY: 115879964
+            ATD: 109597775 109607823
+            CSET: 123316228
+            AGB: 108912581
+            LDC: 111504003
+            NVL: 108563047
+            APLN: 108736379
+            PPYR: 116168687
+            OTU: 111428732
+            BMOR: 101737541 101741762
+            BMAN: 114239341 114247582
+            MSEX: 115445830 115447342
+            DPL: KGM_210464
+            BANY: 112042869 112047181
+            NIQ: 126768993 126775004
+            PMAC: 106716489 106717445
+            PPOT: 106102306 106103691
+            PXU: 106114051 106119569 106120739
+            PRAP: 110996938
+            PBX: 123710753
+            PNAP: 125053058
+            ZCE: 119832315 119838348
+            CCRC: 123692959 123695268
+            HAW: 110374516 110378340
+            HZE: 124631605 124638526
+            TNL: 113500667 113503337
+            SLIU: 111355454 111365132
+            OFU: 114354887 114363823
+            PXY: 105382801 105383658 105394440 105394447
+            CFEL: 113372685
+            API: 100159510
+            DNX: 107163478
+            AGS: 114130332
+            RMD: 113557248
+            BTAB: 109036431
+            DCI: 103518627
+            CLEC: 106670247
+            HHAL: 106682712
+            NLU: 111055879
+            PHU: Phum_PHUM417680
+            FOC: 113215393
+            TPAL: 117639080
+            ZNE: 110838069
+            CSEC: 111862715
+            SGRE: 126355211
+            FCD: 110855848
+            DMK: 116917734
+            DPZ: 124314766
+            PVM: 113807843
+            PJA: 122251185
+            PCHN: 125025154
+            PMOO: 119572593
+            HAME: 121862070
+            PCLA: 123746862
+            PTRU: 123511548
+            HAZT: 108681880
+            EAF: 111707462
+            LSM: 121120533
+            PPOI: 119102188
+            ISC: IscW_ISCW003308
+            DSV: 119464337
+            RSAN: 119401355
+            RMP: 119164020
+            VDE: 111249604
+            VJA: 111261103
+            TUT: 107363089
+            DPTE: 113798684
+            DFR: 124500353
+            CSCU: 111630796
+            PTEP: 107449951
+            SDM: 118183791
+            CEL: CELE_R107.2(R107.2)
+            CBR: CBG_06820
+            BMY: BM_BM14087(Bm14087)
+            LOA: LOAG_04267
+            NAI: NECAME_17250
+            TSP: Tsp_05834
+            HRO: HELRODRAFT_185644
+            LGI: LOTGIDRAFT_114759
+            PCAN: 112559901 112559902
+            BGT: 106063460
+            GAE: 121375568 121392570
+            HRJ: 124257821 124278356 124288526
+            CRG: 105336406
+            MYI: 110454118
+            PMAX: 117329417
+            MMER: 123557693
+            OBI: 106884448
+            OSN: 115225949
+            LAK: 106167578 106175570
+            SMM: Smp_000470
+            SHX: MS3_00005756
+            OVI: T265_01156
+            EGL: EGR_02260
+            NVE: 5517715
+            EPA: 110233995
+            ATEN: 116304332
+            ADF: 107337387
+            AMIL: 114963938
+            PDAM: 113686949
+            SPIS: 111336422
+            DGT: 114525199
+            XEN: 124445694
+            HMG: 105844798
+            TAD: TRIADDRAFT_25123
+            AQU: 100636397
+            ATH: AT5G19150
+            ALY: 9307934
+            CRB: 17883242
+            CSAT: 104706234 104770265 109124747
+            EUS: EUTSA_v10013830mg
+            BRP: 103851208 103856369
+            BNA: 106383494 106386774 106431463 106434215 111212886
+            BOE: 106322153 106322173 106327075 106334448
+            RSZ: 108842756 108844017
+            THJ: 104818802
+            CPAP: 110808283
+            CIT: 102608672
+            CIC: CICLE_v10005119mg
+            PVY: 116135072
+            MINC: 123219921
+            TCC: 18602914
+            GRA: 105796627
+            GHI: 107927761 107942832
+            GAB: 108476080
+            DZI: 111307930
+            EGR: 104424730
+            GMX: 100807779 100808704
+            GSJ: 114394233 114420143
+            PVU: PHAVU_003G091700g
+            VRA: 106765509
+            VAR: 108342505
+            VUN: 114176612 114177462
+            CCAJ: 109809615
+            APRC: 113846301 113846498
+            MTR: 25486107
+            CAM: 101494709
+            PSAT: 127078455
+            LJA: Lj6g3v1880130.1(Lj6g3v1880130.1)
+            ADU: 107468897 107468904 107482641
+            AIP: 107638601
+            AHF: 112715030 112717258 112741181 112795874 112795879
+            LANG: 109329796
+            FVE: 101310981
+            RCN: 112181374 112181376 112193180 112199850
+            PPER: 18788705
+            PMUM: 103322821
+            PAVI: 110745186 110750485
+            PDUL: 117615122
+            MDM: 103403850
+            PXB: 103930821
+            ZJU: 107423291
+            MNT: 21390754
+            CSV: 101209583
+            CMO: 103483736
+            BHJ: 120070474
+            MCHA: 111009202
+            CMAX: 111479195
+            CMOS: 111457620
+            CPEP: 111791306
+            RCU: 8271588
+            JCU: 105631929
+            HBR: 110655219
+            MESC: 110611326
+            POP: 7454254
+            PEU: 105115532
+            PALZ: 118061047
+            JRE: 109005882
+            CILL: 122300519
+            QSU: 112021783 112024045 112026383
+            QLO: 115993549
+            TWL: 120011999
+            VVI: 100244161
+            VRI: 117914373
+            SLY: 101252921
+            SPEN: 107008335
+            SOT: 102584947
+            SSTN: 125869960
+            CANN: 107841242
+            NTA: 107801700 107832081
+            NSY: 104238446
+            NTO: 104087355 108943571
+            NAU: 109241513
+            INI: 109175761 109192142
+            ITR: 116002884 116017205
+            SIND: 105171385
+            OEU: 111382138 111396618
+            EGT: 105953356
+            SSPL: 121795883
+            APAN: 127249364
+            HAN: 110894085
+            ECAD: 122596002
+            LSV: 111900451
+            CCAV: 112516233
+            DCR: 108226051
+            CSIN: 114307010 114316175
+            BVG: 104888818
+            SOE: 110775306
+            CQI: 110697984
+            NNU: 104596442
+            MING: 122090506 122094819
+            TSS: 122668674 122671300
+            PSOM: 113273035 113282510
+            OSA: 4350275
+            DOSA: Os11t0276300-01(Os11g0276300)
+            OBR: 102702978
+            BDI: 100837614
+            ATS: 109743558
+            TDC: 119286618 119295138
+            TAES: 123086816 123091154 123096159
+            TUA: 125550689
+            LPER: 127293939
+            SBI: 8071812
+            ZMA: 100216749
+            SITA: 101782503
+            SVS: 117833558
+            PVIR: 120644253 120675801 120685479
+            PHAI: 112903423
+            PDA: 103708561
+            EGU: 105038634
+            MUS: 103988678
+            ZOF: 122042331 122046846
+            DCT: 110095628
+            PEQ: 110027509
+            AOF: 109831733
+            NCOL: 116245224 116250054
+            ATR: 18448538
+            SMO: SELMODRAFT_112587 SELMODRAFT_165748
+            PPP: 112285318
+            CRE: CHLRE_05g234664v5 CHLRE_06g250500v5
+            VCN: VOLCADRAFT_116306 VOLCADRAFT_82819
+            MNG: MNEG_3436
+            CSL: COCSUDRAFT_55490
+            CVR: CHLNCDRAFT_57702
+            APRO: F751_5687
+            OLU: OSTLU_18471
+            OTA: OT_ostta17g00540
+            BPG: Bathy06g01420
+            MIS: MICPUN_82051
+            MPP: MICPUCDRAFT_23275
+            CME: CYME_CMA033C
+            GSL: Gasu_56680
+            CCP: CHC_T00002442001
+            SCE: YKL151C(NNR2)
+            SEUB: DI49_3229
+            SPAO: SPAR_K00670
+            AGO: AGOS_ACR055W
+            ERC: Ecym_8245
+            KLA: KLLA0_D04510g
+            KMX: KLMA_20469
+            LTH: KLTH0G07414g
+            VPO: Kpol_543p68
+            ZRO: ZYRO0C10802g
+            CGR: CAGL0E06380g
+            NCS: NCAS_0F02350(NCAS0F02350)
+            NDI: NDAI_0C03850(NDAI0C03850)
+            TPF: TPHA_0E02390(TPHA0E02390)
+            TBL: TBLA_0A10100(TBLA0A10100)
+            TGB: HG536_0E03810
+            TDL: TDEL_0E03700(TDEL0E03700)
+            KAF: KAFR_0E01710(KAFR0E01710)
+            KNG: KNAG_0F02790(KNAG0F02790)
+            ZMK: HG535_0A04850
+            PPA: PAS_chr4_0738
+            DHA: DEHA2E08206g
+            PIC: PICST_68225
+            PGU: PGUG_05496
+            SPAA: SPAPADRAFT_143283
+            LEL: LELG_04815
+            CAL: CAALFM_C602030CA(CaO19.3508)
+            CTP: CTRG_02900
+            COT: CORT_0F02780
+            CDU: CD36_62160
+            CTEN: CANTEDRAFT_113886
+            YLI: YALI0D11308g
+            CLU: CLUG_03344
+            CLUS: A9F13_01g08481
+            CAUR: CJI97_003757
+            SLB: AWJ20_4706
+            PKZ: C5L36_0B01900
+            BNN: FOA43_003692
+            BBRX: BRETT_000737
+            OPA: HPODL_01232
+            SLUD: SCDLUD_004770
+            NCR: NCU02513
+            NTE: NEUTE1DRAFT126541(NEUTE1DRAFT_126541)
+            SMP: SMAC_05960
+            PAN: PODANSg10114
+            TTT: THITE_2114110
+            MTM: MYCTH_2295666
+            CTHR: CTHT_0073020
+            MGR: MGG_13834
+            TMN: UCRPA7_2738
+            SSCK: SPSK_04353
+            FGR: FGSG_01069
+            FPU: FPSE_10734
+            FVR: FVEG_01208
+            FOX: FOXG_00311
+            NHE: NECHADRAFT_98759
+            TRE: TRIREDRAFT_45675
+            TRR: M419DRAFT_107783
+            MAW: MAC_05252
+            MAJ: MAA_03978
+            CMT: CCM_06173
+            PLJ: VFPFJ_03560
+            VAL: VDBG_05019
+            VDA: VDAG_10346
+            CFJ: CFIO01_07431
+            CLUP: CLUP02_11877
+            CHIG: CH63R_11361
+            SAPO: SAPIO_CDS3583
+            ELA: UCREL1_2319
+            PFY: PFICI_00848
+            SSL: SS1G_01686
+            BFU: BCIN_02g03660
+            MBE: MBM_02219
+            PSCO: LY89DRAFT_690887
+            GLZ: GLAREA_12272
+            ANI: AN5994.2
+            AFM: AFUA_2G10120
+            ACT: ACLA_069150
+            NFI: NFIA_085530
+            AOR: AO090011000624
+            ANG: ANI_1_696144(An16g04910)
+            AFV: AFLA_008026
+            ALUC: AKAW2_70419A
+            ACHE: ACHE_40983S
+            APUU: APUU_11039A
+            PCS: Pc22g20230
+            PDP: PDIP_64510
+            TMF: PMAA_060050
+            TRG: TRUGW13939_01104
+            CIM: CIMG_02220
+            CPW: CPC735_038880
+            URE: UREG_01498
+            PBL: PAAG_04693
+            PBN: PADG_02448
+            ABE: ARB_06465
+            TVE: TRV_07085
+            AJE: HCAG_02705
+            BGH: BDBG_04435
+            PNO: SNOG_04206
+            PTE: PTT_19720
+            BZE: COCCADRAFT_33338
+            BSC: COCSADRAFT_161745
+            BOR: COCMIDRAFT_89571
+            AALT: CC77DRAFT_1024428
+            ZTR: MYCGRDRAFT_98664
+            PFJ: MYCFIDRAFT_27723
+            FFU: CLAFUR5_00433
+            BCOM: BAUCODRAFT_244891
+            NPA: UCRNP2_6071
+            TML: GSTUM_00010535001
+            SPO: SPCC61.03
+            CNE: CNL05250
+            CNB: CNBI1570
+            CNG: CNAG_05097
+            CGI: CGB_D1770W
+            TMS: TREMEDRAFT_29037
+            TASA: A1Q1_06429
+            PPL: POSPLDRAFT_104462 POSPLDRAFT_96500
+            TVS: TRAVEDRAFT_168170
+            DSQ: DICSQDRAFT_163516
+            PCO: PHACADRAFT_263991
+            SHS: STEHIDRAFT_121607
+            HIR: HETIRDRAFT_477924
+            PSQ: PUNSTDRAFT_93565
+            ADL: AURDEDRAFT_108391 AURDEDRAFT_129786 AURDEDRAFT_129796
+            FME: FOMMEDRAFT_22449
+            GTR: GLOTRDRAFT_120849
+            LBC: LACBIDRAFT_187613
+            CCI: CC1G_00865
+            ABP: AGABI1DRAFT126077(AGABI1DRAFT_126077)
+            ABV: AGABI2DRAFT143608(AGABI2DRAFT_143608)
+            PCUB: JR316_0008000
+            MPR: MPER_02631
+            MRR: Moror_6968
+            MORE: E1B28_007467
+            SCM: SCHCO_02619546(SCHCODRAFT_02619546)
+            CPUT: CONPUDRAFT_127559
+            SLA: SERLADRAFT_473270
+            WSE: WALSEDRAFT_68473
+            WIC: J056_001528
+            UMA: UMAG_05844
+            PFP: PFL1_02697
+            MGL: MGL_0838
+            MRT: MRET_2073
+            MSYM: MSY001_0874
+            PGR: PGTG_19074 PGTG_19583
+            MLR: MELLADRAFT_50177
+            ECU: ECU03_1390
+            EIN: Eint_031290
+            EHE: EHEL_031310
+            ERO: EROM_031260
+            NCE: NCER_100449
+            DDI: DDB_G0290799
+            DPP: DICPUDRAFT_151213
+            DFA: DFA_08558
+            EHI: EHI_194450(46.t00021)
+            EDI: EDI_289560
+            EIV: EIN_496870
+            ACAN: ACA1_261480
+            PYO: PY17X_0906500
+            PCB: PCHAS_0706300
+            PBE: PBANKA_0905100
+            PKN: PKNH_0941800
+            PVX: PVX_092800 PVX_230290
+            PCY: PCYB_094950
+            BMIC: BMR1_01G03000
+            CPV: cgd7_3640
+            CHO: Chro.70406
+            TGO: TGME49_258160
+            TET: TTHERM_00133729
+            PTM: GSPATT00013458001
+            SMIN: v1.2.010210.t1(symbB.v1.2.010210.t1)
+            PTI: PHATRDRAFT_19831
+            FCY: FRACYDRAFT_218033
+            AAF: AURANDRAFT_27953
+            PIF: PITG_02281
+            PSOJ: PHYSODRAFT_353744
+            SPAR: SPRG_00224
+            EHX: EMIHUDRAFT_441654 EMIHUDRAFT_442290
+            GTT: GUITHDRAFT_68606
+            NGR: NAEGRDRAFT_32974
+            TVA: TVAG_2v0981950
+            GLA: GL50803_004255
+DBLINKS     ExplorEnz - The Enzyme Database: 4.2.1.93
+            IUBMB Enzyme Nomenclature: 4.2.1.93
+            ExPASy - ENZYME nomenclature database: 4.2.1.93
+            BRENDA, the Enzyme Database: 4.2.1.93
+            CAS: 116669-08-0
+///
