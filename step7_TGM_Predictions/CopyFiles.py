@@ -25,7 +25,7 @@ for file in files:
                 os.makedirs(copy_to)
             copyfile(f'{copy_from}/{file}', f'{copy_to}/{file}')
 
-copyfile('Data/PDmap/output/PDgenes_PDmap.pkl', f'{wd}/input/PDgenes_PDmap.pkl') 
+
 copyfile('Data/DisGeNet/output/PDgenes_DGN_ALL.pkl', f'{wd}/input/PDgenes_DGN_ALL.pkl') 
 
 
