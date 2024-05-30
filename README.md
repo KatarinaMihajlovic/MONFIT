@@ -51,5 +51,7 @@ We provide scripts for assessing the robustness of MONFIT to the i) number of di
 
 
 ### How to run the notebook
+pip install -r requirements.txt
+
 Execute the jupyter notebook [Tutorial.ipynb](https://github.com/KatarinaMihajlovic/MONFIT/blob/main/Tutorial.ipynb) 
 
