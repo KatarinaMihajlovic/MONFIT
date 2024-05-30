@@ -168,7 +168,7 @@ def euclidean_distance(df1, df2):
 
 
 sensitivity = 1
-wd = str(sys.argv[2])
+wd = str(sys.argv[1])
 
 
 with open(f'{wd}/input/PDgenes_DGN_ALL.pkl', 'rb') as handle:
