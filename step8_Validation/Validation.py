@@ -188,13 +188,10 @@ def p_adjust_bh(p):
 ####### MAIN CODE
 wd = str(sys.argv[1])
 
-with open(f'{wd}/input/PDgenes_PDmap.pkl', 'rb') as handle:
-    PD_genes = pickle.load(handle)
 with open(f'{wd}/input/Gene4PD.pkl', 'rb') as handle:
     Gene4PD = pickle.load(handle)
 with open(f'{wd}/input/PDgenes_DGN_ALL.pkl', 'rb') as handle:
     DGN_PDgenes_ALL = pickle.load(handle)
-
 
 PDgenes_union = list(set().union(Gene4PD, DGN_PDgenes_ALL))
     
@@ -202,12 +199,6 @@ PDgenes_union = list(set().union(Gene4PD, DGN_PDgenes_ALL))
 with open(f'{wd}/input/LitValid_AllGenes.pkl', 'rb') as handle:
     LitValid_AllGenes = pickle.load(handle) 
 
-# for gene in LitValid_AllGenes:
-#     LitValid_AllGenes[gene][1] = ''
-#     if gene in PD_genes:
-#         LitValid_AllGenes[gene][1] = 'PD_map'
- 
-    
    
 in_dir = f'{wd}/input/Predictions'
 
