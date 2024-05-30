@@ -3,7 +3,7 @@ Multi-Omics Non-negative matrix tri-Factorization Integration of Time-series
 
 ## What can you find in this repository?
 This repository contains all data, scripts and results related to our recent work. 
-In particular, you will find the Jupyter notebook [Tutorial.ipynb](https://github.com/KatarinaMihajlovic/blob/main/MONFIT/Tutorial.ipynb) contains the complete MONFIT pipeline for integrating molecular interaction networks with individual expression matrices, mining the resulting gene embedding spaces to get PD-related gene predictions, and computational methods for analyzing the the gene predictions.
+In particular, you will find the Jupyter notebook [Tutorial.ipynb](https://github.com/KatarinaMihajlovic/MONFIT/blob/main/Tutorial.ipynb) contains the complete MONFIT pipeline for integrating molecular interaction networks with individual expression matrices, mining the resulting gene embedding spaces to get PD-related gene predictions, and computational methods for analyzing the the gene predictions.
 
 ### Additional Information
 In "Data/MolecularNetworks" directory:
